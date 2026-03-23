@@ -56,6 +56,7 @@ export function SacredMap({
 }: SacredMapProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
+  const [legendCollapsed, setLegendCollapsed] = useState(false);
   const router = useRouter();
 
   const visibleLocations = useMemo(
@@ -208,31 +209,52 @@ export function SacredMap({
         </div>
       )}
       {!compact && (
-        <div className="absolute left-3 top-3 flex flex-col gap-1 rounded-xl border border-white/10 bg-black/70 px-2 py-1.5 backdrop-blur">
-          {ALL_CATEGORIES.map((category) => {
-            const color = locationCategories[category];
-            const isHidden = hiddenCategories.has(category);
-            return (
-              <button
-                key={category}
-                type="button"
-                onClick={() => toggleCategory(category)}
-                aria-pressed={!isHidden}
-                className={clsx(
-                  "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-left transition-opacity hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20",
-                  isHidden ? "opacity-40" : "opacity-100",
-                )}
-              >
-                <span
-                  className="inline-block h-2 w-2 shrink-0 rounded-full"
-                  style={{ backgroundColor: color }}
-                />
-                <span className="text-[0.6rem] leading-tight text-zinc-300">
-                  {category}
-                </span>
-              </button>
-            );
-          })}
+        <div className="absolute left-3 top-3 flex flex-col rounded-xl border border-white/10 bg-black/70 backdrop-blur">
+          <button
+            type="button"
+            onClick={() => setLegendCollapsed((prev) => !prev)}
+            aria-expanded={!legendCollapsed}
+            aria-label={legendCollapsed ? "Show legend" : "Hide legend"}
+            className="flex items-center gap-1 px-2 py-1.5 text-[0.6rem] text-zinc-300 hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className={clsx("h-3 w-3 transition-transform", legendCollapsed && "-rotate-90")}
+            >
+              <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+            </svg>
+            Legend
+          </button>
+          {!legendCollapsed && (
+            <div className="flex flex-col gap-1 px-2 pb-1.5">
+              {ALL_CATEGORIES.map((category) => {
+                const color = locationCategories[category];
+                const isHidden = hiddenCategories.has(category);
+                return (
+                  <button
+                    key={category}
+                    type="button"
+                    onClick={() => toggleCategory(category)}
+                    aria-pressed={!isHidden}
+                    className={clsx(
+                      "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-left transition-opacity hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20",
+                      isHidden ? "opacity-40" : "opacity-100",
+                    )}
+                  >
+                    <span
+                      className="inline-block h-2 w-2 shrink-0 rounded-full"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="text-[0.6rem] leading-tight text-zinc-300">
+                      {category}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>
