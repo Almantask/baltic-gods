@@ -4,13 +4,23 @@ export type Domain = "Celestial" | "Forest" | "Water" | "Earth";
 
 export type Language = "en" | "lt" | "lv";
 
+export type SiteCategory =
+  | "Sacred groves"
+  | "Mythic hills / burial mounds"
+  | "Ritual stones"
+  | "Springs, rivers, lakes with cult significance"
+  | "\"World tree\" analog sites"
+  | "Sacrifice / offering sites"
+  | "Hearth cult zones"
+  | "Seasonal festival locations";
+
 export interface LocationPoint {
   id: string;
   name: string;
   coordinates: [number, number];
   region: "Lithuania" | "Latvia";
   description: string;
-  siteType: string;
+  siteType: SiteCategory;
   aura: "amber" | "moss" | "mist";
   deity: string;
   significance: string;
