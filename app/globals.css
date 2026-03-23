@@ -1,23 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  body {
-    @apply bg-background text-amber-warm antialiased;
-  }
+@theme {
+  --color-background: #0a0a0a;
+  --color-charcoal: #1a1a1a;
+  --color-moss-green: #2d4a3e;
+  --color-moss-light: #3d5a4e;
+  --color-amber-warm: #d4a574;
+  --color-amber-gold: #c9a961;
+  --color-amber-glow: #f5c98b;
 }
 
-@layer utilities {
-  .text-shadow-glow {
-    text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
-  }
+body {
+  background-color: var(--color-background);
+  color: var(--color-amber-warm);
+  -webkit-font-smoothing: antialiased;
+}
 
-  .glass-panel {
-    @apply bg-charcoal/40 backdrop-blur-md border border-moss-green/30;
-  }
+.text-shadow-glow {
+  text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
+}
 
-  .cinematic-blur {
-    backdrop-filter: blur(8px);
-  }
+.glass-panel {
+  background-color: rgba(26, 26, 26, 0.4);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(45, 74, 62, 0.3);
+}
+
+.cinematic-blur {
+  backdrop-filter: blur(8px);
 }
