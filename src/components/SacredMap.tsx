@@ -217,8 +217,9 @@ export function SacredMap({
                 key={category}
                 type="button"
                 onClick={() => toggleCategory(category)}
+                aria-pressed={!isHidden}
                 className={clsx(
-                  "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-left transition-opacity",
+                  "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-left transition-opacity hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20",
                   isHidden ? "opacity-40" : "opacity-100",
                 )}
               >
