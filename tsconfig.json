@@ -22,7 +22,7 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@mdx-js/react": ["./src/lib/mdx-react-shim.ts"]
+      "@mdx-js/react": ["./src/lib/mdx-react-shim.tsx"]
     }
   },
   "include": [

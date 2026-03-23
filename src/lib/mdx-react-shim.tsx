@@ -1,17 +1,25 @@
-import * as React from "react";
+"use client";
 
-type MDXComponents = Record<string, React.ComponentType<any>>;
+import {
+  ComponentType,
+  ReactNode,
+  createContext,
+  useContext,
+  useMemo,
+} from "react";
+
+type MDXComponents = Record<string, ComponentType<unknown>>;
 
 const emptyComponents: MDXComponents = {};
 
-const MDXContext = React.createContext<MDXComponents>(emptyComponents);
+const MDXContext = createContext<MDXComponents>(emptyComponents);
 
 export function useMDXComponents(
   components?: MDXComponents | ((current: MDXComponents) => MDXComponents),
 ) {
-  const contextComponents = React.useContext(MDXContext);
+  const contextComponents = useContext(MDXContext);
 
-  return React.useMemo(() => {
+  return useMemo(() => {
     if (typeof components === "function") {
       return components(contextComponents);
     }
@@ -26,13 +34,15 @@ export function MDXProvider({
 }: {
   components?: MDXComponents | ((current: MDXComponents) => MDXComponents);
   disableParentContext?: boolean;
-  children?: React.ReactNode;
+  children?: ReactNode;
 }) {
+  const mergedComponents = useMDXComponents(components);
+
   const allComponents = disableParentContext
     ? typeof components === "function"
       ? components(emptyComponents)
       : components || emptyComponents
-    : useMDXComponents(components);
+    : mergedComponents;
 
   return (
     <MDXContext.Provider value={allComponents}>{children}</MDXContext.Provider>
