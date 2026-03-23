@@ -5,7 +5,9 @@ import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
 import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
-import type { LocationPoint } from "@/types/content";
+import type { LocationPoint, SiteCategory } from "@/types/content";
+
+const ALL_CATEGORIES = Object.keys(locationCategories) as SiteCategory[];
 
 const MAP_CENTER = {
   lat: (mapBounds.latMin + mapBounds.latMax) / 2,
@@ -53,7 +55,27 @@ export function SacredMap({
   allowNavigate = false,
 }: SacredMapProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
   const router = useRouter();
+
+  const visibleLocations = useMemo(
+    () => hiddenCategories.size === 0
+      ? locations
+      : locations.filter((loc) => !hiddenCategories.has(loc.siteType)),
+    [locations, hiddenCategories],
+  );
+
+  const toggleCategory = useCallback((category: SiteCategory) => {
+    setHiddenCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(category)) {
+        next.delete(category);
+      } else {
+        next.add(category);
+      }
+      return next;
+    });
+  }, []);
 
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
@@ -131,7 +153,7 @@ export function SacredMap({
         zoom={compact ? 6 : 7}
         options={mapOptions}
       >
-        {locations.map((loc) => {
+        {visibleLocations.map((loc) => {
           const isActive = loc.id === selectedLocationId;
           return (
             <MarkerF
@@ -186,15 +208,30 @@ export function SacredMap({
         </div>
       )}
       {!compact && (
-        <div className="absolute left-4 top-4 grid grid-cols-2 gap-2 rounded-2xl border border-white/10 bg-black/70 p-3 text-xs text-zinc-200 backdrop-blur">
-          {Object.entries(locationCategories).map(([category, emoji]) => (
-            <div key={category} className="flex items-center gap-2">
-              <span className="text-sm">{emoji}</span>
-              <span className="text-[0.7rem] text-zinc-300">
-                {category}
-              </span>
-            </div>
-          ))}
+        <div className="absolute left-3 top-3 flex flex-col gap-1 rounded-xl border border-white/10 bg-black/70 px-2 py-1.5 backdrop-blur">
+          {ALL_CATEGORIES.map((category) => {
+            const color = locationCategories[category];
+            const isHidden = hiddenCategories.has(category);
+            return (
+              <button
+                key={category}
+                type="button"
+                onClick={() => toggleCategory(category)}
+                className={clsx(
+                  "flex items-center gap-1.5 rounded-md px-1 py-0.5 text-left transition-opacity",
+                  isHidden ? "opacity-40" : "opacity-100",
+                )}
+              >
+                <span
+                  className="inline-block h-2 w-2 shrink-0 rounded-full"
+                  style={{ backgroundColor: color }}
+                />
+                <span className="text-[0.6rem] leading-tight text-zinc-300">
+                  {category}
+                </span>
+              </button>
+            );
+          })}
         </div>
       )}
     </div>
