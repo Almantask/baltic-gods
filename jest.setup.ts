@@ -7,6 +7,8 @@ jest.mock("next/navigation", () => ({
     prefetch: jest.fn(),
   }),
   usePathname: () => "/",
+  useSearchParams: () => new URLSearchParams(),
+  notFound: jest.fn(),
 }));
 
 /* ---------- Google Maps stubs for SacredMap ---------- */
