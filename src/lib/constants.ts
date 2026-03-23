@@ -8,14 +8,14 @@ export const domainPalette: Record<Domain, string> = {
 };
 
 export const locationCategories: Record<SiteCategory, string> = {
-  "Sacred groves": "🌳",
-  "Mythic hills / burial mounds": "⛰️",
-  "Ritual stones": "🪨",
-  "Springs, rivers, lakes with cult significance": "🌊",
-  "\"World tree\" analog sites": "🌲",
-  "Sacrifice / offering sites": "🔥",
-  "Hearth cult zones": "🕯️",
-  "Seasonal festival locations": "🎉",
+  "Sacred groves": "#6a8b6b",
+  "Mythic hills / burial mounds": "#a0855b",
+  "Ritual stones": "#8a8a8a",
+  "Springs, rivers, lakes with cult significance": "#7bb4d1",
+  "\"World tree\" analog sites": "#4e9a5e",
+  "Sacrifice / offering sites": "#d45f5f",
+  "Hearth cult zones": "#d6a74f",
+  "Seasonal festival locations": "#c77dba",
 };
 
 export const auraPalette = {
