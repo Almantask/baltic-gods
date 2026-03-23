@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Pradžia",
+    "pantheon": "Panteonas",
+    "map": "Žemėlapis",
+    "fieldReport": "Lauko Ataskaita"
+  },
+  "home": {
+    "hero": {
+      "title": "Baltų Etos: Senovės Takai",
+      "subtitle": "Kur miško šnabždesiai sutinka šventus akmenis"
+    },
+    "search": {
+      "title": "Ieškoti Nematomo",
+      "placeholder": "Ieškoti dievybių, vietų, padavimų..."
+    },
+    "atlas": {
+      "title": "Šventas Atlasas",
+      "subtitle": "Sekite ley linijas per senovės žemes"
+    }
+  },
+  "pantheon": {
+    "title": "Panteonas",
+    "subtitle": "Miško, dangaus ir žemės sargai",
+    "search": "Ieškoti dievybių...",
+    "filters": {
+      "all": "Visi domenai",
+      "celestial": "Dangaus",
+      "forest": "Miško",
+      "water": "Vandens",
+      "earth": "Žemės"
+    }
+  },
+  "map": {
+    "title": "Šventa Geografija",
+    "legend": "Ley Indeksas",
+    "coordinates": "Koordinatės"
+  },
+  "fieldReport": {
+    "title": "Pasidalinkite Išmintimi",
+    "subtitle": "Praneškite apie šventą vietą, paslėptą girią ar pamirštą altorių",
+    "form": {
+      "location": "Vietos Pavadinimas",
+      "contact": "Saugotojas / Kontaktas",
+      "deities": "Susijusios Dievybės",
+      "description": "Aprašymas",
+      "references": "Nuorodos",
+      "siteType": "Vietos Tipas",
+      "coordinates": "Koordinatės",
+      "mapCta": "Pažymėkite Ley Liniją",
+      "submit": "Pateikti Ataskaitą"
+    }
+  },
+  "footer": {
+    "tagline": "Išsaugant pamirštus takus"
+  }
+}

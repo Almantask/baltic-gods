@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-amber-warm antialiased;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(212, 165, 116, 0.3);
+  }
+
+  .glass-panel {
+    @apply bg-charcoal/40 backdrop-blur-md border border-moss-green/30;
+  }
+
+  .cinematic-blur {
+    backdrop-filter: blur(8px);
+  }
+}

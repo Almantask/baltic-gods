@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Sākums",
+    "pantheon": "Panteons",
+    "map": "Karte",
+    "fieldReport": "Lauka Ziņojums"
+  },
+  "home": {
+    "hero": {
+      "title": "Baltu Ētoss: Senās Takas",
+      "subtitle": "Kur meža čuksti satiek svētos akmeņus"
+    },
+    "search": {
+      "title": "Meklēt Neredzamo",
+      "placeholder": "Meklēt dievības, vietas, leģendas..."
+    },
+    "atlas": {
+      "title": "Svētais Atlants",
+      "subtitle": "Sekojiet ley līnijām caur senajām zemēm"
+    }
+  },
+  "pantheon": {
+    "title": "Panteons",
+    "subtitle": "Meža, debess un zemes sargi",
+    "search": "Meklēt dievības...",
+    "filters": {
+      "all": "Visi domēni",
+      "celestial": "Debesu",
+      "forest": "Meža",
+      "water": "Ūdens",
+      "earth": "Zemes"
+    }
+  },
+  "map": {
+    "title": "Svētā Ģeogrāfija",
+    "legend": "Ley Indekss",
+    "coordinates": "Koordinātas"
+  },
+  "fieldReport": {
+    "title": "Piedāvājiet Savu Gudrību",
+    "subtitle": "Dalieties ar svēto vietu, slēpto birzi vai aizmirsto altāri",
+    "form": {
+      "location": "Vietas Nosaukums",
+      "contact": "Sargu / Kontakts",
+      "deities": "Saistītās Dievības",
+      "description": "Apraksts",
+      "references": "Atsauces",
+      "siteType": "Vietas Tips",
+      "coordinates": "Koordinātas",
+      "mapCta": "Atzīmējiet Ley Līniju",
+      "submit": "Iesniegt Ziņojumu"
+    }
+  },
+  "footer": {
+    "tagline": "Saglabājot aizmirstās takas"
+  }
+}

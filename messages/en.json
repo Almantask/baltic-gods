@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "pantheon": "Pantheon",
+    "map": "Map",
+    "fieldReport": "Field Report"
+  },
+  "home": {
+    "hero": {
+      "title": "Baltic Ethos: The Ancient Paths",
+      "subtitle": "Where forest whispers meet sacred stone"
+    },
+    "search": {
+      "title": "Seek the Unseen",
+      "placeholder": "Search deities, places, lore..."
+    },
+    "atlas": {
+      "title": "The Sacred Atlas",
+      "subtitle": "Trace the ley lines across the ancient lands"
+    }
+  },
+  "pantheon": {
+    "title": "The Pantheon",
+    "subtitle": "Guardians of forest, sky, and earth",
+    "search": "Search deities...",
+    "filters": {
+      "all": "All Domains",
+      "celestial": "Celestial",
+      "forest": "Forest",
+      "water": "Water",
+      "earth": "Earth"
+    }
+  },
+  "map": {
+    "title": "Sacred Geography",
+    "legend": "The Ley Index",
+    "coordinates": "Coordinates"
+  },
+  "fieldReport": {
+    "title": "Offer Your Wisdom",
+    "subtitle": "Share a sacred site, hidden grove, or forgotten altar",
+    "form": {
+      "location": "Location Name",
+      "contact": "Guardian / Contact",
+      "deities": "Related Deities",
+      "description": "Description",
+      "references": "References",
+      "siteType": "Site Type",
+      "coordinates": "Coordinates",
+      "mapCta": "Click to Mark the Ley Line",
+      "submit": "Submit Report"
+    }
+  },
+  "footer": {
+    "tagline": "Preserving the forgotten paths"
+  }
+}
