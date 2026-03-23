@@ -1,0 +1,41 @@
+{
+  "name": "baltic-gods",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fontsource/playfair-display": "^5.1.0",
+    "@fontsource/source-sans-3": "^5.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "16.2.1",
+    "clsx": "^2.1.1",
+    "next": "16.2.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^29.5.14",
+    "@types/mdx": "^2.0.10",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@mdx-js/loader": "^3.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

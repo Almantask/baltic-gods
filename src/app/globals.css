@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/playfair-display/500-italic.css";
+@import "@fontsource/source-sans-3/400.css";
+@import "@fontsource/source-sans-3/600.css";
+@import "@fontsource/source-sans-3/700.css";
+
+:root {
+  --bg: #050708;
+  --charcoal: #0c110f;
+  --moss: #2f3f36;
+  --amber: #d6a74f;
+  --mist: #7aa0a9;
+  --sand: #e7e0d0;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: "Source Sans 3", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at 20% 20%, rgba(81, 104, 88, 0.15), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(210, 167, 79, 0.14), transparent 35%),
+    radial-gradient(circle at 50% 80%, rgba(92, 118, 134, 0.12), transparent 40%),
+    linear-gradient(180deg, #0a0f0d 0%, #050708 60%, #020303 100%);
+  color: var(--sand);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.glow-border {
+  box-shadow: 0 0 40px rgba(214, 167, 79, 0.12);
+}
+
+.glass {
+  background: rgba(12, 16, 14, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.4);
+}

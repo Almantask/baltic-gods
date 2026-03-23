@@ -1,0 +1,37 @@
+import { allLocations, deities } from "@/content/deities";
+import type { DeityEntry, Domain } from "@/types/content";
+
+const normalize = (value: string) => value.toLowerCase().trim();
+
+export function filterDeities({
+  query,
+  domain,
+}: { query?: string; domain?: Domain }) {
+  const normalized = normalize(query ?? "");
+  return deities.filter((entry) => {
+    if (domain && entry.meta.domain !== domain) return false;
+    if (!normalized) return true;
+    return (
+      entry.meta.name.toLowerCase().includes(normalized) ||
+      entry.meta.keywords.some((k) => k.toLowerCase().includes(normalized)) ||
+      entry.meta.epithet.toLowerCase().includes(normalized)
+    );
+  });
+}
+
+export function searchLocations(query?: string) {
+  const normalized = normalize(query ?? "");
+  if (!normalized) return allLocations;
+  return allLocations.filter((loc) => {
+    return (
+      loc.name.toLowerCase().includes(normalized) ||
+      loc.region.toLowerCase().includes(normalized) ||
+      loc.siteType.toLowerCase().includes(normalized) ||
+      loc.significance.toLowerCase().includes(normalized)
+    );
+  });
+}
+
+export function getDeity(slug: string): DeityEntry | undefined {
+  return deities.find((entry) => entry.meta.slug === slug);
+}
