@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Sākums",
+    "pantheon": "Panteons",
+    "map": "Interaktīvā karte",
+    "contact": "Kontakti"
+  },
+  "home": {
+    "title": "Baltu dievi",
+    "subtitle": "Atklājiet seno Baltijas reģiona mitoloģiju",
+    "featuredGods": "Izceltie dievi",
+    "featuredLocations": "Svētās vietas",
+    "learnMore": "Uzzināt vairāk"
+  },
+  "pantheon": {
+    "title": "Panteons",
+    "subtitle": "Izpētiet Baltu mitoloģijas dievības",
+    "searchPlaceholder": "Meklēt dievus...",
+    "noResults": "Dievi nav atrasti"
+  },
+  "map": {
+    "title": "Interaktīvā karte",
+    "subtitle": "Izpētiet dievību vietas visā Baltijas reģionā",
+    "zoomIn": "Pietuvināt",
+    "zoomOut": "Attālināt"
+  },
+  "contact": {
+    "title": "Ziņot par vietu",
+    "subtitle": "Palīdziet mums paplašināt svēto vietu datubāzi",
+    "form": {
+      "name": "Jūsu vārds",
+      "email": "E-pasts",
+      "location": "Vietas nosaukums",
+      "deity": "Saistītā dievība",
+      "description": "Apraksts",
+      "coordinates": "Koordinātas (izvēles)",
+      "submit": "Iesniegt",
+      "success": "Paldies! Jūsu ziņojums ir saņemts.",
+      "error": "Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz."
+    }
+  },
+  "god": {
+    "domain": "Joma",
+    "symbols": "Simboli",
+    "locations": "Saistītās vietas",
+    "artifacts": "Artefakti",
+    "description": "Apraksts"
+  }
+}

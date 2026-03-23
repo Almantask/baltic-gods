@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Pagrindinis",
+    "pantheon": "Panteonas",
+    "map": "Interaktyvus žemėlapis",
+    "contact": "Kontaktai"
+  },
+  "home": {
+    "title": "Baltų dievai",
+    "subtitle": "Atraskite senovinę Baltijos regiono mitologiją",
+    "featuredGods": "Svarbiausi dievai",
+    "featuredLocations": "Šventos vietos",
+    "learnMore": "Sužinoti daugiau"
+  },
+  "pantheon": {
+    "title": "Panteonas",
+    "subtitle": "Tyrinėkite baltų mitologijos dievybes",
+    "searchPlaceholder": "Ieškoti dievų...",
+    "noResults": "Dievų nerasta"
+  },
+  "map": {
+    "title": "Interaktyvus žemėlapis",
+    "subtitle": "Tyrinėkite dievybių vietas visame Baltijos regione",
+    "zoomIn": "Priartinti",
+    "zoomOut": "Atitolinti"
+  },
+  "contact": {
+    "title": "Pranešti apie vietą",
+    "subtitle": "Padėkite mums papildyti šventų vietų duomenų bazę",
+    "form": {
+      "name": "Jūsų vardas",
+      "email": "El. paštas",
+      "location": "Vietos pavadinimas",
+      "deity": "Susijusi dievybė",
+      "description": "Aprašymas",
+      "coordinates": "Koordinatės (neprivaloma)",
+      "submit": "Siųsti",
+      "success": "Ačiū! Jūsų pranešimas gautas.",
+      "error": "Kažkas nutiko. Bandykite dar kartą."
+    }
+  },
+  "god": {
+    "domain": "Sritis",
+    "symbols": "Simboliai",
+    "locations": "Susijusios vietos",
+    "artifacts": "Artefaktai",
+    "description": "Aprašymas"
+  }
+}

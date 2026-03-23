@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "pantheon": "Pantheon",
+    "map": "Interactive Map",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Baltic Gods",
+    "subtitle": "Discover the ancient mythology of the Baltic region",
+    "featuredGods": "Featured Gods",
+    "featuredLocations": "Sacred Locations",
+    "learnMore": "Learn More"
+  },
+  "pantheon": {
+    "title": "Pantheon",
+    "subtitle": "Explore the deities of Baltic mythology",
+    "searchPlaceholder": "Search gods...",
+    "noResults": "No gods found"
+  },
+  "map": {
+    "title": "Interactive Map",
+    "subtitle": "Explore deity locations across the Baltic region",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out"
+  },
+  "contact": {
+    "title": "Report a Location",
+    "subtitle": "Help us expand our database of sacred sites",
+    "form": {
+      "name": "Your Name",
+      "email": "Email",
+      "location": "Location Name",
+      "deity": "Associated Deity",
+      "description": "Description",
+      "coordinates": "Coordinates (optional)",
+      "submit": "Submit",
+      "success": "Thank you! Your submission has been received.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "god": {
+    "domain": "Domain",
+    "symbols": "Symbols",
+    "locations": "Associated Locations",
+    "artifacts": "Artifacts",
+    "description": "Description"
+  }
+}
