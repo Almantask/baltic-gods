@@ -28,7 +28,7 @@ const DARK_MAP_STYLES = [
 function buildMarkerIcon(aura: LocationPoint["aura"], isActive: boolean) {
   const color = auraPalette[aura];
   return {
-    path: typeof google !== "undefined" ? google.maps.SymbolPath.CIRCLE : 0,
+    path: google.maps.SymbolPath.CIRCLE,
     fillColor: color,
     fillOpacity: 1,
     strokeColor: "#ffffff",
@@ -100,6 +100,7 @@ export function SacredMap({
         },
       };
     },
+    // isLoaded triggers recomputation once the Google Maps script is ready
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [isLoaded],
   );
@@ -149,7 +150,7 @@ export function SacredMap({
               lat: hoveredLocation.coordinates[0],
               lng: hoveredLocation.coordinates[1],
             }}
-            options={{ disableAutoPan: true, pixelOffset: typeof google !== "undefined" ? new google.maps.Size(0, -12) : undefined }}
+            options={{ disableAutoPan: true, pixelOffset: new google.maps.Size(0, -12) }}
             onCloseClick={() => setHoveredId(null)}
           >
             <div className="min-w-[180px] text-xs">
