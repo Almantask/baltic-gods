@@ -6,6 +6,7 @@ const createJestConfig = nextJest({
 
 const config = {
   testEnvironment: "jest-environment-jsdom",
+  testPathIgnorePatterns: ["<rootDir>/e2e/"],
   moduleNameMapper: {
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
     "^.+\\.mdx$": "<rootDir>/test/mdx-stub.js",
