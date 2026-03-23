@@ -10,8 +10,7 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+export async function generateMetadata() {
   return {
     title: "Baltic Gods - Ancient Mythology",
     description: "Explore the ancient mythology of the Baltic region",

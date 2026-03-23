@@ -47,7 +47,7 @@ export async function getGods(locale: string): Promise<God[]> {
       });
 
     return gods.length > 0 ? gods : getDefaultGods(locale);
-  } catch (error) {
+  } catch {
     return getDefaultGods(locale);
   }
 }
@@ -74,7 +74,7 @@ export async function getGod(locale: string, slug: string): Promise<God | null> 
       artifacts: data.artifacts || [],
       content,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }

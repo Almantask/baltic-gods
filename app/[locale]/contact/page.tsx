@@ -31,7 +31,7 @@ export default function ContactPage() {
                 Thank You!
               </h2>
               <p className="text-slate-600">
-                Your submission has been received. We'll review it shortly.
+                Your submission has been received. We&apos;ll review it shortly.
               </p>
             </div>
           ) : (
