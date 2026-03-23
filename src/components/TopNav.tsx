@@ -19,11 +19,11 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur bg-black/40 border-b border-white/10">
       <div className="mx-auto max-w-6xl px-6 text-sm text-zinc-200/90">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex flex-wrap items-center justify-between gap-y-1 py-4">
           <Link href="/" className="text-lg font-semibold tracking-[0.24em] text-amber-200">
             BALTIC GODS
           </Link>
-          <nav className="flex items-center gap-6">
+          <nav className="flex flex-wrap items-center gap-3 sm:gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.key}
