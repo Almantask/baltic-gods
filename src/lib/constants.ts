@@ -1,10 +1,21 @@
-import type { Domain } from "@/types/content";
+import type { Domain, SiteCategory } from "@/types/content";
 
 export const domainPalette: Record<Domain, string> = {
   Celestial: "#d6a74f",
   Forest: "#6a8b6b",
   Water: "#7bb4d1",
   Earth: "#9bb07a",
+};
+
+export const locationCategories: Record<SiteCategory, string> = {
+  "Sacred groves": "🌳",
+  "Mythic hills / burial mounds": "⛰️",
+  "Ritual stones": "🪨",
+  "Springs, rivers, lakes with cult significance": "🌊",
+  "\"World tree\" analog sites": "🌲",
+  "Sacrifice / offering sites": "🔥",
+  "Hearth cult zones": "🕯️",
+  "Seasonal festival locations": "🎉",
 };
 
 export const auraPalette = {

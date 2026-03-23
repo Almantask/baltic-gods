@@ -4,7 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
-import { domainPalette, auraPalette, mapBounds } from "@/lib/constants";
+import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
 import type { LocationPoint } from "@/types/content";
 
 const MAP_CENTER = {
@@ -187,14 +187,11 @@ export function SacredMap({
       )}
       {!compact && (
         <div className="absolute left-4 top-4 grid grid-cols-2 gap-2 rounded-2xl border border-white/10 bg-black/70 p-3 text-xs text-zinc-200 backdrop-blur">
-          {Object.entries(domainPalette).map(([domain, color]) => (
-            <div key={domain} className="flex items-center gap-2">
-              <span
-                className="h-3 w-3 rounded-full"
-                style={{ backgroundColor: color, boxShadow: `0 0 8px ${color}` }}
-              />
-              <span className="uppercase tracking-wide text-[0.7rem] text-zinc-300">
-                {domain}
+          {Object.entries(locationCategories).map(([category, emoji]) => (
+            <div key={category} className="flex items-center gap-2">
+              <span className="text-sm">{emoji}</span>
+              <span className="text-[0.7rem] text-zinc-300">
+                {category}
               </span>
             </div>
           ))}
