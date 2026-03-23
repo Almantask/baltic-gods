@@ -32,7 +32,8 @@ describe("Map page", () => {
     expect(toggleBtn).toHaveAttribute("aria-expanded", "true");
 
     // Category buttons should be visible initially (use aria-pressed to target legend buttons)
-    expect(getByLabelText(/Hide legend/i).parentElement!.querySelector("[aria-pressed]")).toBeInTheDocument();
+    const legendPanel = getByLabelText(/Hide legend/i).closest("[class*='absolute']")!;
+    expect(legendPanel.querySelector("[aria-pressed]")).toBeInTheDocument();
 
     // Collapse the legend
     await user.click(toggleBtn);
@@ -40,12 +41,14 @@ describe("Map page", () => {
     const showBtn = getByRole("button", { name: /Show legend/i });
     expect(showBtn).toHaveAttribute("aria-expanded", "false");
     // Category buttons should be hidden
-    expect(showBtn.parentElement!.querySelector("[aria-pressed]")).toBeNull();
+    const collapsedPanel = getByLabelText(/Show legend/i).closest("[class*='absolute']")!;
+    expect(collapsedPanel.querySelector("[aria-pressed]")).toBeNull();
 
     // Expand the legend again
     await user.click(showBtn);
 
     expect(getByRole("button", { name: /Hide legend/i })).toHaveAttribute("aria-expanded", "true");
-    expect(getByLabelText(/Hide legend/i).parentElement!.querySelector("[aria-pressed]")).toBeInTheDocument();
+    const expandedPanel = getByLabelText(/Hide legend/i).closest("[class*='absolute']")!;
+    expect(expandedPanel.querySelector("[aria-pressed]")).toBeInTheDocument();
   });
 });
