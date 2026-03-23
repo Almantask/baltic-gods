@@ -1,10 +1,41 @@
 'use client';
 
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
-import { domainPalette, auraPalette, positionForCoordinates } from "@/lib/constants";
+import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
+import { domainPalette, auraPalette, mapBounds } from "@/lib/constants";
 import type { LocationPoint } from "@/types/content";
+
+const MAP_CENTER = {
+  lat: (mapBounds.latMin + mapBounds.latMax) / 2,
+  lng: (mapBounds.lonMin + mapBounds.lonMax) / 2,
+};
+
+const DARK_MAP_STYLES = [
+  { elementType: "geometry", stylers: [{ color: "#0c110f" }] },
+  { elementType: "labels.text.stroke", stylers: [{ color: "#0c110f" }] },
+  { elementType: "labels.text.fill", stylers: [{ color: "#6b8d70" }] },
+  { featureType: "administrative.country", elementType: "geometry.stroke", stylers: [{ color: "#2f3f36" }] },
+  { featureType: "water", elementType: "geometry", stylers: [{ color: "#050708" }] },
+  { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#7aa0a9" }] },
+  { featureType: "road", stylers: [{ visibility: "off" }] },
+  { featureType: "transit", stylers: [{ visibility: "off" }] },
+  { featureType: "poi", stylers: [{ visibility: "off" }] },
+  { featureType: "landscape.natural", elementType: "geometry", stylers: [{ color: "#0c110f" }] },
+];
+
+function buildMarkerIcon(aura: LocationPoint["aura"], isActive: boolean) {
+  const color = auraPalette[aura];
+  return {
+    path: typeof google !== "undefined" ? google.maps.SymbolPath.CIRCLE : 0,
+    fillColor: color,
+    fillOpacity: 1,
+    strokeColor: "#ffffff",
+    strokeWeight: isActive ? 2 : 1,
+    scale: isActive ? 10 : 7,
+  };
+}
 
 interface SacredMapProps {
   locations: LocationPoint[];
@@ -21,89 +52,119 @@ export function SacredMap({
   compact,
   allowNavigate = false,
 }: SacredMapProps) {
-  const [zoom, setZoom] = useState(1);
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
   const router = useRouter();
+
+  const { isLoaded } = useJsApiLoader({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
+  });
 
   const selectedLocation = useMemo(
     () => locations.find((loc) => loc.id === selectedLocationId),
     [locations, selectedLocationId],
   );
 
-  const handleClick = (loc: LocationPoint) => {
-    onSelect?.(loc);
-    if (allowNavigate) {
-      router.push(`/pantheon/${loc.deity}?location=${loc.id}`);
-    }
-  };
+  const hoveredLocation = useMemo(
+    () => locations.find((loc) => loc.id === hoveredId),
+    [locations, hoveredId],
+  );
+
+  const handleClick = useCallback(
+    (loc: LocationPoint) => {
+      onSelect?.(loc);
+      if (allowNavigate) {
+        router.push(`/pantheon/${loc.deity}?location=${loc.id}`);
+      }
+    },
+    [onSelect, allowNavigate, router],
+  );
+
+  const mapOptions = useMemo(
+    () => {
+      if (typeof google === "undefined") return {};
+      return {
+        styles: DARK_MAP_STYLES,
+        disableDefaultUI: true,
+        zoomControl: true,
+        zoomControlOptions: { position: google.maps.ControlPosition.RIGHT_TOP },
+        minZoom: 6,
+        maxZoom: 12,
+        restriction: {
+          latLngBounds: {
+            north: mapBounds.latMax + 1,
+            south: mapBounds.latMin - 1,
+            east: mapBounds.lonMax + 2,
+            west: mapBounds.lonMin - 2,
+          },
+          strictBounds: false,
+        },
+      };
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [isLoaded],
+  );
+
+  if (!isLoaded) {
+    return (
+      <div
+        className={clsx(
+          "flex items-center justify-center rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/70 to-black/80 shadow-2xl",
+          compact ? "h-80" : "h-[520px]",
+        )}
+      >
+        <span className="text-sm text-zinc-400">Loading map…</span>
+      </div>
+    );
+  }
 
   return (
-    <div className={clsx("relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-zinc-900/70 to-black/80 shadow-2xl", compact ? "h-80" : "h-[520px]")}>
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 20% 20%, rgba(124, 152, 130, 0.12), transparent 40%), radial-gradient(circle at 80% 30%, rgba(216, 167, 79, 0.18), transparent 34%), radial-gradient(circle at 50% 70%, rgba(84, 112, 135, 0.16), transparent 36%)",
-          filter: "blur(0px)",
-        }}
-      />
-      <div
-        className="relative h-full w-full"
-        style={{ transform: `scale(${zoom})`, transformOrigin: "center" }}
+    <div
+      className={clsx(
+        "relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl",
+        compact ? "h-80" : "h-[520px]",
+      )}
+    >
+      <GoogleMap
+        mapContainerClassName="h-full w-full"
+        center={MAP_CENTER}
+        zoom={compact ? 6 : 7}
+        options={mapOptions}
       >
-        <div className="absolute left-1/2 top-1/2 h-[88%] w-[88%] -translate-x-1/2 -translate-y-1/2 rounded-[32px] bg-gradient-to-b from-zinc-800/40 via-zinc-900/60 to-black/90 ring-1 ring-white/5" />
         {locations.map((loc) => {
-          const pos = positionForCoordinates(loc.coordinates[0], loc.coordinates[1]);
           const isActive = loc.id === selectedLocationId;
           return (
-            <button
+            <MarkerF
               key={loc.id}
-              type="button"
-              className="group absolute"
-              style={{ left: pos.left, top: pos.top }}
+              position={{ lat: loc.coordinates[0], lng: loc.coordinates[1] }}
+              icon={buildMarkerIcon(loc.aura, isActive)}
               onClick={() => handleClick(loc)}
-            >
-              <span
-                className={clsx(
-                  "relative block h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/40 shadow-lg transition duration-200",
-                  isActive ? "scale-125" : "scale-100",
-                )}
-                style={{
-                  backgroundColor: auraPalette[loc.aura],
-                  boxShadow: `0 0 18px ${auraPalette[loc.aura]}`,
-                }}
-              />
-              <div className="pointer-events-none absolute left-3 top-3 min-w-[180px] -translate-x-1/2 rounded-xl bg-black/80 p-3 text-left text-xs text-zinc-100 opacity-0 backdrop-blur transition group-hover:opacity-100">
-                <div className="flex items-center justify-between gap-2">
-                  <p className="font-semibold text-amber-100">{loc.name}</p>
-                  <span className="rounded-full bg-white/10 px-2 py-0.5 text-[0.65rem] uppercase tracking-wide">
-                    {loc.region}
-                  </span>
-                </div>
-                <p className="mt-1 text-zinc-300">{loc.siteType}</p>
-                <p className="mt-1 text-zinc-400">{loc.description}</p>
-              </div>
-            </button>
+              onMouseOver={() => setHoveredId(loc.id)}
+              onMouseOut={() => setHoveredId(null)}
+            />
           );
         })}
-      </div>
-      <div className="absolute right-4 top-4 flex flex-col gap-2">
-        <button
-          type="button"
-          onClick={() => setZoom((z) => Math.min(1.3, z + 0.1))}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-lg text-amber-100 transition hover:border-amber-200/50"
-          aria-label="Zoom in"
-        >
-          +
-        </button>
-        <button
-          type="button"
-          onClick={() => setZoom((z) => Math.max(0.9, z - 0.1))}
-          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/5 text-lg text-amber-100 transition hover:border-amber-200/50"
-          aria-label="Zoom out"
-        >
-          −
-        </button>
-      </div>
+        {hoveredLocation && (
+          <InfoWindowF
+            position={{
+              lat: hoveredLocation.coordinates[0],
+              lng: hoveredLocation.coordinates[1],
+            }}
+            options={{ disableAutoPan: true, pixelOffset: typeof google !== "undefined" ? new google.maps.Size(0, -12) : undefined }}
+            onCloseClick={() => setHoveredId(null)}
+          >
+            <div className="min-w-[180px] text-xs">
+              <div className="flex items-center justify-between gap-2">
+                <p className="font-semibold text-gray-900">{hoveredLocation.name}</p>
+                <span className="rounded-full bg-gray-200 px-2 py-0.5 text-[0.65rem] uppercase tracking-wide text-gray-600">
+                  {hoveredLocation.region}
+                </span>
+              </div>
+              <p className="mt-1 text-gray-600">{hoveredLocation.siteType}</p>
+              <p className="mt-1 text-gray-500">{hoveredLocation.description}</p>
+            </div>
+          </InfoWindowF>
+        )}
+      </GoogleMap>
       {selectedLocation && (
         <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center gap-3 rounded-2xl border border-white/10 bg-black/65 p-4 backdrop-blur">
           <div className="text-sm text-amber-100">
