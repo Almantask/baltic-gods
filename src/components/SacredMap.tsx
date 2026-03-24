@@ -45,6 +45,8 @@ interface SacredMapProps {
   onSelect?: (location: LocationPoint) => void;
   compact?: boolean;
   allowNavigate?: boolean;
+  hiddenCategories?: Set<SiteCategory>;
+  onToggleCategory?: (category: SiteCategory) => void;
 }
 
 export function SacredMap({
@@ -53,11 +55,16 @@ export function SacredMap({
   onSelect,
   compact,
   allowNavigate = false,
+  hiddenCategories: hiddenCategoriesProp,
+  onToggleCategory,
 }: SacredMapProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
-  const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
+  const [hiddenCategoriesInternal, setHiddenCategoriesInternal] = useState<Set<SiteCategory>>(new Set());
   const [legendCollapsed, setLegendCollapsed] = useState(false);
   const router = useRouter();
+
+  const isControlled = hiddenCategoriesProp !== undefined;
+  const hiddenCategories = isControlled ? hiddenCategoriesProp : hiddenCategoriesInternal;
 
   const visibleLocations = useMemo(
     () => hiddenCategories.size === 0
@@ -67,16 +74,20 @@ export function SacredMap({
   );
 
   const toggleCategory = useCallback((category: SiteCategory) => {
-    setHiddenCategories((prev) => {
-      const next = new Set(prev);
-      if (next.has(category)) {
-        next.delete(category);
-      } else {
-        next.add(category);
-      }
-      return next;
-    });
-  }, []);
+    if (isControlled) {
+      onToggleCategory?.(category);
+    } else {
+      setHiddenCategoriesInternal((prev) => {
+        const next = new Set(prev);
+        if (next.has(category)) {
+          next.delete(category);
+        } else {
+          next.add(category);
+        }
+        return next;
+      });
+    }
+  }, [isControlled, onToggleCategory]);
 
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
