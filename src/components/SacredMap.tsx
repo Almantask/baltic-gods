@@ -325,7 +325,10 @@ export function SacredMap({
           type="button"
           onClick={toggleFullscreen}
           aria-label={isFullscreen ? strings.map.exitFullscreen : strings.map.fullscreen}
-          className="absolute right-3 top-3 flex items-center justify-center rounded-xl border border-white/10 bg-black/70 p-2 text-zinc-300 backdrop-blur hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
+          className={clsx(
+            "absolute right-3 top-3 flex items-center justify-center rounded-xl border border-white/10 bg-black/70 p-2 backdrop-blur",
+            "text-zinc-300 hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20",
+          )}
         >
           {isFullscreen ? (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
