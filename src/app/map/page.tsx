@@ -4,6 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
+import { haversineDistance, NEAR_ME_RADIUS_KM } from "@/lib/geo";
 import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
@@ -11,14 +12,24 @@ export default function MapPage() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<string | undefined>(undefined);
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
+  const [nearMeActive, setNearMeActive] = useState(false);
+  const [nearMeLoading, setNearMeLoading] = useState(false);
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
 
   const filtered = useMemo(() => searchLocations(query), [query]);
 
+  const nearFiltered = useMemo(() => {
+    if (!nearMeActive || !userLocation) return filtered;
+    return filtered.filter(
+      (loc) => haversineDistance(userLocation, loc.coordinates) <= NEAR_ME_RADIUS_KM,
+    );
+  }, [filtered, nearMeActive, userLocation]);
+
   const visibleLocations = useMemo(
     () => hiddenCategories.size === 0
-      ? filtered
-      : filtered.filter((loc) => !hiddenCategories.has(loc.siteType)),
-    [filtered, hiddenCategories],
+      ? nearFiltered
+      : nearFiltered.filter((loc) => !hiddenCategories.has(loc.siteType)),
+    [nearFiltered, hiddenCategories],
   );
 
   const toggleCategory = useCallback((category: SiteCategory) => {
@@ -32,6 +43,30 @@ export default function MapPage() {
       return next;
     });
   }, []);
+
+  const handleNearMeClick = useCallback(() => {
+    if (nearMeActive) {
+      setNearMeActive(false);
+      return;
+    }
+
+    if (userLocation) {
+      setNearMeActive(true);
+      return;
+    }
+
+    setNearMeLoading(true);
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation([position.coords.latitude, position.coords.longitude]);
+        setNearMeActive(true);
+        setNearMeLoading(false);
+      },
+      () => {
+        setNearMeLoading(false);
+      },
+    );
+  }, [nearMeActive, userLocation]);
 
   const selectedLocation = visibleLocations.find((loc) => loc.id === selected);
   const effectiveSelected = selectedLocation ? selected : undefined;
@@ -58,12 +93,15 @@ export default function MapPage() {
             />
           </label>
           <SacredMap
-            locations={filtered}
+            locations={nearFiltered}
             selectedLocationId={effectiveSelected}
             onSelect={(loc) => setSelected(loc.id)}
             allowNavigate
             hiddenCategories={hiddenCategories}
             onToggleCategory={toggleCategory}
+            nearMeActive={nearMeActive}
+            nearMeLoading={nearMeLoading}
+            onNearMeClick={handleNearMeClick}
           />
         </div>
         <aside className="glass flex flex-col gap-4 rounded-3xl p-5">

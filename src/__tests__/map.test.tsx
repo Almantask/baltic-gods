@@ -1,7 +1,23 @@
 import userEvent from "@testing-library/user-event";
-import { within } from "@testing-library/react";
+import { within, act } from "@testing-library/react";
 import MapPage from "@/app/map/page";
 import { renderWithProviders } from "../testing/render-with-providers";
+
+// Store geolocation callbacks so tests can resolve them
+let geoSuccessCallback: PositionCallback | null = null;
+
+beforeEach(() => {
+  geoSuccessCallback = null;
+
+  Object.defineProperty(globalThis.navigator, "geolocation", {
+    value: {
+      getCurrentPosition: jest.fn((success: PositionCallback) => {
+        geoSuccessCallback = success;
+      }),
+    },
+    configurable: true,
+  });
+});
 
 describe("Map page", () => {
   it("filters locations and updates coordinate panel", async () => {
@@ -50,5 +66,66 @@ describe("Map page", () => {
     expect(getByRole("button", { name: /Hide legend/i })).toHaveAttribute("aria-expanded", "true");
     const expandedPanel = getByLabelText(/Hide legend/i).closest("[class*='absolute']")!;
     expect(expandedPanel.querySelector("[aria-pressed]")).toBeInTheDocument();
+  });
+
+  it("renders Near me button and requests geolocation on click", async () => {
+    const user = userEvent.setup();
+    const { getByRole } = renderWithProviders(<MapPage />);
+
+    const nearBtn = getByRole("button", { name: /Near me/i });
+    expect(nearBtn).toHaveAttribute("aria-pressed", "false");
+
+    await user.click(nearBtn);
+
+    expect(navigator.geolocation.getCurrentPosition).toHaveBeenCalledTimes(1);
+  });
+
+  it("filters locations within 50 km when Near me is active", async () => {
+    const user = userEvent.setup();
+    const { getByRole } = renderWithProviders(<MapPage />);
+
+    // Click "Near me" — triggers geolocation request
+    const nearBtn = getByRole("button", { name: /Near me/i });
+    await user.click(nearBtn);
+
+    // Simulate geolocation returning coords near Aukštaitija Thunder Oaks (55.3, 26.0)
+    await act(async () => {
+      geoSuccessCallback!({
+        coords: { latitude: 55.3, longitude: 26.0 },
+      } as GeolocationPosition);
+    });
+
+    const aside = getByRole("complementary");
+    // Aukštaitija Thunder Oaks should still be visible (distance ~0)
+    expect(
+      within(aside).getByRole("button", { name: /Aukštaitija Thunder Oaks/i }),
+    ).toBeInTheDocument();
+  });
+
+  it("toggles Near me off to show all locations again", async () => {
+    const user = userEvent.setup();
+    const { getByRole } = renderWithProviders(<MapPage />);
+
+    const nearBtn = getByRole("button", { name: /Near me/i });
+    await user.click(nearBtn);
+
+    // Provide position far from any location to filter everything
+    await act(async () => {
+      geoSuccessCallback!({
+        coords: { latitude: 0, longitude: 0 },
+      } as GeolocationPosition);
+    });
+
+    const aside = getByRole("complementary");
+    // No location buttons should exist in sidebar (all filtered out)
+    const locationButtons = within(aside).queryAllByRole("button");
+    expect(locationButtons.length).toBe(0);
+
+    // Toggle off — all locations return
+    const activeBtn = getByRole("button", { name: /Near me/i });
+    await user.click(activeBtn);
+
+    const restored = within(getByRole("complementary")).getAllByRole("button");
+    expect(restored.length).toBeGreaterThan(0);
   });
 });
