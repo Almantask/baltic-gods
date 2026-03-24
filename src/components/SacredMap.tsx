@@ -281,9 +281,9 @@ export function SacredMap({
               disabled={nearMeLoading}
               aria-pressed={nearMeActive}
               className={clsx(
-                "flex items-center gap-1.5 border-t px-2 py-1.5 text-xs transition focus:outline-none focus:ring-1 focus:ring-white/20",
+                "flex items-center gap-1.5 rounded-b-xl border-t px-2 py-1.5 text-xs transition focus:outline-none focus:ring-1 focus:ring-white/20",
                 nearMeActive
-                  ? "border-amber-200/50 bg-amber-200/20 text-amber-100"
+                  ? "border-amber-200/50 bg-amber-200/20 font-semibold text-amber-100"
                   : "border-white/10 text-zinc-300 hover:bg-white/10",
               )}
             >
