@@ -4,17 +4,17 @@ import type { DeityEntry, LocationPoint } from "@/types/content";
 // Ensure React has a default export for MDX runtime expectations.
 (React as unknown as { default?: typeof React }).default ??= React;
 
-import AustejaContent from "./austeja.mdx";
-import BangputysContent from "./bangputys.mdx";
-import DievasContent from "./dievas.mdx";
-import GabijaContent from "./gabija.mdx";
-import LaimaContent from "./laima.mdx";
-import MedineContent from "./medine.mdx";
-import MenulisContent from "./menulis.mdx";
-import PerkunasContent from "./perkunas.mdx";
-import SauleContent from "./saule.mdx";
-import VelniasContent from "./velnias.mdx";
-import ZemynaContent from "./zemyna.mdx";
+import AustejaContent from "./en/austeja.mdx";
+import BangputysContent from "./en/bangputys.mdx";
+import DievasContent from "./en/dievas.mdx";
+import GabijaContent from "./en/gabija.mdx";
+import LaimaContent from "./en/laima.mdx";
+import MedineContent from "./en/medine.mdx";
+import MenulisContent from "./en/menulis.mdx";
+import PerkunasContent from "./en/perkunas.mdx";
+import SauleContent from "./en/saule.mdx";
+import VelniasContent from "./en/velnias.mdx";
+import ZemynaContent from "./en/zemyna.mdx";
 import {
   austejaMeta,
   bangputysMeta,
