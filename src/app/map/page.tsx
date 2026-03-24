@@ -1,17 +1,45 @@
 'use client';
 
-import { useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
+import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
   const { strings } = useTranslation();
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<string | undefined>(undefined);
+  const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
 
   const filtered = useMemo(() => searchLocations(query), [query]);
-  const selectedLocation = filtered.find((loc) => loc.id === selected);
+
+  const visibleLocations = useMemo(
+    () => hiddenCategories.size === 0
+      ? filtered
+      : filtered.filter((loc) => !hiddenCategories.has(loc.siteType)),
+    [filtered, hiddenCategories],
+  );
+
+  const toggleCategory = useCallback((category: SiteCategory) => {
+    setHiddenCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(category)) {
+        next.delete(category);
+      } else {
+        next.add(category);
+      }
+      return next;
+    });
+  }, []);
+
+  const selectedLocation = visibleLocations.find((loc) => loc.id === selected);
+
+  useEffect(() => {
+    if (selected !== undefined && !visibleLocations.some((loc) => loc.id === selected)) {
+      setSelected(undefined);
+    }
+  }, [visibleLocations, selected]);
 
   return (
     <div className="space-y-6">
@@ -39,6 +67,8 @@ export default function MapPage() {
             selectedLocationId={selected}
             onSelect={(loc) => setSelected(loc.id)}
             allowNavigate
+            hiddenCategories={hiddenCategories}
+            onToggleCategory={toggleCategory}
           />
         </div>
         <aside className="glass flex flex-col gap-4 rounded-3xl p-5">
@@ -47,7 +77,7 @@ export default function MapPage() {
               {strings.map.legend}
             </p>
             <div className="mt-3 space-y-2 text-sm text-zinc-200">
-              {filtered.map((loc) => (
+              {visibleLocations.map((loc) => (
                 <button
                   key={loc.id}
                   type="button"
