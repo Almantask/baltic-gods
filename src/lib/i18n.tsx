@@ -29,6 +29,11 @@ const translations = {
       filters: "Domains",
       quote: "Every oak, dune, and hearth is a margin where gods have written in light.",
       searchPlaceholder: "Search names or symbols",
+      all: "All",
+      editorialLedger: "Editorial Ledger",
+      figuresArchived: "figures archived",
+      domains: "domains",
+      archivistNote: "— Field archivist's note",
     },
     stories: {
       title: "Stories",
@@ -37,6 +42,9 @@ const translations = {
       readMore: "Read story",
       beings: "Beings",
       locations: "Locations",
+      legendsAndTales: "Legends & Tales",
+      storyFound: "story found",
+      storiesFound: "stories found",
     },
     map: {
       title: "Sacred Map",
@@ -72,6 +80,7 @@ const translations = {
       submit: "Send to the Archive",
       confirmation: "Your report hums through the trees. Archivists will trace the ley line.",
       mapCta: "Click to Mark the Ley Line",
+      mapInstruction: "Double-tap on the map below when on site; or paste coordinates above.",
     },
     form: {
       location: "Location",
@@ -88,6 +97,25 @@ const translations = {
     },
     actions: {
       viewDetail: "View detail",
+    },
+    search: {
+      deities: "Deities",
+      locations: "Locations",
+      noDeities: "No deities found.",
+      noLocations: "No locations found.",
+      emptyPrompt: "Start typing to reveal paths and names.",
+    },
+    deity: {
+      lore: "Lore",
+      symbolicCards: "Symbolic Cards",
+      materialLegacy: "Material Legacy",
+      sacredGeography: "Sacred Geography",
+      clickMarkers: "Click markers to view nearby lore.",
+      pointsOfInterest: "Points of Interest",
+      gallery: "Gallery",
+      arrivedViaMap: "Arrived via map? Highlighted location:",
+      none: "none",
+      highlighted: "Highlighted",
     },
   },
   lt: {
@@ -113,6 +141,11 @@ const translations = {
       filters: "Sritys",
       quote: "Kiekvienas ąžuolas, kopa ir židinys – paraštė, kur dievai rašė šviesa.",
       searchPlaceholder: "Ieškoti vardų ar simbolių",
+      all: "Visi",
+      editorialLedger: "Redakcinis sąvadas",
+      figuresArchived: "figūros suarchyvuotos",
+      domains: "sritys",
+      archivistNote: "— Lauko archyvaro pastaba",
     },
     stories: {
       title: "Pasakojimai",
@@ -121,6 +154,9 @@ const translations = {
       readMore: "Skaityti pasakojimą",
       beings: "Būtybės",
       locations: "Vietos",
+      legendsAndTales: "Legendos ir pasakojimai",
+      storyFound: "pasakojimas rastas",
+      storiesFound: "pasakojimai rasti",
     },
     map: {
       title: "Šventas žemėlapis",
@@ -156,6 +192,7 @@ const translations = {
       submit: "Siųsti į archyvą",
       confirmation: "Jūsų žinutė nuaidėjo tarp medžių. Archyvarai seks lėjos liniją.",
       mapCta: "Paspauskite pažymėti lėjos liniją",
+      mapInstruction: "Du kartus palieskite žemėlapį vietoje arba įklijuokite koordinates viršuje.",
     },
     form: {
       location: "Vieta",
@@ -172,6 +209,25 @@ const translations = {
     },
     actions: {
       viewDetail: "Peržiūrėti",
+    },
+    search: {
+      deities: "Dievybės",
+      locations: "Vietos",
+      noDeities: "Dievybių nerasta.",
+      noLocations: "Vietų nerasta.",
+      emptyPrompt: "Pradėkite rašyti, kad atskleistumėte kelius ir vardus.",
+    },
+    deity: {
+      lore: "Padavimai",
+      symbolicCards: "Simbolių kortelės",
+      materialLegacy: "Materialusis paveldas",
+      sacredGeography: "Šventoji geografija",
+      clickMarkers: "Paspauskite žymeklius, kad matytumėte artimą istoriją.",
+      pointsOfInterest: "Lankytinos vietos",
+      gallery: "Galerija",
+      arrivedViaMap: "Atvykote per žemėlapį? Paryškinta vieta:",
+      none: "nėra",
+      highlighted: "Paryškinta",
     },
   },
   lv: {
@@ -197,6 +253,11 @@ const translations = {
       filters: "Sfēras",
       quote: "Katrs ozols, kāpa un pavards ir mala, kur dievi rakstīja ar gaismu.",
       searchPlaceholder: "Meklēt vārdus vai simbolus",
+      all: "Visi",
+      editorialLedger: "Redakcionālais saraksts",
+      figuresArchived: "figūras arhivētas",
+      domains: "sfēras",
+      archivistNote: "— Lauka arhivāra piezīme",
     },
     stories: {
       title: "Stāsti",
@@ -205,6 +266,9 @@ const translations = {
       readMore: "Lasīt stāstu",
       beings: "Būtnes",
       locations: "Vietas",
+      legendsAndTales: "Leģendas un stāsti",
+      storyFound: "stāsts atrasts",
+      storiesFound: "stāsti atrasti",
     },
     map: {
       title: "Svētā karte",
@@ -240,6 +304,7 @@ const translations = {
       submit: "Nosūtīt uz arhīvu",
       confirmation: "Jūsu ziņa trīc kokos. Arhivāri sekos lēju līnijai.",
       mapCta: "Klikšķiniet, lai atzīmētu lēju līniju",
+      mapInstruction: "Divreiz pieskarieties kartei uz vietas vai ielīmējiet koordinātas augstāk.",
     },
     form: {
       location: "Vieta",
@@ -256,6 +321,25 @@ const translations = {
     },
     actions: {
       viewDetail: "Apskatīt",
+    },
+    search: {
+      deities: "Dievības",
+      locations: "Vietas",
+      noDeities: "Dievības nav atrastas.",
+      noLocations: "Vietas nav atrastas.",
+      emptyPrompt: "Sāciet rakstīt, lai atklātu ceļus un vārdus.",
+    },
+    deity: {
+      lore: "Folklora",
+      symbolicCards: "Simbolu kartiņas",
+      materialLegacy: "Materiālais mantojums",
+      sacredGeography: "Svētā ģeogrāfija",
+      clickMarkers: "Nospiediet marķierus, lai skatītu tuvējo folkloru.",
+      pointsOfInterest: "Interesantās vietas",
+      gallery: "Galerija",
+      arrivedViaMap: "Ieradāties caur karti? Izceltā vieta:",
+      none: "nav",
+      highlighted: "Izcelts",
     },
   },
 };

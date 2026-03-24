@@ -4,10 +4,12 @@ import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { deityBySlug } from "@/content/deities";
 import { useSearchParams } from "next/navigation";
+import { useTranslation } from "@/lib/i18n";
 import type { SiteCategory } from "@/types/content";
 
 export function DeityDetailContent({ slug }: { slug: string }) {
   const searchParams = useSearchParams();
+  const { strings } = useTranslation();
   const entry = deityBySlug[slug];
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
 
@@ -83,14 +85,14 @@ export function DeityDetailContent({ slug }: { slug: string }) {
 
       <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
         <div className="glass rounded-3xl p-6">
-          <h2 className="text-2xl font-semibold text-amber-100">Lore</h2>
+          <h2 className="text-2xl font-semibold text-amber-100">{strings.deity.lore}</h2>
           <div className="mt-3 space-y-4 leading-relaxed text-zinc-200 [&>h2]:text-amber-100 [&>h2]:text-xl [&>h3]:text-amber-100 [&>h3]:text-lg">
             <entry.Content />
           </div>
         </div>
         <div className="grid gap-4">
           <div className="glass rounded-3xl p-5">
-            <h3 className="text-lg font-semibold text-amber-100">Symbolic Cards</h3>
+            <h3 className="text-lg font-semibold text-amber-100">{strings.deity.symbolicCards}</h3>
             <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
               {entry.meta.symbols.map((symbol) => (
                 <div
@@ -104,7 +106,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
             </div>
           </div>
           <div className="glass rounded-3xl p-5">
-            <h3 className="text-lg font-semibold text-amber-100">Material Legacy</h3>
+            <h3 className="text-lg font-semibold text-amber-100">{strings.deity.materialLegacy}</h3>
             <ul className="mt-3 space-y-2 text-sm text-zinc-300">
               {entry.meta.materialLegacy.map((item) => (
                 <li key={item} className="flex items-start gap-2">
@@ -120,8 +122,8 @@ export function DeityDetailContent({ slug }: { slug: string }) {
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
         <div>
           <div className="flex items-center justify-between">
-            <h3 className="text-2xl font-semibold text-amber-100">Sacred Geography</h3>
-            <p className="text-sm text-zinc-400">Click markers to view nearby lore.</p>
+            <h3 className="text-2xl font-semibold text-amber-100">{strings.deity.sacredGeography}</h3>
+            <p className="text-sm text-zinc-400">{strings.deity.clickMarkers}</p>
           </div>
           <div className="mt-3">
             <SacredMap
@@ -134,7 +136,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           </div>
         </div>
         <aside className="glass flex flex-col gap-3 rounded-3xl p-5">
-          <h4 className="text-lg font-semibold text-amber-100">Points of Interest</h4>
+          <h4 className="text-lg font-semibold text-amber-100">{strings.deity.pointsOfInterest}</h4>
           {visibleLocations.map((loc) => {
             const isHighlighted = loc.id === selectedLocationId;
             return (
@@ -161,7 +163,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
       </div>
 
       <div className="glass rounded-3xl p-6">
-        <h3 className="text-2xl font-semibold text-amber-100">Gallery</h3>
+        <h3 className="text-2xl font-semibold text-amber-100">{strings.deity.gallery}</h3>
         <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-3">
           {entry.meta.gallery.map((item) => (
             <div
@@ -177,7 +179,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
       </div>
 
       <div className="rounded-3xl border border-white/10 bg-gradient-to-r from-black/70 via-zinc-900/50 to-black/70 px-6 py-6 text-center text-sm text-zinc-300">
-        Arrived via map? Highlighted location: {selectedLocation?.name ?? "none"}.
+        {strings.deity.arrivedViaMap} {selectedLocation?.name ?? strings.deity.none}.
       </div>
     </div>
   );

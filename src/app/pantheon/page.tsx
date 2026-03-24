@@ -60,7 +60,7 @@ export default function PantheonPage() {
                   : "border-white/15 bg-white/5 text-zinc-300 hover:border-amber-200/30"
               }`}
             >
-              All
+              {strings.pantheon.all}
             </button>
             {domainOrder.map((item) => (
               <button
@@ -80,7 +80,7 @@ export default function PantheonPage() {
         </div>
         <div className="mt-6 rounded-2xl border border-white/10 bg-gradient-to-r from-emerald-900/30 to-black/60 p-4 text-sm text-zinc-200">
           <p className="italic text-amber-100">“{strings.pantheon.quote}”</p>
-          <p className="mt-2 text-zinc-400">— Field archivist’s note</p>
+          <p className="mt-2 text-zinc-400">{strings.pantheon.archivistNote}</p>
         </div>
       </aside>
 
@@ -90,10 +90,10 @@ export default function PantheonPage() {
             {strings.pantheon.title}
           </p>
           <h1 className="text-4xl font-semibold text-amber-50">
-            Editorial Ledger
+            {strings.pantheon.editorialLedger}
           </h1>
           <p className="text-zinc-300">
-            {filtered.length} figures archived · {domain ?? "All"} domains
+            {filtered.length} {strings.pantheon.figuresArchived} · {domain ?? strings.pantheon.all} {strings.pantheon.domains}
           </p>
         </div>
         <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

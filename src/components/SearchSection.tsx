@@ -60,7 +60,7 @@ export function SearchSection() {
       <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">
         <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg text-amber-100">Deities</h3>
+            <h3 className="text-lg text-amber-100">{strings.search.deities}</h3>
             <span className="text-xs text-zinc-400">{deityMatches.length}</span>
           </div>
           <div className="mt-3 space-y-3">
@@ -80,18 +80,18 @@ export function SearchSection() {
               </Link>
             ))}
             {!empty && deityMatches.length === 0 && (
-              <p className="text-sm text-zinc-400">No deities found.</p>
+              <p className="text-sm text-zinc-400">{strings.search.noDeities}</p>
             )}
             {empty && (
               <p className="text-sm text-zinc-400">
-                Start typing to reveal paths and names.
+                {strings.search.emptyPrompt}
               </p>
             )}
           </div>
         </div>
         <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-lg text-amber-100">Locations</h3>
+            <h3 className="text-lg text-amber-100">{strings.search.locations}</h3>
             <span className="text-xs text-zinc-400">{locationMatches.length}</span>
           </div>
           <div className="mt-3 space-y-3">
@@ -109,7 +109,7 @@ export function SearchSection() {
               </Link>
             ))}
             {!empty && locationMatches.length === 0 && (
-              <p className="text-sm text-zinc-400">No locations found.</p>
+              <p className="text-sm text-zinc-400">{strings.search.noLocations}</p>
             )}
           </div>
         </div>
