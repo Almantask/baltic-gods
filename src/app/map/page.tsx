@@ -149,7 +149,7 @@ export default function MapPage() {
                 <p className="text-zinc-400">{selectedLocation.significance}</p>
               </div>
             ) : (
-              <p className="mt-2 text-zinc-400">Select a marker to view details.</p>
+              <p className="mt-2 text-zinc-400">{strings.map.selectMarker}</p>
             )}
           </div>
         </aside>

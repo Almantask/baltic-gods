@@ -253,7 +253,7 @@ export function SacredMap({
             type="button"
             onClick={() => setLegendCollapsed((prev) => !prev)}
             aria-expanded={!legendCollapsed}
-            aria-label={legendCollapsed ? "Show legend" : "Hide legend"}
+            aria-label={legendCollapsed ? strings.map.showLegend : strings.map.hideLegend}
             className="flex items-center gap-1 px-2 py-1.5 text-[0.6rem] text-zinc-300 hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
           >
             <svg
@@ -264,7 +264,7 @@ export function SacredMap({
             >
               <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
             </svg>
-            Legend
+            {strings.map.legendToggle}
           </button>
           {!legendCollapsed && (
             <div className="flex flex-col gap-1 px-2 pb-1.5">
@@ -287,7 +287,7 @@ export function SacredMap({
                       style={{ backgroundColor: color }}
                     />
                     <span className="text-[0.6rem] leading-tight text-zinc-300">
-                      {category}
+                      {strings.map.categories[category]}
                     </span>
                   </button>
                 );
