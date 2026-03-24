@@ -166,7 +166,7 @@ export default function FieldReportPage() {
                 {strings.field.mapCta}
               </p>
               <p className="text-zinc-100">
-                Double-tap on the map below when on site; or paste coordinates above.
+                {strings.field.mapInstruction}
               </p>
             </div>
           </div>

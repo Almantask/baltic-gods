@@ -18,10 +18,10 @@ export default function StoriesPage() {
           {strings.stories.title}
         </p>
         <h1 className="text-4xl font-semibold text-amber-50">
-          Legends &amp; Tales
+          {strings.stories.legendsAndTales}
         </h1>
         <p className="text-zinc-300">
-          {filtered.length} {filtered.length === 1 ? "story" : "stories"} found
+          {filtered.length} {filtered.length === 1 ? strings.stories.storyFound : strings.stories.storiesFound}
         </p>
       </div>
 

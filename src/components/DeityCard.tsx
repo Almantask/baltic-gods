@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import clsx from "clsx";
 import type { DeityMeta } from "@/types/content";
+import { useTranslation } from "@/lib/i18n";
 
 interface Props {
   deity: DeityMeta;
@@ -9,6 +12,7 @@ interface Props {
 }
 
 export function DeityCard({ deity, highlight, size = "md" }: Props) {
+  const { strings } = useTranslation();
   const sizeClass =
     size === "lg"
       ? "min-h-[360px]"
@@ -47,7 +51,7 @@ export function DeityCard({ deity, highlight, size = "md" }: Props) {
           <p className="mt-3 max-w-lg text-sm text-zinc-300">{deity.summary}</p>
           {highlight && (
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-amber-300/20 px-3 py-1 text-xs text-amber-50">
-              Highlighted
+              {strings.deity.highlighted}
             </div>
           )}
         </div>
