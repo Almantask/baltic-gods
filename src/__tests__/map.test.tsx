@@ -90,6 +90,7 @@ describe("Map page", () => {
 
     // Simulate geolocation returning coords near Aukštaitija Thunder Oaks (55.3, 26.0)
     await act(async () => {
+      expect(geoSuccessCallback).not.toBeNull();
       geoSuccessCallback!({
         coords: { latitude: 55.3, longitude: 26.0 },
       } as GeolocationPosition);
@@ -111,6 +112,7 @@ describe("Map page", () => {
 
     // Provide position far from any location to filter everything
     await act(async () => {
+      expect(geoSuccessCallback).not.toBeNull();
       geoSuccessCallback!({
         coords: { latitude: 0, longitude: 0 },
       } as GeolocationPosition);
