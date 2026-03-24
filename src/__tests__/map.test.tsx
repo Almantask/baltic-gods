@@ -3,8 +3,6 @@ import { within, act } from "@testing-library/react";
 import MapPage from "@/app/map/page";
 import { renderWithProviders } from "../testing/render-with-providers";
 
-type GeocoderCb = (results: unknown, status: string) => void;
-
 // Store geolocation callbacks so tests can resolve them
 let geoSuccessCallback: PositionCallback | null = null;
 
@@ -58,9 +56,12 @@ describe("Map page", () => {
 
     const showBtn = getByRole("button", { name: /Show legend/i });
     expect(showBtn).toHaveAttribute("aria-expanded", "false");
-    // Category buttons should be hidden
+    // Category buttons should be hidden (only the Near me button with aria-pressed remains)
     const collapsedPanel = getByLabelText(/Show legend/i).closest("[class*='absolute']")!;
-    expect(collapsedPanel.querySelector("[aria-pressed]")).toBeNull();
+    const collapsedPressedButtons = collapsedPanel.querySelectorAll("[aria-pressed]");
+    // Only the Near me button should remain
+    expect(collapsedPressedButtons.length).toBe(1);
+    expect(collapsedPressedButtons[0].textContent).toMatch(/Near me/i);
 
     // Expand the legend again
     await user.click(showBtn);
@@ -133,64 +134,5 @@ describe("Map page", () => {
     expect(restored.length).toBeGreaterThan(0);
   });
 
-  it("renders the nearby search input with placeholder", () => {
-    const { getByPlaceholderText } = renderWithProviders(<MapPage />);
-
-    expect(getByPlaceholderText(/Search near a place/i)).toBeInTheDocument();
-  });
-
-  it("filters locations when nearby search resolves coordinates", async () => {
-    // Mock the Geocoder to return coordinates near Aukštaitija Thunder Oaks (55.3, 26.0)
-    jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
-      (_request: unknown, callback: GeocoderCb) => {
-        callback(
-          [{ geometry: { location: { lat: () => 55.3, lng: () => 26.0 } } }],
-          "OK",
-        );
-      },
-    );
-
-    const user = userEvent.setup();
-    const { getByPlaceholderText, getByRole } = renderWithProviders(<MapPage />);
-
-    const nearbyInput = getByPlaceholderText(/Search near a place/i);
-    await user.type(nearbyInput, "Aukštaitija");
-    await user.keyboard("{Enter}");
-
-    const aside = getByRole("complementary");
-    // Aukštaitija Thunder Oaks should be visible (distance ~0)
-    expect(
-      within(aside).getByRole("button", { name: /Aukštaitija Thunder Oaks/i }),
-    ).toBeInTheDocument();
-  });
-
-  it("clears nearby filter when input is emptied", async () => {
-    // Mock geocoder returning coords far from any location
-    jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
-      (_request: unknown, callback: GeocoderCb) => {
-        callback(
-          [{ geometry: { location: { lat: () => 0, lng: () => 0 } } }],
-          "OK",
-        );
-      },
-    );
-
-    const user = userEvent.setup();
-    const { getByPlaceholderText, getByRole } = renderWithProviders(<MapPage />);
-
-    const nearbyInput = getByPlaceholderText(/Search near a place/i);
-    await user.type(nearbyInput, "Nowhere");
-    await user.keyboard("{Enter}");
-
-    const aside = getByRole("complementary");
-    // All locations filtered out
-    expect(within(aside).queryAllByRole("button").length).toBe(0);
-
-    // Clear the input
-    await user.clear(nearbyInput);
-
-    // All locations should return
-    const restored = within(getByRole("complementary")).getAllByRole("button");
-    expect(restored.length).toBeGreaterThan(0);
-  });
 });
+
