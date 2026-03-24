@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
@@ -34,12 +34,7 @@ export default function MapPage() {
   }, []);
 
   const selectedLocation = visibleLocations.find((loc) => loc.id === selected);
-
-  useEffect(() => {
-    if (selected !== undefined && !visibleLocations.some((loc) => loc.id === selected)) {
-      setSelected(undefined);
-    }
-  }, [visibleLocations, selected]);
+  const effectiveSelected = selectedLocation ? selected : undefined;
 
   return (
     <div className="space-y-6">
@@ -64,7 +59,7 @@ export default function MapPage() {
           </label>
           <SacredMap
             locations={filtered}
-            selectedLocationId={selected}
+            selectedLocationId={effectiveSelected}
             onSelect={(loc) => setSelected(loc.id)}
             allowNavigate
             hiddenCategories={hiddenCategories}
@@ -83,7 +78,7 @@ export default function MapPage() {
                   type="button"
                   onClick={() => setSelected(loc.id)}
                   className={`flex w-full items-start justify-between rounded-xl border px-3 py-2 text-left transition ${
-                    selected === loc.id
+                    effectiveSelected === loc.id
                       ? "border-amber-200/50 bg-amber-200/10"
                       : "border-white/10 bg-black/30 hover:border-amber-200/30"
                   }`}

@@ -1,12 +1,39 @@
 "use client";
 
+import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { deityBySlug } from "@/content/deities";
 import { useSearchParams } from "next/navigation";
+import type { SiteCategory } from "@/types/content";
 
 export function DeityDetailContent({ slug }: { slug: string }) {
   const searchParams = useSearchParams();
   const entry = deityBySlug[slug];
+  const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
+
+  const toggleCategory = useCallback((category: SiteCategory) => {
+    setHiddenCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(category)) {
+        next.delete(category);
+      } else {
+        next.add(category);
+      }
+      return next;
+    });
+  }, []);
+
+  const locations = entry?.meta.locations;
+
+  const visibleLocations = useMemo(
+    () => {
+      if (!locations) return [];
+      return hiddenCategories.size === 0
+        ? locations
+        : locations.filter((loc) => !hiddenCategories.has(loc.siteType));
+    },
+    [locations, hiddenCategories],
+  );
 
   if (!entry) {
     return null;
@@ -101,12 +128,14 @@ export function DeityDetailContent({ slug }: { slug: string }) {
               locations={entry.meta.locations}
               selectedLocationId={selectedLocation?.id}
               allowNavigate={false}
+              hiddenCategories={hiddenCategories}
+              onToggleCategory={toggleCategory}
             />
           </div>
         </div>
         <aside className="glass flex flex-col gap-3 rounded-3xl p-5">
           <h4 className="text-lg font-semibold text-amber-100">Points of Interest</h4>
-          {entry.meta.locations.map((loc) => {
+          {visibleLocations.map((loc) => {
             const isHighlighted = loc.id === selectedLocationId;
             return (
               <div

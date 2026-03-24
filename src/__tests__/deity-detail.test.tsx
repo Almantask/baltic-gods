@@ -1,3 +1,5 @@
+import userEvent from "@testing-library/user-event";
+import { within } from "@testing-library/react";
 import { DeityDetailContent } from "@/app/pantheon/[slug]/DeityDetailContent";
 import { deities, deityBySlug } from "@/content/deities";
 import { renderWithProviders } from "../testing/render-with-providers";
@@ -55,5 +57,42 @@ describe("Deity detail page", () => {
       <DeityDetailContent slug="perkunas" />,
     );
     expect(getAllByText(firstLocation.name).length).toBeGreaterThan(0);
+  });
+
+  it("filters location entries when toggling legend categories", async () => {
+    const user = userEvent.setup();
+    const entry = deityBySlug["perkunas"];
+    const { getByRole, getByText } = renderWithProviders(
+      <DeityDetailContent slug="perkunas" />,
+    );
+
+    // Both locations should be visible initially
+    for (const loc of entry.meta.locations) {
+      expect(getByText(loc.name)).toBeInTheDocument();
+    }
+
+    // Find the "Sacred groves" legend button and click it to hide that category
+    const legendButton = getByRole("button", { name: /Sacred groves/i });
+    expect(legendButton).toHaveAttribute("aria-pressed", "true");
+    await user.click(legendButton);
+    expect(legendButton).toHaveAttribute("aria-pressed", "false");
+
+    // The "Sacred groves" location should be hidden from Points of Interest
+    const sacredGroveLoc = entry.meta.locations.find(
+      (l) => l.siteType === "Sacred groves",
+    )!;
+    const aside = getByRole("complementary");
+    expect(within(aside).queryByText(sacredGroveLoc.name)).toBeNull();
+
+    // The "Ritual stones" location should still be visible
+    const ritualStoneLoc = entry.meta.locations.find(
+      (l) => l.siteType === "Ritual stones",
+    )!;
+    expect(within(aside).getByText(ritualStoneLoc.name)).toBeInTheDocument();
+
+    // Re-enable the category
+    await user.click(legendButton);
+    expect(legendButton).toHaveAttribute("aria-pressed", "true");
+    expect(within(aside).getByText(sacredGroveLoc.name)).toBeInTheDocument();
   });
 });
