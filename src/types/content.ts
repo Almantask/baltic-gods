@@ -1,6 +1,6 @@
 import type { JSX } from "react";
 
-export type Domain = "Celestial" | "Forest" | "Water" | "Earth";
+export type Domain = "God" | "Creature" | "Person";
 
 export type Language = "en" | "lt" | "lv";
 

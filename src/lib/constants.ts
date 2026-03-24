@@ -1,10 +1,9 @@
 import type { Domain, SiteCategory } from "@/types/content";
 
 export const domainPalette: Record<Domain, string> = {
-  Celestial: "#d6a74f",
-  Forest: "#6a8b6b",
-  Water: "#7bb4d1",
-  Earth: "#9bb07a",
+  God: "#d6a74f",
+  Creature: "#6a8b6b",
+  Person: "#7bb4d1",
 };
 
 export const locationCategories: Record<SiteCategory, string> = {

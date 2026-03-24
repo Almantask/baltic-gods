@@ -6,7 +6,7 @@ import { useTranslation } from "@/lib/i18n";
 import { filterDeities } from "@/lib/search";
 import type { Domain } from "@/types/content";
 
-const domainOrder: Domain[] = ["Celestial", "Forest", "Water", "Earth"];
+const domainOrder: Domain[] = ["God", "Creature", "Person"];
 
 export default function PantheonPage() {
   const { strings } = useTranslation();
