@@ -40,6 +40,8 @@ const translations = {
       nearbyPlaceholder: "Search near a place…",
       zoomIn: "Zoom in",
       zoomOut: "Zoom out",
+      fullscreen: "Fullscreen",
+      exitFullscreen: "Exit fullscreen",
     },
     field: {
       title: "Offer Your Wisdom",
@@ -99,6 +101,8 @@ const translations = {
       nearbyPlaceholder: "Ieškoti šalia vietos…",
       zoomIn: "Priartinti",
       zoomOut: "Atitolinti",
+      fullscreen: "Visas ekranas",
+      exitFullscreen: "Išeiti iš viso ekrano",
     },
     field: {
       title: "Padovanokite išmintį",
@@ -158,6 +162,8 @@ const translations = {
       nearbyPlaceholder: "Meklēt pie vietas…",
       zoomIn: "Pietuvināt",
       zoomOut: "Attālināt",
+      fullscreen: "Pilnekrāns",
+      exitFullscreen: "Iziet no pilnekrāna",
     },
     field: {
       title: "Sniedziet gudrību",
