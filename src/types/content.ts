@@ -58,3 +58,16 @@ export interface DeityEntry {
   meta: DeityMeta;
   Content: (props: Record<string, unknown>) => JSX.Element;
 }
+
+export interface StoryMeta {
+  slug: string;
+  title: string;
+  summary: string;
+  content: string;
+  beings: string[];
+  locations: string[];
+}
+
+export interface StoryEntry {
+  meta: StoryMeta;
+}

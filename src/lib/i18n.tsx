@@ -8,7 +8,7 @@ type Dictionary = typeof translations.en;
 const translations = {
   en: {
     languageLabel: "English",
-    nav: { home: "Home", pantheon: "Pantheon", map: "Map", field: "Field Report" },
+    nav: { home: "Home", pantheon: "Pantheon", map: "Map", field: "Field Report", stories: "Stories" },
     home: {
       heroTitle: "Baltic Ethos: The Ancient Paths",
       subtitle: "Whispers in amber light, storms over moss, and every ley line between the Baltic pines.",
@@ -29,6 +29,14 @@ const translations = {
       filters: "Domains",
       quote: "Every oak, dune, and hearth is a margin where gods have written in light.",
       searchPlaceholder: "Search names or symbols",
+    },
+    stories: {
+      title: "Stories",
+      intro: "Legends and tales from the Baltic mythological tradition.",
+      searchPlaceholder: "Search by keyword",
+      readMore: "Read story",
+      beings: "Beings",
+      locations: "Locations",
     },
     map: {
       title: "Sacred Map",
@@ -70,7 +78,7 @@ const translations = {
   },
   lt: {
     languageLabel: "Lietuvių",
-    nav: { home: "Pradžia", pantheon: "Panteonas", map: "Žemėlapis", field: "Lauko įrašas" },
+    nav: { home: "Pradžia", pantheon: "Panteonas", map: "Žemėlapis", field: "Lauko įrašas", stories: "Pasakojimai" },
     home: {
       heroTitle: "Baltų etosas: senieji keliai",
       subtitle: "Gintaro šviesos kuždesiai, samanos audros ir visos linijos tarp Baltijos pušų.",
@@ -91,6 +99,14 @@ const translations = {
       filters: "Sritys",
       quote: "Kiekvienas ąžuolas, kopa ir židinys – paraštė, kur dievai rašė šviesa.",
       searchPlaceholder: "Ieškoti vardų ar simbolių",
+    },
+    stories: {
+      title: "Pasakojimai",
+      intro: "Legendos ir pasakojimai iš baltų mitologinės tradicijos.",
+      searchPlaceholder: "Ieškoti pagal raktažodį",
+      readMore: "Skaityti pasakojimą",
+      beings: "Būtybės",
+      locations: "Vietos",
     },
     map: {
       title: "Šventas žemėlapis",
@@ -132,7 +148,7 @@ const translations = {
   },
   lv: {
     languageLabel: "Latviešu",
-    nav: { home: "Sākums", pantheon: "Panteons", map: "Karte", field: "Lauka ziņojums" },
+    nav: { home: "Sākums", pantheon: "Panteons", map: "Karte", field: "Lauka ziņojums", stories: "Stāsti" },
     home: {
       heroTitle: "Baltu ētoss: senie ceļi",
       subtitle: "Dzintara gaismas čuksti, sūnainas vētras un visas līnijas starp Baltijas priedēm.",
@@ -153,6 +169,14 @@ const translations = {
       filters: "Sfēras",
       quote: "Katrs ozols, kāpa un pavards ir mala, kur dievi rakstīja ar gaismu.",
       searchPlaceholder: "Meklēt vārdus vai simbolus",
+    },
+    stories: {
+      title: "Stāsti",
+      intro: "Leģendas un stāsti no baltu mitoloģiskās tradīcijas.",
+      searchPlaceholder: "Meklēt pēc atslēgvārda",
+      readMore: "Lasīt stāstu",
+      beings: "Būtnes",
+      locations: "Vietas",
     },
     map: {
       title: "Svētā karte",

@@ -63,3 +63,36 @@ for (const deity of deities) {
     await expect(page.locator("h1")).toHaveText(deity.name);
   });
 }
+
+test("stories page", async ({ page }) => {
+  await page.goto("/stories");
+  await expect(page.locator("h1")).toBeVisible();
+  await page.screenshot({
+    path: `${screenshotDir}/stories.png`,
+    fullPage: true,
+  });
+});
+
+test("story detail page", async ({ page }) => {
+  await page.goto("/stories/thunder-oak-of-perkunas");
+  await expect(page.locator("h1")).toHaveText(
+    "The Thunder Oak of Perkūnas",
+  );
+  await page.screenshot({
+    path: `${screenshotDir}/story-detail.png`,
+    fullPage: true,
+  });
+});
+
+test("navigate from stories to story detail", async ({ page }) => {
+  await page.goto("/stories");
+  await expect(page.locator("h1")).toBeVisible();
+
+  await page
+    .locator('a[href="/stories/thunder-oak-of-perkunas"]')
+    .click();
+  await expect(page).toHaveURL(/\/stories\/thunder-oak-of-perkunas/);
+  await expect(page.locator("h1")).toHaveText(
+    "The Thunder Oak of Perkūnas",
+  );
+});
