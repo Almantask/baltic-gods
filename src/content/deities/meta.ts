@@ -3,7 +3,7 @@ import type { DeityMeta } from "@/types/content";
 export const perkunasMeta: DeityMeta = {
   slug: "perkunas",
   name: "Perkūnas",
-  domain: "Celestial",
+  domain: "God",
   epithet: "Thunder that cleaves the canopy",
   summary:
     "Lightning keeps time with the oaks while iron-etched prayers echo over hills and lake skin.",
@@ -63,7 +63,7 @@ export const perkunasMeta: DeityMeta = {
 export const sauleMeta: DeityMeta = {
   slug: "saule",
   name: "Saulė",
-  domain: "Celestial",
+  domain: "God",
   epithet: "Amber wheel of morning",
   summary: "The sun-mother rides a burning sledge over marsh mist, pouring warmth into flax fields.",
   heroImage:
@@ -123,7 +123,7 @@ export const sauleMeta: DeityMeta = {
 export const laimaMeta: DeityMeta = {
   slug: "laima",
   name: "Laima",
-  domain: "Forest",
+  domain: "Person",
   epithet: "Weaver of fates at the spring edge",
   summary:
     "Destiny is braided quietly where birch bark curls, and choices are tied with river flax.",
@@ -183,7 +183,7 @@ export const laimaMeta: DeityMeta = {
 export const zemynaMeta: DeityMeta = {
   slug: "zemyna",
   name: "Žemyna",
-  domain: "Earth",
+  domain: "God",
   epithet: "Breath of fertile soil",
   summary: "She keeps the pulse under rye fields and moss, waking seeds with heavy patience.",
   heroImage:
@@ -242,7 +242,7 @@ export const zemynaMeta: DeityMeta = {
 export const velniasMeta: DeityMeta = {
   slug: "velnias",
   name: "Velnias",
-  domain: "Forest",
+  domain: "Creature",
   epithet: "Keeper of hollows and bargains",
   summary:
     "A horned shadow in marsh fog, guiding wanderers who pay respect and misguiding those who mock.",
@@ -302,7 +302,7 @@ export const velniasMeta: DeityMeta = {
 export const austejaMeta: DeityMeta = {
   slug: "austeja",
   name: "Austėja",
-  domain: "Forest",
+  domain: "Creature",
   epithet: "Mistress of bees and blooming edges",
   summary:
     "She hums in the timberline, swarming over hollow lindens and calming storms with honeyed smoke.",
@@ -364,7 +364,7 @@ export const austejaMeta: DeityMeta = {
 export const menulisMeta: DeityMeta = {
   slug: "menulis",
   name: "Mėnulis",
-  domain: "Celestial",
+  domain: "God",
   epithet: "Keeper of nocturnal crossings",
   summary: "Silver light on river bends marks the routes of wanderers and wolves alike.",
   heroImage:
@@ -423,7 +423,7 @@ export const menulisMeta: DeityMeta = {
 export const dievasMeta: DeityMeta = {
   slug: "dievas",
   name: "Dievas",
-  domain: "Celestial",
+  domain: "God",
   epithet: "High stillness above the pines",
   summary: "A distant, patient presence felt in the pause between wind gusts and bell chimes.",
   heroImage:
@@ -483,7 +483,7 @@ export const dievasMeta: DeityMeta = {
 export const gabijaMeta: DeityMeta = {
   slug: "gabija",
   name: "Gabija",
-  domain: "Earth",
+  domain: "Person",
   epithet: "Ember in the hearth",
   summary: "She curls in coals, guarding thresholds and keeping homes knit together with heat.",
   heroImage:
@@ -542,7 +542,7 @@ export const gabijaMeta: DeityMeta = {
 export const bangputysMeta: DeityMeta = {
   slug: "bangputys",
   name: "Bangpūtys",
-  domain: "Water",
+  domain: "Creature",
   epithet: "Two-faced wind of the Baltic",
   summary:
     "His cheeks hold both roar and lull; fishermen watch his mood in the curl of grass and wave.",
@@ -603,7 +603,7 @@ export const bangputysMeta: DeityMeta = {
 export const medineMeta: DeityMeta = {
   slug: "medine",
   name: "Medinė",
-  domain: "Forest",
+  domain: "Creature",
   epithet: "Lady of bark and shadow",
   summary:
     "She is the hush inside spruce trunks, guiding woodcutters who step softly and warning those who rush.",
