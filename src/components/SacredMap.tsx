@@ -253,7 +253,7 @@ export function SacredMap({
             type="button"
             onClick={() => setLegendCollapsed((prev) => !prev)}
             aria-expanded={!legendCollapsed}
-            aria-label={legendCollapsed ? "Show legend" : "Hide legend"}
+            aria-label={legendCollapsed ? strings.map.showLegend : strings.map.hideLegend}
             className="flex items-center gap-1 px-2 py-1.5 text-[0.6rem] text-zinc-300 hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
           >
             <svg
@@ -287,7 +287,7 @@ export function SacredMap({
                       style={{ backgroundColor: color }}
                     />
                     <span className="text-[0.6rem] leading-tight text-zinc-300">
-                      {category}
+                      {strings.map.categories[category]}
                     </span>
                   </button>
                 );
