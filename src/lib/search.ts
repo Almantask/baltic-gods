@@ -1,5 +1,6 @@
 import { allLocations, deities } from "@/content/deities";
-import type { DeityEntry, Domain } from "@/types/content";
+import { stories } from "@/content/stories";
+import type { DeityEntry, Domain, StoryEntry } from "@/types/content";
 
 const normalize = (value: string) => value.toLowerCase().trim();
 
@@ -34,4 +35,16 @@ export function searchLocations(query?: string) {
 
 export function getDeity(slug: string): DeityEntry | undefined {
   return deities.find((entry) => entry.meta.slug === slug);
+}
+
+export function filterStories(query?: string): StoryEntry[] {
+  const normalized = normalize(query ?? "");
+  if (!normalized) return stories;
+  return stories.filter((entry) => {
+    return (
+      entry.meta.title.toLowerCase().includes(normalized) ||
+      entry.meta.summary.toLowerCase().includes(normalized) ||
+      entry.meta.content.toLowerCase().includes(normalized)
+    );
+  });
 }
