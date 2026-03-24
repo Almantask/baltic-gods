@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import { DeityCard } from "@/components/DeityCard";
-import { SacredMap } from "@/components/SacredMap";
-import { SearchSection } from "@/components/SearchSection";
 import { allLocations, deities } from "@/content/deities";
 import { useTranslation } from "@/lib/i18n";
 
@@ -15,6 +13,7 @@ export default function Home() {
   const featured = deities.filter((d) =>
     ["perkunas", "saule", "laima"].includes(d.meta.slug),
   );
+  const featuredLocations = allLocations.slice(0, 4);
 
   return (
     <div className="flex flex-col gap-12">
@@ -29,10 +28,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/70" />
         <div className="relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-3xl">
-            <p className="text-sm uppercase tracking-[0.3em] text-amber-200">
-              Baltic Gods
-            </p>
-            <h1 className="mt-4 text-5xl font-semibold text-amber-50 sm:text-6xl lg:text-7xl">
+            <h1 className="text-5xl font-semibold text-amber-50 sm:text-6xl lg:text-7xl">
               {strings.home.heroTitle}
             </h1>
             <p className="mt-4 max-w-2xl text-xl italic text-zinc-200">
@@ -62,45 +58,47 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
-        <div>
-          <p className="text-sm uppercase tracking-[0.28em] text-amber-200">
-            {strings.home.featured}
-          </p>
-          <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
-            {featured.map((entry, idx) => (
-              <DeityCard
-                key={entry.meta.slug}
-                deity={entry.meta}
-                size={idx === 0 ? "lg" : "md"}
-                highlight={idx === 0}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="rounded-3xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-6 shadow-xl">
-          <h3 className="text-2xl font-semibold text-amber-100">
-            {strings.home.atlas}
-          </h3>
-          <p className="mt-2 text-sm text-zinc-200">
-            Amber markers glow where ley lines surface between Lithuania and Latvia.
-          </p>
-          <div className="mt-4">
-            <SacredMap locations={allLocations.slice(0, 6)} compact />
-          </div>
+      <section>
+        <p className="text-sm uppercase tracking-[0.28em] text-amber-200">
+          {strings.home.featured}
+        </p>
+        <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          {featured.map((entry, idx) => (
+            <DeityCard
+              key={entry.meta.slug}
+              deity={entry.meta}
+              size={idx === 0 ? "lg" : "md"}
+              highlight={idx === 0}
+            />
+          ))}
         </div>
       </section>
 
-      <SearchSection />
-
-      <footer className="rounded-3xl border border-white/10 bg-gradient-to-r from-black/70 via-zinc-900/60 to-black/70 px-8 py-10 text-center shadow-2xl">
-        <p className="text-sm uppercase tracking-[0.3em] text-amber-200">
-          {strings.footer.closing}
+      <section>
+        <p className="text-sm uppercase tracking-[0.28em] text-amber-200">
+          {strings.home.featuredLocations}
         </p>
-        <p className="mt-3 text-lg text-zinc-200">
-          Ceremony lives in every step between dune and pine. Return often; maps shift with mist.
-        </p>
-      </footer>
+        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {featuredLocations.map((loc) => (
+            <Link
+              key={loc.id}
+              href={`/pantheon/${loc.deity}?loc=${loc.id}`}
+              className="group rounded-2xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-5 shadow-lg transition hover:border-amber-200/30"
+            >
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-amber-300/80">
+                {loc.siteType}
+              </span>
+              <h3 className="mt-1 text-lg font-semibold text-amber-50 group-hover:text-amber-200 transition">
+                {loc.name}
+              </h3>
+              <p className="mt-1 text-xs text-zinc-400">{loc.region}</p>
+              <p className="mt-2 line-clamp-2 text-sm text-zinc-300">
+                {loc.description}
+              </p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
