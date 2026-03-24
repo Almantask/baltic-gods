@@ -134,5 +134,21 @@ describe("Map page", () => {
     expect(restored.length).toBeGreaterThan(0);
   });
 
+  it("renders fullscreen toggle button and calls requestFullscreen on click", async () => {
+    const user = userEvent.setup();
+    const { getByRole } = renderWithProviders(<MapPage />);
+
+    const fullscreenBtn = getByRole("button", { name: /Fullscreen/i });
+    expect(fullscreenBtn).toBeInTheDocument();
+
+    // Mock requestFullscreen on the container element
+    const container = fullscreenBtn.closest(".sacred-map-container")!;
+    container.requestFullscreen = jest.fn().mockResolvedValue(undefined);
+
+    await user.click(fullscreenBtn);
+
+    expect(container.requestFullscreen).toHaveBeenCalledTimes(1);
+  });
+
 });
 

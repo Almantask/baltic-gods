@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
@@ -69,7 +69,26 @@ export function SacredMap({
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [hiddenCategoriesInternal, setHiddenCategoriesInternal] = useState<Set<SiteCategory>>(new Set());
   const [legendCollapsed, setLegendCollapsed] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(document.fullscreenElement === containerRef.current);
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
+  }, []);
+
+  const toggleFullscreen = useCallback(() => {
+    if (!containerRef.current) return;
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      containerRef.current.requestFullscreen();
+    }
+  }, []);
 
   const isControlled = hiddenCategoriesProp !== undefined;
   const hiddenCategories = isControlled ? hiddenCategoriesProp : hiddenCategoriesInternal;
@@ -162,9 +181,10 @@ export function SacredMap({
 
   return (
     <div
+      ref={containerRef}
       className={clsx(
-        "relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl",
-        compact ? "h-80" : "h-[520px]",
+        "sacred-map-container relative overflow-hidden border border-white/10 shadow-2xl",
+        isFullscreen ? "h-full w-full" : compact ? "h-80 rounded-3xl" : "h-[520px] rounded-3xl",
       )}
     >
       <GoogleMap
@@ -299,6 +319,24 @@ export function SacredMap({
             </button>
           )}
         </div>
+      )}
+      {!compact && (
+        <button
+          type="button"
+          onClick={toggleFullscreen}
+          aria-label={isFullscreen ? strings.map.exitFullscreen : strings.map.fullscreen}
+          className="absolute right-3 top-3 flex items-center justify-center rounded-xl border border-white/10 bg-black/70 p-2 text-zinc-300 backdrop-blur hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
+        >
+          {isFullscreen ? (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+              <path fillRule="evenodd" d="M3.28 2.22a.75.75 0 0 0-1.06 1.06L5.44 6.5H2.75a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 0-1.5 0v2.69L3.28 2.22ZM16.72 2.22a.75.75 0 0 1 1.06 1.06L14.56 6.5h2.69a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 1 1.5 0v2.69l3.22-3.22ZM3.28 17.78a.75.75 0 0 1-1.06-1.06L5.44 13.5H2.75a.75.75 0 0 1 0-1.5h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0v-2.69l-3.22 3.22ZM16.72 17.78a.75.75 0 0 0 1.06-1.06L14.56 13.5h2.69a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.5 0v-2.69l3.22 3.22Z" clipRule="evenodd" />
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+              <path fillRule="evenodd" d="M4.25 2A2.25 2.25 0 0 0 2 4.25v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 1 .75-.75h2a.75.75 0 0 0 0-1.5h-2ZM13.75 2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 1 .75.75v2a.75.75 0 0 0 1.5 0v-2A2.25 2.25 0 0 0 15.75 2h-2ZM3.5 13.75a.75.75 0 0 0-1.5 0v2A2.25 2.25 0 0 0 4.25 18h2a.75.75 0 0 0 0-1.5h-2a.75.75 0 0 1-.75-.75v-2ZM16.5 13.75a.75.75 0 0 1 1.5 0v2A2.25 2.25 0 0 1 15.75 18h-2a.75.75 0 0 1 0-1.5h2a.75.75 0 0 0 .75-.75v-2Z" clipRule="evenodd" />
+            </svg>
+          )}
+        </button>
       )}
     </div>
   );
