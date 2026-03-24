@@ -144,7 +144,7 @@ const translations = {
         "Mythic hills / burial mounds": "Mitiniai kalnai / pilkapiai",
         "Ritual stones": "Ritualiniai akmenys",
         "Springs, rivers, lakes with cult significance": "Šaltiniai, upės, ežerai su kulto reikšme",
-        "\"World tree\" analog sites": "\u201EPasaulio med\u017Eio\u201C analog\u0173 vietos",
+        "\"World tree\" analog sites": "\u201EPasaulio medžio\u201C analogų vietos",
         "Sacrifice / offering sites": "Aukojimo vietos",
         "Hearth cult zones": "Židinio kulto zonos",
         "Seasonal festival locations": "Sezoninių švenčių vietos",
