@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
 import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
+import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint, SiteCategory } from "@/types/content";
 
 const ALL_CATEGORIES = Object.keys(locationCategories) as SiteCategory[];
@@ -47,6 +48,9 @@ interface SacredMapProps {
   allowNavigate?: boolean;
   hiddenCategories?: Set<SiteCategory>;
   onToggleCategory?: (category: SiteCategory) => void;
+  nearMeActive?: boolean;
+  nearMeLoading?: boolean;
+  onNearMeClick?: () => void;
 }
 
 export function SacredMap({
@@ -57,7 +61,11 @@ export function SacredMap({
   allowNavigate = false,
   hiddenCategories: hiddenCategoriesProp,
   onToggleCategory,
+  nearMeActive,
+  nearMeLoading,
+  onNearMeClick,
 }: SacredMapProps) {
+  const { strings } = useTranslation();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [hiddenCategoriesInternal, setHiddenCategoriesInternal] = useState<Set<SiteCategory>>(new Set());
   const [legendCollapsed, setLegendCollapsed] = useState(false);
@@ -267,6 +275,30 @@ export function SacredMap({
             </div>
           )}
         </div>
+      )}
+      {!compact && onNearMeClick && (
+        <button
+          type="button"
+          onClick={onNearMeClick}
+          disabled={nearMeLoading}
+          aria-pressed={nearMeActive}
+          className={clsx(
+            "absolute right-3 top-3 flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs backdrop-blur transition focus:outline-none focus:ring-1 focus:ring-white/20",
+            nearMeActive
+              ? "border-amber-200/50 bg-amber-200/20 text-amber-100"
+              : "border-white/10 bg-black/70 text-zinc-300 hover:bg-white/10",
+          )}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="h-3.5 w-3.5"
+          >
+            <path fillRule="evenodd" d="m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.274 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z" clipRule="evenodd" />
+          </svg>
+          {nearMeLoading ? strings.map.nearMeLoading : strings.map.nearMe}
+        </button>
       )}
     </div>
   );
