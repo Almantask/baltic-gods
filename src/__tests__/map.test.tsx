@@ -3,6 +3,8 @@ import { within, act } from "@testing-library/react";
 import MapPage from "@/app/map/page";
 import { renderWithProviders } from "../testing/render-with-providers";
 
+type GeocoderCb = (results: unknown, status: string) => void;
+
 // Store geolocation callbacks so tests can resolve them
 let geoSuccessCallback: PositionCallback | null = null;
 
@@ -138,7 +140,6 @@ describe("Map page", () => {
   });
 
   it("filters locations when nearby search resolves coordinates", async () => {
-    type GeocoderCb = (results: unknown, status: string) => void;
     // Mock the Geocoder to return coordinates near Aukštaitija Thunder Oaks (55.3, 26.0)
     jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
       (_request: unknown, callback: GeocoderCb) => {
@@ -164,7 +165,6 @@ describe("Map page", () => {
   });
 
   it("clears nearby filter when input is emptied", async () => {
-    type GeocoderCb = (results: unknown, status: string) => void;
     // Mock geocoder returning coords far from any location
     jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
       (_request: unknown, callback: GeocoderCb) => {
