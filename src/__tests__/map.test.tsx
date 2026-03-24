@@ -130,4 +130,67 @@ describe("Map page", () => {
     const restored = within(getByRole("complementary")).getAllByRole("button");
     expect(restored.length).toBeGreaterThan(0);
   });
+
+  it("renders the nearby search input with placeholder", () => {
+    const { getByPlaceholderText } = renderWithProviders(<MapPage />);
+
+    expect(getByPlaceholderText(/Search near a place/i)).toBeInTheDocument();
+  });
+
+  it("filters locations when nearby search resolves coordinates", async () => {
+    type GeocoderCb = (results: unknown, status: string) => void;
+    // Mock the Geocoder to return coordinates near Aukštaitija Thunder Oaks (55.3, 26.0)
+    jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
+      (_request: unknown, callback: GeocoderCb) => {
+        callback(
+          [{ geometry: { location: { lat: () => 55.3, lng: () => 26.0 } } }],
+          "OK",
+        );
+      },
+    );
+
+    const user = userEvent.setup();
+    const { getByPlaceholderText, getByRole } = renderWithProviders(<MapPage />);
+
+    const nearbyInput = getByPlaceholderText(/Search near a place/i);
+    await user.type(nearbyInput, "Aukštaitija");
+    await user.keyboard("{Enter}");
+
+    const aside = getByRole("complementary");
+    // Aukštaitija Thunder Oaks should be visible (distance ~0)
+    expect(
+      within(aside).getByRole("button", { name: /Aukštaitija Thunder Oaks/i }),
+    ).toBeInTheDocument();
+  });
+
+  it("clears nearby filter when input is emptied", async () => {
+    type GeocoderCb = (results: unknown, status: string) => void;
+    // Mock geocoder returning coords far from any location
+    jest.spyOn(google.maps.Geocoder.prototype, "geocode").mockImplementation(
+      (_request: unknown, callback: GeocoderCb) => {
+        callback(
+          [{ geometry: { location: { lat: () => 0, lng: () => 0 } } }],
+          "OK",
+        );
+      },
+    );
+
+    const user = userEvent.setup();
+    const { getByPlaceholderText, getByRole } = renderWithProviders(<MapPage />);
+
+    const nearbyInput = getByPlaceholderText(/Search near a place/i);
+    await user.type(nearbyInput, "Nowhere");
+    await user.keyboard("{Enter}");
+
+    const aside = getByRole("complementary");
+    // All locations filtered out
+    expect(within(aside).queryAllByRole("button").length).toBe(0);
+
+    // Clear the input
+    await user.clear(nearbyInput);
+
+    // All locations should return
+    const restored = within(getByRole("complementary")).getAllByRole("button");
+    expect(restored.length).toBeGreaterThan(0);
+  });
 });

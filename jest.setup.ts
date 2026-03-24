@@ -20,12 +20,26 @@ Object.defineProperty(globalThis, "google", {
     maps: {
       SymbolPath: { CIRCLE: 0 },
       ControlPosition: { RIGHT_TOP: 3 },
+      GeocoderStatus: { OK: "OK" },
       Size: class Size {
         width: number;
         height: number;
         constructor(w: number, h: number) {
           this.width = w;
           this.height = h;
+        }
+      },
+      Geocoder: class Geocoder {
+        geocode(
+          _request: { address: string },
+          callback: (
+            results: { geometry: { location: { lat: () => number; lng: () => number } } }[] | null,
+            status: string,
+          ) => void,
+        ) {
+          // Default stub: resolves with no results.  Tests can override via
+          // `jest.spyOn(google.maps.Geocoder.prototype, "geocode")`.
+          callback(null, "ZERO_RESULTS");
         }
       },
     },

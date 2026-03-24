@@ -4,7 +4,7 @@ import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
-import { haversineDistance, NEAR_ME_RADIUS_KM } from "@/lib/geo";
+import { haversineDistance, NEAR_ME_RADIUS_KM, geocodeLocation } from "@/lib/geo";
 import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
@@ -15,15 +15,21 @@ export default function MapPage() {
   const [nearMeActive, setNearMeActive] = useState(false);
   const [nearMeLoading, setNearMeLoading] = useState(false);
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
+  const [nearbyQuery, setNearbyQuery] = useState("");
+  const [nearbyLocation, setNearbyLocation] = useState<[number, number] | null>(null);
 
   const filtered = useMemo(() => searchLocations(query), [query]);
 
   const nearFiltered = useMemo(() => {
-    if (!nearMeActive || !userLocation) return filtered;
+    const anchor =
+      nearMeActive && userLocation
+        ? userLocation
+        : nearbyLocation;
+    if (!anchor) return filtered;
     return filtered.filter(
-      (loc) => haversineDistance(userLocation, loc.coordinates) <= NEAR_ME_RADIUS_KM,
+      (loc) => haversineDistance(anchor, loc.coordinates) <= NEAR_ME_RADIUS_KM,
     );
-  }, [filtered, nearMeActive, userLocation]);
+  }, [filtered, nearMeActive, userLocation, nearbyLocation]);
 
   const visibleLocations = useMemo(
     () => hiddenCategories.size === 0
@@ -50,6 +56,10 @@ export default function MapPage() {
       return;
     }
 
+    // Clear any active nearby search when switching to "Near me"
+    setNearbyQuery("");
+    setNearbyLocation(null);
+
     if (userLocation) {
       setNearMeActive(true);
       return;
@@ -67,6 +77,19 @@ export default function MapPage() {
       },
     );
   }, [nearMeActive, userLocation]);
+
+  const handleNearbySearch = useCallback(async () => {
+    const trimmed = nearbyQuery.trim();
+    if (!trimmed) {
+      setNearbyLocation(null);
+      return;
+    }
+    const coords = await geocodeLocation(trimmed);
+    if (coords) {
+      setNearMeActive(false);
+      setNearbyLocation(coords);
+    }
+  }, [nearbyQuery]);
 
   const selectedLocation = visibleLocations.find((loc) => loc.id === selected);
   const effectiveSelected = selectedLocation ? selected : undefined;
@@ -92,6 +115,27 @@ export default function MapPage() {
               placeholder="Ridge, dune, spring..."
             />
           </label>
+          <div className="flex gap-2">
+            <input
+              value={nearbyQuery}
+              onChange={(e) => {
+                setNearbyQuery(e.target.value);
+                if (!e.target.value.trim()) setNearbyLocation(null);
+              }}
+              onKeyDown={(e) => { if (e.key === "Enter") handleNearbySearch(); }}
+              className="flex-1 rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-amber-50 placeholder:text-zinc-500 focus:border-amber-200 focus:outline-none"
+              placeholder={strings.map.nearbyPlaceholder}
+            />
+            <button
+              type="button"
+              onClick={handleNearbySearch}
+              className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200 transition hover:border-amber-200/30 hover:bg-white/10 focus:outline-none focus:ring-1 focus:ring-white/20"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                <path fillRule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clipRule="evenodd" />
+              </svg>
+            </button>
+          </div>
           <SacredMap
             locations={nearFiltered}
             selectedLocationId={effectiveSelected}

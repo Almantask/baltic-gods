@@ -24,3 +24,25 @@ export function haversineDistance(
 }
 
 export const NEAR_ME_RADIUS_KM = 50;
+
+/**
+ * Geocode a place name to coordinates using the Google Maps Geocoder.
+ * The Google Maps JS API must already be loaded (via `useJsApiLoader`).
+ * Returns `[lat, lng]` or `null` when the query cannot be resolved.
+ */
+export function geocodeLocation(
+  address: string,
+): Promise<[number, number] | null> {
+  if (typeof google === "undefined") return Promise.resolve(null);
+  const geocoder = new google.maps.Geocoder();
+  return new Promise((resolve) => {
+    geocoder.geocode({ address }, (results, status) => {
+      if (status === google.maps.GeocoderStatus.OK && results && results.length > 0) {
+        const loc = results[0].geometry.location;
+        resolve([loc.lat(), loc.lng()]);
+      } else {
+        resolve(null);
+      }
+    });
+  });
+}
