@@ -1,19 +1,20 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import { DeityCard } from "@/components/DeityCard";
-import { allLocations, deities } from "@/content/deities";
+import { deities } from "@/content/deities";
+import { getLocations } from "@/content/locations";
 import { useTranslation } from "@/lib/i18n";
 
 const heroBackground =
   "linear-gradient(180deg, rgba(5,7,8,0.6), rgba(5,7,8,0.9)), url(https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80)";
 
 export default function Home() {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const featured = deities.filter((d) =>
     ["perkunas", "saule", "laima"].includes(d.meta.slug),
   );
-  const featuredLocations = allLocations.slice(0, 4);
+  const featuredLocations = getLocations(language).slice(0, 4);
 
   return (
     <div className="flex flex-col gap-12">
@@ -81,11 +82,11 @@ export default function Home() {
           {featuredLocations.map((loc) => (
             <Link
               key={loc.id}
-              href={`/pantheon/${loc.deity}?loc=${loc.id}`}
+              href={`/locations/${loc.id}`}
               className="group rounded-2xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-5 shadow-lg transition hover:border-amber-200/30"
             >
               <span className="text-[10px] font-semibold uppercase tracking-widest text-amber-300/80">
-                {loc.siteType}
+                {strings.map.categories[loc.siteType]}
               </span>
               <h3 className="mt-1 text-lg font-semibold text-amber-50 group-hover:text-amber-200 transition">
                 {loc.name}

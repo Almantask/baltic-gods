@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { DeityEntry, LocationPoint } from "@/types/content";
+import { getLocationById, getLocations } from "@/content/locations";
 
 // Ensure React has a default export for MDX runtime expectations.
 (React as unknown as { default?: typeof React }).default ??= React;
@@ -75,10 +76,8 @@ export const deityBySlug = Object.fromEntries(
   deities.map((entry) => [entry.meta.slug, entry]),
 ) as Record<string, DeityEntry>;
 
-export const allLocations: LocationPoint[] = deities.flatMap(
-  (entry) => entry.meta.locations,
-);
+export const allLocations: LocationPoint[] = getLocations("en");
 
 export function findLocationById(id: string) {
-  return allLocations.find((location) => location.id === id);
+  return getLocationById(id, "en");
 }

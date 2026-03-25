@@ -2,6 +2,7 @@
 
 import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
+import { getLocationsForDeity } from "@/content/locations";
 import { deityBySlug } from "@/content/deities";
 import { useSearchParams } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
@@ -18,6 +19,10 @@ export function DeityDetailContent({ slug }: { slug: string }) {
   const { language, strings } = useTranslation();
   const entry = deityBySlug[slug];
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
+  const locations = useMemo(
+    () => getLocationsForDeity(slug, language),
+    [slug, language],
+  );
 
   const toggleCategory = useCallback((category: SiteCategory) => {
     setHiddenCategories((prev) => {
@@ -30,8 +35,6 @@ export function DeityDetailContent({ slug }: { slug: string }) {
       return next;
     });
   }, []);
-
-  const locations = entry?.meta.locations;
 
   const visibleLocations = useMemo(
     () => {
@@ -48,10 +51,10 @@ export function DeityDetailContent({ slug }: { slug: string }) {
   }
 
   const requestedLocation = searchParams.get("location") ?? undefined;
-  const selectedLocationId = entry.meta.locations.some((l) => l.id === requestedLocation)
+  const selectedLocationId = locations.some((l) => l.id === requestedLocation)
     ? requestedLocation
-    : entry.meta.locations[0]?.id;
-  const selectedLocation = entry.meta.locations.find((loc) => loc.id === selectedLocationId);
+    : locations[0]?.id;
+  const selectedLocation = locations.find((loc) => loc.id === selectedLocationId);
 
   return (
     <div className="space-y-8">
@@ -133,7 +136,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           </div>
           <div className="mt-3">
             <SacredMap
-              locations={entry.meta.locations}
+              locations={locations}
               selectedLocationId={selectedLocation?.id}
               allowNavigate={false}
               hiddenCategories={hiddenCategories}
@@ -156,7 +159,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
               >
                 <p className="font-semibold">{loc.name}</p>
                 <p className="text-zinc-300">
-                  {loc.region} · {loc.siteType}
+                  {loc.region} · {strings.map.categories[loc.siteType]}
                 </p>
                 <p className="text-zinc-400">{loc.description}</p>
                 <p className="text-xs text-zinc-500">

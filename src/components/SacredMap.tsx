@@ -134,7 +134,7 @@ export function SacredMap({
     (loc: LocationPoint) => {
       onSelect?.(loc);
       if (allowNavigate) {
-        router.push(`/pantheon/${loc.deity}?location=${loc.id}`);
+        router.push(`/locations/${loc.id}`);
       }
     },
     [onSelect, allowNavigate, router],
@@ -222,7 +222,7 @@ export function SacredMap({
                   {hoveredLocation.region}
                 </span>
               </div>
-              <p className="mt-1 text-gray-600">{hoveredLocation.siteType}</p>
+              <p className="mt-1 text-gray-600">{strings.map.categories[hoveredLocation.siteType]}</p>
               <p className="mt-1 text-gray-500">{hoveredLocation.description}</p>
             </div>
           </InfoWindowF>
@@ -235,7 +235,7 @@ export function SacredMap({
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-200">
             <span className="rounded-full bg-white/10 px-2 py-1">
-              {selectedLocation.siteType}
+              {strings.map.categories[selectedLocation.siteType]}
             </span>
             <span className="rounded-full bg-white/5 px-2 py-1">
               {selectedLocation.coordinates[0].toFixed(2)}°N ·{" "}

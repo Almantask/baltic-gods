@@ -2,20 +2,26 @@
 
 import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
+import { getLocations } from "@/content/locations";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
 import { haversineDistance, NEAR_ME_RADIUS_KM } from "@/lib/geo";
 import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<string | undefined>(undefined);
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
   const [nearMeActive, setNearMeActive] = useState(false);
   const [nearMeLoading, setNearMeLoading] = useState(false);
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
-  const filtered = useMemo(() => searchLocations(query), [query]);
+  const localizedLocations = useMemo(() => getLocations(language), [language]);
+
+  const filtered = useMemo(
+    () => searchLocations(query, language, localizedLocations),
+    [query, language, localizedLocations],
+  );
 
   const nearFiltered = useMemo(() => {
     if (!nearMeActive || !userLocation) return filtered;
@@ -88,7 +94,7 @@ export default function MapPage() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="mt-2 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-amber-50 placeholder:text-zinc-500 focus:border-amber-200 focus:outline-none"
-              placeholder="Ridge, dune, spring..."
+              placeholder={strings.map.searchExamples}
             />
           </label>
           <SacredMap
@@ -125,7 +131,7 @@ export default function MapPage() {
                       {loc.name}
                     </span>
                     <span className="text-zinc-300">
-                      {loc.region} · {loc.siteType}
+                      {loc.region} · {strings.map.categories[loc.siteType]}
                     </span>
                   </span>
                   <span className="text-xs text-zinc-400">

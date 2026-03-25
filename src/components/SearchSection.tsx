@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { getLocations } from "@/content/locations";
 import { searchLocations, filterDeities } from "@/lib/search";
 import { useTranslation } from "@/lib/i18n";
 import type { Domain } from "@/types/content";
@@ -16,6 +17,7 @@ export function SearchSection() {
   const { language, strings } = useTranslation();
   const [deityQuery, setDeityQuery] = useState("");
   const [locationQuery, setLocationQuery] = useState("");
+  const localizedLocations = useMemo(() => getLocations(language), [language]);
 
   const deityMatches = useMemo(
     () => filterDeities({ query: deityQuery }).slice(0, 4),
@@ -23,8 +25,8 @@ export function SearchSection() {
   );
 
   const locationMatches = useMemo(
-    () => searchLocations(locationQuery).slice(0, 5),
-    [locationQuery],
+    () => searchLocations(locationQuery, language, localizedLocations).slice(0, 5),
+    [locationQuery, language, localizedLocations],
   );
 
   const empty = !deityQuery && !locationQuery;
@@ -50,7 +52,7 @@ export function SearchSection() {
               value={deityQuery}
               onChange={(e) => setDeityQuery(e.target.value)}
               className="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-base text-amber-50 placeholder:text-zinc-500 focus:border-amber-200 focus:outline-none"
-              placeholder="Perkūnas, Saulė..."
+              placeholder={strings.home.deityPlaceholder}
             />
           </label>
           <label className="flex flex-col gap-2 text-sm text-zinc-200">
@@ -59,7 +61,7 @@ export function SearchSection() {
               value={locationQuery}
               onChange={(e) => setLocationQuery(e.target.value)}
               className="rounded-2xl border border-white/15 bg-white/5 px-4 py-3 text-base text-amber-50 placeholder:text-zinc-500 focus:border-amber-200 focus:outline-none"
-              placeholder="Aukštaitija, sea, dune..."
+              placeholder={strings.home.locationPlaceholder}
             />
           </label>
         </div>
@@ -105,12 +107,12 @@ export function SearchSection() {
             {locationMatches.map((loc) => (
               <Link
                 key={loc.id}
-                href={`/pantheon/${loc.deity}?location=${loc.id}`}
+                href={`/locations/${loc.id}`}
                 className="block rounded-xl border border-white/10 bg-black/40 px-3 py-3 text-sm text-zinc-100 transition hover:border-amber-200/40"
               >
                 <p className="font-semibold text-amber-100">{loc.name}</p>
                 <p className="text-zinc-300">
-                  {loc.region} · {loc.siteType}
+                  {loc.region} · {strings.map.categories[loc.siteType]}
                 </p>
                 <p className="text-zinc-400">{loc.description}</p>
               </Link>
