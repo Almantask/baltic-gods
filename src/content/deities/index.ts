@@ -4,44 +4,44 @@ import type { DeityEntry, LocationPoint } from "@/types/content";
 // Ensure React has a default export for MDX runtime expectations.
 (React as unknown as { default?: typeof React }).default ??= React;
 
-// English content
-import AustejaContentEn from "./en/austeja.mdx";
-import BangputysContentEn from "./en/bangputys.mdx";
-import DievasContentEn from "./en/dievas.mdx";
-import GabijaContentEn from "./en/gabija.mdx";
-import LaimaContentEn from "./en/laima.mdx";
-import MedineContentEn from "./en/medine.mdx";
-import MenulisContentEn from "./en/menulis.mdx";
-import PerkunasContentEn from "./en/perkunas.mdx";
-import SauleContentEn from "./en/saule.mdx";
-import VelniasContentEn from "./en/velnias.mdx";
-import ZemynaContentEn from "./en/zemyna.mdx";
+// Gods
+import DievasContentEn from "./gods/en/dievas.mdx";
+import DievasContentLt from "./gods/lt/dievas.mdx";
+import DievasContentLv from "./gods/lv/dievas.mdx";
+import MenulisContentEn from "./gods/en/menulis.mdx";
+import MenulisContentLt from "./gods/lt/menulis.mdx";
+import MenulisContentLv from "./gods/lv/menulis.mdx";
+import PerkunasContentEn from "./gods/en/perkunas.mdx";
+import PerkunasContentLt from "./gods/lt/perkunas.mdx";
+import PerkunasContentLv from "./gods/lv/perkunas.mdx";
+import SauleContentEn from "./gods/en/saule.mdx";
+import SauleContentLt from "./gods/lt/saule.mdx";
+import SauleContentLv from "./gods/lv/saule.mdx";
+import ZemynaContentEn from "./gods/en/zemyna.mdx";
+import ZemynaContentLt from "./gods/lt/zemyna.mdx";
+import ZemynaContentLv from "./gods/lv/zemyna.mdx";
 
-// Lithuanian content
-import AustejaContentLt from "./lt/austeja.mdx";
-import BangputysContentLt from "./lt/bangputys.mdx";
-import DievasContentLt from "./lt/dievas.mdx";
-import GabijaContentLt from "./lt/gabija.mdx";
-import LaimaContentLt from "./lt/laima.mdx";
-import MedineContentLt from "./lt/medine.mdx";
-import MenulisContentLt from "./lt/menulis.mdx";
-import PerkunasContentLt from "./lt/perkunas.mdx";
-import SauleContentLt from "./lt/saule.mdx";
-import VelniasContentLt from "./lt/velnias.mdx";
-import ZemynaContentLt from "./lt/zemyna.mdx";
+// People
+import GabijaContentEn from "./people/en/gabija.mdx";
+import GabijaContentLt from "./people/lt/gabija.mdx";
+import GabijaContentLv from "./people/lv/gabija.mdx";
+import LaimaContentEn from "./people/en/laima.mdx";
+import LaimaContentLt from "./people/lt/laima.mdx";
+import LaimaContentLv from "./people/lv/laima.mdx";
 
-// Latvian content
-import AustejaContentLv from "./lv/austeja.mdx";
-import BangputysContentLv from "./lv/bangputys.mdx";
-import DievasContentLv from "./lv/dievas.mdx";
-import GabijaContentLv from "./lv/gabija.mdx";
-import LaimaContentLv from "./lv/laima.mdx";
-import MedineContentLv from "./lv/medine.mdx";
-import MenulisContentLv from "./lv/menulis.mdx";
-import PerkunasContentLv from "./lv/perkunas.mdx";
-import SauleContentLv from "./lv/saule.mdx";
-import VelniasContentLv from "./lv/velnias.mdx";
-import ZemynaContentLv from "./lv/zemyna.mdx";
+// Creatures
+import AustejaContentEn from "./creatures/en/austeja.mdx";
+import AustejaContentLt from "./creatures/lt/austeja.mdx";
+import AustejaContentLv from "./creatures/lv/austeja.mdx";
+import BangputysContentEn from "./creatures/en/bangputys.mdx";
+import BangputysContentLt from "./creatures/lt/bangputys.mdx";
+import BangputysContentLv from "./creatures/lv/bangputys.mdx";
+import MedineContentEn from "./creatures/en/medine.mdx";
+import MedineContentLt from "./creatures/lt/medine.mdx";
+import MedineContentLv from "./creatures/lv/medine.mdx";
+import VelniasContentEn from "./creatures/en/velnias.mdx";
+import VelniasContentLt from "./creatures/lt/velnias.mdx";
+import VelniasContentLv from "./creatures/lv/velnias.mdx";
 
 import {
   austejaMeta,
