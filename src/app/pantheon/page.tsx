@@ -7,6 +7,11 @@ import { filterDeities } from "@/lib/search";
 import type { Domain } from "@/types/content";
 
 const domainOrder: Domain[] = ["God", "Creature", "Person"];
+const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
+  God: "domainGod",
+  Creature: "domainCreature",
+  Person: "domainPerson",
+};
 
 export default function PantheonPage() {
   const { strings } = useTranslation();
@@ -73,7 +78,7 @@ export default function PantheonPage() {
                     : "border-white/15 bg-white/5 text-zinc-300 hover:border-amber-200/30"
                 }`}
               >
-                {item}
+                {strings.pantheon[domainKey[item]]}
               </button>
             ))}
           </div>
@@ -93,31 +98,13 @@ export default function PantheonPage() {
             {strings.pantheon.editorialLedger}
           </h1>
           <p className="text-zinc-300">
-            {filtered.length} {strings.pantheon.figuresArchived} · {domain ?? strings.pantheon.all} {strings.pantheon.domains}
+            {filtered.length} {strings.pantheon.figuresArchived} · {domain ? strings.pantheon[domainKey[domain]] : strings.pantheon.all} {strings.pantheon.domains}
           </p>
         </div>
-        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {ordered.map((entry) => {
-            const slug = entry.meta.slug;
-            let size: "sm" | "md" | "lg" | "wide" = "md";
-            if (slug === "medine") size = "lg";
-            if (slug === "bangputys") size = "wide";
-            if (slug === "perkunas" || slug === "zemyna") size = "md";
-            return (
-              <div
-                key={slug}
-                className={
-                  slug === "bangputys"
-                    ? "md:col-span-2 lg:col-span-3"
-                    : slug === "medine"
-                      ? "lg:col-span-2"
-                      : ""
-                }
-              >
-                <DeityCard deity={entry.meta} size={size} highlight={slug === "medine"} />
-              </div>
-            );
-          })}
+        <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+          {ordered.map((entry) => (
+            <DeityCard key={entry.meta.slug} deity={entry.meta} highlight={entry.meta.slug === "medine"} />
+          ))}
         </div>
       </section>
     </div>

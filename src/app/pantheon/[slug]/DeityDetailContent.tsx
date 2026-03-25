@@ -5,7 +5,13 @@ import { SacredMap } from "@/components/SacredMap";
 import { deityBySlug } from "@/content/deities";
 import { useSearchParams } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
-import type { SiteCategory } from "@/types/content";
+import type { Domain, SiteCategory } from "@/types/content";
+
+const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
+  God: "domainGod",
+  Creature: "domainCreature",
+  Person: "domainPerson",
+};
 
 export function DeityDetailContent({ slug }: { slug: string }) {
   const searchParams = useSearchParams();
@@ -61,7 +67,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
         <div className="relative flex flex-col gap-4">
           <div className="flex flex-wrap items-center gap-3">
             <span className="rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-amber-100">
-              {entry.meta.domain}
+              {strings.pantheon[domainKey[entry.meta.domain]]}
             </span>
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200">
               {entry.meta.altNames.lt} · {entry.meta.altNames.lv}
