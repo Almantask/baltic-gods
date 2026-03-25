@@ -49,10 +49,28 @@ Object.defineProperty(globalThis, "google", {
 
 jest.mock("@react-google-maps/api", () => ({
   useJsApiLoader: () => ({ isLoaded: true }),
-  GoogleMap: ({ children }: { children?: React.ReactNode }) =>
-    React.createElement("div", { "data-testid": "google-map" }, children),
-  MarkerF: ({ onClick }: { onClick?: () => void }) =>
-    React.createElement("div", { "data-testid": "map-marker", onClick }),
+  GoogleMap: ({ children, onMouseDown, onMouseUp, onDragStart }: {
+    children?: React.ReactNode;
+    onMouseDown?: (e: unknown) => void;
+    onMouseUp?: () => void;
+    onDragStart?: () => void;
+  }) => {
+    const ref = React.useCallback((el: HTMLElement | null) => {
+      if (el) {
+        (el as unknown as Record<string, unknown>).__onMouseDown = onMouseDown;
+        (el as unknown as Record<string, unknown>).__onMouseUp = onMouseUp;
+        (el as unknown as Record<string, unknown>).__onDragStart = onDragStart;
+      }
+    }, [onMouseDown, onMouseUp, onDragStart]);
+    return React.createElement("div", { "data-testid": "google-map", ref }, children);
+  },
+  MarkerF: ({ onClick, position }: { onClick?: () => void; position?: { lat: number; lng: number } }) =>
+    React.createElement("div", {
+      "data-testid": "map-marker",
+      onClick,
+      "data-lat": position?.lat,
+      "data-lng": position?.lng,
+    }),
   InfoWindowF: ({ children }: { children?: React.ReactNode }) =>
     React.createElement("div", { "data-testid": "info-window" }, children),
 }));

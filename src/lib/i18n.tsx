@@ -80,7 +80,7 @@ const translations = {
       submit: "Send to the Archive",
       confirmation: "Your report hums through the trees. Archivists will trace the ley line.",
       mapCta: "Click to Mark the Ley Line",
-      mapInstruction: "Double-tap on the map below when on site; or paste coordinates above.",
+      mapInstruction: "Hold on the map for a second to place a pin; or type coordinates above.",
     },
     form: {
       location: "Location",
@@ -192,7 +192,7 @@ const translations = {
       submit: "Siųsti į archyvą",
       confirmation: "Jūsų žinutė nuaidėjo tarp medžių. Archyvarai seks lėjos liniją.",
       mapCta: "Paspauskite pažymėti lėjos liniją",
-      mapInstruction: "Du kartus palieskite žemėlapį vietoje arba įklijuokite koordinates viršuje.",
+      mapInstruction: "Palaikykite ant žemėlapio sekundę, kad padėtumėte smeigtuką; arba įveskite koordinates viršuje.",
     },
     form: {
       location: "Vieta",
@@ -304,7 +304,7 @@ const translations = {
       submit: "Nosūtīt uz arhīvu",
       confirmation: "Jūsu ziņa trīc kokos. Arhivāri sekos lēju līnijai.",
       mapCta: "Klikšķiniet, lai atzīmētu lēju līniju",
-      mapInstruction: "Divreiz pieskarieties kartei uz vietas vai ielīmējiet koordinātas augstāk.",
+      mapInstruction: "Turiet karti nospiestu sekundi, lai novietotu piespraudi; vai ievadiet koordinātas augstāk.",
     },
     form: {
       location: "Vieta",
