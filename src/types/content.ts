@@ -62,6 +62,26 @@ export interface DeityEntry {
   contentByLang: Record<Language, DeityContent>;
 }
 
+export interface LocationMeta {
+  id: string;
+  name: Record<Language, string>;
+  coordinates: [number, number];
+  region: "Lithuania" | "Latvia";
+  description: Record<Language, string>;
+  siteType: SiteCategory;
+  aura: "amber" | "moss" | "mist";
+  deity: string;
+  significance: Record<Language, string>;
+}
+
+export type LocationContent = (props: Record<string, unknown>) => JSX.Element;
+
+export interface LocationEntry {
+  meta: LocationMeta;
+  Content: LocationContent;
+  contentByLang: Record<Language, LocationContent>;
+}
+
 export type StoryContent = (props: Record<string, unknown>) => JSX.Element;
 
 export interface StoryMeta {
