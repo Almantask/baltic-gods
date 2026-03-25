@@ -9,7 +9,7 @@ import type { SiteCategory } from "@/types/content";
 
 export function DeityDetailContent({ slug }: { slug: string }) {
   const searchParams = useSearchParams();
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const entry = deityBySlug[slug];
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
 
@@ -87,7 +87,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
         <div className="glass rounded-3xl p-6">
           <h2 className="text-2xl font-semibold text-amber-100">{strings.deity.lore}</h2>
           <div className="mt-3 space-y-4 leading-relaxed text-zinc-200 [&>h2]:text-amber-100 [&>h2]:text-xl [&>h3]:text-amber-100 [&>h3]:text-lg">
-            <entry.Content />
+            {(() => { const LangContent = entry.contentByLang[language] ?? entry.Content; return <LangContent />; })()}
           </div>
         </div>
         <div className="grid gap-4">

@@ -54,9 +54,12 @@ export interface DeityMeta {
   symbols: SymbolicCard[];
 }
 
+export type DeityContent = (props: Record<string, unknown>) => JSX.Element;
+
 export interface DeityEntry {
   meta: DeityMeta;
-  Content: (props: Record<string, unknown>) => JSX.Element;
+  Content: DeityContent;
+  contentByLang: Record<Language, DeityContent>;
 }
 
 export interface StoryMeta {
