@@ -1,13 +1,17 @@
+"use client";
+
 import Link from "next/link";
 import clsx from "clsx";
 import type { StoryMeta } from "@/types/content";
 import { deityBySlug } from "@/content/deities";
+import { useTranslation } from "@/lib/i18n";
 
 interface Props {
   story: StoryMeta;
 }
 
 export function StoryCard({ story }: Props) {
+  const { language } = useTranslation();
   return (
     <Link
       href={`/stories/${story.slug}`}
@@ -16,9 +20,9 @@ export function StoryCard({ story }: Props) {
       )}
     >
       <h3 className="text-xl font-semibold text-amber-100 group-hover:text-amber-200 transition">
-        {story.title}
+        {story.title[language]}
       </h3>
-      <p className="text-sm text-zinc-300 line-clamp-3">{story.summary}</p>
+      <p className="text-sm text-zinc-300 line-clamp-3">{story.summary[language]}</p>
       <div className="mt-auto flex flex-wrap gap-2">
         {story.beings.map((slug) => {
           const deity = deityBySlug[slug];

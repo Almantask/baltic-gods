@@ -62,15 +62,18 @@ export interface DeityEntry {
   contentByLang: Record<Language, DeityContent>;
 }
 
+export type StoryContent = (props: Record<string, unknown>) => JSX.Element;
+
 export interface StoryMeta {
   slug: string;
-  title: string;
-  summary: string;
-  content: string;
+  title: Record<Language, string>;
+  summary: Record<Language, string>;
   beings: string[];
   locations: string[];
 }
 
 export interface StoryEntry {
   meta: StoryMeta;
+  Content: StoryContent;
+  contentByLang: Record<Language, StoryContent>;
 }
