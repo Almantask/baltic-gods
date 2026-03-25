@@ -42,9 +42,8 @@ export function filterStories(query?: string): StoryEntry[] {
   if (!normalized) return stories;
   return stories.filter((entry) => {
     return (
-      entry.meta.title.toLowerCase().includes(normalized) ||
-      entry.meta.summary.toLowerCase().includes(normalized) ||
-      entry.meta.content.toLowerCase().includes(normalized)
+      Object.values(entry.meta.title).some((v) => v.toLowerCase().includes(normalized)) ||
+      Object.values(entry.meta.summary).some((v) => v.toLowerCase().includes(normalized))
     );
   });
 }
