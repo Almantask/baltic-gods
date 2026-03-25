@@ -6,7 +6,7 @@ import { searchLocations, filterDeities } from "@/lib/search";
 import { useTranslation } from "@/lib/i18n";
 
 export function SearchSection() {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const [deityQuery, setDeityQuery] = useState("");
   const [locationQuery, setLocationQuery] = useState("");
 
@@ -72,7 +72,7 @@ export function SearchSection() {
               >
                 <div>
                   <p className="font-semibold text-amber-100">{entry.meta.name}</p>
-                  <p className="text-zinc-300">{entry.meta.epithet}</p>
+                  <p className="text-zinc-300">{entry.meta.epithet[language]}</p>
                 </div>
                 <span className="rounded-full bg-white/5 px-2 py-1 text-[0.7rem] uppercase">
                   {entry.meta.domain}

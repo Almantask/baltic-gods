@@ -15,7 +15,7 @@ export function filterDeities({
     return (
       entry.meta.name.toLowerCase().includes(normalized) ||
       entry.meta.keywords.some((k) => k.toLowerCase().includes(normalized)) ||
-      entry.meta.epithet.toLowerCase().includes(normalized)
+      Object.values(entry.meta.epithet).some((v) => v.toLowerCase().includes(normalized))
     );
   });
 }

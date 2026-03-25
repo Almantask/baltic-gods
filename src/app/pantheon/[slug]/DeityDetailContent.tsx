@@ -68,8 +68,8 @@ export function DeityDetailContent({ slug }: { slug: string }) {
             </span>
           </div>
           <h1 className="text-5xl font-semibold text-amber-50">{entry.meta.name}</h1>
-          <p className="text-xl italic text-zinc-200">{entry.meta.epithet}</p>
-          <p className="max-w-3xl text-zinc-200">{entry.meta.summary}</p>
+          <p className="text-xl italic text-zinc-200">{entry.meta.epithet[language]}</p>
+          <p className="max-w-3xl text-zinc-200">{entry.meta.summary[language]}</p>
           <div className="mt-2 flex flex-wrap gap-2 text-xs text-zinc-300">
             {entry.meta.keywords.map((word) => (
               <span

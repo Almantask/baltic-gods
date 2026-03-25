@@ -41,8 +41,8 @@ export interface DeityMeta {
   slug: string;
   name: string;
   domain: Domain;
-  epithet: string;
-  summary: string;
+  epithet: Record<Language, string>;
+  summary: Record<Language, string>;
   heroImage: string;
   overlay: string;
   accent: string;
