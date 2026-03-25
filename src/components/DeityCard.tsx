@@ -18,6 +18,8 @@ const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson">
 
 export function DeityCard({ deity, highlight }: Props) {
   const { language, strings } = useTranslation();
+  const altName = deity.altNames[language]?.trim();
+  const showAltName = altName && altName !== deity.name;
 
   return (
     <Link
@@ -35,9 +37,9 @@ export function DeityCard({ deity, highlight }: Props) {
         <span className="rounded-full border border-amber-200/30 bg-amber-200/10 px-2.5 py-0.5 text-xs text-amber-100">
           {strings.pantheon[domainKey[deity.domain]]}
         </span>
-        {deity.altNames[language] && (
+        {showAltName && (
           <span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-2.5 py-0.5 text-xs text-emerald-200">
-            {deity.altNames[language]}
+            {altName}
           </span>
         )}
         {highlight && (
