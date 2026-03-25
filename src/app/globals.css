@@ -60,7 +60,8 @@ a {
   box-shadow: 0 20px 70px rgba(0, 0, 0, 0.4);
 }
 
-.sacred-map-container:fullscreen {
+.sacred-map-container:fullscreen,
+.coordinate-picker-container:fullscreen {
   height: 100%;
   width: 100%;
   border-radius: 0;
