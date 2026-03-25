@@ -30,7 +30,7 @@ export function DeityCard({ deity, highlight }: Props) {
         {deity.name}
       </h3>
       <p className="text-sm italic text-zinc-200">{deity.epithet[language]}</p>
-      <p className="text-sm text-zinc-300 line-clamp-3">{deity.summary[language]}</p>
+      <p className="text-sm text-zinc-300 line-clamp-3" title={deity.summary[language]}>{deity.summary[language]}</p>
       <div className="mt-auto flex flex-wrap gap-2">
         <span className="rounded-full border border-amber-200/30 bg-amber-200/10 px-2.5 py-0.5 text-xs text-amber-100">
           {strings.pantheon[domainKey[deity.domain]]}
