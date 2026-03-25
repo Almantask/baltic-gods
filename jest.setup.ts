@@ -49,19 +49,21 @@ Object.defineProperty(globalThis, "google", {
 
 jest.mock("@react-google-maps/api", () => ({
   useJsApiLoader: () => ({ isLoaded: true }),
-  GoogleMap: ({ children, onMouseDown, onMouseUp, onDragStart }: {
+  GoogleMap: ({ children, onMouseDown, onMouseUp, onDragStart, onZoomChanged }: {
     children?: React.ReactNode;
     onMouseDown?: (e: unknown) => void;
     onMouseUp?: () => void;
     onDragStart?: () => void;
+    onZoomChanged?: () => void;
   }) => {
     const ref = React.useCallback((el: HTMLElement | null) => {
       if (el) {
         (el as unknown as Record<string, unknown>).__onMouseDown = onMouseDown;
         (el as unknown as Record<string, unknown>).__onMouseUp = onMouseUp;
         (el as unknown as Record<string, unknown>).__onDragStart = onDragStart;
+        (el as unknown as Record<string, unknown>).__onZoomChanged = onZoomChanged;
       }
-    }, [onMouseDown, onMouseUp, onDragStart]);
+    }, [onMouseDown, onMouseUp, onDragStart, onZoomChanged]);
     return React.createElement("div", { "data-testid": "google-map", ref }, children);
   },
   MarkerF: ({ onClick, position }: { onClick?: () => void; position?: { lat: number; lng: number } }) =>

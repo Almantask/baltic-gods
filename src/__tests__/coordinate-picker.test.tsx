@@ -64,14 +64,14 @@ describe("Field report coordinate picker", () => {
       });
     });
 
-    // Advance timer past the 1-second long-press threshold
-    act(() => jest.advanceTimersByTime(1000));
+    // Advance timer past the 2-second long-press threshold
+    act(() => jest.advanceTimersByTime(2000));
 
     const coordInput = getByLabelText(/Coordinates/i) as HTMLInputElement;
     expect(coordInput.value).toBe("56.12345, 24.67890");
   });
 
-  it("does not place a pin when press is shorter than 1 second", () => {
+  it("does not place a pin when press is shorter than 2 seconds", () => {
     const { getByTestId, getByLabelText } = renderWithProviders(<FieldReportPage />);
 
     const mapEl = getByTestId("google-map");
@@ -86,10 +86,38 @@ describe("Field report coordinate picker", () => {
       });
     });
 
-    // Release before 1 second
-    act(() => jest.advanceTimersByTime(500));
+    // Release before 2 seconds
+    act(() => jest.advanceTimersByTime(1500));
     act(() => { onMouseUp!(); });
-    act(() => jest.advanceTimersByTime(600));
+    act(() => jest.advanceTimersByTime(1000));
+
+    const coordInput = getByLabelText(/Coordinates/i) as HTMLInputElement;
+    expect(coordInput.value).toBe("");
+  });
+
+  it("does not place a pin when zoom changes during press", () => {
+    const { getByTestId, getByLabelText } = renderWithProviders(<FieldReportPage />);
+
+    const mapEl = getByTestId("google-map");
+    type MapEl = HTMLElement & {
+      __onMouseDown?: (e: unknown) => void;
+      __onMouseUp?: () => void;
+      __onZoomChanged?: () => void;
+    };
+
+    const onMouseDown = (mapEl as MapEl).__onMouseDown;
+    const onZoomChanged = (mapEl as MapEl).__onZoomChanged;
+
+    act(() => {
+      onMouseDown!({
+        latLng: { lat: () => 56.0, lng: () => 24.0 },
+      });
+    });
+
+    // Simulate a zoom change (e.g. pinch-to-zoom) before 2 seconds
+    act(() => jest.advanceTimersByTime(500));
+    act(() => { onZoomChanged!(); });
+    act(() => jest.advanceTimersByTime(2000));
 
     const coordInput = getByLabelText(/Coordinates/i) as HTMLInputElement;
     expect(coordInput.value).toBe("");
