@@ -94,4 +94,20 @@ describe("Field report coordinate picker", () => {
     const coordInput = getByLabelText(/Coordinates/i) as HTMLInputElement;
     expect(coordInput.value).toBe("");
   });
+
+  it("renders fullscreen toggle button and calls requestFullscreen on click", async () => {
+    jest.useRealTimers();
+    const user = userEvent.setup();
+    const { getByRole } = renderWithProviders(<FieldReportPage />);
+
+    const fullscreenBtn = getByRole("button", { name: /Fullscreen/i });
+    expect(fullscreenBtn).toBeInTheDocument();
+
+    const container = fullscreenBtn.closest(".coordinate-picker-container")!;
+    container.requestFullscreen = jest.fn().mockResolvedValue(undefined);
+
+    await user.click(fullscreenBtn);
+
+    expect(container.requestFullscreen).toHaveBeenCalledTimes(1);
+  });
 });
