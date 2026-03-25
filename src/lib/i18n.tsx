@@ -34,6 +34,9 @@ const translations = {
       figuresArchived: "figures archived",
       domains: "domains",
       archivistNote: "— Field archivist's note",
+      domainGod: "God",
+      domainCreature: "Creature",
+      domainPerson: "Person",
     },
     stories: {
       title: "Stories",
@@ -146,6 +149,9 @@ const translations = {
       figuresArchived: "figūros suarchyvuotos",
       domains: "sritys",
       archivistNote: "— Lauko archyvaro pastaba",
+      domainGod: "Dievas",
+      domainCreature: "Būtybė",
+      domainPerson: "Asmuo",
     },
     stories: {
       title: "Pasakojimai",
@@ -258,6 +264,9 @@ const translations = {
       figuresArchived: "figūras arhivētas",
       domains: "sfēras",
       archivistNote: "— Lauka arhivāra piezīme",
+      domainGod: "Dievs",
+      domainCreature: "Radība",
+      domainPerson: "Persona",
     },
     stories: {
       title: "Stāsti",

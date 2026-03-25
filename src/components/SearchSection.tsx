@@ -4,6 +4,13 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { searchLocations, filterDeities } from "@/lib/search";
 import { useTranslation } from "@/lib/i18n";
+import type { Domain } from "@/types/content";
+
+const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
+  God: "domainGod",
+  Creature: "domainCreature",
+  Person: "domainPerson",
+};
 
 export function SearchSection() {
   const { language, strings } = useTranslation();
@@ -75,7 +82,7 @@ export function SearchSection() {
                   <p className="text-zinc-300">{entry.meta.epithet[language]}</p>
                 </div>
                 <span className="rounded-full bg-white/5 px-2 py-1 text-[0.7rem] uppercase">
-                  {entry.meta.domain}
+                  {strings.pantheon[domainKey[entry.meta.domain]]}
                 </span>
               </Link>
             ))}

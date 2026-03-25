@@ -67,7 +67,6 @@ export default function Home() {
             <DeityCard
               key={entry.meta.slug}
               deity={entry.meta}
-              size={idx === 0 ? "lg" : "md"}
               highlight={idx === 0}
             />
           ))}

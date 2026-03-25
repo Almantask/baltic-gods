@@ -2,59 +2,49 @@
 
 import Link from "next/link";
 import clsx from "clsx";
-import type { DeityMeta } from "@/types/content";
+import type { DeityMeta, Domain } from "@/types/content";
 import { useTranslation } from "@/lib/i18n";
 
 interface Props {
   deity: DeityMeta;
   highlight?: boolean;
-  size?: "sm" | "md" | "lg" | "wide";
 }
 
-export function DeityCard({ deity, highlight, size = "md" }: Props) {
+const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
+  God: "domainGod",
+  Creature: "domainCreature",
+  Person: "domainPerson",
+};
+
+export function DeityCard({ deity, highlight }: Props) {
   const { language, strings } = useTranslation();
-  const sizeClass =
-    size === "lg"
-      ? "min-h-[360px]"
-      : size === "wide"
-        ? "min-h-[260px] col-span-2"
-        : size === "sm"
-          ? "min-h-[200px]"
-          : "min-h-[260px]";
 
   return (
     <Link
       href={`/pantheon/${deity.slug}`}
       className={clsx(
-        "group relative overflow-hidden rounded-3xl border border-white/10 bg-black/70 shadow-xl transition hover:-translate-y-1 hover:border-amber-200/40",
-        sizeClass,
+        "group flex flex-col gap-4 rounded-3xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-6 shadow-xl transition hover:-translate-y-1 hover:border-amber-200/40",
       )}
-      style={{
-        backgroundImage: `linear-gradient(135deg, ${deity.overlay}, rgba(0,0,0,0.8)), url(${deity.heroImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
     >
-      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
-      <div className="relative flex h-full flex-col justify-between p-6">
-        <div className="flex items-center justify-between">
-          <span className="rounded-full border border-white/30 px-3 py-1 text-[0.75rem] uppercase tracking-[0.15em] text-zinc-100">
-            {deity.domain}
+      <h3 className="text-xl font-semibold text-amber-100 group-hover:text-amber-200 transition">
+        {deity.name}
+      </h3>
+      <p className="text-sm italic text-zinc-200">{deity.epithet[language]}</p>
+      <p className="text-sm text-zinc-300 line-clamp-3">{deity.summary[language]}</p>
+      <div className="mt-auto flex flex-wrap gap-2">
+        <span className="rounded-full border border-amber-200/30 bg-amber-200/10 px-2.5 py-0.5 text-xs text-amber-100">
+          {strings.pantheon[domainKey[deity.domain]]}
+        </span>
+        {deity.altNames[language] && (
+          <span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-2.5 py-0.5 text-xs text-emerald-200">
+            {deity.altNames[language]}
           </span>
-          <span className="text-xs text-zinc-200">{deity.altNames.en}</span>
-        </div>
-        <div className="mt-6">
-          <h3 className="text-2xl font-semibold text-amber-100 drop-shadow-lg">
-            {deity.name}
-          </h3>
-          <p className="mt-2 max-w-md text-sm text-zinc-200">{deity.epithet[language]}</p>
-          <p className="mt-3 max-w-lg text-sm text-zinc-300">{deity.summary[language]}</p>
-          {highlight && (
-            <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-amber-300/20 px-3 py-1 text-xs text-amber-50">
-              {strings.deity.highlighted}
-            </div>
-          )}
-        </div>
+        )}
+        {highlight && (
+          <span className="rounded-full border border-amber-200/30 bg-amber-200/10 px-2.5 py-0.5 text-xs text-amber-50">
+            {strings.deity.highlighted}
+          </span>
+        )}
       </div>
     </Link>
   );
