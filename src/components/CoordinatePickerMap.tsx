@@ -24,7 +24,7 @@ const DARK_MAP_STYLES: google.maps.MapTypeStyle[] = [
   { featureType: "landscape.natural", elementType: "geometry", stylers: [{ color: "#0c110f" }] },
 ];
 
-const LONG_PRESS_DURATION_MS = 1000;
+const LONG_PRESS_DURATION_MS = 2000;
 
 interface CoordinatePickerMapProps {
   /** Current pin position; `null` means no pin on the map. */
@@ -37,6 +37,7 @@ export function CoordinatePickerMap({ pin, onPinChange }: CoordinatePickerMapPro
   const { strings } = useTranslation();
   const pressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pressCoords = useRef<{ lat: number; lng: number } | null>(null);
+  const isMultiTouch = useRef(false);
   const [mapInstance, setMapInstance] = useState<google.maps.Map | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -75,12 +76,14 @@ export function CoordinatePickerMap({ pin, onPinChange }: CoordinatePickerMapPro
 
   const handleMouseDown = useCallback(
     (e: google.maps.MapMouseEvent) => {
-      if (!e.latLng) return;
+      if (!e.latLng || isMultiTouch.current) return;
       const lat = e.latLng.lat();
       const lng = e.latLng.lng();
       pressCoords.current = { lat, lng };
       pressTimer.current = setTimeout(() => {
-        onPinChange(lat, lng);
+        if (!isMultiTouch.current) {
+          onPinChange(lat, lng);
+        }
         pressTimer.current = null;
       }, LONG_PRESS_DURATION_MS);
     },
@@ -89,15 +92,47 @@ export function CoordinatePickerMap({ pin, onPinChange }: CoordinatePickerMapPro
 
   const handleMouseUp = useCallback(() => clearPressTimer(), [clearPressTimer]);
   const handleDragStart = useCallback(() => clearPressTimer(), [clearPressTimer]);
+  const handleZoomChanged = useCallback(() => clearPressTimer(), [clearPressTimer]);
 
-  /* Disable the map context menu so long-press on touch devices works cleanly. */
+  /* Disable the map context menu so long-press on touch devices works cleanly.
+     Detect multi-touch (pinch-to-zoom) and cancel pin placement. */
   useEffect(() => {
     if (!mapInstance) return;
     const div = mapInstance.getDiv();
     const suppress = (e: Event) => e.preventDefault();
     div.addEventListener("contextmenu", suppress);
-    return () => div.removeEventListener("contextmenu", suppress);
-  }, [mapInstance]);
+
+    const handleTouchStart = (e: TouchEvent) => {
+      if (e.touches.length > 1) {
+        isMultiTouch.current = true;
+        clearPressTimer();
+      } else {
+        isMultiTouch.current = false;
+      }
+    };
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length > 1) {
+        isMultiTouch.current = true;
+        clearPressTimer();
+      }
+    };
+    const handleTouchEnd = (e: TouchEvent) => {
+      if (e.touches.length === 0) {
+        isMultiTouch.current = false;
+      }
+    };
+
+    div.addEventListener("touchstart", handleTouchStart);
+    div.addEventListener("touchmove", handleTouchMove);
+    div.addEventListener("touchend", handleTouchEnd);
+
+    return () => {
+      div.removeEventListener("contextmenu", suppress);
+      div.removeEventListener("touchstart", handleTouchStart);
+      div.removeEventListener("touchmove", handleTouchMove);
+      div.removeEventListener("touchend", handleTouchEnd);
+    };
+  }, [mapInstance, clearPressTimer]);
 
   const mapOptions = useMemo(() => {
     if (typeof google === "undefined") return {};
@@ -144,13 +179,14 @@ export function CoordinatePickerMap({ pin, onPinChange }: CoordinatePickerMapPro
     >
       <GoogleMap
         mapContainerClassName="h-full w-full"
-        center={pin ?? MAP_CENTER}
+        center={MAP_CENTER}
         zoom={7}
         options={mapOptions}
         onLoad={setMapInstance}
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
         onDragStart={handleDragStart}
+        onZoomChanged={handleZoomChanged}
       >
         {pin && (
           <MarkerF position={pin} />
