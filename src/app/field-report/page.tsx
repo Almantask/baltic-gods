@@ -1,8 +1,9 @@
 'use client';
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useCallback, useMemo, useState } from "react";
 import { deities } from "@/content/deities";
 import { useTranslation } from "@/lib/i18n";
+import { CoordinatePickerMap } from "@/components/CoordinatePickerMap";
 
 interface FormState {
   location: string;
@@ -32,6 +33,24 @@ export default function FieldReportPage() {
   const update = (key: keyof FormState, value: string | string[]) => {
     setForm((prev) => ({ ...prev, [key]: value }));
   };
+
+  /** Derive pin position from the coordinates text field. */
+  const pin = useMemo<{ lat: number; lng: number } | null>(() => {
+    const parts = form.coordinates.split(",").map((s) => s.trim());
+    if (parts.length !== 2) return null;
+    const lat = parseFloat(parts[0]);
+    const lng = parseFloat(parts[1]);
+    if (Number.isNaN(lat) || Number.isNaN(lng)) return null;
+    return { lat, lng };
+  }, [form.coordinates]);
+
+  /** Called when the user long-presses the map to place a pin. */
+  const handlePinChange = useCallback(
+    (lat: number, lng: number) => {
+      update("coordinates", `${lat.toFixed(5)}, ${lng.toFixed(5)}`);
+    },
+    [],
+  );
 
   const toggleDeity = (slug: string) => {
     setForm((prev) => {
@@ -161,13 +180,16 @@ export default function FieldReportPage() {
             />
           </label>
           <div className="md:col-span-2">
-            <div className="flex flex-col gap-2 rounded-2xl border border-amber-200/40 bg-amber-200/10 px-4 py-6 text-center text-amber-50">
+            <div className="flex flex-col gap-2 rounded-2xl border border-amber-200/40 bg-amber-200/10 px-4 py-4 text-center text-amber-50">
               <p className="text-sm uppercase tracking-[0.2em]">
                 {strings.field.mapCta}
               </p>
-              <p className="text-zinc-100">
+              <p className="text-xs text-zinc-100">
                 {strings.field.mapInstruction}
               </p>
+            </div>
+            <div className="mt-3">
+              <CoordinatePickerMap pin={pin} onPinChange={handlePinChange} />
             </div>
           </div>
           <div className="md:col-span-2 flex flex-wrap items-center gap-4">
