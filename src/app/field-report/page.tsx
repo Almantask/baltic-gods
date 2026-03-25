@@ -47,7 +47,7 @@ export default function FieldReportPage() {
   /** Called when the user long-presses the map to place a pin. */
   const handlePinChange = useCallback(
     (lat: number, lng: number) => {
-      update("coordinates", `${lat.toFixed(5)}, ${lng.toFixed(5)}`);
+      setForm((prev) => ({ ...prev, coordinates: `${lat.toFixed(5)}, ${lng.toFixed(5)}` }));
     },
     [],
   );
