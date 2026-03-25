@@ -4,9 +4,16 @@ export const perkunasMeta: DeityMeta = {
   slug: "perkunas",
   name: "Perkūnas",
   domain: "God",
-  epithet: "Thunder that cleaves the canopy",
-  summary:
-    "Lightning keeps time with the oaks while iron-etched prayers echo over hills and lake skin.",
+  epithet: {
+    en: "Thunder that cleaves the canopy",
+    lt: "Griaustinis, skeliantis dangaus skliautą",
+    lv: "Pērkons, kas šķeļ debesu jumtu",
+  },
+  summary: {
+    en: "Lightning keeps time with the oaks while iron-etched prayers echo over hills and lake skin.",
+    lt: "Žaibas diktuoja ritmą ąžuolams, o geležimi raižytos maldos aidi virš kalvų ir ežerų.",
+    lv: "Zibens skaita laiku ar ozoliem, kamēr dzelzī iegravētas lūgšanas atbalsojas pār pakalniem un ezeriem.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(216, 150, 70, 0.22)",
@@ -64,8 +71,16 @@ export const sauleMeta: DeityMeta = {
   slug: "saule",
   name: "Saulė",
   domain: "God",
-  epithet: "Amber wheel of morning",
-  summary: "The sun-mother rides a burning sledge over marsh mist, pouring warmth into flax fields.",
+  epithet: {
+    en: "Amber wheel of morning",
+    lt: "Gintarinis ryto ratas",
+    lv: "Dzintara rīta ritenis",
+  },
+  summary: {
+    en: "The sun-mother rides a burning sledge over marsh mist, pouring warmth into flax fields.",
+    lt: "Saulė-motina joja degančiomis rogėmis virš pelkių rūko, liedama šilumą į linų laukus.",
+    lv: "Saules māte brauc ar degošām kamanām pār purva miglu, lejot siltumu linu laukos.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(228, 172, 84, 0.26)",
@@ -124,9 +139,16 @@ export const laimaMeta: DeityMeta = {
   slug: "laima",
   name: "Laima",
   domain: "Person",
-  epithet: "Weaver of fates at the spring edge",
-  summary:
-    "Destiny is braided quietly where birch bark curls, and choices are tied with river flax.",
+  epithet: {
+    en: "Weaver of fates at the spring edge",
+    lt: "Likimų audėja prie šaltinio krašto",
+    lv: "Likteņu audēja pie avota malas",
+  },
+  summary: {
+    en: "Destiny is braided quietly where birch bark curls, and choices are tied with river flax.",
+    lt: "Likimas tyliai pinamas ten, kur raitosi beržo žievė, o pasirinkimai rišami upės linais.",
+    lv: "Liktenis klusi tiek pīts tur, kur bērza tāss lokās, un izvēles sasietas ar upes liniem.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(107, 156, 126, 0.26)",
@@ -184,8 +206,16 @@ export const zemynaMeta: DeityMeta = {
   slug: "zemyna",
   name: "Žemyna",
   domain: "God",
-  epithet: "Breath of fertile soil",
-  summary: "She keeps the pulse under rye fields and moss, waking seeds with heavy patience.",
+  epithet: {
+    en: "Breath of fertile soil",
+    lt: "Derlingos žemės alsavimas",
+    lv: "Auglīgās zemes elpa",
+  },
+  summary: {
+    en: "She keeps the pulse under rye fields and moss, waking seeds with heavy patience.",
+    lt: "Ji saugo pulsą po rugių laukais ir samanomis, žadindama sėklas sunkia kantrybe.",
+    lv: "Viņa uztur pulsu zem rudzu laukiem un sūnām, modinot sēklas ar smagu pacietību.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(118, 148, 110, 0.24)",
@@ -243,9 +273,16 @@ export const velniasMeta: DeityMeta = {
   slug: "velnias",
   name: "Velnias",
   domain: "Creature",
-  epithet: "Keeper of hollows and bargains",
-  summary:
-    "A horned shadow in marsh fog, guiding wanderers who pay respect and misguiding those who mock.",
+  epithet: {
+    en: "Keeper of hollows and bargains",
+    lt: "Daubų ir sandėrių sargas",
+    lv: "Dobumu un darījumu sargs",
+  },
+  summary: {
+    en: "A horned shadow in marsh fog, guiding wanderers who pay respect and misguiding those who mock.",
+    lt: "Raguotas šešėlis pelkių rūke, vedantis pagarbius keliautojus ir klaidinantis pašaipūnus.",
+    lv: "Ragains ēna purva miglā, vadot ceļotājus, kas izrāda cieņu, un maldina tos, kas zobojas.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1509024121564-13f14ac0b9b9?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(86, 102, 90, 0.3)",
@@ -303,9 +340,16 @@ export const austejaMeta: DeityMeta = {
   slug: "austeja",
   name: "Austėja",
   domain: "Creature",
-  epithet: "Mistress of bees and blooming edges",
-  summary:
-    "She hums in the timberline, swarming over hollow lindens and calming storms with honeyed smoke.",
+  epithet: {
+    en: "Mistress of bees and blooming edges",
+    lt: "Bičių ir žydinčių pakraščių valdovė",
+    lv: "Bišu un ziedošo malu valdniece",
+  },
+  summary: {
+    en: "She hums in the timberline, swarming over hollow lindens and calming storms with honeyed smoke.",
+    lt: "Ji dūzgia miško pakraštyje, spiečiasi virš tuščiavidurių liepų ir ramina audras medaus dūmais.",
+    lv: "Viņa dūc meža malā, spietos pār dobajām liepām un nomierina vētras ar medus dūmiem.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(130, 150, 104, 0.25)",
@@ -365,8 +409,16 @@ export const menulisMeta: DeityMeta = {
   slug: "menulis",
   name: "Mėnulis",
   domain: "God",
-  epithet: "Keeper of nocturnal crossings",
-  summary: "Silver light on river bends marks the routes of wanderers and wolves alike.",
+  epithet: {
+    en: "Keeper of nocturnal crossings",
+    lt: "Naktinių kirtimų sargas",
+    lv: "Nakts pāreju sargs",
+  },
+  summary: {
+    en: "Silver light on river bends marks the routes of wanderers and wolves alike.",
+    lt: "Sidabrinė šviesa upių vingiuose žymi keliautojų ir vilkų takus.",
+    lv: "Sudraba gaisma upju līkumos iezīmē ceļotāju un vilku takas.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(160, 192, 210, 0.22)",
@@ -424,8 +476,16 @@ export const dievasMeta: DeityMeta = {
   slug: "dievas",
   name: "Dievas",
   domain: "God",
-  epithet: "High stillness above the pines",
-  summary: "A distant, patient presence felt in the pause between wind gusts and bell chimes.",
+  epithet: {
+    en: "High stillness above the pines",
+    lt: "Aukšta tyla virš pušų",
+    lv: "Augsta klusums virs priedēm",
+  },
+  summary: {
+    en: "A distant, patient presence felt in the pause between wind gusts and bell chimes.",
+    lt: "Tolima, kantri esatis, jaučiama pauzėje tarp vėjo gūsių ir varpų skambėjimo.",
+    lv: "Tāla, pacietīga klātbūtne, jūtama pauzē starp vēja brāzmām un zvanu skaņām.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(118, 138, 152, 0.2)",
@@ -484,8 +544,16 @@ export const gabijaMeta: DeityMeta = {
   slug: "gabija",
   name: "Gabija",
   domain: "Person",
-  epithet: "Ember in the hearth",
-  summary: "She curls in coals, guarding thresholds and keeping homes knit together with heat.",
+  epithet: {
+    en: "Ember in the hearth",
+    lt: "Žarija židinyje",
+    lv: "Kvēle pavardā",
+  },
+  summary: {
+    en: "She curls in coals, guarding thresholds and keeping homes knit together with heat.",
+    lt: "Ji rangosi žarijose, saugodama slenkščius ir šiluma rišdama namus.",
+    lv: "Viņa tinas oglēs, sargājot sliekšņus un turot mājas kopā ar siltumu.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1509023464722-18d996393ca8?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(210, 126, 66, 0.26)",
@@ -543,9 +611,16 @@ export const bangputysMeta: DeityMeta = {
   slug: "bangputys",
   name: "Bangpūtys",
   domain: "Creature",
-  epithet: "Two-faced wind of the Baltic",
-  summary:
-    "His cheeks hold both roar and lull; fishermen watch his mood in the curl of grass and wave.",
+  epithet: {
+    en: "Two-faced wind of the Baltic",
+    lt: "Dviveidis Baltijos vėjas",
+    lv: "Baltijas divseju vējš",
+  },
+  summary: {
+    en: "His cheeks hold both roar and lull; fishermen watch his mood in the curl of grass and wave.",
+    lt: "Jo skruostuose telpa ir riaumojimas, ir ramybė; žvejai seka jo nuotaiką žolės ir bangų raibuliuose.",
+    lv: "Viņa vaigos mīt gan rēciens, gan klusums; zvejnieki vēro viņa garastāvokli zāles un viļņu lokos.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(87, 132, 160, 0.28)",
@@ -604,9 +679,16 @@ export const medineMeta: DeityMeta = {
   slug: "medine",
   name: "Medinė",
   domain: "Creature",
-  epithet: "Lady of bark and shadow",
-  summary:
-    "She is the hush inside spruce trunks, guiding woodcutters who step softly and warning those who rush.",
+  epithet: {
+    en: "Lady of bark and shadow",
+    lt: "Žievės ir šešėlių valdovė",
+    lv: "Mizas un ēnu valdniece",
+  },
+  summary: {
+    en: "She is the hush inside spruce trunks, guiding woodcutters who step softly and warning those who rush.",
+    lt: "Ji yra tyla eglių kamienų viduje, vedanti miškakirčius, žingsniuojančius švelniai, ir perspėjanti skubančius.",
+    lv: "Viņa ir klusums egļu stumbru iekšienē, vadot malkas cirtējus, kas soļo klusi, un brīdinot tos, kas steidzas.",
+  },
   heroImage:
     "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(82, 102, 84, 0.24)",

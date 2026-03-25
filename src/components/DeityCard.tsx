@@ -12,7 +12,7 @@ interface Props {
 }
 
 export function DeityCard({ deity, highlight, size = "md" }: Props) {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const sizeClass =
     size === "lg"
       ? "min-h-[360px]"
@@ -47,8 +47,8 @@ export function DeityCard({ deity, highlight, size = "md" }: Props) {
           <h3 className="text-2xl font-semibold text-amber-100 drop-shadow-lg">
             {deity.name}
           </h3>
-          <p className="mt-2 max-w-md text-sm text-zinc-200">{deity.epithet}</p>
-          <p className="mt-3 max-w-lg text-sm text-zinc-300">{deity.summary}</p>
+          <p className="mt-2 max-w-md text-sm text-zinc-200">{deity.epithet[language]}</p>
+          <p className="mt-3 max-w-lg text-sm text-zinc-300">{deity.summary[language]}</p>
           {highlight && (
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-amber-300/20 px-3 py-1 text-xs text-amber-50">
               {strings.deity.highlighted}
