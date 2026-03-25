@@ -6,12 +6,12 @@ import { deityBySlug } from "@/content/deities";
 import { useTranslation } from "@/lib/i18n";
 
 export function StoryDetailContent({ slug }: { slug: string }) {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const entry = storyBySlug[slug];
   if (!entry) return null;
   const { meta } = entry;
 
-  const paragraphs = meta.content.split("\n\n");
+  const StoryContent = entry.contentByLang[language];
 
   return (
     <article className="flex flex-col gap-10">
@@ -20,10 +20,10 @@ export function StoryDetailContent({ slug }: { slug: string }) {
           {strings.stories.title}
         </p>
         <h1 className="mt-2 text-4xl font-semibold text-amber-50 sm:text-5xl">
-          {meta.title}
+          {meta.title[language]}
         </h1>
         <p className="mt-4 max-w-2xl text-lg italic text-zinc-200">
-          {meta.summary}
+          {meta.summary[language]}
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3">
@@ -61,11 +61,7 @@ export function StoryDetailContent({ slug }: { slug: string }) {
 
       <section className="glass rounded-3xl p-8">
         <div className="prose prose-invert max-w-3xl mx-auto">
-          {paragraphs.map((para, idx) => (
-            <p key={idx} className="text-zinc-200 leading-relaxed mb-6 last:mb-0">
-              {para}
-            </p>
-          ))}
+          <StoryContent />
         </div>
       </section>
 
