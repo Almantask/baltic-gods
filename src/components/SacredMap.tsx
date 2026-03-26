@@ -52,6 +52,7 @@ interface SacredMapProps {
   nearMeLoading?: boolean;
   onNearMeClick?: () => void;
   userLocation?: [number, number] | null;
+  hideLegend?: boolean;
 }
 
 export function SacredMap({
@@ -66,6 +67,7 @@ export function SacredMap({
   nearMeLoading,
   onNearMeClick,
   userLocation,
+  hideLegend = false,
 }: SacredMapProps) {
   const { strings } = useTranslation();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -272,7 +274,7 @@ export function SacredMap({
           </div>
         </div>
       )}
-      {!compact && (
+      {!compact && !hideLegend && (
         <div className="absolute left-3 top-3 flex flex-col rounded-xl border border-white/10 bg-black/70 backdrop-blur">
           <button
             type="button"
