@@ -1,4 +1,5 @@
 import "@testing-library/jest-dom";
+import type { MutableRefObject } from "react";
 
 jest.mock("next/navigation", () => ({
   useRouter: () => ({
@@ -49,21 +50,40 @@ Object.defineProperty(globalThis, "google", {
 
 jest.mock("@react-google-maps/api", () => ({
   useJsApiLoader: () => ({ isLoaded: true }),
-  GoogleMap: ({ children, onMouseDown, onMouseUp, onDragStart, onZoomChanged }: {
+  GoogleMap: ({ children, onMouseDown, onMouseUp, onDragStart, onZoomChanged, onLoad }: {
     children?: React.ReactNode;
     onMouseDown?: (e: unknown) => void;
     onMouseUp?: () => void;
     onDragStart?: () => void;
     onZoomChanged?: () => void;
+    onLoad?: (map: google.maps.Map) => void;
   }) => {
+    const divRef = React.useRef(null) as MutableRefObject<HTMLElement | null>;
+    const mapInstanceRef = React.useRef(null) as MutableRefObject<google.maps.Map | null>;
+
     const ref = React.useCallback((el: HTMLElement | null) => {
-      if (el) {
-        (el as unknown as Record<string, unknown>).__onMouseDown = onMouseDown;
-        (el as unknown as Record<string, unknown>).__onMouseUp = onMouseUp;
-        (el as unknown as Record<string, unknown>).__onDragStart = onDragStart;
-        (el as unknown as Record<string, unknown>).__onZoomChanged = onZoomChanged;
+      if (!el) return;
+
+      divRef.current = el;
+      if (!mapInstanceRef.current) {
+        mapInstanceRef.current = {
+          panTo: jest.fn(),
+          setZoom: jest.fn(),
+          getZoom: jest.fn(() => 7),
+          getDiv: () => divRef.current ?? el,
+        } as unknown as google.maps.Map;
+
+        onLoad?.(mapInstanceRef.current);
       }
-    }, [onMouseDown, onMouseUp, onDragStart, onZoomChanged]);
+
+      const map = mapInstanceRef.current;
+
+      (el as unknown as Record<string, unknown>).__onMouseDown = onMouseDown;
+      (el as unknown as Record<string, unknown>).__onMouseUp = onMouseUp;
+      (el as unknown as Record<string, unknown>).__onDragStart = onDragStart;
+      (el as unknown as Record<string, unknown>).__onZoomChanged = onZoomChanged;
+      (el as unknown as Record<string, unknown>).__map = map;
+    }, [onDragStart, onLoad, onMouseDown, onMouseUp, onZoomChanged]);
     return React.createElement("div", { "data-testid": "google-map", ref }, children);
   },
   MarkerF: ({ onClick, position }: { onClick?: () => void; position?: { lat: number; lng: number } }) =>

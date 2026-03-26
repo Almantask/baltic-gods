@@ -1,5 +1,5 @@
 import userEvent from "@testing-library/user-event";
-import { within, act } from "@testing-library/react";
+import { within, act, waitFor } from "@testing-library/react";
 import MapPage from "@/app/map/page";
 import { renderWithProviders } from "../testing/render-with-providers";
 
@@ -38,6 +38,25 @@ describe("Map page", () => {
     expect(
       within(coordPanel).getByText((content) => content.includes("55.300")),
     ).toBeInTheDocument();
+  });
+
+  it("pans the map to a location when its card is selected", async () => {
+    const user = userEvent.setup();
+    const { getByRole, getByTestId } = renderWithProviders(<MapPage />);
+
+    const mapEl = getByTestId("google-map") as HTMLElement & { __map?: { panTo: jest.Mock } };
+    const panSpy = mapEl.__map?.panTo;
+    expect(panSpy).toBeDefined();
+
+    const aside = getByRole("complementary");
+    const listItem = within(aside).getByRole("button", {
+      name: /Aukštaitija Thunder Oaks/i,
+    });
+    await user.click(listItem);
+
+    await waitFor(() => {
+      expect(panSpy).toHaveBeenCalledWith({ lat: 55.3, lng: 26.0 });
+    });
   });
 
   it("collapses and expands the map legend", async () => {
@@ -151,4 +170,3 @@ describe("Map page", () => {
   });
 
 });
-

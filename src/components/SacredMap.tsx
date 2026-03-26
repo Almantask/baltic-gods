@@ -70,6 +70,7 @@ export function SacredMap({
   const [hiddenCategoriesInternal, setHiddenCategoriesInternal] = useState<Set<SiteCategory>>(new Set());
   const [legendCollapsed, setLegendCollapsed] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const mapRef = useRef<google.maps.Map | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
@@ -129,6 +130,14 @@ export function SacredMap({
     () => locations.find((loc) => loc.id === hoveredId),
     [locations, hoveredId],
   );
+
+  useEffect(() => {
+    if (!selectedLocation || !mapRef.current) return;
+    mapRef.current.panTo({
+      lat: selectedLocation.coordinates[0],
+      lng: selectedLocation.coordinates[1],
+    });
+  }, [selectedLocation]);
 
   const handleClick = useCallback(
     (loc: LocationPoint) => {
@@ -192,6 +201,9 @@ export function SacredMap({
         center={MAP_CENTER}
         zoom={compact ? 6 : 7}
         options={mapOptions}
+        onLoad={(map) => {
+          mapRef.current = map;
+        }}
       >
         {visibleLocations.map((loc) => {
           const isActive = loc.id === selectedLocationId;
