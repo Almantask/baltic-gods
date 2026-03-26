@@ -51,6 +51,7 @@ interface SacredMapProps {
   nearMeActive?: boolean;
   nearMeLoading?: boolean;
   onNearMeClick?: () => void;
+  userLocation?: [number, number] | null;
 }
 
 export function SacredMap({
@@ -64,6 +65,7 @@ export function SacredMap({
   nearMeActive,
   nearMeLoading,
   onNearMeClick,
+  userLocation,
 }: SacredMapProps) {
   const { strings } = useTranslation();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -138,6 +140,17 @@ export function SacredMap({
       lng: selectedLocation.coordinates[1],
     });
   }, [selectedLocation]);
+
+  useEffect(() => {
+    if (!mapRef.current || !nearMeActive || !userLocation) return;
+
+    mapRef.current.panTo({ lat: userLocation[0], lng: userLocation[1] });
+
+    const currentZoom = mapRef.current.getZoom?.();
+    if (currentZoom !== undefined && currentZoom < 9) {
+      mapRef.current.setZoom?.(9);
+    }
+  }, [nearMeActive, userLocation]);
 
   const handleClick = useCallback(
     (loc: LocationPoint) => {

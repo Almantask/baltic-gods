@@ -102,6 +102,7 @@ export default function MapPage() {
             nearMeActive={nearMeActive}
             nearMeLoading={nearMeLoading}
             onNearMeClick={handleNearMeClick}
+            userLocation={userLocation}
           />
         </div>
         <aside className="glass flex flex-col gap-4 rounded-3xl p-5">

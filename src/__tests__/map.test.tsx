@@ -102,6 +102,28 @@ describe("Map page", () => {
     expect(navigator.geolocation.getCurrentPosition).toHaveBeenCalledTimes(1);
   });
 
+  it("pans the map to the user's location when Near me resolves", async () => {
+    const user = userEvent.setup();
+    const { getByRole, getByTestId } = renderWithProviders(<MapPage />);
+
+    const mapEl = getByTestId("google-map") as HTMLElement & { __map?: { panTo: jest.Mock } };
+    const panSpy = mapEl.__map?.panTo;
+    expect(panSpy).toBeDefined();
+
+    await user.click(getByRole("button", { name: /Near me/i }));
+
+    await act(async () => {
+      expect(geoSuccessCallback).not.toBeNull();
+      geoSuccessCallback!({
+        coords: { latitude: 54.7, longitude: 25.3 },
+      } as GeolocationPosition);
+    });
+
+    await waitFor(() => {
+      expect(panSpy).toHaveBeenCalledWith({ lat: 54.7, lng: 25.3 });
+    });
+  });
+
   it("filters locations within 50 km when Near me is active", async () => {
     const user = userEvent.setup();
     const { getByRole } = renderWithProviders(<MapPage />);
