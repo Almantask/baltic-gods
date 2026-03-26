@@ -23,8 +23,8 @@ export function SearchSection() {
   );
 
   const locationMatches = useMemo(
-    () => searchLocations(locationQuery).slice(0, 5),
-    [locationQuery],
+    () => searchLocations(locationQuery, language).slice(0, 5),
+    [language, locationQuery],
   );
 
   const empty = !deityQuery && !locationQuery;
@@ -105,7 +105,7 @@ export function SearchSection() {
             {locationMatches.map((loc) => (
               <Link
                 key={loc.id}
-                href={`/pantheon/${loc.deity}?location=${loc.id}`}
+                href={`/locations/${loc.id}`}
                 className="block rounded-xl border border-white/10 bg-black/40 px-3 py-3 text-sm text-zinc-100 transition hover:border-amber-200/40"
               >
                 <p className="font-semibold text-amber-100">{loc.name}</p>

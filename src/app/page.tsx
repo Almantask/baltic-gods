@@ -2,18 +2,19 @@
 
 import Link from "next/link";
 import { DeityCard } from "@/components/DeityCard";
-import { allLocations, deities } from "@/content/deities";
+import { deities } from "@/content/deities";
+import { getLocationPoints } from "@/content/locations";
 import { useTranslation } from "@/lib/i18n";
 
 const heroBackground =
   "linear-gradient(180deg, rgba(5,7,8,0.6), rgba(5,7,8,0.9)), url(https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80)";
 
 export default function Home() {
-  const { strings } = useTranslation();
+  const { language, strings } = useTranslation();
   const featured = deities.filter((d) =>
     ["perkunas", "saule", "laima"].includes(d.meta.slug),
   );
-  const featuredLocations = allLocations.slice(0, 4);
+  const featuredLocations = getLocationPoints(language).slice(0, 4);
 
   return (
     <div className="flex flex-col gap-12">
@@ -79,9 +80,8 @@ export default function Home() {
         </p>
         <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {featuredLocations.map((loc) => (
-            <Link
+            <div
               key={loc.id}
-              href={`/pantheon/${loc.deity}?loc=${loc.id}`}
               className="group rounded-2xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-5 shadow-lg transition hover:border-amber-200/30"
             >
               <span className="text-[10px] font-semibold uppercase tracking-widest text-amber-300/80">
@@ -94,7 +94,15 @@ export default function Home() {
               <p className="mt-2 line-clamp-2 text-sm text-zinc-300">
                 {loc.description}
               </p>
-            </Link>
+              <div className="mt-3 flex justify-end">
+                <Link
+                  href={`/locations/${loc.id}`}
+                  className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[0.75rem] font-semibold uppercase tracking-[0.2em] text-amber-50 transition hover:border-amber-200/40"
+                >
+                  {strings.actions.more}
+                </Link>
+              </div>
+            </div>
           ))}
         </div>
       </section>

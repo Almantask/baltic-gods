@@ -57,7 +57,7 @@ const translations = {
       hideLegend: "Hide legend",
       selectMarker: "Select a marker to view details.",
       coordinates: "Coordinate Panel",
-      markerAction: "Tap a marker to open the deity with context.",
+      markerAction: "Tap a marker to open the location detail.",
       searchPlaceholder: "Search by location name",
       nearMe: "Near me",
       nearMeLoading: "Locating…",
@@ -100,6 +100,7 @@ const translations = {
     },
     actions: {
       viewDetail: "View detail",
+      more: "More",
     },
     search: {
       deities: "Deities",
@@ -119,6 +120,18 @@ const translations = {
       arrivedViaMap: "Arrived via map? Highlighted location:",
       none: "none",
       highlighted: "Highlighted",
+    },
+    location: {
+      overview: "Location detail",
+      significance: "Significance",
+      region: "Region",
+      siteType: "Site type",
+      coordinates: "Coordinates",
+      aura: "Aura",
+      deityLink: "Linked deity",
+      openDeity: "Open deity profile",
+      backToMap: "Back to map",
+      mapPreview: "Map preview",
     },
   },
   lt: {
@@ -172,7 +185,7 @@ const translations = {
       hideLegend: "Slėpti legendą",
       selectMarker: "Pasirinkite žymeklį, kad matytumėte informaciją.",
       coordinates: "Koordinačių skydas",
-      markerAction: "Palieskite žymeklį, kad atidarytumėte dievybę su kontekstu.",
+      markerAction: "Palieskite žymeklį, kad atidarytumėte vietos aprašą.",
       searchPlaceholder: "Ieškoti vietovės pavadinimo",
       nearMe: "Šalia manęs",
       nearMeLoading: "Ieškoma…",
@@ -215,6 +228,7 @@ const translations = {
     },
     actions: {
       viewDetail: "Peržiūrėti",
+      more: "Daugiau",
     },
     search: {
       deities: "Dievybės",
@@ -234,6 +248,18 @@ const translations = {
       arrivedViaMap: "Atvykote per žemėlapį? Paryškinta vieta:",
       none: "nėra",
       highlighted: "Paryškinta",
+    },
+    location: {
+      overview: "Vietos aprašas",
+      significance: "Svarba",
+      region: "Regionas",
+      siteType: "Vietos tipas",
+      coordinates: "Koordinatės",
+      aura: "Aura",
+      deityLink: "Susijusi dievybė",
+      openDeity: "Atverti dievybės profilį",
+      backToMap: "Grįžti į žemėlapį",
+      mapPreview: "Žemėlapio peržiūra",
     },
   },
   lv: {
@@ -287,7 +313,7 @@ const translations = {
       hideLegend: "Slēpt leģendu",
       selectMarker: "Izvēlieties marķieri, lai skatītu detaļas.",
       coordinates: "Koordinātu panelis",
-      markerAction: "Nospiediet marķieri, lai atvērtu dievību ar kontekstu.",
+      markerAction: "Nospiediet marķieri, lai atvērtu vietas aprakstu.",
       searchPlaceholder: "Meklēt pēc vietas nosaukuma",
       nearMe: "Pie manis",
       nearMeLoading: "Meklē…",
@@ -330,6 +356,7 @@ const translations = {
     },
     actions: {
       viewDetail: "Apskatīt",
+      more: "Vairāk",
     },
     search: {
       deities: "Dievības",
@@ -349,6 +376,18 @@ const translations = {
       arrivedViaMap: "Ieradāties caur karti? Izceltā vieta:",
       none: "nav",
       highlighted: "Izcelts",
+    },
+    location: {
+      overview: "Vietas apraksts",
+      significance: "Nozīme",
+      region: "Reģions",
+      siteType: "Vietas tips",
+      coordinates: "Koordinātes",
+      aura: "Aura",
+      deityLink: "Saistītā dievība",
+      openDeity: "Atvērt dievības profilu",
+      backToMap: "Atpakaļ uz karti",
+      mapPreview: "Kartes priekšskatījums",
     },
   },
 };
