@@ -3,27 +3,29 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { SacredMap } from "@/components/SacredMap";
-import { locationById, findLocationPoint } from "@/content/locations";
+import { locationEntryById, findLocationPoint } from "@/content/locations";
 import { deityBySlug } from "@/content/deities";
 import { auraPalette } from "@/lib/constants";
 import { useTranslation } from "@/lib/i18n";
 
 export function LocationDetailContent({ id }: { id: string }) {
   const { language, strings } = useTranslation();
-  const meta = locationById[id];
+  const entry = locationEntryById[id];
+  const meta = entry?.meta;
 
   const location = useMemo(
     () => (meta ? findLocationPoint(id, language) : undefined),
     [id, language, meta],
   );
 
-  if (!meta || !location) {
+  if (!entry || !meta || !location) {
     return null;
   }
 
   const deity = deityBySlug[meta.deity];
   const aura = auraPalette[meta.aura];
   const coordinates = `${meta.coordinates[0].toFixed(3)}°N · ${meta.coordinates[1].toFixed(3)}°E`;
+  const LocationContent = entry.contentByLang[language] ?? entry.Content;
 
   return (
     <div className="space-y-6">
@@ -64,13 +66,23 @@ export function LocationDetailContent({ id }: { id: string }) {
       </section>
 
       <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <div className="glass rounded-3xl p-6">
-          <h2 className="text-xl font-semibold text-amber-100">
-            {strings.location.significance}
-          </h2>
-          <p className="mt-3 text-zinc-200">
-            {meta.significance[language] ?? meta.significance.en}
-          </p>
+        <div className="space-y-4">
+          <div className="glass rounded-3xl p-6">
+            <h2 className="text-xl font-semibold text-amber-100">
+              {strings.location.significance}
+            </h2>
+            <p className="mt-3 text-zinc-200">
+              {meta.significance[language] ?? meta.significance.en}
+            </p>
+          </div>
+          <div className="glass rounded-3xl p-6">
+            <h2 className="text-xl font-semibold text-amber-100">
+              {strings.location.lore}
+            </h2>
+            <div className="mt-3 prose prose-invert max-w-none">
+              <LocationContent />
+            </div>
+          </div>
         </div>
         <div className="glass flex flex-col gap-3 rounded-3xl p-6">
           <h3 className="text-lg font-semibold text-amber-100">

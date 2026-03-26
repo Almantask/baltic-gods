@@ -132,6 +132,7 @@ const translations = {
       openDeity: "Open deity profile",
       backToMap: "Back to map",
       mapPreview: "Map preview",
+      lore: "Field notes",
     },
   },
   lt: {
@@ -260,6 +261,7 @@ const translations = {
       openDeity: "Atverti dievybės profilį",
       backToMap: "Grįžti į žemėlapį",
       mapPreview: "Žemėlapio peržiūra",
+      lore: "Lauko užrašai",
     },
   },
   lv: {
@@ -388,6 +390,7 @@ const translations = {
       openDeity: "Atvērt dievības profilu",
       backToMap: "Atpakaļ uz karti",
       mapPreview: "Kartes priekšskatījums",
+      lore: "Lauka piezīmes",
     },
   },
 };

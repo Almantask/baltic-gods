@@ -11,6 +11,7 @@ describe("Location detail content", () => {
 
     expect(getByRole("heading", { name: target.name.en })).toBeInTheDocument();
     expect(getAllByText(target.significance.en).length).toBeGreaterThan(0);
+    expect(getByText(/Field notes/i)).toBeInTheDocument();
     expect(getByText(/Map preview/i)).toBeInTheDocument();
   });
 
