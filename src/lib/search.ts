@@ -1,6 +1,7 @@
-import { allLocations, deities } from "@/content/deities";
+import { deities } from "@/content/deities";
+import { getLocationPoints } from "@/content/locations";
 import { stories } from "@/content/stories";
-import type { DeityEntry, Domain, StoryEntry } from "@/types/content";
+import type { DeityEntry, Domain, Language, StoryEntry } from "@/types/content";
 
 const normalize = (value: string) => value.toLowerCase().trim();
 
@@ -20,10 +21,11 @@ export function filterDeities({
   });
 }
 
-export function searchLocations(query?: string) {
+export function searchLocations(query?: string, language: Language = "en") {
   const normalized = normalize(query ?? "");
-  if (!normalized) return allLocations;
-  return allLocations.filter((loc) => {
+  const locations = getLocationPoints(language);
+  if (!normalized) return locations;
+  return locations.filter((loc) => {
     return (
       loc.name.toLowerCase().includes(normalized) ||
       loc.region.toLowerCase().includes(normalized) ||

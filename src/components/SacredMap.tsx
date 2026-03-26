@@ -143,7 +143,7 @@ export function SacredMap({
     (loc: LocationPoint) => {
       onSelect?.(loc);
       if (allowNavigate) {
-        router.push(`/pantheon/${loc.deity}?location=${loc.id}`);
+        router.push(`/locations/${loc.id}`);
       }
     },
     [onSelect, allowNavigate, router],

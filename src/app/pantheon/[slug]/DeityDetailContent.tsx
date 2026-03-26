@@ -1,11 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { deityBySlug } from "@/content/deities";
+import { findLocationPoint } from "@/content/locations";
 import { useSearchParams } from "next/navigation";
 import { useTranslation } from "@/lib/i18n";
-import type { Domain, SiteCategory } from "@/types/content";
+import type { Domain, LocationPoint, SiteCategory } from "@/types/content";
 
 const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
   God: "domainGod",
@@ -31,16 +33,20 @@ export function DeityDetailContent({ slug }: { slug: string }) {
     });
   }, []);
 
-  const locations = entry?.meta.locations;
+  const locations = useMemo<LocationPoint[]>(
+    () => entry
+      ? entry.meta.locations
+        .map((loc) => findLocationPoint(loc.id, language, loc))
+        .filter((loc): loc is LocationPoint => Boolean(loc))
+      : [],
+    [entry, language],
+  );
 
   const visibleLocations = useMemo(
-    () => {
-      if (!locations) return [];
-      return hiddenCategories.size === 0
-        ? locations
-        : locations.filter((loc) => !hiddenCategories.has(loc.siteType));
-    },
-    [locations, hiddenCategories],
+    () => hiddenCategories.size === 0
+      ? locations
+      : locations.filter((loc) => !hiddenCategories.has(loc.siteType)),
+    [hiddenCategories, locations],
   );
 
   if (!entry) {
@@ -48,10 +54,10 @@ export function DeityDetailContent({ slug }: { slug: string }) {
   }
 
   const requestedLocation = searchParams.get("location") ?? undefined;
-  const selectedLocationId = entry.meta.locations.some((l) => l.id === requestedLocation)
+  const selectedLocationId = locations.some((l) => l.id === requestedLocation)
     ? requestedLocation
-    : entry.meta.locations[0]?.id;
-  const selectedLocation = entry.meta.locations.find((loc) => loc.id === selectedLocationId);
+    : locations[0]?.id;
+  const selectedLocation = locations.find((loc) => loc.id === selectedLocationId);
 
   return (
     <div className="space-y-8">
@@ -133,9 +139,9 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           </div>
           <div className="mt-3">
             <SacredMap
-              locations={entry.meta.locations}
+              locations={locations}
               selectedLocationId={selectedLocation?.id}
-              allowNavigate={false}
+              allowNavigate
               hiddenCategories={hiddenCategories}
               onToggleCategory={toggleCategory}
             />
@@ -162,6 +168,14 @@ export function DeityDetailContent({ slug }: { slug: string }) {
                 <p className="text-xs text-zinc-500">
                   {loc.coordinates[0].toFixed(2)}°N · {loc.coordinates[1].toFixed(2)}°E
                 </p>
+                <div className="mt-2 flex justify-end">
+                  <Link
+                    href={`/locations/${loc.id}`}
+                    className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[0.75rem] font-semibold uppercase tracking-[0.2em] text-amber-50 transition hover:border-amber-200/40"
+                  >
+                    {strings.actions.more}
+                  </Link>
+                </div>
               </div>
             );
           })}
