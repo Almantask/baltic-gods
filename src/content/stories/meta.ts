@@ -13,6 +13,7 @@ export const thunderOakMeta: StoryMeta = {
     lv: "Stāsts par svēto ozolu, kas savieno mirstīgo pasauli ar debesīm, kur Pērkons met savus zibeņus.",
   },
   beings: ["perkunas", "velnias"],
+  locationIds: ["aukstaitija-oaks"],
   locations: ["Šventoji Oak Sanctuary"],
 };
 
@@ -29,6 +30,7 @@ export const weavingOfLaimaMeta: StoryMeta = {
     lv: "Kā likteņa dieviete vērpj likteņa pavedienus katram bērnam, kas dzimis zem Baltijas debesīm.",
   },
   beings: ["laima"],
+  locationIds: ["sigulda-springs"],
   locations: ["Turaida Sacred Spring"],
 };
 
@@ -45,6 +47,7 @@ export const velniasAndTheFiddlerMeta: StoryMeta = {
     lv: "Viltīgs muzikants pārliek blēdīgo garu sacensībā krustcelē.",
   },
   beings: ["velnias"],
+  locationIds: ["kernave-mounds"],
   locations: ["Kernavė"],
 };
 
@@ -61,6 +64,7 @@ export const sauleAndMenulisMeta: StoryMeta = {
     lv: "Debesu Saules un Mēness laulības un kāpēc viņi tika šķirti uz mūžiem.",
   },
   beings: ["saule", "menulis", "perkunas", "dievas"],
+  locationIds: ["klaipeda-drift"],
   locations: ["Palanga Amber Coast"],
 };
 
@@ -77,6 +81,7 @@ export const zemynasBlessingMeta: StoryMeta = {
     lv: "Kā Zemes Māte iemācīja pirmajiem zemniekiem godāt augsni un saņemt viņas dāvanas.",
   },
   beings: ["zemyna"],
+  locationIds: ["telsiai-altars"],
   locations: ["Rambynas Hill"],
 };
 
@@ -93,6 +98,7 @@ export const austejaAndTheGoldenHiveMeta: StoryMeta = {
     lv: "Bišu dieviete māca alkatīgam dravniekam par svēto saikni starp dravnieku un stropu.",
   },
   beings: ["austeja"],
+  locationIds: ["dzukija-meadow"],
   locations: ["Dzūkija Forest"],
 };
 
@@ -109,6 +115,7 @@ export const gabijasHearthMeta: StoryMeta = {
     lv: "Kāpēc pavarda ugunij nekad nedrīkst pilnībā izdzist un gars, kas to sargā.",
   },
   beings: ["gabija"],
+  locationIds: ["kaunas-hearth"],
   locations: ["Kernavė"],
 };
 
@@ -125,5 +132,6 @@ export const bangputysAndTheAmberFleetMeta: StoryMeta = {
     lv: "Jūras dievs izsauc vētru, lai mācītu lepnajai flotei pazemību, ko prasa Baltija.",
   },
   beings: ["bangputys", "saule"],
+  locationIds: ["nida-dunes"],
   locations: ["Curonian Spit"],
 };

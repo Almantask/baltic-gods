@@ -89,6 +89,7 @@ export interface StoryMeta {
   title: Record<Language, string>;
   summary: Record<Language, string>;
   beings: string[];
+  locationIds?: string[];
   locations: string[];
 }
 
