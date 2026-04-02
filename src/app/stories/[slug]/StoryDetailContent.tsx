@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import { storyBySlug } from "@/content/stories";
 import { deityBySlug } from "@/content/deities";
 import { SacredMap } from "@/components/SacredMap";
+import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { getStoryLocations } from "@/lib/story-locations";
 import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint } from "@/types/content";
@@ -110,37 +111,14 @@ export function StoryDetailContent({ slug }: { slug: string }) {
               />
             </div>
             <aside className="glass flex flex-col gap-3 rounded-3xl p-5">
-              {relatedLocations.map((loc) => {
-                const isSelected = loc.id === selectedLocationId;
-                return (
-                  <div
-                    key={loc.id}
-                    onClick={() => setManualSelectedId(loc.id)}
-                    className={`cursor-pointer rounded-2xl border px-3 py-3 text-sm transition ${
-                      isSelected
-                        ? "border-amber-200/60 bg-amber-200/10 text-amber-50"
-                        : "border-white/10 bg-white/5 text-zinc-200"
-                    }`}
-                  >
-                    <p className="font-semibold">{loc.name}</p>
-                    <p className="text-zinc-300">
-                      {loc.region} · {loc.siteType}
-                    </p>
-                    <p className="text-zinc-400">{loc.description}</p>
-                    <p className="text-xs text-zinc-500">
-                      {loc.coordinates[0].toFixed(2)}°N · {loc.coordinates[1].toFixed(2)}°E
-                    </p>
-                    <div className="mt-2 flex justify-end">
-                      <Link
-                        href={`/locations/${loc.id}`}
-                        className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-amber-50 transition hover:border-amber-200/40"
-                      >
-                        {strings.actions.more}
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
+              {relatedLocations.map((loc) => (
+                <LeyIndexCard
+                  key={loc.id}
+                  location={loc}
+                  isSelected={loc.id === selectedLocationId}
+                  onClick={() => setManualSelectedId(loc.id)}
+                />
+              ))}
             </aside>
           </div>
         </section>

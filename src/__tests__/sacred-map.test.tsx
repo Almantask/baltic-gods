@@ -39,4 +39,25 @@ describe("SacredMap navigation", () => {
 
     expect(pushMock).toHaveBeenCalledWith(`/locations/${location.id}`);
   });
+
+  it("does not show the summary overlay when a location is selected", () => {
+    const location: LocationPoint = {
+      id: "test-loc",
+      name: "Unique Overlay Name",
+      coordinates: [55.0, 25.0],
+      region: "Lithuania",
+      description: "Test description",
+      siteType: "Sacred groves",
+      aura: "amber",
+      deity: "perkunas",
+      significance: "Should not be on map",
+    };
+
+    const { queryByText } = render(
+      <SacredMap locations={[location]} selectedLocationId="test-loc" />,
+    );
+
+    // Significance was only shown in the overlay on the map component itself
+    expect(queryByText("Should not be on map")).not.toBeInTheDocument();
+  });
 });

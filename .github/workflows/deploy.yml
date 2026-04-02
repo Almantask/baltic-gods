@@ -37,6 +37,8 @@ jobs:
         run: npm test
       - name: Build static export
         run: npm run build
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

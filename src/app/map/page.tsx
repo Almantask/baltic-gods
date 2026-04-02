@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
+import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
 import { haversineDistance, NEAR_ME_RADIUS_KM } from "@/lib/geo";
@@ -111,45 +112,15 @@ export default function MapPage() {
               {strings.map.legend}
             </p>
             <div className="mt-3 space-y-2 text-sm text-zinc-200">
-              {visibleLocations.map((loc) => {
-                const isSelected = effectiveSelected === loc.id;
-                return (
-                  <div
-                    key={loc.id}
-                    className={`rounded-xl border px-3 py-2 transition ${
-                      isSelected
-                        ? "border-amber-200/50 bg-amber-200/10"
-                        : "border-white/10 bg-black/30 hover:border-amber-200/30"
-                    }`}
-                  >
-                    <button
-                      type="button"
-                      onClick={() => setSelected(loc.id)}
-                      className="flex w-full items-start justify-between text-left"
-                    >
-                      <span>
-                        <span className="block font-semibold text-amber-100">
-                          {loc.name}
-                        </span>
-                        <span className="text-zinc-300">
-                          {loc.region} · {loc.siteType}
-                        </span>
-                      </span>
-                      <span className="text-xs text-zinc-400">
-                        {loc.coordinates[0].toFixed(2)} · {loc.coordinates[1].toFixed(2)}
-                      </span>
-                    </button>
-                    <div className="mt-2 flex justify-end">
-                      <Link
-                        href={`/locations/${loc.id}`}
-                        className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-amber-50 transition hover:border-amber-200/40"
-                      >
-                        {strings.actions.more}
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
+              {visibleLocations.map((loc) => (
+                <LeyIndexCard
+                  key={loc.id}
+                  location={loc}
+                  isSelected={effectiveSelected === loc.id}
+                  onClick={() => setSelected(loc.id)}
+                  showDescription={false}
+                />
+              ))}
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-zinc-200">

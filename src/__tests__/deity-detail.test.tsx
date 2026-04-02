@@ -72,7 +72,7 @@ describe("Deity detail page", () => {
     }
 
     // Find the "Sacred groves" legend button and click it to hide that category
-    const legendButton = getByRole("button", { name: /Sacred groves/i });
+    const legendButton = getByRole("button", { name: /Sacred groves/i, pressed: true });
     expect(legendButton).toHaveAttribute("aria-pressed", "true");
     await user.click(legendButton);
     expect(legendButton).toHaveAttribute("aria-pressed", "false");

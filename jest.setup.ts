@@ -1,6 +1,10 @@
 import "@testing-library/jest-dom";
 import type { MutableRefObject } from "react";
 
+// Ensure API keys are not used during tests
+delete process.env.GOOGLE_API_KEY;
+delete process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+
 jest.mock("next/navigation", () => ({
   useRouter: () => ({
     push: jest.fn(),
