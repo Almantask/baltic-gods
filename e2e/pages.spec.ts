@@ -12,6 +12,20 @@ test("map page", async ({ page }) => {
   await page.goto("/map");
   await expect(page.locator("h1")).toBeVisible();
   await page.screenshot({ path: `${screenshotDir}/map.png`, fullPage: true });
+
+  // Click a location in the Ley Index
+  const locationCard = page.getByRole("button", { name: "Aukštaitija Thunder Oaks" });
+  await locationCard.click();
+
+  // The significance text should appear in the Coordinate Panel (sidebar)
+  const coordPanel = page.getByText(/Coordinate Panel/i).locator("..");
+  await expect(coordPanel.getByText(/The ancient grove where/i)).toBeVisible();
+
+  // But there should NO longer be a summary overlay on top of the map itself.
+  // The old overlay had significance text as well. We check that it's NOT inside the map container.
+  const mapContainer = page.locator(".sacred-map-container");
+  const mapOverlayText = mapContainer.getByText(/The ancient grove where/i);
+  await expect(mapOverlayText).not.toBeVisible();
 });
 
 test("pantheon page", async ({ page }) => {

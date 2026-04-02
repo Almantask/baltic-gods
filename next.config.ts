@@ -12,6 +12,9 @@ const withMDX = createMDX({
   },
 });
 
+const googleApiKey = process.env.GOOGLE_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "";
+
+
 const nextConfig: NextConfig = withMDX({
   pageExtensions: ["ts", "tsx", "mdx"],
   output: "export",
@@ -28,6 +31,9 @@ const nextConfig: NextConfig = withMDX({
       "src/lib/mdx-react-shim.tsx",
     );
     return config;
+  },
+  env: {
+    GOOGLE_API_KEY: googleApiKey,
   },
 });
 

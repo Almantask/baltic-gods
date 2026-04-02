@@ -30,6 +30,8 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
       - name: Run Playwright tests

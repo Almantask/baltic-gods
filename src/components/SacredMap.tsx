@@ -122,7 +122,7 @@ export function SacredMap({
   }, [isControlled, onToggleCategory]);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? "",
+    googleMapsApiKey: process.env.GOOGLE_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "",
   });
 
   const selectedLocation = useMemo(
@@ -255,25 +255,7 @@ export function SacredMap({
           </InfoWindowF>
         )}
       </GoogleMap>
-      {selectedLocation && (
-        <div className="absolute bottom-4 left-4 right-4 flex flex-wrap items-center gap-3 rounded-2xl border border-white/10 bg-black/65 p-4 backdrop-blur">
-          <div className="text-sm text-amber-100">
-            {selectedLocation.name} · {selectedLocation.region}
-          </div>
-          <div className="flex flex-wrap items-center gap-2 text-xs text-zinc-200">
-            <span className="rounded-full bg-white/10 px-2 py-1">
-              {selectedLocation.siteType}
-            </span>
-            <span className="rounded-full bg-white/5 px-2 py-1">
-              {selectedLocation.coordinates[0].toFixed(2)}°N ·{" "}
-              {selectedLocation.coordinates[1].toFixed(2)}°E
-            </span>
-            <span className="rounded-full bg-white/5 px-2 py-1">
-              {selectedLocation.significance}
-            </span>
-          </div>
-        </div>
-      )}
+
       {!compact && !hideLegend && (
         <div className="absolute left-3 top-3 flex flex-col rounded-xl border border-white/10 bg-black/70 backdrop-blur">
           <button
