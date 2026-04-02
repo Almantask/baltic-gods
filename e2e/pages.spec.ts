@@ -19,12 +19,12 @@ test("map page", async ({ page }) => {
 
   // The significance text should appear in the Coordinate Panel (sidebar)
   const coordPanel = page.getByText(/Coordinate Panel/i).locator("..");
-  await expect(coordPanel.getByText(/The ancient grove where/i)).toBeVisible();
+  await expect(coordPanel.getByText(/Offerings of iron nails/i)).toBeVisible();
 
   // But there should NO longer be a summary overlay on top of the map itself.
   // The old overlay had significance text as well. We check that it's NOT inside the map container.
   const mapContainer = page.locator(".sacred-map-container");
-  const mapOverlayText = mapContainer.getByText(/The ancient grove where/i);
+  const mapOverlayText = mapContainer.getByText(/Offerings of iron nails/i);
   await expect(mapOverlayText).not.toBeVisible();
 });
 
