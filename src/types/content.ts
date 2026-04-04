@@ -52,6 +52,10 @@ export interface DeityMeta {
   locations: LocationPoint[];
   materialLegacy: string[];
   symbols: SymbolicCard[];
+  regionDetails: Record<Language, string>;
+  tribe: Record<Language, string>;
+  period: Record<Language, string>;
+  references: string[];
 }
 
 export type DeityContent = (props: Record<string, unknown>) => JSX.Element;
@@ -72,6 +76,9 @@ export interface LocationMeta {
   aura: "amber" | "moss" | "mist";
   deity: string;
   significance: Record<Language, string>;
+  tribe: Record<Language, string>;
+  period: Record<Language, string>;
+  references: string[];
 }
 
 export type LocationContent = (props: Record<string, unknown>) => JSX.Element;
@@ -91,6 +98,10 @@ export interface StoryMeta {
   beings: string[];
   locationIds?: string[];
   locations: string[];
+  regionDetails: Record<Language, string>;
+  tribe: Record<Language, string>;
+  period: Record<Language, string>;
+  references: string[];
 }
 
 export interface StoryEntry {

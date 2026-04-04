@@ -124,13 +124,29 @@ export function StoryDetailContent({ slug }: { slug: string }) {
         </section>
       )}
 
-      <div className="flex">
+      <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
         <Link
           href="/stories"
           className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm uppercase tracking-[0.15em] text-amber-50 transition hover:border-amber-200/30"
         >
           ← Back to {strings.stories.title}
         </Link>
+
+        {meta.references.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            <span className="text-xs uppercase tracking-[0.2em] text-zinc-500 self-center mr-2">
+              {strings.stories.references}:
+            </span>
+            {meta.references.map((ref) => (
+              <span
+                key={ref}
+                className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
+              >
+                {ref}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </article>
   );

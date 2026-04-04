@@ -65,6 +65,22 @@ export const perkunasMeta: DeityMeta = {
     { label: "Element", detail: "Sky-fire over pine crowns" },
     { label: "Offerings", detail: "Barley, iron nails, smoked salt" },
   ],
+  regionDetails: {
+    en: "Pan-Baltic / Aukštaitija",
+    lt: "Visos baltų žemės / Aukštaitija",
+    lv: "Visas baltu zemes / Augštaitija",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "13th-16th Century Records",
+    lt: "XIII-XVI a. šaltiniai",
+    lv: "13.-16. gs. avoti",
+  },
+  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik", "Gintaras Beresnevičius: Essays on Baltic Religion"],
 };
 
 export const sauleMeta: DeityMeta = {
@@ -133,6 +149,22 @@ export const sauleMeta: DeityMeta = {
     { label: "Element", detail: "First light on dew" },
     { label: "Offerings", detail: "Flax garlands, gold thread, honey" },
   ],
+  regionDetails: {
+    en: "Pan-Baltic",
+    lt: "Visos baltų žemės",
+    lv: "Visas baltu zemes",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "Pre-Christian to Folklore",
+    lt: "Ikikrikščioniškasis laikotarpis iki tautosakos",
+    lv: "Pirmskristīgā ēra līdz folklorai",
+  },
+  references: ["Ludwig Rhesa: Dainos", "Jonas Basanavičius: Lithuanian Folklore", "Marija Gimbutas: The Balts"],
 };
 
 export const laimaMeta: DeityMeta = {
@@ -200,6 +232,22 @@ export const laimaMeta: DeityMeta = {
     { label: "Element", detail: "Quiet water under birch" },
     { label: "Offerings", detail: "Flax knots, copper coins, whispered vows" },
   ],
+  regionDetails: {
+    en: "Vidzeme / Latgale",
+    lt: "Vidžemė / Latgalia",
+    lv: "Vidzeme / Latgale",
+  },
+  tribe: {
+    en: "Latvians",
+    lt: "Latviai",
+    lv: "Latvieši",
+  },
+  period: {
+    en: "18th-19th Century Collections",
+    lt: "XVIII-XIX a. tautosakos rinkiniai",
+    lv: "18.-19. gs. folkloras krājumi",
+  },
+  references: ["Krišjānis Barons: Latvju dainas", "Marija Gimbutas", "Vilis Biļķins: Senlatviešu dievības"],
 };
 
 export const zemynaMeta: DeityMeta = {
@@ -267,6 +315,22 @@ export const zemynaMeta: DeityMeta = {
     { label: "Element", detail: "Warm loam after rain" },
     { label: "Offerings", detail: "Milk, rye crowns, crushed herbs" },
   ],
+  regionDetails: {
+    en: "Samogitia / Lithuania Minor",
+    lt: "Žemaitija / Mažoji Lietuva",
+    lv: "Žemaitija / Mazā Lietuva",
+  },
+  tribe: {
+    en: "Lithuanians / Samogitians",
+    lt: "Lietuviai / Žemaičiai",
+    lv: "Lietuvieši / Žemaiši",
+  },
+  period: {
+    en: "Late 16th Century Records",
+    lt: "XVI a. pabaigos šaltiniai",
+    lv: "16. gs. beigu avoti",
+  },
+  references: ["Jan Łasicki: De Diis Samagitarum", "Jonas Basanavičius", "Norbertas Vėlius: The World Outlook of the Ancient Lithuanians"],
 };
 
 export const velniasMeta: DeityMeta = {
@@ -334,6 +398,22 @@ export const velniasMeta: DeityMeta = {
     { label: "Element", detail: "Mist over peat" },
     { label: "Offerings", detail: "Bread crusts, charcoal, iron filings" },
   ],
+  regionDetails: {
+    en: "All Regions",
+    lt: "Visi regionai",
+    lv: "Visi reģioni",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "Inter-war Period to Recent Collections",
+    lt: "Tarpukaris iki šių dienų rinkinių",
+    lv: "Starpkaru periods līdz mūsdienu krājumiem",
+  },
+  references: ["Jonas Basanavičius", "Norbertas Vėlius", "Gintaras Beresnevičius: Of Gods and Men"],
 };
 
 export const austejaMeta: DeityMeta = {
@@ -403,6 +483,22 @@ export const austejaMeta: DeityMeta = {
     { label: "Element", detail: "Warm wax and meadow breath" },
     { label: "Offerings", detail: "Honeycomb, linden blossoms, smoke" },
   ],
+  regionDetails: {
+    en: "Aukštaitija / Dzūkija",
+    lt: "Aukštaitija / Dzūkija",
+    lv: "Augštaitija / Dzūkija",
+  },
+  tribe: {
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
+  },
+  period: {
+    en: "19th Century Oral Tradition",
+    lt: "XIX a. žodinė tradicija",
+    lv: "19. gs. mutvārdu tradīcija",
+  },
+  references: ["Norbertas Vėlius: Mythology of Bees", "Pranas Skardžius: Lithuanian Mythological Names"],
 };
 
 export const menulisMeta: DeityMeta = {
@@ -470,6 +566,22 @@ export const menulisMeta: DeityMeta = {
     { label: "Element", detail: "Cold glow on water" },
     { label: "Offerings", detail: "River silver, white pebbles, silence" },
   ],
+  regionDetails: {
+    en: "Coast / Lowlands",
+    lt: "Pajūris / Žemumos",
+    lv: "Piekrastes / Zemienes",
+  },
+  tribe: {
+    en: "Lithuanians / Latvians",
+    lt: "Lietuviai / Latviai",
+    lv: "Lietuvieši / Latvieši",
+  },
+  period: {
+    en: "Folklore Tradition",
+    lt: "Tautosakos tradicija",
+    lv: "Folkloras tradīcija",
+  },
+  references: ["Jonas Basanavičius", "Ludwig Rhesa: Prutena", "Krišjānis Barons"],
 };
 
 export const dievasMeta: DeityMeta = {
@@ -538,6 +650,22 @@ export const dievasMeta: DeityMeta = {
     { label: "Element", detail: "Still air above crowns" },
     { label: "Offerings", detail: "Bells, silence, unbroken bread" },
   ],
+  regionDetails: {
+    en: "Upper Regions",
+    lt: "Aukštutinės žemės",
+    lv: "Augšzemes",
+  },
+  tribe: {
+    en: "Lithuanians / Lithuanians Proper",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
+  },
+  period: {
+    en: "16th-17th Century Accounts",
+    lt: "XVI-XVII a. aprašymai",
+    lv: "16.-17. gs. apraksti",
+  },
+  references: ["Maciej Stryjkowski: Chronicle of Poland, Lithuania, Samogitia", "Gintaras Beresnevičius", "Jan Łasicki"],
 };
 
 export const gabijaMeta: DeityMeta = {
@@ -605,6 +733,22 @@ export const gabijaMeta: DeityMeta = {
     { label: "Element", detail: "Low flame and baking bread" },
     { label: "Offerings", detail: "Bread crusts, salt, glowing coals" },
   ],
+  regionDetails: {
+    en: "All Domestic Sites",
+    lt: "Visos gyvenamosios vietos",
+    lv: "Visas dzīvojamās vietas",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "15th-16th Century Chroniclers",
+    lt: "XV-XVI a. metraščiai",
+    lv: "15.-16. gs. hronikas",
+  },
+  references: ["Maciej Stryjkowski", "Jan Łasicki: De Diis Samagitarum", "Jonas Basanavičius"],
 };
 
 export const bangputysMeta: DeityMeta = {
@@ -673,6 +817,22 @@ export const bangputysMeta: DeityMeta = {
     { label: "Element", detail: "Salt wind over dark water" },
     { label: "Offerings", detail: "Fish scales, rope knots, sea glass" },
   ],
+  regionDetails: {
+    en: "Curonian Coast / Prussia",
+    lt: "Kuršių marių pakrantė / Prūsija",
+    lv: "Kuršu krasts / Prūsija",
+  },
+  tribe: {
+    en: "Curonians / Prussians",
+    lt: "Kuršiai / Prūsai",
+    lv: "Kurši / Prūši",
+  },
+  period: {
+    en: "17th Century Maritime Records",
+    lt: "XVII a. jūriniai užrašai",
+    lv: "17. gs. jūrniecības avoti",
+  },
+  references: ["Matthäus Praetorius: Deliciae Prussicae", "Simon Grunau"],
 };
 
 export const medineMeta: DeityMeta = {
@@ -740,6 +900,22 @@ export const medineMeta: DeityMeta = {
     { label: "Element", detail: "Sap slow and sure" },
     { label: "Offerings", detail: "Resin drops, moss, quiet footsteps" },
   ],
+  regionDetails: {
+    en: "Forest Regions",
+    lt: "Miškų regionai",
+    lv: "Mežu reģioni",
+  },
+  tribe: {
+    en: "Lithuanians / Samogitians",
+    lt: "Lietuviai / Žemaičiai",
+    lv: "Lietuvieši / Žemaiši",
+  },
+  period: {
+    en: "13th Century Chroniclers",
+    lt: "XIII a. metraščiai",
+    lv: "13. gs. hronikas",
+  },
+  references: ["Volhynian Chronicle", "Ipatios Chronicle (1252 mention)", "Norbertas Vėlius"],
 };
 
 export const deitiesMeta = {

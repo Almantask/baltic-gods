@@ -180,8 +180,26 @@ export function DeityDetailContent({ slug }: { slug: string }) {
         </div>
       </div>
 
-      <div className="rounded-3xl border border-white/10 bg-gradient-to-r from-black/70 via-zinc-900/50 to-black/70 px-6 py-6 text-center text-sm text-zinc-300">
-        {strings.deity.arrivedViaMap} {selectedLocation?.name ?? strings.deity.none}.
+      <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between rounded-3xl border border-white/10 bg-gradient-to-r from-black/70 via-zinc-900/50 to-black/70 px-6 py-6">
+        <div className="text-zinc-300 text-sm">
+          {strings.deity.arrivedViaMap} {selectedLocation?.name ?? strings.deity.none}.
+        </div>
+
+        {entry.meta.references.length > 0 && (
+          <div className="flex flex-wrap gap-2 lg:max-w-md justify-end">
+            <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 self-center mr-2">
+              {strings.deity.references}:
+            </span>
+            {entry.meta.references.map((ref) => (
+              <span
+                key={ref}
+                className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
+              >
+                {ref}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

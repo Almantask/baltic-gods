@@ -51,6 +51,7 @@ const translations = {
       storyMapDescription: "Markers highlight where this story touches the land. Select a card or marker to learn more.",
       storyFound: "story found",
       storiesFound: "stories found",
+      references: "References",
     },
     map: {
       title: "Sacred Map",
@@ -123,6 +124,7 @@ const translations = {
       arrivedViaMap: "Arrived via map? Highlighted location:",
       none: "none",
       highlighted: "Highlighted",
+      references: "References",
     },
     location: {
       overview: "Location detail",
@@ -183,6 +185,7 @@ const translations = {
       storyMapDescription: "Žymekliai rodo, kur ši istorija paliečia žemę. Pasirinkite kortelę ar žymeklį, kad sužinotumėte daugiau.",
       storyFound: "pasakojimas rastas",
       storiesFound: "pasakojimai rasti",
+      references: "Šaltiniai",
     },
     map: {
       title: "Šventas žemėlapis",
@@ -255,6 +258,7 @@ const translations = {
       arrivedViaMap: "Atvykote per žemėlapį? Paryškinta vieta:",
       none: "nėra",
       highlighted: "Paryškinta",
+      references: "Šaltiniai",
     },
     location: {
       overview: "Vietos aprašas",
@@ -315,6 +319,7 @@ const translations = {
       storyMapDescription: "Marķieri parāda, kur stāsts skar zemi. Izvēlieties kartīti vai marķieri, lai uzzinātu vairāk.",
       storyFound: "stāsts atrasts",
       storiesFound: "stāsti atrasti",
+      references: "Atsauces",
     },
     map: {
       title: "Svētā karte",
@@ -387,6 +392,7 @@ const translations = {
       arrivedViaMap: "Ieradāties caur karti? Izceltā vieta:",
       none: "nav",
       highlighted: "Izcelts",
+      references: "Atsauces",
     },
     location: {
       overview: "Vietas apraksts",

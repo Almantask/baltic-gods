@@ -13,6 +13,9 @@ import ZemynasBlessingEn from "./en/zemynas-blessing.mdx";
 import AustejaAndTheGoldenHiveEn from "./en/austeja-and-the-golden-hive.mdx";
 import GabijasHearthEn from "./en/gabijas-eternal-hearth.mdx";
 import BangputysAndTheAmberFleetEn from "./en/bangputys-and-the-amber-fleet.mdx";
+import MedeinaEn from "./en/medeina-and-the-sacred-hare.mdx";
+import GiltineEn from "./en/giltine-and-the-death-watch.mdx";
+import PukisEn from "./en/pukis-and-the-dragon-wealth.mdx";
 
 // Lithuanian
 import ThunderOakLt from "./lt/thunder-oak-of-perkunas.mdx";
@@ -23,6 +26,9 @@ import ZemynasBlessingLt from "./lt/zemynas-blessing.mdx";
 import AustejaAndTheGoldenHiveLt from "./lt/austeja-and-the-golden-hive.mdx";
 import GabijasHearthLt from "./lt/gabijas-eternal-hearth.mdx";
 import BangputysAndTheAmberFleetLt from "./lt/bangputys-and-the-amber-fleet.mdx";
+import MedeinaLt from "./lt/medeina-and-the-sacred-hare.mdx";
+import GiltineLt from "./lt/giltine-and-the-death-watch.mdx";
+import PukisLt from "./lt/pukis-and-the-dragon-wealth.mdx";
 
 // Latvian
 import ThunderOakLv from "./lv/thunder-oak-of-perkunas.mdx";
@@ -33,6 +39,9 @@ import ZemynasBlessingLv from "./lv/zemynas-blessing.mdx";
 import AustejaAndTheGoldenHiveLv from "./lv/austeja-and-the-golden-hive.mdx";
 import GabijasHearthLv from "./lv/gabijas-eternal-hearth.mdx";
 import BangputysAndTheAmberFleetLv from "./lv/bangputys-and-the-amber-fleet.mdx";
+import MedeinaLv from "./lv/medeina-and-the-sacred-hare.mdx";
+import GiltineLv from "./lv/giltine-and-the-death-watch.mdx";
+import PukisLv from "./lv/pukis-and-the-dragon-wealth.mdx";
 
 import {
   thunderOakMeta,
@@ -43,6 +52,9 @@ import {
   austejaAndTheGoldenHiveMeta,
   gabijasHearthMeta,
   bangputysAndTheAmberFleetMeta,
+  medeinaSacredHareMeta,
+  giltineDeathWatchMeta,
+  pukisWealthMeta,
 } from "./meta";
 
 export const stories: StoryEntry[] = [
@@ -54,6 +66,9 @@ export const stories: StoryEntry[] = [
   { meta: austejaAndTheGoldenHiveMeta, Content: AustejaAndTheGoldenHiveEn, contentByLang: { en: AustejaAndTheGoldenHiveEn, lt: AustejaAndTheGoldenHiveLt, lv: AustejaAndTheGoldenHiveLv } },
   { meta: gabijasHearthMeta, Content: GabijasHearthEn, contentByLang: { en: GabijasHearthEn, lt: GabijasHearthLt, lv: GabijasHearthLv } },
   { meta: bangputysAndTheAmberFleetMeta, Content: BangputysAndTheAmberFleetEn, contentByLang: { en: BangputysAndTheAmberFleetEn, lt: BangputysAndTheAmberFleetLt, lv: BangputysAndTheAmberFleetLv } },
+  { meta: medeinaSacredHareMeta, Content: MedeinaEn, contentByLang: { en: MedeinaEn, lt: MedeinaLt, lv: MedeinaLv } },
+  { meta: giltineDeathWatchMeta, Content: GiltineEn, contentByLang: { en: GiltineEn, lt: GiltineLt, lv: GiltineLv } },
+  { meta: pukisWealthMeta, Content: PukisEn, contentByLang: { en: PukisEn, lt: PukisLt, lv: PukisLv } },
 ];
 
 export const storyBySlug = Object.fromEntries(
