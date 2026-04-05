@@ -78,30 +78,89 @@ import VelniasContentLv from "./creatures/lv/velnias.mdx";
 import VakarineContentEn from "./creatures/en/vakarine.mdx";
 import VakarineContentLt from "./creatures/lt/vakarine.mdx";
 import VakarineContentLv from "./creatures/lv/vakarine.mdx";
+// Batch 3 — Gods
+import VejopatisContentEn from "./gods/en/vejopatis.mdx";
+import VejopatisContentLt from "./gods/lt/vejopatis.mdx";
+import VejopatisContentLv from "./gods/lv/vejopatis.mdx";
+import VaizgantasContentEn from "./gods/en/vaizgantas.mdx";
+import VaizgantasContentLt from "./gods/lt/vaizgantas.mdx";
+import VaizgantasContentLv from "./gods/lv/vaizgantas.mdx";
+import RagutisContentEn from "./gods/en/ragutis.mdx";
+import RagutisContentLt from "./gods/lt/ragutis.mdx";
+import RagutisContentLv from "./gods/lv/ragutis.mdx";
+import DimstisContentEn from "./gods/en/dimstipatis.mdx";
+import DimstisContentLt from "./gods/lt/dimstipatis.mdx";
+import DimstisContentLv from "./gods/lv/dimstipatis.mdx";
+import JanisContentEn from "./gods/en/janis.mdx";
+import JanisContentLt from "./gods/lt/janis.mdx";
+import JanisContentLv from "./gods/lv/janis.mdx";
+import MezaMateContentEn from "./gods/en/meza-mate.mdx";
+import MezaMateContentLt from "./gods/lt/meza-mate.mdx";
+import MezaMateContentLv from "./gods/lv/meza-mate.mdx";
+import VeluMateContentEn from "./gods/en/velu-mate.mdx";
+import VeluMateContentLt from "./gods/lt/velu-mate.mdx";
+import VeluMateContentLv from "./gods/lv/velu-mate.mdx";
+import AuschautsContentEn from "./gods/en/auschauts.mdx";
+import AuschautsContentLt from "./gods/lt/auschauts.mdx";
+import AuschautsContentLv from "./gods/lv/auschauts.mdx";
+import KurkeContentEn from "./gods/en/kurke.mdx";
+import KurkeContentLt from "./gods/lt/kurke.mdx";
+import KurkeContentLv from "./gods/lv/kurke.mdx";
+// Batch 3 — Creatures
+import AitvarasContentEn from "./creatures/en/aitvaras.mdx";
+import AitvarasContentLt from "./creatures/lt/aitvaras.mdx";
+import AitvarasContentLv from "./creatures/lv/aitvaras.mdx";
+import LaumesContentEn from "./creatures/en/laumes.mdx";
+import LaumesContentLt from "./creatures/lt/laumes.mdx";
+import LaumesContentLv from "./creatures/lv/laumes.mdx";
+import ZaltysContentEn from "./creatures/en/zaltys.mdx";
+import ZaltysContentLt from "./creatures/lt/zaltys.mdx";
+import ZaltysContentLv from "./creatures/lv/zaltys.mdx";
+// Batch 3 — People
+import NeringaContentEn from "./people/en/neringa.mdx";
+import NeringaContentLt from "./people/lt/neringa.mdx";
+import NeringaContentLv from "./people/lv/neringa.mdx";
+import SovijusContentEn from "./people/en/sovijus.mdx";
+import SovijusContentLt from "./people/lt/sovijus.mdx";
+import SovijusContentLv from "./people/lv/sovijus.mdx";
 
 import {
+  aitvarasMeta,
+  auschautsMeta,
   austejaMeta,
   ausrineMeta,
   autrimpasMeta,
   bangputysMeta,
   daliaMeta,
+  dimstipatisMeta,
   dievasMeta,
   gabijaMeta,
   giltineMeta,
+  janisMeta,
   jumisMeta,
+  kurkeMeta,
   laimaMeta,
+  laumesMeta,
   maraMeta,
   medineMeta,
   menulisMeta,
+  mezaMateMeta,
+  neringaMeta,
   patollaMeta,
   patrimpAsMeta,
   perkunasMeta,
   pukisMeta,
+  ragutisMeta,
   sauleMeta,
+  sovijusMeta,
   teliavelIsMeta,
   usinsMeta,
   vakarineMeta,
+  vaizgantasMeta,
+  vejopatisMeta,
   velniasMeta,
+  veluMateMeta,
+  zaltysMeta,
   zemynaMeta,
 } from "./meta";
 
@@ -129,6 +188,21 @@ export const deities: DeityEntry[] = [
   { meta: patollaMeta, Content: PatolloContentEn, contentByLang: { en: PatolloContentEn, lt: PatolloContentLt, lv: PatolloContentLv } },
   { meta: patrimpAsMeta, Content: PatrimpasContentEn, contentByLang: { en: PatrimpasContentEn, lt: PatrimpasContentLt, lv: PatrimpasContentLv } },
   { meta: autrimpasMeta, Content: AutrimpasContentEn, contentByLang: { en: AutrimpasContentEn, lt: AutrimpasContentLt, lv: AutrimpasContentLv } },
+  // Batch 3
+  { meta: vejopatisMeta, Content: VejopatisContentEn, contentByLang: { en: VejopatisContentEn, lt: VejopatisContentLt, lv: VejopatisContentLv } },
+  { meta: vaizgantasMeta, Content: VaizgantasContentEn, contentByLang: { en: VaizgantasContentEn, lt: VaizgantasContentLt, lv: VaizgantasContentLv } },
+  { meta: ragutisMeta, Content: RagutisContentEn, contentByLang: { en: RagutisContentEn, lt: RagutisContentLt, lv: RagutisContentLv } },
+  { meta: dimstipatisMeta, Content: DimstisContentEn, contentByLang: { en: DimstisContentEn, lt: DimstisContentLt, lv: DimstisContentLv } },
+  { meta: janisMeta, Content: JanisContentEn, contentByLang: { en: JanisContentEn, lt: JanisContentLt, lv: JanisContentLv } },
+  { meta: mezaMateMeta, Content: MezaMateContentEn, contentByLang: { en: MezaMateContentEn, lt: MezaMateContentLt, lv: MezaMateContentLv } },
+  { meta: veluMateMeta, Content: VeluMateContentEn, contentByLang: { en: VeluMateContentEn, lt: VeluMateContentLt, lv: VeluMateContentLv } },
+  { meta: auschautsMeta, Content: AuschautsContentEn, contentByLang: { en: AuschautsContentEn, lt: AuschautsContentLt, lv: AuschautsContentLv } },
+  { meta: kurkeMeta, Content: KurkeContentEn, contentByLang: { en: KurkeContentEn, lt: KurkeContentLt, lv: KurkeContentLv } },
+  { meta: aitvarasMeta, Content: AitvarasContentEn, contentByLang: { en: AitvarasContentEn, lt: AitvarasContentLt, lv: AitvarasContentLv } },
+  { meta: laumesMeta, Content: LaumesContentEn, contentByLang: { en: LaumesContentEn, lt: LaumesContentLt, lv: LaumesContentLv } },
+  { meta: zaltysMeta, Content: ZaltysContentEn, contentByLang: { en: ZaltysContentEn, lt: ZaltysContentLt, lv: ZaltysContentLv } },
+  { meta: neringaMeta, Content: NeringaContentEn, contentByLang: { en: NeringaContentEn, lt: NeringaContentLt, lv: NeringaContentLv } },
+  { meta: sovijusMeta, Content: SovijusContentEn, contentByLang: { en: SovijusContentEn, lt: SovijusContentLt, lv: SovijusContentLv } },
 ];
 
 export const deityBySlug = Object.fromEntries(
