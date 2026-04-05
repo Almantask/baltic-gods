@@ -918,6 +918,995 @@ export const medineMeta: DeityMeta = {
   references: ["Volhynian Chronicle", "Ipatios Chronicle (1252 mention)", "Norbertas Vėlius"],
 };
 
+export const giltineMeta: DeityMeta = {
+  slug: "giltine",
+  name: "Giltinė",
+  domain: "Creature",
+  epithet: {
+    en: "Tall pale woman at the threshold",
+    lt: "Aukšta blyški moteris prie slenksčio",
+    lv: "Gara bāla sieviete pie sliekšņa",
+  },
+  summary: {
+    en: "Death comes not as a monster but as a pale woman with a long tongue, licking the dying to ease their passage.",
+    lt: "Mirtis ateina ne kaip pabaisos, bet kaip blyški moteris ilgu liežuviu, laižanti mirštančiuosius ir palengvinanti jų perėjimą.",
+    lv: "Nāve nāk ne kā briesmonis, bet kā bāla sieviete ar garu mēli, laizot mirstošos, lai atvieglotu viņu pāreju.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 90, 110, 0.32)",
+  accent: "#8898aa",
+  altNames: {
+    en: "Giltinė",
+    lt: "Giltinė",
+    lv: "Giltinė",
+  },
+  keywords: ["death", "white", "serpent", "threshold"],
+  gallery: [
+    {
+      title: "White burial shroud",
+      medium: "linen",
+      note: "Left at crossroads on All Souls Night for the pale goddess.",
+    },
+    {
+      title: "Iron death-hook",
+      medium: "bog iron",
+      note: "Traditional Lithuanian grave marker with serpent motif.",
+    },
+  ],
+  locations: [
+    {
+      id: "salantai-burial",
+      name: "Salantai Burial Mounds",
+      coordinates: [56.05, 21.57],
+      region: "Lithuania",
+      description: "Ancient burial mounds in Samogitia where offerings were laid for the dead.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "mist",
+      deity: "giltine",
+      significance: "Families left milk and bread at the mound edge on Vėlinės night.",
+    },
+    {
+      id: "dzukija-crossroads",
+      name: "Dzūkija Crossroads",
+      coordinates: [54.15, 24.12],
+      region: "Lithuania",
+      description: "A forested crossroads where travellers left offerings not to be taken.",
+      siteType: "Sacrifice / offering sites",
+      aura: "mist",
+      deity: "giltine",
+      significance: "A white stone marks where the pale goddess was seen standing at midnight.",
+    },
+  ],
+  materialLegacy: ["Linen shrouds with serpent motifs", "Iron death-hooks at gravesides"],
+  symbols: [
+    { label: "Element", detail: "Cold white mist at dusk" },
+    { label: "Offerings", detail: "Milk, white bread, silence" },
+  ],
+  regionDetails: {
+    en: "Samogitia / All Lithuania",
+    lt: "Žemaitija / Visa Lietuva",
+    lv: "Žemaitija / Visa Lietuva",
+  },
+  tribe: {
+    en: "Lithuanians / Samogitians",
+    lt: "Lietuviai / Žemaičiai",
+    lv: "Lietuvieši / Žemaiši",
+  },
+  period: {
+    en: "16th-17th Century Records",
+    lt: "XVI-XVII a. šaltiniai",
+    lv: "16.-17. gadsimta avoti",
+  },
+  references: [
+    "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Matthäus Praetorius: Deliciae Prussicae (~1690)",
+  ],
+};
+
+export const pukisMeta: DeityMeta = {
+  slug: "pukis",
+  name: "Pūķis",
+  domain: "Creature",
+  epithet: {
+    en: "Fire-breath in the hayloft",
+    lt: "Ugnies kvapas šieno saugykloje",
+    lv: "Ugunīgā elpa siena šķūnī",
+  },
+  summary: {
+    en: "A domestic fire-serpent that brings wealth to its keeper but demands secrecy and surrender of the soul at its contract's end.",
+    lt: "Naminis ugnies gyvatė, nešanti turtus savo šeimininkui, bet reikalaujanti paslapties ir sielos pardavimo sutarties pabaigoje.",
+    lv: "Mājas uguns čūska, kas nes bagātību savam turētājam, bet prasa noslēpumu un dvēseles atdošanu līguma beigās.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(190, 100, 50, 0.3)",
+  accent: "#d4754e",
+  altNames: {
+    en: "Pūķis",
+    lt: "Pūķis",
+    lv: "Pūķis",
+  },
+  keywords: ["dragon", "wealth", "fire", "serpent", "household"],
+  gallery: [
+    {
+      title: "Amber fire-dragon amulet",
+      medium: "Baltic amber",
+      note: "Worn by those seeking pūķis's favour, found in Latvian folk collections.",
+    },
+    {
+      title: "Charred roof-beam",
+      medium: "oak, pine pitch",
+      note: "Evidence of pūķis visits — scorched entry point in a farmstead loft.",
+    },
+  ],
+  locations: [
+    {
+      id: "rundale-fields",
+      name: "Rundale Fields",
+      coordinates: [56.41, 24.02],
+      region: "Latvia",
+      description: "The Zemgale plain where pūķis tales concentrate, near the Rundale estate.",
+      siteType: "Sacrifice / offering sites",
+      aura: "amber",
+      deity: "pukis",
+      significance: "Farmers who found scorched circles in grain fields believed pūķis had visited.",
+    },
+    {
+      id: "liepaja-shore",
+      name: "Liepāja Shore",
+      coordinates: [56.51, 21.01],
+      region: "Latvia",
+      description: "Coastal dunes where the flying fire-serpent was said to enter from the sea.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "amber",
+      deity: "pukis",
+      significance: "Fishermen left grain on the dunes to invite prosperity and ward off bad catches.",
+    },
+  ],
+  materialLegacy: ["Flame-scorched grain offerings", "Red-thread serpent charms"],
+  symbols: [
+    { label: "Element", detail: "Red fire-trail over barns" },
+    { label: "Offerings", detail: "Grain, cream, black bread" },
+  ],
+  regionDetails: {
+    en: "Kurzeme / Zemgale",
+    lt: "Kuršas / Žiemgala",
+    lv: "Kurzeme / Zemgale",
+  },
+  tribe: {
+    en: "Latvians / Semigallians",
+    lt: "Latviai / Žiemgaliai",
+    lv: "Latvieši / Zemgaļi",
+  },
+  period: {
+    en: "18th-19th Century Folklore",
+    lt: "XVIII-XIX a. tautosaka",
+    lv: "18.-19. gadsimta folklora",
+  },
+  references: [
+    "Pēteris Šmits: Latviešu pasakas un teikas (1925–37)",
+    "Latvijas Nacionālā enciklopēdija",
+  ],
+};
+
+export const ausrineMeta: DeityMeta = {
+  slug: "ausrine",
+  name: "Aušrinė",
+  domain: "Creature",
+  epithet: {
+    en: "Handmaiden who kindles the sky",
+    lt: "Tarnaitė, uždeganti dangų",
+    lv: "Kalpone, kas iededzina debesis",
+  },
+  summary: {
+    en: "The morning star goddess rises before dawn to prepare Saulė's bed, kindle her fire, and saddle her horses for the daily journey.",
+    lt: "Ryto žvaigždės deivė kyla prieš aušrą, kad paruoštų Saulės lovą, užkurtų jos ugnį ir jodintų jos žirgus kasdienei kelionei.",
+    lv: "Rīta zvaigznes dieviete ceļas pirms rītausmas, lai sagatavotu Saules gultu, iekurtu uguni un sedlotu viņas zirgus ikdienas ceļojumam.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(255, 200, 100, 0.2)",
+  accent: "#f0c060",
+  altNames: {
+    en: "Ausrine",
+    lt: "Aušrinė",
+    lv: "Auseklis",
+  },
+  keywords: ["dawn", "morning star", "fire", "Venus"],
+  gallery: [
+    {
+      title: "Golden thread brooch",
+      medium: "gilded bronze",
+      note: "Worn by young women at dawn rituals, symbolising the morning star's light.",
+    },
+    {
+      title: "Dawn water vessel",
+      medium: "clay",
+      note: "Filled with dew before sunrise and offered with sung prayers.",
+    },
+  ],
+  locations: [
+    {
+      id: "palanga-dawn-shore",
+      name: "Palanga Dawn Shore",
+      coordinates: [55.92, 21.07],
+      region: "Lithuania",
+      description: "The amber coast where dawn prayers were sung to the morning star.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "ausrine",
+      significance: "Girls washed their faces in sea dew at first light to receive Aušrinė's blessing.",
+    },
+    {
+      id: "siauliai-morning",
+      name: "Šiauliai Dawn Ridge",
+      coordinates: [55.93, 23.32],
+      region: "Lithuania",
+      description: "A ridge east of Šiauliai from which the morning star is visible above the plain.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "ausrine",
+      significance: "Farmers watched for Aušrinė before planting to know when to begin work.",
+    },
+  ],
+  materialLegacy: ["Dawn-water clay vessels", "Morning star embroidery motifs"],
+  symbols: [
+    { label: "Element", detail: "First light before sunrise" },
+    { label: "Offerings", detail: "Dew water, golden thread, smoke" },
+  ],
+  regionDetails: {
+    en: "Žemaitija / Pan-Lithuanian",
+    lt: "Žemaitija / Visa Lietuva",
+    lv: "Žemaitija / Visa Lietuva",
+  },
+  tribe: {
+    en: "Lithuanians / Samogitians",
+    lt: "Lietuviai / Žemaičiai",
+    lv: "Lietuvieši / Žemaiši",
+  },
+  period: {
+    en: "16th Century Sources",
+    lt: "XVI a. šaltiniai",
+    lv: "16. gadsimta avoti",
+  },
+  references: [
+    "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)",
+  ],
+};
+
+export const maraMeta: DeityMeta = {
+  slug: "mara",
+  name: "Māra",
+  domain: "God",
+  epithet: {
+    en: "Great Mother of the material world",
+    lt: "Didžioji Motina materialaus pasaulio",
+    lv: "Lielā Māte materiālās pasaules",
+  },
+  summary: {
+    en: "Māra governs all physical existence — cattle, earth, cloth, and death — receiving souls when they leave Dievs's sky to return to her earth.",
+    lt: "Māra valdo visą fizinę egzistenciją — galvijus, žemę, audinį ir mirtį — priimdama sielas, kai jos palieka Dievs dangų ir grįžta į jos žemę.",
+    lv: "Māra pārvalda visu fizisko esamību — lopus, zemi, audumu un nāvi — saņemot dvēseles, kad tās pamet Dieva debesis, lai atgrieztos viņas zemē.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1510784722466-f2aa240d9565?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(120, 90, 70, 0.26)",
+  accent: "#b07850",
+  altNames: {
+    en: "Mara",
+    lt: "Māra",
+    lv: "Māra",
+  },
+  keywords: ["earth", "cattle", "weaving", "death", "rebirth"],
+  gallery: [
+    {
+      title: "Māra's cross pendant",
+      medium: "silver",
+      note: "Pre-Christian solar cross associated with Māra, still worn in Latvia.",
+    },
+    {
+      title: "Sacred cow skull",
+      medium: "bone, red ochre",
+      note: "Placed in barn eaves to invoke Māra's protection of cattle.",
+    },
+  ],
+  locations: [
+    {
+      id: "lielvarde-earth-ground",
+      name: "Lielvārde Sacred Ground",
+      coordinates: [56.71, 24.80],
+      region: "Latvia",
+      description: "Ancient Daugava settlement associated with Māra earth rituals and the sacred belt tradition.",
+      siteType: "Sacrifice / offering sites",
+      aura: "moss",
+      deity: "mara",
+      significance: "The Lielvārdes josta — a sacred ornamental belt — embodies Māra's cosmic order.",
+    },
+    {
+      id: "zemgale-grain-field",
+      name: "Zemgale Grain Fields",
+      coordinates: [56.47, 24.43],
+      region: "Latvia",
+      description: "The broad Zemgale plain where Māra's presence was felt in every plowed furrow.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "mara",
+      significance: "On March 25 — Māras diena — farmers first touched the soil to invite her blessing.",
+    },
+  ],
+  materialLegacy: ["Māra's cross amulets", "Sacred cattle skull barn charms"],
+  symbols: [
+    { label: "Element", detail: "Loam of plowed fields" },
+    { label: "Offerings", detail: "Milk, earth, woven cloth" },
+  ],
+  regionDetails: {
+    en: "Kurzeme / Vidzeme / All Latvia",
+    lt: "Kuršas / Vidžemė / Visa Latvija",
+    lv: "Kurzeme / Vidzeme / Visa Latvija",
+  },
+  tribe: {
+    en: "Latvians",
+    lt: "Latviai",
+    lv: "Latvieši",
+  },
+  period: {
+    en: "18th-19th Century Collections",
+    lt: "XVIII-XIX a. tautosakos rinkiniai",
+    lv: "18.-19. gadsimta folkloras krājumi",
+  },
+  references: [
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Haralds Biezais: Die Hauptgöttinnen der alten Letten (1955)",
+  ],
+};
+
+export const jumisMeta: DeityMeta = {
+  slug: "jumis",
+  name: "Jumis",
+  domain: "God",
+  epithet: {
+    en: "Double-stalked blessing of the harvest",
+    lt: "Dviguba derliaus palaima",
+    lv: "Divkāšu ražas svētība",
+  },
+  summary: {
+    en: "Jumis is found in grain fields as a double-headed stalk — two stalks grown from one root — and the farmer who finds it is blessed with abundance for the year.",
+    lt: "Jumis randamas javų laukuose kaip dvigalvė stiebas — du stiebai, augantys iš vieno šakniagumbio — ir ūkininkas, jį radęs, gaus gausybės palaiminimą metams.",
+    lv: "Jumis atrodams labības laukos kā divgalvu stiebrs — divi stiebri augot no vienas saknes — un zemnieks, kurš to atrod, tiek apveltīts ar bagātību gadam.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(210, 170, 80, 0.25)",
+  accent: "#d4a94b",
+  altNames: {
+    en: "Jumis",
+    lt: "Jumis",
+    lv: "Jumis",
+  },
+  keywords: ["grain", "harvest", "double", "fertility", "last-sheaf"],
+  gallery: [
+    {
+      title: "Double-grain crown",
+      medium: "braided rye",
+      note: "Hung above the farmhouse door after harvest — Jumis's symbol.",
+    },
+    {
+      title: "Last sheaf effigy",
+      medium: "wheat straw",
+      note: "Woven into a human shape, given a name, kept through winter.",
+    },
+  ],
+  locations: [
+    {
+      id: "krustpils-last-sheaf",
+      name: "Krustpils Harvest Ground",
+      coordinates: [56.50, 26.00],
+      region: "Latvia",
+      description: "Daugava basin fields where last-sheaf Jumis rituals were documented into the early 20th century.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "jumis",
+      significance: "The last sheaf of rye was braided and placed to protect the winter grain store.",
+    },
+    {
+      id: "vidzeme-rye-ridge",
+      name: "Vidzeme Rye Ridge",
+      coordinates: [57.10, 25.20],
+      region: "Latvia",
+      description: "Highland rye fields of Vidzeme where double-stalked grains were treated as sacred finds.",
+      siteType: "Sacrifice / offering sites",
+      aura: "amber",
+      deity: "jumis",
+      significance: "Finding a jumis stalk was reason to call the entire village for a feast.",
+    },
+  ],
+  materialLegacy: ["Braided rye harvest crowns", "Double-grain pressed into clay seals"],
+  symbols: [
+    { label: "Element", detail: "Two stalks from one root" },
+    { label: "Offerings", detail: "Last grain, barley beer, harvest bread" },
+  ],
+  regionDetails: {
+    en: "Vidzeme / Zemgale",
+    lt: "Vidžemė / Žiemgala",
+    lv: "Vidzeme / Zemgale",
+  },
+  tribe: {
+    en: "Latvians",
+    lt: "Latviai",
+    lv: "Latvieši",
+  },
+  period: {
+    en: "13th Century Attestation / 18th-19th Century Collection",
+    lt: "XIII a. paliudijimas / XVIII-XIX a. rinkimas",
+    lv: "13. gs. apliecinājums / 18.-19. gs. krākums",
+  },
+  references: [
+    "Henricus de Lettis: Chronicon Livoniae (c.1227)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+  ],
+};
+
+export const usinsMeta: DeityMeta = {
+  slug: "usins",
+  name: "Ūsiņš",
+  domain: "God",
+  epithet: {
+    en: "Light-bringer riding white horses at dawn",
+    lt: "Šviesos nešėjas, jojantis baltaisiais žirgais aušroje",
+    lv: "Gaismas nesējs, jājot baltiem zirgiem rītausmā",
+  },
+  summary: {
+    en: "The spring deity who opens the pasture season, blesses horses, and carries light across the land at the turning point between dark and growing months.",
+    lt: "Pavasario dievybė, atverianti ganyklos sezoną, laiminanti žirgus ir nešanti šviesą per žemę tamsių ir augančių mėnesių sandūroje.",
+    lv: "Pavasara dievība, kas atver ganu sezonu, svētī zirgus un nes gaismu pāri zemei tumšo un augošo mēnešu pavērsienā.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1534082456-9d7e4139e8a6?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(200, 160, 90, 0.22)",
+  accent: "#c9a060",
+  altNames: {
+    en: "Usins",
+    lt: "Ūsiņš",
+    lv: "Ūsiņš",
+  },
+  keywords: ["light", "horses", "spring", "bees", "pasture"],
+  gallery: [
+    {
+      title: "Horse wreath",
+      medium: "oak leaves, herbs",
+      note: "Placed on horses' heads on Ūsiņš Day (April 23) before first pasturing.",
+    },
+    {
+      title: "Spring candle cluster",
+      medium: "beeswax",
+      note: "Lit before dawn on Ūsiņdiena to welcome Ūsiņš's return.",
+    },
+  ],
+  locations: [
+    {
+      id: "jelgava-pasture",
+      name: "Jelgava Spring Pasture",
+      coordinates: [56.65, 23.72],
+      region: "Latvia",
+      description: "The broad Zemgale meadows where horse-blessing rituals were performed at spring opening.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "usins",
+      significance: "Horses decorated with oak wreaths were led here at dawn on Ūsiņdiena.",
+    },
+    {
+      id: "sabile-horse-meadow",
+      name: "Sabile Horse Meadow",
+      coordinates: [57.05, 22.55],
+      region: "Latvia",
+      description: "Ancient Curonian meadow associated with sacred horse ritual and light-deity worship.",
+      siteType: "Seasonal festival locations",
+      aura: "moss",
+      deity: "usins",
+      significance: "Farmers brought their best horse here for Ūsiņš to bless before the growing season.",
+    },
+  ],
+  materialLegacy: ["Oak-leaf horse wreaths", "Beeswax spring candles"],
+  symbols: [
+    { label: "Element", detail: "First spring light on dew" },
+    { label: "Offerings", detail: "Horse feed, barley beer, candles" },
+  ],
+  regionDetails: {
+    en: "Kurzeme / Vidzeme",
+    lt: "Kuršas / Vidžemė",
+    lv: "Kurzeme / Vidzeme",
+  },
+  tribe: {
+    en: "Latvians / Curonians",
+    lt: "Latviai / Kuršiai",
+    lv: "Latvieši / Kurši",
+  },
+  period: {
+    en: "17th Century Attestation (Fabricius 1610)",
+    lt: "XVII a. paliudijimas (Fabricijus 1610)",
+    lv: "17. gs. apliecinājums (Fabricius 1610)",
+  },
+  references: [
+    "Dionysius Fabricius: Livonicae historiae compendiosa series (1610)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+  ],
+};
+
+export const vakarineMeta: DeityMeta = {
+  slug: "vakarine",
+  name: "Vakarinė",
+  domain: "Creature",
+  epithet: {
+    en: "Silver lamp that tucks the sun to rest",
+    lt: "Sidabrinis žibintas, guldantis saulę miegoti",
+    lv: "Sudraba lukturis, kas noliek sauli gulēt",
+  },
+  summary: {
+    en: "Vakarinė is the goddess of the Evening Star, Venus at dusk. Sister of Aušrinė, she prepares Saulė's bed as the sun descends into the western sea.",
+    lt: "Vakarinė yra vakaro žvaigždės deivė, Venera sutemų metu. Aušrinės sesuo, ji pakloja Saulei lovą, kai ši leidžiasi į vakarų jūrą.",
+    lv: "Vakarīne ir vakara zvaigznes dieviete, Venera krēslas laikā. Auseklītes māsa, viņa sagatavo Saulei gultu, kad tā varētu nolaisties rietumu jūrā.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 50, 120, 0.28)",
+  accent: "#9370db",
+  altNames: {
+    en: "Vakarine, Evening Star",
+    lt: "Vakarinė, Vakaro žvaigždė",
+    lv: "Vakarīne, Vakara zvaigzne",
+  },
+  keywords: ["evening star", "venus", "sunset", "twilight", "celestial handmaiden", "sun's bed"],
+  gallery: [
+    {
+      title: "Silver tray of evening light",
+      medium: "hammered silver",
+      note: "Symbolic vessel for carrying the last warmth of the sun across the horizon.",
+    },
+    {
+      title: "Linen evening cloth",
+      medium: "flax",
+      note: "Women's offering woven with silver thread, laid at hilltops at dusk for Vakarinė.",
+    },
+  ],
+  locations: [
+    {
+      id: "samogitia-sunset-hill",
+      name: "Samogitian Sunset Hill",
+      coordinates: [55.92, 22.28],
+      region: "Lithuania",
+      description: "A hilltop in Samogitia where folk songs about Vakarinė were sung at dusk after harvest.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "amber",
+      deity: "vakarine",
+      significance: "Women gathered here at sunset to sing autumn songs to Vakarinė, lighting candles as the first star appeared.",
+    },
+    {
+      id: "jurmala-evening-shore",
+      name: "Jūrmala Evening Shore",
+      coordinates: [56.97, 23.77],
+      region: "Latvia",
+      description: "Baltic shore where Latvian songs describe the Evening Star guiding Saule to rest in the western sea.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "amber",
+      deity: "vakarine",
+      significance: "Fishermen noted the Evening Star as Saule's lamp being set into the waves, guiding boats safely to shore.",
+    },
+  ],
+  materialLegacy: ["Silver-thread evening cloths", "Sunset candle rituals", "Venus-observation hilltops"],
+  symbols: [
+    { label: "Planet", detail: "Venus as Evening Star" },
+    { label: "Function", detail: "Prepares the Sun's rest" },
+    { label: "Offering", detail: "Flax candles and silver thread" },
+  ],
+  regionDetails: {
+    en: "Pan-Baltic (Lithuania, Latvia)",
+    lt: "Visos baltų žemės (Lietuva, Latvija)",
+    lv: "Visu baltu zemes (Lietuva, Latvija)",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "Ancient — first recorded by Łasicki (1582)",
+    lt: "Seniausieji laikai — pirmą kartą užrašyta Łasicki (1582)",
+    lv: "Senākie laiki — pirmoreiz pierakstīts no Łasicki (1582)",
+  },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der alten Letten (1972)",
+  ],
+};
+
+export const teliavelIsMeta: DeityMeta = {
+  slug: "teliavelis",
+  name: "Teliavelis",
+  domain: "God",
+  epithet: {
+    en: "Blacksmith who hammered the Sun into the sky",
+    lt: "Kalvis, nukalęs Saulę ir įmetęs ją į dangų",
+    lv: "Kalējs, kurš nokalēja Sauli un iemeta to debesīs",
+  },
+  summary: {
+    en: "Teliavelis is the divine blacksmith of Lithuanian mythology, first recorded in the 13th-century Hypatian Codex. He forged the Sun and hurled it into the sky, giving light to the world.",
+    lt: "Teliavelis yra lietuvių mitologijos dangiškasis kalvis, pirmą kartą paminėtas XIII a. Ipatijaus metraštyje. Jis nukalė Saulę ir įmetė ją į dangų, suteikdamas pasauliui šviesą.",
+    lv: "Teliavelis ir lietuviešu mitoloģijas debesu kalējs, kas pirmo reizi minēts 13. gadsimta Hipātija hronikā. Viņš nokalēja Sauli un iemeta to debesīs, dāvājot pasaulei gaismu.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1565120130891-55ba6d2eecb8?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(200, 100, 20, 0.28)",
+  accent: "#c87832",
+  altNames: {
+    en: "Teliavel, Kalvelis, Celestial Smith",
+    lt: "Teliavelis, Kalvelis, Dangiškasis kalvis",
+    lv: "Teliavelis, Kalvējs, Debesu kalējs",
+  },
+  keywords: ["blacksmith", "sun", "forge", "creation myth", "fire", "celestial smith", "cultural hero"],
+  gallery: [
+    {
+      title: "Bronze sun-disc pendant",
+      medium: "cast bronze",
+      note: "Baltic Bronze Age pendant representing the Sun forged by the divine smith; found across Lithuania.",
+    },
+    {
+      title: "Iron anvil shard",
+      medium: "iron",
+      note: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.",
+    },
+  ],
+  locations: [
+    {
+      id: "kernave-forge-mound",
+      name: "Kernave Forge Mound",
+      coordinates: [54.88, 24.84],
+      region: "Lithuania",
+      description: "Sacred mound near Kernave associated in folk tradition with the celestial forge of Teliavelis.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "amber",
+      deity: "teliavelis",
+      significance: "Folk memory associates the amber found on mound slopes with sparks from Teliavelis's divine anvil.",
+    },
+  ],
+  materialLegacy: ["Bronze Age sun-disc pendants", "Iron ritual deposits at smithing sites", "Amber as divine sparks"],
+  symbols: [
+    { label: "Attribute", detail: "Hammer and divine anvil" },
+    { label: "Creation", detail: "Forged the Sun (Hypatian Codex 1261)" },
+    { label: "Alliance", detail: "Works with Dievas and Perkūnas" },
+  ],
+  regionDetails: {
+    en: "Lithuania (Aukštaitija)",
+    lt: "Lietuva (Aukštaitija)",
+    lv: "Lietuva (Augštaitija)",
+  },
+  tribe: {
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
+  },
+  period: {
+    en: "13th Century (Hypatian Codex 1252/1261)",
+    lt: "XIII a. (Ipatijaus metraštis 1252/1261)",
+    lv: "13. gadsimts (Hipātija hronika 1252/1261)",
+  },
+  references: [
+    "Hypatian Codex / Ipat'evskaja letopis' (13th c.) — first attestation at Mindaugas's court",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)",
+    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+  ],
+};
+
+export const daliaMeta: DeityMeta = {
+  slug: "dalia",
+  name: "Dalia",
+  domain: "God",
+  epithet: {
+    en: "Weaver of the portion each life receives",
+    lt: "Audėja, išaudžianti tai, kas kiekvienam priklauso",
+    lv: "Audēja, kas nosauc katras dzīves daļu",
+  },
+  summary: {
+    en: "Dalia is the Lithuanian goddess of fate and allotted portion. While Laima governs life's overall course, Dalia decides each person's share of earthly wealth, livestock, and property.",
+    lt: "Dalia yra lietuvių likimo ir dalios deivė. Laima lemia bendrąjį gyvenimo kelią, o Dalia nustato kiekvieno žmogaus dalią — turtą, gyvulius ir žemę.",
+    lv: "Dalia ir lietuviešu likteņa un daļas dieviete. Laima nosaka kopējo dzīves gaitu, savukārt Dalia nosaka katras personas zemes mantu, lopus un īpašumu.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 120, 150, 0.24)",
+  accent: "#5892a8",
+  altNames: {
+    en: "Dalia, Goddess of Portion",
+    lt: "Dalia, Dalios deivė",
+    lv: "Dalia, Daļas dieviete",
+  },
+  keywords: ["fate", "portion", "wealth", "weaving", "destiny", "material fortune", "dalis"],
+  gallery: [
+    {
+      title: "Woven fate cloth",
+      medium: "linen with pattern",
+      note: "Ritual cloth woven as a dowry offering to Dalia at birth ceremonies.",
+    },
+    {
+      title: "Grain-measuring vessel",
+      medium: "clay pot",
+      note: "Used to portend the amount of harvest Dalia would allot a household.",
+    },
+  ],
+  locations: [
+    {
+      id: "zemaitija-fate-spring",
+      name: "Samogitian Fate Spring",
+      coordinates: [55.84, 22.18],
+      region: "Lithuania",
+      description: "Sacred spring in Samogitia where offerings were made to the fate goddesses, particularly at births.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "mist",
+      deity: "dalia",
+      significance: "Women brought woven cloth and grain to Dalia at this spring to secure the newborn's material fortune.",
+    },
+  ],
+  materialLegacy: ["Birth-offering cloths", "Grain-measuring vessels", "Ritual scissors (fate-cutting)"],
+  symbols: [
+    { label: "Name", detail: "From 'dalis' (portion, share)" },
+    { label: "Function", detail: "Material fate and wealth distribution" },
+    { label: "Companion", detail: "Works alongside Laima" },
+  ],
+  regionDetails: {
+    en: "Pan-Baltic (Lithuania, Latvia)",
+    lt: "Visos baltų žemės (Lietuva, Latvija)",
+    lv: "Visu baltu zemes (Lietuva, Latvija)",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "Ancient — reconstructed from folk tradition and Vėlius (1983)",
+    lt: "Seniausieji laikai — atkurta iš liaudies tradicijos ir Vėliaus (1983)",
+    lv: "Senākie laiki — rekonstruēts no tautas tradīcijas un Vēliusa (1983)",
+  },
+  references: [
+    "Vėlius, Norbertas: Senovės baltų pasaulėžiūra (1983)",
+    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const patollaMeta: DeityMeta = {
+  slug: "patollo",
+  name: "Patollo",
+  domain: "Creature",
+  epithet: {
+    en: "Pale elder shrouded in white at the world's root",
+    lt: "Blyškus senis, baltu drobule aprištu galva prie pasaulio šaknų",
+    lv: "Bāls vecis baltā drānā pasaules saknēs",
+  },
+  summary: {
+    en: "Patollo (Peckols) is the Old Prussian god of the underworld and death, one of the sacred triad at Romuva. He is depicted as a pale, corpse-faced elder wrapped in a white shroud.",
+    lt: "Pikulis (Peckols, Patollo) yra senprūsių požemio ir mirties dievas, vienas iš trijų Romovės šventyklos dievų. Jis vaizduojamas kaip blyškiaveidis senolis, suvyniotas balto drobės.",
+    lv: "Pikulis (Peckols, Patollo) ir seno prūšu pazemes un nāves dievs, viens no trim Romuvesas svētnīcas dieviem. Viņš tiek tēlots kā bāla sejas vecis, aptīts baltā drānā.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1544985361-b420d7a77043?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(30, 30, 50, 0.44)",
+  accent: "#505570",
+  altNames: {
+    en: "Peckols, Pikulis, Pikuolas",
+    lt: "Pikulis, Pikuolas, Peckols",
+    lv: "Pikulis, Peckols, Patollo",
+  },
+  keywords: ["underworld", "death", "romuva", "prussian", "darkness", "shroud", "ancestral spirits"],
+  gallery: [
+    {
+      title: "White burial shroud",
+      medium: "linen",
+      note: "The white cloth head-covering of Patollo's idol at Romuva, described by Grunau (1529).",
+    },
+    {
+      title: "Skull offering vessel",
+      medium: "carved wood",
+      note: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.",
+    },
+  ],
+  locations: [
+    {
+      id: "romuva-sacred-oak",
+      name: "Romuva Sacred Oak Grove",
+      coordinates: [55.45, 21.52],
+      region: "Lithuania",
+      description: "The legendary sacred grove of Romuva where the three divine idols stood beneath an eternal oak. Patollo occupied the shadowed northern side.",
+      siteType: "Sacred groves",
+      aura: "mist",
+      deity: "patollo",
+      significance: "An eternal sacred fire burned day and night; Patollo's white-shrouded idol stood on the shadow side of the great oak.",
+    },
+  ],
+  materialLegacy: ["White shroud offerings", "Ash-fire ritual rites", "Winter solstice death ceremonies"],
+  symbols: [
+    { label: "Appearance", detail: "Pale elder, white head-shroud" },
+    { label: "Triad", detail: "Romuva triad with Perkūns and Patrimpas" },
+    { label: "Domain", detail: "Death, shadows, and ancestral spirits" },
+  ],
+  regionDetails: {
+    en: "Old Prussia (Nadruvia / Romuva region)",
+    lt: "Senoji Prūsija (Nadruvija / Romovos sritis)",
+    lv: "Senā Prūsija (Nadruvia / Romuvesas apgabals)",
+  },
+  tribe: {
+    en: "Old Prussians (Prūsai)",
+    lt: "Senprūsiai (Prūsai)",
+    lv: "Senie prūši (Prūsi)",
+  },
+  period: {
+    en: "Medieval — recorded by Simon Grunau (1529)",
+    lt: "Viduramžiai — užrašė Simonas Grunau (1529)",
+    lv: "Viduslaiki — pierakstīts no Simona Grunau (1529)",
+  },
+  references: [
+    "Grunau, Simon: Preussische Chronik (1529)",
+    "Sudauer Büchlein / Sudovian Book (16th c.)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const patrimpAsMeta: DeityMeta = {
+  slug: "patrimpas",
+  name: "Patrimpas",
+  domain: "God",
+  epithet: {
+    en: "Laughing youth crowned with grain at spring's threshold",
+    lt: "Juokiasi jaunuolis su varpų vainiku pavasario slenkstyje",
+    lv: "Smejošs jaunietis ar vārpu vainagu pavasara slieksnī",
+  },
+  summary: {
+    en: "Patrimpas (Potrimpas) is the Old Prussian god of spring, youth, and field fertility. The joyful member of the Romuva triad, he is depicted as a beardless youth crowned with grain and flowers.",
+    lt: "Patrimpas (Potrimpas) yra senprūsių pavasario, jaunystės ir laukų derlingumo dievas. Linksmiausias Romovės trejybės narys, vaizduojamas kaip bebarzdis jaunuolis su varpų vainiku.",
+    lv: "Patrimps (Potrimpas) ir seno prūšu pavasara, jaunības un lauku auglības dievs. Romuvesas trejādības priecīgākais loceklis, attēlots kā bezbārdains jaunietis ar vārpu vainagu.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 150, 60, 0.22)",
+  accent: "#6ca846",
+  altNames: {
+    en: "Potrimpas, Patrimpo",
+    lt: "Potrimpas, Patrimpo",
+    lv: "Potrimpas, Patrimpo",
+  },
+  keywords: ["youth", "harvest", "spring", "fertility", "prussian", "romuva", "rivers", "grain crown"],
+  gallery: [
+    {
+      title: "Grain wreath festival crown",
+      medium: "rye and flax",
+      note: "Woven crown for Patrimpas celebrations at spring planting, worn by the lead dancer.",
+    },
+    {
+      title: "Spring waters vessel",
+      medium: "clay jug",
+      note: "Used to carry first river-water of spring as an offering to Patrimpas.",
+    },
+  ],
+  locations: [
+    {
+      id: "romuva-spring-meadow",
+      name: "Romuva Sacred Meadow",
+      coordinates: [55.47, 21.54],
+      region: "Lithuania",
+      description: "Sacred meadow by the Romuva oak grove where Patrimpas spring festivals were held with singing and planting rituals.",
+      siteType: "Seasonal festival locations",
+      aura: "moss",
+      deity: "patrimpas",
+      significance: "Youth danced and sang here to invoke Patrimpas's blessing on fields and newborn livestock at each spring planting.",
+    },
+  ],
+  materialLegacy: ["Grain crown offerings", "Spring festival wreaths", "First-fish cast-back rituals"],
+  symbols: [
+    { label: "Appearance", detail: "Beardless youth, grain crown" },
+    { label: "Triad", detail: "Romuva triad with Perkūns and Patollo" },
+    { label: "Domain", detail: "Spring, youth, rivers, harvest" },
+  ],
+  regionDetails: {
+    en: "Old Prussia (Nadruvia / Romuva region)",
+    lt: "Senoji Prūsija (Nadruvija / Romovos sritis)",
+    lv: "Senā Prūsija (Nadruvia / Romuvesas apgabals)",
+  },
+  tribe: {
+    en: "Old Prussians (Prūsai)",
+    lt: "Senprūsiai (Prūsai)",
+    lv: "Senie prūši (Prūsi)",
+  },
+  period: {
+    en: "Medieval — recorded by Simon Grunau (1529)",
+    lt: "Viduramžiai — užrašė Simonas Grunau (1529)",
+    lv: "Viduslaiki — pierakstīts no Simona Grunau (1529)",
+  },
+  references: [
+    "Grunau, Simon: Preussische Chronik (1529)",
+    "Sudauer Büchlein / Sudovian Book (16th c.)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai (1996)",
+  ],
+};
+
+export const autrimpasMeta: DeityMeta = {
+  slug: "autrimpas",
+  name: "Autrimpas",
+  domain: "Creature",
+  epithet: {
+    en: "Neptune of the amber sea, lord of the Baltic deep",
+    lt: "Gintarų jūros Neptūnas, Baltijos gelmių valdovas",
+    lv: "Dzintara jūras Neptūns, Baltijas dziļumu valdnieks",
+  },
+  summary: {
+    en: "Autrimpas is the Old Prussian god of the sea and open waters. Worshipped by the coastal Sambians, he governed storms, safe passage, and the abundant depths of the Baltic.",
+    lt: "Autrimpas yra senprūsių jūros ir atvirų vandenų dievas. Garbintas Sambijos pakrantės prūsų, jis valdė audras, saugų plaukimą ir Baltijos gelmių gausą.",
+    lv: "Autrimps ir seno prūšu jūras un brīvo ūdeņu dievs. Piekrastes sembiešu pielūgts, viņš valdīja vētras, drošu kuģošanu un Baltijas bagātīgos dziļumus.",
+  },
+  heroImage:
+    "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(30, 80, 140, 0.28)",
+  accent: "#2055a0",
+  altNames: {
+    en: "Autrimpus, Autrimps",
+    lt: "Autrimpas, Autrimpus",
+    lv: "Autrimps, Autrimpas",
+  },
+  keywords: ["sea", "ocean", "prussian", "sailors", "fish", "waves", "baltic coast", "neptune"],
+  gallery: [
+    {
+      title: "Amber sea offering",
+      medium: "amber",
+      note: "Raw amber cast into the sea as first-catch offering to Autrimpas before offshore voyages.",
+    },
+    {
+      title: "Carved driftwood fish",
+      medium: "driftwood",
+      note: "Votive fish carvings left at shore shrines to ensure abundant catch.",
+    },
+  ],
+  locations: [
+    {
+      id: "klaipeda-sea-shrine",
+      name: "Klaipėda Coastal Shrine",
+      coordinates: [55.71, 21.12],
+      region: "Lithuania",
+      description: "Ancient shoreline offering site at the Lithuanian Baltic coast where first-catch rituals were performed.",
+      siteType: "Sacrifice / offering sites",
+      aura: "amber",
+      deity: "autrimpas",
+      significance: "Prussian and later Lithuanian fishermen cast the first fish of the season back into the sea as tribute to the Lord of the Baltic Deep.",
+    },
+  ],
+  materialLegacy: ["Amber sea-castings", "Net-carved votive offerings", "First-catch rituals"],
+  symbols: [
+    { label: "Domain", detail: "Sea, storms, and maritime bounty" },
+    { label: "Comparison", detail: "Chronicles compare him to Neptune" },
+    { label: "Offering", detail: "First fish of the catch" },
+  ],
+  regionDetails: {
+    en: "Old Prussia (Sambia / Baltic Coast)",
+    lt: "Senoji Prūsija (Sembija / Baltijos pajūris)",
+    lv: "Senā Prūsija (Sembija / Baltijas piekraste)",
+  },
+  tribe: {
+    en: "Old Prussians / Sambians",
+    lt: "Senprūsiai / Sambiai",
+    lv: "Senie prūši / sembi",
+  },
+  period: {
+    en: "Medieval — recorded in Grunau (1529) and Sudovian Book (16th c.)",
+    lt: "Viduramžiai — Grunau (1529) ir Sūduvių knygelė (XVI a.)",
+    lv: "Viduslaiki — Grunau (1529) un Sudāviešu grāmatiņa (16. gs.)",
+  },
+  references: [
+    "Grunau, Simon: Preussische Chronik (1529)",
+    "Sudauer Büchlein / Sudovian Book (16th c.)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
 export const deitiesMeta = {
   perkunasMeta,
   zemynaMeta,
@@ -930,4 +1919,16 @@ export const deitiesMeta = {
   gabijaMeta,
   bangputysMeta,
   medineMeta,
+  giltineMeta,
+  pukisMeta,
+  ausrineMeta,
+  maraMeta,
+  jumisMeta,
+  usinsMeta,
+  vakarineMeta,
+  teliavelIsMeta,
+  daliaMeta,
+  patollaMeta,
+  patrimpAsMeta,
+  autrimpasMeta,
 };

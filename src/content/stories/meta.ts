@@ -96,7 +96,7 @@ export const velniasAndTheFiddlerMeta: StoryMeta = {
     lt: "XIX a. - XX a. pradžia",
     lv: "19. gadsimts - 20. gadsimta sākums",
   },
-  references: ["Jonas Basanavičius: Lithuanian Fairy Tales"],
+  references: ["Jonas Basanavičius: Lithuanian Fairy Tales", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"],
 };
 
 export const sauleAndMenulisMeta: StoryMeta = {
@@ -162,7 +162,7 @@ export const zemynasBlessingMeta: StoryMeta = {
     lt: "XVI a. pabaigos rašytiniai šaltiniai",
     lv: "16. gadsimta beigu rakstītie avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum"],
+  references: ["Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: The World Outlook of the Ancient Lithuanians"],
 };
 
 export const austejaAndTheGoldenHiveMeta: StoryMeta = {
@@ -195,7 +195,7 @@ export const austejaAndTheGoldenHiveMeta: StoryMeta = {
     lt: "XIX-XX a. žodinė tradicija",
     lv: "19.-20. gadsimta mutvārdu tradīcija",
   },
-  references: ["Norbertas Vėlius: Mythology of Bees"],
+  references: ["Norbertas Vėlius: Mythology of Bees", "Jan Łasicki: De Diis Samagitarum"],
 };
 
 export const gabijasHearthMeta: StoryMeta = {
@@ -228,7 +228,7 @@ export const gabijasHearthMeta: StoryMeta = {
     lt: "XV-XVI a. metraščiai",
     lv: "15.-16. gadsimta hronikas",
   },
-  references: ["Maciej Stryjkowski: Chronicle"],
+  references: ["Maciej Stryjkowski: Chronicle", "Jan Łasicki: De Diis Samagitarum"],
 };
 
 export const bangputysAndTheAmberFleetMeta: StoryMeta = {
@@ -261,7 +261,7 @@ export const bangputysAndTheAmberFleetMeta: StoryMeta = {
     lt: "XIX a. pajūrio legendos",
     lv: "19. gadsimta piekrastes leģendas",
   },
-  references: ["Matthäus Praetorius: Deliciae Prussicae"],
+  references: ["Matthäus Praetorius: Deliciae Prussicae", "Maciej Stryjkowski: Kronika polska, litewska, żmódzka (1582)"],
 };
 
 export const medeinaSacredHareMeta: StoryMeta = {
@@ -360,5 +360,113 @@ export const pukisWealthMeta: StoryMeta = {
     lt: "XVIII-XIX a. tautosaka",
     lv: "18.-19. gadsimta folklora",
   },
-  references: ["Pēteris Šmits: Latviešu pasakas un teikas"],
+  references: ["Pēteris Šmits: Latviešu pasakas un teikas", "Latvijas Nacionālā enciklopēdija"],
+};
+
+export const egleQueenOfSerpentsMeta: StoryMeta = {
+  slug: "egle-queen-of-serpents",
+  title: {
+    en: "Eglė, Queen of Serpents",
+    lt: "Eglė žalčių karalienė",
+    lv: "Egle, čūsku karaliene",
+  },
+  summary: {
+    en: "A young woman discovers a serpent in her linen shirt, is wed to Žilvinas the Grass Snake King, and is transformed into a spruce tree by her brothers' treachery.",
+    lt: "Jauna mergaitė atrandą gyvatę savo lino marškinėlių rankove, ištekinama už Žilvino žalčių karaliaus ir brolių išdavystės paverčiama egle.",
+    lv: "Jauna sieviete atrod čūsku savā linu krekla piedurknē, apprecas ar Žilvinu zalkšu karali un brāļu nodevības dēļ pārvēršas par egli.",
+  },
+  beings: ["velnias"],
+  locationIds: ["druskininkai-mist"],
+  locations: ["Nemunas River", "Baltic Sea"],
+  regionDetails: {
+    en: "Dzūkija / Aukštaitija",
+    lt: "Dzūkija / Aukštaitija",
+    lv: "Dzūkija / Augštaitija",
+  },
+  tribe: {
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
+  },
+  period: {
+    en: "19th Century Oral Tradition (Basanavičius 1898–1902)",
+    lt: "XIX a. žodinė tradicija (Basanavičius 1898–1902)",
+    lv: "19. gadsimta mutvārdu tradīcija (Basanavičius 1898–1902)",
+  },
+  references: [
+    "Jonas Basanavičius: Lietuviškos pasakos (1898–1902)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+  ],
+};
+
+export const jurateAndKastytisMeta: StoryMeta = {
+  slug: "jurate-and-kastytis",
+  title: {
+    en: "Jūratė and Kastytis",
+    lt: "Jūratė ir Kastytis",
+    lv: "Jūratē un Kastitis",
+  },
+  summary: {
+    en: "The sea goddess Jūratė falls in love with the fisherman Kastytis; Perkūnas's wrath shatters her amber palace and Baltic amber is the golden shards of that lost paradise.",
+    lt: "Jūros deivė Jūratė įsimyli žvejį Kastytį; Perkūno rūstybė sudaužo jos gintaro rūmus, o Baltijos gintaras yra to prarastojo rojaus auksinės šukės.",
+    lv: "Jūras dieviete Jūratē iemīlas zvejniekā Kastiti; Pērkona dusmas sadragā viņas dzintara pili un Baltijas dzintars ir tā pazudušā paradīzes zelta lauskas.",
+  },
+  beings: ["perkunas", "bangputys"],
+  locationIds: ["klaipeda-drift"],
+  locations: ["Baltic Sea", "Palanga Amber Coast"],
+  regionDetails: {
+    en: "Curonian Coast",
+    lt: "Kuršių marių pajūris",
+    lv: "Kuršu krasts",
+  },
+  tribe: {
+    en: "Curonians / Lithuanians",
+    lt: "Kuršiai / Lietuviai",
+    lv: "Kurši / Lietuvieši",
+  },
+  period: {
+    en: "19th-20th Century Oral Tradition",
+    lt: "XIX-XX a. žodinė tradicija",
+    lv: "19.-20. gadsimta mutvārdu tradīcija",
+  },
+  references: [
+    "Visuotinė lietuvių enciklopedija (VLE)",
+    "Jonas Basanavičius: Lietuviškos pasakos",
+  ],
+};
+
+export const perkunasAndTheDevilMeta: StoryMeta = {
+  slug: "perkunas-and-the-devil",
+  title: {
+    en: "Perkūnas and the Devil",
+    lt: "Perkūnas ir Velnias",
+    lv: "Pērkons un Velns",
+  },
+  summary: {
+    en: "The most widespread Baltic myth: Perkūnas hunts Velnias across sky and earth, driving him into tree, stone, beast, and human before striking him down with thunder.",
+    lt: "Plačiausiai paplitęs baltų mitas: Perkūnas persekioja Velnią per dangų ir žemę, varydamas jį į medį, akmenį, žvėrį ir žmogų, prieš trenkdamas žaibo smūgiu.",
+    lv: "Visizplatītākais baltu mīts: Pērkons medī Velnu pa debesīm un zemi, dzenot viņu kokā, akmenī, zvērī un cilvēkā, pirms noliek ar pērkona sitienu.",
+  },
+  beings: ["perkunas", "velnias"],
+  locationIds: ["aukstaitija-oaks", "kernave-mounds"],
+  locations: ["Lithuania", "Latvia"],
+  regionDetails: {
+    en: "Pan-Baltic",
+    lt: "Visos baltų žemės",
+    lv: "Visas baltu zemes",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
+  },
+  period: {
+    en: "Pre-Christian Oral Tradition",
+    lt: "Ikikrikščioniškoji žodinė tradicija",
+    lv: "Pirmskristīgā mutvārdu tradīcija",
+  },
+  references: [
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)",
+    "Jonas Basanavičius: Lietuviškos pasakos (1898–1902)",
+  ],
 };

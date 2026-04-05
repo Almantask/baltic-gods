@@ -16,6 +16,9 @@ import BangputysAndTheAmberFleetEn from "./en/bangputys-and-the-amber-fleet.mdx"
 import MedeinaEn from "./en/medeina-and-the-sacred-hare.mdx";
 import GiltineEn from "./en/giltine-and-the-death-watch.mdx";
 import PukisEn from "./en/pukis-and-the-dragon-wealth.mdx";
+import EgleEn from "./en/egle-queen-of-serpents.mdx";
+import JurateEn from "./en/jurate-and-kastytis.mdx";
+import PerkunasDevilEn from "./en/perkunas-and-the-devil.mdx";
 
 // Lithuanian
 import ThunderOakLt from "./lt/thunder-oak-of-perkunas.mdx";
@@ -29,6 +32,9 @@ import BangputysAndTheAmberFleetLt from "./lt/bangputys-and-the-amber-fleet.mdx"
 import MedeinaLt from "./lt/medeina-and-the-sacred-hare.mdx";
 import GiltineLt from "./lt/giltine-and-the-death-watch.mdx";
 import PukisLt from "./lt/pukis-and-the-dragon-wealth.mdx";
+import EgleLt from "./lt/egle-queen-of-serpents.mdx";
+import JurateLt from "./lt/jurate-and-kastytis.mdx";
+import PerkunasDevilLt from "./lt/perkunas-and-the-devil.mdx";
 
 // Latvian
 import ThunderOakLv from "./lv/thunder-oak-of-perkunas.mdx";
@@ -42,6 +48,9 @@ import BangputysAndTheAmberFleetLv from "./lv/bangputys-and-the-amber-fleet.mdx"
 import MedeinaLv from "./lv/medeina-and-the-sacred-hare.mdx";
 import GiltineLv from "./lv/giltine-and-the-death-watch.mdx";
 import PukisLv from "./lv/pukis-and-the-dragon-wealth.mdx";
+import EgleLv from "./lv/egle-queen-of-serpents.mdx";
+import JurateLv from "./lv/jurate-and-kastytis.mdx";
+import PerkunasDevilLv from "./lv/perkunas-and-the-devil.mdx";
 
 import {
   thunderOakMeta,
@@ -55,6 +64,9 @@ import {
   medeinaSacredHareMeta,
   giltineDeathWatchMeta,
   pukisWealthMeta,
+  egleQueenOfSerpentsMeta,
+  jurateAndKastytisMeta,
+  perkunasAndTheDevilMeta,
 } from "./meta";
 
 export const stories: StoryEntry[] = [
@@ -69,6 +81,9 @@ export const stories: StoryEntry[] = [
   { meta: medeinaSacredHareMeta, Content: MedeinaEn, contentByLang: { en: MedeinaEn, lt: MedeinaLt, lv: MedeinaLv } },
   { meta: giltineDeathWatchMeta, Content: GiltineEn, contentByLang: { en: GiltineEn, lt: GiltineLt, lv: GiltineLv } },
   { meta: pukisWealthMeta, Content: PukisEn, contentByLang: { en: PukisEn, lt: PukisLt, lv: PukisLv } },
+  { meta: egleQueenOfSerpentsMeta, Content: EgleEn, contentByLang: { en: EgleEn, lt: EgleLt, lv: EgleLv } },
+  { meta: jurateAndKastytisMeta, Content: JurateEn, contentByLang: { en: JurateEn, lt: JurateLt, lv: JurateLv } },
+  { meta: perkunasAndTheDevilMeta, Content: PerkunasDevilEn, contentByLang: { en: PerkunasDevilEn, lt: PerkunasDevilLt, lv: PerkunasDevilLv } },
 ];
 
 export const storyBySlug = Object.fromEntries(

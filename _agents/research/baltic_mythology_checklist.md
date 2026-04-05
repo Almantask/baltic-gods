@@ -2,7 +2,7 @@
 
 **Status**: `[ ]` Not Started | `[/]` Sourced/Researched | `[x]` Implemented in `meta.ts` + `mdx`
 
-**Last audited**: 2026-04-04 — comprehensive cross-reference of 65+ academic, archival & digital sources across 4 audit passes. Covers all major primary chronicles, folkloristic collections, linguistic reconstructions, archaeological surveys, witch trial records, and comparative Indo-European scholarship.
+**Last audited**: 2026-04-05 — added Giltinė, Pūķis, Aušrinė, Māra, Jumis, Ūsiņš deity entries (meta.ts + MDX en/lt/lv); added Eglė, Jūratė and Kastytis, Perkūnas and the Devil story entries; fixed single-reference story metas; marked all implemented stories [x]. Batch 2: added Vakarinė, Teliavelis, Dalia (LT), Patollo, Patrimpas, Autrimpas (PR) deity entries (meta.ts + MDX en/lt/lv); updated [x] status for original 11 core deities and all 6 Batch 1 deities.
 
 ---
 
@@ -84,19 +84,19 @@
 ### Lithuanian (LT)
 
 #### Major / Core Pantheon
-- [/] **Perkūnas** (Thunder, Storm, Justice) — *[Details](translations/perkunas.md)*; Łas, Str, Prae, VLE, Vel
-- [/] **Dievas** (Supreme Sky Father, Order) — *[Details](translations/dievas.md)*; Str, VLE, Grei
-- [/] **Saulė** (Sun Goddess, Weaving, Fate) — *[Details](translations/saule.md)*; Łas, VLE, Vel
-- [/] **Mėnulis** (Moon God, Night Travel) — *[Details](translations/menulis.md)*; Łas, VLE
-- [/] **Laima** (Fate, Luck, Birth) — *[Details](translations/laima.md)*; Łas, VLE, Vel2
-- [/] **Žemyna** (Earth Mother, Fertility) — *[Details](translations/zemyna.md)*; Łas, VLE, Vel
-- [/] **Gabija** (Sacred Hearth Fire) — *[Details](translations/gabija.md)*; Str, VLE, Vel
-- [/] **Austėja** (Bees, Honey, Weaving) — *[Details](translations/austeja.md)*; Łas, VLE, Vel
-- [/] **Medeina / Medinė** (Forest, Hunt) — *[Details](translations/medeina.md)*; Hyp (1252), VLE, Vel
+- [x] **Perkūnas** (Thunder, Storm, Justice) — *implemented*; Łas, Str, Prae, VLE, Vel
+- [x] **Dievas** (Supreme Sky Father, Order) — *implemented*; Str, VLE, Grei
+- [x] **Saulė** (Sun Goddess, Weaving, Fate) — *implemented*; Łas, VLE, Vel
+- [x] **Mėnulis** (Moon God, Night Travel) — *implemented*; Łas, VLE
+- [x] **Laima** (Fate, Luck, Birth) — *implemented*; Łas, VLE, Vel2
+- [x] **Žemyna** (Earth Mother, Fertility) — *implemented*; Łas, VLE, Vel
+- [x] **Gabija** (Sacred Hearth Fire) — *implemented*; Str, VLE, Vel
+- [x] **Austėja** (Bees, Honey, Weaving) — *implemented*; Łas, VLE, Vel
+- [x] **Medeina / Medinė** (Forest, Hunt) — *implemented*; Hyp (1252), VLE, Vel
 
 #### Celestial / Atmospheric
-- [/] **Aušrinė** (Morning Star, Dawn, Handmaiden of Saulė) — *[Details](translations/ausrine.md)*; Łas, VLE, Vel, Grei
-- [/] **Vakarinė** (Evening Star, Saulė's bed-preparer) — *[Details](translations/vakarine.md)*; Łas, VLE, Vel
+- [x] **Aušrinė** (Morning Star, Dawn, Handmaiden of Saulė) — *implemented (meta.ts + mdx, added 2026-04-05)*; Łas, VLE, Vel, Grei
+- [x] **Vakarinė** (Evening Star, Saulė's bed-preparer) — *implemented (meta.ts + mdx, added 2026-04-05)*; Łas, VLE, Vel
 - [/] **Indraja** (Planet Jupiter, Cosmic Order) — *[Details](translations/indraja.md)*; Łas
 - [/] **Sietynas** (Pleiades, Stars, Spring plowing signal) — *[Details](translations/sietynas.md)*; Łas, folk astronomy
 - [/] **Vaiva** (Rainbow, Belt of Laima) — *[Details](translations/vaiva.md)*; Łas, folk tradition
@@ -152,7 +152,7 @@
 - [/] **Kelių Dievas / Gužė / Čiužė** (Roads, Travel, Smooth travel) — *[Details](translations/travel_spirits.md)*; folk, Ruigys, Brod
 
 #### Celestial Smith & Water
-- [/] **Teliavelis** (Celestial Smith, Forged the Sun) — *[Details](translations/teliavelis.md)*; Hyp (1261), VLE
+- [x] **Teliavelis** (Celestial Smith, Forged the Sun) — *implemented (meta.ts + mdx, added 2026-04-05)*; Hyp (1261), VLE
 - [/] **Rasa** (Morning Dew, Dawn freshness) — *[Details](translations/rasa.md)*; folk tradition
 - [/] **Kurvaitšis / Sveitix / Aperuschis** (Foals, Guests, Harvest spirits) — *[Details](translations/minor_spirits_1.md)*; Łas
 - [/] **Pergrubrijus** (Spring, Fertility, Earth awakening) — *[Details](translations/pergrubrijus.md)*; Sūduvių knygelė, Łas
@@ -160,12 +160,12 @@
 - [/] **Upinis / Ežerinis** (River and Lake Spirits) — *[Details](translations/water_spirits.md)*; Łas
 - [/] **Bubilas** (Bees, Drones, Honey) — *[Details](translations/sacred_animals.md)*; Łas, VLE
 - [/] **Birutė** (Historical Duchess, Priestess, Sacred Fire) — *[Details](translations/birute.md)*; folk, VLE, Chronicles
-- [/] **Bangpūtys** (Sea, Waves, Storms) — *[Details](translations/bangputys.md)*; Str, Prae, Łas
+- [x] **Bangpūtys** (Sea, Waves, Storms) — *implemented*; Str, Prae, Łas
 - [/] **Gardaitis / Bardaitis** (Wind, Sailors, Sea, Boats) — *[Details](translations/gardaitis.md)*; Prae, Łas
 - [/] **Ganiklis** (Shepherds, Livestock Grazing) — *[Details](translations/ganiklis.md)*; Łas
 
 #### Fate / Weaving
-- [/] **Dalia** (Fate, Material Wealth Distribution, Weaving) — *[Details](translations/dalia.md)*; Vel2, Grei, VLE; *"dalis" = portion/share; complementary to Laima*
+- [x] **Dalia** (Fate, Material Wealth Distribution, Weaving) — *implemented (meta.ts + mdx, added 2026-04-05)*; Vel2, Grei, VLE
 - [/] **Kruonis / Deivės Valdytojos** (Governing Goddesses, Weaving Fates, Time) — *[Details](translations/weaving_fates.md)*; Łas, folk
 - [/] **Gegutė** (The Cuckoo, Fate Bird, Prophet of Laima) — *[Details](translations/gegute.md)*; folk tradition, VLE
 - [/] **Deivė** (Generic term for female deity / Fairy-goddess) — *[Details](translations/deive.md)*; Vel2; *collective term for supernatural females*
@@ -280,7 +280,7 @@
 - [ ] **Mēness** (Moon God) — *implemented (shares menulis meta)*; Bar, Biez
 - [ ] **Laima** (Fate, Birth, Luck) — *implemented (shares laima meta)*; Bar, Biez, LNE
 - [ ] **Zemes māte** (Earth Mother) — *implemented (shares zemyna meta)*; Bar, Šmits
-- [/] **Māra** (Great Mother, Material World, Death & Rebirth) — *[Details](translations/mara.md)*; Bar, Šmits, Biez; one of the most important LV goddesses; *distinct from Zemes māte*
+- [x] **Māra** (Great Mother, Material World, Death & Rebirth) — *implemented (meta.ts + mdx, added 2026-04-05)*; Bar, Šmits, Biez; one of the most important LV goddesses; *distinct from Zemes māte*
 - [ ] **Velns / Vels** (Underworld, Cattle, Trickster) — *story only under Velnias*; Bar, Šmits, LNE
 - [ ] **Auseklis** (Morning Star, Light, Hope) — Bar, Biez, LNE
 - [/] **Jods** (Evil Spirit / Demon — pre-Christian underworld figure, synonym for Velns) — *[Details](translations/jods.md)*; Šmits, LV folklore
@@ -297,7 +297,7 @@
 - [ ] **Auseklis** — *see Celestial above*
 
 #### Agricultural / Fertility
-- [/] **Jumis** (Double Grain, Field Fertility, Last Sheaf) — *[Details](translations/jumis.md)*; Bar, Šmits, LNE, Mann, HenLiv; *earliest historical attestation in HenLiv (c.1227) harvest rituals*
+- [x] **Jumis** (Double Grain, Field Fertility, Last Sheaf) — *implemented (meta.ts + mdx, added 2026-04-05)*; Bar, Šmits, LNE, Mann, HenLiv; *earliest historical attestation in HenLiv (c.1227) harvest rituals*
 - [/] **Jānis** (Midsummer, Summer Solstice Fertility) — *[Details](translations/janis.md)*; Bar, Šmits, LNE
 - [/] **Mārtiņš** (November, Autumn Transition, Horses) — *[Details](translations/martins.md)*; Bar, Šmits, LNE
 - [ ] **Cerklicing / Sērkociņš** (Kitchen Fire, Male Hearth God) — Ein; *"Cerklicing, deus coquinae"*
@@ -362,7 +362,7 @@
 - [/] **Piena māte** (Mother of Milk) — *[Details](translations/agri_animal_mates.md)*; Bar
 - [/] **Vilku māte / Vilkamāte** (Mother of Wolves) — *[Details](translations/agri_animal_mates.md)*; Bar
 - [/] **Putnu māte** (Mother of Birds) — *[Details](translations/agri_animal_mates.md)*; Bar
-- [/] **Ūsiņš** (Light, Horses, Spring — also bees) — *[Details](translations/usins.md)*; Fab (1610), Bar, LNE
+- [x] **Ūsiņš** (Light, Horses, Spring — also bees) — *implemented (meta.ts + mdx, added 2026-04-05)*; Fab (1610), Bar, LNE
 - [ ] **Māršava** (Cow Protector — Vidzeme) — sourced; LNE
 - [ ] **Tenis** (Pig Protector) — sourced; LNE
 
@@ -456,13 +456,13 @@
 ### Old Prussian (PR)
 
 #### Romowe Triad (Grunau)
-- [/] **Patollo / Peckols** (Underworld, Death — black-faced) — *[Details](translations/peckols.md)*; Grunau; Romowe triad
-- [/] **Patrimpas** (Earth, Rivers, Youth, Fertility) — *[Details](translations/potrimpas.md)*; Grunau; Romowe triad
+- [x] **Patollo / Peckols** (Underworld, Death — black-faced) — *implemented (meta.ts + mdx, added 2026-04-05)*; Grunau; Romowe triad
+- [x] **Patrimpas** (Earth, Rivers, Youth, Fertility) — *implemented (meta.ts + mdx, added 2026-04-05)*; Grunau; Romowe triad
 - [ ] **Perkuns** (Thunder — Prussian) — Grunau, Łas
 
 #### Other Prussian Gods
 - [/] **Okopirmus** (Chief Sky God, "First of all") — *[Details](translations/occopirmus.md)*; Grunau, Sud
-- [/] **Autrimpas** (Sea God) — *[Details](translations/autrimpas.md)*; Grunau, Łas, Sud
+- [x] **Autrimpas** (Sea God) — *implemented (meta.ts + mdx, added 2026-04-05)*; Grunau, Łas, Sud
 - [/] **Auschauts** (Health, Wellness, Healing) — *[Details](translations/auschauts.md)*; Łas, Sud
 - [/] **Kurke / Curche** (Grain, Food, Harvest) — *[Details](translations/curcho.md)*; Łas, Prae, Chr (1249); *only deity explicitly named in the 1249 Treaty of Christburg*
 - [/] **Swayxtix** (Light, Sacred Fire) — *[Details](translations/swayxtix.md)*; Grunau, Sud
@@ -756,17 +756,20 @@
 ## STORIES & LEGENDS
 
 ### Lithuanian (LT) — Implemented
-- [ ] Thunder Oak of Perkūnas — *in meta.ts + mdx*
-- [ ] The Weaving of Laima — *in meta.ts + mdx*
-- [ ] Velnias and the Fiddler — *in meta.ts + mdx*
-- [ ] The Wedding of Saulė and Mėnulis — *in meta.ts + mdx*
-- [ ] Žemyna's Blessing — *in meta.ts + mdx*
-- [ ] Austėja and the Golden Hive — *in meta.ts + mdx*
-- [ ] Gabija's Eternal Hearth — *in meta.ts + mdx*
-- [ ] Bangpūtys and the Amber Fleet — *in meta.ts + mdx*
-- [ ] Medeina and the Sacred Hare — *in meta.ts + mdx*
-- [ ] Giltinė and the Death-Watch — *in meta.ts + mdx*
-- [ ] Pūķis and the Dragon's Wealth — *in meta.ts + mdx*
+- [x] Thunder Oak of Perkūnas — *in meta.ts + mdx*
+- [x] The Weaving of Laima — *in meta.ts + mdx*
+- [x] Velnias and the Fiddler — *in meta.ts + mdx*
+- [x] The Wedding of Saulė and Mėnulis — *in meta.ts + mdx*
+- [x] Žemyna's Blessing — *in meta.ts + mdx*
+- [x] Austėja and the Golden Hive — *in meta.ts + mdx*
+- [x] Gabija's Eternal Hearth — *in meta.ts + mdx*
+- [x] Bangpūtys and the Amber Fleet — *in meta.ts + mdx*
+- [x] Medeina and the Sacred Hare — *in meta.ts + mdx*
+- [x] Giltinė and the Death-Watch — *in meta.ts + mdx*
+- [x] Pūķis and the Dragon's Wealth — *in meta.ts + mdx*
+- [x] Eglė, Queen of Serpents — *in meta.ts + mdx (added 2026-04-05)*
+- [x] Jūratė and Kastytis — *in meta.ts + mdx (added 2026-04-05)*
+- [x] Perkūnas and the Devil — *in meta.ts + mdx (added 2026-04-05)*
 
 ### Lithuanian (LT) — Not Yet Implemented
 - [ ] **Eglė, Queen of Serpents** (*Eglė žalčių karalienė*) — Bas, VLE; most famous LT folk tale
