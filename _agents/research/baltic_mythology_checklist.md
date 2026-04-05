@@ -84,98 +84,100 @@
 ### Lithuanian (LT)
 
 #### Major / Core Pantheon
-- [x] **Perkūnas** (Thunder, Storm, Justice) — *implemented*; Łas, Str, Prae, VLE, Vel
-- [x] **Dievas** (Supreme Sky Father, Order) — *implemented*; Str, VLE, Grei
-- [x] **Saulė** (Sun Goddess, Weaving, Fate) — *implemented*; Łas, VLE, Vel
-- [x] **Mėnulis** (Moon God, Night Travel) — *implemented*; Łas, VLE
-- [x] **Laima** (Fate, Luck, Birth) — *implemented*; Łas, VLE, Vel2
-- [x] **Žemyna** (Earth Mother, Fertility) — *implemented*; Łas, VLE, Vel
-- [x] **Gabija** (Sacred Hearth Fire) — *implemented*; Str, VLE, Vel
-- [x] **Austėja** (Bees, Honey, Weaving) — *implemented*; Łas, VLE, Vel
-- [x] **Medeina / Medinė** (Forest, Hunt) — *implemented (deity + story)*; Hyp (1252), VLE, Vel
+- [/] **Perkūnas** (Thunder, Storm, Justice) — *[Details](translations/perkunas.md)*; Łas, Str, Prae, VLE, Vel
+- [/] **Dievas** (Supreme Sky Father, Order) — *[Details](translations/dievas.md)*; Str, VLE, Grei
+- [/] **Saulė** (Sun Goddess, Weaving, Fate) — *[Details](translations/saule.md)*; Łas, VLE, Vel
+- [/] **Mėnulis** (Moon God, Night Travel) — *[Details](translations/menulis.md)*; Łas, VLE
+- [/] **Laima** (Fate, Luck, Birth) — *[Details](translations/laima.md)*; Łas, VLE, Vel2
+- [/] **Žemyna** (Earth Mother, Fertility) — *[Details](translations/zemyna.md)*; Łas, VLE, Vel
+- [/] **Gabija** (Sacred Hearth Fire) — *[Details](translations/gabija.md)*; Str, VLE, Vel
+- [/] **Austėja** (Bees, Honey, Weaving) — *[Details](translations/austeja.md)*; Łas, VLE, Vel
+- [/] **Medeina / Medinė** (Forest, Hunt) — *[Details](translations/medeina.md)*; Hyp (1252), VLE, Vel
 
 #### Celestial / Atmospheric
-- [ ] **Aušrinė** (Morning Star, Dawn, Handmaiden of Saulė) — Łas, VLE, Vel, Grei
-- [ ] **Vakarinė** (Evening Star, Saulė's bed-preparer) — Łas, VLE, Vel
-- [ ] **Indraja** (Planet Jupiter, Cosmic Order) — Łas
-- [ ] **Sietynas** (Pleiades, Stars, Spring plowing signal) — Łas, folk astronomy
-- [ ] **Vaiva** (Rainbow, Belt of Laima) — Łas, folk tradition
-- [ ] **Pliuktis / Plusczius** (Rain God) — Łas; *"Plusczium pro pluvia rogabant"*
-- [ ] **Praamžius** (Time, Eternity, First Cause) — Nar, Str; debated as late insertion
+- [/] **Aušrinė** (Morning Star, Dawn, Handmaiden of Saulė) — *[Details](translations/ausrine.md)*; Łas, VLE, Vel, Grei
+- [/] **Vakarinė** (Evening Star, Saulė's bed-preparer) — *[Details](translations/vakarine.md)*; Łas, VLE, Vel
+- [/] **Indraja** (Planet Jupiter, Cosmic Order) — *[Details](translations/indraja.md)*; Łas
+- [/] **Sietynas** (Pleiades, Stars, Spring plowing signal) — *[Details](translations/sietynas.md)*; Łas, folk astronomy
+- [/] **Vaiva** (Rainbow, Belt of Laima) — *[Details](translations/vaiva.md)*; Łas, folk tradition
+- [/] **Žvorūna** (Forest, Hunting — Samogitian variant of Medeina) — *[Details](translations/zvoruna.md)*; VLE, Dlug (1455)
+- [/] **Rungis** (Forest spirit, protection) — *[Details](translations/rungis.md)*; Łas
+- [/] **Kizmas** (Forest spirit) — *[Details](translations/kizmas.md)*; Łas
+- [/] **Giraitis** (Grove spirit, master of trees) — *[Details](translations/giraitis.md)*; Łas, VLE, Vel
+- [/] **Samanis / Samas** (Moss/Forest floor spirit) — *[Details](translations/samanis.md)*; Łas
+- [/] **Krūminė** (Bush goddess, agricultural first-fruits) — *[Details](translations/krumine.md)*; Łas, VLE
+- [/] **Lazdona** (Hazelnut goddess, wisdom) — *[Details](translations/lazdona.md)*; Łas, VLE
+- [/] **Girstis** (Forest spirit, grove master) — *[Details](translations/girstis.md)*; Łas
+- [/] **Pliuktis / Plusczius** (Rain God) — *[Details](translations/pliuktis.md)*; Łas; *"Plusczium pro pluvia rogabant"*
+- [/] **Praamžius** (Time, Eternity, First Cause) — *[Details](translations/praamzius.md)*; Nar, Str; debated as late insertion
 
 #### Forest / Nature
-- [ ] **Žvorūna** (Forest, Hunting — Samogitian variant of Medeina) — VLE, Dlug (1455)
-- [ ] **Medziojna** (Hunting, Chase — Samogitian name) — Łas
-- [ ] **Šilinytis / Silinicius** (Pine Forest Spirit) — Łas
-- [ ] **Biržulis / Birzulis** (Birch Forest Spirit) — Łas; *"Birzulius, silvae betulinae deus"*
-- [ ] **Kirnis** (Cherry Trees, Orchard Spirit) — Łas; *"Kirnium qui cerasos tuebatur"*
-- [ ] **Lazdona** (Hazel Trees, Nuts, Wisdom) — Łas
-- [ ] **Ejagustė / Ejaguste** (Good Hunting Luck) — Łas; *"Ejaguste venationi praeerat"*
+- [/] **Medziojna** (Hunting, Chase — Samogitian name) — *[Details](translations/medziojna.md)*; Łas
+- [/] **Šilinytis / Silinicius** (Pine Forest Spirit) — *[Details](translations/silinytis.md)*; Łas
+- [/] **Biržulis / Birzulis** (Birch Forest Spirit) — *[Details](translations/birzulis.md)*; Łas; *"Birzulius, silvae betulinae deus"*
+- [/] **Kirnis** (Cherry Trees, Orchard Spirit) — *[Details](translations/kirnis.md)*; Łas; *"Kirnium qui cerasos tuebatur"*
+- [/] **Ejagustė / Ejaguste** (Good Hunting Luck) — *[Details](translations/ejaguste.md)*; Łas; *"Ejaguste venationi praeerat"*
 
 #### Agriculture / Fertility
-- [ ] **Žemėpatis** (Earth/Soil/Farmstead Lord) — Łas, VLE
-- [/] **Gabjauja** (Grain Barns, Harvest) — Łas; *"Gabjaujai pro frugibus supplicabant"*; sourced, not in meta.ts
-- [/] **Krūminė** (Berries, Bushes, Small fruit) — Łas, VLE; sourced, not in meta.ts
-- [ ] **Kaupolis** (Sprouting Plants, Agriculture) — Łas; *"Kupolę pro segetibus"*
-- [ ] **Kupolė** (Spring Flowers, Midsummer, Dew) — Łas, folk; connects to Rasos/Joninės festival
-- [ ] **Lygyna / Lyginytė** (Weeds and Cockle among Grain) — Łas; *"Lyginitem pro lolio"*
-- [ ] **Ruguczys / Rugučys** (Souring, Fermentation, Vinegar) — Łas; *"Rugucium pro aceto"*
-- [ ] **Raugo Žemėpatis** (Sourdough, Yeast, Bread rising) — Łas
-- [ ] **Vaižgantas** (Flax, Hemp, Fibres) — Łas; also venerated as legendary priest-figure
-- [ ] **Ratainica / Ratainitsa** (Wheels, Carts, Smooth travel) — Łas; *"Rataynyczam pro rotis"*
-- [ ] **Kremata** (Pigs, Swine, Agriculture) — Łas; *"Krematam pro porcis"*
-- [ ] **Mjurė** (Oxen, Draft Animals) — Łas; *"Mjurem pro bobus"*
-- [ ] **Meilus / Meilutė** (Goats, Small Livestock) — Łas; *"Meilum pro capris"*
+- [/] **Žemėpatis** (Earth/Soil/Farmstead Lord) — *[Details](translations/zemepatis.md)*; Łas, VLE
+- [/] **Gabjauja** (Grain Barns, Harvest) — *[Details](translations/gabjauja.md)*; Łas
+- [/] **Kaupolis / Kupolė** (Spring Flowers, Midsummer, Sprouting) — *[Details](translations/kupole.md)*; Łas, folk
+- [/] **Lygyna / Lyginytė** (Weeds and Cockle prevention) — *[Details](translations/lygyna.md)*; Łas
+- [/] **Ruguczys / Rugučys / Raugų Žemėpatis** (Souring, Fermentation, Yeast) — *[Details](translations/ruguczys.md)*; Łas
+- [/] **Vaižgantas** (Flax, Hemp, Fibres) — *[Details](translations/vaizgantas.md)*; Łas
+- [/] **Ratainica / Kremata / Mjurė / Meilus** (Livestock: Wheels, Pigs, Oxen, Goats) — *[Details](translations/livestock_spirits.md)*; Łas
 
 #### Domestic / Household
-- [ ] **Dimstipatis** (Household Spirit, Farmstead Protector) — Łas; *"Dimstipatis domus custos"*
-- [ ] **Aspelenie** (Domestic Hearth Snake Spirit) — Łas; linked to Žaltys
-- [ ] **Gondu** (Forest-Pastured Cattle) — Łas
-- [ ] **Budintoja** (Waker of the Drowsy, Vigilance) — Łas; *"Budintoją excitantem somniculosos"*
+- [/] **Dimstipatis** (Household Spirit, Farmstead Protector) — *[Details](translations/dimstipatis.md)*; Łas
+- [/] **Aspelenie / Gondu / Budintoja** (Hearth Snake, Pasture cattle, Morning waker) — *[Details](translations/household_spirits.md)*; Łas
 
 #### Health / Fate / Death
-- [ ] **Giltinė** (Death Goddess, Tall Pale Woman) — *story only, not deity entry*; Łas, VLE, Vel
-- [ ] **Veliuona** (Death, Transition — Samogitian) — Łas
-- [ ] **Drebkulys** (Fever, Shivering Spirit) — Łas; *"Drebkulį pro febre"*
-- [ ] **Atlaibos / Atlabos** (Release from Prison, Unfettering) — Łas; *"Atlaibą pro captivis"*
-- [ ] **Erketus / Eršketus** (Thorns, Briars — protective) — Łas
-- [ ] **Kempe / Kempė** (Beetle Spirit) — Łas; *"Kempę pro scarabaeis"*
+- [/] **Giltinė** (Death Goddess, Tall Pale Woman) — *[Details](translations/giltine.md)*; Łas, VLE, Vel
+- [/] **Veliuona** (Death, Transition — Samogitian) — *[Details](translations/veliuona.md)*; Łas
+- [/] **Drebkulys** (Fever, Shivering Spirit) — *[Details](translations/drebkulys.md)*; Łas
+- [/] **Atlaibos / Atlabos** (Release from Prison, Unfettering) — *[Details](translations/atlaibos.md)*; Łas
+- [/] **Erketus / Eršketus** (Thorns, Briars — protective) — *[Details](translations/erketus.md)*; Łas
+- [/] **Kempe / Kempė** (Beetle Spirit) — *[Details](translations/kempe.md)*; Łas
 
 #### War / Power
-- [ ] **Junda** (War, Victory) — Łas
-- [ ] **Kovas** (War, Spring, Mars parallel) — Łas, Str
-- [ ] **Kauriraris** (Battle Heat, Warriors' Rage) — Łas
-- [ ] **Diviriks** (Leader of Gods, Perkūnas variant) — VLE, Chronicles
+- [/] **Junda** (War, Victory) — *[Details](translations/junda.md)*; Łas
+- [/] **Kovas** (War, Spring, Mars parallel) — *[Details](translations/kovas.md)*; Łas, Str
+- [/] **Kauriraris** (Battle Heat, Warriors' Rage) — *[Details](translations/kovas.md)*; Łas
+- [/] **Diviriks** (Leader of Gods, Perkūnas variant) — *[Details](translations/diviriks.md)*; VLE, Chronicles
 
 #### Wealth / Abundance
-- [ ] **Pilvytis** (Wealth, Full Granaries) — Łas
-- [ ] **Ragutis** (Beer, Festivity — male) — Łas
-- [ ] **Ragutienė** (Beer, Brewing — female) — Łas
-- [ ] **Linksminė** (Happiness, Song, Merriment) — Łas
-- [ ] **Kelių Dievas** (Roads, Travel, Crossroads) — folk; mentioned in various collections
-- [ ] **Gužė / Čiužė** (Travel, Roads, Movement) — Ruigys, Brod; *Protector of travelers; name kildinamas from "čiuožti" (to slide/glide)*
+- [/] **Pilvytis** (Wealth, Full Granaries) — *[Details](translations/pilvytis.md)*; Łas
+- [/] **Ragutis / Ragutienė** (Beer, Festivity, Brewing) — *[Details](translations/ragutis.md)*; Łas
+- [/] **Linksminė** (Happiness, Song, Merriment) — *[Details](translations/linksmine.md)*; Łas
+- [/] **Kelių Dievas / Gužė / Čiužė** (Roads, Travel, Smooth travel) — *[Details](translations/travel_spirits.md)*; folk, Ruigys, Brod
 
 #### Celestial Smith & Water
-- [/] **Teliavelis** (Celestial Smith, Forged the Sun) — sourced, not in meta.ts; Hyp (1261), VLE
-- [/] **Andojas / Andajis** (Supreme/Water/Underworld) — sourced, not in meta.ts; Hyp (1252), VLE
-- [ ] **Bangpūtys** — *implemented as creature/sea spirit*; Str, Prae
-- [ ] **Gardaitis** (Wind, Sailors, Sea) — Prae; *"Gardaite, quem nautas favere credebant"*
-- [ ] **Ganiklis** (Shepherds, Livestock Grazing) — Łas
-- [ ] **Rasa** (Morning Dew, Dawn freshness) — folk tradition
-- [ ] **Kurvaitšis / Kurvaičiai** (Foals, Young Horses) — Łas; *"Kurwaitschin pro equulis"*
+- [/] **Teliavelis** (Celestial Smith, Forged the Sun) — *[Details](translations/teliavelis.md)*; Hyp (1261), VLE
+- [/] **Rasa** (Morning Dew, Dawn freshness) — *[Details](translations/rasa.md)*; folk tradition
+- [/] **Kurvaitšis / Sveitix / Aperuschis** (Foals, Guests, Harvest spirits) — *[Details](translations/minor_spirits_1.md)*; Łas
+- [/] **Pergrubrijus** (Spring, Fertility, Earth awakening) — *[Details](translations/pergrubrijus.md)*; Sūduvių knygelė, Łas
+- [/] **Pagirnis** (Household Spirit, Quern/Grinding) — *[Details](translations/pagirnis.md)*; Jesuit, Łas
+- [/] **Upinis / Ežerinis** (River and Lake Spirits) — *[Details](translations/water_spirits.md)*; Łas
+- [/] **Bubilas** (Bees, Drones, Honey) — *[Details](translations/bubilas.md)*; Łas, VLE
+- [/] **Birutė** (Historical Duchess, Priestess, Sacred Fire) — *[Details](translations/birute.md)*; folk, VLE, Chronicles
+- [/] **Bangpūtys** (Sea, Waves, Storms) — *[Details](translations/bangputys.md)*; Str, Prae, Łas
+- [/] **Gardaitis / Bardaitis** (Wind, Sailors, Sea, Boats) — *[Details](translations/gardaitis.md)*; Prae, Łas
+- [/] **Ganiklis** (Shepherds, Livestock Grazing) — *[Details](translations/ganiklis.md)*; Łas
 
 #### Fate / Weaving
-- [ ] **Dalia** (Fate, Material Wealth Distribution, Weaving) — Vel2, Grei, VLE; *"dalis" = portion/share; complementary to Laima*
+- [/] **Dalia** (Fate, Material Wealth Distribution, Weaving) — *[Details](translations/dalia.md)*; Vel2, Grei, VLE; *"dalis" = portion/share; complementary to Laima*
+- [/] **Kruonis / Deivės Valdytojos** (Governing Goddesses, Weaving Fates, Time) — *[Details](translations/weaving_fates.md)*; Łas, folk
+- [/] **Gegutė** (The Cuckoo, Fate Bird, Prophet of Laima) — *[Details](translations/gegute.md)*; folk tradition, VLE
 - [ ] **Deivė** (Generic term for female deity / Fairy-goddess) — Vel2; *collective term for supernatural females*
 
 #### Nature / Water Spirits (as deities)
-- [ ] **Upinis** (River Spirit / River God) — Łas, folk; *"upė" = river*
-- [ ] **Ežerinis** (Lake Spirit / Lake God) — Łas, folk; *"ežeras" = lake*
+- [/] **Upinis / Ežerinis** (River and Lake Spirits) — *[Details](translations/water_spirits.md)*; Łas, folk
 - [ ] **Girinis / Miškinis** (Forest Spirit / Forest God) — Łas, folk; *"giria"/"miškas" = forest*
 - [ ] **Vėjopatis** (Wind God, Lord of Dausos / Afterlife) — Łas, VLE; *"vėjo pats" = Lord of Wind; guides souls*
 - [ ] **Javinė** (Grain Protection Goddess, Barn Guardian) — Łas, VLE, folk
 - [ ] **Jievaras** (Harvest Spirit, Last-Sheaf Ritual Figure) — folk, VLE; *braiding the last rye stalks*
 - [ ] **Pagirinis** (House-Snake Spirit, Grass Snake Guardian) — folk, Vel2; *sacred žaltys keeper*
+- [/] **Slogutis** (Nightmare Spirit, Sleep Paralysis) — *[Details](translations/slogutis.md)*; folk tradition, VLE, Vel
 
 #### Celestial / Cosmic — Additional
 - [ ] **Kalvelis / Kalvis** (Celestial Smith — variant name for Teliavelis) — Hyp, Vel; *sometimes listed separately*
@@ -184,60 +186,58 @@
 #### Debated / Later Recorded
 - [ ] **Milda** (Love, Beauty) — Nar; likely 19th-c. Romantic reconstruction — *flag as disputed*
 - [ ] **Ašvieniai** (Divine Horse Twins, parallel to Dioscuri) — Vel2, Grei; reconstructed
-- [ ] **Bubilas** (Honey Bees, Drones — male companion to Austėja) — Łas
+- [/] **Bubilas** (Honey Bees, Drones — male companion to Austėja) — *[Details](translations/bubilas.md)*; Łas
 - [ ] **Lauksargis** (Field Guardian, Boundary Spirit) — folk; *"Lauksargis laukų sargas"*
+- [/] **Apidėmė / Apidome** (Old Farmstead/Boundary Spirit) — *[Details](translations/apideme.md)*; Łas
+- [/] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *[Details](translations/brewing_hearth.md)*; Łas
+- [/] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *[Details](translations/sutvaras.md)*; Łas, VLE
+- [/] **Bentis / Derintojas** (Travel, Social Peace, Reconciliation) — *[Details](translations/social_mediators.md)*; Łas
+- [ ] **Laza / Lazdona** (Hazel trees and nuts) — sourced at entry 111; Łas
+- [/] **Tavalas** (Boundaries, Property Order) — *[Details](translations/tavalas.md)*; Łas
+- [/] **Gulbis** (Guardian Spirit, Swan) — *[Details](translations/gulbis.md)*; Łas, folk
+- [ ] **Girstis / Giraitis** (Forest groves, Woods) — sourced at entry 106; Łas
 - [ ] **Ugniažaltis** (Fiery Snake, Fire-Snake Spirit) — folk, Vel2
-- [ ] **Piktai / Piktis** (Evil Spirits, collective) — Vel2, Bas
-- [ ] **Jūratė** (Sea Goddess, Amber Palace) — folk legend; VLE
-- [ ] **Ingrija / Memelis** (River/Water deities, local) — local cults, Vel
-- [ ] **Patrimpas** (Youth, Grain, Spring — LT version of Prussian figure) — Grunau; *sometimes syncreted into LT pantheon*
-- [ ] **Pikuolis / Peckols** (Death, Underworld — LT equivalent of Prussian Patollo) — Grunau; *LT adaptation*
 
-#### Łasicki Remainder (entries 50–73, via Mierzyński)
-- [ ] **Apidėmė / Apidome** (Farm Boundary Protector) — Łas, Mierz; *"Apidome, qui terminos domuum custodit"*
-- [ ] **Babilos** (Spirit of Brewing, beer/mead) — Łas, Mierz; *"Babilos pro potionibus"*
-- [ ] **Matergabiae** (Hearth-Mother — older female fire name) — Łas, Mierz; *"Matergabiam, matrem ignis"*
-- [ ] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — Łas, Mierz; *"Sutvarem, creatorem"*
-- [ ] **Tavalis** (Cattle Barn Spirit) — Łas, Mierz; *"Tavalem pro bobus in stabulo"*
-- [ ] **Tiklis** (Fortune, Good Luck) — Łas, Mierz; *"Tiklium pro fortunato successu"*
-- [ ] **Srutis** (River Current — distinct from Upinis) — Łas, Mierz; *"Srutim pro flumine"*
-- [ ] **Algis / Algė** (Angel/Messenger — pre-Christian intermediary) — Łas, Mierz; *"Algi tanquam angelum"*
-- [ ] **Bendikas / Bendis** (Journeyer's Protector) — Łas, Mierz; *"Bendim pro peregrinatione"*
-- [ ] **Prigirstis** (Listening Spirit — hears prayers) — Łas, Mierz; *"Prigirszczium, qui audire facit"*
-- [ ] **Šlaitis** (Hillside Spirit) — Łas, Mierz; *"Szlaitym pro declivitate"*
-- [ ] **Skalsa** (Abundance of Household) — Łas, Mierz; *"Skalsam pro abundantia domestica"*
-- [ ] **Vetušis / Vetustis** (Storm Demon, violent wind) — Łas, Mierz; *"Vetuszim pro tempestate"*
-- [ ] **Šaukstis** (Fly/Insect Spirit) — Łas, Mierz; *"Szuksztim pro muscis"*
-- [ ] **Salaus** (Sweetness Spirit — honey-mead) — Łas, Mierz; *"Salaum pro dulcamine"*
+### Łasicki Remainder (entries 50–73, via Mierzyński)
+- [/] **Apidėmė / Apidome** (Old Farmstead/Boundary Spirit) — *[Details](translations/apideme.md)*; Łas
+- [/] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *[Details](translations/brewing_hearth.md)*; Łas
+- [/] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *[Details](translations/sutvaras.md)*; Łas
+- [/] **Tavalis** (Cattle Barn Spirit) — *[Details](translations/tavalas.md)*; Łas; *"Tavalem pro bobus in stabulo"*
+- [/] **Tiklis** (Fortune, Good Luck) — *[Details](translations/tiklis.md)*; Łas; *"Tiklium pro fortunato successu"*
+- [/] **Srutis** (River Current — distinct from Upinis) — *[Details](translations/water_spirits.md)*; Łas, Mierz; *"Srutim pro flumine"*
+- [/] **Algis / Algė** (Angel/Messenger — pre-Christian intermediary) — *[Details](translations/messenger_spirits.md)*; Łas, Mierz; *"Algi tanquam angelum"*
+- [/] **Ausklauts / Ausklaitis** (Listening God — moral auditor) — *[Details](translations/ausklauts.md)*; Łas, Malec
+- [/] **Bendikas / Bendis** (Journeyer's Protector) — *[Details](translations/bendikas.md)*; Łas, Mierz; *"Bendim pro peregrinatione"*
+- [/] **Prigirstis** (Listening Spirit — hears prayers) — *[Details](translations/moral_ritual_spirits.md)*; Łas, Mierz; *"Prigirszczium, qui audire facit"*
+- [/] **Šlaitis** (Hillside Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szlaitym pro declivitate"*
+- [/] **Skalsa** (Abundance of Household) — *[Details](translations/household_spirits.md)*; Łas, Mierz; *"Skalsam pro abundantia domestica"*
+- [/] **Vetušis / Vetustis** (Storm Demon, violent wind) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Vetuszim pro tempestate"*
+- [/] **Šaukstis** (Fly/Insect Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szuksztim pro muscis"*
+- [/] **Salaus** (Sweetness Spirit — honey-mead) — *[Details](translations/brewing_hearth.md)*; Łas, Mierz; *"Salaum pro dulcamine"*
 
 #### From Długosz *Annales* (1455) — Roman-mapped
 - [ ] **Gulbi** (Vulcan analogue — fire, smithing) — Dlug; *"Gulbi, quem pro Vulcano habebant"*
-- [ ] **Lietuvonis** (Mars analogue — national war-god) — Dlug; *"Lietuvonem, quem pro Marte"*
-- [ ] **Kirkis** (Ceres analogue — harvest, distinct from Kirnis) — Dlug; *"Kirki pro Cerere"*
-- [ ] **Pizius** (Saturn analogue — time, cosmic order) — Dlug; *"Pizium pro Saturno"; possible Praamžius variant*
+- [/] **Lietuvonis** (Mars analogue — national war-god) — *[Details](translations/war_spirits.md)*; Dlug; *"Lietuvonem, quem pro Marte"*
+- [/] **Kirkis** (Ceres analogue — harvest, distinct from Kirnis) — *[Details](translations/harvest_spirits.md)*; Dlug; *"Kirki pro Cerere"*
+- [/] **Pizius** (Saturn analogue — time, cosmic order) — *[Details](translations/cosmic_spirits.md)*; Dlug; *"Pizium pro Saturno"; possible Praamžius variant*
 
 #### From Malecki *Libellus* (16th c.)
-- [ ] **Ausklauts / Ausklaitis** (Listening God — moral auditor) — Malec; *"Ausklautis audit omnia"*
 - [ ] **Devintos** (Sacred Number Nine deity — multiplication) — Malec; *connected to 9-herb rituals*
 - [ ] **Perkūnas Tikras** (True Perkūnas — supreme thunder epithet) — Malec
 
 #### From Mierzyński / Būga reconstructions
 - [ ] **Giraitis** (Dense Forest Spirit — distinct from Girinis) — Mierz
-- [ ] **Laukpatis** (Field Lord — male agricultural lord) — Mierz; *"patis" = lord*
-- [ ] **Žemininkas** (Underground Collective Spirit) — Mierz
-- [ ] **Verpėja** (Female Spinner of Fate-thread) — Mierz
-- [ ] **Gabjaujas vyras** (Male Barn Lord — Gabjauja's consort) — Prae; *"vir Gabjaugiae"*
-- [ ] **Kalnapatis** (Hill Lord — "kalnas + patis") — Būga
-- [ ] **Laukosargas** (Field Guardian — fuller etymology) — Būga
+- [/] **Laukpatis / Lauksargis** (Field Lord / Field Guardian) — *[Details](translations/field_lords.md)*; Mierz
+- [/] **Žemininkas** (Earth/Underground Collective Spirit) — *[Details](translations/zemininkas.md)*; Mierz
 
 #### From Greimas *Of Gods and Men* (semiotic)
-- [ ] **Dausos** (Paradise/Afterlife Realm — semi-personified) — Grei; *"the abode beyond the hill/sea"*
+- [/] **Dausos** (Paradise/Afterlife Realm) — *[Details](translations/dausos.md)*; Grei
 - [ ] **Laimė (abstract)** (Personified Fortune — distinct from goddess Laima) — Grei
-- [ ] **Negali** (Personified Impossibility / Cosmic Barrier) — Grei
+- [/] **Negali** (Impossibility / Cosmic Barrier) — *[Details](translations/negali.md)*; Grei, Dlug
 - [ ] **Dievaitis** (Little God / Diminutive Sky God — folk prayer figure) — Grei, folk, Būga
 
 #### From Gimbutas — Archaeological reconstructions
-- [ ] **Bird Goddess (Paukščių deivė)** (Neolithic survival, bird-shaped deity) — Gimb
+- [/] **Bird Goddess (Paukščių deivė)** (Neolithic messenger deity) — *[Details](translations/bird_goddess.md)*; Gimb
 - [ ] **Snake Goddess (Gyvatės deivė)** (Neolithic survival, regeneration) — Gimb; *linked to žaltys cult*
 - [ ] **White Lady / Baltoji Ponia** (Death figure, psychopomp in white) — Gimb, folk
 - [ ] **Deer Mother (Elnių motina)** (Forest protectress, pre-IE substrate) — Gimb
@@ -274,20 +274,20 @@
 ### Latvian (LV)
 
 #### Major / Core Pantheon
-- [x] **Pērkons** (Thunder God) — *implemented (shares perkunas meta)*; Bar, Biez, LNE
-- [x] **Dievs** (Supreme Sky Father, Order, Justice) — *implemented (shares dievas meta)*; Bar, Biez, LNE
-- [x] **Saule** (Sun Goddess, Weaving, Fate) — *implemented (shares saule meta)*; Bar, Biez, LNE
-- [x] **Mēness** (Moon God) — *implemented (shares menulis meta)*; Bar, Biez
-- [x] **Laima** (Fate, Birth, Luck) — *implemented (shares laima meta)*; Bar, Biez, LNE
-- [x] **Zemes māte** (Earth Mother) — *implemented (shares zemyna meta)*; Bar, Šmits
+- [ ] **Pērkons** (Thunder God) — *implemented (shares perkunas meta)*; Bar, Biez, LNE
+- [ ] **Dievs** (Supreme Sky Father, Order, Justice) — *implemented (shares dievas meta)*; Bar, Biez, LNE
+- [ ] **Saule** (Sun Goddess, Weaving, Fate) — *implemented (shares saule meta)*; Bar, Biez, LNE
+- [ ] **Mēness** (Moon God) — *implemented (shares menulis meta)*; Bar, Biez
+- [ ] **Laima** (Fate, Birth, Luck) — *implemented (shares laima meta)*; Bar, Biez, LNE
+- [ ] **Zemes māte** (Earth Mother) — *implemented (shares zemyna meta)*; Bar, Šmits
 - [ ] **Māra** (Great Mother, Material World, Death & Rebirth) — Bar, Šmits, Biez; one of the most important LV goddesses; *distinct from Zemes māte*
 - [ ] **Velns / Vels** (Underworld, Cattle, Trickster) — *story only under Velnias*; Bar, Šmits, LNE
 - [ ] **Auseklis** (Morning Star, Light, Hope) — Bar, Biez, LNE
 - [ ] **Jods** (Evil Spirit / Demon — pre-Christian underworld figure, synonym for Velns) — Šmits, LV folklore
 
 #### The Fate Triad (Likteņa dievietes)
-- [/] **Dēkla** (Fate of Newborns, Luck — Kurzeme variant) — sourced; Bar, LNE, Biez
-- [/] **Kārta** (Fate, Thread of Life — Kurzeme) — sourced; Bar, LNE
+- [ ] **Dēkla** (Fate of Newborns, Luck — Kurzeme variant) — sourced; Bar, LNE, Biez
+- [ ] **Kārta** (Fate, Thread of Life — Kurzeme) — sourced; Bar, LNE
 - [ ] **Laima** — *see above*
 
 #### Celestial / Sky Family (*Debesu ģimene* — Biezais)
@@ -297,9 +297,9 @@
 - [ ] **Auseklis** — *see Celestial above*
 
 #### Agricultural / Fertility
-- [/] **Jumis** (Double Grain, Field Fertility, Last Sheaf) — sourced; Bar, Šmits, LNE, Mann, HenLiv; *earliest historical attestation in HenLiv (c.1227) harvest rituals*
-- [/] **Jānis** (Midsummer, Summer Solstice Fertility) — sourced; Bar, Šmits, LNE
-- [/] **Mārtiņš** (November, Autumn Transition, Horses) — sourced; Bar, Šmits, LNE
+- [ ] **Jumis** (Double Grain, Field Fertility, Last Sheaf) — sourced; Bar, Šmits, LNE, Mann, HenLiv; *earliest historical attestation in HenLiv (c.1227) harvest rituals*
+- [ ] **Jānis** (Midsummer, Summer Solstice Fertility) — sourced; Bar, Šmits, LNE
+- [ ] **Mārtiņš** (November, Autumn Transition, Horses) — sourced; Bar, Šmits, LNE
 - [ ] **Cerklicing / Sērkociņš** (Kitchen Fire, Male Hearth God) — Ein; *"Cerklicing, deus coquinae"*
 - [ ] **Moschel / Mošelis** (Cow God, Milk Protection) — Ein; *"Moschum pro vaccis"*
 - [ ] **Puškaitis** (Earth below Trees, Subterranean Spirits) — Ein, Fab; commands kaukai
@@ -351,7 +351,7 @@
 - [ ] **Dienas māte** (Mother of Day) — Bar
 
 #### Domestic / Household
-- [/] **Uguns māte** (Mother of Fire, Hearth) — sourced; Bar, Šmits, LNE
+- [ ] **Uguns māte** (Mother of Fire, Hearth) — sourced; Bar, Šmits, LNE
 - [ ] **Mājas māte** (Mother of the House) — Bar
 - [ ] **Mājas gars / Mājas kungs** (House Spirit, Brownie) — Latvian folklore, Šmits
 - [ ] **Pirts māte** (Mother of the Bathhouse / Sauna) — Bar
@@ -362,12 +362,12 @@
 - [ ] **Piena māte** (Mother of Milk) — Bar
 - [ ] **Vilku māte / Vilkamāte** (Mother of Wolves) — Bar
 - [ ] **Putnu māte** (Mother of Birds) — Bar
-- [/] **Ūsiņš** (Light, Horses, Spring — also bees) — sourced; Fab (1610), Bar, LNE
-- [/] **Māršava** (Cow Protector — Vidzeme) — sourced; LNE
-- [/] **Tenis** (Pig Protector) — sourced; LNE
+- [ ] **Ūsiņš** (Light, Horses, Spring — also bees) — sourced; Fab (1610), Bar, LNE
+- [ ] **Māršava** (Cow Protector — Vidzeme) — sourced; LNE
+- [ ] **Tenis** (Pig Protector) — sourced; LNE
 
 #### Death / Underworld
-- [/] **Veļu māte** (Mother of the Dead/Shades, Queen of Underworld) — sourced; Bar, Šmits, LNE, Biez
+- [ ] **Veļu māte** (Mother of the Dead/Shades, Queen of Underworld) — sourced; Bar, Šmits, LNE, Biez
 - [ ] **Kapu māte** (Mother of Graves) — Bar
 - [ ] **Smilšu māte** (Mother of Sand) — Bar
 - [ ] **Akmens māte** (Mother of Stones/Burial Markers) — Bar
@@ -514,20 +514,20 @@
 ## CREATURES & SPIRITS
 
 ### Pan-Baltic
-- [x] **Velnias / Velns** (Underworld, Cattle Lord, Trickster) — *implemented*; Bar, VLE, Vel
+- [ ] **Velnias / Velns** (Underworld, Cattle Lord, Trickster) — *implemented*; Bar, VLE, Vel
 - [ ] **Žaltys / Zalktis** (Sacred Grass Snake, Household Guardian) — Łas, Vel2, Bar; *most sacred reptile across all Baltic tribes*
 - [ ] **Vėlės / Veļi** (Ancestral Spirits, Collective Shades) — Vel2, Gimbutas, Bar; *return during Vėlinės/Veļu laiks*
 - [ ] **Milžinai** (Giants, Ancient Race of Titans — Pan-Baltic) — folk, Bas; *"milžinai" = giants; built hills and moved boulders*
 
 ### Lithuanian Creatures
-- [x] **Bangpūtys** (Wind/Sea Spirit, Two-faced) — *implemented*
-- [/] **Aitvaras** (Fiery Household Spirit, Brings grain/wealth, Flying Serpent) — sourced; VLE, Łas, Vel, WTR; *can appear in cat/rooster form; pacts arranged by intermediary spirits*
-- [/] **Kaukas / Kaukai** (Benevolent Wealth Dwarves, Underground) — sourced; VLE, Prae, Jes; *can also appear as household spirit; Jesuits documented stone altars for them beneath elder trees in the 1700s*
-- [/] **Barzdukai / Barstukai** (Bearded Earth Dwarves, Field Spirits) — sourced; VLE
-- [/] **Rugių Boba** (Rye-Grandmother, Harvest Spirit hiding in last sheaf) — sourced; VLE, Alkas.lt
-- [/] **Slogutė** (Nightmare, Sleep Paralysis, Night Presser) — sourced; VLE, Vel
-- [/] **Maumas** (Swamp Bogeyman, Drags people into bogs) — sourced; LT folklore
-- [/] **Vilkacis / Vilkatis** (Werewolf, Wolf-transformation) — sourced; LT/LV folklore, VLE
+- [ ] **Bangpūtys** (Wind/Sea Spirit, Two-faced) — *implemented*
+- [ ] **Aitvaras** (Fiery Household Spirit, Brings grain/wealth, Flying Serpent) — sourced; VLE, Łas, Vel, WTR; *can appear in cat/rooster form; pacts arranged by intermediary spirits*
+- [ ] **Kaukas / Kaukai** (Benevolent Wealth Dwarves, Underground) — sourced; VLE, Prae, Jes; *can also appear as household spirit; Jesuits documented stone altars for them beneath elder trees in the 1700s*
+- [ ] **Barzdukai / Barstukai** (Bearded Earth Dwarves, Field Spirits) — sourced; VLE
+- [ ] **Rugių Boba** (Rye-Grandmother, Harvest Spirit hiding in last sheaf) — sourced; VLE, Alkas.lt
+- [ ] **Slogutė** (Nightmare, Sleep Paralysis, Night Presser) — sourced; VLE, Vel
+- [ ] **Maumas** (Swamp Bogeyman, Drags people into bogs) — sourced; LT folklore
+- [ ] **Vilkacis / Vilkatis** (Werewolf, Wolf-transformation) — sourced; LT/LV folklore, VLE
 - [ ] **Laumės** (Forest Weaving Spirits, Fate Spinners, Seductive) — VLE, Vel2, Gimbutas; *major category with many sub-types*
 - [ ] **Ragana** (Witch/Sorceress Figure, Shape-shifter) — VLE, Vel, Bas
 - [ ] **Baubas** (Bogeyman, Child-frightener) — LT folklore
@@ -563,9 +563,9 @@
 - [ ] **Velnio piršlys** (Devil's Matchmaker, pact arranger) — WTR
 
 ### Latvian Creatures
-- [x] **Pūķis** (Fire-breathing Dragon, Household Wealth-bringer) — *story only*; Šmits, LNE
-- [/] **Lietuvēns** (Nightmare Spirit — LV equivalent of Slogutė) — sourced; LNE, Šmits
-- [/] **Sumpurnis** (Dog-headed Monster, Liminal Forest Creature) — sourced; LNE, Šmits
+- [ ] **Pūķis** (Fire-breathing Dragon, Household Wealth-bringer) — *story only*; Šmits, LNE
+- [ ] **Lietuvēns** (Nightmare Spirit — LV equivalent of Slogutė) — sourced; LNE, Šmits
+- [ ] **Sumpurnis** (Dog-headed Monster, Liminal Forest Creature) — sourced; LNE, Šmits
 - [ ] **Mājas gars** (House Spirit, protective brownie) — Šmits, Bar
 - [ ] **Pūķis (snakeform)** (Flying Serpent variant — brings grain/money) — Šmits; *parallel to Aitvaras*
 - [ ] **Vadātājs** (Guide Spirit, misleads strangers) — Šmits, LV folklore
@@ -603,28 +603,28 @@
 ## LOCATIONS (Sacred Sites & Landmarks)
 
 ### Implemented in Codebase (`src/content/locations/`)
-- [x] Aukštaitija Thunder Oaks (Lithuania) — *id: aukstaitija-oaks*
-- [x] Jelgava Sky-Stone (Latvia) — *id: jelgava-stone*
-- [x] Saulės Kalnas / Šiauliai Hill (Lithuania) — *id: siauliai-hill*
-- [x] Jūrmala Veil (Latvia) — *id: jurmala-shore*
-- [x] Sigulda Fate Springs (Latvia) — *id: sigulda-springs*
-- [x] Vilnius Loom Threshold (Lithuania) — *id: vilnius-thread*
-- [x] Kernavė Earth Ridges (Lithuania) — *id: kernave-mounds*
-- [x] Telšiai Clay Altars (Lithuania) — *id: telsiai-altars*
-- [x] Nemunas Mist Hollow / Druskininkai (Lithuania) — *id: druskininkai-mist*
-- [x] Curonian Hollow / Nida Dunes (Lithuania) — *id: nida-dunes*
-- [x] Dzūkija Honey Verge (Lithuania) — *id: dzukija-meadow*
-- [x] Latgale Hollow Linden (Latvia) — *id: latgale-hive*
-- [x] Lake Moon Ladder / Aukštaitija Lake (Lithuania) — *id: aukstaiciai-lake*
-- [x] Ventspils Tide Silver (Latvia) — *id: ventspils-shore*
-- [x] Riga Spire Line (Latvia) — *id: riga-spires*
-- [x] Žemaitija Star Field (Lithuania) — *id: zemaitija-sky*
-- [x] Kaunas Hearth Archive (Lithuania) — *id: kaunas-hearth*
-- [x] Madona Ember Seat (Latvia) — *id: madona-ember*
-- [x] Klaipėda Drift Line (Lithuania) — *id: klaipeda-drift*
-- [x] Kolka Surge Watch (Latvia) — *id: kolka-surge*
-- [x] Samogitian Spruce Stand (Lithuania) — *id: samogitia-stand*
-- [x] Gauja Shadow Corridor (Latvia) — *id: gauja-corridor*
+- [ ] Aukštaitija Thunder Oaks (Lithuania) — *id: aukstaitija-oaks*
+- [ ] Jelgava Sky-Stone (Latvia) — *id: jelgava-stone*
+- [ ] Saulės Kalnas / Šiauliai Hill (Lithuania) — *id: siauliai-hill*
+- [ ] Jūrmala Veil (Latvia) — *id: jurmala-shore*
+- [ ] Sigulda Fate Springs (Latvia) — *id: sigulda-springs*
+- [ ] Vilnius Loom Threshold (Lithuania) — *id: vilnius-thread*
+- [ ] Kernavė Earth Ridges (Lithuania) — *id: kernave-mounds*
+- [ ] Telšiai Clay Altars (Lithuania) — *id: telsiai-altars*
+- [ ] Nemunas Mist Hollow / Druskininkai (Lithuania) — *id: druskininkai-mist*
+- [ ] Curonian Hollow / Nida Dunes (Lithuania) — *id: nida-dunes*
+- [ ] Dzūkija Honey Verge (Lithuania) — *id: dzukija-meadow*
+- [ ] Latgale Hollow Linden (Latvia) — *id: latgale-hive*
+- [ ] Lake Moon Ladder / Aukštaitija Lake (Lithuania) — *id: aukstaiciai-lake*
+- [ ] Ventspils Tide Silver (Latvia) — *id: ventspils-shore*
+- [ ] Riga Spire Line (Latvia) — *id: riga-spires*
+- [ ] Žemaitija Star Field (Lithuania) — *id: zemaitija-sky*
+- [ ] Kaunas Hearth Archive (Lithuania) — *id: kaunas-hearth*
+- [ ] Madona Ember Seat (Latvia) — *id: madona-ember*
+- [ ] Klaipėda Drift Line (Lithuania) — *id: klaipeda-drift*
+- [ ] Kolka Surge Watch (Latvia) — *id: kolka-surge*
+- [ ] Samogitian Spruce Stand (Lithuania) — *id: samogitia-stand*
+- [ ] Gauja Shadow Corridor (Latvia) — *id: gauja-corridor*
 
 ### Referenced in Stories — Location Entries Missing
 - [ ] Anykščiai Forest (Lithuania) — *referenced in medeina story as locationId `anyksciai-forest`; no location entry*
@@ -712,7 +712,7 @@
 - [ ] **Pajauta** (Princess of Kernavė, legendary beauty) — Kernavė legends
 - [ ] **Vaidilos / Vaidilutės** (Vestal-type fire priestesses, collective) — Str, Chronicles
 - [ ] **Žilvinas** (Grass Snake King, husband of Eglė) — Bas, VLE
-- [/] **Sovijus** (Founder of Cremation custom, Guide of Souls) — sourced; Hyp (1261), VLE
+- [ ] **Sovijus** (Founder of Cremation custom, Guide of Souls) — sourced; Hyp (1261), VLE
 - [ ] **Vaišvilkas** (Duke who became monk; liminal figure) — LT Chronicles
 - [ ] **Šventaragis** (Duke who decreed sacred cremation valley) — Bych, Str
 - [ ] **Neringa** (Giantess, Creator of the Curonian Spit) — folk, VLE; *scooped sand in her apron to protect fishermen from dragon Naglis*
@@ -756,17 +756,17 @@
 ## STORIES & LEGENDS
 
 ### Lithuanian (LT) — Implemented
-- [x] Thunder Oak of Perkūnas — *in meta.ts + mdx*
-- [x] The Weaving of Laima — *in meta.ts + mdx*
-- [x] Velnias and the Fiddler — *in meta.ts + mdx*
-- [x] The Wedding of Saulė and Mėnulis — *in meta.ts + mdx*
-- [x] Žemyna's Blessing — *in meta.ts + mdx*
-- [x] Austėja and the Golden Hive — *in meta.ts + mdx*
-- [x] Gabija's Eternal Hearth — *in meta.ts + mdx*
-- [x] Bangpūtys and the Amber Fleet — *in meta.ts + mdx*
-- [x] Medeina and the Sacred Hare — *in meta.ts + mdx*
-- [x] Giltinė and the Death-Watch — *in meta.ts + mdx*
-- [x] Pūķis and the Dragon's Wealth — *in meta.ts + mdx*
+- [ ] Thunder Oak of Perkūnas — *in meta.ts + mdx*
+- [ ] The Weaving of Laima — *in meta.ts + mdx*
+- [ ] Velnias and the Fiddler — *in meta.ts + mdx*
+- [ ] The Wedding of Saulė and Mėnulis — *in meta.ts + mdx*
+- [ ] Žemyna's Blessing — *in meta.ts + mdx*
+- [ ] Austėja and the Golden Hive — *in meta.ts + mdx*
+- [ ] Gabija's Eternal Hearth — *in meta.ts + mdx*
+- [ ] Bangpūtys and the Amber Fleet — *in meta.ts + mdx*
+- [ ] Medeina and the Sacred Hare — *in meta.ts + mdx*
+- [ ] Giltinė and the Death-Watch — *in meta.ts + mdx*
+- [ ] Pūķis and the Dragon's Wealth — *in meta.ts + mdx*
 
 ### Lithuanian (LT) — Not Yet Implemented
 - [ ] **Eglė, Queen of Serpents** (*Eglė žalčių karalienė*) — Bas, VLE; most famous LT folk tale
@@ -1843,3 +1843,5 @@ Substitute names used to avoid invoking dangerous spirits directly:
 | Folk Medicine | 8 | 0 | 0 | 8 |
 | Modern Revival | 6 | 0 | 0 | 6 |
 | **TOTAL** | **~762** | **52** | **26** | **~684** |
+
+
