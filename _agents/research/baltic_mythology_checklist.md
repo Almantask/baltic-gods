@@ -706,39 +706,39 @@
 ## MYTHOLOGIZED PERSONALITIES & LEGENDARY FIGURES
 
 ### Lithuanian
-- [ ] **Lizdeika** (High Priest, found in Eagle's Nest, interpreter of Iron Wolf dream) — Bych, VLE
-- [ ] **Birutė** (Vaidilutė / Sacred Priestess of Palanga, wife of Kęstutis) — Chronicles, VLE; *kept sacred fire*
+- [/] **Lizdeika** (High Priest, found in Eagle's Nest, interpreter of Iron Wolf dream) — *[Details](translations/lizdeika.md)*; Bych, Str, VLE, Ber
+- [/] **Birutė** (Vaidilutė / Sacred Priestess of Palanga, wife of Kęstutis) — *[Details](translations/birute.md)*; Chronicles, VLE, Vel; *kept sacred fire*
 - [x] **Eglė** (Queen of Serpents, Žilvinas's wife, turned to spruce) — *implemented (meta.ts + mdx)*; Bas, VLE
-- [ ] **Pajauta** (Princess of Kernavė, legendary beauty) — Kernavė legends
-- [ ] **Vaidilos / Vaidilutės** (Vestal-type fire priestesses, collective) — Str, Chronicles
+- [/] **Pajauta** (Princess of Kernavė, legendary beauty) — *[Details](translations/lt_legendary_rulers.md)*; Kernavė legends
+- [/] **Vaidilos / Vaidilutės** (Vestal-type fire priestesses, collective) — *[Details](translations/vaidilos_vaidilutes.md)*; Str, Chronicles, Jes, Vel
 - [/] **Žilvinas** (Grass Snake King, husband of Eglė) — *[Details](translations/legendary_founders.md)*; Bas, VLE
 - [x] **Sovijus** (Founder of Cremation custom, Guide of Souls) — *implemented (meta.ts + mdx)*; Hyp (1261), VLE
-- [ ] **Vaišvilkas** (Duke who became monk; liminal figure) — LT Chronicles
+- [/] **Vaišvilkas** (Duke who became monk; liminal figure) — *[Details](translations/lt_legendary_rulers.md)*; LT Chronicles, Hyp
 - [/] **Šventaragis** (Duke who decreed sacred cremation valley) — *[Details](translations/legendary_founders.md)*; Bych, Str
 - [x] **Neringa** (Giantess, Creator of the Curonian Spit) — *implemented (meta.ts + mdx)*; folk, VLE; *scooped sand in her apron to protect fishermen from dragon Naglis*
-- [ ] **Šarūnas** (Legendary ruler/hero, literary figure) — Krėvė; *symbol of ancient Lithuanian strength*
-- [ ] **Gediminas** (Historical Grand Duke, mythologized: Iron Wolf dream) — Bych, Str, VLE
-- [ ] **Vytautas the Great** (Historical, mythologized as ideal ruler) — Chronicles; *Lithuanian golden age*
-- [ ] **Kęstutis** (Historical Grand Duke, husband of Birutė) — Chronicles, VLE
-- [ ] **Daumantas** (Yotvingian prince, legendary warrior) — Chronicles; *fled to Pskov, Orthodox saint*
+- [/] **Šarūnas** (Legendary ruler/hero, literary figure) — *[Details](translations/lt_legendary_rulers.md)*; Krėvė; *symbol of ancient Lithuanian strength*
+- [/] **Gediminas** (Historical Grand Duke, mythologized: Iron Wolf dream) — *[Details](translations/lt_legendary_rulers.md)*; Bych, Str, VLE
+- [/] **Vytautas the Great** (Historical, mythologized as ideal ruler) — *[Details](translations/lt_legendary_rulers.md)*; Chronicles; *Lithuanian golden age*
+- [/] **Kęstutis** (Historical Grand Duke, husband of Birutė) — *[Details](translations/lt_legendary_rulers.md)*; Chronicles, VLE
+- [/] **Daumantas** (Yotvingian prince, legendary warrior) — *[Details](translations/lt_legendary_rulers.md)*; Chronicles; *fled to Pskov, Orthodox saint*
 
 ### Latvian
 - [x] **Lāčplēsis** (Bear-Slayer, LV national hero, tears bear's ears) — *implemented (meta.ts + mdx)*; Pump, LNE
 - [/] **Spīdola** (Witch-queen, sorceress antagonist in Lāčplēsis) — *[Details](translations/latvian_epic_heroes.md)*; Pump
-- [ ] **Kangars** (Traitor figure in Lāčplēsis) — Pump
-- [ ] **Kurbads** (Mare's Son, folk hero, giant-slayer) — Šmits, LNE folk tales
-- [ ] **Staburadzene** (Witch of Staburags, becomes stone) — Šmits, LNE
-- [ ] **Lāčplēša māte** (Bear-Slayer's Mother, the she-bear) — Pump
-- [ ] **Rīgas Jaunava** (Maiden of Riga, sunken-city spirit) — LV urban legend
-- [ ] **Rose of Turaida / Maija** (Tragic heroine, Turaida) — LNE historical legend (1601)
-- [ ] **Namejs** (Semigallian king, resistance hero — Namejs ring) — LNE, Chronicles; *national symbol*
-- [ ] **Visvaldis** (Latgalian king, defender of Jersika) — LNE
+- [/] **Kangars** (Traitor figure in Lāčplēsis) — *[Details](translations/lv_legendary_figures.md)*; Pump
+- [/] **Kurbads** (Mare's Son, folk hero, giant-slayer) — *[Details](translations/lv_legendary_figures.md)*; Šmits, LNE folk tales
+- [/] **Staburadzene** (Witch of Staburags, becomes stone) — *[Details](translations/lv_legendary_figures.md)*; Šmits, LNE
+- [/] **Lāčplēša māte** (Bear-Slayer's Mother, the she-bear) — *[Details](translations/lv_legendary_figures.md)*; Pump
+- [/] **Rīgas Jaunava** (Maiden of Riga, sunken-city spirit) — *[Details](translations/lv_legendary_figures.md)*; LV urban legend, LNE
+- [/] **Rose of Turaida / Maija** (Tragic heroine, Turaida) — *[Details](translations/lv_legendary_figures.md)*; LNE historical legend (1601)
+- [/] **Namejs** (Semigallian king, resistance hero — Namejs ring) — *[Details](translations/lv_legendary_figures.md)*; LNE, Chronicles; *national symbol*
+- [/] **Visvaldis** (Latgalian king, defender of Jersika) — *[Details](translations/lv_legendary_figures.md)*; LNE, HenLiv
 - [/] **Laimdota** (Lāčplēsis's beloved, fate-blessed maiden) — *[Details](translations/latvian_epic_heroes.md)*; Pump
-- [/] **Burtnieks** (Sorcerer/Wizard in Lāčplēsis) — *[Details](translations/latvian_epic_heroes.md)*; Pump
-- [/] **Koknesis** (Tragic warrior companion) — *[Details](translations/latvian_epic_heroes.md)*; Pump
+- [/] **Burtnieks** (Sorcerer/Wizard in Lāčplēsis) — *[Details](translations/latvian_epic_heroes.md)*; Pump; *entry added to file*
+- [/] **Koknesis** (Tragic warrior companion) — *[Details](translations/latvian_epic_heroes.md)*; Pump; *entry added to file*
 - [/] **Melnais bruņinieks** (Black Knight antagonist) — *[Details](translations/latvian_epic_heroes.md)*; Pump
-- [ ] **Imanta** (Legendary Latgalian warrior king) — LNE
-- [ ] **Tālivaldis** (Latgalian king, martyr) — LNE
+- [/] **Imanta** (Legendary Latgalian warrior king) — *[Details](translations/lv_legendary_figures.md)*; Pump, LNE
+- [/] **Tālivaldis** (Latgalian king, martyr) — *[Details](translations/lv_legendary_figures.md)*; LNE, HenLiv
 - [/] **Viesulis** (Storm warrior / Whirlwind personified) — *[Details](translations/creatures_lt_1.md)*; Pump, folk
 
 
@@ -748,8 +748,8 @@
 - [/] **Kriwe / Criwe** (Hereditary High Priest of Romuva, "Pope" of Baltic religion) — *[Details](translations/legendary_kings_giants.md)*; Peter of Dusburg
 - [/] **Widowuto** (Alternate rendering of Videvutis) — *[Details](translations/legendary_kings_giants.md)*; Grunau
 - [/] **Herkus Monte** (Natangian uprising leader 1260–74) — *[Details](translations/legendary_kings_giants.md)*; Dur, LNE
-- [ ] **Glande** (Galindian chief) — Dur
-- [ ] **Skomantas** (Sudovian last resistance leader) — Dur
+- [/] **Glande** (Galindian chief) — *[Details](translations/pr_warriors.md)*; Dur, LRC
+- [/] **Skomantas** (Sudovian last resistance leader) — *[Details](translations/pr_warriors.md)*; Dur, LRC, Sud
 
 ---
 
