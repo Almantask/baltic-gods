@@ -993,10 +993,10 @@ export const sovijusMeta: DeityMeta = {
 
 export const praamziusMeta: DeityMeta = {
   slug: "praamzius",
-  name: { en: "Praamžius", lt: "Praamžius", lv: "Praamžius" },
+  name: "Praamžius",
+  altNames: { en: "Praamžius", lt: "Praamžius", lv: "Praamžius" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "God of Eternity and First Cause",
     lt: "Amžinybės ir pirmosios priežasties dievas",
     lv: "Mūžības un pirmcēloņa dievs",
@@ -1006,9 +1006,16 @@ export const praamziusMeta: DeityMeta = {
     lt: "Praamžius yra aukščiausiojo lietuvių dievybės epitetas, reiškiantis laiką, amžinybę ir pirmąją priežastį. Jis yra tolimas kosminio dėsnio kūrėjas.",
     lv: "Praamžius ir augstākā lietuviešu dievības epitets, kas simbolizē laiku, mūžību un pirmatnējo cēloni. Viņš ir kosmiskās kārtības noteicējs.",
   },
-  attributes: ["Eternity", "Time", "First Cause", "Creation", "Cosmic Order"],
-  symbols: ["Sky vault", "Endless circle", "Oak", "Rainbow", "Scepter"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Eternity", "Time", "First Cause", "Creation", "Cosmic Order"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Sky vault, Endless circle, Oak, Rainbow, Scepter" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania, Samogitia",
     lt: "Lietuva, Žemaitija",
@@ -1033,10 +1040,10 @@ export const praamziusMeta: DeityMeta = {
 
 export const zvorunaMeta: DeityMeta = {
   slug: "zvoruna",
-  name: { en: "Žvorūna", lt: "Žvorūna", lv: "Žvorūna" },
+  name: "Žvorūna",
+  altNames: { en: "Žvorūna", lt: "Žvorūna", lv: "Žvorūna" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Goddess of Wild Beasts and the Hunt",
     lt: "Laukinių žvėrių ir medžioklės deivė",
     lv: "Meža zvēru un medību dieviete",
@@ -1046,9 +1053,16 @@ export const zvorunaMeta: DeityMeta = {
     lt: "Žvorūna yra lietuvių ir žemaičių laukinių žvėrių bei medžioklės deivė. Dažnai tapatinama su Medeina, jos vardas pabrėžia valdžią laukiniams žvėrims.",
     lv: "Žvorūna ir lietuviešu un žemaitiešu meža zvēru un medību dieviete. Bieži identificēta ar Medeinu, viņas vārds uzsver varu pār mežonīgajiem zvēriem.",
   },
-  attributes: ["Hunt", "Wild Animals", "Forest", "Protection", "Balance"],
-  symbols: ["Wolf", "Bow and arrow", "Animal tooth", "Forest glade"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Hunt", "Wild Animals", "Forest", "Protection", "Balance"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Wolf, Bow and arrow, Animal tooth, Forest glade" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Samogitia)",
     lt: "Lietuva (Žemaitija)",
@@ -1073,10 +1087,10 @@ export const zvorunaMeta: DeityMeta = {
 
 export const zemepatisMetaData: DeityMeta = {
   slug: "zemepatis",
-  name: { en: "Žemėpatis", lt: "Žemėpatis", lv: "Žemėpatis" },
+  name: "Žemėpatis",
+  altNames: { en: "Žemėpatis", lt: "Žemėpatis", lv: "Žemėpatis" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Lord of the Homestead and Cultivated Earth",
     lt: "Sodybos ir dirbamos žemės šeimininkas",
     lv: "Sētas un kultivētās zemes kungs",
@@ -1086,9 +1100,16 @@ export const zemepatisMetaData: DeityMeta = {
     lt: "Žemėpatis yra sodybos ir dirbamos žemės dieviškas šeimininkas. Kaip Žemynos vyriškas atitikmuo, jis saugo namų laukus, daržines ir šventąjį žaltį.",
     lv: "Žemėpatis ir sētas un kultivētās zemes dievišķais kungs. Kā vīrišķais Žemynas ekvivalents, viņš sargā mājsaimniecības laukus, klētis un svēto žalti.",
   },
-  attributes: ["Farmstead", "Agricultural land", "Boundaries", "Domestic prosperity", "Snake cult"],
-  symbols: ["Soil", "Farmstead boundary", "Žaltys (sacred snake)", "Bread", "Ale"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Farmstead", "Agricultural land", "Boundaries", "Domestic prosperity", "Snake cult"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Soil, Farmstead boundary, Žaltys (sacred snake), Bread, Ale" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania, Samogitia",
     lt: "Lietuva, Žemaitija",
@@ -1113,10 +1134,10 @@ export const zemepatisMetaData: DeityMeta = {
 
 export const gabjaujaMetaData: DeityMeta = {
   slug: "gabjauja",
-  name: { en: "Gabjauja", lt: "Gabjauja", lv: "Gabjauja" },
+  name: "Gabjauja",
+  altNames: { en: "Gabjauja", lt: "Gabjauja", lv: "Gabjauja" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Goddess of the Grain Barn and Harvest",
     lt: "Jaujos ir derliaus deivė",
     lv: "Labības šķūņa un ražas dieviete",
@@ -1126,9 +1147,16 @@ export const gabjaujaMetaData: DeityMeta = {
     lt: "Gabjauja yra žemaitiška jaujos ir derliaus deivė. Ji saugo supiltus javus nuo gaisro, puvimo ir vagysčių, užtikrindama bendruomenės išgyvenimą žiemą.",
     lv: "Gabjauja ir žemaitiešu labības šķūņa (jaujas) un ražas dieviete. Viņa aizsargā sakrāto labību no ugunsgrēkiem, nodrošinot kopienas izdzīvošanu ziemā.",
   },
-  attributes: ["Harvest", "Grain barn", "Fire", "Agricultural safety", "Threshing"],
-  symbols: ["Grain ear", "Threshing barn", "Sickle", "Rooster", "Bread"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Harvest", "Grain barn", "Fire", "Agricultural safety", "Threshing"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Grain ear, Threshing barn, Sickle, Rooster, Bread" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Samogitia)",
     lt: "Lietuva (Žemaitija)",
@@ -1153,22 +1181,29 @@ export const gabjaujaMetaData: DeityMeta = {
 
 export const pilvytisMetaData: DeityMeta = {
   slug: "pilvytis",
-  name: { en: "Pilvytis", lt: "Pilvytis", lv: "Pilvytis" },
+  name: "Pilvytis",
+  altNames: { en: "Pilvytis", lt: "Pilvytis", lv: "Pilvytis" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "God of Wealth and Full Granaries",
     lt: "Turtų ir pilnų aruodų dievas",
     lv: "Bagātības un pilnu klētu dievs",
   },
   summary: {
     en: "Pilvytis is the Lithuanian god of wealth, material abundance, and full granaries. His name derives from pilvas (belly/fullness), symbolizing prosperity and satiety.",
-    lt: "Pilvytis yra lietuvių turtų, materialinės gausos ir pilnų aruodų dievas. Jo vardas kildinamas iš žodžio „pilvas", simbolizuojančio pilnatvę ir sotumą.",
-    lv: "Pilvytis ir lietuviešu bagātības, materiālās pārpilnības un pilnu klēšu dievs. Viņa vārds cēlies no vārda „pilvas" (vēders/pilnums), simbolizējot pārticību.",
+    lt: "Pilvytis yra lietuvių turtų, materialinės gausos ir pilnų aruodų dievas. Jo vardas kildinamas iš žodžio „pilvas\", simbolizuojančio pilnatvę ir sotumą.",
+    lv: "Pilvytis ir lietuviešu bagātības, materiālās pārpilnības un pilnu klēšu dievs. Viņa vārds cēlies no vārda „pilvas\" (vēders/pilnums), simbolizējot pārticību.",
   },
-  attributes: ["Wealth", "Abundance", "Granaries", "Prosperity", "Material security"],
-  symbols: ["Granary (klėtis)", "Grain sack", "Coin", "Horn of plenty", "Sieve"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Wealth", "Abundance", "Granaries", "Prosperity", "Material security"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Granary (klėtis), Grain sack, Coin, Horn of plenty, Sieve" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania, Samogitia",
     lt: "Lietuva, Žemaitija",
@@ -1193,10 +1228,10 @@ export const pilvytisMetaData: DeityMeta = {
 
 export const birzulisMeta: DeityMeta = {
   slug: "birzulis",
-  name: { en: "Biržulis", lt: "Biržulis", lv: "Biržulis" },
+  name: "Biržulis",
+  altNames: { en: "Biržulis", lt: "Biržulis", lv: "Biržulis" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Spirit of the Birch Forest",
     lt: "Beržynų dvasia",
     lv: "Bērzu meža gars",
@@ -1206,9 +1241,16 @@ export const birzulisMeta: DeityMeta = {
     lt: "Biržulis yra lietuvių beržynų ir beržų sulos globėjas. Lasickio pavadintas silvae betulinae deus, jis siejamas su pavasariniu atgimimu.",
     lv: "Biržulis ir lietuviešu bērzu mežu un bērzu sulas aizbildnis. Łasicki to nosauca par silvae betulinae deus, tas saistāms ar pavasara atdzimšanu.",
   },
-  attributes: ["Birch forest", "Spring sap", "Renewal", "White birch", "Spring"],
-  symbols: ["Birch leaf", "Birch sap", "White bark", "Spring catkin"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Birch forest", "Spring sap", "Renewal", "White birch", "Spring"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Birch leaf, Birch sap, White bark, Spring catkin" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Aukštaitija, Samogitia)",
     lt: "Lietuva (Aukštaitija, Žemaitija)",
@@ -1233,10 +1275,10 @@ export const birzulisMeta: DeityMeta = {
 
 export const kirnisMeta: DeityMeta = {
   slug: "kirnis",
-  name: { en: "Kirnis", lt: "Kirnis", lv: "Kirnis" },
+  name: "Kirnis",
+  altNames: { en: "Kirnis", lt: "Kirnis", lv: "Kirnis" },
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Guardian of Cherry Trees and Orchards",
     lt: "Vyšnių ir sodų globėjas",
     lv: "Ķiršu koku un dārzu aizbildnis",
@@ -1246,9 +1288,16 @@ export const kirnisMeta: DeityMeta = {
     lt: "Kirnis yra lietuvių sodų dvasia, sauganti vyšnias ir jų vaisius. Lasickio pavadintas deus cerasorum, jis užtikrina saldų derlių ir saugo medžius.",
     lv: "Kirnis ir lietuviešu dārzu gars, kas sargā ķiršu kokus un to augļus. Łasicki to nosauca par deus cerasorum — viņš nodrošina saldu ražu.",
   },
-  attributes: ["Cherry trees", "Orchards", "Harvest", "Fruit", "Spring blossom"],
-  symbols: ["Cherry blossom", "Red fruit", "Cherry wood", "Basket"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Cherry trees", "Orchards", "Harvest", "Fruit", "Spring blossom"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Cherry blossom, Red fruit, Cherry wood, Basket" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Samogitia)",
     lt: "Lietuva (Žemaitija)",
@@ -1273,10 +1322,10 @@ export const kirnisMeta: DeityMeta = {
 
 export const dievaDeliMeta: DeityMeta = {
   slug: "dieva-deli",
-  name: { en: "Dieva dēli", lt: "Dievo sūnūs", lv: "Dieva dēli" },
+  name: "Dieva dēli",
+  altNames: { en: "Dieva dēli", lt: "Dievo sūnūs", lv: "Dieva dēli" },
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Divine Twins, Sons of Dievs",
     lt: "Dieviškieji dvyniai, Dievo sūnūs",
     lv: "Dieva dēli — debesu jātnieki",
@@ -1286,9 +1335,16 @@ export const dievaDeliMeta: DeityMeta = {
     lt: "Dieva dēli yra dieviškieji dvyniai, dangiškojo dievo Dievo sūnūs latvių mitologijoje. Jie yra dangiškieji raiteliai, kurie veda Saulės dukteris ir saugo arklius.",
     lv: "Dieva dēli ir debesu jātnieki, Dieva dēli latviešu mitoloģijā. Viņi ir debesu jahnieki, kas precas ar Saules meitām un sargā zirgus un ceļiniekus.",
   },
-  attributes: ["Divine twins", "Horses", "Celestial riders", "Agriculture", "Protection"],
-  symbols: ["Two horses", "Twin stars", "Golden stirrups", "Gray horse"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Divine twins", "Horses", "Celestial riders", "Agriculture", "Protection"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Two horses, Twin stars, Golden stirrups, Gray horse" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia, Lithuania (Pan-Baltic)",
     lt: "Latvija, Lietuva (visos Baltijos gentys)",
@@ -1313,10 +1369,10 @@ export const dievaDeliMeta: DeityMeta = {
 
 export const saulesMeitasMeta: DeityMeta = {
   slug: "saules-meitas",
-  name: { en: "Saules meitas", lt: "Saulės dukterys", lv: "Saules meitas" },
+  name: "Saules meitas",
+  altNames: { en: "Saules meitas", lt: "Saulės dukterys", lv: "Saules meitas" },
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Daughters of the Sun, Celestial Maidens",
     lt: "Saulės dukterys, dangiškosios mergelės",
     lv: "Saules meitas — debesu jaunavas",
@@ -1326,9 +1382,16 @@ export const saulesMeitasMeta: DeityMeta = {
     lt: "Saules meitas yra aukso plaukų dangiškosios Saulės dukterys latvių mitologijoje. Jos audžia saulės spinduliais ir yra Dievo sūnų vešimosi objektas.",
     lv: "Saules meitas ir zeltainas debesu jaunavas latviešu mitoloģijā. Viņas auž saules starus un ir Dieva dēlu precamās jaunavas debesu kāzu ciklā.",
   },
-  attributes: ["Sunlight", "Weaving", "Celestial maidens", "Dawn/dusk", "Dowry"],
-  symbols: ["Golden ring", "Golden scarf", "Sunray weaving", "Loom", "Morning dew"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Sunlight", "Weaving", "Celestial maidens", "Dawn/dusk", "Dowry"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Golden ring, Golden scarf, Sunray weaving, Loom, Morning dew" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia, Lithuania (Pan-Baltic)",
     lt: "Latvija, Lietuva (visos Baltijos gentys)",
@@ -1353,10 +1416,10 @@ export const saulesMeitasMeta: DeityMeta = {
 
 export const jurasMateMeta: DeityMeta = {
   slug: "juras-mate",
-  name: { en: "Jūras māte", lt: "Jūros motina", lv: "Jūras māte" },
+  name: "Jūras māte",
+  altNames: { en: "Jūras māte", lt: "Jūros motina", lv: "Jūras māte" },
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Mother of the Sea",
     lt: "Jūros motina",
     lv: "Jūras māte",
@@ -1366,9 +1429,16 @@ export const jurasMateMeta: DeityMeta = {
     lt: "Jūras māte yra Baltijos jūros valdovė latvių mitologijoje. Ji valdo bangas ir jūros turtus iš savo gintarų rūmų jūros dugne, laimindama žvejus.",
     lv: "Jūras māte ir Baltijas jūras valdniece latviešu mitoloģijā. Viņa valda viļņus un jūras bagātības no savas dzintara pils jūras dibenā.",
   },
-  attributes: ["Sea", "Waves", "Fish", "Amber", "Sailors", "Fishermen"],
-  symbols: ["Sea-foam", "Amber", "Fishing net", "Wave-crest"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Sea", "Waves", "Fish", "Amber", "Sailors", "Fishermen"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Sea-foam, Amber, Fishing net, Wave-crest" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Coastal Latvia (Kurzeme, Vidzeme, Latgale)",
     lt: "Pakrantės Latvija (Kurzeme, Vidzeme, Latgalė)",
@@ -1393,10 +1463,10 @@ export const jurasMateMeta: DeityMeta = {
 
 export const udensMateMeta: DeityMeta = {
   slug: "udens-mate",
-  name: { en: "Ūdens māte", lt: "Vandens motina", lv: "Ūdens māte" },
+  name: "Ūdens māte",
+  altNames: { en: "Ūdens māte", lt: "Vandens motina", lv: "Ūdens māte" },
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Mother of Fresh Water",
     lt: "Gėlo vandens motina",
     lv: "Ūdens māte",
@@ -1406,9 +1476,16 @@ export const udensMateMeta: DeityMeta = {
     lt: "Ūdens māte yra latvių gėlo vandens — ežerų, šaltinių ir šulinių — dvasia. Moterys nešdavo dovanas upių pakrantėms, prašydamos švaraus vandens.",
     lv: "Ūdens māte ir latviešu saldūdens — ezeru, avotu un aku — gars. Sievietes nesa ziedojumus upju krastos, lūdzot tīru ūdeni un svētību.",
   },
-  attributes: ["Fresh water", "Lakes", "Springs", "Wells", "Purity", "Life transitions"],
-  symbols: ["Spring-well", "Riverbend", "Silver water-drops", "Beads", "Woven ribbons"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Fresh water", "Lakes", "Springs", "Wells", "Purity", "Life transitions"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Spring-well, Riverbend, Silver water-drops, Beads, Woven ribbons" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia (Pan-Latvian)",
     lt: "Latvija (visos Latvijos rajonuose)",
@@ -1433,10 +1510,10 @@ export const udensMateMeta: DeityMeta = {
 
 export const vejaMateMeta: DeityMeta = {
   slug: "veja-mate",
-  name: { en: "Vēja māte", lt: "Vėjo motina", lv: "Vēja māte" },
+  name: "Vēja māte",
+  altNames: { en: "Vēja māte", lt: "Vėjo motina", lv: "Vēja māte" },
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Mother of the Wind",
     lt: "Vėjo motina",
     lv: "Vēja māte",
@@ -1446,9 +1523,16 @@ export const vejaMateMeta: DeityMeta = {
     lt: "Vēja māte yra latvių vėjo ir oro šeimininkė. Ji reguliuoja keturis vėjus, pučia burius ir kelia grūdus žemdirbiams — gyvybiškai svarbi, bet pavojinga supykusi.",
     lv: "Vēja māte ir latviešu vēja un gaisa valdniece. Viņa regulē četrus vēju virzienos, dzen buras un palīdz zemniekiem sijāt labību — vitāli svarīga, bet bīstama uzdusmota.",
   },
-  attributes: ["Wind", "Air", "Four cardinal winds", "Sailing", "Winnowing"],
-  symbols: ["Wind-vane", "Tree-tops in motion", "Cloud-streaks", "Sail"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Wind", "Air", "Four cardinal winds", "Sailing", "Winnowing"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Wind-vane, Tree-tops in motion, Cloud-streaks, Sail" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia (Pan-Latvian)",
     lt: "Latvija (visos Latvijos rajonuose)",
@@ -1473,10 +1557,10 @@ export const vejaMateMeta: DeityMeta = {
 
 export const okopirmusMeta: DeityMeta = {
   slug: "okopirmus",
-  name: { en: "Okopirmus", lt: "Okopirmas", lv: "Okopirms" },
+  name: "Okopirmus",
+  altNames: { en: "Okopirmus", lt: "Okopirmas", lv: "Okopirms" },
   domain: "God",
-  culture: "PR",
-  title: {
+  epithet: {
     en: "The Very First — Supreme Sky God of the Old Prussians",
     lt: "Pats Pirmasis — prūsų aukščiausias dangaus dievas",
     lv: "Pats Pirmais — prūšu augstākais debesu dievs",
@@ -1486,9 +1570,16 @@ export const okopirmusMeta: DeityMeta = {
     lt: "Okopirmas ('Pats Pirmasis') yra aukščiausias prūsų dangaus dievas. Jis sėdi virš Romuvos trejybės kaip pirminis kūrėjas ir kosminio dėsnio tvarkytojas.",
     lv: "Okopirms ('Pats Pirmais') ir augstākais prūšu debesu dievs. Viņš atrodas virs Romuvas triādes kā pirmatnējais radītājs un kosmiskās kārtības uzturētājs.",
   },
-  attributes: ["Sky", "Creation", "First cause", "Cosmic order", "Primordial"],
-  symbols: ["Sky vault", "Sun-wheel", "White falcon", "White horse"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Sky", "Creation", "First cause", "Cosmic order", "Primordial"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Sky vault, Sun-wheel, White falcon, White horse" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Old Prussia (Sambia, Nadruvia)",
     lt: "Senoji Prūsija (Semba, Nadruvija)",
@@ -1513,10 +1604,10 @@ export const okopirmusMeta: DeityMeta = {
 
 export const swayxtixMeta: DeityMeta = {
   slug: "swayxtix",
-  name: { en: "Swayxtix", lt: "Svaikstikas", lv: "Svaikstiks" },
+  name: "Swayxtix",
+  altNames: { en: "Swayxtix", lt: "Svaikstikas", lv: "Svaikstiks" },
   domain: "God",
-  culture: "PR",
-  title: {
+  epithet: {
     en: "God of Celestial Light and the Shining Sun",
     lt: "Dangaus šviesos ir švytinčios saulės dievas",
     lv: "Debesu gaismas un spīdošās saules dievs",
@@ -1526,9 +1617,16 @@ export const swayxtixMeta: DeityMeta = {
     lt: "Svaikstikas yra prūsų dangaus šviesos ir gyvybę teikiančio saulės spindesio dievas. Jo vardas kildinamas iš senprūsių žodžio swāigstan (šviesa/blizgesys).",
     lv: "Svaikstiks ir prūšu debesu gaismas un dzīvību dodošā saules mirdzuma dievs. Viņa vārds cēlies no senprūšu vārda swāigstan (gaisma/spīdums).",
   },
-  attributes: ["Celestial light", "Sun", "Growth", "Clarity", "Blessing crops"],
-  symbols: ["Sun-disc", "Glowing flame", "Star-burst", "Golden spear"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Celestial light", "Sun", "Growth", "Clarity", "Blessing crops"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Sun-disc, Glowing flame, Star-burst, Golden spear" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Old Prussia",
     lt: "Senoji Prūsija",
@@ -1553,10 +1651,10 @@ export const swayxtixMeta: DeityMeta = {
 
 export const bardoaitsMeta: DeityMeta = {
   slug: "bardoaits",
-  name: { en: "Bardoaits", lt: "Bardaitis", lv: "Bardoaits" },
+  name: "Bardoaits",
+  altNames: { en: "Bardoaits", lt: "Bardaitis", lv: "Bardoaits" },
   domain: "God",
-  culture: "PR",
-  title: {
+  epithet: {
     en: "God of Ships, Sailors, and Harbors",
     lt: "Laivų, jūreivių ir uostų dievas",
     lv: "Kuģu, jūrnieku un ostu dievs",
@@ -1566,9 +1664,16 @@ export const bardoaitsMeta: DeityMeta = {
     lt: "Bardaitis yra senprūsių laivų ir jūreivių dievas. Minimas Sūduvių knygelėje, jis saugo jūreivius Baltijoje ir užtikrina saugius uostus sembų žvejų bendruomenėms.",
     lv: "Bardoaits ir senprūšu kuģu un jūrnieku dievs. Minēts Sūduviešu grāmatā, viņš sargā jūrniekus Baltijas jūrā un nodrošina drošas ostas Sembijas zvejnieku kopienām.",
   },
-  attributes: ["Ships", "Sailors", "Harbor", "Fishing", "Sea safety", "Calm voyage"],
-  symbols: ["Ship's prow", "Anchor-stone", "Fishing net", "Calm horizon"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Ships", "Sailors", "Harbor", "Fishing", "Sea safety", "Calm voyage"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Ship's prow, Anchor-stone, Fishing net, Calm horizon" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Old Prussian Coast (Sambia, Natangia)",
     lt: "Prūsų pajūris (Semba, Natangija)",
@@ -1593,10 +1698,10 @@ export const bardoaitsMeta: DeityMeta = {
 
 export const kaukaiMeta: DeityMeta = {
   slug: "kaukai",
-  name: { en: "Kaukai", lt: "Kaukai", lv: "Kauki" },
+  name: "Kaukai",
+  altNames: { en: "Kaukai", lt: "Kaukai", lv: "Kauki" },
   domain: "Creature",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Benevolent Wealth Dwarves of the Underground",
     lt: "Geranoriški požemio turto nykštukai",
     lv: "Labsirdīgie zemes rūķi",
@@ -1606,9 +1711,16 @@ export const kaukaiMeta: DeityMeta = {
     lt: "Kaukai yra maži, darbštūs lietuvių požemio dvasios, padedančios ūkio darbuose ir nešančios gerovę, jei vaišinamos pienu. Gyvena po alyvmedžiais ir akmenų altoriais.",
     lv: "Kaukai ir mazi, čakli lietuviešu pazemes garās, kas palīdz lauku darbos un nes pārticību, ja tiek mieloti ar pienu. Dzīvo zem plostiem un akmens altāriem.",
   },
-  attributes: ["Underground", "Farm help", "Prosperity", "Dwarves", "Elder tree"],
-  symbols: ["Elder tree roots", "Bowl of milk", "Small beard", "Stone altar"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Underground", "Farm help", "Prosperity", "Dwarves", "Elder tree"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Elder tree roots, Bowl of milk, Small beard, Stone altar" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Pan-Lithuanian)",
     lt: "Lietuva (visos Lietuvos regionai)",
@@ -1633,10 +1745,10 @@ export const kaukaiMeta: DeityMeta = {
 
 export const raganaMeta: DeityMeta = {
   slug: "ragana",
-  name: { en: "Ragana", lt: "Ragana", lv: "Ragana" },
+  name: "Ragana",
+  altNames: { en: "Ragana", lt: "Ragana", lv: "Ragana" },
   domain: "Creature",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Lithuanian Witch and Seer",
     lt: "Lietuvių ragana ir regėtoja",
     lv: "Lietuviešu ragana un pareģe",
@@ -1646,9 +1758,16 @@ export const raganaMeta: DeityMeta = {
     lt: "Ragana yra gausiausiais mitų aprašyta ragana baltų tradicijoje. Etimologiškai 'regėtoja', ji evoliucionavo nuo išminties deivės iki formas keičiančios miško raganos.",
     lv: "Ragana ir izslavенākā ragana Baltijas tradīcijā. Etimoloģiski 'pareģe' (regēt), viņa attīstījās no gudrības dievietes par formas mainošu meža raganu.",
   },
-  attributes: ["Witch", "Seer", "Shape-shifting", "Herbs", "Forest", "Šatrija Hill"],
-  symbols: ["Broom", "Cauldron", "Cat", "Šatrija Hill"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Witch", "Seer", "Shape-shifting", "Herbs", "Forest", "Šatrija Hill"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Broom, Cauldron, Cat, Šatrija Hill" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Samogitia, Šatrija focus)",
     lt: "Lietuva (Žemaitija, Šatrija kalnas)",
@@ -1673,10 +1792,10 @@ export const raganaMeta: DeityMeta = {
 
 export const sloguteMeta: DeityMeta = {
   slug: "slogute",
-  name: { en: "Slogutė", lt: "Slogutė", lv: "Slogutė" },
+  name: "Slogutė",
+  altNames: { en: "Slogutė", lt: "Slogutė", lv: "Slogutė" },
   domain: "Creature",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Spirit of Sleep Paralysis and Nightmares",
     lt: "Miego paralyžiaus ir košmarų dvasia",
     lv: "Miega paralīzes un murgu gars",
@@ -1686,9 +1805,16 @@ export const sloguteMeta: DeityMeta = {
     lt: "Slogutė yra lietuvių miego paralyžiaus personifikacija. Ji sėdi ant miegančio krūtinės, neleisdama kvėpuoti. Tradicinė apsauga — geležiniai daiktai prie lovos.",
     lv: "Slogutė ir lietuviešu miega paralīzes personifikācija. Viņa sēž uz guļošā krūtīm, neļaujot elpot. Tradicionālā aizsardzība — dzelzs priekšmeti pie gultas.",
   },
-  attributes: ["Sleep paralysis", "Nightmare", "Night", "Breath", "Fear"],
-  symbols: ["Iron knife", "Scissors", "Weight on the chest"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Sleep paralysis", "Nightmare", "Night", "Breath", "Fear"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Iron knife, Scissors, Weight on the chest" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Pan-Lithuanian)",
     lt: "Lietuva (visos Lietuvos regionai)",
@@ -1713,10 +1839,10 @@ export const sloguteMeta: DeityMeta = {
 
 export const vilkacisMeta: DeityMeta = {
   slug: "vilkacis",
-  name: { en: "Vilkacis", lt: "Vilkacis", lv: "Vilkatis" },
+  name: "Vilkacis",
+  altNames: { en: "Vilkacis", lt: "Vilkacis", lv: "Vilkatis" },
   domain: "Creature",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Lithuanian Werewolf — Human Transformed into Wolf",
     lt: "Lietuvių vilkacis — žmogus, virtęs vilku",
     lv: "Lietuviešu vilkatis — cilvēks, kas pārvērties par vilku",
@@ -1726,9 +1852,16 @@ export const vilkacisMeta: DeityMeta = {
     lt: "Vilkacis — tai žmogus, prakeikimo ar ritualo metu pavirtęs vilku. Priešingai kino siaubo filmams, baltų vilkaciai išsaugo žmogišką intelektą.",
     lv: "Vilkatis ir cilvēks, kurš pārvērties par vilku lāsta vai rituāla dēļ. Atšķirībā no šausmu filmām, Baltijas vilkaši saglabā cilvēcisko intelektu.",
   },
-  attributes: ["Werewolf", "Transformation", "Wolf", "Curse", "Strength"],
-  symbols: ["Wolf pelt", "Belt of transformation", "Iron teeth", "Forest path"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Werewolf", "Transformation", "Wolf", "Curse", "Strength"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Wolf pelt, Belt of transformation, Iron teeth, Forest path" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania, Latvia (Pan-Baltic)",
     lt: "Lietuva, Latvija (visos Baltijos kraštai)",
@@ -1753,10 +1886,10 @@ export const vilkacisMeta: DeityMeta = {
 
 export const lietuvensMeta: DeityMeta = {
   slug: "lietuvens",
-  name: { en: "Lietuvēns", lt: "Lietuvēns", lv: "Lietuvēns" },
+  name: "Lietuvēns",
+  altNames: { en: "Lietuvēns", lt: "Lietuvēns", lv: "Lietuvēns" },
   domain: "Creature",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Latvian Nightmare Spirit",
     lt: "Latvių košmarų dvasia",
     lv: "Latvijas murgu gars",
@@ -1766,9 +1899,16 @@ export const lietuvensMeta: DeityMeta = {
     lt: "Lietuvēns yra latvių košmarų dvasios atitikmuo. Nenatūralia mirtimi mirusio siela, jis patenka per raktadėtes ir spaudžia miegančiųjų krūtines.",
     lv: "Lietuvēns ir latviešu murgu gara ekvivalents. Pārdabiskā nāvē miruša dvēsele, viņš iekļūst caur atslēgu caurumiem un spiež guļošo krūtīs.",
   },
-  attributes: ["Nightmare", "Sleep paralysis", "Unnatural death", "Night", "Fear"],
-  symbols: ["Keyhole", "Sweating horse", "Weight on the chest"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Nightmare", "Sleep paralysis", "Unnatural death", "Night", "Fear"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Keyhole, Sweating horse, Weight on the chest" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia (Pan-Latvian)",
     lt: "Latvija (visos Latvijos rajonuose)",
@@ -1793,10 +1933,10 @@ export const lietuvensMeta: DeityMeta = {
 
 export const egleMeta: DeityMeta = {
   slug: "egle",
-  name: { en: "Eglė", lt: "Eglė", lv: "Egle" },
+  name: "Eglė",
+  altNames: { en: "Eglė", lt: "Eglė", lv: "Egle" },
   domain: "Person",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Queen of Serpents",
     lt: "Žalčių karalienė",
     lv: "Čūsku karaliene",
@@ -1806,9 +1946,16 @@ export const egleMeta: DeityMeta = {
     lt: "Eglė yra lietuvių archetipinės mitologinės pasakos Eglė žalčių karalienė herojė. Ji išteka už žalčių karaliaus Žilvino, o po jo išdavystės ir nužudymo paverčiama medžiais kartu su vaikais.",
     lv: "Egle ir lietuviešu arhetipiskākā mīta Eglė žalčių karalienė varonis. Viņa apprecas ar čūsku karali Žilvinu un pēc viņa nodevības un nāves pārvēršas par egli kopā ar saviem bērniem.",
   },
-  attributes: ["Transformation", "Oath", "Serpent world", "Metamorphosis", "Trees"],
-  symbols: ["Spruce tree", "Snake-crown", "Underwater palace", "Her children's names"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Transformation", "Oath", "Serpent world", "Metamorphosis", "Trees"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Spruce tree, Snake-crown, Underwater palace, Her children's names" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Lithuania (Curonian coast, Pan-Lithuanian)",
     lt: "Lietuva (Kuršių pajūris, visoje Lietuvoje)",
@@ -1833,10 +1980,10 @@ export const egleMeta: DeityMeta = {
 
 export const lacplesisMeta: DeityMeta = {
   slug: "lacplesis",
-  name: { en: "Lāčplēsis", lt: "Lāčplēsis", lv: "Lāčplēsis" },
+  name: "Lāčplēsis",
+  altNames: { en: "Lāčplēsis", lt: "Lāčplēsis", lv: "Lāčplēsis" },
   domain: "Person",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Bear-Slayer — Latvian National Hero",
     lt: "Meškaskerys — latvių tautinis herojus",
     lv: "Lāčplēsis — latviešu tautiskais varonis",
@@ -1846,9 +1993,16 @@ export const lacplesisMeta: DeityMeta = {
     lt: "Lāčplēsis (Meškaskerys) yra latvių tautinio epo centras. Žmogaus ir meškos sūnus, jo antgamtinė jėga buvo ausyse — tai buvo jo galios ir jo žlugimo šaltinis.",
     lv: "Lāčplēsis ir latviešu nacionālā epa centrālais varonis. Cilvēka un lāča dēls, viņa pārdabiskais spēks bija ausīs — tas bija viņa varas un galu galā bojāejas avots.",
   },
-  attributes: ["Bear-ears", "Strength", "National hero", "Daugava", "Resistance"],
-  symbols: ["Bear-ears", "Giant boulder", "Daugava river", "Oak-staff"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  keywords: ["Bear-ears", "Strength", "National hero", "Daugava", "Resistance"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Bear-ears, Giant boulder, Daugava river, Oak-staff" },
+  ],
   locations: [],
+  gallery: [],
+  materialLegacy: [],
   regionDetails: {
     en: "Latvia (Daugava basin, Vidzeme, Kurzeme)",
     lt: "Latvija (Dauguvos baseinas, Vidzeme, Kurzeme)",
