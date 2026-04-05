@@ -5,9 +5,18 @@ export type Domain = "God" | "Creature" | "Person";
 export type Language = "en" | "lt" | "lv";
 
 export type SiteCategory =
+  | "Burial/cremation sites"
+  | "Communal feast sites"
+  | "Field altars"
+  | "Household ritual sites"
+  | "Legendary creation sites"
   | "Sacred groves"
+  | "Sacred hilltops"
+  | "Sacred springs"
   | "Mythic hills / burial mounds"
+  | "Ritual fire sites"
   | "Ritual stones"
+  | "Settlement sites"
   | "Springs, rivers, lakes with cult significance"
   | "\"World tree\" analog sites"
   | "Sacrifice / offering sites"
@@ -18,10 +27,10 @@ export interface LocationPoint {
   id: string;
   name: string;
   coordinates: [number, number];
-  region: "Lithuania" | "Latvia";
+  region: "Lithuania" | "Latvia" | "Old Prussia";
   description: string;
   siteType: SiteCategory;
-  aura: "amber" | "moss" | "mist";
+  aura: "amber" | "moss" | "mist" | "sky" | "green";
   deity: string;
   significance: string;
 }
@@ -70,10 +79,10 @@ export interface LocationMeta {
   id: string;
   name: Record<Language, string>;
   coordinates: [number, number];
-  region: "Lithuania" | "Latvia";
+  region: "Lithuania" | "Latvia" | "Old Prussia";
   description: Record<Language, string>;
   siteType: SiteCategory;
-  aura: "amber" | "moss" | "mist";
+  aura: "amber" | "moss" | "mist" | "sky" | "green";
   deity: string;
   significance: Record<Language, string>;
   tribe: Record<Language, string>;
