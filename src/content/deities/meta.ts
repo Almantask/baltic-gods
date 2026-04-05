@@ -4625,6 +4625,288 @@ export const pergrubrijusMeta: DeityMeta = {
   ],
 };
 
+// ─── Batch 8 ─────────────────────────────────────────────────────────────────
+
+export const indrajaMeta: DeityMeta = {
+  slug: "indraja",
+  name: { en: "Indraja", lt: "Indraja", lv: "Indraja" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Goddess of Jupiter",
+    lt: "Jupiterio deivė",
+    lv: "Jupitera dieviete",
+  },
+  summary: {
+    en: "Indraja is the Lithuanian personification of the planet Jupiter, a daughter of the Sun goddess Saulė who adds her radiant light to the celestial family traveling through the sky.",
+    lt: "Indraja yra lietuvių Jupiterio planetos personifikacija, Saulės deivės dukra, pridedanti savo spindesį dangaus palydai.",
+    lv: "Indraja ir lietuviešu Jupitera planētas personifikācija, Saules dievietes meita, kas papildina debesu ģimenes mirdzumu.",
+  },
+  attributes: ["Jupiter", "Celestial light", "Cosmic order", "Planets"],
+  symbols: ["Bright star", "Planetary light", "Celestial sphere"],
+  locations: [],
+  region: { en: "Lithuania", lt: "Lietuva", lv: "Lietuva" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const vaivaMeta: DeityMeta = {
+  slug: "vaiva",
+  name: { en: "Vaiva", lt: "Vaiva", lv: "Varavīksne" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "The Rainbow — Belt of Laima",
+    lt: "Vaivorykštė — Laimos juosta",
+    lv: "Varavīksne — Laimas josta",
+  },
+  summary: {
+    en: "Vaiva is the personified rainbow in Baltic mythology, known as the Belt of Laima, appearing after storms to signal the return of celestial order and the blessing of life-giving water.",
+    lt: "Vaiva yra baltų mitologijoje personifikuota vaivorykštė, Laimos juosta, rodanti po audros, kad dangaus tvarka atkurta.",
+    lv: "Varavīksne ir personificēta varavīksne baltu mitoloģijā, Laimas josta, kas pēc vētras signalizē par debesu kārtības atjaunošanu.",
+  },
+  attributes: ["Rainbow", "Celestial bridge", "After-storm", "Water cycle"],
+  symbols: ["Rainbow arc", "Seven-colored belt", "Rain drop", "Weaving loom"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
+  period: { en: "Medieval to Present Folklore", lt: "Viduramžiai – šiuolaikinė tautosaka", lv: "Viduslaiki – mūsdienu folklora" },
+  references: [
+    "Basanavičius, Jonas: Lietuviškos pasakos (1898–1902)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Dundulienė, Pranė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
+  ],
+};
+
+export const bubilasMeta: DeityMeta = {
+  slug: "bubilas",
+  name: { en: "Bubilas", lt: "Bubilas", lv: "Bubilas" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Bee-Master and Honey God",
+    lt: "Bičių meistras ir medaus dievas",
+    lv: "Bišu meistars un medus dievs",
+  },
+  summary: {
+    en: "Bubilas is the Lithuanian god of bees, drones, and honey production, the masculine counterpart to Austėja, who presides over the hive's strength and the abundance of the mead harvest.",
+    lt: "Bubilas yra lietuvių bičių, tranų ir medaus gausos dievas, vyriškasis Austėjos atitikmuo, rūpinantis avilio stiprumu ir midaus derliumi.",
+    lv: "Bubilas ir lietuviešu bišu, tranu un medus ražošanas dievs, vīrišķais Austējas atbilsme, kas pārskata stropu spēku.",
+  },
+  attributes: ["Bees", "Drones", "Honey", "Mead", "Hive"],
+  symbols: ["Bee", "Honeycomb", "Drone", "Mead mug"],
+  locations: [],
+  region: { en: "Lithuania (Aukštaitija / Samogitia)", lt: "Lietuva (Aukštaitija / Žemaitija)", lv: "Lietuva (Augšzeme / Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const mildaMeta: DeityMeta = {
+  slug: "milda",
+  name: { en: "Milda", lt: "Milda", lv: "Milda" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Goddess of Love (Disputed)",
+    lt: "Meilės deivė (ginčytina)",
+    lv: "Mīlestības dieviete (apstrīdēts)",
+  },
+  summary: {
+    en: "Milda is the purported Lithuanian goddess of love and beauty, a figure popularized by 19th-century Romantic historian Teodor Narbutt. Contemporary scholars classify her as a literary reconstruction without authentic pre-Christian sources.",
+    lt: "Milda yra tariama lietuvių meilės ir grožio deivė, T. Narbyto XIX a. romantinė rekonstrukcija; šiuolaikiniai mokslininkai laiko ją neautentišku išradimu.",
+    lv: "Milda ir apgalvotā lietuviešu mīlestības un skaistuma dieviete, 19. gadsimta romantiskā rekonstrukcija; mūsdienu pētnieki to uzskata par vēlāku literāru izgudrojumu.",
+  },
+  attributes: ["Love", "Beauty", "Courtship", "Spring"],
+  symbols: ["Myrtle", "Dove", "Heart", "May flowers"],
+  locations: [],
+  region: { en: "Lithuania (Romantic Literature)", lt: "Lietuva (romantinė literatūra)", lv: "Lietuva (romantiskā literatūra)" },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "19th Century (Reconstructed / Disputed)", lt: "XIX a. (rekonstruotas / ginčytina)", lv: "19. gadsimts (rekonstruēts / apstrīdēts)" },
+  references: [
+    "Narbutt, Teodor: Dzieje starożytne narodu litewskiego (1835)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Balsys, Rimantas: Lietuvių ir prūsų dievai, deivės, dvasios (2010)",
+  ],
+};
+
+export const asviniaiMeta: DeityMeta = {
+  slug: "asvieniai",
+  name: { en: "Asvieniai", lt: "Ašvieniai", lv: "Dieva dēli" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "The Divine Horse Twins",
+    lt: "Dieviškieji arklių dvyniai",
+    lv: "Dievišķie zirgu dvīņi",
+  },
+  summary: {
+    en: "Ašvieniai are the Baltic divine horse twins who pull the chariot of the Sun goddess Saulė across the sky, guardians of the solar cycle, immortalized in the crossed horse-head roof finials of traditional Baltic homes.",
+    lt: "Ašvieniai yra baltų dieviškieji arklių dvyniai, traukiantys Saulės vežimą per dangų ir saugantys namus, įamžinti tradicinių namų žirgeliais ant kraigo.",
+    lv: "Dieva dēli ir baltu dievišķie zirgu dvīņi, kas velk Saules vezumu pāri debesīm, mūžinājuši krustoto zirgugalvu jumta rotājumos.",
+  },
+  attributes: ["Solar chariot", "Horse twins", "Divine protection", "Dawn"],
+  symbols: ["Crossed horse heads", "Chariot wheel", "White horse", "Rising sun"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
+  period: { en: "Proto-Baltic to Present", lt: "Protobaltiški laikai – dabartis", lv: "Protobaltu laiki – mūsdienas" },
+  references: [
+    "Dundulienė, Pranė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+  ],
+};
+
+export const erketusMeta: DeityMeta = {
+  slug: "erketus",
+  name: { en: "Erketus", lt: "Erketus", lv: "Erketus" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of Thorns and Protective Barriers",
+    lt: "Erškėčių ir apsauginių kliūčių dvasia",
+    lv: "Ērkšķu un aizsargbarjeru gars",
+  },
+  summary: {
+    en: "Erketus is the Lithuanian spirit of thorns and briers, the divine guardian of protective hedges and natural barriers that separated the sacred farmstead from the wild forest beyond.",
+    lt: "Erketus yra lietuvių erškėčių ir dygliuotų kliūčių dvasia, apsauginių gyvatvorių sargas, skiriančių šventą sodybą nuo laukinio miško.",
+    lv: "Erketus ir lietuviešu ērkšķu un dzeloņu gars, aizsardzības dzīvžogu sargs, kas atdalīja sētu no savvaļas meža.",
+  },
+  attributes: ["Thorns", "Briers", "Protective barriers", "Boundaries"],
+  symbols: ["Thorn", "Brier", "Barb", "Defensive hedge", "Hawthorn"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const veliuonaMeta: DeityMeta = {
+  slug: "veliuona",
+  name: { en: "Veliuona", lt: "Veliuona", lv: "Veliuona" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Mistress of the Dead",
+    lt: "Vėlių valdovė",
+    lv: "Mirušo valdniece",
+  },
+  summary: {
+    en: "Veliuona is the Lithuanian goddess of death and the realm of ancestral spirits, the solemn guardian who receives the departed and maintains the boundary between the living and the dead.",
+    lt: "Veliuona yra lietuvių mirties ir protėvių vėlių karalystės deivė, iškilmingoji sargė, priimanti mirusius ir sauganti gyvenimo bei mirties ribą.",
+    lv: "Veliuona ir lietuviešu nāves un senču garu valstības dieviete, svinīgā sargātāja, kas uztur robežu starp dzīvajiem un mirušajiem.",
+  },
+  attributes: ["Death", "Ancestral spirits", "Underworld", "Funerary rites"],
+  symbols: ["Grave mound", "Night sky", "Spirit lights", "Ancient tree"],
+  locations: [],
+  region: { en: "Lithuania, Samogitia", lt: "Lietuva, Žemaitija", lv: "Lietuva, Žemaitija" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const lauksargisMeta: DeityMeta = {
+  slug: "lauksargis",
+  name: { en: "Lauksargis", lt: "Lauksargis", lv: "Lauku māte" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardian of the Fields",
+    lt: "Laukų sargas",
+    lv: "Lauku sargs",
+  },
+  summary: {
+    en: "Lauksargis is the Baltic field guardian deity, protector of crops and agricultural boundaries, invoked before sowing to ensure the land's safety and the health of the harvest.",
+    lt: "Lauksargis yra baltų laukų sargo dievybė, pasėlių ir žemės ribų globėjas, šaukiamas prieš sėją užtikrinti derliaus saugumą.",
+    lv: "Lauksargis ir baltu lauku sargātājs, kultūraugu un lauksaimniecības robežu aizsargs, ko piesauca pirms sējas.",
+  },
+  attributes: ["Fields", "Crops", "Boundaries", "Plowing", "Harvest protection"],
+  symbols: ["Plowshare", "Boundary stone", "Woven sheaf", "Field lark"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
+  period: { en: "Medieval to 18th Century", lt: "Viduramžiai – XVIII a.", lv: "Viduslaiki – 18. gadsimts" },
+  references: [
+    "Mažvydas, Martynas: Katekizmas (1547)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Dundulienė, Pranė: Žemdirbystė lietuvių mitologijoje (1963)",
+  ],
+};
+
+export const drebkulysMeta: DeityMeta = {
+  slug: "drebkulys",
+  name: { en: "Drebkulys", lt: "Drebkulys", lv: "Drebkulys" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of the Shivering Fever",
+    lt: "Karštinės ir drebulio dvasia",
+    lv: "Drudža drebēšanas gars",
+  },
+  summary: {
+    en: "Drebkulys is the Lithuanian spirit of fever and chills, the personification of the shaking sickness recorded by Jan Łasicki, representing the archaic Baltic belief that every illness was governed by its own divine force.",
+    lt: "Drebkulys yra lietuvių karštinės ir drebulio dvasia, krečiančios ligos personifikacija, užrašyta Jano Lasickio — liudijimas archajinio tikėjimo, kad kiekvieną ligą valdo savita dvasia.",
+    lv: "Drebkulys ir lietuviešu drudža un drebuļa gars, locītavās kratošās slimības personifikācija pēc Jana Lasicija, kas atspoguļo senu baltu uzskatu par slimību garu varu.",
+  },
+  attributes: ["Fever", "Chills", "Shivering", "Illness"],
+  symbols: ["Trembling hand", "Pale face", "Shivering figure"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const apidemeMeta: DeityMeta = {
+  slug: "apideme",
+  name: { en: "Apideme", lt: "Apidėmė", lv: "Apidēme" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardian of the Homestead's Edge",
+    lt: "Sodybos ribų saugotoja",
+    lv: "Mājas robežu sargātāja",
+  },
+  summary: {
+    en: "Apidėmė is the Lithuanian spirit of the homestead boundary, the divine guardian of fences and thresholds who was offered sacrifices when a family moved to ensure she would follow and protect the new farmstead.",
+    lt: "Apidėmė yra lietuvių sodybos ribų dvasia, dieviškoji tvorų ir slenksčio sargė, kuriai aukojama kraustantis, kad ji sektų ir saugotų naują sodybą.",
+    lv: "Apidēme ir lietuviešu mājas robežu gars, žogu un sliekšņa dievišķā sargātāja, kurai upuroja pārceļoties, lai viņa sekotu un sargātu jauno saimniecību.",
+  },
+  attributes: ["Homestead", "Boundaries", "Fences", "Threshold", "Moving"],
+  symbols: ["Threshold", "Fence gate", "Corner stone", "Rooster"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De diis Samagitarum caeterisque Sarmatum (1582)",
+    "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
 export const deitiesMeta = {
   perkunasMeta,
   sauleMeta,
@@ -4718,4 +5000,601 @@ export const deitiesMeta = {
   javineMeta,
   geguteMeta,
   pergrubrijusMeta,
+  // Batch 8
+  indrajaMeta,
+  vaivaMeta,
+  bubilasMeta,
+  mildaMeta,
+  asviniaiMeta,
+  erketusMeta,
+  veliuonaMeta,
+  lauksargisMeta,
+  drebkulysMeta,
+  apidemeMeta,
+  // Batch 9
+  sietynasMeta,
+  rungisMeta,
+  kizmasMeta,
+  samanisMeta,
+  krumineMeta,
+  lazdonaMeta,
+  diviriksMeta,
+  pagirnisMeta,
+  jievarasMeta,
+  atlaibosMeta,
+  // Batch 10
+  ratainicaMeta,
+  aspelenieMeta,
+  kempeMeta,
+  kaurirarisMeta,
+  kelukisMeta,
+  kurvaitisMeta,
+  upinisMeta,
+  deivesValdytojsMeta,
+  deiveMeta,
+  girinisMeta,
+};
+
+// ─── Batch 9 ─────────────────────────────────────────────────────────────────
+
+export const sietynasMeta: DeityMeta = {
+  slug: "sietynas",
+  name: { en: "Sietynas", lt: "Sietynas", lv: "Sietiņš" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "The Pleiades — Celestial Sieve of the Seasons",
+    lt: "Plejadės — dangaus sietuvas",
+    lv: "Plejādes — debesu siets",
+  },
+  summary: {
+    en: "Sietynas is the Baltic personification of the Pleiades star cluster, the celestial sieve used by the gods to sift fine rain from destructive floods, and the cosmic calendar by which farmers timed their plowing and sowing.",
+    lt: "Sietynas yra baltų Plejadžių žvaigždžių spiečiaus personifikacija, dangaus sietuvas sijojantis smulkų lietų, ir kosminis kalendorius ūkininkams.",
+    lv: "Sietiņš ir baltu Plejāžu zvaigznāja personifikācija, debesu siets, kas sijā smalkus lietus no plūdiem, un kosmiskais kalendārs zemniekiem.",
+  },
+  attributes: ["Pleiades", "Star cluster", "Seasons", "Agricultural calendar", "Rain"],
+  symbols: ["Sieve", "Seven stars", "Dew", "Fine rain", "Net"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
+  period: { en: "Ancient to Present Folklore", lt: "Senovė – dabartinė tautosaka", lv: "Senatnē – mūsdienu folklora" },
+  references: [
+    "Vaiškūnas, Jonas: Skaitant dangaus ženklus (2012)",
+    "Klimka, Libertas: Senovės lietuvių kosmogonija (1994)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const rungisMeta: DeityMeta = {
+  slug: "rungis",
+  name: { en: "Rungis", lt: "Rungis", lv: "Rungis" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of the Fertile Dung",
+    lt: "Derlingojo mėšlo dvasia",
+    lv: "Auglīgā mēsla gars",
+  },
+  summary: {
+    en: "Rungis is the Lithuanian spirit who lives in the dung of the farmstead, the divine guardian of manure's fertilising power who ensures that the fields receive the vital nutrients needed for a successful harvest.",
+    lt: "Rungis yra lietuvių dvasia, gyvenanti sodybos mėšle, dieviškasis tręšimo galios sargas, užtikrinantis, kad laukai gautų gyvybiškai svarbias maistines medžiagas.",
+    lv: "Rungis ir lietuviešu gars, kas dzīvo sētas kūtsmēslos, dievišķais mēslošanas spēka sargs, kurš gādā par tīrumu apgādi ar augšanai nepieciešamajām barības vielām.",
+  },
+  attributes: ["Manure", "Fertilisation", "Soil health", "Farmstead cycle"],
+  symbols: ["Dung heap", "Pitchfork", "Sprout", "Fertile soil"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const kizmasMeta: DeityMeta = {
+  slug: "kizmas",
+  name: { en: "Kizmas", lt: "Kizmas", lv: "Kizmas" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardian of the Woodpile",
+    lt: "Malkų krūvų sargas",
+    lv: "Malku kaudzes sargs",
+  },
+  summary: {
+    en: "Kizmas is the Lithuanian spirit who guards the stacks of firewood and tree fragments prepared for winter, the divine protector of the household's fuel supply and the guarantee of warmth through the long cold months.",
+    lt: "Kizmas yra lietuvių dvasia, sauganti malkas ir medžio atplaišas, paruoštas žiemai, dieviška namų kuro atsargų sargė.",
+    lv: "Kizmas ir lietuviešu gars, kas sargā malku grēdas un koka šķembas, ko sagatavo ziemai, mājokļa kurināmā sargātājs.",
+  },
+  attributes: ["Firewood", "Woodpiles", "Winter survival", "Household fuel"],
+  symbols: ["Woodpile", "Log", "Axe", "Hearth fire", "Winter branch"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const samanisMeta: DeityMeta = {
+  slug: "samanis",
+  name: { en: "Samanis", lt: "Samanis", lv: "Samanis" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of the Moss",
+    lt: "Samanų dvasia",
+    lv: "Sūnu gars",
+  },
+  summary: {
+    en: "Samanis is the Lithuanian spirit of the moss, the divine guardian of the forest floor's soft green carpet who maintains the moisture and life of the ancient woodland by dwelling within the living mat of mosses and lichens.",
+    lt: "Samanis yra lietuvių samanų dvasia, miško paklotės minkšto žaliojo kilimo dieviškasis sargas, gyvenas pačiose samanose.",
+    lv: "Samanis ir lietuviešu sūnu gars, meža grīdas mīkstā zaļā paklāja dievišķais sargs, kas uztur mitrumu dzīvo sūnu paklājā.",
+  },
+  attributes: ["Moss", "Forest floor", "Moisture", "Lichens"],
+  symbols: ["Moss", "Lichen", "Greenery", "Damp soil", "Forest floor"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const krumineMeta: DeityMeta = {
+  slug: "krumine",
+  name: { en: "Krumine", lt: "Krūminė", lv: "Krūminė" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Goddess of Bushes and the First Grain Ears",
+    lt: "Krūmų ir pirmųjų varpų deivė",
+    lv: "Krūmu un pirmās vārpas dieviete",
+  },
+  summary: {
+    en: "Krūminė is the Lithuanian goddess of bushes, thickets, and the first ears of grain, the divine guardian of the boundary between the wild woodland edge and the cultivated field who blesses the very first growth of the harvest season.",
+    lt: "Krūminė yra lietuvių krūmų, tankmių ir pirmųjų javų varpų deivė, apsauganti žemdirbystės laukų ir miško paribio pasienį.",
+    lv: "Krūminė ir lietuviešu krūmu, brikšņu un pirmās labības vārpas dieviete, kas svētī pirmos augšanas sākumus.",
+  },
+  attributes: ["Bushes", "Thickets", "First grain ears", "Meadows", "Wild-cultivated boundary"],
+  symbols: ["Bush", "Grain ear", "Scrubland", "Meadow flower"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const lazdonaMeta: DeityMeta = {
+  slug: "lazdona",
+  name: { en: "Lazdona", lt: "Lazdona", lv: "Lazdu māte" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Goddess of Hazel Trees and Wisdom",
+    lt: "Lazdynų ir išminties deivė",
+    lv: "Lazdas koka un gudrības dieviete",
+  },
+  summary: {
+    en: "Lazdona is the Baltic goddess of hazel trees and their precious nuts, guardian of the sacred groves whose branches ward off lightning and serpents, and whose bounty of nuts provided both nourishment and the tools of divination.",
+    lt: "Lazdona yra baltų lazdynų ir jų brangių riešutų deivė, šakų apsaugančių nuo žaibo ir gyvačių šventosios giraitės globėja.",
+    lv: "Lazdu māte ir baltu lazdu koku un to vērtīgo riekstu dieviete, svēto birztalas sargātāja, kuras zari pasargā no zibens un čūskām.",
+  },
+  attributes: ["Hazel tree", "Hazelnuts", "Wisdom", "Divination", "Protection from lightning"],
+  symbols: ["Hazelnut", "Hazel branch", "Hazel staff", "Squirrel"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
+  period: { en: "Medieval to 17th Century", lt: "Viduramžiai – XVII a.", lv: "Viduslaiki – 17. gadsimts" },
+  references: [
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Dundulienė, Pranė: Medis lietuvių mitologijoje (1979)",
+  ],
+};
+
+export const diviriksMeta: DeityMeta = {
+  slug: "diviriks",
+  name: { en: "Diviriks", lt: "Diviriks", lv: "Diviriks" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Leader of the Gods",
+    lt: "Dievų valdovas",
+    lv: "Dievu vadonis",
+  },
+  summary: {
+    en: "Diviriks is the ancient Baltic title for the supreme leader of the divine assembly, recorded in 13th-century chronicles as a deity worshipped by King Mindaugas, and interpreted by scholars as an epithet for Perkūnas in his role as sovereign arbiter of justice and war.",
+    lt: "Diviriks yra senovinis baltų titulas aukščiausiąjam dievų susirinkimo pirmininkui, XIII a. kronikose užfiksuotas kaip Mindaugo garbinta dievybė.",
+    lv: "Diviriks ir senais baltu nosaukums dievu pulcēšanās augstākajam vadītājam, 13. gadsimta hronikās pierakstīts kā Mindaugas pielūgta dievība.",
+  },
+  attributes: ["Leadership", "Divine sovereignty", "Justice", "War", "Thunder"],
+  symbols: ["Lightning", "Scepter", "Oak tree", "Throne"],
+  locations: [],
+  region: { en: "Lithuania", lt: "Lietuva", lv: "Lietuva" },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "13th Century (Recorded)", lt: "XIII a. (užrašytas)", lv: "13. gadsimts (dokumentēts)" },
+  references: [
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)",
+    "Beresnevičius, Gintaras: Baltų religinės reformos (1995)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const pagirnisMeta: DeityMeta = {
+  slug: "pagirnis",
+  name: { en: "Pagirnis", lt: "Pagirnis", lv: "Pagirnis" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardian of the Quern",
+    lt: "Girnų sargas",
+    lv: "Dzirnakmens sargs",
+  },
+  summary: {
+    en: "Pagirnis is the Lithuanian spirit who dwells beneath the quern stone, guardian of the sacred grinding process by which grain becomes flour and the family's daily bread, invoked with offerings of the first flour before each grinding session.",
+    lt: "Pagirnis yra lietuvių dvasia, gyvenanti po girnomis, šventojo malimo proceso sargas, kuriam aukojama pirmoji miltų sauja.",
+    lv: "Pagirnis ir lietuviešu gars, kas apdzīvo dzirnakmens apakšu, svētā malšanas procesa sargs, kuram upuroja pirmos miltus.",
+  },
+  attributes: ["Quern stone", "Grain grinding", "Flour", "Domestic labour", "Bread"],
+  symbols: ["Quern stone", "Flour", "Grain", "Circle", "Sieve"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th–17th Century (Recorded)", lt: "XVI–XVII a. (užrašytas)", lv: "16.–17. gadsimts (dokumentēts)" },
+  references: [
+    "Jėzuitų santykiai (Annuae Litterae Societatis Jesu)",
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const jievarasMeta: DeityMeta = {
+  slug: "jievaras",
+  name: { en: "Jievaras", lt: "Jievaras", lv: "Jevars" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of the Last Sheaf",
+    lt: "Paskutinės varpos dvasia",
+    lv: "Pēdējās kūļa gars",
+  },
+  summary: {
+    en: "Jievaras is the Lithuanian harvest spirit personified by the last uncut stalks of grain, braided into the ceremonial Jievaro tiltas (Jievaras Bridge) at season's end to return the life-force of the field to the earth and ensure next year's abundance.",
+    lt: "Jievaras yra lietuvių derliaus dvasia, personifikuojama paskutinių nenupjautų javų stiebų, supinamų į ceremoninį Jievaro tiltą.",
+    lv: "Jievaras ir lietuviešu ražas gars, kas iemiesojas pēdējos nenocirstajos labības stieblos, kas pīti ceremoniskajā Jievaro tiltā.",
+  },
+  attributes: ["Harvest", "Last sheaf", "Fertility cycle", "Return of life-force"],
+  symbols: ["Braided grain", "Bread and salt", "Bridge", "Golden sheaf"],
+  locations: [],
+  region: { en: "Lithuania (Aukštaitija)", lt: "Lietuva (Aukštaitija)", lv: "Lietuva (Augšzeme)" },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "Medieval to 20th-Century Folklore", lt: "Viduramžiai – XX a. tautosaka", lv: "Viduslaiki – 20. gadsimta folklora" },
+  references: [
+    "Vėlius, Norbertas: Senovės baltų pasaulėžiūra (1983)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+  ],
+};
+
+export const atlaibosMeta: DeityMeta = {
+  slug: "atlaibos",
+  name: { en: "Atlaibos", lt: "Atlaibos", lv: "Atlaibos" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of Liberation and Release",
+    lt: "Išlaisvinimo ir paleidimo dvasia",
+    lv: "Atbrīvošanas un palaiduma gars",
+  },
+  summary: {
+    en: "Atlaibos is the Lithuanian spirit of liberation, the divine overseer of the release of prisoners and captives, invoked to loosen bonds and restore freedom to those held against their will.",
+    lt: "Atlaibos yra lietuvių išlaisvinimo dvasia, dieviškasis kalinių paleidimo prižiūrėtojas, šaukiamas pančiams atlaisvinti.",
+    lv: "Atlaibos ir lietuviešu atbrīvošanas gars, dievišķais gūstekņu atbrīvošanas uzraugs, piesaukts važu atraisīšanai.",
+  },
+  attributes: ["Liberation", "Release", "Prisoners", "Freedom", "Bonds"],
+  symbols: ["Broken chain", "Open hand", "Release keys"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+// ─── Batch 10 ────────────────────────────────────────────────────────────────
+
+export const ratainicaMeta: DeityMeta = {
+  slug: "ratainica",
+  name: { en: "Ratainyčia / Kremata / Mjurė / Meilus", lt: "Ratainyčia / Kremata / Mjurė / Meilus", lv: "Ratainyčia / Kremata / Mjurė / Meilus" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardians of Livestock and the Cart",
+    lt: "Gyvulių ir vežimo sargai",
+    lv: "Lopu un vezuma sargātāji",
+  },
+  summary: {
+    en: "Ratainyčia, Kremata, Mjurė, and Meilus are the specialized Lithuanian guardian spirits of wheels and carts, pigs, oxen, and goats respectively, each assigned to protect a specific segment of the farmstead's productive livestock and transport.",
+    lt: "Ratainyčia, Kremata, Mjurė ir Meilus yra specializuoti lietuvių ūkio sargai: ratų, kiaulių, jaučių ir ožkų globėjai.",
+    lv: "Ratainyčia, Kremata, Mjurė un Meilus ir specializēti lietuviešu sētas sargātāji: ratu, cūku, vēršu un kazu aizbildņi.",
+  },
+  attributes: ["Livestock", "Cart", "Wheels", "Pigs", "Oxen", "Goats", "Farmstead"],
+  symbols: ["Wheel", "Piglet", "Oxen yoke", "Goat horn"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const aspelenieMeta: DeityMeta = {
+  slug: "aspelenie",
+  name: { en: "Aspelenie / Gondu / Budintoja", lt: "Aspelenie / Gondu / Budintoja", lv: "Aspelenie / Gondu / Budintoja" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirits of Hearth, Forest Pasture, and Morning",
+    lt: "Grūšniaus, ganyklos ir ryto dvasios",
+    lv: "Pavarda, ganību un rīta gari",
+  },
+  summary: {
+    en: "Aspelenie dwells behind the hearth as protector of domestic peace and the sacred snake; Gondu watches over cattle pastured in the forest; Budintoja is the Waker who rouses the family from sleep each morning.",
+    lt: "Aspelenie gyvena prie žaizdro ir saugo namų ramybę; Gondu globoja miško gyvulius; Budintoja žadina šeimą kiekvieną rytą.",
+    lv: "Aspelenie mājo pie pavarda un sargā mājas mieru; Gondu uzrauga mežā ganāmos lopus; Budintoja ir modinātāja, kas katru rītu ceļ ģimeni.",
+  },
+  attributes: ["Hearth", "Domestic peace", "Cattle", "Forest pasture", "Morning", "Waking"],
+  symbols: ["Hearth snake", "Morning sunlight", "Pasture grass"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const kempeMeta: DeityMeta = {
+  slug: "kempe",
+  name: { en: "Kempe / Kempė", lt: "Kempė", lv: "Kempė" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of Beetles",
+    lt: "Vabalų dvasia",
+    lv: "Vaboles gars",
+  },
+  summary: {
+    en: "Kempė is the Lithuanian guardian spirit of beetles and cockchafers, recorded by Łasicki as invoked to protect crops from insect damage and to acknowledge the beetle's place in the natural order.",
+    lt: "Kempė yra lietuvių vabalų ir karkvabalių globėjas, Lasickio paminėtas kaip šauktinis apsaugai nuo vabzdžių žalos.",
+    lv: "Kempė ir lietuviešu vabolu un maijvabolu sargātāja, ko Łasickis piemin kā aizbildni pret kukaiņu radītajiem postījumiem.",
+  },
+  attributes: ["Beetles", "Insects", "Crops", "Natural order", "Soil"],
+  symbols: ["Beetle", "Cockchafer", "Hard shell"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const kaurirarisMeta: DeityMeta = {
+  slug: "kauriraris",
+  name: { en: "Kauriraris", lt: "Kauriraris", lv: "Kauriraris" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Spirit of Battle Heat and Warriors' Rage",
+    lt: "Mūšio karščio ir karių įniršio dvasia",
+    lv: "Kaujas karstuma un karotāju dusmu gars",
+  },
+  summary: {
+    en: "Kauriraris is an obscure Samogitian spirit of battle heat, recorded by Łasicki as associated with warhorse and combat fury, representing the divine force that drives warriors into a state of fighting frenzy.",
+    lt: "Kauriraris yra neaiški žemaitiška mūšio karščio dvasia, paminėta Lasickio, susijusi su karo žirgu ir kovos įniršiu.",
+    lv: "Kauriraris ir neskaidrs žemaišu kaujas karstuma gars, ko Łasickis piemin saistībā ar kaujas zirgu un cīņas dusmām.",
+  },
+  attributes: ["Battle", "Warhorse", "Fury", "Combat", "Warriors"],
+  symbols: ["Warhorse", "Spear", "Battle cry"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const kelukisMeta: DeityMeta = {
+  slug: "kelukis",
+  name: { en: "Kelukis / Gužė / Čiužė", lt: "Kelukis / Gužė / Čiužė", lv: "Kelukis / Gužė / Čiužė" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardians of Roads and Smooth Travel",
+    lt: "Kelių ir sklandžios kelionės sargai",
+    lv: "Ceļu un raitas ceļošanas sargātāji",
+  },
+  summary: {
+    en: "Kelukis is the divine master of roads, invoked at journey's start to ensure safe passage; Gužė and Čiužė are spirits of smooth travel, with Čiužė specifically embodying the effortless glide of winter sledge travel.",
+    lt: "Kelukis yra kelių dievas, šaukiamas prieš kelionę; Gužė ir Čiužė yra sklandaus judėjimo dvasios, o Čiužė įkūnija žiemos rogių slidimą.",
+    lv: "Kelukis ir ceļu dievs, ko piemin pirms ceļojuma; Gužė un Čiužė ir raitas pārvietošanās gari, Čiužė personificē ziemas kamanās slidināšanos.",
+  },
+  attributes: ["Roads", "Travel", "Crossroads", "Smooth passage", "Winter travel"],
+  symbols: ["Crossroads", "Walking stick", "Sleigh runner"],
+  locations: [],
+  region: { en: "Lithuania, Samogitia", lt: "Lietuva, Žemaitija", lv: "Lietuva, Žemaitija" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th–18th Century (Recorded)", lt: "XVI–XVIII a. (užrašytas)", lv: "16.–18. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Ruhig, Philipp: Littauisch-Deutsches und Deutsch-Littauisches Lexicon (1747)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+  ],
+};
+
+export const kurvaitisMeta: DeityMeta = {
+  slug: "kurvaitis",
+  name: { en: "Kurvaitis / Sveitiks / Aperušis", lt: "Kurvaitis / Sveitiks / Aperušis", lv: "Kurvaitis / Sveitiks / Aperušis" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardians of Foals, Guests, and the Harvest Threshold",
+    lt: "Kumeliukų, svečių ir derliaus slenksčio sargai",
+    lv: "Kumeļu, viesu un ražas sliekšņa sargātāji",
+  },
+  summary: {
+    en: "Kurvaitis guards young foals and ensures their growth; Sveitiks presides over guests and social transitions; Aperušis oversees the moment when harvested grain crosses from field to barn.",
+    lt: "Kurvaitis globoja kumeliukus; Sveitiks saugo svečių ir bendravimo papročius; Aperušis valdo grūdų perėjimą iš lauko į kluoną.",
+    lv: "Kurvaitis sargā kumeļus; Sveitiks uzrauga viesus un sociālās pārejas; Aperušis vada graudu pāreju no lauka uz šķūni.",
+  },
+  attributes: ["Foals", "Guests", "Harvest", "Thresholds", "Social transitions"],
+  symbols: ["Foal", "Open door", "Grain sack", "Threshold"],
+  locations: [],
+  region: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const upinisMeta: DeityMeta = {
+  slug: "upinis",
+  name: { en: "Upinis / Ežerinis", lt: "Upinis / Ežerinis", lv: "Upinis / Ežerinis" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Guardians of Rivers and Lakes",
+    lt: "Upių ir ežerų sargai",
+    lv: "Upju un ezeru sargātāji",
+  },
+  summary: {
+    en: "Upinis is the spirit of flowing rivers, invoked by fishermen and travelers for safe passage and a steady current; Ežerinis presides over still lake waters and controls the hidden depths and fish populations of the Baltic inland lakes.",
+    lt: "Upinis yra tekančių upių dvasia, šaukiama žvejų ir keliautojų apsaugai; Ežerinis valdo ežerų gelmes ir žuvų gausą.",
+    lv: "Upinis ir tekošo ūdens gars, ko piemin zvejnieki un ceļotāji drošai pārejai; Ežerinis valda ezeru klusās ūdens dzīles un zivju krājumus.",
+  },
+  attributes: ["Rivers", "Lakes", "Fish", "Water", "Safe passage", "Depths"],
+  symbols: ["River current", "Lake ripples", "Fish", "Fishing net", "Reed"],
+  locations: [],
+  region: { en: "Lithuania, Samogitia", lt: "Lietuva, Žemaitija", lv: "Lietuva, Žemaitija" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
+  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  references: [
+    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const deivesValdytojsMeta: DeityMeta = {
+  slug: "deives-valdytojos",
+  name: { en: "Deivės Valdytojos", lt: "Deivės Valdytojos", lv: "Deives Valdytojas" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "The Governing Goddesses — Weavers of Fate",
+    lt: "Valdančiosios deivės — likimo audėjos",
+    lv: "Pārvaldošās dievietes — likteņa audējas",
+  },
+  summary: {
+    en: "The Deivės Valdytojos are the collective group of governing goddesses who spin, weave, and cut the thread of human fate, functioning as the Baltic equivalent of the Moirai or Norns, operating alongside Laima as the functional laborers of destiny.",
+    lt: "Deivės Valdytojos yra kolektyvinė valdančiųjų deivių grupė, spinduliuojanti, audžianti ir kerpanti žmogaus likimo siūlą.",
+    lv: "Deives Valdytojas ir pārvaldošo dieviešu kolektīvā grupa, kas vērpj, auž un nogriež cilvēka likteņa pavedienu.",
+  },
+  attributes: ["Fate", "Destiny", "Weaving", "Spinning", "Life thread", "Cosmic order"],
+  symbols: ["Spindle", "Thread", "Loom", "Scissors", "Linen"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
+  period: { en: "Ancient to present folklore", lt: "Nuo seniausių laikų iki dabarties tautosakos", lv: "No senlaikiem līdz mūsdienu folklorai" },
+  references: [
+    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)",
+    "Greimas, Algirdas Julius: Apie dievus ir žmones (1979)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const deiveMeta: DeityMeta = {
+  slug: "deive",
+  name: { en: "Deivė", lt: "Deivė", lv: "Deive" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "The Divine Feminine — Generic Goddess Term",
+    lt: "Dieviškasis moteriškumas — bendrinis deivės pavadinimas",
+    lv: "Dievišķais sievišķums — vispārīgs dievietes apzīmējums",
+  },
+  summary: {
+    en: "Deivė is the generic Baltic term for a female deity, derived from Proto-Indo-European *deiw- (to shine), encompassing both high goddesses and the collective groups of supernatural women who persist in forest groves and meadows.",
+    lt: "Deivė yra bendrinis baltų moteriškos dievybės terminas, apimantis tiek aukštas deives, tiek kolektyvines antgamtinių moterų grupes.",
+    lv: "Deive ir vispārīgs baltu termins sieviešu dievietei, ko lieto augstām dievietēm un pārdabisko sieviešu kolektīviem.",
+  },
+  attributes: ["Female deity", "Fate", "Nature", "Weaving", "Sacred grove", "Household"],
+  symbols: ["Weaving loom", "Wool", "Bread", "Sacred grove"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
+  period: { en: "Proto-Baltic to present folklore", lt: "Nuo protobaltų iki dabarties tautosakos", lv: "No protobaltiem līdz mūsdienu folklorai" },
+  references: [
+    "Vėlius, Norbertas: Senovės baltų pasaulėžiūra (1983)",
+    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+  ],
+};
+
+export const girinisMeta: DeityMeta = {
+  slug: "girinis",
+  name: { en: "Girinis / Miškinis", lt: "Girinis / Miškinis", lv: "Meža vīrs" },
+  domain: "God",
+  culture: "LT",
+  title: {
+    en: "Lord of the Forest — Master of the Wild Woods",
+    lt: "Miško valdovas — laukinių girių šeimininkas",
+    lv: "Meža kungs — savvaļas koku valdnieks",
+  },
+  summary: {
+    en: "Girinis and Miškinis are the Lithuanian lords of the forest, ancient men with moss-covered skin who oversee wild animals and sacred trees, blessing hunters who show respect and leading astray those who transgress the woodland laws.",
+    lt: "Girinis ir Miškinis yra lietuvių miško valdovai, seni vyrai samanota oda, globojantys miško žvėris ir šventus medžius.",
+    lv: "Girinis un Miškinis ir lietuviešu meža kungi, veci sūnainādas vīri, kas uzrauga meža zvērus un svētos kokus.",
+  },
+  attributes: ["Forest", "Wild animals", "Sacred trees", "Hunting luck", "Guidance"],
+  symbols: ["Moss", "Pine cone", "Rowan staff", "Wolf", "Bear"],
+  locations: [],
+  region: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
+  period: { en: "Medieval to present folklore", lt: "Viduramžiai iki dabarties tautosakos", lv: "Viduslaiki līdz mūsdienu folklorai" },
+  references: [
+    "Basanavičius, Jonas: Lietuviškos pasakos (1898–1902)",
+    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
 };

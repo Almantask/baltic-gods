@@ -261,6 +261,131 @@ import CelaMateContentEn from "./gods/en/cela-mate.mdx";
 import CelaMateContentLt from "./gods/lt/cela-mate.mdx";
 import CelaMateContentLv from "./gods/lv/cela-mate.mdx";
 
+// Batch 7 — Gods (LT Nature / War / Pastoral)
+import GirstisContentEn from "./gods/en/girstis.mdx";
+import GirstisContentLt from "./gods/lt/girstis.mdx";
+import GirstisContentLv from "./gods/lv/girstis.mdx";
+import JundaContentEn from "./gods/en/junda.mdx";
+import JundaContentLt from "./gods/lt/junda.mdx";
+import JundaContentLv from "./gods/lv/junda.mdx";
+import KovasContentEn from "./gods/en/kovas.mdx";
+import KovasContentLt from "./gods/lt/kovas.mdx";
+import KovasContentLv from "./gods/lv/kovas.mdx";
+import LinksmineContentEn from "./gods/en/linksmine.mdx";
+import LinksmineContentLt from "./gods/lt/linksmine.mdx";
+import LinksmineContentLv from "./gods/lv/linksmine.mdx";
+import RasaContentEn from "./gods/en/rasa.mdx";
+import RasaContentLt from "./gods/lt/rasa.mdx";
+import RasaContentLv from "./gods/lv/rasa.mdx";
+import GardaitisContentEn from "./gods/en/gardaitis.mdx";
+import GardaitisContentLt from "./gods/lt/gardaitis.mdx";
+import GardaitisContentLv from "./gods/lv/gardaitis.mdx";
+import GaniklisContentEn from "./gods/en/ganiklis.mdx";
+import GaniklisContentLt from "./gods/lt/ganiklis.mdx";
+import GaniklisContentLv from "./gods/lv/ganiklis.mdx";
+import JavineContentEn from "./gods/en/javine.mdx";
+import JavineContentLt from "./gods/lt/javine.mdx";
+import JavineContentLv from "./gods/lv/javine.mdx";
+import GeguteContentEn from "./gods/en/gegute.mdx";
+import GeguteContentLt from "./gods/lt/gegute.mdx";
+import GeguteContentLv from "./gods/lv/gegute.mdx";
+import PergrubrijusContentEn from "./gods/en/pergrubrijus.mdx";
+import PergrubrijusContentLt from "./gods/lt/pergrubrijus.mdx";
+import PergrubrijusContentLv from "./gods/lv/pergrubrijus.mdx";
+// Batch 8
+import IndrajaContentEn from "./gods/en/indraja.mdx";
+import IndrajaContentLt from "./gods/lt/indraja.mdx";
+import IndrajaContentLv from "./gods/lv/indraja.mdx";
+import VaivaContentEn from "./gods/en/vaiva.mdx";
+import VaivaContentLt from "./gods/lt/vaiva.mdx";
+import VaivaContentLv from "./gods/lv/vaiva.mdx";
+import BubilasContentEn from "./gods/en/bubilas.mdx";
+import BubilasContentLt from "./gods/lt/bubilas.mdx";
+import BubilasContentLv from "./gods/lv/bubilas.mdx";
+import MildaContentEn from "./gods/en/milda.mdx";
+import MildaContentLt from "./gods/lt/milda.mdx";
+import MildaContentLv from "./gods/lv/milda.mdx";
+import AsviniaiContentEn from "./gods/en/asvieniai.mdx";
+import AsviniaiContentLt from "./gods/lt/asvieniai.mdx";
+import AsviniaiContentLv from "./gods/lv/asvieniai.mdx";
+import ErketusContentEn from "./gods/en/erketus.mdx";
+import ErketusContentLt from "./gods/lt/erketus.mdx";
+import ErketusContentLv from "./gods/lv/erketus.mdx";
+import VeliuonaContentEn from "./gods/en/veliuona.mdx";
+import VeliuonaContentLt from "./gods/lt/veliuona.mdx";
+import VeliuonaContentLv from "./gods/lv/veliuona.mdx";
+import LauksargisContentEn from "./gods/en/lauksargis.mdx";
+import LauksargisContentLt from "./gods/lt/lauksargis.mdx";
+import LauksargisContentLv from "./gods/lv/lauksargis.mdx";
+import DrebkulysContentEn from "./gods/en/drebkulys.mdx";
+import DrebkulysContentLt from "./gods/lt/drebkulys.mdx";
+import DrebkulysContentLv from "./gods/lv/drebkulys.mdx";
+import ApidemeMdxContentEn from "./gods/en/apideme.mdx";
+import ApidemeMdxContentLt from "./gods/lt/apideme.mdx";
+import ApidemeMdxContentLv from "./gods/lv/apideme.mdx";
+// Batch 9
+import SietynasContentEn from "./gods/en/sietynas.mdx";
+import SietynasContentLt from "./gods/lt/sietynas.mdx";
+import SietynasContentLv from "./gods/lv/sietynas.mdx";
+import RungisContentEn from "./gods/en/rungis.mdx";
+import RungisContentLt from "./gods/lt/rungis.mdx";
+import RungisContentLv from "./gods/lv/rungis.mdx";
+import KizmasContentEn from "./gods/en/kizmas.mdx";
+import KizmasContentLt from "./gods/lt/kizmas.mdx";
+import KizmasContentLv from "./gods/lv/kizmas.mdx";
+import SamanisContentEn from "./gods/en/samanis.mdx";
+import SamanisContentLt from "./gods/lt/samanis.mdx";
+import SamanisContentLv from "./gods/lv/samanis.mdx";
+import KrumineContentEn from "./gods/en/krumine.mdx";
+import KrumineContentLt from "./gods/lt/krumine.mdx";
+import KrumineContentLv from "./gods/lv/krumine.mdx";
+import LazdonaContentEn from "./gods/en/lazdona.mdx";
+import LazdonaContentLt from "./gods/lt/lazdona.mdx";
+import LazdonaContentLv from "./gods/lv/lazdona.mdx";
+import DiviriksContentEn from "./gods/en/diviriks.mdx";
+import DiviriksContentLt from "./gods/lt/diviriks.mdx";
+import DiviriksContentLv from "./gods/lv/diviriks.mdx";
+import PagirnisMdxContentEn from "./gods/en/pagirnis.mdx";
+import PagirnisMdxContentLt from "./gods/lt/pagirnis.mdx";
+import PagirnisMdxContentLv from "./gods/lv/pagirnis.mdx";
+import JievarasContentEn from "./gods/en/jievaras.mdx";
+import JievarasContentLt from "./gods/lt/jievaras.mdx";
+import JievarasContentLv from "./gods/lv/jievaras.mdx";
+import AtlaibosContentEn from "./gods/en/atlaibos.mdx";
+import AtlaibosContentLt from "./gods/lt/atlaibos.mdx";
+import AtlaibosContentLv from "./gods/lv/atlaibos.mdx";
+// Batch 10
+import RatainicaContentEn from "./gods/en/ratainica.mdx";
+import RatainicaContentLt from "./gods/lt/ratainica.mdx";
+import RatainicaContentLv from "./gods/lv/ratainica.mdx";
+import AspelenieContentEn from "./gods/en/aspelenie.mdx";
+import AspelenieContentLt from "./gods/lt/aspelenie.mdx";
+import AspelenieContentLv from "./gods/lv/aspelenie.mdx";
+import KempeContentEn from "./gods/en/kempe.mdx";
+import KempeContentLt from "./gods/lt/kempe.mdx";
+import KempeContentLv from "./gods/lv/kempe.mdx";
+import KaurirarisContentEn from "./gods/en/kauriraris.mdx";
+import KaurirarisContentLt from "./gods/lt/kauriraris.mdx";
+import KaurirarisContentLv from "./gods/lv/kauriraris.mdx";
+import KelukisContentEn from "./gods/en/kelukis.mdx";
+import KelukisContentLt from "./gods/lt/kelukis.mdx";
+import KelukisContentLv from "./gods/lv/kelukis.mdx";
+import KurvaitisContentEn from "./gods/en/kurvaitis.mdx";
+import KurvaitisContentLt from "./gods/lt/kurvaitis.mdx";
+import KurvaitisContentLv from "./gods/lv/kurvaitis.mdx";
+import UpinisContentEn from "./gods/en/upinis.mdx";
+import UpinisContentLt from "./gods/lt/upinis.mdx";
+import UpinisContentLv from "./gods/lv/upinis.mdx";
+import DeivesValdytojasContentEn from "./gods/en/deives-valdytojos.mdx";
+import DeivesValdytojasContentLt from "./gods/lt/deives-valdytojos.mdx";
+import DeivesValdytojasContentLv from "./gods/lv/deives-valdytojos.mdx";
+import DeiveContentEn from "./gods/en/deive.mdx";
+import DeiveContentLt from "./gods/lt/deive.mdx";
+import DeiveContentLv from "./gods/lv/deive.mdx";
+import GirinisContentEn from "./gods/en/girinis.mdx";
+import GirinisContentLt from "./gods/lt/girinis.mdx";
+import GirinisContentLv from "./gods/lv/girinis.mdx";
+
 import {
   aitvarasMeta,
   auschautsMeta,
@@ -344,6 +469,50 @@ import {
   tirumaMateMetaData,
   kapuMateMetaData,
   celaMateMetaData,
+  // Batch 7
+  girstisMeta,
+  jundaMeta,
+  kovasMeta,
+  linksmineMeta,
+  rasaMeta,
+  gardaitisMeta,
+  ganiklisMeta,
+  javineMeta,
+  geguteMeta,
+  pergrubrijusMeta,
+  // Batch 8
+  indrajaMeta,
+  vaivaMeta,
+  bubilasMeta,
+  mildaMeta,
+  asviniaiMeta,
+  erketusMeta,
+  veliuonaMeta,
+  lauksargisMeta,
+  drebkulysMeta,
+  apidemeMeta,
+  // Batch 9
+  sietynasMeta,
+  rungisMeta,
+  kizmasMeta,
+  samanisMeta,
+  krumineMeta,
+  lazdonaMeta,
+  diviriksMeta,
+  pagirnisMeta,
+  jievarasMeta,
+  atlaibosMeta,
+  // Batch 10
+  ratainicaMeta,
+  aspelenieMeta,
+  kempeMeta,
+  kaurirarisMeta,
+  kelukisMeta,
+  kurvaitisMeta,
+  upinisMeta,
+  deivesValdytojsMeta,
+  deiveMeta,
+  girinisMeta,
 } from "./meta";
 
 export const deities: DeityEntry[] = [
@@ -430,6 +599,50 @@ export const deities: DeityEntry[] = [
   { meta: tirumaMateMetaData, Content: TirumaMateContentEn, contentByLang: { en: TirumaMateContentEn, lt: TirumaMateContentLt, lv: TirumaMateContentLv } },
   { meta: kapuMateMetaData, Content: KapuMateContentEn, contentByLang: { en: KapuMateContentEn, lt: KapuMateContentLt, lv: KapuMateContentLv } },
   { meta: celaMateMetaData, Content: CelaMateContentEn, contentByLang: { en: CelaMateContentEn, lt: CelaMateContentLt, lv: CelaMateContentLv } },
+  // Batch 7
+  { meta: girstisMeta, Content: GirstisContentEn, contentByLang: { en: GirstisContentEn, lt: GirstisContentLt, lv: GirstisContentLv } },
+  { meta: jundaMeta, Content: JundaContentEn, contentByLang: { en: JundaContentEn, lt: JundaContentLt, lv: JundaContentLv } },
+  { meta: kovasMeta, Content: KovasContentEn, contentByLang: { en: KovasContentEn, lt: KovasContentLt, lv: KovasContentLv } },
+  { meta: linksmineMeta, Content: LinksmineContentEn, contentByLang: { en: LinksmineContentEn, lt: LinksmineContentLt, lv: LinksmineContentLv } },
+  { meta: rasaMeta, Content: RasaContentEn, contentByLang: { en: RasaContentEn, lt: RasaContentLt, lv: RasaContentLv } },
+  { meta: gardaitisMeta, Content: GardaitisContentEn, contentByLang: { en: GardaitisContentEn, lt: GardaitisContentLt, lv: GardaitisContentLv } },
+  { meta: ganiklisMeta, Content: GaniklisContentEn, contentByLang: { en: GaniklisContentEn, lt: GaniklisContentLt, lv: GaniklisContentLv } },
+  { meta: javineMeta, Content: JavineContentEn, contentByLang: { en: JavineContentEn, lt: JavineContentLt, lv: JavineContentLv } },
+  { meta: geguteMeta, Content: GeguteContentEn, contentByLang: { en: GeguteContentEn, lt: GeguteContentLt, lv: GeguteContentLv } },
+  { meta: pergrubrijusMeta, Content: PergrubrijusContentEn, contentByLang: { en: PergrubrijusContentEn, lt: PergrubrijusContentLt, lv: PergrubrijusContentLv } },
+  // Batch 8
+  { meta: indrajaMeta, Content: IndrajaContentEn, contentByLang: { en: IndrajaContentEn, lt: IndrajaContentLt, lv: IndrajaContentLv } },
+  { meta: vaivaMeta, Content: VaivaContentEn, contentByLang: { en: VaivaContentEn, lt: VaivaContentLt, lv: VaivaContentLv } },
+  { meta: bubilasMeta, Content: BubilasContentEn, contentByLang: { en: BubilasContentEn, lt: BubilasContentLt, lv: BubilasContentLv } },
+  { meta: mildaMeta, Content: MildaContentEn, contentByLang: { en: MildaContentEn, lt: MildaContentLt, lv: MildaContentLv } },
+  { meta: asviniaiMeta, Content: AsviniaiContentEn, contentByLang: { en: AsviniaiContentEn, lt: AsviniaiContentLt, lv: AsviniaiContentLv } },
+  { meta: erketusMeta, Content: ErketusContentEn, contentByLang: { en: ErketusContentEn, lt: ErketusContentLt, lv: ErketusContentLv } },
+  { meta: veliuonaMeta, Content: VeliuonaContentEn, contentByLang: { en: VeliuonaContentEn, lt: VeliuonaContentLt, lv: VeliuonaContentLv } },
+  { meta: lauksargisMeta, Content: LauksargisContentEn, contentByLang: { en: LauksargisContentEn, lt: LauksargisContentLt, lv: LauksargisContentLv } },
+  { meta: drebkulysMeta, Content: DrebkulysContentEn, contentByLang: { en: DrebkulysContentEn, lt: DrebkulysContentLt, lv: DrebkulysContentLv } },
+  { meta: apidemeMeta, Content: ApidemeMdxContentEn, contentByLang: { en: ApidemeMdxContentEn, lt: ApidemeMdxContentLt, lv: ApidemeMdxContentLv } },
+  // Batch 9
+  { meta: sietynasMeta, Content: SietynasContentEn, contentByLang: { en: SietynasContentEn, lt: SietynasContentLt, lv: SietynasContentLv } },
+  { meta: rungisMeta, Content: RungisContentEn, contentByLang: { en: RungisContentEn, lt: RungisContentLt, lv: RungisContentLv } },
+  { meta: kizmasMeta, Content: KizmasContentEn, contentByLang: { en: KizmasContentEn, lt: KizmasContentLt, lv: KizmasContentLv } },
+  { meta: samanisMeta, Content: SamanisContentEn, contentByLang: { en: SamanisContentEn, lt: SamanisContentLt, lv: SamanisContentLv } },
+  { meta: krumineMeta, Content: KrumineContentEn, contentByLang: { en: KrumineContentEn, lt: KrumineContentLt, lv: KrumineContentLv } },
+  { meta: lazdonaMeta, Content: LazdonaContentEn, contentByLang: { en: LazdonaContentEn, lt: LazdonaContentLt, lv: LazdonaContentLv } },
+  { meta: diviriksMeta, Content: DiviriksContentEn, contentByLang: { en: DiviriksContentEn, lt: DiviriksContentLt, lv: DiviriksContentLv } },
+  { meta: pagirnisMeta, Content: PagirnisMdxContentEn, contentByLang: { en: PagirnisMdxContentEn, lt: PagirnisMdxContentLt, lv: PagirnisMdxContentLv } },
+  { meta: jievarasMeta, Content: JievarasContentEn, contentByLang: { en: JievarasContentEn, lt: JievarasContentLt, lv: JievarasContentLv } },
+  { meta: atlaibosMeta, Content: AtlaibosContentEn, contentByLang: { en: AtlaibosContentEn, lt: AtlaibosContentLt, lv: AtlaibosContentLv } },
+  // Batch 10
+  { meta: ratainicaMeta, Content: RatainicaContentEn, contentByLang: { en: RatainicaContentEn, lt: RatainicaContentLt, lv: RatainicaContentLv } },
+  { meta: aspelenieMeta, Content: AspelenieContentEn, contentByLang: { en: AspelenieContentEn, lt: AspelenieContentLt, lv: AspelenieContentLv } },
+  { meta: kempeMeta, Content: KempeContentEn, contentByLang: { en: KempeContentEn, lt: KempeContentLt, lv: KempeContentLv } },
+  { meta: kaurirarisMeta, Content: KaurirarisContentEn, contentByLang: { en: KaurirarisContentEn, lt: KaurirarisContentLt, lv: KaurirarisContentLv } },
+  { meta: kelukisMeta, Content: KelukisContentEn, contentByLang: { en: KelukisContentEn, lt: KelukisContentLt, lv: KelukisContentLv } },
+  { meta: kurvaitisMeta, Content: KurvaitisContentEn, contentByLang: { en: KurvaitisContentEn, lt: KurvaitisContentLt, lv: KurvaitisContentLv } },
+  { meta: upinisMeta, Content: UpinisContentEn, contentByLang: { en: UpinisContentEn, lt: UpinisContentLt, lv: UpinisContentLv } },
+  { meta: deivesValdytojsMeta, Content: DeivesValdytojasContentEn, contentByLang: { en: DeivesValdytojasContentEn, lt: DeivesValdytojasContentLt, lv: DeivesValdytojasContentLv } },
+  { meta: deiveMeta, Content: DeiveContentEn, contentByLang: { en: DeiveContentEn, lt: DeiveContentLt, lv: DeiveContentLv } },
+  { meta: girinisMeta, Content: GirinisContentEn, contentByLang: { en: GirinisContentEn, lt: GirinisContentLt, lv: GirinisContentLv } },
 ];
 
 export const deityBySlug = Object.fromEntries(
