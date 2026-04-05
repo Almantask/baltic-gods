@@ -176,12 +176,12 @@
 - [x] **Vėjopatis** (Wind God, Lord of Dausos / Afterlife) — *implemented (meta.ts + mdx)*; Łas, VLE; *"vėjo pats" = Lord of Wind; guides souls*
 - [x] **Javinė** (Grain Protection Goddess, Barn Guardian) — *implemented (meta.ts + mdx)*; Łas, VLE, folk
 - [x] **Jievaras** (Harvest Spirit, Last-Sheaf Ritual Figure) — *implemented (meta.ts + mdx)* — *[Details](translations/jievaras.md)*; folk, VLE; *braiding the last rye stalks*
-- [/] **Pagirinis** (House-Snake Spirit, Grass Snake Guardian) — *[Details](translations/pagirinis.md)*; folk, Vel2; *sacred žaltys keeper*
+- [x] **Pagirinis** (House-Snake Spirit, Grass Snake Guardian) — *implemented (meta.ts + mdx)* — *[Details](translations/pagirinis.md)*; folk, Vel2; *sacred žaltys keeper*
 - [x] **Slogutis** (Nightmare Spirit, Sleep Paralysis) — *implemented (meta.ts + mdx)*; folk tradition, VLE, Vel
 
 #### Celestial / Cosmic — Additional
-- [/] **Kalvelis / Kalvis** (Celestial Smith — variant name for Teliavelis) — *[Details](translations/kalvelis.md)*; Hyp, Vel; *sometimes listed separately*
-- [/] **Vaivora** (Rainbow Goddess — variant of Vaiva) — *[Details](translations/vaiva.md)*; folk; *regional variant*
+- [x] **Kalvelis / Kalvis** (Celestial Smith — variant name for Teliavelis) — *implemented (meta.ts + mdx)* — *[Details](translations/kalvelis.md)*; Hyp, Vel; *sometimes listed separately*
+- [x] **Vaivora** (Rainbow Goddess — variant of Vaiva) — *implemented (meta.ts + mdx)* — *[Details](translations/vaiva.md)*; folk; *regional variant*
 
 #### Debated / Later Recorded
 - [x] **Milda** (Love, Beauty) — *implemented (meta.ts + mdx)*; Nar; 19th-c. Romantic reconstruction — *flagged as disputed*
@@ -189,78 +189,78 @@
 - [x] **Bubilas** (Honey Bees, Drones — male companion to Austėja) — *implemented (meta.ts + mdx)* — *[Details](translations/bubilas.md)*; Łas
 - [x] **Lauksargis / Laukpatis** (Field Guardian, Boundary Spirit) — *implemented (meta.ts + mdx)*; folk, Łas, VLE; *"Lauksargis laukų sargas"*
 - [x] **Apidėmė / Apidome** (Old Farmstead/Boundary Spirit) — *implemented (meta.ts + mdx)*; Łas
-- [/] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *[Details](translations/brewing_hearth.md)*; Łas
-- [/] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *[Details](translations/sutvaras.md)*; Łas, VLE
-- [/] **Bentis / Derintojas** (Travel, Social Peace, Reconciliation) — *[Details](translations/social_mediators.md)*; Łas
+- [x] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *implemented (meta.ts + mdx)* — *[Details](translations/brewing_hearth.md)*; Łas
+- [x] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *implemented (meta.ts + mdx)* — *[Details](translations/sutvaras.md)*; Łas, VLE
+- [x] **Bentis / Derintojas** (Travel, Social Peace, Reconciliation) — *implemented (meta.ts + mdx)* — *[Details](translations/social_mediators.md)*; Łas
 - [x] **Laza / Lazdona** (Hazel trees and nuts) — *implemented (meta.ts + mdx)* — *[Details](translations/lazdona.md)*; Łas, VLE; *see also entry 109*
-- [/] **Tavalas** (Boundaries, Property Order) — *[Details](translations/tavalas.md)*; Łas
-- [/] **Gulbis** (Guardian Spirit, Swan) — *[Details](translations/gulbis.md)*; Łas, folk
-- [ ] **Girstis / Giraitis** (Forest groves, Woods) — sourced at entry 106; Łas
-- [/] **Ugniažaltis** (Fiery Snake, Fire-Snake Spirit) — *[Details](translations/ugniazaltis.md)*; folk, Vel2
+- [x] **Tavalas** (Boundaries, Property Order) — *implemented (meta.ts + mdx)* — *[Details](translations/tavalas.md)*; Łas
+- [x] **Gulbis** (Guardian Spirit, Swan) — *implemented (meta.ts + mdx)* — *[Details](translations/gulbis.md)*; Łas, folk
+- [x] **Girstis / Giraitis** (Forest groves, Woods) — *implemented (meta.ts + mdx)*; Łas
+- [x] **Ugniažaltis** (Fiery Snake, Fire-Snake Spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/ugniazaltis.md)*; folk, Vel2
 
 ### Łasicki Remainder (entries 50–73, via Mierzyński)
 - [x] **Apidėmė / Apidome** (Old Farmstead/Boundary Spirit) — *implemented (meta.ts + mdx)*; Łas
-- [/] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *[Details](translations/brewing_hearth.md)*; Łas
-- [/] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *[Details](translations/sutvaras.md)*; Łas
+- [x] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *implemented (meta.ts + mdx)* — *[Details](translations/brewing_hearth.md)*; Łas
+- [x] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *implemented (meta.ts + mdx)* — *[Details](translations/sutvaras.md)*; Łas
 - [/] **Tavalis** (Cattle Barn Spirit) — *[Details](translations/tavalas.md)*; Łas; *"Tavalem pro bobus in stabulo"*
 - [/] **Tiklis** (Fortune, Good Luck) — *[Details](translations/tiklis.md)*; Łas; *"Tiklium pro fortunato successu"*
-- [/] **Srutis** (River Current — distinct from Upinis) — *[Details](translations/water_spirits.md)*; Łas, Mierz; *"Srutim pro flumine"*
+- [x] **Srutis** (River Current — distinct from Upinis) — *implemented (meta.ts + mdx)* — *[Details](translations/water_spirits.md)*; Łas, Mierz; *"Srutim pro flumine"*
 - [/] **Algis / Algė** (Angel/Messenger — pre-Christian intermediary) — *[Details](translations/messenger_spirits.md)*; Łas, Mierz; *"Algi tanquam angelum"*
-- [/] **Ausklauts / Ausklaitis** (Listening God — moral auditor) — *[Details](translations/ausklauts.md)*; Łas, Malec
+- [x] **Ausklauts / Ausklaitis** (Listening God — moral auditor) — *implemented (meta.ts + mdx)* — *[Details](translations/ausklauts.md)*; Łas, Malec
 - [/] **Bendikas / Bendis** (Journeyer's Protector) — *[Details](translations/bendikas.md)*; Łas, Mierz; *"Bendim pro peregrinatione"*
-- [/] **Prigirstis** (Listening Spirit — hears prayers) — *[Details](translations/moral_ritual_spirits.md)*; Łas, Mierz; *"Prigirszczium, qui audire facit"*
+- [x] **Prigirstis** (Listening Spirit — hears prayers) — *implemented (meta.ts + mdx)* — *[Details](translations/moral_ritual_spirits.md)*; Łas, Mierz; *"Prigirszczium, qui audire facit"*
 - [/] **Šlaitis** (Hillside Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szlaitym pro declivitate"*
-- [/] **Skalsa** (Abundance of Household) — *[Details](translations/household_spirits.md)*; Łas, Mierz; *"Skalsam pro abundantia domestica"*
+- [x] **Skalsa** (Abundance of Household) — *implemented (meta.ts + mdx)* — *[Details](translations/household_spirits.md)*; Łas, Mierz; *"Skalsam pro abundantia domestica"*
 - [/] **Vetušis / Vetustis** (Storm Demon, violent wind) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Vetuszim pro tempestate"*
 - [/] **Šaukstis** (Fly/Insect Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szuksztim pro muscis"*
-- [/] **Salaus** (Sweetness Spirit — honey-mead) — *[Details](translations/brewing_hearth.md)*; Łas, Mierz; *"Salaum pro dulcamine"*
+- [x] **Salaus** (Sweetness Spirit — honey-mead) — *implemented (meta.ts + mdx)* — *[Details](translations/brewing_hearth.md)*; Łas, Mierz; *"Salaum pro dulcamine"*
 
 #### From Długosz *Annales* (1455) — Roman-mapped
-- [/] **Gulbi** (Vulcan analogue — fire, smithing) — *[Details](translations/gulbis_spirit.md)*; Dlug; *"Gulbi, quem pro Vulcano habebant"*
-- [/] **Lietuvonis** (Mars analogue — national war-god) — *[Details](translations/lietuvonis.md)*; Dlug; *"Lietuvonem, quem pro Marte"*
-- [/] **Kirkis** (Ceres analogue — harvest, distinct from Kirnis) — *[Details](translations/kirkis.md)*; Dlug; *"Kirki pro Cerere"*
-- [/] **Pizius** (Saturn analogue — time, cosmic order) — *[Details](translations/pizius.md)*; Dlug; *"Pizium pro Saturno"; possible Praamžius variant*
+- [x] **Gulbi** (Vulcan analogue — fire, smithing) — *implemented (meta.ts + mdx)* — *[Details](translations/gulbis_spirit.md)*; Dlug; *"Gulbi, quem pro Vulcano habebant"*
+- [x] **Lietuvonis** (Mars analogue — national war-god) — *implemented (meta.ts + mdx)* — *[Details](translations/lietuvonis.md)*; Dlug; *"Lietuvonem, quem pro Marte"*
+- [x] **Kirkis** (Ceres analogue — harvest, distinct from Kirnis) — *implemented (meta.ts + mdx)* — *[Details](translations/kirkis.md)*; Dlug; *"Kirki pro Cerere"*
+- [x] **Pizius** (Saturn analogue — time, cosmic order) — *implemented (meta.ts + mdx)* — *[Details](translations/pizius.md)*; Dlug; *"Pizium pro Saturno"; possible Praamžius variant*
 
 #### From Malecki *Libellus* (16th c.)
-- [/] **Devintos** (Sacred Number Nine deity — multiplication) — *[Details](translations/devintos.md)*; Malec; *connected to 9-herb rituals*
-- [/] **Perkūnas Tikras** (True Perkūnas — supreme thunder epithet) — *[Details](translations/perkunas_tikras.md)*; Malec
+- [x] **Devintos** (Sacred Number Nine deity — multiplication) — *implemented (meta.ts + mdx)* — *[Details](translations/devintos.md)*; Malec; *connected to 9-herb rituals*
+- [x] **Perkūnas Tikras** (True Perkūnas — supreme thunder epithet) — *implemented (meta.ts + mdx)* — *[Details](translations/perkunas_tikras.md)*; Malec
 
 #### From Mierzyński / Būga reconstructions
-- [/] **Giraitis** (Dense Forest Spirit — distinct from Girinis) — *[Details](translations/giraitis.md)*; Mierz
-- [/] **Laukpatis / Lauksargis** (Field Lord / Field Guardian) — *[Details](translations/field_lords.md)*; Mierz
-- [/] **Žemininkas** (Earth/Underground Collective Spirit) — *[Details](translations/zemininkas.md)*; Mierz
+- [x] **Giraitis** (Dense Forest Spirit — distinct from Girinis) — *implemented (meta.ts + mdx)* — *[Details](translations/giraitis.md)*; Mierz
+- [x] **Laukpatis / Lauksargis** (Field Lord / Field Guardian) — *implemented (meta.ts + mdx)* — *[Details](translations/field_lords.md)*; Mierz
+- [x] **Žemininkas** (Earth/Underground Collective Spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/zemininkas.md)*; Mierz
 
 #### From Greimas *Of Gods and Men* (semiotic)
-- [/] **Dausos** (Paradise/Afterlife Realm) — *[Details](translations/dausos.md)*; Grei
-- [/] **Laimė (abstract)** (Personified Fortune — distinct from goddess Laima) — *[Details](translations/laime_abstract.md)*; Grei
-- [/] **Negali** (Impossibility / Cosmic Barrier) — *[Details](translations/negali.md)*; Grei, Dlug
-- [/] **Dievaitis** (Little God / Diminutive Sky God — folk prayer figure) — *[Details](translations/dievaitis.md)*; Grei, folk, Būga
+- [x] **Dausos** (Paradise/Afterlife Realm) — *implemented (meta.ts + mdx)* — *[Details](translations/dausos.md)*; Grei
+- [x] **Laimė (abstract)** (Personified Fortune — distinct from goddess Laima) — *implemented (meta.ts + mdx)* — *[Details](translations/laime_abstract.md)*; Grei
+- [x] **Negali** (Impossibility / Cosmic Barrier) — *implemented (meta.ts + mdx)* — *[Details](translations/negali.md)*; Grei, Dlug
+- [x] **Dievaitis** (Little God / Diminutive Sky God — folk prayer figure) — *implemented (meta.ts + mdx)* — *[Details](translations/dievaitis.md)*; Grei, folk, Būga
 
 #### From Gimbutas — Archaeological reconstructions
-- [/] **Bird Goddess (Paukščių deivė)** (Neolithic messenger deity) — *[Details](translations/bird_goddess.md)*; Gimb
-- [/] **Snake Goddess (Gyvatės deivė)** (Neolithic survival, regeneration) — *[Details](translations/snake_goddess.md)*; Gimb; *linked to žaltys cult*
-- [/] **White Lady / Baltoji Ponia** (Death figure, psychopomp in white) — *[Details](translations/white_lady.md)*; Gimb, folk
-- [/] **Deer Mother (Elnių motina)** (Forest protectress, pre-IE substrate) — *[Details](translations/deer_mother.md)*; Gimb
+- [x] **Bird Goddess (Paukščių deivė)** (Neolithic messenger deity) — *implemented (meta.ts + mdx)* — *[Details](translations/bird_goddess.md)*; Gimb
+- [x] **Snake Goddess (Gyvatės deivė)** (Neolithic survival, regeneration) — *implemented (meta.ts + mdx)* — *[Details](translations/snake_goddess.md)*; Gimb; *linked to žaltys cult*
+- [x] **White Lady / Baltoji Ponia** (Death figure, psychopomp in white) — *implemented (meta.ts + mdx)* — *[Details](translations/white_lady.md)*; Gimb, folk
+- [x] **Deer Mother (Elnių motina)** (Forest protectress, pre-IE substrate) — *implemented (meta.ts + mdx)* — *[Details](translations/deer_mother.md)*; Gimb
 
 #### From Beresnevičius (2004)
-- [/] **Velnio motina** (Mother of Velnias, Underworld Matriarch) — *[Details](translations/velnio_motina.md)*; Ber
-- [/] **Aušra** (Dawn personified — distinct from Aušrinė) — *[Details](translations/ausra.md)*; Ber; *"aušra" = dawn light*
-- [/] **Spindulys** (Ray of Light, Solar Emanation) — *[Details](translations/spindulys.md)*; Ber, folk
-- [/] **Maro deivė** (Plague Goddess — distinct from Giltinė) — *[Details](translations/maro_deive.md)*; Ber
-- [/] **Pjūties dievas** (Harvest God, Autumn Reaper) — *[Details](translations/pjutis_dievas.md)*; Ber
+- [x] **Velnio motina** (Mother of Velnias, Underworld Matriarch) — *implemented (meta.ts + mdx)* — *[Details](translations/velnio_motina.md)*; Ber
+- [x] **Aušra** (Dawn personified — distinct from Aušrinė) — *implemented (meta.ts + mdx)* — *[Details](translations/ausra.md)*; Ber; *"aušra" = dawn light*
+- [x] **Spindulys** (Ray of Light, Solar Emanation) — *implemented (meta.ts + mdx)* — *[Details](translations/spindulys.md)*; Ber, folk
+- [x] **Maro deivė** (Plague Goddess — distinct from Giltinė) — *implemented (meta.ts + mdx)* — *[Details](translations/maro_deive.md)*; Ber
+- [x] **Pjūties dievas** (Harvest God, Autumn Reaper) — *implemented (meta.ts + mdx)* — *[Details](translations/pjutis_dievas.md)*; Ber
 
 #### From Laurinkienė — Perkūnas complex
-- [/] **Perkūno oželis** (Thunder Goat — celestial mount) — *[Details](translations/perkuno_ozelis.md)*; Laur; *goat-drawn chariot; parallels Norse Thor*
-- [/] **Perkūno kulka** (Thunderstone / belemnite fossils) — *[Details](translations/perkuno_kulka.md)*; Laur, folk; *found after storms; folk medicine*
-- [/] **Perkūno rykštė** (Lightning Bolt personified) — *[Details](translations/perkuno_rykste.md)*; Bal, Laur
+- [x] **Perkūno oželis** (Thunder Goat — celestial mount) — *implemented (meta.ts + mdx)* — *[Details](translations/perkuno_ozelis.md)*; Laur; *goat-drawn chariot; parallels Norse Thor*
+- [x] **Perkūno kulka** (Thunderstone / belemnite fossils) — *implemented (meta.ts + mdx)* — *[Details](translations/perkuno_kulka.md)*; Laur, folk; *found after storms; folk medicine*
+- [x] **Perkūno rykštė** (Lightning Bolt personified) — *implemented (meta.ts + mdx)* — *[Details](translations/perkuno_rykste.md)*; Bal, Laur
 
 #### From Balys folk-belief index
-- [/] **Pinčukas** (Regional Devil of Biržai lake) — *[Details](translations/pincukas.md)*; Bal; *builds bridge, sinks church*
-- [/] **Ežerų šeimininkė** (Mistress of Lakes) — *[Details](translations/ezeru_seimininke.md)*; Bal
-- [/] **Milinė** (Mill Spirit — grinds at night) — *[Details](translations/miline.md)*; Bal
-- [/] **Žiburinis** (Will-o'-the-Wisp, marsh light spirit) — *[Details](translations/ziburinis.md)*; Bal
-- [/] **Debesų kareivis** (Cloud Soldier — Perkūnas's warrior) — *[Details](translations/debesu_kareivis.md)*; Bal
-- [/] **Duobkasis** (Grave-Digger Spirit — psychopomp) — *[Details](translations/duobkasis.md)*; Bal
+- [x] **Pinčukas** (Regional Devil of Biržai lake) — *implemented (meta.ts + mdx)* — *[Details](translations/pincukas.md)*; Bal; *builds bridge, sinks church*
+- [x] **Ežerų šeimininkė** (Mistress of Lakes) — *implemented (meta.ts + mdx)* — *[Details](translations/ezeru_seimininke.md)*; Bal
+- [x] **Milinė** (Mill Spirit — grinds at night) — *implemented (meta.ts + mdx)* — *[Details](translations/miline.md)*; Bal
+- [x] **Žiburinis** (Will-o'-the-Wisp, marsh light spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/ziburinis.md)*; Bal
+- [x] **Debesų kareivis** (Cloud Soldier — Perkūnas's warrior) — *implemented (meta.ts + mdx)* — *[Details](translations/debesu_kareivis.md)*; Bal
+- [x] **Duobkasis** (Grave-Digger Spirit — psychopomp) — *implemented (meta.ts + mdx)* — *[Details](translations/duobkasis.md)*; Bal
 
 #### From Sutartinės & Jesuit reports
 - [/] **Sutartinių dievaičiai** (Little Gods invoked in song refrains) — *[Details](translations/sutartiniu_dievaiciai.md)*; Sut; *"dievaičiai, rūtele" — gods invoked alongside rue plant*
