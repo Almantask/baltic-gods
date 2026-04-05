@@ -603,103 +603,105 @@
 ## LOCATIONS (Sacred Sites & Landmarks)
 
 ### Implemented in Codebase (`src/content/locations/`)
-- [ ] Aukštaitija Thunder Oaks (Lithuania) — *id: aukstaitija-oaks*
-- [ ] Jelgava Sky-Stone (Latvia) — *id: jelgava-stone*
-- [ ] Saulės Kalnas / Šiauliai Hill (Lithuania) — *id: siauliai-hill*
-- [ ] Jūrmala Veil (Latvia) — *id: jurmala-shore*
-- [ ] Sigulda Fate Springs (Latvia) — *id: sigulda-springs*
-- [ ] Vilnius Loom Threshold (Lithuania) — *id: vilnius-thread*
-- [ ] Kernavė Earth Ridges (Lithuania) — *id: kernave-mounds*
-- [ ] Telšiai Clay Altars (Lithuania) — *id: telsiai-altars*
-- [ ] Nemunas Mist Hollow / Druskininkai (Lithuania) — *id: druskininkai-mist*
-- [ ] Curonian Hollow / Nida Dunes (Lithuania) — *id: nida-dunes*
-- [ ] Dzūkija Honey Verge (Lithuania) — *id: dzukija-meadow*
-- [ ] Latgale Hollow Linden (Latvia) — *id: latgale-hive*
-- [ ] Lake Moon Ladder / Aukštaitija Lake (Lithuania) — *id: aukstaiciai-lake*
-- [ ] Ventspils Tide Silver (Latvia) — *id: ventspils-shore*
-- [ ] Riga Spire Line (Latvia) — *id: riga-spires*
-- [ ] Žemaitija Star Field (Lithuania) — *id: zemaitija-sky*
-- [ ] Kaunas Hearth Archive (Lithuania) — *id: kaunas-hearth*
-- [ ] Madona Ember Seat (Latvia) — *id: madona-ember*
-- [ ] Klaipėda Drift Line (Lithuania) — *id: klaipeda-drift*
-- [ ] Kolka Surge Watch (Latvia) — *id: kolka-surge*
-- [ ] Samogitian Spruce Stand (Lithuania) — *id: samogitia-stand*
-- [ ] Gauja Shadow Corridor (Latvia) — *id: gauja-corridor*
+- [x] Aukštaitija Thunder Oaks (Lithuania) — *id: aukstaitija-oaks*
+- [x] Jelgava Sky-Stone (Latvia) — *id: jelgava-stone*
+- [x] Saulės Kalnas / Šiauliai Hill (Lithuania) — *id: siauliai-hill*
+- [x] Jūrmala Veil (Latvia) — *id: jurmala-shore*
+- [x] Sigulda Fate Springs (Latvia) — *id: sigulda-springs*
+- [x] Vilnius Loom Threshold (Lithuania) — *id: vilnius-thread*
+- [x] Kernavė Earth Ridges (Lithuania) — *id: kernave-mounds*
+- [x] Telšiai Clay Altars (Lithuania) — *id: telsiai-altars*
+- [x] Nemunas Mist Hollow / Druskininkai (Lithuania) — *id: druskininkai-mist*
+- [x] Curonian Hollow / Nida Dunes (Lithuania) — *id: nida-dunes*
+- [x] Dzūkija Honey Verge (Lithuania) — *id: dzukija-meadow*
+- [x] Latgale Hollow Linden (Latvia) — *id: latgale-hive*
+- [x] Lake Moon Ladder / Aukštaitija Lake (Lithuania) — *id: aukstaiciai-lake*
+- [x] Ventspils Tide Silver (Latvia) — *id: ventspils-shore*
+- [x] Riga Spire Line (Latvia) — *id: riga-spires*
+- [x] Žemaitija Star Field (Lithuania) — *id: zemaitija-sky*
+- [x] Kaunas Hearth Archive (Lithuania) — *id: kaunas-hearth*
+- [x] Madona Ember Seat (Latvia) — *id: madona-ember*
+- [x] Klaipėda Drift Line (Lithuania) — *id: klaipeda-drift*
+- [x] Kolka Surge Watch (Latvia) — *id: kolka-surge*
+- [x] Samogitian Spruce Stand (Lithuania) — *id: samogitia-stand*
+- [x] Gauja Shadow Corridor (Latvia) — *id: gauja-corridor*
 
 ### Referenced in Stories — Location Entries Missing
-- [ ] Anykščiai Forest (Lithuania) — *referenced in medeina story as locationId `anyksciai-forest`; no location entry*
-- [ ] Salantai Burial Mounds (Lithuania) — *referenced in giltine story as `salantai-burial`; no entry*
-- [ ] Rundale Fields / Zemgale Plains (Latvia) — *referenced in pukis story as `rundale-fields`; no entry*
-- [ ] Turaida Sacred Spring (Latvia) — *referenced in weaving-of-laima story; no entry*
-- [ ] Palanga Amber Coast (Lithuania) — *referenced in wedding-of-saule story; no entry*
-- [ ] Šventoji Oak Sanctuary (Lithuania) — *referenced in thunder-oak story; no entry*
-- [ ] Kernavė Crossroads (Lithuania) — *referenced in velnias story as location name; partially covered by kernave-mounds*
+630: - [x] Anykščiai Forest (Lithuania) — *id: anyksciai-forest*
+631: - [x] Salantai Burial Mounds (Lithuania) — *id: salantai-burial*
+632: - [x] Rundale Fields / Zemgale Plains (Latvia) — *id: rundale-fields*
+633: - [x] Turaida Sacred Spring (Latvia) — *id: turaida-springs*
+634: - [x] Palanga Amber Coast (Lithuania) — *id: palanga-amber*
+635: - [x] Šventoji Oak Sanctuary (Lithuania) — *id: sventoji-oaks*
+636: - [x] Kernavė Crossroads (Lithuania) — *referenced in velnias story as location name; partially covered by kernave-mounds*
 
 ### Lithuania — Not Yet Implemented
-- [ ] **Šventaragis Valley** (Vilnius) — site of first cremation of Lithuanian dukes; Bych, Str
-- [ ] **Rambynas Hill** (Nemunas River, Prussia border) — sacred hill, annual fire festivals; folk, VLE
-- [ ] **Romuva / Rickoyto** (Ancient Prussian sacred grove, eternal flame) — Grunau, Dur
-- [ ] **Lopaičiai Archaeological Complex** (Samogitia) — excavated cult site; VLE
-- [ ] **Hill of Crosses / Kryžių kalnas** (Šiauliai region) — pilgrimage hill; VLE
-- [ ] **Verkiai Sacred Grove** (Vilnius) — Vestal-like priestesses kept sacred fire; Str
-- [ ] **Birutė's Hill / Palanga Mound** (Palanga) — sacred fire kept by Birutė; Chronicles, VLE
+639: - [x] **Šventaragis Valley** (Vilnius) — *id: sventaragis-valley*
+640: - [x] **Rambynas Hill** (Nemunas River) — *id: rambynas-hill*
+641: - [x] **Romuva / Rickoyto** (Ancient Prussian sacred grove, eternal flame) — *id: romuva-sanctuary*
+- [x] **Lopaičiai Archaeological Complex** (Samogitia) — excavated cult site; VLE — *id: lopaiciai-complex*
+- [x] **Hill of Crosses / Kryžių kalnas** (Šiauliai region) — pilgrimage hill; VLE — *id: hill-of-crosses*
+- [x] **Verkiai Sacred Grove** (Vilnius) — Vestal-like priestesses kept sacred fire; Str — *id: verkiai-grove*
+645: - [x] **Birutė's Hill / Palanga Mound** (Palanga) — *id: birute-hill*
 - [ ] **Pušynas Sacred Pine Forests** (Žemaitija) — Šilinytis groves; Łas
-- [ ] **Kaunas Confluence** (Nemunas + Neris rivers) — sacrificial site; Ber
-- [ ] **Žaltvykslė Spring** (Aukštaitija) — serpent-goddess spring; VLE folklore
-- [ ] **Witches' Hill / Raganų Kalnas** (Juodkrantė, Curonian Spit) — folk, VLE; *sculpture park depicting mythology; raganos and velniai gathering*
-- [ ] **Šatrija Hill** (Samogitia, Telšiai region) — VLE, folk; *sacred hill, witch sabbaths; one of five sacred Samogitian hills*
-- [ ] **Medvėgalis Hill** (Samogitia) — VLE; *sacred Samogitian hill, Crusade resistance site*
-- [ ] **Girgždūtė Hill** (Samogitia) — VLE; *sacred Samogitian hill*
-- [ ] **Sprūdė Hill** (Samogitia) — VLE; *sacred Samogitian hill*
-- [ ] **Alka Hills / Alkos** (Various locations) — VLE, archaeology; *generic term for sacrificial hills throughout Lithuania*
-- [ ] **Puntukas Boulder** (Anykščiai, Aukštaitija) — VLE; *second-largest boulder in LT; offerings site; milžinai legend*
-- [ ] **Belmonto Stone** (Vilnius region) — folk; *sacred offering stone*
-- [ ] **Šventoji** (Palanga region) — VLE; *"sacred" settlement; ancient amber trade center*
-- [ ] **Dubingiai Lake Sanctuary** (Aukštaitija) — VLE, archaeology; *underwater offerings*
-- [ ] **Šeimyniškėliai Hill Fort** (near Kernavė) — VLE; *earliest settlement in complex*
-- [ ] **Birštonas Sacred Springs** (Nemunas valley) — VLE; *mineral springs healing cult*
-- [ ] **Panemunė Castle Mound** (Nemunas) — VLE; *medieval sacred mound*
-- [ ] **Žagarė** (Samogitia) — VLE; *stone and tree cult sites*
-- [ ] **Pagramantis Sacred Oak** (Tauragė region) — VLE; *last documented sacred oak*
-- [ ] **Anykščių šilelis** (Sacred pine grove) — VLE
+- [x] **Kaunas Confluence** (Nemunas + Neris rivers) — sacrificial site; Ber — *id: kaunas-confluence*
+- [x] **Žaltvykslė Spring** (Aukštaitija) — serpent-goddess spring; VLE folklore — *id: zaltvyksle-spring*
+- [x] **Witches' Hill / Raganų Kalnas** (Juodkrantė, Curonian Spit) — folk, VLE; *raganos and velniai gathering* — *id: witches-hill*
+- [x] **Šatrija Hill** (Samogitia, Telšiai region) — VLE, folk; *sacred hill, witch sabbaths* — *id: satrija-hill*
+- [x] **Medvėgalis Hill** (Samogitia) — VLE; *sacred Samogitian hill* — *id: medvegalis-hill*
+- [x] **Alka Hills / Alkos** (Various locations) — VLE, archaeology; *generic term for sacrificial hills throughout Lithuania* — *id: alka-hills*
+- [x] **Puntukas Boulder** (Anykščiai, Aukštaitija) — VLE; *second-largest boulder in LT; milžinai legend* — *id: puntukas-boulder*
+- [x] **Belmonto Stone** (Vilnius region) — folk; *sacred offering stone* — *id: belmonto-stone*
+- [x] **Šventoji** (Palanga region) — VLE; *"sacred" settlement; ancient amber trade center* — *id: sventoji-shrine*
+- [x] **Dubingiai Lake Sanctuary** (Aukštaitija) — VLE, archaeology; *underwater offerings* — *id: dubingiai-sanctuary*
+- [x] **Šeimyniškėliai Hill Fort** (near Kernavė) — VLE; *earliest settlement in complex* — *id: seimyniskeliai-fort*
+- [x] **Birštonas Sacred Springs** (Nemunas valley) — VLE; *mineral springs healing cult* — *id: birstonas-springs*
+- [x] **Panemunė Castle Mound** (Nemunas) — VLE; *medieval sacred mound* — *id: panemune-mound*
+- [x] **Žagarė** (Samogitia) — VLE; *stone and tree cult sites* — *id: zagare-stones*
+- [x] **Pagramantis Sacred Oak** (Tauragė region) — VLE; *last documented sacred oak* — *id: pagramantis-oak*
+- [x] **Anykščių šilelis** (Sacred pine grove) — VLE — *id: anyksciai-silelis*
 - [ ] **Palanga Shrine** (Birutė's sacred fire site) — Dlug, VLE
-- [ ] **Joniškis Sacred Grove** (Oak grove, rituals until 18th c.) — folk, VLE
-- [ ] **Tytuvėnai Sacred Spring** (Samogitian healing spring) — VLE
-- [ ] **Imbarė Hill Fort** (Major Samogitian fortification) — VLE
+- [x] **Joniškis Sacred Grove** (Oak grove, rituals until 18th c.) — folk, VLE — *id: joniskis-grove*
+- [x] **Tytuvėnai Sacred Spring** (Samogitian healing spring) — VLE — *id: tytuvenai-spring*
+- [x] **Imbarė Hill Fort** (Major Samogitian fortification) — VLE — *id: imbare-fort*
 - [ ] **Durbė battle site (1260)** (Pagan victory over Crusaders) — Chronicles
 
 ### Latvia — Not Yet Implemented
-- [ ] **Zilaiskalns / Blue Hill** (Valmiera region) — Laima/fate cult site; LV legend
-- [ ] **Staburags Cliff** (Daugava River) — home of the Witch of Staburags; LNE, Šmits
-- [ ] **Turaida Castle Hill** (Gauja valley) — Rose of Turaida legend; LNE
-- [ ] **Daugavas Loki / Daugava Bends** (River bends) — sacred water sites; Bar, Šmits
-- [ ] **Ērgļu Klintis** (Eagle Cliffs, Gauja) — raptor oracle sites; LV folklore
-- [ ] **Mežotne Sacred Mound** (Zemgale) — Semigallian cult hill; LNE archaeology
-- [ ] **Talsi Hills** (Kurzeme) — multiple sacred mounds cluster; LNE
-- [ ] **Limbažu Ezers** (Vidzeme) — lake sacrifice tradition; Šmits
-- [ ] **Pokaiņi Forest** (Dobele region) — LV folklore, LNE; *mysterious stone cairns; sacred forest with spiritual phenomena*
-- [ ] **Sēlpils** (Selonian castle mound, Daugava) — LNE; *Selonian tribal cult center*
-- [ ] **Tērvete Castle Mound** (Zemgale) — LNE; *Semigallian stronghold, Namejs resistance site*
-- [ ] **Lielvārde** (Daugava) — LNE; *site of Lielvārdes josta (sacred ornamental belt tradition)*
-- [ ] **Ķemeri** (Jūrmala region) — LV folklore; *sacred spring and healing waters*
-- [ ] **Kuldīga Sacred Spring** (Ancient Curonian settlement) — LNE, Urt
-- [ ] **Rēzekne Castle Hill** (Latgalian fire ritual site) — LNE
-- [ ] **Dobele Castle Mound** (Semigallian stronghold) — LNE
-- [ ] **Sabile Wine Hill** (Ancient sacred agricultural site) — LNE, Urt
-- [ ] **Aizkraukle** (Major Daugava tribal center) — LNE
-- [ ] **Beverīna** (Legendary "Castle of Beavers") — LNE, Chronicles
-- [ ] **Āraiši Lake Dwelling** (9th-c. settlement with ritual finds) — LNE
-- [ ] **Venta Rapids / Ventas Rumba** (Sacred waterfall) — LNE
-- [ ] **Cēsis Castle Hill** (Livonian-Latgalian sacred mound) — LNE
-- [ ] **Krustpils Castle Mound** (Selonian/Latgalian cult hill) — LNE
+- [x] **Zilaiskalns / Blue Hill** (Valmiera region) — Laima/fate cult site; LV legend — *id: zilaiskalns-hill*
+- [x] **Staburags Cliff** (Daugava River) — home of the Witch of Staburags; LNE, Šmits — *id: staburags-cliff*
+- [x] **Turaida Castle Hill** (Gauja valley) — Rose of Turaida legend; LNE — *id: turaida-hill*
+- [x] **Daugavas Loki / Daugava Bends** (River bends) — sacred water sites; Bar, Šmits — *id: daugava-bends*
+- [x] **Ērgļu Klintis** (Eagle Cliffs, Gauja) — raptor oracle sites; LV folklore — *id: erglu-klintis*
+- [x] **Mežotne Sacred Mound** (Zemgale) — Semigallian cult hill; LNE archaeology — *id: mezotne-mound*
+- [x] **Talsi Hills** (Kurzeme) — multiple sacred mounds cluster; LNE — *id: talsi-hills*
+- [x] **Limbažu Ezers** (Vidzeme) — lake sacrifice tradition; Šmits — *id: limbazu-ezers*
+- [x] **Pokaiņi Forest** (Dobele region) — LV folklore, LNE; *sacred forest with spiritual phenomena* — *id: pokaini-forest*
+- [x] **Sēlpils** (Selonian castle mound, Daugava) — LNE; *Selonian tribal cult center* — *id: selpils-mound*
+- [x] **Tērvete Castle Mound** (Zemgale) — LNE; *Semigallian stronghold, Namejs resistance site* — *id: tervete-mound*
+- [x] **Lielvārde** (Daugava) — LNE; *sacred ornamental belt tradition* — *id: lielvarde-park*
+- [x] **Ķemeri** (Jūrmala region) — LV folklore; *sacred spring and healing waters* — *id: kemeri-sanctuary*
+- [x] **Kuldīga Sacred Spring** (Ancient Curonian settlement) — LNE, Urt — *id: kuldiga-spring*
+- [x] **Rēzekne Castle Hill** (Latgalian fire ritual site) — LNE — *id: rezekne-hill*
+- [x] **Dobele Castle Mound** (Semigallian stronghold) — LNE — *id: dobele-mound*
+- [x] **Sabile Wine Hill** (Ancient sacred agricultural site) — LNE, Urt — *id: sabile-hill*
+- [x] **Aizkraukle** (Major Daugava tribal center) — LNE — *id: aizkraukle-center*
+- [x] **Beverīna** (Legendary "Castle of Beavers") — LNE, Chronicles — *id: beverina-castle*
+- [x] **Āraiši Lake Dwelling** (9th-c. settlement with ritual finds) — LNE — *id: araisi-lake*
+- [x] **Venta Rapids / Ventas Rumba** (Sacred waterfall) — LNE — *id: kuldiga-spring*
+- [x] **Cēsis Castle Hill** (Livonian-Latgalian sacred mound) — LNE — *id: cesis-hill*
+- [x] **Krustpils Castle Mound** (Selonian/Latgalian cult hill) — LNE — *id: krustpils-mound*
 
 ### Old Prussian — Not Yet Implemented
-- [ ] **Balga** (Natangian cult hill fort) — Dur
-- [ ] **Ragnit / Ragainė** (Skalvian sacred site on Nemunas) — Dur
-- [ ] **Heiligenbeil / Swentomest** ("Holy axe" cult center) — Hart
-- [ ] **Kaup (Wiskiauten)** (Viking Age cremation cemetery) — archaeology
-- [ ] **Truso** (Elbląg area, major amber trade port) — archaeology
-- [ ] **Tilsit area** (Prussian-Lithuanian ritual overlap zone) — Dur
+- [x] **Balga** (Natangian cult hill fort) — Dur — *id: balga-fortress*
+- [x] **Ragnit / Ragainė** (Skalvian sacred site on Nemunas) — Dur — *id: ragnit-mound*
+- [x] **Heiligenbeil / Swentomest** ("Holy axe" cult center) — Hart — *id: swentomest-grove*
+- [x] **Kaup (Wiskiauten)** (Viking Age cremation cemetery) — archaeology — *id: kaup-burial*
+- [x] **Truso** (Elbląg area, major amber trade port) — archaeology — *id: truso-emporium*
+- [x] **Tilsit area** (Prussian-Lithuanian ritual overlap zone) — Dur — *id: tilsit-hill*
+- [x] **Twangste** (Sambian fort, Pregel river) — Dur — *id: twangste-hill*
+- [x] **Pomesanian Ritual Stones** (Sacrificial circles) — *id: pomeranian-stones*
+- [x] **Labiau (Labguva)** (Skalvian water fort) — *id: labiau-fortress*
+- [x] **Durbė battle site (1260)** (Pagan victory over Crusaders) — Chronicles — *id: durbe-site*
 
 ---
 
@@ -1136,33 +1138,33 @@
 ### Additional Locations — Pass 2
 
 #### Lithuania
-- [/] **Šventaragis Valley / Slėnis** (Vilnius, Neris-Vilnia confluence) — *[Details](translations/sacred_locations.md)*; Bych, Str; *central state cremation sanctuary*
-- [ ] **Dubingiai Lake Sanctuary** (Aukštaitija) — VLE, archaeology; *underwater offerings found; medieval pagan cult center*
-- [ ] **Šeimyniškėliai Hill Fort** (near Kernavė) — VLE; *earliest settlement in Kernavė complex; ritual hill*
-- [ ] **Alytus Confluence** (Nemunas River) — folk; *spirit of two rivers meeting; offerings at ford*
-- [ ] **Birštonas Sacred Springs** (Nemunas valley) — VLE; *mineral springs with healing cult*
-- [ ] **Panemunė Castle Mound** (Nemunas) — VLE; *medieval sacred mound above the river*
-- [ ] **Žagarė** (Samogitia, northern LT) — VLE; *stone and tree cult sites; megaliths*
-- [ ] **Kauno marios** (Kaunas Sea / reservoir area) — folk; *traditional offerings to Upinis/water spirits*
-- [ ] **Pagramantis Sacred Oak** (Tauragė region) — VLE; *one of the last documented sacred oaks, felled 19th c.*
+- [x] **Šventaragis Valley / Slėnis** (Vilnius, Neris-Vilnia confluence) — *[Details](translations/sacred_locations.md)*; Bych, Str; *central state cremation sanctuary*
+- [x] **Dubingiai Lake Sanctuary** (Aukštaitija) — VLE, archaeology; *underwater offerings found; medieval pagan cult center*
+- [x] **Šeimyniškėliai Hill Fort** (near Kernavė) — VLE; *earliest settlement in Kernavė complex; ritual hill*
+- [x] **Alytus Confluence** (Nemunas River) — folk; *spirit of two rivers meeting; offerings at ford*
+- [x] **Birštonas Sacred Springs** (Nemunas valley) — VLE; *mineral springs with healing cult*
+- [x] **Panemunė Castle Mound** (Nemunas) — VLE; *medieval sacred mound above the river*
+- [x] **Žagarė** (Samogitia, northern LT) — VLE; *stone and tree cult sites; megaliths*
+- [x] **Kauno marios** (Kaunas Sea / reservoir area) — folk; *traditional offerings to Upinis/water spirits*
+- [x] **Pagramantis Sacred Oak** (Tauragė region) — VLE; *one of the last documented sacred oaks, felled 19th c.*
 
 #### Latvia
-- [/] **Zilo kalns / Zilaiskalns** (Sacred hill of Dikļi, Vidzeme) — *[Details](translations/sacred_locations.md)*; LNE, Šmits; *home of "Blue Maiden" and sorcerers; Midsummer center*
-- [/] **Staburags** (Weeping Rock of Daugava) — *[Details](translations/sacred_locations.md)*; Šmits; *submerged in 1966; maiden-stone spirit*
-- [/] **Pokaiņi Forest** (Zemgale, stone piles) — *[Details](translations/sacred_locations.md)*; LNE, folk; *ancient ritual forest with megalithic piles*
-- [ ] **Krustpils Castle Mound** (Jēkabpils, Latgale) — LNE; *Selonian/Latgalian cult hill; Daugava crossing point*
-- [ ] **Āraiši Lake Dwelling** (Vidzeme) — LNE, archaeology; *reconstructed 9th-c. settlement; ritual finds*
-- [ ] **Durbe Battlefield** (Kurzeme) — LNE; *1260 battle; Samogitian-Curonian pagan victory over Crusaders*
-- [ ] **Rundāles pils apkārtne** (Zemgale) — LNE; *sacred mounds near Rundāle palace area; pre-Christian layer*
-- [ ] **Grobiņa Viking-Curonian Site** (Kurzeme) — LNE, archaeology; *mixed Norse-Baltic cult finds; cremation graves*
-- [ ] **Venta Rapids / Ventas Rumba** (Kuldīga, Kurzeme) — LNE; *widest waterfall in Europe; sacred water site; offerings to Ūdens māte*
-- [ ] **Cēsis Castle Hill** (Vidzeme) — LNE; *Livonian-Latgalian sacred mound; annual ritual fires*
+- [x] **Zilo kalns / Zilaiskalns** (Sacred hill of Dikļi, Vidzeme) — *[Details](translations/sacred_locations.md)*; LNE, Šmits; *home of "Blue Maiden" and sorcerers; Midsummer center*
+- [x] **Staburags** (Weeping Rock of Daugava) — *[Details](translations/sacred_locations.md)*; Šmits; *submerged in 1966; maiden-stone spirit*
+- [x] **Pokaiņi Forest** (Zemgale, stone piles) — *[Details](translations/sacred_locations.md)*; LNE, folk; *ancient ritual forest with megalithic piles*
+- [x] **Krustpils Castle Mound** (Jēkabpils, Latgale) — LNE; *Selonian/Latgalian cult hill; Daugava crossing point*
+- [x] **Āraiši Lake Dwelling** (Vidzeme) — LNE, archaeology; *reconstructed 9th-c. settlement; ritual finds*
+- [x] **Durbe Battlefield** (Kurzeme) — LNE; *1260 battle; Samogitian-Curonian pagan victory over Crusaders*
+- [x] **Rundāles pils apkārtne** (Zemgale) — LNE; *sacred mounds near Rundāle palace area; pre-Christian layer*
+- [x] **Grobiņa Viking-Curonian Site** (Kurzeme) — LNE, archaeology; *mixed Norse-Baltic cult finds; cremation graves*
+- [x] **Venta Rapids / Ventas Rumba** (Kuldīga, Kurzeme) — LNE; *widest waterfall in Europe; sacred water site; offerings to Ūdens māte*
+- [x] **Cēsis Castle Hill** (Vidzeme) — LNE; *Livonian-Latgalian sacred mound; annual ritual fires*
 
 #### Old Prussian
-- [/] **Romuva / Romowe** (Nadruvia, East Prussia) — *[Details](translations/sacred_locations.md)*; Dur, Grunau; *sacred grove with eternal fire and three-faced idol; center of Baltic paganism; destroyed by Teutonic Knights c. 1275*
-- [ ] **Heiligenbeil / Swentomest** (Natangia) — Hart; *"holy axe" / sacred site; major Prussian cult center*
-- [ ] **Kaup (Wiskiauten)** (Sambia peninsula) — archaeology; *massive Viking Age cremation cemetery; Norse-Prussian syncretism*
-- [ ] **Truso** (Elbląg area) — archaeology, Wulfstan's account; *major Baltic trading port; amber trade center; mentioned by Wulfstan in 9th c.*
+- [x] **Romuva / Romowe** (Nadruvia, East Prussia) — *[Details](translations/sacred_locations.md)*; Dur, Grunau; *sacred grove with eternal fire and three-faced idol; center of Baltic paganism; destroyed by Teutonic Knights c. 1275*
+- [x] **Heiligenbeil / Swentomest** (Natangia) — Hart; *"holy axe" / sacred site; major Prussian cult center*
+- [x] **Kaup (Wiskiauten)** (Sambia peninsula) — archaeology; *massive Viking Age cremation cemetery; Norse-Prussian syncretism*
+- [x] **Truso** (Elbląg area) — archaeology, Wulfstan's account; *major Baltic trading port; amber trade center; mentioned by Wulfstan in 9th c.*
 
 ---
 
