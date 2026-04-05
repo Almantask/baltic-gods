@@ -2,27 +2,36 @@
 
 ## Comprehensive Overview
 
-Ragutis (Lithuanian) and Ragutienė (his feminine counterpart) are the Lithuanian personifications of fermentation, beer, and mead. They are the deities of festivity and the divine guardians of the brewing process.
+Ragutis and his feminine counterpart Ragutienė are the Lithuanian personifications of beer, mead, and the fermentation process. Recorded in 16th-century historical lists (e.g., Jan Łasicki, Maciej Stryjkowski), they represent the divine stewardship of communal festivity.
 
 ### English (EN)
-**Ragutis** and **Ragutienė** are the deities of beer and communal drinking. Their name is derived from "ragas" (horn), referring to the ancient practice of drinking from bovine horns during rituals and celebrations. Ragutis was especially invoked to ensure that the beer fermented properly and that the festivities were joyful. Ragutienė as his companion emphasized the collaborative nature of the household brewing process. Together, they represents the social and spiritual significance of communal drinking as a means of bonding people and gods. In the Baltic worldview, the "holy drink" was the vehicle for prayer and community.
+**Ragutis** and **Ragutienė** are the deities of beer and brewing. Their name is etymologically derived from *ragas* (horn), referencing the ancient Baltic ritual of drinking from animal horns to bond the community and honor the gods. Ragutis was invoked to ensure that the fermentation (*raugimas*) was successful and that the beer was both potent and flavorful. Ragutienė was his essential partner, reflecting the domestic reality where women were often the primary brewers of the household mead and ale. Together, they preside over the "holy drink" that facilitates communication between the human and divine worlds during festivals and transition rituals. They represent joy, hospitality, and the sacred transformation of grain into life-giving spirits.
 
 ### Lithuanian (LT)
-**Ragutis** lietuvių mitologijoje yra alaus, midaus ir griausmingų vaišių dievas. Jo vardas kilo iš „ragas“ – Indo-Europietiškos tradicijos gerti iš gyvulių ragų. Janas Lasickis nurodė, kad šiam dievui ir jo žmonai **Ragutienei** (arba *Ragutienei*) būdavo meldžiamasi norint nulemti geriausią alaus skonį ir sėkmingą rauginimą. Jiedu simbolizuoja džiaugsmą, bendrystę ir „šventąjį gėrimą“, kuris sujungia žmones ir dievus per apeigas. Ragutis taip pat laikomas linksmumo ir vaišingumo globėju.
+**Ragutis** lietuvių mitologijoje yra alaus, midaus ir vaišių dievas, paminėtas Jano Lasickio ir Maciejaus Strijkovskio. Jo vardas tiesiogiai siejamas su žodžiu „ragas“ – archajišku gėrimo indu, naudotu apeigų metu. **Ragutienė** yra jo porininkė, globojinati rauginimą ir namų šeimininkių triūsą prie alaus kubilo. Ši pora simbolizuoja džiaugsmą, bendrystę ir „šventąjį gėrimą“, kuris sujungia bendruomenę per šventes. Ragutis laikomas vaišingumo sargu, kuriam būdavo aukojama pirmoji alaus puta, prašant, kad gėrimas nebūtų sugadintas ir džiugintų susirinkusius.
 
 ### Latvian (LV)
-**Ragutis** un **Ragutienė** latviešu mitoloģijā nav tikuši atsevišķi izdalīti, tā vietā alus un miestiņa tecināšanas funkcijas veica dažādas **Zīļu mātes** vai **Pērkona** kā lūgsnu un svētības dāvātāja izpausmes. Tomēr lietuviešu tradīcijas un senu sarakstu kontekstā šie tēli reprezentē sētas un kausa svētību, kura ziņā ir nosargāt alus darīšanas noslēpumus un nodrošināti kopības sajūtu, simbolizējot rūpību un dabas sniegto velšu aizsardzību.
+**Ragutis** un **Ragutienė** latviešu mitoloģijā atbilst **Jumim** un **Mājas mātei** to aspektos, kas saistīti ar alus brūvēšanu un svētku svinēšanu. Dainās alus tiek saukts par „miestiņu”, un tā darīšana ir svēts process, ko pavada lūgsnas par izdošanos. Lietuviešu tradīcijā Ragutis ir izteiktāks alus alsargs, kurš simbolizē kopības sajūtu un prieku. Viņš un viņa sieva reprezentē sētas labklājību un māku svinēt svētkus godam, cienājot ciemiņus un stiprinot dzimtas saites.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Ragucium* and *Ragutienė* as deities associated with beer and its fermentation.
-- **Vėlius (Vel):** Analyzed the functional role of the fermentation spirits in the context of the agricultural and household cycle.
-- **VLE:** Confirms Ragutis and Ragutienė's status in the 16th-century pantheon lists as specialized deities of the domestic pantry.
+- **Łasicki (Łas):** Records *Ragucium* and *Ragutia* as deities of beer and its fermentation. [Jan Łasicki, 1615]
+- **Stryjkowski (Str):** Mentions Ragutis as a god of beer and joy among the Lithuanians. [Maciej Stryjkowski, 1582]
+- **Vėlius (Vel):** Analyzed the functional role of fermentation deities in the context of the Baltic agricultural and social cycle. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms Ragutis and Ragutienė as historical deities of the brewing process and festivity. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Household / Festivity Deity
-- **Symbol**: Drinking horn (ragas), Beer mug, Yeast, Hops, Table
-- **Function**: Protection of the brewing process and communal festivity
+- **Symbol**: Drinking horn (ragas), Beer mug, Yeast, Hops, Table, Wooden barrel
+- **Function**: Protection of the brewing process, fermentation, and communal festivity
 - **Etymology**: *ragas (horn)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Stryjkowski, Maciej: Kronika Polska, Litewska, Żmódzka i wszystkiej Rusi (1582)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

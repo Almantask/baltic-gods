@@ -2,27 +2,34 @@
 
 ## Comprehensive Overview
 
-Kovas (Lithuanian) and Kauriraris (historically recorded by Łasicki) represent the Lithuanian personification of war, struggle, and military valor. While Kovas is a widely recognized figure in popular mythology, modern research identifies him as a later personification of the concept of battle.
+Kovas (Lithuanian) and Kauriraris (historically recorded by Jan Łasicki) represent the Lithuanian personification of war, struggle, and military valor. While Kovas is a widely recognized figure in popular mythology, modern research targets him as a functional personification of the concept of battle.
 
 ### English (EN)
-**Kovas** is the god of war and fight. His name is synonymous with struggle (Lithuanian *kova*) and the month of March (*Kovas*), associated with the return of birds (Rooks) and the traditional beginning of the military campaign season. He represents the fierce and determined spirit of the Baltic warriors. **Kauriraris** is a more obscure figure recorded by Jan Łasicki, specifically associated with the "heat of battle" or the warhorse. Together, they represents the protection and success of warriors on the battlefield. In the Baltic worldview, war was seen as a sacred duty involving the higher powers.
+**Kovas** is the god of war and combat. His name is synonymous with "struggle" (Lithuanian *kova*) and the month of March (*Kovas*), which marks the return of birds (Rooks) and the traditional start of the military campaign season after the winter thaws. He represents the fierce and determined spirit of Baltic warriors. **Kauriraris** is an obscure figure recorded by Łasicki, specifically associated with the "heat of battle" or the warhorse (*Kaurirari*). Together, they represent the protection and success of warriors on the battlefield. In the Baltic worldview, war was a sacred undertaking requiring the favor of the gods to ensure tribal survival.
 
 ### Lithuanian (LT)
-**Kovas** lietuvių mitologijoje yra karo, kovos ir karinio ryžto dievas. Jo vardas tiesiogiai kilęs iš žodžio „kova“. Kovas taip pat yra kovo mėnesio pavadinimas, reiškiantis pavasario pradžią, kai po žiemos nurimimo prasidėdavo karo žygiai. **Kauriraris** (Lasickio paminėtas kaip *Kaurirari*) yra mažiau žinoma dvasia, sietina su karo įkarščiu ar žirgais. Šios dievybės simbolizuoja protėvių narsą ir pergalės siekį, tikint, kad mirtis mūšio lauke atveria kelią į protėvių vėlių pasaulį.
+**Kovas** lietuvių mitologijoje yra karo, kovos ir karinio ryžto dievas. Jo vardas tiesiogiai kilęs iš žodžio „kova“. Kovas taip pat yra kovo mėnesio pavadinimas, reiškiantis pavasario pradžią, kai po žiemos sąstingio prasidėdavo karo žygiai. **Kauriraris** (Lasickio paminėtas kaip *Kaurirari*) yra mažiau žinoma dvasia, sietina su karo įkarščiu, žirgais ar ginklais. Šios dievybės simbolizuoja protėvių narsą ir pergalės siekį, tikint, kad mirtis mūšio lauke yra garbingas kelias į protėvių vėlių pasaulį, saugomą Perkūno.
 
 ### Latvian (LV)
-**Kovas** latviešu mitoloģijā nav ticis atsevišķi izdalīts, tā vietā kara un uzvaras funkcijas veica **Pērkons** vai personificētas drosmes izpausmes. Tomēr lietuviešu tradīcijas kontekstā Kovas un Kauriraris reprezentē kara aizbildni, kura ziņā ir svētīt ieročus un nodrošināti uzvaru kaujas laukā. Viņi ir neatkarības un spēka simbols, kas pasvītro senbaltu karotāju garu un viņu ticību augstākajam taisnīgumam pat kara mijkrēšļa stundās.
+**Kovas** latviešu mitoloģijā galvenokārt atbilst **Pērkona** karavīra aspektam, kurš vada vīrus kaujā. Vārds lietuviešu tradīcijā ir tieši saistīts ar „cīņu” un marta mēnesi, kad daba mostas un sākās karagājieni. Kovas un Kauriraris reprezentē senbaltu karotāju aizsardzību, ieroču svētību un uzvaru. Viņi simbolizē neatlaidību un drosmi, kas nepieciešama, lai aizstāvētu savu zemi un godu pret iebrucējiem, iemiesojot nesalaužamu gribasspēku.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Kovas* as a deity of war (*deus belli*) and *Kaurirari* as a spirit involved in military matters.
-- **Vėlius (Vel):** Analyzed the "Kov-" root and its connection to the structural-tier of the Baltic social system, noting the functional role of war spirits.
-- **VLE:** Confirms the identification of Kovas as a war deity and his place in the historical lists of Lithuanian deities.
+- **Łasicki (Łas):** Records *Kovas* as a deity of war (*deus belli*) and *Kaurirari* as a spirit involved in military matters. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the "Kov-" root and its connection to the warrior-tier of the Baltic social system. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Kovas as a war deity and discusses the linguistic link to the month of March and the rook bird. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: War / Power Deity
-- **Symbol**: Sword, Rook (bird), Spear, March (month), Battlefield heat
+- **Symbol**: Sword, Rook (bird), Spear, March (month), Warhorse, Red Shield
 - **Function**: Protection and success in warfare
 - **Etymology**: *kova (struggle/fight)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

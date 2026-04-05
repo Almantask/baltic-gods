@@ -1,28 +1,37 @@
-# Ausklauts / Devintos
+# Ausklautas / Devintos
 
 ## Comprehensive Overview
 
-Ausklauts and Devintos represent some of the many specialized minor Lithuanian (Samogitian) deities and spirits recorded in the 16th-century list of Malecki (Libellus). They are guardians of specific moral and ritual processes.
+Ausklautas and Devintos represent specialized minor Lithuanian (Samogitian) deities and spirits recorded in the 16th-century lists of Jan Malecki and Jan Łasicki. They are guardians of moral conduct and ritual numerical perfection.
 
 ### English (EN)
-**Ausklauts** and **Devintos** are the "Guardians of the Moral Order." Ausklauts (historically recorded as *Ausklautom*) is a specialized deity often associated with hearing and moral auditing, believed to "hear all things" and judge human actions. Devintos (meaning "The Ninth") is a deity believed to multiply or bless the ritual importance of the number nine, often related to the nine-herb rituals and the multiplication of resources. These figures represents the "micro-pantheon" where every activity and moral behavioral trait was believed to have its own divine overseer. In the chronicles, they are the guardians of the social world, ensuring that human actions and ritual timing are correctly respected.
+**Ausklautas** and **Devintos** are the "Guardians of the Moral and Ritual Order." **Ausklautas** (historically recorded as *Ausklautom*) is a specialized deity of hearing and moral auditing. His name is derived from *išklausyti* (to hear out). He was believed to be a divine "listener" who heard all human conversations and prayers, judging them for truth and righteousness. **Devintos** (literally "The Ninth") is a deity representing the sacred number nine. In Baltic ritual practice, the number nine (often 3x3) was of supreme importance, appearing in the "nine-herb" (*devynių žolių*) infusions and cycle-based offerings. Devintos ensured that rituals involving this number were correctly executed and that the blessings derived from them were multiplied. Together, they represent the Baltic emphasis on social truth and ritual precision.
 
 ### Lithuanian (LT)
-**Ausklauts** ir **Devintos** lietuvių mitologijoje yra deivės/dvasios, atsakingos už konkrečias dorovės ir apeigų sritis. Ausklautas (Malecio sąraše – *Ausklautom*) sargs tiesą, užtikrindamas, kad visos žmonių nuodėmės ir geri darbai būtų „išklausyti“ danguje. Devintos – laimingo skaičiaus „devyni“ dvasia, sietina su devynžole ir gėrybių dauginimu. Jų buvimas Lasickio sąraše rodo, kad senovės lietuviai siekė sakralizuoti saun bendruomenės ryšius, tikėdami, kad kiekvienai gyvenimo akimirkai reikia dieviškos pagalbos.
+**Ausklautas** ir **Devintos** lietuvių mitologijoje yra deivės/dvasios, atsakingos už dorovę ir apeigų sakralumą. **Ausklautas** (paminėtas Jano Malecio) yra „išklausymo“ dievas, kuris stebi žmonių kalbas ir ketinimus, užtikrindamas, kad tiesa būtų išgirsta danguje. **Devintos** įkūnija šventąjį skaičių devyni, kuris baltų tikėjime turėjo magiškų galių (pvz., devynžolė burtuose, devynios dienos apeigose). Devintos sargi apeigų tikslumą ir užtikrina, kad ritualiniai veiksmai duotų norimą rezultatą. Jų paminėjimas senuosiuose šaltiniuose rodo, kad senovės lietuviai siekė sakralizuoti savo dorovinę elgseną ir griežtai laikėsi skaitmeninės simbolikos.
 
 ### Latvian (LV)
-**Ausklauts** un **Devintos** latviešu mitoloģijā nav tikuši plaši izdalīti, tā vietā to funkcijas veica dažādas **Zāļu mātes** vai **Laimas** dāvātā prieka ir svētības izpausmes. Tomēr lietuviešu tradīcijai ir senu sarakstu kontekstā šie tēli reprezentē sētas ir istabu aizbildņus, kura ziņā ir nosargāt sakrāto labību ir nodrošinti ziemas pārtikas krājumus, simbolizējot rūpību ir dabas sniegto velšu aizsardzību.
+**Ausklautas** un **Devintos** latviešu mitoloģijā galvenokārt atbilst **Laimas** un **Dieva** aspektiem, kas uzrauga godīgumu un svēto skaitļu kārtošanu. Skaitlim deviņi latviešu dainās ir maģiska nozīme (deviņi kalni, deviņas saules). Ausklautas reprezentē „taisnīgo ausi”, kas sadzird patiesību, savukārt Devintos rūpējas par rituālu skaitlisko precizitāti. Šie tēli lietuviešu tradīcijā norāda uz rūpīgu un specializētu sociālās kārtības aizsardzību, kurā katrs vārds un katrs rituālais solis ir pakļauts dievišķai kontrolei, nodrošinot sētas morālo tīrību un rituālu spēku.
 
 ---
 
 ## Primary Source Details
 
-- **Malecki (Malec):** Records *Ausklautis* (listener) and *Devintos* (nine-number) among the Samogitian gods in his *Libellus de sacrificiis et idolatria veterum Borussorum...* (1551).
-- **Vėlius (Vel):** Analyzed the functional role of the minor moral spirits in the context of the household cycle and social ethics.
-- **VLE:** Mentions these figures as one of the minor deities recorded in the 16th-century historiography.
+- **Malecki (Malec):** Records *Ausklautis* as a deity associated with hearing/listening in *Libellus de sacrificiis...* (1551).
+- **Łasicki (Łas):** Records *Devintos* as a deity associated with the number nine. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the functional role of minor moral spirits and the symbolism of the number nine in Baltic cosmology. [Norbertas Vėlius, 1996]
+- **VLE:** Mentions these figures as specialized minor deities recorded in 16th-century historical sources. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania (Samogitia)
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Household / Social / Ritual Spirit
-- **Symbol**: Ear, Nine branches, Web, Truth-mirror, Spindle
-- **Function**: Protection of hearing/morality and ritual multiplication
-- **Recorded in**: *Libellus* (1551)
+- **Symbol**: Ear, Nine branches, Web, Truth-mirror, Spindle, 3x3 Grid
+- **Function**: Protection of hearing/morality and ritual numerical precision
+- **Etymology**: *klausyti (to listen) / *devyni (nine)
+- **References**:
+    - "Malecki, Jan: Libellus de sacrificiis et idolatria veterum Borussorum (1551)"
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

@@ -2,28 +2,35 @@
 
 ## Comprehensive Overview
 
-Sietynas (Lithuanian) and Sietiņš (Latvian) is the Baltic personification of the **Pleiades** star cluster. It represents the collective light of seven (or more) stars and is a key figure in agricultural timekeeping and folk astronomy.
+Sietynas (Lithuanian) and Sietiņš (Latvian) is the Baltic personification of the **Pleiades** star cluster. It is the most significant star group in Baltic ethnoastronomy, serving as a celestial "sieve" or "net" that regulates the agricultural calendar and seasonal transitions.
 
 ### English (EN)
-**Sietynas** means "The Sieve" or "The Net," reflecting its visual appearance as a clustered grouping of stars. In Baltic folklore, the Pleiades were used by farmers to determine the appropriate seasons for plowing and sowing. The star cluster is often depicted in myths as a sieve stolen by the devil (**Velnias**) from the thunder god (**Perkūnas**), or as a tool used by the celestial family to filter light rain. It is sometimes said that if you look through the sieve, you can see the true nature of the gods.
+**Sietynas** (from the Lithuanian *sietas*, meaning "sieve") is the name for the Pleiades. In the Baltic worldview, this cluster of stars was not merely a random grouping but a functional " celestial tool." It was historically used by farmers as a cosmic clock to determine the timing of critical agricultural tasks: its appearance in the evening sky signaled the time to begin plowing fallow land, while its disappearance marked the window for sowing rye. In folklore, Sietynas is often associated with the thunder god **Perkūnas**, who is said to have "forged" the sieve or used it to filter the rain, ensuring it falls as fine droplets rather than a destructive deluge. It is also linked to legends of seven brothers or celestial maidens who were transformed into stars to escape danger. Sietynas represents the order and predictability of the heavens, guiding the rhythmic labor of the Baltic farmstead.
 
 ### Lithuanian (LT)
-**Sietynas** lietuvių mitologijoje yra **Plejadių** žvaigždžių spiečius, kurio pavadinimas kilęs iš žodžio „sietas“. Liaudies dainose Sietynas vaizduojamas kaip dangaus „sietelis“, per kurį sijojamas lietus ar rasa. Dažnas siužetas pasakoja, kaip Velnias pavogė Sietyną iš Perkūno, o šis jį atsikovojo. Sietynas senovės baltams tarnavo kaip dangaus laikrodis – jo patekėjimas ir nusileidimas rodė žemdirbiškų darbų, ypač pūdymo arimo ir rugių sėjos, laiką.
+**Sietynas** lietuvių etnoastronomijoje yra **Plejadių** žvaigždžių spiečius. Jo pavadinimas kilęs iš žodžio „sietas“, nes žvaigždžių išsidėstymas primena skylėtą įrankį. Sietynas senovės lietuviams buvo itin svarbus orientyras: pagal jo patekėjimą ir nusileidimą valstiečiai nustatydavo žemdirbiškų darbų ciklą. Sakoma: „Sietynas danguje – laikas rugius sėti“. Tautosakoje pasakojama, kaip Velnias pavogė Sietyną iš Perkūno, o šis jį atsikovojo ir iškėlė aukštai į dangų, kad visiems rodytų kelią. Sietynas taip pat vaizduojamas kaip dangaus „sietelis“, per kurį sijojama rasa ar smulkus lietus, nešantis palaimą žemei.
 
 ### Latvian (LV)
-**Sietiņš** latviešu folklorā ir septiņu zvaigžņu kopums, kas atgādina sietu. Dainās Sietiņš tiek uzrunāts ar cieņu, jo tā parādīšanās dāvā skaidru laiku un svētību lauku darbiem. Viņš ir debesu dārznieks, kas sargā sējumus. Teikās bieži pieminēts, ka Sietiņš ir debesīs iemests priekšmets jeb rīks, kuru Dievs vai Pērkons izmanto, lai dotu svētību zemei. Tas ir viens no senaizvēstures tēliem, kas palīdzējis mūsu priekštečiem Orientēties laikā un sekmīgi sakārtot savu dzīvi saskaņā ar dabas ritmiem.
+**Sietiņš** latviešu folklorā ir viens no mīlētākajiem zvaigznājiem. Dainās un teikās tas tiek dēvēts par „debesu sietu”, kas dāvā svētību lauku darbiem. Sietiņš palīdzēja zemniekiem noteikt aršanas un sējas laiku, kalpojot par uzticamu debesu pulksteni. Viņš tiek uzskatīts par debesu dārznieku, kurš sargā sējumus no sausuma un salnām. Latviešu tradīcijā Sietiņa parādīšanās rudenī vēsta par veļu laika sākumu, saistot debesu gaismu ar senču piemiņu un dabas ciklu, kurā viss ir savstarpēji saistīts un Dieva svētīts.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Mentions Sietynas (Sietins) as a constellation to which prayers were addressed for agricultural success.
-- **Vėlius (Vel):** Analyzed the folk-etymological origins of Sietynas and its role in Baltic astral mythology.
-- **Barons (Bar):** Cataloged Latvian dainas where Sietiņš is described as a celestial sieve ensuring the purity of the rain.
-- **VLE:** Summarizes the mythological narratives concerning the Theft of Sietynas by Velnias.
+- **Folk Astronomy:** Extensive ethnoastronomical studies (e.g., by Libertas Klimka and Jonas Vaiškūnas) document the role of Sietynas in the Baltic agricultural calendar.
+- **Łasicki (Łas):** Mentions celestial bodies (*Sietin*) as objects of veneration for their role in seasonal timing. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the folk labels for the Pleiades and their connection to the celestial hierarchy and the thunder-god complex. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Sietynas with the Pleiades and its significance as a seasonal marker and mythological "sieve." [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Latvia
+- **Tribe**: All Baltic tribes
+- **Period**: Ancient origins to present folklore
 - **Category**: Celestial Entity / Star Cluster
-- **Cluster**: Pleiades
-- **Symbols**: Sieve, Net, Seven Stars, Light Rain
-- **Function**: Agricultural Timekeeping
+- **Scientific Name**: Pleiades (M45)
+- **Symbol**: Sieve, Net, Seven Stars, Dew, Fine Rain
+- **Function**: Agricultural timekeeping; regulating the seasonal cycle
+- **References**:
+    - "Vaiškūnas, Jonas: Skaitant dangaus ženklus (2012)"
+    - "Klimka, Libertas: Senovės lietuvių kosmogonija (1994)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

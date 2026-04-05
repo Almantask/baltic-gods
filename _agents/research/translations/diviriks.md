@@ -2,28 +2,35 @@
 
 ## Comprehensive Overview
 
-Diviriks is a significant Lithuanian title or name for the supreme leader of the gods. Recorded in early 13th-century chronicles (such as the Hypatian Codex), it is widely interpreted by scholars as a situational name for the thunder god, **Perkūnas**.
+Diviriks is a significant Lithuanian title or name for the supreme leader of the gods. Recorded in early 13th-century chronicles (such as the Hypatian Codex), it is widely interpreted by scholars as a situational name or epithet for the thunder god, **Perkūnas**.
 
 ### English (EN)
-**Diviriks** (meaning *Dievų rikis* - "Leader of the Gods") is a historical title for the highest active deity in the Baltic pantheon. In early chronicles, King Mindaugas is described as offering sacrifices to **Andajus**, **Laima**, and **Diviriks**. Most mythologists, including Norbertas Vėlius, conclude that Diviriks is a functional name or epithet for **Perkūnas**, emphasizing his role as the sovereign of the divine community and the ultimate arbiter of justice for the ruling elite. It represents the "Royal" or "Leader" aspect of the thunder god.
+**Diviriks** (meaning *Dievų rikis* - "Leader of the Gods") is a historical title for the highest active deity in the Baltic pantheon. In the 1252 entries of the Hypatian Chronicle, King Mindaugas is described as offering sacrifices to a group of deities including **Andajus**, **Laima**, and **Diviriks**. Most mythologists, including Norbertas Vėlius and Gintaras Beresnevičius, conclude that Diviriks is a functional name for **Perkūnas**, emphasizing his role as the "military commander" or sovereign of the divine community. It represents the "Royal" aspect of the thunder god, serving as the ultimate arbiter of justice and fate for the ruling elite and warriors.
 
 ### Lithuanian (LT)
-**Diviriks** lietuvių mitologijoje yra deivė/dievybė, kurios vardas kilo iš „Dievų rikis“. Pavadinimą „Diviriks“ mini Ipatijaus metraštis (1252 m.), pasakodamas apie karaliaus Mindaugo potėmį. Manoma, kad po šiuo vardu slepiasi pats **Perkūnas** – dangiškasis valdovas ir karybos globėjas. Diviriks vaizduojamas kaip galingas, autoritetingas dievas, kuriam meldžiasi valdovai ir kariai prieš svarbius žygius. Tai karališkasis dievybės bruožas, pabrėžiantis dangiškąją hierarchiją.
+**Diviriks** lietuvių mitologijoje yra dievybė arba titulas, kurio vardas kilo iš junginio „Dievų rikis“ (dievų valdovas, vadas). Šis vardas minimas Ipatijaus metraštyje (1252 m.), aprašant karaliaus Mindaugo krikštą ir jo slaptą ištikimybę seniesiems dievams. Mokslininkai (G. Beresnevičius, N. Vėlius) sutaria, kad po šiuo vardu slepiasi **Perkūnas**, pabrėžiant jo, kaip dangiškosios kariaunos vado ir valstybės globėjo, vaidmenį. Diviriks vaizduojamas kaip autoritetingas dievas, užtikrinantis teisingumą ir pergalę mūšiuose.
 
 ### Latvian (LV)
-**Diviriks** latviešu mitoloģijā nav ticis plaši izdalīts, tā vietā **Pērkons** dainās ir galvenais „Dieva dēls” un kārtošanas un taisnīguma nesējs. Tomēr lietuviešu tradīcijas un senu hroniku kontekstā Diviriks reprezentē Dievu vadoni, kura ziņā ir svētīt valdnieku un nodrošinti armijas uzvaru, simbolizējot stiprumu un taisnīgumu debesu dārzā un zemes dzīvē.
+**Diviriks** latviešu mitoloģijā nav ticis atsevišķi izdalīts, tā vietā **Pērkons** dainās pilda debesu taisnīguma un kārtības uzturētāja funkcijas. Tomēr vēsturisko hroniku kontekstā Diviriks reprezentē „Dievu vadoni” (lietuviski: *Dievų rikis*), kura ziņā ir svētīt valdnieku un nodrošināt uzvaru miera un kara laikos. Viņš simbolizē drosmi, dangišķo hierarhiju un suverēno varu, kas sargā tautu un tās vadītājus.
 
 ---
 
 ## Primary Source Details
 
-- **Hypatian Codex (1252):** Records *Diviriks* as one of the deities worshipped by King Mindaugas.
-- **Vėlius (Vel):** Analyzed the "Dievų rikis" etymology and the role of the thunder god as the leader of the divine assembly.
-- **VLE:** Confirms Diviriks as a situational name for Perkūnas in early chronicles.
-- **Gimbutas (Gim):** Discussed Diviriks as a reflection of the social hierarchy where the gods were led by a supreme "Rikis" or "Master."
+- **Hypatian Chronicle (1252):** Records *Diviriks* as one of the deities worshipped by Mindaugas alongside *Andajus*, *Laima*, and *Teliavelis*. [Hypatian Codex]
+- **Vėlius (Vel):** Analyzed the "Dievų rikis" etymology and the role of the thunder god as the leader of the divine assembly. [Norbertas Vėlius, 1996]
+- **Beresnevičius (Ber):** Discussed Diviriks as a reflection of the social-religious reforms and the hierarchy of the early Lithuanian state. [Gintaras Beresnevičius, 1995]
+- **VLE:** Confirms Diviriks as a situational name for Perkūnas in early chronicles. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
-- **Category**: War / Leadership Deity
+- **Region**: Lithuania
+- **Tribe**: Lithuanians
+- **Period**: 13th Century (Recorded)
+- **Category**: Major / War / Leadership Deity
 - **Symbol**: Lightning, Scepter, Oak tree, Throne
 - **Function**: Leader of the gods, Supreme arbiter, Protector of the ruler
-- **Etymology**: *dievų (of gods) + *rikis (leader/orderer)
+- **Etymology**: *dievų (of gods) + *rikis (leader/commander)
+- **References**:
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)"
+    - "Beresnevičius, Gintaras: Baltų religinės reformos (1995)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

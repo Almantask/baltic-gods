@@ -2,28 +2,36 @@
 
 ## Comprehensive Overview
 
-Teliavelis (or Kalvelis) is the divine blacksmith of Lithuanian mythology. Recorded in 13th-century chronicles, he is a figure of immense creative power, responsible for forging the celestial bodies and assisting the higher gods.
+Teliavelis (historically *Teliavel*) is the divine blacksmith of Lithuanian mythology, first recorded in the 13th-century Hypatian Codex. As a figure of immense creative power, he is the primordial artisan who forged the celestial bodies and established the physical light of the world.
 
 ### English (EN)
-**Teliavelis** is the "Heavenly Smith." He is best known for the primordial myth in which he forged the **Sun (Saulė)** and threw it into the sky to give light to the world. His name is linked to the Baltic root for "smith" (kalvis). In early chronicles (like the Hypatian Codex), he is mentioned alongside high deities such as **Andajus** and **Diviriks**. Teliavelis represents the mastery of fire and metal, the transition from raw nature to civilized tools, and the creative force that supports the cosmic order. He is an archetypal figure similar to the Greek Hephaestus but with a more profound role in the creation of the universe's light.
+**Teliavelis** is the "Blacksmith of the Gods." He is the central figure in one of the most significant Baltic cosmogonic myths: the forging of the **Sun (Saulė)**. According to early chronicles, Teliavelis used his divine hammer to forge the Sun and threw it into the sky to dispel primordial darkness. His name is etymologically linked to the root *kalvis* (smith) or *tel-* (earth/ground), suggesting a chthonic origin for the master of the celestial fire. In historical sources (e.g., the Hypatian Codex, 1252), he is mentioned alongside the supreme deity **Andajus**. Teliavelis represents the transition from raw nature to human culture through the mastery of fire and iron. He is a "cultural hero" who provides the tools and light necessary for life, occupying a role similar to the Finnish Ilmarinen or the Greek Hephaestus.
 
 ### Lithuanian (LT)
-**Teliavelis** (kartais vadinamas *Kalveliu*) lietuvių mitologijoje yra dangiškasis kalvis. Jis pirmą kartą paminėtas 1252 m. Ipatijaus metraštyje kaip vienas iš karaliaus Mindaugo garbintų dievų. Svarbiausias mitas pasakoja, kaip Teliavelis nukalė **Saulę** ir įmetė ją į dangų, kad ši šviestų žmonėms. Jis simbolizuoja kūrybinę ugnies galią, meistrystę ir gebėjimą pertvarkyti pasaulį. Teliavelis yra tarpininkas tarp žemės ir dangaus, savo amatu užtikrinantis kosminę tvarką ir šviesą.
+**Teliavelis** (istoriniuose šaltiniuose – *Teliavel*) lietuvių mitologijoje yra dangiškasis kalvis, pirmą kartą paminėtas 1252 m. Ipatijaus metraštyje (prie karaliaus Mindaugo dievų). Svarbiausias mitas pasakoja, kaip Teliavelis nukalė **Saulę** ir įmetė ją į dangų, kad ši šviestų žemei. Jis simbolizuoja kūrybinę ugnies galią, meistrystę ir gebėjimą pertvarkyti chaosą į kosminę tvarką. Teliavelis vaizduojamas kaip milžiniškas kalvis, kurio kalvėje gimsta ne tik įrankiai, bet ir patys dangaus kūnai. Jo tėvas ar bendražygis mituose dažnai būna **Perkūnas** arba **Dievas**, tačiau būtent Teliavelis yra tas, kuris suteikia pasauliui matomą šviesą.
 
 ### Latvian (LV)
-**Kalvis** latviešu mitoloģijā ir debesu kalējs, kurš dainās bieži kaļ Saules jostas, zvaigznes vai Dieva dēlu ieročus. Teliavelis lietuviešu tradīcijā ir šī tēla senākā un monumentālākā izpausme, kas tieši saistīta ar Saules radīšanu. Viņš simbolizē viedumu, spēku un prasmi valdīt pār uguni, kas nepieciešama, lai radītu kaut ko mūžīgu un svētu. Viņš ir debesu amatnieks, kura kalve atrodas pašā debesu malā vai zemes dzelmē.
+**Kalvis** (Debesu kalējs) latviešu dainās un teikās ir tēls, kurš kaļ debesu spīdekļus un Dieva dēlu ieročus. Teliavelis lietuviešu tradīcijā ir šī tēla senākā un monumentālākā izpausme, kas tieši saistīta ar Saules radīšanu. Viņš simbolizē viedumu un prasmi valdīt pār uguni. Kalvja kalve dainās atrodas „debesu malā”, kur dzirksteles krīt jūrā kā zvaigznes. Viņš ir debesu amatnieks, kurš nodrošina, ka saule katru rītu uzlec spoža, un ka dievišķā gaisma nekad neizdziest.
 
 ---
 
 ## Primary Source Details
 
-- **Hypatian Codex (1252):** Records *Teliavel* as a deity worshipped by King Mindaugas.
-- **Malala Chronicle:** Contains the explicit myth of Teliavelis forging the Sun.
-- **Vėlius (Vel):** Analyzed Teliavelis as a "cultural hero" and a chthonic-celestial mediator in the Baltic worldview.
-- **VLE:** Confirms the identification of Teliavelis as the divine blacksmith and discusses his role in early chronicles.
+- **Hypatian Codex (1252):** Records *Teliavel* as a major deity worshipped by the Lithuanian grand duke and king Mindaugas.
+- **Malala Chronicle:** Provides the explicit mythological narrative of Teliavelis forging the Sun and throwing it into the heavens.
+- **Vėlius (Vel):** Analyzed Teliavelis as a "cultural hero" and a mediator between the chthonic depths and the celestial heights. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Teliavelis as the divine blacksmith and discusses his high status in the early Lithuanian pantheon. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
-- **Category**: Celestial / Creation Deity
-- **Symbol**: Hammer, Anvil, Sun, Fire, Iron
-- **Function**: Forging the Sun and celestial objects
-- **Etymology**: *kalvis (smith) + *tel- (earth) / *vel- (spirit)
+- **Region**: Lithuania
+- **Tribe**: Lithuanians
+- **Period**: 13th Century (Recorded)
+- **Category**: Celestial / Creation Deity / Cultural Hero
+- **Symbol**: Hammer, Anvil, Sun, Fire, Iron, Tongs
+- **Function**: Forging the Sun, assistance to supreme deities, and mastery of fire
+- **Etymology**: *kalvis (smith) / *tel- (earth) + *vel- (spirit/underworld)
+- **References**:
+    - "Hypatian Codex / Ipat'evskaja letopis' (13th c.)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)"
+    - "Greimas, Algirdas Julius: Apie dievus ir žmones (1979)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

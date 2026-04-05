@@ -2,27 +2,34 @@
 
 ## Comprehensive Overview
 
-Krūminė (Lithuanian) is a Lithuanian deity associated with bushes, scrubs, and agricultural productivity. Her name stems from "krūmas" (bush). While primarily related to nature, her function often overlaps with the growth of crops and the early stages of harvesting.
+Krūminė (Lithuanian) is a Lithuanian deity associated with bushes, thickets, and the earliest stages of the harvest. Her name stems from *krūmas* (bush). While primarily related to nature, her function documented by 16th-century chroniclers shows a strong link to agricultural productivity and ritual offerings.
 
 ### English (EN)
-**Krūminė** is a goddess of bushes, shrubs, and agricultural fertility. Her persona is associated with the protective power of the scrub that borders forests and fields. In Baltic folklore recorded by Jan Łasicki, she is described as someone to whom offerings were made to ensure the success of the harvest and the well-being of the crops. She is particularly linked to the concept of "Pradžių Varpos" (the first ears of grain), marking the starting phase of the harvest season. She represents the transitional zone between the wild forest and the domesticated field.
+**Krūminė** is a goddess of bushes, shrubs, and burgeoning vegetation. Historically recorded by Jan Łasicki as *Kruminie Pradžiamuarpu* (Krūminė Pradžių Varpų), she was believed to "care for all shrubs, thickets, and meadows." She is particularly associated with the "first ears of grain" (*Pradžių Varpos*), marking the very beginning of the harvest season when the first growth was acknowledged through offerings. She represents the vital boundary and transition between the untamed wild (the forest edge) and the domesticated agricultural field. In the Baltic worldview, her protection ensured that the seedlings were healthy and that the crops began their growth with divine favor.
 
 ### Lithuanian (LT)
-**Krūminė** (istoriniuose sąrašuose – *Krūminė Pradžių Varpų*) lietuvių mitologijoje yra krūmų, krūmokšnių ir žemdirbystės produktyvumo deivė. Jos vardas kilo iš žodžio „krūmas“. Janas Lasickis ją paminėjo kaip dievybę, kuriai aukojama pirmosios derliaus varpos, tikint, kad tai atneš gausų derlių. Krūminė simbolizuoja gamtos pereinamąją zoną tarp girios ir dirbamų laukų, kartu rūpindamasi ir augmenija, ir jauniausiomis pasėlių dalimis.
+**Krūminė** (istoriškai – *Krūminė Pradžių Varpų*) lietuvių mitologijoje yra krūmų, krūmokšnių, tankynių ir pradinio derliaus deivė. Jos vardas kilo iš žodžio „krūmas“. Janas Lasickis ją paminėjo kaip dievybę, kuri rūpinasi visais krūmais ir pievomis. Pavadinimo dalis „Pradžių Varpų“ nurodo, kad jai būdavo aukojamos pirmosios laukų varpos, siekiant užsitikrinti sėkmingą viso derliaus pradžią. Krūminė simbolizuoja gamtos gyvybingumą pamiškėse ir laukų ežose, saugodama tai, kas pradeda augti ir bręsti.
 
 ### Latvian (LV)
-**Krūminė** latviešu mitoloģijā ir mazāk pazīstama kā atsevišķs tēls – tā vietā biežāk parādās **Meža māte** vai **Zemes māte**, kas apvieno sevī dabas auglības un sargāšanas aspektus. Tomēr lietuviešu tradīcijas un lokālo sarakstu kontekstā Krūminė reprezentē dabas sargātāju slāni, kas rūpējas par brikšņiem un lauku ežām, simbolizējot jaunaudzes un to svētību lauksaimniecības cikla ietvaros.
+**Krūminė** latviešu mitoloģijā galvenokārt atbilst **Krūmu mātei** vai **Lauku mātei**, kas sargā sētas malas un brikšņus. Viņas tēls lietuviešu vēsturiskajos avotos ir cieši saistīts ar pirmo ražas aizmetņu svētību. Krūminė reprezentē dabas aizsargājošo spēku, kas mīt krūmājos un pļavās, simbolizējot jauno dzinumu un labības „pirmo vārpu” nozīmi. Viņa ir tā, kura nodrošina dabas un lauksaimniecības harmonisku pāreju, sargājot augus no agras novīšanas.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Kruminie Pradziamuarpu* as a deity associated with bushes and agricultural first-fruits.
-- **Vėlius (Vel):** Analyzed the functional link between nature spirits and agricultural prosperity, noting Krūminė's role as a mediator deity.
-- **VLE:** Discusses Krūminė as a specialized deity of vegetation and the initial harvest.
+- **Łasicki (Łas):** Records *Kruminie Pradžiamuarpu* as a deity who cares for all shrubs, thickets, and meadows (*qui omnes feticos, arbusta, dumos et pratia curebat*). [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the functional link between nature spirits and agricultural prosperity, noting Krūminė's role as a mediator of early growth. [Norbertas Vėlius, 1996]
+- **VLE:** Discusses Krūminė as a specialized deity of vegetation and the initial harvest phase. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania (Samogitia)
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Nature / Agricultural Deity
-- **Symbol**: Bush, Grain Ear, Scrubland
-- **Function**: Protection of growth and first harvest
-- **Etymology**: *krūmas (bush)
+- **Symbol**: Bush, Grain Ear (Varpa), Scrubland, Meadow flower
+- **Function**: Protection of growth, thickets, and the initial harvest
+- **Etymology**: *krūmas (bush) / *pradžia (beginning)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

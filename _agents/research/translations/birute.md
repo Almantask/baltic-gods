@@ -2,28 +2,35 @@
 
 ## Comprehensive Overview
 
-Birutė is a semi-legendary historical figure and a revered Lithuanian Duchess, the wife of Grand Duke Kęstutis. In Lithuanian mythology and folklore, she is often associated with the role of a *vaidilutė* (priestess) and a guardian of the sacred fire (**Ugnis**).
+Birutė is a semi-legendary historical figure and a revered Lithuanian Duchess, the wife of Grand Duke Kęstutis. In Lithuanian mythology and folklore, she is often associated with the role of a *vaidilutė* (priestess) and a guardian of the sacred fire (**Gabija/Ugnis**).
 
 ### English (EN)
-**Birutė** is a symbol of purity, devotion, and ancestral wisdom. According to legend, she was a beautiful and chaste priestess who guarded the sacred fire at Palanga, a major pagan sanctuary on the Baltic coast. Grand Duke Kęstutis was so captivated by her that he took her as his wife, and she became the mother of **Vytautas the Great**. After her death, Birutė was venerated by the local population, and she transitioned into a folk heroine and a protective spirit of the Lithuanian identity. Her name is associated with the sacred groves and the spiritual traditions of the ancient Balts.
+**Birutė** is a symbol of purity, devotion, and ancestral wisdom. According to legend, she was a beautiful and chaste priestess who guarded the sacred fire at Palanga, a major pagan sanctuary on the Baltic coast. Grand Duke Kęstutis was so captivated by her that he took her as his wife, and she became the mother of **Vytautas the Great**. After her death, Birutė was venerated by the local population, transitioning into a folk heroine and a protective spirit of Lithuanian identity. Her cult remained strong in the 15th-16th centuries, with offerings left on "Birutė's Hill" in Palanga, where her spirit was believed to protect the shore and the sacred fire.
 
 ### Lithuanian (LT)
-**Birutė** lietuvių tradicijoje yra kunigaikščio Kęstučio žmona ir Vytauto Didžiojo motina, kartu tapusi viena mylimiausių sakraliųjų moterų tėvynės istorijoje. Pasak teikų, ji buvo vaidilutė Palangoje, saugojusi šventąją ugnį, kol ją sutiko Kęstutis. Birutė simbolizuoja motinišką meilę, ištikimybę ir senovės tradicijų tąsą. Po mirties ji buvo laikoma palaimintąja, o ant Birutės kalno Palangoje iki šiol jaučiama jos dvasinė globa. Jos vardas lietuvių kultūroje yra tyrumo, dvasingumo ir tėvynės meilės įkūnijimas.
+**Birutė** lietuvių tradicijoje yra kunigaikščio Kęstučio žmona ir Vytauto Didžiojo motina, viena gerbiamiausių sakraliųjų moterų tėvynės istorijoje. Pasak sakmių, ji buvusi Palangos vaidilutė, saugojusi šventąją ugnį, kol ją pamilo ir išsigabeno Kęstutis. Birutė simbolizuoja ištikimybę, tyrumą ir senųjų baltų tradicijų saugojimą. Po mirties ji buvo dievinama: žmonės nešdavo aukas ant Birutės kalno Palangoje, prašydami globos ir sveikatos. Ji tapo tautos vienybės ir didingos praeities simboliu.
 
 ### Latvian (LV)
-**Birutė** latviešu mitoloģijā neparādās kā patstāvīga dieviete, bet viņas stāsts par svētās uguns sargāšanu un uzticību savai zemei ir pazīstams kā lietuviešu kultūras mantojums. Viņa iemieso sievišķo spēku, gudrību un tautas lepnumu. Birutės tēls pasvītro senbaltu dvasīgās prakses un uguns svētuma nozīmi, kura caurvij lietuviešu vēsturi un mitoloģiju kā neizdziestoša liesma.
+**Birutė** latviešu tradīcijā ir pazīstama kā lietuviešu svētā valdniece un uguns sargātāja. Viņas stāsts par uzticību senajiem dieviem un savai zemei iedvesmojis daudzus dainu motīvus par sievietes spēku un gudrību. Birutė reprezentē svēto uguns kultu, kas bijis kopīgs visām baltu ciltīm. Viņa tiek cienīta kā Vytauta Dižēnā māte un mājas pavarda svētības aizbildne, kuras gars sargā Baltijas jūras krastu.
 
 ---
 
 ## Primary Source Details
 
-- **Lithuanian Chronicles:** Record the historical union between Kęstutis and Birutė.
-- **Folk Legend:** The primary source for Birutė's status as a *vaidilutė* and a chaste priestess.
-- **Vėlius (Vel):** Analyzed the "sacred priestess" archetype in Baltic mythology, highlighting Birutė's role as a transition figure between history and myth.
-- **VLE:** Confirms the identification of Birutė as a historical and legendary figure.
+- **Lithuanian Chronicles:** Record the historical union between Kęstutis and Birutė (e.g., Bychowiec Chronicle). [16th Century]
+- **Folk Legend:** The primary source for Birutė's status as a *vaidilutė* and the cult at Birutė's Hill.
+- **Vėlius (Vel):** Analyzed the "sacred priestess" archetype and the transition from historical figure to mythological protector. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Birutė as a historical and legendary figure and her significance in the Samogitian cultural memory. [Visuotinė lietuvių enciklopedija]
+- **Długosz (Dlug):** Mentions the veneration of historical leaders and their deification in folk memory. [Jan Długosz, 1455]
 
 ## Key Metadata
+- **Region**: Palanga (Coastal Lithuania) / Samogitia
+- **Tribe**: Samogitians, Curonians
+- **Period**: 14th Century (Historical) / 15th-16th Century (Cult)
 - **Category**: Social / Legendary / Historical Figure
-- **Symbol**: Sacred Fire, Palanga mountain, Wreath, White linen
+- **Symbol**: Sacred Fire, Palanga mountain, White linden, Amber necklace
 - **Function**: Guardian of the sacred fire and personification of Lithuanian ancestry
-- **Region**: Palanga (Coastal Lithuania)
+- **References**:
+    - "Bychowiec Chronicle (16th Century MS)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

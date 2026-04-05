@@ -2,29 +2,36 @@
 
 ## Comprehensive Overview
 
-Mėnulis (Lithuanian) and Mēness (Latvian) is the Moon god, the deity of the night and time. He represents the masculine counterpart to Saulė, often characterized as a warrior, walker, and the traveler of the nocturnal sky.
+Mėnulis (Lithuanian) and Mēness (Latvian) is the primary Moon god in Baltic mythology. He is the divine husband of **Saulė** (the Sun goddess) and the father of the stars, representing the nocturnal light, the passage of time, and the measurement of the lunar cycle.
 
 ### English (EN)
-**Mėnulis** is the celestial soldier of the night, whose ever-changing phase represents the passage of time. Most myths focus on his marriage to **Saulė**, which is fraught with tragedy and infidelity. Mėnulis famously betrayed the Sun by courting her daughter (or handmaiden) **Aušrinė/Auseklis**, leading to his punishment by **Perkūnas**, who slashed him into pieces — thus explaining the moon's lunar cycle. He is often depicted carrying a sword and guarding the world during the hours of darkness.
+**Mėnulis** is the deity of the Moon and the night sky. In Baltic folklore, he is often depicted as a warrior, a traveler, or a young prince riding a silver horse or chariot. His relationship with **Saulė** is the core of a major celestial drama: the Sun and Moon were once married, but Mėnulis fell in love with **Aušrinė** (the Morning Star). For this infidelity, **Perkūnas** (the Thunder god) struck the Moon with his sword, causing its cyclic phases (the appearing and disappearing segments) or separating the couple to opposite sides of the sky. Mėnulis is the keeper of the evening light and a protector of travelers, orphans, and the dead. He is also the master of the months, with his phases guiding the ancient Baltic calendar and the timing of agricultural and ritual activities.
 
 ### Lithuanian (LT)
-**Mėnulis** lietuvių mitologijoje yra kiltas nakties karys ir laiko sergėtojas. Jis dažnai vaizduojamas kaip Saulės vyras (arba sūnus, priklausomai nuo sakmių sluoksnio), kuris danguje pasirodo naktį, kad apšviestų kelią keliauninkams. Pagrindinis mitas apie Mėnulį yra jo neištikimybė Saulei su Aušrine, už ką jį Perkūnas sukapojo į dalis – taip liaudies dainose aiškinamos mėnulio fazės. Jis taip pat siejamas su atmanų (vėlių) pasauliu ir naktiniu ganyklų ganymu.
+**Mėnulis** (tarmėse – *Mėnuo*) lietuvių mitologijoje yra nakties šviesos ir laiko skaičiavimo dievas. Jis yra **Saulės** vyras, tačiau jų santuoka paženklinta išdavystės ir Perkūno bausmės – už meilę Aušrinei Perkūnas jį „sukapojo“ (todėl matome mėnulio fazes) ir pasmerkė amžinai keliauti danguje atskirai nuo Saulės. Mėnulis globoja nakties klajūnus, medžiotojus ir vėles. Senovės lietuviai Mėnulį laikė jaunu dievaičiu, kuris kaskart gimsta iš naujo (jaunatis), bręsta (pilnatis), sensta ir miršta. Mėnulio kultas buvo itin svarbus planuojant ūkio darbus, nes tikėta, kad skirtingos fazės tiesiogiai veikia augalų dygimą ir žmonių sveikatą.
 
 ### Latvian (LV)
-**Mēness** latviešu dainās un teikās ir „nakts saimnieks”, dieva dēls un debesu karavīrs, kurš naktīs jāj ar savu zirgu pāri debess jumtim. Viņš bieži parādās kā „zvaigžņu skaitītājs”. Mēness un **Saules** debesu kāzas ir viens no nozīmīgākajiem latviešu mitoloģijas sižetiem, kurā Mēness nepastāvība un neuzticība bieži izraisa strīdus ar Sauli un bargo Pērkonu. Mēness ir saistīts ar laika skaitīšanu un likteni, bieži vācot datus par jaundzimušajiem naktīs.
+**Mēness** latviešu mitoloģijā un dainās ir debesu kungs, Saulītes vīrs un zvaigžņu tēvs. Viņš bieži parādās kā karavīrs ar zvaigžņu mēteli, kurš jāj pa debesu kalnu. Mēness ir cieši saistīts ar laika skaitīšanu un dabas cikliem. Latviešu tautas dziesmās viņš sargā bāreņus un naktī strādājošos, dārdinot debesis un dāvājot savu sudraba gaismu. Mēness simbolizē vīrišķo spēku, gudrību un nakts mistēriju. Viņš ir tas, kurš „noskaita” dienas un naktis, veidojot mēnešu kārtību. Viņa cīņa ar Sauli vai tās palīgiem dainās atspoguļo dabas ritma neizbēgamību un debesu svētību.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Briefly mentions the Moon among the celestial bodies worshipped by the Samogitians, though sometimes conflated with other spirits.
-- **Barons (Bar):** Cataloged extensive Latvian *dainas* describing Mēness's role as a suitor and a heavenly traveler who counts the stars.
-- **Vėlius (Vel):** Analyzes the "Sun and Moon" relationship in early etiological legends (kaip atsirado žemė/mėnulis), focusing on the ritualistic aspects of the lunar cycle.
-- **VLE:** Provides a comprehensive overview of Mėnulis as a masculine deity of the night, confirming his cross-Baltic significance as the counter-point to the solar mother.
-- **Biezais (Biez):** Extensively studied the celestial hierarchy, detailing Mėness's position as a divine son and his complex mythological relationship with other heavenly actors.
+- **Folk Dainas:** Thousands of songs in both Lithuania and Latvia document the celestial wedding and the subsequent conflicts between the Sun, Moon, and Thunderer.
+- **Vėlius (Vel):** Analyzed Mėnulis as the representative of the "nocturnal/temporal" tier in the Baltic sky hierarchy, focusing on the moon-phases. [Norbertas Vėlius, 1996]
+- **Greimas (Grei):** Discussed the Moon as a social mediator and a symbol of temporal order in agricultural and social practice. [Algirdas Julius Greimas, 1979]
+- **VLE:** Confirms Mėnulis's status as a major celestial deity and summarizes his mythological drama with the Sun and Perkūnas. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Latvia
+- **Tribe**: All Baltic tribes
+- **Period**: Ancient origins to present folklore
 - **Category**: Major Celestial Deity
-- **Symbols**: Crescent Moon, Silver Sword, Starry Sky
-- **Animals**: Dark/Silver Horse
+- **Symbol**: Crescent Moon, Silver Sword, Starry Cloak, Lunar Cycle
+- **Animals**: Silver Horse, White Bull (as lunar symbol)
+- **Function**: Measurement of time (months); protection of travelers; regulating the night
 - **PIE Root**: *mḗh₁n- (month/moon)
+- **References**:
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "Greimas, Algirdas Julius: Apie dievus ir žmones (1979)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

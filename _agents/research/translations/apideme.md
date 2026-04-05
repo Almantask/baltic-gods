@@ -1,28 +1,37 @@
-# Apidėmė
+# Apidėmė / Apidome / Enclosure Spirit
 
 ## Comprehensive Overview
 
-Apidėmė is a minor Lithuanian (Samogitian) deity or spirit associated with the site of a relocated, abandoned, or "changed" settlement. Recorded in the 16th-century list of Jan Łasicki, the name also refers to the physical location of a former farmstead.
+"Apidėmė" (or Apidome) is a minor but significant figure in Lithuanian and Samogitian mythology, documented by the 16th-century writer **Jan Łasicki** as a deity of the home-boundary and enclosures.
 
 ### English (EN)
-**Apidėmė** is the "Guardian of the Old Site." In the Baltic worldview, when a family moved their farmstead or when a village was relocated, the old site was not simply forgotten but was believed to be inhabited by its own protective spirit. Apidėmė ensured that the land of the former home remained sacred and was not disturbed by negative influences. She represents the ancestral memory tied to the land and the belief that the past presence of a family leaves a spiritual mark on the environment. People would sometimes return to these sites to leave small offerings in honor of their predecessors.
+**Apidėmė** is the "Spirit of the Homestead's Edge" or the "Guardian of the Enclosure." The name is directly derived from the Lithuanian word *apidėmė* (originally meaning a location around a house or an abandoned homestead). According to **Jan Łasicki**, Apidėmė was the deity of the "changed dwelling," presiding over the physical boundaries of the farm and the gates that separated the domestic space from the wilderness. When a family moved houses or established a new fence, Apidėmė was offered sacrifices—such as grain or beer poured onto the threshold—to ensure that the guardian-spirit would follow and protect the new boundaries. He represents the sacrality of the threshold and the protective perimeter of the family's property.
 
 ### Lithuanian (LT)
-**Apidėmė** lietuvių mitologijoje yra deivė ar dvasia, sargianti senąją, apleistą ar pakeistą gyvenvietės/sodybos vietą. Jos vardas kilęs iš žodžio „apidėmė“ (vieta, kur anksčiau stovėjo troba). Janas Lasickis ją paminėjo kaip dvaselę, kuri rūpinasi namų ribomis ir buvusių gyventojų atminimų. Apidėmė simbolizuoja ryšį su praeitimi ir tikėjimą, kad žemė išsaugo ten gyvenusių žmonių energiją. Tai tėviškas ir rūpestingas namų globėjas, užtikrinantis, kad protėvių pėdsakai nebūtų ištrinti iš kraštovaizdžio.
+**Apidėmė** (liet. *Apidėmė* arba *Apidome*) — lietuvių (ypač žemaičių) mitinė dvasia, paminėta **Jono Lasickio** (1582 m.) darbe. Lasickis apibūdina Apidėmę kaip „gyvenamosios vietos pakeitimo dievybę“. Pavadinimas kildinamas iš žodžio *apydėmė* (vieta šalia namo, sodyba). Ši dvasia buvo laikoma sodybos ribų, tvorų ir vartų saugotoja. Buvo tikima, kad keičiant gyvenamąją vietą, Apidėmei reikia aukoti, kad ji „persikraustytų“ kartu su šeima ir saugotų naująją teritoriją. Ji personifikavo sodybos neliečiamumą ir saugią erdvę, skiriančią šeimą nuo svetimų jėgų ar žvėrių miške. Dažnai šiai dvasiai auka (pvz., alus ar duona) būdavo paliekama prie pat vartų ar po namų slenksčiu.
 
 ### Latvian (LV)
-**Apidėmė** latviešu mitoloģijā nav ticis atsevišķi izdalīts, tā vietā sētas un robežu sargāšanas funkcijas veica dažādas **Zemes mātes** vai **Mājas māte** izpausmes. Tomēr lietuviešu tradīcijas un lokālo sarakstu kontekstā Apidėmė reprezentē sētas ir vietas svētību, kura ziņā ir nosargāt senās mājasvietas mieru ir nodrošinti atmiņas par pagātni, simbolizējot rūpību ir dabas sniegto velšu aizsardzību.
+**Apidēme** (liet. *Apidėmė*) lietuviešu un žemaišu mitoloģijā ir sētas un mājas robežu gars, ko aprakstījis **Jans Lasickis** (1582. g.). Viņas vārds cēlies no lietuviešu vārda „apydėmė” (vieta ap māju, mājas vieta). Apidēme tika uzskatīta par „mājvietas maiņas dievību” — viņa sekoja saimei, ja tā pārcēlās uz citu dzīvesvietu, un sargāja jauno pagalmu. Šis gars personificēja sētas drošību un slieksni, kas šķīra mājokli no meža vai svešiniekiem. Prūšu un lietuviešu zemnieki nesa šai dvasiai ziedojumus (pārsvarā alu vai maizi) pie vārtu stabiem vai lievenī, lai mājas svētība un apsardzība neatslābtu. Apidēme rāda, cik svarīgi senajiem baltiem bija skaidri nospraustas un garīgi aizsargātas robežas.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Apidome* as a deity who guards the boundaries of the home (*qui terminos domuum custodit*).
-- **Vėlius (Vel):** Analyzed the "apidėmė" concept in the context of the Baltic settling patterns and ancestral cults.
-- **VLE:** Confirms the identification of Apidėmė as a spirit of the former settlement site.
+- **Łasicki (Łas):** The primary source for Apidėmė as a deity of changed dwellings. [Jan Łasicki, De diis Samagitarum, 1582]
+- **Beresnevičius (Ber):** Analyzes the concept of the "sacrality of boundaries" in Baltic home-cults. [Gintaras Beresnevičius]
+- **Vėlius (Vel):** Connects the name to etymological roots for abandoned homesteads and domestic spatial organization. [Norbertas Vėlius, 1996]
+- **VLE:** Describes Apidėmė as a household spirit responsible for sodybos (homestead) protection.
 
 ## Key Metadata
-- **Category**: Household / Ancestral Spirit
-- **Symbol**: Abandoned hearth, Foundation stone, Old tree, Boundary marker
-- **Function**: Protection of the former home site and ancestral memory
-- **Etymology**: *apidėmė (site of a former building)
+- **Region**: Samogitia / Lithuania
+- **Tribe**: Samogitian / Lithuanian
+- **Period**: 16th-century records (Late Renaissance)
+- **Category**: Minor Deity / Household Spirit / Boundary Protector
+- **Symbol**: Threshold, Fence Gate, Hewer's axe (for clearing new land), Stone on corner
+- **Animals**: Dog (guardian), Rooster
+- **Function**: Protecting the farmstead, Guiding the family during moves, Maintaining the boundary spirit
+- **Etymology**: *api- (around) + *dem- (home/stead)
+- **References**:
+    - "Łasicki, Jan: De diis Samagitarum caeterisque Sarmatum (1582)"
+    - "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)"
+    - "VLE: Apidėmė (vle.lt)"

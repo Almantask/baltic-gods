@@ -1,29 +1,37 @@
-# Kelių Dievas / Gužė / Čiužė
+# Kelukis / Gužė / Čiužė
 
 ## Comprehensive Overview
 
-Kelių Dievas (God of Roads), Gužė, and Čiužė represent the Lithuanian personification of travel, roads, and smooth passage. They are the deities of the wayfarer and the divine protectors of those on the move.
+Kelukis (God of Roads), Gužė, and Čiužė represent the Lithuanian personification of travel, roads, and smooth passage. These deities govern the safety of wayfarers and the physical ease of traversing the diverse Baltic landscape, from frozen winter paths to summer forest trails.
 
 ### English (EN)
-**Kelių Dievas**, **Gužė**, and **Čiužė** are the deities of the journey. Kelių Dievas (literally "God of the Roads") is the guardian of the path and the crossroads. Gužė and Čiužė (historically recorded by Ruigys and Brodowski) are localized spirits of movement and travel. Čiužė specifically derives her name from "čiuožti" (to slide/glide), symbolizing the ease and smoothness of a journey. In the Baltic worldview, traveling was a dangerous transition, and wayfarers would leave small offerings at crossroads to ensure the safe guidance of these spirits. They represents the protection of travelers from wrong turns and misfortune.
+**Kelukis**, **Gužė**, and **Čiužė** are the "Guardians of the Path." **Kelukis** (historically recorded as *Keluki* by Jan Łasicki) is the divine master of roads (*qui viis praeest*). He was invoked at the beginning of a journey to ensure that the traveler found their way and avoided the many perils of the ancient road. **Gužė** and **Čiužė** (recorded by later lexicographers like Ruigys) are spirits of specialized movement. **Čiužė** is specifically derived from the Lithuanian word *čiuožti* ("to slide" or "to glide"), symbolizing the smoothness of the road, particularly in winter when sledges were the primary mode of transport. In the Baltic world, where forests and marshes made travel treacherous, these spirits were essential for maintaining the "flow" of life between distant farmsteads. Crossroads, as the site of these spirits' power, were often marked with small offerings to ensure safe guidance.
 
 ### Lithuanian (LT)
-**Kelių Dievas**, **Gužė** ir **Čiužė** lietuvių mitologijoje yra deivės/dvasios, atsakingos už keliones, kelius ir sėkmingą susisiekimą. Kelių Dievas sargs kryžkeles ir užtikrina, kad keliautojas nepaklystų. Gužė ir Čiužė (pavadinimas kilęs iš „čiuožti“) vaizduojamos kaip lengvo ir greito kelio globėjos. Jų paminėjimas Lasickio ir vėlesniuose Ruigio sąrašuose rodo, kad senovės lietuviai siekė sakralizuoti kelius ir užtikrinti saugų prekybos bei kelionių ryšį.
+**Kelukis**, **Gužė** ir **Čiužė** lietuvių mitologijoje yra kelionių ir sėkmingo judėjimo globėjai. Kelukis (Jano Lasickio paminėtas kaip *Keluki*) yra pagrindinis „kelių dievas“ (*qui viis praeest*), kuriam būdavo meldžiamasi prieš tolimą kelionę, prašant sėkmės ir apsaugos nuo paklydimo. Gužė ir Čiužė (minimos V. Ruigio ir P. Ruigio žodynuose) įkūnija lengvą ir sklandų važiavimą. Čiužės vardas tiesiogiai siejamas su veiksmažodžiu „čiuožti“, simbolizuojančiu slidų, gerą kelią, ypač svarbų žiemos metu važuojant rogėmis. Šios būtybės rodo, kaip senovės lietuviai sakralizavo judėjimą ir siekė užsitikrinti dvasinę globą kintančiose kaimo erdvėse bei pavojinguose miško takuose.
 
 ### Latvian (LV)
-**Kelių Dievas**, **Gužė** un **Čiužė** latviešu mitoloģijā nav tikuši atsevišķi izdalīti, tā vietā to funkcijas veica dažādas **Laimas** vai **Dieva** dāvātās sargāšanas un ceļa svētības. Tomēr lietuviešu tradīcijas un lokālo sarakstu kontekstā Kelių Dievas reprezentē sētas un ceļinieka aizbildni, kura ziņā ir nosargāt sētas mieru un nodrošinti ceļa mērķtiecību, simbolizējot rūpību un dabas sniegto velšu aizsardzību.
+**Kelių Dievas** (ceļa dievs) un viņa pavadoņi latviešu mitoloģijā galvenokārt atbilst **Laimas** vai **Dieviņa** ceļa svētībai. Latviešu dainās „baltais ceļš” ir simbols saskaņai un drošībai, ko dāvā dievišķie spēki. Lietuviešu vēsturiskajos avotos šie tēli ir izdalīti kā specifiski „ceļu gars” un „slīdēšanas gars”. Viņi reprezentē ceļinieka drošību un prasmi pārvarēt attālumus. Viņu loma senbaltu pasaules uzskatā pasvītro to, ka ceļš ir ne tikai fiziska josla, bet arī garīga pāreja, kurā nepieciešama dievišķa aizsardzība un vieglums, ko iemieso Čiužė.
 
 ---
 
 ## Primary Source Details
 
-- **Ruigys (Rui):** Recorded *Čiužė* as a goddess of smooth travel and sliding.
-- **Łasicki (Łas):** Records the generalized concept of road deities among the Samogitians.
-- **Vėlius (Vel):** Analyzed the "travel and crossroads" complex in Baltic mythology, noting the functional role of the "minor" travel spirits.
-- **VLE:** Confirms the identification of these figures as spirits of the roads.
+- **Łasicki (Łas):** Records *Keluki* as the deity who presides over roads (*qui viis praeest*). [Jan Łasicki, 1615]
+- **Ruigys (Rui):** Recorded *Čiužė* as a goddess of smooth travel and sliding, linked to the winter road. [Philipp Ruhig, 1747]
+- **Vėlius (Vel):** Analyzed the "travel and crossroads" complex in Baltic mythology, noting the functional role of minor spirits of movement in the agrarian cycle. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of these figures as specialized minor deities of the roads and travel. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th to 18th Century (Recorded)
 - **Category**: Social / Travel Spirit
-- **Symbol**: Crossroads, Walking stick, Wheel, Sleigh runner
-- **Function**: Protection of wayfarers and smooth travel
-- **Etymology**: *kelias (road) + *čiuožti (to slide)
+- **Symbol**: Crossroads, Walking stick, Wheel, Sleigh runner, Sand shoe
+- **Function**: Protection of wayfarers; ensuring smooth and effortless travel
+- **Etymology**: *kelias (road) + *čiuožti (to slide/glide)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Ruhig, Philipp: Littauisch-Deutsches und Deutsch-Littauisches Lexicon (1747)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

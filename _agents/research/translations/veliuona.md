@@ -2,27 +2,34 @@
 
 ## Comprehensive Overview
 
-Veliuona is the Lithuanian (specifically Samogitian) goddess of death and the transition between life and the afterlife. Her name derives from "vėlė" (spirit/soul).
+Veliuona is the Lithuanian (specifically Samogitian) goddess of death, the afterlife, and the souls of the departed (*vėlės*). Historically associated with the sacred site of Veliuona and recorded by authors like Jan Łasicki, she represents the divine transition between the physical world and the silent realm of the ancestors.
 
 ### English (EN)
-**Veliuona** is the goddess of spirits and the domain of the dead. She is the chthonic sovereign of the silent realm where the spirits (**vėlės**) reside after their earthly lives are finished. Her name is linguistically related to the Town of Veliuona and the broader Baltic root of "vel-" (dead). Veliuona serves as the "Mistress of the Souls," ensuring their safe passage to the world beyond. She is often seen as a protective but distant guardian of the graveyard and the sacred burial groves.
+**Veliuona** is the "Mistress of the Dead." Her name is directly derived from the Baltic root *vel-* (associated with death and the spirit world). She is the chthonic sovereign who governs the domain where the spirits of the ancestors reside after their earthly journey is complete. In early historical accounts, she was invoked as the deity of the funeral and the grave, ensuring that the deceased were properly received and settled in the "sand hill" (*smėlio kalnelis*). Veliuona is depicted as a solemn, protective guardian who maintains the boundary between the living and the dead. She is particularly honored during the autumn festival of **Vėlinės**, when the veil between worlds is thin and the living communicate with their kin in the spirit realm.
 
 ### Lithuanian (LT)
-**Veliuona** lietuvių mitologijoje yra mirties ir vėlių deivė, kurios vardas kilo iš šaknies „vėl-“. Ji yra požemio ar anapusinio vėlių pasaulio šeimininkė, užtikrinanti jų ramybę ir tvarką. Veliuona vaizduojama kaip tyki, bet galinga būtybė, kurios akivaizdoje nurimsta visos žemiškos aistros. Ji sargi perėjimą į „smėlio kalnelį“ ir yra ypač pagerbiama per Vėlines – protėvių atminties šventę.
+**Veliuona** lietuvių mitologijoje yra mirties, vėlių ir anapusinio pasaulio deivė. Jos vardas kilo iš archajiškos šaknies „vėl-“, nurodančios mirusiųjų dvasias. Janas Lasickis ją paminėjo kaip dievybę, kuriai aukojama laidotuvių metu (*Velluonam*). Veliuona yra perėjimo sargė, rūpinanti, kad vėlės saugiai pasiektų protėvių buveinę ir rastų ramybę. Ji simbolizuoja mirties neišvengiamybę, bet kartu ir dvasinį tęstinumą. Veliuonos kultas glaudžiai susijęs su Veliuonos miesteliu ir Panemunės pilkapynais, kur senovėje buvo atliekamos mirusiųjų pagerbimo apeigos. Ji vaizduojama kaip tyki, galinga vėlių motina, sauganti genties atmintį ir sakralią kapinių tylą.
 
 ### Latvian (LV)
-**Veļu māte** latviešu mitoloģijā ir vistuvākais **Veliuona** atitikmuo. Viņa ir dvēseļu valdniece un „smilšu kalna” saimniece, kura ar mīlestību uzņem katru mirušā vāli savā valstībā. Veliuonas tēls pieder pie tā dievišķā personvārdu slāņa, kas sargā ne tikai mirušos, bet arī viņu pēcteci dzīvajiem, uzturot garīgo saiti starp abām pasaulēm. Viņa ir pārejas un miera deive.
+**Veļu māte** latviešu mitoloģijā ir vistuvākais **Veliuona** tēlam. Viņa ir mirušo dvēseļu valdniece un „smilšu kalna” saimniece, kura sagaida katru aizgājēju. Latviešu dainās Veļu māte ir tā, kura „klāj balto gultu” un rīko mielastu vēlēm. Lietuviešu Veliuona iemieso to pašu seno priekšstatu par mieri un pāreju. Viņa simbolizē sakrālo saikni starp paaudzēm un gādā par to, lai vāles atrastu ceļu pie saviem priekštečiem. Viņa ir tumsas un miera deive, kura sargā dzīvības un nāves mūžīgo ciklu.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Velluonam* as a goddess associated with the dead.
-- **Vėlius (Vel):** Analyzed the "vel-" root in Baltic mythology, highlighting Veliuona as a core chthonic deity related to the cult ofancestors.
-- **VLE:** Confirms the identification of Veliuona with the goddess of death and the afterworld mistress.
+- **Łasicki (Łas):** Records *Velluonam* as the goddess associated with the dead and funeral rites. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the "vel-" root in Baltic mythology, highlighting Veliuona as a core chthonic deity related to the ancestor cult. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Veliuona as the goddess of death and the mistress of the afterlife. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Fate / Death Deity
-- **Symbol**: Grave mound, Night Sky, Spirit-lights, Ancient Tree
-- **Function**: Mistress of the underworld and protector of souls
+- **Symbol**: Grave mound, Night Sky, Spirit-lights, Ancient Tree, Sand hill
+- **Function**: Mistress of the underworld; protection and guidance of souls
 - **Etymology**: *vėlė (spirit of the dead)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

@@ -1,28 +1,35 @@
-# Rungis
+# Rungis / Rungus
 
 ## Comprehensive Overview
 
-Rungis is a minor Lithuanian (Samogitian) forest spirit, recorded in the 16th-century list of Jan Łasicki. He is generally identified as a specialized forest or tree spirit.
+Rungis (historically *Rungis*) is a specialized Lithuanian (Samogitian) agricultural deity recorded in the 16th-century list of Jan Łasicki. He is specifically associated with the fertilization of fields and the management of manure (*fimum*), essential for the productivity of the Baltic farmstead.
 
 ### English (EN)
-**Rungis** (historically recorded as *Rungis*) is a local forest deity or spirit whose primary role involves the protection and guardianship of certain types of woodlands or trees. His persona is one of the many "minor" spirits documented during the transitional period from paganism to Christianity. He represents the "spirit of place" (genius loci) in the Baltic worldview, where even specific groves or individual large trees were believed to have their own divine overseer. In folklore, Rungis is part of the broader collective of nature spirits who ensure the safety and continuity of the natural environment.
+**Rungis** is the "Deity of the Fertile Dung." To the ancient Baltic farmer, manure was the lifeblood of the field, the "black gold" that ensured the return of nutrients to the soil. In the historical record of Jan Łasicki, Rungis is explicitly identified as the one who "lives in the dung/manure" (*qui in fimo habitat*). Farmers offered prayers to him specifically so that the "dung would be dung"—meaning that it would decompose properly and possess the vital power to make the grain grow. Rungis represents the sacralization of the most mundane yet critical aspect of the agricultural cycle. He is the guardian of the recycling process of nature, turning waste into life-giving fertility.
 
 ### Lithuanian (LT)
-**Rungis** (Jano Lasickio sąraše – *Rungis*) yra nedidelė miško dvasia ar dievybė, J. Lasickio paminėta kaip sauganti miškus. Tai pavyzdys vidurinės grandies dievybių, kurios buvo itin gausios senovės lietuvių pasaulėžiūroje, kur kiekviena giraitė, medis ar gamtos objektas turėjo savo globėją. Nors apie Rungio mitologinį siužetą yra nedaug žinių, jis išlieka kaip liudijimas apie didelę baltų dievų įvairovę ir pagarbą miškams kaip šventoms vietovėms.
+**Rungis** (Jano Lasickio sąraše – *Rungis*) lietuvių mitologijoje yra specifinė ūkio dievybė, atsakinga už mėšlą ir dirvos tręšimą. Lasickis nurodė, kad šis dievas „gyvena mėšle“ (*qui in fimo habitat*), o jam meldžiamasi tam, kad „mėšlas būtų mėšlas“ – tai yra, kad jis būtų tinkamas žemei maitinti ir užtikrintų gerą derlių. Nors šiuolaikiniam žmogui tokia dievybė gali atrodyti keista, senovės žemdirbiui tai buvo vienas svarbiausių procesų, užtikrinančių išlikimą. Rungis simbolizuoja žemės ūkio ciklą, medžiagų apykaitą ir tikėjimą, kad net pati prasčiausia materija turi savo dvasinį globėją, padedantį jai virsti gyvybe.
 
 ### Latvian (LV)
-**Rungis** latviešu mitoloģijā nav ticis atsevišķi izdalīts, tā vietā koku un krūmu sargāšanas funkcijas veica dažādas **Meža mātes** izpausmes vai vienkārši „meža gari”. Tomēr lietuviešu tradīcijas un J. Lasicka sarakstu kontekstā Rungis reprezentē lokālo meža aizbildni, kura uzdevums ir nosargāt meža mieru un nodrošinti ogu un sēņu bagātību.
+**Rungis** latviešu mitoloģijā galvenokārt atbilst **Mēslu mātes** vai saimniecības aizbildņu lomai, kas gādā par tīrumu mēslošanu. Latviešu tradīcijā kūtsmēsli tiek uzskatīti par „zeltu”, kas jālūdz un jāciena, lai zeme dotu maizi. Lietuviešu vēsturiskajos avotos Rungis ir izcelts kā specifisks „mēslu gars”. Viņš reprezentē zemnieka viedumu un prasmi rūpēties par augsni. Viņa loma senbaltu pasaules uzskatā pasvītro to, ka nekas dabā nav lieks un katram elementam ir sava sakrālā nozīme un dvasīgais aizbildnis, kurš nodrošina sētas uzplaukumu.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Rungis* as a deity of the forest, often appearing among the specialized Samogitian spirits.
-- **Vėlius (Vel):** Analyzed the "Rung-" root and its potential connection to words related to wood or poles, though its mythological profile remains fragmentary.
-- **VLE:** Mentions Rungis as one of the minor deities recorded in the 16th-century historiography.
+- **Łasicki (Łas):** Records *Rungis* as the deity who lives in manure (*qui in fimo habitat*) and ensures its quality. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the functional role of specialized agricultural spirits in the 16th-century pantheons, noting the practical nature of these deities. [Norbertas Vėlius, 1996]
+- **VLE:** Mentions Rungis as an agricultural deity of manure recorded in historical sources. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
-- **Category**: Minor Forest Spirit / Genius Loci
-- **Symbol**: Branch, Grove, Forest Shadow
-- **Function**: Local forest protection
-- **Recorded in**: *De diis Samagitarum* (1582)
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
+- **Category**: Agriculture / Domestic Spirit
+- **Symbol**: Pitchfork, Dung heap, Sprout, Fertile soil
+- **Function**: Protection and quality of manure; fertilization of fields
+- **Etymology**: *rungai (poles/wagon parts?) or specialized agricultural term
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

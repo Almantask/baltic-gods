@@ -2,27 +2,34 @@
 
 ## Comprehensive Overview
 
-Praamžius is the supreme Lithuanian god of time and eternity. In later mythological traditions (often influenced by Romanticism and 19th-century reconstructions), he is seen as the primordial creator and the highest authority over all existence.
+Praamžius is a supreme Lithuanian and Baltic epithet for the celestial deity, representing the concepts of time, eternity, and primordial creation. While often syncretized with **Dievas**, Praamžius emphasizes the abstract, eternal aspect of the divine world-orderer.
 
 ### English (EN)
-**Praamžius** means "Eternal" or "Primordial," representing the source from which all life and deities flow. He is the guardian of time and destiny, often equated with the supreme sky god **Dievas**, but emphasizing the eternal and unchangeable aspects of the divine. In several myths, Praamžius is the one who unleashed the primeval flood and later sent a rainbow as a sign to the remaining humans. He is depicted as an omniscient and calm figure who maintains the cosmic balance.
+**Praamžius** (literally "The Eternal" or "Primordial One") is the personification of beginningless and endless time. In Lithuanian mythological cosmology, particularly as reconstructed in the 19th century (e.g., by Teodor Narbutt), Praamžius is the supreme deity who exists beyond the grasp of other gods. He is the primeval creator who "unleashed the world" and later sent the Great Flood to cleanse the earth of injustice. He is often depicted in myths as the one who determines the ultimate fate of the world but remains distant from everyday human affairs, delegating the governance of the physical world to deities like **Perkūnas** or **Žemyna**. He represents the "meta-temporal" layer of Baltic thought—the unchangeable laws of the universe.
 
 ### Lithuanian (LT)
-**Praamžius** lietuvių mitologijoje yra viso pasaulio ir laiko kūrėjas, amžinybės ir lemties įsikūnijimas. Jo vardas tiesiogiai reiškia „amžiną praeitį“. Dažnai jis laikomas vyriausiojo dangaus dievo (Dievo) personifikacija, kuriai suteikiamos aukščiausio kūrėjo (Demiurgo) savybės. Legendose apie Pasaulio tvaną būtent Praamžius siunčia vandenis apvalyti žemę ir vėliau leidžia išlikti geriausiems žmonėms. Jis yra tas, kuris nulemia dėsnius, kurių laikytis privalo ne tik žmonės, bet ir kiti dievai.
+**Praamžius** lietuvių mitologijoje yra amžinybės, laiko ir pasaulio kūrimo epitetas, dažnai tapatinamas su vyriausiuoju dangaus dievu (**Dievu**). Jo vardas tiesiogiai reiškia „amžiną praeitį“ (nuo *praamžis*). Pasak vėlesnių mitologinių rekonstrukcijų (viena ryškiausių – Teodoro Narbuto), Praamžius yra tas, kuris paleido pasaulio tėkmę ir nustatė dėsnius, kurių nepakeisti negali net kiti dievai. Jis siunčia didįjį tvaną nuodėmėms nuplauti ir vaivorykštę kaip vilties ženklą. Praamžius įkūnija aukščiausiąją sąmonę, stabilumą ir visatos dėsningumą, esantį aukščiau laikinumo.
 
 ### Latvian (LV)
-**Praamžius** latviešu mitoloģijā nav ticis atsevišķi izdalīts ar šādu vārdu, tā vietā turot **Debesu tēvu** (Dievu) kā vienīgo un mūžīgo visuma radītāju. Tomēr lietuviešu tradīcijas ietekmē Praamžius tiek saprasts kā laika un mūžības simbols. Viņš ir tas spēks, kas stāv pāri visam un kura ziņā ir pasaules sākums un beigas. Latviešu dainās mēs biežāk redzam Dievu kā saimnieku, kamēr Praamžius pasvītro senbaltu dzejas metafiziskos slāņus par mūžību un likteņa neizbēgamību.
+**Praamžius** latviešu mitoloģijā atbilst **Debesu tēvam** vai **Dievam** tā augstākajā, mūžīgajā izpausmē. Kaut arī vārds „Praamžius” ir specifisks lietuviešu tradīcijai, tas iemieso kopbaltu priekšstatu par Dievu kā bezgalīgu un pirmatnēju spēku. Viņš reprezentē laiku pirms laika un likteni, kas stāv pāri visam. Praamžius simbolizē visuma sakārtotību un ētisko pamatu, kas ir nemainīgs cauri gadsimtiem, nodrošinot pasaules garīgo un materiālo harmoniju.
 
 ---
 
 ## Primary Source Details
 
-- **Narbutas (Nar):** Was the primary advocate for a structured Baltic pantheon headed by Praamžius, though modern scholars view his system as a literary reconstruction based on fragmentary folklore.
-- **Vėlius (Vel):** Discussed the "Eternity" aspect of the sky god, pointing out the different naming conventions across Baltic tribes for the supreme deity.
-- **VLE:** Summarizes Praamžius as a later-developed name for the supreme god, representing the abstract concept of eternity.
+- **Narbutt (Nar):** Developed a comprehensive system of Baltic mythology with Praamžius as the supreme creator, drawing from folklore and comparative mythology. [Teodor Narbutt, 19th c.]
+- **Vėlius (Vel):** Analyzed the "Eternity" aspect of the sky god, pointing out the different naming conventions (Dievas, Praamžius, Prakurimas) across Baltic traditions. [Norbertas Vėlius, 1996]
+- **VLE:** Summarizes Praamžius as an epithet or manifestation of the supreme god, representing the abstract concept of eternity and the primordial source. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
-- **Category**: Supreme / Primordial Deity
-- **Atribute**: Time, Eternity, Creation, Cosmic Order
-- **Symbols**: Sky, Scepter, Rainbow (as sign)
-- **Names**: Praamžis, Primus
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 19th Century (Reconstructed) / Proto-Indo-European roots
+- **Category**: Supreme / Primordial Deity (Epithet)
+- **Symbol**: Sky, Scepter, Rainbow (as sign), Endless circle, Oak
+- **Function**: Time, Eternity, Creation, and maintenance of the cosmic order
+- **Etymology**: *pra-amžis (pre-eternity / from ancient times)
+- **References**:
+    - "Narbutt, Teodor: Mitologia litewska (1835)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

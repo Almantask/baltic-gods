@@ -2,28 +2,36 @@
 
 ## Comprehensive Overview
 
-Žvorūna (Lithuanian) is a major goddess of the hunt, wild beasts, and the forest. While frequently synonymous with **Medeina**, her name emphasizes her specialized domain over wild animals (from "žvėris" - wild beast).
+Žvorūna (Lithuanian) is a major Baltic goddess of the hunt, wild beasts, and the untamed forest. While frequently synonymous with **Medeina**, her name emphasizes her specialized domain over wild animals (from the Lithuanian *žvėris*, meaning "wild beast").
 
 ### English (EN)
-**Žvorūna** is the fierce mistress of wild animals, the hunt, and the untamed forest. Historically recorded in early chronicles (such as the 13th-century Malala Chronicle transcription), she represents the "beast" aspect of the forest goddess. Unlike Medeina, who is often called the goddess of trees, Žvorūna is specifically the sovereign of the wolves, hares, and all creatures of the woods. She is a chaste huntress, similar to the Greek Artemis, but her primary commitment is protecting the animal kingdom from human encroachment.
+**Žvorūna** is the fierce mistress of wild animals and the sovereign of the hunt. Historically recorded in early 13th-century chronicles (such as the transcription of the Malala Chronicle), she represents the primal, animalistic power of the woodland realm. Unlike Medeina, who is often associated with the protection of trees and the forest as a space, Žvorūna is specifically the guardian of the creatures that inhabit it—wolves, hares, and bears. She is depicted as a chaste, independent huntress, often accompanied by a pack of wolves. Her role was to ensure that the balance between humans and the wild is maintained, punishing those who hunt without respect or necessity. She represents the sacralized "beast" within the forest, a divine presence that demands caution and reverence from all who enter her domain.
 
 ### Lithuanian (LT)
-**Žvorūna** (arba *Žvorūnė*) yra medžioklės, miško ir, svarbiausia, žvėrių deivė. Jos vardas tiesiogiai kilęs iš žodžio „žvėris“, nurodant jos galią visoms miško būtybėms. Nors ji dažnai tapatinama su Medeina, Žvorūna labiau akcentuoja laukinę žvėrių prigimtį ir jų apsaugą. Ji minima senuosiuose metraščiuose (pvz., Malalos kronikos intarpe) kaip viena pagrindinių ikikrikščioniškos Lietuvos dievybių. Žvorūna vaizduojama kaip savarankiška, narsi medžiotoja, kuriai paklūsta vilkai ir kiti plėšrūnai.
+**Žvorūna** (arba *Žvorūnė*) lietuvių mitologijoje yra medžioklės, miško ir visų laukinių žvėrių deivė. Jos vardas tiesiogiai kilęs iš žodžio „žvėris“, pabrėžiant jos galią miško gyvūnams. Žvorūna minima 1261 m. Ipatijaus metraštyje (Malalos kronikos intarpe) kaip viena iš pagoniškų dievybių, kurioms aukojo karalius Mindaugas. Ji vaizduojama kaip jauna, narsi medžiotoja, kuriai paklūsta plėšrūnai, ypač vilkai. Nors ji dažnai tapatinama su Medeina, Žvorūna įkūnija būtent gyvūnijos pasaulio valdovę ir jos apsaugą nuo žmogaus savivalės. Ji simbolizuoja pirmykštį ryšį tarp medžiotojo ir aukos, primindama apie dvasinę atsakomybę prieš gyvąją gamtą.
 
 ### Latvian (LV)
-**Žvorūna** latviešu mitoloģijā nav plaši pazīstama ar šādu vārdu, bet viņas funkcijas cieši saskan ar **Meža māti**, kura ir visu meža zvēru un putnu pavēlniece. Žvorūna simbolizē dabas nepieradināto spēku un tās aizsardzību. Viņa ir zvēru valdniece, kura sargā savu valstību no nepamatotas medīšanas. Baltu kopējā mantojumā šis tēls pasvītro cieņu pret meža dzīvniekiem kā gariem, kuriem ir sava dievišķā aizbildne.
+**Žvorūna** latviešu mitoloģijā galvenokārt atbilst **Meža mātei**, kura valda pār visiem meža zvēriem un putniem. Latviešu dainās Meža māte ir tā, kas „gana savus jēriņus” (meža dzīvniekus), un medniekiem ir jālūdz viņas atļauja, pirms doties medībās. Lietuviešu vēsturiskajos avotos Žvorūna ir izcelta kā skaidri personificēta medību dieviete. Viņa reprezentē dabas nepieradināto pusi un zvēru varenību. Viņa ir tā, kura nodrošina medību veiksmi vai, tieši otrādi, soda tos, kuri neciena meža likumus. Žvorūnas tēls atgādina par seno baltu cieņu pret dzīvniekiem kā līdzvērtīgiem meža iemītniekiem.
 
 ---
 
 ## Primary Source Details
 
-- **Malala Chronicle (1261 insertion):** Records Žvorūna (Zvoruna) as a goddess of the hunt and animals.
-- **Długosz (1455):** Compares her to the Roman goddess Diana due to her association with the forest and the hunt.
-- **Vėlius (Vel):** Analyzed the "Žvėris" root and its connection to the chthonic-nature tier of the Baltic pantheon.
-- **VLE:** Confirms the identification of Žvorūna and Medeina as likely names for the same deity with slightly different functional emphases.
+- **Malala Chronicle (1261 insertion):** One of the oldest records mentioning *Zvoruna* (Žvorūna) as a goddess of the hunt and wild animals.
+- **Hypatian Codex (1252):** Mentions the deities of Mindaugas, including the forest and hunt complex associated with Medeinė and Žvorūna.
+- **Vėlius (Vel):** Analyzed the etymological link to *žvėris* and discussed the goddess's role in the chthonic-nature tier of the Baltic pantheon. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Žvorūna as a major deity of animals and the hunt, often appearing alongside Medeina. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 13th Century (First recorded)
 - **Category**: Nature / Forest / Hunt Deity
-- **Symbols**: Wolf, Wild Animals, Bow, Forest Glade
-- **Animals**: Wolf (Sovereign of Wolves), Bear, Deer
-- **Historical period**: Recorded in 13th-century chronicles
+- **Symbol**: Wolf, Bow and arrow, Animal tooth, Forest glade
+- **Animals**: Wolf (as her companion), Hare, Bear, Deer
+- **Function**: Protection and governance of wild animals; success in the hunt
+- **Etymology**: *žvėris (wild beast)
+- **References**:
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)"
+    - "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

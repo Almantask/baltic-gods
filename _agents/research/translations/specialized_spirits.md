@@ -2,27 +2,34 @@
 
 ## Comprehensive Overview
 
-Skalsa, Vetušis, Šaukstis, and Salaus represent some of the many specialized minor Lithuanian (Samogitian) deities and spirits recorded in the 16th-century list of Jan Łasicki. They are guardians of specific household supplies, social behaviors, and natural pests.
+Skalsa, Vetušis, Šaukstis, and Salaus represent specialized minor Lithuanian (Samogitian) deities and spirits recorded in the 16th-century list of Jan Łasicki. They are guardians of specific household resources, weather phenomena, and biological pests.
 
 ### English (EN)
-**Skalsa**, **Vetušis**, **Šaukstis**, and **Salaus** are the "Guardians of the Domestic Order." Skalsa (historically recorded as *Skalsam*) is the deity of household abundance and "longevity" of supplies, ensuring that the food and materials in the house do not run out. Vetušis (historically as *Vetuszim*) is a specialized deity often associated with storms and violent winds. Šaukstis (meaning "Fly Spirit") is the guardian to appease or deter insects (flies). Salaus (meaning "Sweetness") is the deity representing the sweetness of honey and mead. These figures represents the ancient Baltic concern for the domestic pantry and the natural world, where even small aspects of life were believed to have their own divine overseer. 
+**Skalsa**, **Vetušis**, **Šaukstis**, and **Salaus** belong to the "Micro-Pantheon" of the Baltic household and its immediate environment. **Skalsa** (personified abundance) is the deity who ensures the "longevity" and replenishment of supplies; having *skalsa* meant that bread or firewood would last longer than expected. **Vetušis** (historically *Vetuszim*) is a specialized spirit of the storm or a "shaking" wind that affects the homestead. **Šaukstis** (derived from *šaukti* - to call, but associated by Łasicki with *szuksztim* or insects) is the deity of flies or pests, whom the farmers sought to appease to protect their livestock and health. **Salaus** (derived from *saldus* - sweet) is the deity of sweetness, specifically the quality of honey and mead. These figures reflect the meticulous sacralization of every domestic and natural detail, where even the most mundane aspect of life required spiritual harmony.
 
 ### Lithuanian (LT)
-**Skalsa**, **Vetušis**, **Šaukstis** ir **Salaus** lietuvių mitologijoje yra deivės/dvasios, atsakingos už konkrečias namų ūkio ir gamtos sritis. Skalsa (Lasickio sąraše – *Skalsam*) nulemia namų turto ilgaamžiškumą ir gausumą. Vetušis – audrų ir stipraus vėjo dvasia, o Šaukstis (nuo „šaukšti“ – musė) sargi nuo musių, tuo tarpu Salaus – medaus ir gėrimų saldumo globėjas. Jų paminėjimas Lasickio sąraše rodo, kad senovės lietuviai siekė sakralizuoti savo kasdienį triūsą ir artimiausius gyvenimo sritis, tikėdami, kad kiekvienai jų reikia dieviškos globos.
+**Skalsa**, **Vetušis**, **Šaukstis** ir **Salaus** lietuvių mitologijoje yra deivės/dvasios, atsakingos už konkrečias namų ūkio, meteorologines ir ūkines sritis. **Skalsa** (Jano Lasickio paminėta kaip *Skalsam*) įkūnija pertekliaus ir taupumo sėkmę – ji užtikrina, kad maistas ar atsargos namuose „neišsektų“. **Vetušis** yra audringo vėjo ir kratančių gamtos stichijų dvasia. **Šaukstis** (Lasickio sąraše – *Szuksztim*) yra vabzdžių (musių) dvasia, kuriai būdavo meldžiamasi norint apsaugoti gyvulius. **Salaus** – saldumo (medaus, midaus) dievybė, sargianti skonio savybes. Šių smulkių dvasių paminėjimas rodo, kaip stipriai senovės lietuviai tikėjo, kad kiekvienas kasdienybės elementas yra prižiūrimas dvasinio globėjo.
 
 ### Latvian (LV)
-**Skalsa**, **Vetušis**, **Šaukstis** un **Salaus** latviešu mitoloģijā nav tikuši atsevišķi izdalīti, tā vietā to funkcijas veica dažādas **Mājas māte** vai **Pērkona** dāvātā prieka ir svētības izpausmes. Tomēr lietuviešu tradīcijas un senu sarakstu kontekstā šie tēli reprezentē sētas ir istabu aizbildņus, kura ziņā ir nosargāt sakrāto labību ir nodrošinti ziemas pārtikas krājumus, simbolizējot rūpību un dabas sniegto velšu aizsardzību.
+**Skalsa**, **Vetušis**, **Šaukstis** un **Salaus** latviešu mitoloģijā galvenokārt atbilst **Mājas mātes** un **Saimnieka** aizgādniecībai. Skalsa reprezentē pārticību un „skalsu” (kad pārtika beidzas lēnāk), Vetušis — stipru vēju, Šaukstis — kukaiņu sērgu novēršanu, bet Salaus — medus saldumu. Lietuviešu vēsturiskajos avotos šie tēli ir izdalīti kā specifiski „sīkie gari”. Viņi simbolizē zemnieka vēlmi sakārtot un pasargāt savu sētu no mazākajiem traucēkļiem un nodrošināt katra rīka un resursa maksimālu labumu.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Skalsam* (abundance), *Vetuszim* (storm), *Szuksztim* (flies), and *Salaum* (sweetness) among the Samogitian gods.
-- **Vėlius (Vel):** Analyzed the functional role of the minor domestic spirits in the context of the household cycle and family safety.
-- **VLE:** Mentions these figures as one of the minor deities recorded in the 16th-century historiography.
+- **Łasicki (Łas):** Records *Skalsam* (longevity of food), *Vetuszim* (storm/wind), *Szuksztim* (flies), and *Salaum* (sweetness) among the Samogitian minor gods. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed the functional role of specialized minor spirits in the context of the Baltic household cycle and domestic needs. [Norbertas Vėlius, 1996]
+- **VLE:** Mentions these figures as specialized minor deities recorded in 16th-century historical sources, personifying specific qualities. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Household / Domestic / Nature Spirit
-- **Symbol**: Grain bowl, Windstorm, Fly, Honey cup, Infinite jar
-- **Function**: Protection of household supplies and natural order
-- **Recorded in**: *De diis Samagitarum* (1582)
+- **Symbol**: Grain bowl, Windstorm, Fly, Honey cup, Infinite jar, Sieve
+- **Function**: Protection of household supplies, sweetness, and mitigation of pests
+- **Etymology**: *skalsa (abundance) / *saldus (sweet) / *vėjas (wind)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

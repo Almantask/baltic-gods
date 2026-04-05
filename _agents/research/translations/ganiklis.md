@@ -5,24 +5,31 @@
 Ganiklis (Lithuanian) is a minor Lithuanian (Samogitian) deity of shepherds and livestock grazing. Recorded in the 16th-century list of Jan Łasicki, his name is directly derived from "ganyti" (to pasture / to graze).
 
 ### English (EN)
-**Ganiklis** is the "Master of Shepherds." He represents the divine guardian of the pasturing process and the safety of the livestock while they graze. In the Baltic worldview, shepherds were a vital part of the agricultural community, often spending long periods alone with the animals in the fields or forests. Ganiklis was invoked to ensure that the animals were not lost, were not attacked by wolves, and were always plentiful. He was also the deity of the shepherd's horn and the simple, natural life of the pastures. Offerings were common at the beginning of the grazing season.
+**Ganiklis** is the "Master of Shepherds." He represents the divine guardian of the pasturing process and the safety of the livestock while they graze. In the Baltic worldview, shepherds were a vital part of the agricultural community, often spending long periods with animals in the fields or forests. Ganiklis was invoked to ensure that animals were not lost or attacked by wolves (*pro pastoribus*). He is the deity of the shepherd's horn and the simple, natural life of the pastures. Offerings were common at the beginning of the grazing season to ensure the courage of the shepherds and the abundance of the herds.
 
 ### Lithuanian (LT)
-**Ganiklis** lietuvių mitologijoje yra piemenų, ganymo ir ganyklų dievas. Jo vardas kilo iš „ganyti“. Janas Lasickis nurodė, kad šiam dievui būdavo meldžiamasi norint užsitikrinti gyvulių gausumą ir piemenų narsumą prieš vilkus. Jis simbolizuoja kantrybę, rūpestingumą ir piemens ryšį su gamta. Ganiklis vaizduojamas kaip šeimos gerovės garantas, rūpinantis ne tik gyvuliais, bet ir džiaugsmą nešančiomis piemenavimo akimirkomis.
+**Ganiklis** lietuvių mitologijoje yra piemenų, ganymo ir ganyklų dievas. Jo vardas kilo iš veiksmažodžio „ganyti“. Janas Lasickis nurodė, kad šiam dievui būdavo melidžiamasi norint užsitikrinti gyvulių gausumą ir piemenų drąsą saugant bandą nuo vilkų (*pro pastoribus*). Jis simbolizuoja piemenų ryšį su gamta, kantrybę ir rūpestį. Ganiklis vaizduojamas kaip šeimos gerovės garantas, užtikrinantis sėkmingą gyvulių augimą atvirose erdvėse. Piemsnų ragas ir botagas yra jo dvasios simboliai.
 
 ### Latvian (LV)
-**Ganiklis** latviešu mitoloģijā nav ticis atsevišķi izdalīts, tā vietā ganu un ganyklų sargāšanas funkcijas veica dažādas **Zemes mātes** vai **Lopu mātest** izpausmes. Tomēr lietuviešu tradīcijai ir lokālo sarakstu kontekstā Ganiklis reprezentē sētas ir ceļinieka aizbildni, kura ziņā ir nosargāt sakrāto labību ir nodrošinti ziemas pārtikas krājumus, simbolizējot rūpību ir dabas sniegto velšu aizsardzību.
+**Ganiklis** latviešu mitoloģijā galvenokārt atbilst **Lopu mātei** vai dažādiem **ganu gariem**. Viņš ir ganību un piemērotu ganību vietu aizbildnis, kura ziņā ir nosargāt lopus no vilkiem un nodrošināt, lai tie neapmaldītos. Lietuviešu vēsturisko sarakstu kontekstā Ganiklis reprezentē ganiņa svētību, simbolizējot rūpību, drosmi un dabas sniegto velšu pasargāšanu atklātā laukā. Viņš ir tas gars, kurš iedveš mieru ganāmpulkam un modrību tā sargiem.
 
 ---
 
 ## Primary Source Details
 
-- **Łasicki (Łas):** Records *Ganiklis* (Ganiklum) as a deity associated with shepherds and livestock (*pro pastoribus*).
-- **Vėlius (Vel):** Analyzed Ganiklis's role in the context of the agricultural and social tier of the Baltic pantheon, noting the functional role of the "minor" nature spirits.
-- **VLE:** Confirms the identification of Ganiklis as a pastoral deity.
+- **Łasicki (Łas):** Records *Ganiklum* as a deity associated with shepherds and livestock (*pro pastoribus*). [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed Ganiklis's role in the context of the agricultural and social tier of the Baltic pantheon, noting the functional role of specialized pastoral spirits. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms the identification of Ganiklis as a pastoral deity and herdsman's protector. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania (Samogitia)
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 16th Century (Recorded)
 - **Category**: Household / Social Spirit
-- **Symbol**: Shepherd's horn, Pasture grass, Staff, Sheep, Cowbell
+- **Symbol**: Shepherd's horn, Pasture grass, Staff, Sheep, Cowbell, Whip
 - **Function**: Protection of shepherds and livestock during grazing
 - **Etymology**: *ganyti (to graze)
+- **References**:
+    - "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)"
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

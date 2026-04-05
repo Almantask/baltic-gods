@@ -1,29 +1,36 @@
-# Medeina / Medeinė / Žvorūna
+# Medeina / Medeinė
 
 ## Comprehensive Overview
 
-Medeina (or Medeinė) and Žvorūna (or Žvorūnė) are the primary forest and hunt goddesses of Lithuanian mythology. Often regarded as different names for the same deity, they represent the untamed wilderness, the protection of wild animals, and the chaste, chthonic power of the ancient Baltic woodlands.
+Medeina (or Medeinė) is the prominent Lithuanian goddess of the forest, trees, and wild animals. Recorded as early as the 13th century, she represents the wild, untamed power of nature and is the sovereign mistress of the woodland realm.
 
 ### English (EN)
-**Medeina** is the solitary and chaste goddess of the forest. Her name is derived from "medis" (tree) or "medė" (forest). Unlike some Roman counterparts who assist humans in the hunt, Medeina is primarily a protector of nature. She is often seen as a beautiful wolf-maiden (Vilkmergė) accompanied by her sacred animals, the **hare** and the **wolf**. She was one of the major deities honored by King Mindaugas in the 13th century. Her aspect as **Žvorūna** (from "žvėris" - beast) emphasizes her rule over wild animals and the fierce independence of the natural world.
+**Medeina** (also known as *Medeinė* or *Žvorūna* in some sources) is the "Lady of the Forest." Her name is directly derived from *medis* (tree) or *medė* (forest). She is the protector of all forest life and is often depicted as a strong, independent huntress or a maiden who wanders the deep woods in the company of wolves. Historical chronicles, such as the Hypatian Codex (1252), mention King Mindaugas sacrificing to her. Unlike the Roman Diana, Medeina is not primarily a goddess of the hunt but rather the goddess of the forest itself, ensuring its growth and protecting the wild creatures from excessive human interference. She represents the sanctity of the wilderness and the divine respect humans must show to the green world.
 
 ### Lithuanian (LT)
-**Medeina** (arba *Medeinė*) yra miškų, medžioklės ir žvėrių deivė, minima dar XIII a. Ipatijaus metraštyje tarp Mindaugo garbintų dievų. Ji vaizduojama kaip jauna, graži, bet rūsčią prigimtį turinti medžiotoja, kuri neturi šeimos ir saugo miško ramybę. Jos šventasis gyvūnas yra kiškis, o patvirtinta asmeninė gvardija – vilkai. Vardas **Žvorūna** pabrėžia jos, kaip „žvėrių motinos“, galią. Ji nesiekia padėti medžiotojams, o veikiau gina mišką nuo jų savivalės.
+**Medeina** (arba *Medeinė*) lietuvių mitologijoje yra miškų, žvėrių ir medžių deivė. Jos vardas kilo iš žodžio „medis“ arba „medė“ (giria). Medeina minima senuosiuose metraščiuose (pvz., Ipatijaus metraštyje, 1252 m.) kaip deivė, kuriai aukojo karalius Mindaugas. Ji vaizduojama kaip jauna medžiotoja, lydima vilkų, arba kaip pati gūdi giria. Medeina saugo miško ramybę ir dvasinę ekosistemos pusiausvyrą, neleisdama žmogui be saiko naikinti gamtos išteklų. Ji simbolizuoja pirmykštę, nepaliestą gamtos jėgą ir lietuvių protėvių sakralų ryšį su šventosiomis giraitėmis.
 
 ### Latvian (LV)
-**Medeina** latviešu mitoloģijā ir mazāk pazīstama ar šādu vārdu, tā vietā viņas funkcijas pilda **Meža māte**. Tomēr lietuviešu tradīcijas ietekmē viņa tiek saprasta kā meža un medību dieviete, kura sargā dabu un savvaļas zvērus. Viņa ir neatkarīga un spēcīga sievišķā būtne, kas mīt dziļos biezokņos. Viņas pavadoņi ir vilki un zaķi. Medeina simbolizē neskarto dabu un tās mežonīgo skaistumu, kas prasa cilvēka cieņu un pietāti.
+**Medeina** latviešu mitoloģijā galvenokārt atbilst **Meža mātei**, kas valda pār mežiem, kokiem un zvēriem. Lietuviešu tradīcijā viņa ir izteiktāka personība, kas sargā meža dzelmes un tās iemītniekus. Medeina simbolizē meža neaizskaramību un tā dabisko varenību. Viņa ir tā, kura nodrošina ogu, sēņu un medījuma svētību, taču vienlaikus soda tos, kuri izturas pret mežu bez cieņas. Viņas tēls ir saistīts ar vilkiem un meža brāļu drosmi, iemiesojot nesalaužamu dabas garu.
 
 ---
 
 ## Primary Source Details
 
-- **Hypatian Chronicle (1252):** Historically records Medeina as a deity to whom King Mindaugas offered sacrifices, proving her importance in the early Lithuanian state pantheon.
-- **Vėlius (Vel):** Analyzed Medeina as part of the chthonic-forest layer of the Baltic worldview, noting her association with "Hare Churches" (sacred groves where hares were protected).
-- **Greimas (Grei):** Described her as a chaste, wolf-associated goddess who embodies the "mistress of animals" archetype.
-- **VLE:** Confirms the identification of Medeina and Žvorūna as namevariants for the same forest deity and discusses their parallels to Artemis and Diana.
+- **Hypatian Codex (1252):** One of the earliest written accounts of Lithuanian paganism, mentioning *Medeinė* among the deities of King Mindaugas. [Ipatijaus metraštis]
+- **Łasicki (Łas):** Records *Modeina* as a goddess of the forest and trees. [Jan Łasicki, 1615]
+- **Vėlius (Vel):** Analyzed Medeina as the personification of the forest edge and its structural role as a space between cultures. [Norbertas Vėlius, 1996]
+- **VLE:** Confirms Medeina's status as a major deity of forests and animals, discussing her linguistic and mythological origins. [Visuotinė lietuvių enciklopedija]
 
 ## Key Metadata
+- **Region**: Lithuania, Samogitia
+- **Tribe**: Lithuanians, Samogitians
+- **Period**: 13th Century (First recorded)
 - **Category**: Nature / Forest / Hunt Deity
-- **Symbols**: Trees, Hare, Wolf, Bow, Forest glades
-- **Animals**: Wolf (Vilkmergė), Hare
-- **Associated Titles**: Žvorūna (Mistress of Animals)
+- **Symbol**: Hare, Wolf, Birch tree, Forest glade, Bow and arrow
+- **Function**: Protection of the forest and wild animals; regulating human interaction with the wilderness
+- **Etymology**: *medė (forest) / *medis (tree)
+- **References**:
+    - "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)"
+    - "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)"
+    - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"
