@@ -2,10 +2,9 @@
 
 export const medziojnaMeta: DeityMeta = {
   slug: "medziojna",
-  name: { en: "Medziojna", lt: "Medziojna", lv: "Medziojna" },
+  name: "Medziojna",
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Goddess of the Hunt",
     lt: "Medžioklės deivė",
     lv: "Medību dieviete",
@@ -15,10 +14,22 @@ export const medziojnaMeta: DeityMeta = {
     lt: "Medziojna yra lietuvių medžioklės ir vijimosi deivė, kurią šaukiasi medžiotojai sėkmingai garybai.",
     lv: "Medziojna ir lietuviešu medību un vajāšanas dieviete, ko mednieki piesauc par veiksmi.",
   },
-  attributes: ["Hunting", "Chase", "Fortune"],
-  symbols: ["Bow", "Hunting horn", "Spear"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  altNames: {
+    en: "Medziojna",
+    lt: "Medziojna",
+    lv: "Medziojna",
+  },
+  keywords: ["Hunting", "Chase", "Fortune"],
+  gallery: [],
   locations: [],
-  region: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
+  materialLegacy: [],
+  symbols: [
+    { label: "Sacred symbols", detail: "Bow, Hunting horn, Spear" },
+  ],
+  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
   tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
   period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
   references: [
@@ -30,10 +41,9 @@ export const medziojnaMeta: DeityMeta = {
 
 export const ejagusteMeta: DeityMeta = {
   slug: "ejaguste",
-  name: { en: "Ejagustė", lt: "Ejagustė", lv: "Ejaguste" },
+  name: "Ejagustė",
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Spirit of Hunting Fortune",
     lt: "Medžioklės sėkmės dvasia",
     lv: "Medību veiksmes gars",
@@ -43,10 +53,22 @@ export const ejagusteMeta: DeityMeta = {
     lt: "Ejagustė yra lietuvių medžioklės sėkmės dvasia, užtikrinanti palankų medžioklės rezultatą.",
     lv: "Ejaguste ir lietuviešu medību veiksmes gars, kas nodrošina labvēlīgus medību rezultātus.",
   },
-  attributes: ["Hunting luck", "Fortune", "Chase"],
-  symbols: ["Bow", "Footsteps", "Game animal"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  altNames: {
+    en: "Ejagustė",
+    lt: "Ejagustė",
+    lv: "Ejaguste",
+  },
+  keywords: ["Hunting luck", "Fortune", "Chase"],
+  gallery: [],
   locations: [],
-  region: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
+  materialLegacy: [],
+  symbols: [
+    { label: "Sacred symbols", detail: "Bow, Footsteps, Game animal" },
+  ],
+  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
   tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
   period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
   references: [
@@ -58,10 +80,9 @@ export const ejagusteMeta: DeityMeta = {
 
 export const silinytisMeta: DeityMeta = {
   slug: "silinytis",
-  name: { en: "Šilinytis", lt: "Šilinytis", lv: "Šilinytis" },
+  name: "Šilinytis",
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Guardian of the Pine Forest",
     lt: "Pušyno saugotojas",
     lv: "Priežu meža sargs",
@@ -71,10 +92,22 @@ export const silinytisMeta: DeityMeta = {
     lt: "Šilinytis yra lietuvių pušyno dvasia, šilų globėjas ir jų augmenijos saugotojas.",
     lv: "Šilinytis ir lietuviešu priežu meža gars, kas sargā smilšaino šilu birzis un to dzīvību.",
   },
-  attributes: ["Pine forest", "Resin", "Heather", "Moss"],
-  symbols: ["Pine cone", "Heather", "Moss", "Resin"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  altNames: {
+    en: "Šilinytis",
+    lt: "Šilinytis",
+    lv: "Šilinytis",
+  },
+  keywords: ["Pine forest", "Resin", "Heather", "Moss"],
+  gallery: [],
   locations: [],
-  region: { en: "Samogitia / Aukštaitija", lt: "Žemaitija / Aukštaitija", lv: "Žemaitija / Aukštaitija" },
+  materialLegacy: [],
+  symbols: [
+    { label: "Sacred symbols", detail: "Pine cone, Heather, Moss, Resin" },
+  ],
+  regionDetails: { en: "Samogitia / Aukštaitija", lt: "Žemaitija / Aukštaitija", lv: "Žemaitija / Aukštaitija" },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
   references: [
@@ -86,10 +119,9 @@ export const silinytisMeta: DeityMeta = {
 
 export const giraitisMeta: DeityMeta = {
   slug: "giraitis",
-  name: { en: "Giraitis", lt: "Giraitis", lv: "Giraitis" },
+  name: "Giraitis",
   domain: "God",
-  culture: "LT",
-  title: {
+  epithet: {
     en: "Guardian of the Sacred Grove",
     lt: "Šventosios giraitės saugotojas",
     lv: "Svētā birzs sargs",
@@ -99,10 +131,22 @@ export const giraitisMeta: DeityMeta = {
     lt: "Giraitis yra lietuvių šventųjų giraitių dvasia, valdantis sakralias medžių grupes ir jų ramybę.",
     lv: "Giraitis ir lietuviešu svēto birzu gars, kas valda apvienotajās koku grupās.",
   },
-  attributes: ["Sacred grove", "Trees", "Forest peace"],
-  symbols: ["Oak branch", "Birch catkin", "Sacred grove boundary"],
+  heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(80, 80, 60, 0.27)",
+  accent: "#8a8a6a",
+  altNames: {
+    en: "Giraitis",
+    lt: "Giraitis",
+    lv: "Giraitis",
+  },
+  keywords: ["Sacred grove", "Trees", "Forest peace"],
+  gallery: [],
   locations: [],
-  region: { en: "Samogitia / Pan-Lithuanian", lt: "Žemaitija / visos Lietuvos", lv: "Žemaitija / visas Lietuvas" },
+  materialLegacy: [],
+  symbols: [
+    { label: "Sacred symbols", detail: "Oak branch, Birch catkin, Sacred grove boundary" },
+  ],
+  regionDetails: { en: "Samogitia / Pan-Lithuanian", lt: "Žemaitija / visos Lietuvos", lv: "Žemaitija / visas Lietuvas" },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "16th–17th Century Records", lt: "XVI–XVII a. šaltiniai", lv: "16.–17. gadsimta avoti" },
   references: [
@@ -114,10 +158,9 @@ export const giraitisMeta: DeityMeta = {
 
 export const ugunsMateMetaData: DeityMeta = {
   slug: "uguns-mate",
-  name: { en: "Uguns māte", lt: "Ugnies motina", lv: "Uguns māte" },
+  name: "Uguns māte",
   domain: "God",
-  culture: "LV",
-  title: {
+  epithet: {
     en: "Mother of Fire and the Hearth",
     lt: "Ugnies ir židinio motina",
     lv: "Uguns un pavarda māte",
@@ -127,10 +170,22 @@ export const ugunsMateMetaData: DeityMeta = {
     lt: "Uguns māte yra latvių šventosios krosninės ugnies deivė, šeimos šilumos ir dvasinės tęstinumo saugotoja.",
     lv: "Uguns māte ir latvju svētās pavarda uguns dieviete, ģimenes siltuma un garīgās turpinātības sargātāja.",
   },
-  attributes: ["Fire", "Hearth", "Home protection", "Family"],
-  symbols: ["Hearth-stone", "Golden flame", "Salt-grain", "Ash-pile"],
+  heroImage: "https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(180, 80, 40, 0.27)",
+  accent: "#c05030",
+  altNames: {
+    en: "Uguns māte",
+    lt: "Ugnies motina",
+    lv: "Uguns māte",
+  },
+  keywords: ["Fire", "Hearth", "Home protection", "Family"],
+  gallery: [],
   locations: [],
-  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  materialLegacy: [],
+  symbols: [
+    { label: "Sacred symbols", detail: "Hearth-stone, Golden flame, Salt-grain, Ash-pile" },
+  ],
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
   period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
   references: [
