@@ -202,17 +202,17 @@
 - [x] **Apidėmė / Apidome** (Old Farmstead/Boundary Spirit) — *implemented (meta.ts + mdx)*; Łas
 - [x] **Babilos / Matergabiae** (Brewing, Hearth, Fire-Mother) — *implemented (meta.ts + mdx)* — *[Details](translations/brewing_hearth.md)*; Łas
 - [x] **Sutvaras / Sutvaris** (Creator, Shaping Force — cosmogonic) — *implemented (meta.ts + mdx)* — *[Details](translations/sutvaras.md)*; Łas
-- [/] **Tavalis** (Cattle Barn Spirit) — *[Details](translations/tavalas.md)*; Łas; *"Tavalem pro bobus in stabulo"*
-- [/] **Tiklis** (Fortune, Good Luck) — *[Details](translations/tiklis.md)*; Łas; *"Tiklium pro fortunato successu"*
+- [x] **Tavalis** (Cattle Barn Spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/tavalas.md)*; Łas; *"Tavalem pro bobus in stabulo"*
+- [x] **Tiklis** (Fortune, Good Luck) — *implemented (meta.ts + mdx)* — *[Details](translations/tiklis.md)*; Łas; *"Tiklium pro fortunato successu"*
 - [x] **Srutis** (River Current — distinct from Upinis) — *implemented (meta.ts + mdx)* — *[Details](translations/water_spirits.md)*; Łas, Mierz; *"Srutim pro flumine"*
-- [/] **Algis / Algė** (Angel/Messenger — pre-Christian intermediary) — *[Details](translations/messenger_spirits.md)*; Łas, Mierz; *"Algi tanquam angelum"*
+- [x] **Algis / Algė** (Angel/Messenger — pre-Christian intermediary) — *implemented (meta.ts + mdx)* — *[Details](translations/messenger_spirits.md)*; Łas, Mierz; *"Algi tanquam angelum"*
 - [x] **Ausklauts / Ausklaitis** (Listening God — moral auditor) — *implemented (meta.ts + mdx)* — *[Details](translations/ausklauts.md)*; Łas, Malec
-- [/] **Bendikas / Bendis** (Journeyer's Protector) — *[Details](translations/bendikas.md)*; Łas, Mierz; *"Bendim pro peregrinatione"*
+- [x] **Bendikas / Bendis** (Journeyer's Protector) — *implemented (meta.ts + mdx)* — *[Details](translations/bendikas.md)*; Łas, Mierz; *"Bendim pro peregrinatione"*
 - [x] **Prigirstis** (Listening Spirit — hears prayers) — *implemented (meta.ts + mdx)* — *[Details](translations/moral_ritual_spirits.md)*; Łas, Mierz; *"Prigirszczium, qui audire facit"*
-- [/] **Šlaitis** (Hillside Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szlaitym pro declivitate"*
+- [x] **Šlaitis** (Hillside Spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szlaitym pro declivitate"*
 - [x] **Skalsa** (Abundance of Household) — *implemented (meta.ts + mdx)* — *[Details](translations/household_spirits.md)*; Łas, Mierz; *"Skalsam pro abundantia domestica"*
-- [/] **Vetušis / Vetustis** (Storm Demon, violent wind) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Vetuszim pro tempestate"*
-- [/] **Šaukstis** (Fly/Insect Spirit) — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szuksztim pro muscis"*
+- [x] **Vetušis / Vetustis** (Storm Demon, violent wind) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Vetuszim pro tempestate"*
+- [x] **Šaukstis** (Fly/Insect Spirit) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_spirits.md)*; Łas, Mierz; *"Szuksztim pro muscis"*
 - [x] **Salaus** (Sweetness Spirit — honey-mead) — *implemented (meta.ts + mdx)* — *[Details](translations/brewing_hearth.md)*; Łas, Mierz; *"Salaum pro dulcamine"*
 
 #### From Długosz *Annales* (1455) — Roman-mapped
@@ -263,11 +263,11 @@
 - [x] **Duobkasis** (Grave-Digger Spirit — psychopomp) — *implemented (meta.ts + mdx)* — *[Details](translations/duobkasis.md)*; Bal
 
 #### From Sutartinės & Jesuit reports
-- [/] **Sutartinių dievaičiai** (Little Gods invoked in song refrains) — *[Details](translations/sutartiniu_dievaiciai.md)*; Sut; *"dievaičiai, rūtele" — gods invoked alongside rue plant*
-- [/] **Ladutis / Lado** (Refrain deity in spring songs — love/fertility) — *[Details](translations/sutartiniu_dievaiciai.md)*; Sut; *"lado, ladutė" in Lithuanian spring songs; debated: deity or exclamation*
-- [/] **Deivės (rural cult)** (Female forest deities surviving in 17th-c. Samogitia) — *[Details](translations/deives_cult.md)*; Jes; *Jesuits destroyed "deivių" shrines in woods; girls left offerings of wool and bread*
-- [/] **Gabijos ugnis (survival)** (Sacred hearth fire documented 1583) — *[Details](translations/gabijos_ugnis.md)*; Jes; *Jesuits noted families maintaining perpetual hearth fires; "ignem sacrum"*
-- [/] **Žaltvykslės** (Sacred snake-keeping documented 1612) — *[Details](translations/zaltvyksles.md)*; Jes; *grass snakes kept in houses; fed milk; killing one = sacrilege; Jesuits ordered snakes destroyed*
+- [x] **Sutartinių dievaičiai** (Little Gods invoked in song refrains) — *implemented (meta.ts + mdx)* — *[Details](translations/sutartiniu_dievaiciai.md)*; Sut; *"dievaičiai, rūtele" — gods invoked alongside rue plant*
+- [x] **Ladutis / Lado** (Refrain deity in spring songs — love/fertility) — *implemented (meta.ts + mdx)* — *[Details](translations/sutartiniu_dievaiciai.md)*; Sut; *"lado, ladutė" in Lithuanian spring songs; debated: deity or exclamation*
+- [x] **Deivės (rural cult)** (Female forest deities surviving in 17th-c. Samogitia) — *implemented (meta.ts + mdx)* — *[Details](translations/deives_cult.md)*; Jes; *Jesuits destroyed "deivių" shrines in woods; girls left offerings of wool and bread*
+- [x] **Gabijos ugnis (survival)** (Sacred hearth fire documented 1583) — *implemented (meta.ts + mdx)* — *[Details](translations/gabijos_ugnis.md)*; Jes; *Jesuits noted families maintaining perpetual hearth fires; "ignem sacrum"*
+- [x] **Žaltvykslės** (Sacred snake-keeping documented 1612) — *implemented (meta.ts + mdx)* — *[Details](translations/zaltvyksles.md)*; Jes; *grass snakes kept in houses; fed milk; killing one = sacrilege; Jesuits ordered snakes destroyed*
 
 ---
 
@@ -283,7 +283,7 @@
 - [x] **Māra** (Great Mother, Material World, Death & Rebirth) — *implemented (meta.ts + mdx, added 2026-04-05)*; Bar, Šmits, Biez; one of the most important LV goddesses; *distinct from Zemes māte*
 - [ ] **Velns / Vels** (Underworld, Cattle, Trickster) — *story only under Velnias*; Bar, Šmits, LNE
 - [ ] **Auseklis** (Morning Star, Light, Hope) — Bar, Biez, LNE
-- [/] **Jods** (Evil Spirit / Demon — pre-Christian underworld figure, synonym for Velns) — *[Details](translations/jods.md)*; Šmits, LV folklore
+- [x] **Jods** (Evil Spirit / Demon — pre-Christian underworld figure, synonym for Velns) — *implemented (meta.ts + mdx)* — *[Details](translations/jods.md)*; Šmits, LV folklore
 
 #### The Fate Triad (Likteņa dievietes)
 - [ ] **Dēkla** (Fate of Newborns, Luck — Kurzeme variant) — sourced; Bar, LNE, Biez
@@ -299,7 +299,7 @@
 #### Agricultural / Fertility
 - [x] **Jumis** (Double Grain, Field Fertility, Last Sheaf) — *implemented (meta.ts + mdx, added 2026-04-05)*; Bar, Šmits, LNE, Mann, HenLiv; *earliest historical attestation in HenLiv (c.1227) harvest rituals*
 - [x] **Jānis** (Midsummer, Summer Solstice Fertility) — *implemented (meta.ts + mdx)*; Bar, Šmits, LNE
-- [/] **Mārtiņš** (November, Autumn Transition, Horses) — *[Details](translations/martins.md)*; Bar, Šmits, LNE
+- [x] **Mārtiņš** (November, Autumn Transition, Horses) — *implemented (meta.ts + mdx)* — *[Details](translations/martins.md)*; Bar, Šmits, LNE
 - [ ] **Cerklicing / Sērkociņš** (Kitchen Fire, Male Hearth God) — Ein; *"Cerklicing, deus coquinae"*
 - [ ] **Moschel / Mošelis** (Cow God, Milk Protection) — Ein; *"Moschum pro vaccis"*
 - [ ] **Puškaitis** (Earth below Trees, Subterranean Spirits) — Ein, Fab; commands kaukai
@@ -328,13 +328,13 @@
 
 #### Water / Sea / Weather
 - [x] **Jūras māte** (Mother of the Sea) — *implemented (meta.ts + mdx)*; Bar, Šmits, LNE
-- [/] **Bangu māte** (Mother of Waves) — *[Details](translations/nature_mates.md)*; Bar
+- [x] **Bangu māte** (Mother of Waves) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_mates.md)*; Bar
 - [x] **Ūdens māte** (Mother of Water, Rivers) — *implemented (meta.ts + mdx)*; Bar, Šmits
-- [/] **Upes māte** (Mother of Rivers — distinct from Ūdens māte) — *[Details](translations/nature_mates.md)*; Bar
+- [x] **Upes māte** (Mother of Rivers — distinct from Ūdens māte) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_mates.md)*; Bar
 - [x] **Vēja māte** (Mother of Wind/Air) — *implemented (meta.ts + mdx)*; Bar, Šmits, LNE
-- [/] **Lietus māte** (Mother of Rain) — *[Details](translations/nature_mates.md)*; Bar
-- [/] **Miglas māte** (Mother of Mist/Fog) — *[Details](translations/nature_mates.md)*; Bar
-- [/] **Salna māte** (Mother of Frost) — *[Details](translations/nature_mates.md)*; Bar
+- [x] **Lietus māte** (Mother of Rain) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_mates.md)*; Bar
+- [x] **Miglas māte** (Mother of Mist/Fog) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_mates.md)*; Bar
+- [x] **Salna māte** (Mother of Frost) — *implemented (meta.ts + mdx)* — *[Details](translations/nature_mates.md)*; Bar
 - [ ] **Ledus māte** (Mother of Ice) — Bar
 - [ ] **Sniega māte** (Mother of Snow) — Bar
 - [ ] **Mākoņu māte** (Mother of Clouds) — Bar

@@ -518,6 +518,65 @@ import DebesuKareivisContentLv from "./gods/lv/debesu-kareivis.mdx";
 import DuobkasisContentEn from "./gods/en/duobkasis.mdx";
 import DuobkasisContentLt from "./gods/lt/duobkasis.mdx";
 import DuobkasisContentLv from "./gods/lv/duobkasis.mdx";
+// Batch 16
+import SutartiniuDievaiciaiContentEn from "./gods/en/sutartiniu-dievaiciai.mdx";
+import SutartiniuDievaiciaiContentLt from "./gods/lt/sutartiniu-dievaiciai.mdx";
+import SutartiniuDievaiciaiContentLv from "./gods/lv/sutartiniu-dievaiciai.mdx";
+import LadutisContentEn from "./gods/en/ladutis.mdx";
+import LadutisContentLt from "./gods/lt/ladutis.mdx";
+import LadutisContentLv from "./gods/lv/ladutis.mdx";
+import DeivesCultContentEn from "./gods/en/deives-cult.mdx";
+import DeivesCultContentLt from "./gods/lt/deives-cult.mdx";
+import DeivesCultContentLv from "./gods/lv/deives-cult.mdx";
+import GabijosUgnisContentEn from "./gods/en/gabijos-ugnis.mdx";
+import GabijosUgnisContentLt from "./gods/lt/gabijos-ugnis.mdx";
+import GabijosUgnisContentLv from "./gods/lv/gabijos-ugnis.mdx";
+import ZaltvykslesContentEn from "./gods/en/zaltvyksles.mdx";
+import ZaltvykslesContentLt from "./gods/lt/zaltvyksles.mdx";
+import ZaltvykslesContentLv from "./gods/lv/zaltvyksles.mdx";
+import TavalisContentEn from "./gods/en/tavalis.mdx";
+import TavalisContentLt from "./gods/lt/tavalis.mdx";
+import TavalisContentLv from "./gods/lv/tavalis.mdx";
+import TiklisContentEn from "./gods/en/tiklis.mdx";
+import TiklisContentLt from "./gods/lt/tiklis.mdx";
+import TiklisContentLv from "./gods/lv/tiklis.mdx";
+import AlgisContentEn from "./gods/en/algis.mdx";
+import AlgisContentLt from "./gods/lt/algis.mdx";
+import AlgisContentLv from "./gods/lv/algis.mdx";
+import BendikasContentEn from "./gods/en/bendikas.mdx";
+import BendikasContentLt from "./gods/lt/bendikas.mdx";
+import BendikasContentLv from "./gods/lv/bendikas.mdx";
+import SlaitisContentEn from "./gods/en/slaitis.mdx";
+import SlaitisContentLt from "./gods/lt/slaitis.mdx";
+import SlaitisContentLv from "./gods/lv/slaitis.mdx";
+import VetustisContentEn from "./gods/en/vetustis.mdx";
+import VetustisContentLt from "./gods/lt/vetustis.mdx";
+import VetustisContentLv from "./gods/lv/vetustis.mdx";
+import SaukstisContentEn from "./gods/en/saukstis.mdx";
+import SaukstisContentLt from "./gods/lt/saukstis.mdx";
+import SaukstisContentLv from "./gods/lv/saukstis.mdx";
+// Batch 17
+import MartinsContentEn from "./gods/en/martins.mdx";
+import MartinsContentLt from "./gods/lt/martins.mdx";
+import MartinsContentLv from "./gods/lv/martins.mdx";
+import JodsContentEn from "./gods/en/jods.mdx";
+import JodsContentLt from "./gods/lt/jods.mdx";
+import JodsContentLv from "./gods/lv/jods.mdx";
+import BanguMateContentEn from "./gods/en/bangu-mate.mdx";
+import BanguMateContentLt from "./gods/lt/bangu-mate.mdx";
+import BanguMateContentLv from "./gods/lv/bangu-mate.mdx";
+import UpesMateContentEn from "./gods/en/upes-mate.mdx";
+import UpesMateContentLt from "./gods/lt/upes-mate.mdx";
+import UpesMateContentLv from "./gods/lv/upes-mate.mdx";
+import LietusMateContentEn from "./gods/en/lietus-mate.mdx";
+import LietusMateContentLt from "./gods/lt/lietus-mate.mdx";
+import LietusMateContentLv from "./gods/lv/lietus-mate.mdx";
+import MiglasMateContentEn from "./gods/en/miglas-mate.mdx";
+import MiglasMateContentLt from "./gods/lt/miglas-mate.mdx";
+import MiglasMateContentLv from "./gods/lv/miglas-mate.mdx";
+import SalnaMateContentEn from "./gods/en/salna-mate.mdx";
+import SalnaMateContentLt from "./gods/lt/salna-mate.mdx";
+import SalnaMateContentLv from "./gods/lv/salna-mate.mdx";
 
 import {
   aitvarasMeta,
@@ -671,6 +730,13 @@ import {
   velnioMotinaMeta, ausraMeta, spindulysMeta, maroDeiveMeta, pjutisDievasMeta,
   perkunoOzelisMeta, perkunoKulkaMeta, perkunoRyksteMeta, pincukasMeta,
   ezeruSeimininkeMeta, milineMeta, ziburinisMeta, debesuKareivisMeta, duobkasisMeta,
+  // Batch 16
+  sutartiniuDievaiciaiMeta, ladutisMeta, deivesCultMeta, gabijosUgnisMeta,
+  zaltvykslesMeta, tavalisMeta, tiklisMeta, algisMeta, bendikasMeta,
+  slaitisMeta, vetustisMeta, saukstisMeta,
+  // Batch 17
+  martinsMeta, jodsMeta, banguMateMeta, upesMateMeta,
+  lietusMateMeta, miglasMateMeta, salnaMateMeta,
 } from "./meta";
 
 export const deities: DeityEntry[] = [
@@ -845,6 +911,27 @@ export const deities: DeityEntry[] = [
   { meta: ziburinisMeta, Content: ZiburinisContentEn, contentByLang: { en: ZiburinisContentEn, lt: ZiburinisContentLt, lv: ZiburinisContentLv } },
   { meta: debesuKareivisMeta, Content: DebesuKareivisContentEn, contentByLang: { en: DebesuKareivisContentEn, lt: DebesuKareivisContentLt, lv: DebesuKareivisContentLv } },
   { meta: duobkasisMeta, Content: DuobkasisContentEn, contentByLang: { en: DuobkasisContentEn, lt: DuobkasisContentLt, lv: DuobkasisContentLv } },
+  // Batch 16
+  { meta: sutartiniuDievaiciaiMeta, Content: SutartiniuDievaiciaiContentEn, contentByLang: { en: SutartiniuDievaiciaiContentEn, lt: SutartiniuDievaiciaiContentLt, lv: SutartiniuDievaiciaiContentLv } },
+  { meta: ladutisMeta, Content: LadutisContentEn, contentByLang: { en: LadutisContentEn, lt: LadutisContentLt, lv: LadutisContentLv } },
+  { meta: deivesCultMeta, Content: DeivesCultContentEn, contentByLang: { en: DeivesCultContentEn, lt: DeivesCultContentLt, lv: DeivesCultContentLv } },
+  { meta: gabijosUgnisMeta, Content: GabijosUgnisContentEn, contentByLang: { en: GabijosUgnisContentEn, lt: GabijosUgnisContentLt, lv: GabijosUgnisContentLv } },
+  { meta: zaltvykslesMeta, Content: ZaltvykslesContentEn, contentByLang: { en: ZaltvykslesContentEn, lt: ZaltvykslesContentLt, lv: ZaltvykslesContentLv } },
+  { meta: tavalisMeta, Content: TavalisContentEn, contentByLang: { en: TavalisContentEn, lt: TavalisContentLt, lv: TavalisContentLv } },
+  { meta: tiklisMeta, Content: TiklisContentEn, contentByLang: { en: TiklisContentEn, lt: TiklisContentLt, lv: TiklisContentLv } },
+  { meta: algisMeta, Content: AlgisContentEn, contentByLang: { en: AlgisContentEn, lt: AlgisContentLt, lv: AlgisContentLv } },
+  { meta: bendikasMeta, Content: BendikasContentEn, contentByLang: { en: BendikasContentEn, lt: BendikasContentLt, lv: BendikasContentLv } },
+  { meta: slaitisMeta, Content: SlaitisContentEn, contentByLang: { en: SlaitisContentEn, lt: SlaitisContentLt, lv: SlaitisContentLv } },
+  { meta: vetustisMeta, Content: VetustisContentEn, contentByLang: { en: VetustisContentEn, lt: VetustisContentLt, lv: VetustisContentLv } },
+  { meta: saukstisMeta, Content: SaukstisContentEn, contentByLang: { en: SaukstisContentEn, lt: SaukstisContentLt, lv: SaukstisContentLv } },
+  // Batch 17
+  { meta: martinsMeta, Content: MartinsContentEn, contentByLang: { en: MartinsContentEn, lt: MartinsContentLt, lv: MartinsContentLv } },
+  { meta: jodsMeta, Content: JodsContentEn, contentByLang: { en: JodsContentEn, lt: JodsContentLt, lv: JodsContentLv } },
+  { meta: banguMateMeta, Content: BanguMateContentEn, contentByLang: { en: BanguMateContentEn, lt: BanguMateContentLt, lv: BanguMateContentLv } },
+  { meta: upesMateMeta, Content: UpesMateContentEn, contentByLang: { en: UpesMateContentEn, lt: UpesMateContentLt, lv: UpesMateContentLv } },
+  { meta: lietusMateMeta, Content: LietusMateContentEn, contentByLang: { en: LietusMateContentEn, lt: LietusMateContentLt, lv: LietusMateContentLv } },
+  { meta: miglasMateMeta, Content: MiglasMateContentEn, contentByLang: { en: MiglasMateContentEn, lt: MiglasMateContentLt, lv: MiglasMateContentLv } },
+  { meta: salnaMateMeta, Content: SalnaMateContentEn, contentByLang: { en: SalnaMateContentEn, lt: SalnaMateContentLt, lv: SalnaMateContentLv } },
 ];
 
 export const deityBySlug = Object.fromEntries(

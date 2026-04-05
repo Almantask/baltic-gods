@@ -5074,6 +5074,12 @@ export const deitiesMeta = {
   sutartiniuDievaiciaiMeta, ladutisMeta, deivesCultMeta, gabijosUgnisMeta,
   zaltvykslesMeta, tavalisMeta, tiklisMeta, algisMeta, bendikasMeta,
   slaitisMeta, vetustisMeta, saukstisMeta,
+  // Batch 17
+  martinsMeta, jodsMeta, banguMateMeta, upesMateMeta,
+  lietusMateMeta, miglasMateMeta, salnaMateMeta,
+  // Batch 18
+  debessMateMeta, zvaigznesMateMeta, saulesMateMeta2, menessMate2Meta,
+  ritaMateMeta, vakараMateMeta, naktsMateMeta, dienasMateMeta,
 };
 
 // ─── Batch 9 ─────────────────────────────────────────────────────────────────
@@ -7181,5 +7187,418 @@ export const saukstisMeta: DeityMeta = {
   references: [
     "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
     "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+  ],
+};
+
+// Batch 17
+
+export const martinsMeta: DeityMeta = {
+  slug: "martins",
+  name: { en: "Mārtiņš", lt: "Mārtiņš", lv: "Mārtiņš" },
+  domain: "Deity",
+  culture: "LV",
+  title: {
+    en: "Mārtiņš — Guardian of Horses and the Harvest End",
+    lt: "Mārtiņš — Arklių Globėjas ir Derliaus Pabaigos Dievas",
+    lv: "Mārtiņš — Zirgu Sargs un Ražas Noslēguma Dievs",
+  },
+  summary: {
+    en: "Mārtiņš is the Latvian deity of November, the harvest's end and horses, arriving on his white horse with the first frost to signal the close of the agricultural year; his festival (November 10) was the ritual deadline for settling debts and sacrificing a rooster in the stable.",
+    lt: "Mārtiņš yra lapkričio, derliaus pabaigos ir arklių latvių dievas, ant balto žirgo atnešantis pirmąsias šalnas; jo šventė (lapkričio 10 d.) buvo ritualinis terminas skoloms apmokėti ir gaideliui aukoti arklidėje.",
+    lv: "Mārtiņš ir latviešu novembra, ražas noslēguma un zirgu dievs, kas uz balta zirga atved pirmo salu un signalizē lauksaimniecības gada beigām; viņa svētki (10. novembris) bija rituāls termiņš parādu nokārtošanai un gaiļa upurēšanai stallī.",
+  },
+  attributes: ["Horses", "November", "Harvest end", "Winter transition", "Rooster sacrifice"],
+  symbols: ["White horse", "Rooster", "Frost", "Winter mask", "Horse brush"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Medieval to present day folklore", lt: "Viduramžiai iki šių dienų tautosakos", lv: "Viduslaiki līdz mūsdienu folklorai" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1926)",
+    "LNE: Latvijas Nacionālā enciklopēdija (enciklopedija.lv)",
+  ],
+};
+
+export const jodsMeta: DeityMeta = {
+  slug: "jods",
+  name: { en: "Jods", lt: "Jods", lv: "Jods" },
+  domain: "Demon",
+  culture: "LV",
+  title: {
+    en: "Jods — the Dark One, Primal Adversary of the Gods",
+    lt: "Jods — Tamsusis, Dievų Pirmapradis Priešininkas",
+    lv: "Jods — Tumšais, Dieva Pirmatnējais Pretinieks",
+  },
+  summary: {
+    en: "Jods is the primordial dark spirit of Latvian mythology — not a trickster like common Velns but a genuinely threatening adversary of Dievs, personifying destructive chaos, disease, and the absolute darkness beyond divine light.",
+    lt: "Jods yra pirmapradė tamsios latvių mitologijos dvasia — ne triukmažis kaip paprastas Velnias, bet tikrai grėsmingas Dievo priešininkas, personifikuojantis žlugdantį chaosą, ligas ir absoliučią tamsą už dieviškosios šviesos ribų.",
+    lv: "Jods ir latviešu mitoloģijas pirmatnējais tumšais gars — ne krāpnieks kā parastais Velns, bet patiešām draudīgs Dieva pretinieks, kas personificē postošo haosu, slimības un absolūto tumsu ārpus dievišķās gaismas.",
+  },
+  attributes: ["Darkness", "Underworld", "Chaos", "Disease", "Adversary of Dievs"],
+  symbols: ["Pitch black", "Inky marsh", "Broken stone", "Night", "Black raven"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Proto-Baltic to late folklore", lt: "Protobaltiška kilmė iki vėlyvosios tautosakos", lv: "Protobaltu periods līdz vēlajam folkloram" },
+  references: [
+    "Šmits, Pēteris: Latviešu mitoloģija (1926)",
+    "Biezais, Haralds: Die Hauptgöttinnen der alten Letten (1955)",
+    "LNE: Latvijas Nacionālā enciklopēdija (enciklopedija.lv)",
+  ],
+};
+
+export const banguMateMeta: DeityMeta = {
+  slug: "bangu-mate",
+  name: { en: "Bangu māte", lt: "Bangų Motina", lv: "Bangu māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Bangu māte — Mother of the Waves",
+    lt: "Bangų Motina — Bangų Valdovė",
+    lv: "Bangu māte — Viļņu Māte",
+  },
+  summary: {
+    en: "Bangu māte is the Latvian mother spirit of the churning waves — an aspect or daughter of Jūras māte — presiding over the rhythmic pounding of waves against the shore, invoked by fishermen for safe passage.",
+    lt: "Bangų Motina yra latvių virpančių bangų motinos dvasia — Jūros Motinos aspektas ar duktė — valdanti ritmingą bangų plakimą į krantą, žvejų meldžiama saugaus plaukimo.",
+    lv: "Bangu māte ir latviešu virpojošo viļņu māte — Jūras mātes aspekts vai meita — kas valda ritmisko viļņu sišanos pret krastu, ko zvejnieki lūdz par drošu braucienu.",
+  },
+  attributes: ["Waves", "Sea", "Shore", "Ocean power", "Fishermen's patron"],
+  symbols: ["Wave-crest", "Sea-foam", "Shore stone", "Roaring water"],
+  locations: [],
+  region: { en: "Coastal Latvia (Kurzeme, Vidzeme)", lt: "Pakrantės Latvija (Kurzeme, Vidzeme)", lv: "Piekrastes Latvija (Kurzeme, Vidzeme)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const upesMateMeta: DeityMeta = {
+  slug: "upes-mate",
+  name: { en: "Upes māte", lt: "Upių Motina", lv: "Upes māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Upes māte — Mother of Rivers and Flowing Time",
+    lt: "Upių Motina — Upių ir Tekančio Laiko Globėja",
+    lv: "Upes māte — Upju un Tekošā Laika Māte",
+  },
+  summary: {
+    en: "Upes māte is the Latvian spirit of flowing river waters — distinct from the general Ūdens māte — governing rivers as a symbol of life's transitions, soul journeys, and the passage of time, propitiated by women who brought woven ribbons to riverbends.",
+    lt: "Upių Motina yra latvių tekančio vandens regentė — skiriama nuo bendrosios Vandens Motinos — valdanti upes kaip gyvenimo perėjimų, sielų kelionių ir laiko tėkmės simbolį, maldavimai moterų, atnešusių austų juostų prie upių posūkių.",
+    lv: "Upes māte ir latviešu tekošo upju gars — atšķirīga no vispārīgās Ūdens mātes — kas valda upes kā dzīves pāreju, dvēseļu ceļojumu un laika plūsmas simbolu; sievietes atnesa austas lentes pie upes līkumiem.",
+  },
+  attributes: ["Rivers", "Flowing water", "Life transitions", "Soul journeys", "Time passage"],
+  symbols: ["Riverbend", "Silver water-droplets", "Spring-well", "Woven ribbon"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
+};
+
+export const lietusMateMeta: DeityMeta = {
+  slug: "lietus-mate",
+  name: { en: "Lietus māte", lt: "Lietaus Motina", lv: "Lietus māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Lietus māte — Mother of Rain",
+    lt: "Lietaus Motina — Lietaus Valdovė",
+    lv: "Lietus māte — Lietus Māte",
+  },
+  summary: {
+    en: "Lietus māte is the Latvian mother spirit of rain — she whose tears or poured water nourish the crops — invoked during droughts with processional songs calling on her to open the sky and sustain the harvest.",
+    lt: "Lietaus Motina yra latvių lietaus motinos dvasia — ta, kurios ašaros ar pilamas vanduo maitina pasėlius — meldžiama sausros metu procesijų dainomis, prašant atidaryti dangų ir išlaikyti derlių.",
+    lv: "Lietus māte ir latviešu lietus māte — tā, kuras asaras vai izlietais ūdens baro augus — piesauc sausas laikā ar procesiju dziesmām, lūdzot atvērt debesis un uzturēt ražu.",
+  },
+  attributes: ["Rain", "Moisture", "Crops", "Drought relief", "Agricultural fertility"],
+  symbols: ["Rain drop", "Full cloud", "Pouring vessel", "Wet grain"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
+};
+
+export const miglasMateMeta: DeityMeta = {
+  slug: "miglas-mate",
+  name: { en: "Miglas māte", lt: "Miglų Motina", lv: "Miglas māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Miglas māte — Mother of Mist and the Liminal Veil",
+    lt: "Miglų Motina — Rūko ir Tarpinės Uždangos Valdovė",
+    lv: "Miglas māte — Miglas un Sliekšņa Aizsega Māte",
+  },
+  summary: {
+    en: "Miglas māte is the Latvian spirit of fog and mist — the creator of the liminal veil where the boundaries between living and dead blur — travelers were warned not to follow her path lest they become lost between worlds.",
+    lt: "Miglų Motina yra latvių rūko ir miglos dvasia — tarpinės uždangos kūrėja, kur gyvenimo ir mirties ribos trindasi — keliautojus būdavo perspėjama nesekti jos keliu, kad nepaklystų tarp pasaulių.",
+    lv: "Miglas māte ir latviešu miglas un rūkus gars — sliekšņa plīvura radītāja, kur robežas starp dzīvajiem un mirušajiem izplūst — ceļotāji tika brīdināti nesekot viņas ceļam, lai nezaudētu ceļu starp pasaulēm.",
+  },
+  attributes: ["Mist", "Fog", "Liminality", "Between worlds", "Danger to travelers"],
+  symbols: ["Grey veil", "Forest mist", "Blurred boundary", "Fading path"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
+};
+
+export const salnaMateMeta: DeityMeta = {
+  slug: "salna-mate",
+  name: { en: "Salna māte", lt: "Šalnų Motina", lv: "Salna māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Salna māte — Mother of Frost",
+    lt: "Šalnų Motina — Šalčio Valdovė",
+    lv: "Salna māte — Salnas Māte",
+  },
+  summary: {
+    en: "Salna māte is the Latvian frost spirit — the biter of plants who tests crop resilience in early spring and late autumn — dreaded by farmers as the destroyer of blossoms but respected as a necessary agent of seasonal transition.",
+    lt: "Šalnų Motina yra latvių šalčio dvasia — augalų kandėja, patikrinanti pasėlių atsparumą ankstyvą pavasarį ir vėlyvą rudenį — ūkininkų bijoma kaip žiedų naikintoja, bet gerbiama kaip būtinas sezonų kaitos atstovas.",
+    lv: "Salna māte ir latviešu salnas gars — augu kodēja, kas pārbauda sēklu izturību agrā pavasarī un vēlā rudenī — zemnieku baidīta kā ziedu iznīcinātāja, bet cienīta kā nepieciešams gadalaiku pārejas aģents.",
+  },
+  attributes: ["Frost", "Late autumn", "Early spring", "Crop testing", "Seasonal transition"],
+  symbols: ["Ice crystal", "Withered blossom", "White field", "Morning hoarfrost"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
+};
+
+// Batch 18
+
+export const debessMateMeta: DeityMeta = {
+  slug: "debess-mate",
+  name: { en: "Debess māte", lt: "Dangaus Motina", lv: "Debess māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Debess māte — Mother of the Sky Vault",
+    lt: "Dangaus Motina — Dangaus Skliauto Globėja",
+    lv: "Debess māte — Debesu Velves Māte",
+  },
+  summary: {
+    en: "Debess māte is the Latvian spirit of the celestial firmament — the protective vault who holds the stars in her lap — the feminine counterpart to sky-father Dievs who provides the infinite container of all heavenly light.",
+    lt: "Dangaus Motina yra latvių dangiškojo skliauto dvasia — apsauginė skliautas, laikantis žvaigždes savo glėbyje — dieviškoji moteriškoji dvasia, šalia aktyvaus dangaus tėvo Dievo, teikianti begalinį visų dangaus šviesos indą.",
+    lv: "Debess māte ir latviešu debess velves gars — aizsargājošā velve, kas tur zvaigznes savā klēpī — dievišķais sievišķais pretsvars aktīvajam debesu tēvam Dievam, nodrošinot bezgalīgo visu debess gaismas trāku.",
+  },
+  attributes: ["Sky vault", "Firmament", "Stars", "Celestial container", "Divine feminine"],
+  symbols: ["Silver dome", "Star-field", "Blue cloak", "Infinite expanse"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
+  ],
+};
+
+export const zvaigznesMateMeta: DeityMeta = {
+  slug: "zvaigznes-mate",
+  name: { en: "Zvaigznes māte", lt: "Žvaigždžių Motina", lv: "Zvaigznes māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Zvaigznes māte — Weaver of the Starry Veil",
+    lt: "Žvaigždžių Motina — Žvaigždėtos Uždangos Audėja",
+    lv: "Zvaigznes māte — Zvaigžņotas Aizsega Audēja",
+  },
+  summary: {
+    en: "Zvaigznes māte is the Latvian mother spirit of stars — the weaver of the starry night veil — associated with destiny since stars were believed to be the living eyes or souls of the dead watching from the sky.",
+    lt: "Žvaigždžių Motina yra latvių žvaigždžių motinos dvasia — žvaigždėtos nakties uždangos audėja — susijusi su likimo tema, nes žvaigždės buvo laikomos gyvomis mirusiųjų akimis ar sielomis, stebinčiomis iš dangaus.",
+    lv: "Zvaigznes māte ir latviešu zvaigžņu mātes gars — zvaigžņotas nakts plīvura audēja — saistīta ar likteņa tēmu, jo zvaigznes tika uzskatītas par dzīvajām mirušo acīm vai dvēselēm, kas vēro no debesīm.",
+  },
+  attributes: ["Stars", "Destiny", "Weaving", "Night sky", "Souls of the dead"],
+  symbols: ["Glistening thread", "Night-sky veil", "Star-cluster", "Silver needle"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const saulesMateMeta2: DeityMeta = {
+  slug: "saules-mate",
+  name: { en: "Saules māte", lt: "Saulės Motina", lv: "Saules māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Saules māte — Cosmic Mother Who Sends the Sun on Her Way",
+    lt: "Saulės Motina — Kosminė Motina, Siunčianti Saulę į Kelią",
+    lv: "Saules māte — Kosmiskā Māte, kas Sūta Sauli Ceļā",
+  },
+  summary: {
+    en: "Saules māte is the cosmic parent distinct from Saule herself — the elder guardian who sends the Sun on her daily journey and welcomes her home each evening, representing the maternal source behind the Sun's light and sustaining power.",
+    lt: "Saulės Motina yra kosminė tėvija, skiriamas nuo pačios Saulės — vyresnė globėja, siunčianti Saulę į kiekvieną dieninę kelionę ir priimanti ją namo kiekvieną vakarą, atspindinti motinišką šaltinį už Saulės šviesos ir palaikančios galios.",
+    lv: "Saules māte ir kosmiskā vecāke, atšķirīga no pašas Saules — veckā sārge, kas sūta Sauli ikās dienas ceļojumā un sagaida viņu mājās katru vakaru, pārstāvot mātiš ķo avotu aiz Saules gaismas un uzturošās varas.",
+  },
+  attributes: ["Sun parent", "Daily journey", "Elder guardian", "Cosmic mother", "Solar origin"],
+  symbols: ["Golden bowl", "Dawn gate", "Evening embrace", "Solar wheel"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const menessMate2Meta: DeityMeta = {
+  slug: "meness-mate",
+  name: { en: "Mēness māte", lt: "Mėnulio Motina", lv: "Mēness māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Mēness māte — Spirit of the Lunar Cycles",
+    lt: "Mėnulio Motina — Mėnulinių Ciklų Dvasia",
+    lv: "Mēness māte — Mēness Ciklu Gars",
+  },
+  summary: {
+    en: "Mēness māte is the Latvian spirit governing the lunar phases and silver nightlight — the elder guardian of nighttime cycles who guides travelers by moonlight, distinct from Mēness himself as a masculine celestial figure.",
+    lt: "Mėnulio Motina yra latvių dvasia, valdanti mėnulio fazes ir sidabrinę nakties šviesą — vyresnė nakties ciklų globėja, nukreipianti keliautojus mėnesienoje, skirtinga nuo paties Mėnulio (Mēness), kuris yra vyriška dangišką figūrą.",
+    lv: "Mēness māte ir latviešu gars, kas valda mēness fāzes un sudraba nakts gaismu — veckā nakts ciklu sārge, kas vada ceļotājus mēnessgaismā, atšķirīga no patiesā Mēneša kā vīrieša debess figūras.",
+  },
+  attributes: ["Moon cycles", "Lunar phases", "Night guidance", "Silver light", "Nighttime guardian"],
+  symbols: ["Silver crescent", "Moonlit path", "Lunar phases", "Night sky"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const ritaMateMeta: DeityMeta = {
+  slug: "rita-mate",
+  name: { en: "Rīta māte", lt: "Ryto Motina", lv: "Rīta māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Rīta māte — Mother of Morning and the Awakening Land",
+    lt: "Ryto Motina — Ryto ir Prabudusios Žemės Motina",
+    lv: "Rīta māte — Rīta un Mosāmās Zemes Māte",
+  },
+  summary: {
+    en: "Rīta māte is the Latvian bringer of morning light and dew — the spirit who awakens the land and signals the start of labor — representing the threshold between night's rest and day's productive work.",
+    lt: "Ryto Motina yra latvių ryto šviesos ir rasos nešėja — dvasia, žadinanti žemę ir ženklinanti darbo pradžią — atspindinti slenkstį tarp nakties poilsio ir dienos produktyvaus darbo.",
+    lv: "Rīta māte ir latviešu rīta gaismas un rasas nesēja — gars, kas modina zemi un signalizē darba sākumu — pārstāvot slieksni starp nakts atpūtu un dienas produktīvo darbu.",
+  },
+  attributes: ["Morning", "Dawn", "Dew", "Awakening", "Start of labor"],
+  symbols: ["First light", "Morning dew", "Sunrise threshold", "Silver cup"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const vakaraMateMeta: DeityMeta = {
+  slug: "vakara-mate",
+  name: { en: "Vakara māte", lt: "Vakaro Motina", lv: "Vakara māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Vakara māte — Gentle Mistress of the Setting Sun",
+    lt: "Vakaro Motina — Švelni Saulėlydžio Valdovė",
+    lv: "Vakara māte — Maigā Saulrieta Valdniece",
+  },
+  summary: {
+    en: "Vakara māte is the Latvian spirit of evening and sunset — the gentle overseer of the cattle's return and the hearth-fire lighting — representing the daily transition from labor to rest and the home's welcome at day's end.",
+    lt: "Vakaro Motina yra latvių vakaro ir saulėlydžio dvasia — švelni galvijų grįžimo ir židinių uždegimo prižiūrėtoja — atspindinti kasdienį perėjimą nuo darbo prie poilsio ir namų priėmimą dienos pabaigoje.",
+    lv: "Vakara māte ir latviešu vakara un saulrieta gars — maigā lopu atgriešanās un pavarda uguns degšanas uzraudze — pārstāvot ikdienas pāreju no darba uz atpūtu un mājas uztveri dienas beigās.",
+  },
+  attributes: ["Evening", "Sunset", "Cattle return", "Hearth-fire", "Rest"],
+  symbols: ["Sunset glow", "Hearth flame", "Returning cattle", "Dimming sky"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const naktsMateMeta: DeityMeta = {
+  slug: "nakts-mate",
+  name: { en: "Nakts māte", lt: "Nakties Motina", lv: "Nakts māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Nakts māte — Mistress of the Dark and the Dream",
+    lt: "Nakties Motina — Tamsos ir Sapno Valdovė",
+    lv: "Nakts māte — Tumsas un Sapņa Valdniece",
+  },
+  summary: {
+    en: "Nakts māte is the Latvian mistress of night who draws the black blanket over the earth — primarily the mother of dreams and necessary silence rather than an agent of fear, representing the rejuvenating darkness that living beings need to continue.",
+    lt: "Nakties Motina yra latvių nakties valdovė, tempianti juodą antklodę viršė žemės — visų pirma sapnų motina ir būtinos tylos kūrėja, o ne baimės agentas, atspindinti atjauninančią tamsą, kurios gyvieji turi tęsti.",
+    lv: "Nakts māte ir latviešu nakts valdniece, kas uzklāj melno segu pāri zemei — galvenokārt sapņu māte un nepieciešamā klusuma radītāja, nevis baiļu aģents, pārstāvot atjaunojošo tumsu, kas dzīviem vajadzīga turpināšanai.",
+  },
+  attributes: ["Night", "Dreams", "Darkness", "Sleep", "Silence"],
+  symbols: ["Black blanket", "Dark sky", "Dream thread", "Sleeping earth"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
+  ],
+};
+
+export const dienasMateMeta: DeityMeta = {
+  slug: "dienas-mate",
+  name: { en: "Dienas māte", lt: "Dienos Motina", lv: "Dienas māte" },
+  domain: "Spirit",
+  culture: "LV",
+  title: {
+    en: "Dienas māte — Watcher of the Day's Full Light",
+    lt: "Dienos Motina — Pilnos Dienos Šviesos Prižiūrėtoja",
+    lv: "Dienas māte — Dienas Pilnās Gaismas Uzraudze",
+  },
+  summary: {
+    en: "Dienas māte is the Latvian spirit of the daylight hours — the noon-sun's watcher who oversees those laboring in the fields at the high point of day — representing the full productive force of light and the witness of the day's work.",
+    lt: "Dienos Motina yra latvių dienos šviesos dvasia — pusdienos saulės prižiūrėtoja, stebinti laukuose dirbančiuosius dienos aukščiausiame taške — atspindinti pilną produktyvią šviesos jėgą ir dienos darbo liudytoją.",
+    lv: "Dienas māte ir latviešu dienas gaismas gars — pusdienas saules uzraudze, kas vēro laukos strādājošos dienas augstākajā punktā — pārstāvot pilno produktīvo gaismas spēku un dienas darba liecinieci.",
+  },
+  attributes: ["Daylight", "Noon", "Field labor", "Full light", "Watchfulness"],
+  symbols: ["Noon sun", "Midday heat", "Open field", "Watchful sky"],
+  locations: [],
+  region: { en: "Latvia (Pan-Latvian)", lt: "Latvija (Visa Latvija)", lv: "Latvija (Visas Latvijas)" },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "Archaic oral tradition", lt: "Archajinė žodinė tradicija", lv: "Arhaiskā mutvārdu tradīcija" },
+  references: [
+    "Barons, Krišjānis: Latvju dainas (1894–1915)",
+    "Biezais, Haralds: Die himmlische Götterfamilie der Baltischen Völker (1972)",
   ],
 };
