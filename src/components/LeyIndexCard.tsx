@@ -1,5 +1,6 @@
 'use client';
 
+import { memo } from "react";
 import Link from "next/link";
 import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint } from "@/types/content";
@@ -11,7 +12,7 @@ interface LeyIndexCardProps {
   showDescription?: boolean;
 }
 
-export function LeyIndexCard({
+export const LeyIndexCard = memo(function LeyIndexCard({
   location,
   isSelected,
   onClick,
@@ -75,4 +76,4 @@ export function LeyIndexCard({
       </div>
     </div>
   );
-}
+});

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useState, useRef } from "react";
+import { useVirtualizer } from "@tanstack/react-virtual";
 import { SacredMap } from "@/components/SacredMap";
 import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { useTranslation } from "@/lib/i18n";
@@ -11,6 +12,7 @@ import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
   const { language, strings } = useTranslation();
+  const parentRef = useRef<HTMLDivElement>(null);
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<string | undefined>(undefined);
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
@@ -32,6 +34,13 @@ export default function MapPage() {
       : nearFiltered.filter((loc) => !hiddenCategories.has(loc.siteType)),
     [nearFiltered, hiddenCategories],
   );
+
+  const rowVirtualizer = useVirtualizer({
+    count: visibleLocations.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: () => 90,
+    overscan: 5,
+  });
 
   const toggleCategory = useCallback((category: SiteCategory) => {
     setHiddenCategories((prev) => {
@@ -111,16 +120,44 @@ export default function MapPage() {
             <p className="text-xs uppercase tracking-[0.2em] text-amber-200">
               {strings.map.legend}
             </p>
-            <div className="mt-3 space-y-2 text-sm text-zinc-200">
-              {visibleLocations.map((loc) => (
-                <LeyIndexCard
-                  key={loc.id}
-                  location={loc}
-                  isSelected={effectiveSelected === loc.id}
-                  onClick={() => setSelected(loc.id)}
-                  showDescription={false}
-                />
-              ))}
+            <div 
+              ref={parentRef}
+              className="mt-3 text-sm text-zinc-200 overflow-y-auto pr-2 custom-scrollbar"
+              style={{ maxHeight: '400px' }}
+            >
+              <div
+                style={{
+                  height: `${rowVirtualizer.getTotalSize()}px`,
+                  width: '100%',
+                  position: 'relative',
+                }}
+              >
+                {rowVirtualizer.getVirtualItems().map((virtualItem) => {
+                  const loc = visibleLocations[virtualItem.index];
+                  return (
+                    <div
+                      key={virtualItem.key}
+                      data-index={virtualItem.index}
+                      ref={rowVirtualizer.measureElement}
+                      style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        transform: `translateY(${virtualItem.start}px)`,
+                        paddingBottom: '8px',
+                      }}
+                    >
+                      <LeyIndexCard
+                        location={loc}
+                        isSelected={effectiveSelected === loc.id}
+                        onClick={() => setSelected(loc.id)}
+                        showDescription={false}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
           <div className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-zinc-200">

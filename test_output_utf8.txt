@@ -1,0 +1,63 @@
+﻿
+> baltic-gods@0.1.0 test
+> jest src/__tests__/map.test.tsx
+
+node.exe : FAIL src/__tests__/map.test.tsx (34.866 s)
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program File
+s\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (FAIL src/ 
+   __test....tsx (34.866 s):String) [], RemoteExcepti  
+  on
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Map page
+    ΓêÜ filters locations and updates coordinate panel 
+(1424 ms)
+    ΓêÜ pans the map to a location when its card is sel
+ected (4383 ms)
+    ├ù collapses and expands the map legend (6998 ms)
+    ΓêÜ renders Near me button and requests geolocation
+ on click (6934 ms)
+    ΓêÜ pans the map to the user's location when Near m
+e resolves (2928 ms)
+    ΓêÜ filters locations within 50 km when Near me is 
+active (3234 ms)
+    ΓêÜ toggles Near me off to show all locations again
+ (3886 ms)
+    ΓêÜ renders fullscreen toggle button and calls requ
+estFullscreen on click (2825 ms)
+
+  ΓùÅ Map page ΓÇ║ collapses and expands the map legend
+
+    thrown: "Exceeded timeout of 5000 ms for a test.
+    Add a timeout value to this test to increase the ti
+meout, if this is a long-running test. See https://jest
+js.io/docs/api#testname-fn-timeout."
+
+    [0m [90m 60 |[39m   })[33m;[39m
+     [90m 61 |[39m
+    [31m[1m>[22m[39m[90m 62 |[39m   it([32m"coll
+apses and expands the map legend"[39m[33m,[39m [36m
+async[39m () [33m=>[39m {
+     [90m    |[39m   [31m[1m^[22m[39m
+     [90m 63 |[39m     [36mconst[39m user [33m=[3
+9m userEvent[33m.[39msetup()[33m;[39m
+     [90m 64 |[39m     [36mconst[39m { getByRole[3
+3m,[39m getByLabelText } [33m=[39m renderWithProvide
+rs([33m<[39m[33mMapPage[39m [33m/[39m[33m>[39m)
+[33m;[39m
+     [90m 65 |[39m[0m
+
+      at it (src/__tests__/map.test.tsx:62:3)
+      at Object.describe (src/__tests__/map.test.tsx:22
+:1)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 7 passed, 8 total
+Snapshots:   0 total
+Time:        36.742 s, estimated 38 s
+Ran all test suites matching /src\\__tests__\\map.test.
+tsx/i.

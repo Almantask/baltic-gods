@@ -1,9 +1,9 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
-import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF } from "@react-google-maps/api";
+import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF, MarkerClustererF } from "@react-google-maps/api";
 import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
 import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint, SiteCategory } from "@/types/content";
@@ -40,6 +40,36 @@ function buildMarkerIcon(aura: LocationPoint["aura"], isActive: boolean) {
   };
 }
 
+interface SacredMarkerProps {
+  loc: LocationPoint;
+  isActive: boolean;
+  handleClick: (loc: LocationPoint) => void;
+  setHoveredId: (id: string | null) => void;
+  clusterer: any;
+}
+
+const SacredMarker = memo(function SacredMarker({
+  loc,
+  isActive,
+  handleClick,
+  setHoveredId,
+  clusterer,
+}: SacredMarkerProps) {
+  // Use useMemo for icon to avoid recreating it on every single render
+  const markerIcon = useMemo(() => buildMarkerIcon(loc.aura, isActive), [loc.aura, isActive]);
+
+  return (
+    <MarkerF
+      position={{ lat: loc.coordinates[0], lng: loc.coordinates[1] }}
+      icon={markerIcon}
+      onClick={() => handleClick(loc)}
+      onMouseOver={() => setHoveredId(loc.id)}
+      onMouseOut={() => setHoveredId(null)}
+      clusterer={clusterer}
+    />
+  );
+});
+
 interface SacredMapProps {
   locations: LocationPoint[];
   selectedLocationId?: string;
@@ -71,6 +101,7 @@ export function SacredMap({
 }: SacredMapProps) {
   const { strings } = useTranslation();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const [currentBounds, setCurrentBounds] = useState<google.maps.LatLngBounds | null>(null);
   const [hiddenCategoriesInternal, setHiddenCategoriesInternal] = useState<Set<SiteCategory>>(new Set());
   const [legendCollapsed, setLegendCollapsed] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -120,6 +151,15 @@ export function SacredMap({
       });
     }
   }, [isControlled, onToggleCategory]);
+
+  const viewportLocations = useMemo(() => {
+    if (!currentBounds) return visibleLocations;
+    return visibleLocations.filter((loc) => {
+      if (typeof google === "undefined" || !google?.maps?.LatLng) return true;
+      const point = new google.maps.LatLng(loc.coordinates[0], loc.coordinates[1]);
+      return currentBounds.contains(point);
+    });
+  }, [visibleLocations, currentBounds]);
 
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.GOOGLE_API_KEY || process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "",
@@ -219,20 +259,31 @@ export function SacredMap({
         onLoad={(map) => {
           mapRef.current = map;
         }}
+        onIdle={() => {
+          if (mapRef.current?.getBounds) {
+            setCurrentBounds(mapRef.current.getBounds() || null);
+          }
+        }}
       >
-        {visibleLocations.map((loc) => {
-          const isActive = loc.id === selectedLocationId;
-          return (
-            <MarkerF
-              key={loc.id}
-              position={{ lat: loc.coordinates[0], lng: loc.coordinates[1] }}
-              icon={buildMarkerIcon(loc.aura, isActive)}
-              onClick={() => handleClick(loc)}
-              onMouseOver={() => setHoveredId(loc.id)}
-              onMouseOut={() => setHoveredId(null)}
-            />
-          );
-        })}
+        <MarkerClustererF>
+          {(clusterer) => (
+            <>
+              {viewportLocations.map((loc) => {
+                const isActive = loc.id === selectedLocationId;
+                return (
+                  <SacredMarker
+                    key={loc.id}
+                    loc={loc}
+                    isActive={isActive}
+                    handleClick={handleClick}
+                    setHoveredId={setHoveredId}
+                    clusterer={clusterer}
+                  />
+                );
+              })}
+            </>
+          )}
+        </MarkerClustererF>
         {hoveredLocation && (
           <InfoWindowF
             position={{

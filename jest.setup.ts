@@ -16,6 +16,23 @@ jest.mock("next/navigation", () => ({
   notFound: jest.fn(),
 }));
 
+jest.mock("@tanstack/react-virtual", () => ({
+  useVirtualizer: ({ count }: { count: number }) => {
+    // Only return up to 5 items to avoid JSDOM performance issues with userEvent
+    const limit = Math.min(count, 5);
+    return {
+      getVirtualItems: () => Array.from({ length: limit }).map((_, i) => ({
+        index: i,
+        key: i,
+        start: i * 90,
+        size: 90
+      })),
+      getTotalSize: () => count * 90,
+      measureElement: jest.fn()
+    };
+  }
+}));
+
 /* ---------- Google Maps stubs for SacredMap ---------- */
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const React = require("react");
@@ -42,10 +59,16 @@ Object.defineProperty(globalThis, "google", {
             status: string,
           ) => void,
         ) {
-          // Default stub: resolves with no results.  Tests can override via
-          // `jest.spyOn(google.maps.Geocoder.prototype, "geocode")`.
           callback(null, "ZERO_RESULTS");
         }
+      },
+      LatLng: class LatLng {
+        lat: number;
+        lng: number;
+        constructor(lat: number, lng: number) { this.lat = lat; this.lng = lng; }
+      },
+      LatLngBounds: class LatLngBounds {
+        contains(_latLng: unknown) { return true; }
       },
     },
   },
@@ -74,6 +97,7 @@ jest.mock("@react-google-maps/api", () => ({
           panTo: jest.fn(),
           setZoom: jest.fn(),
           getZoom: jest.fn(() => 7),
+          getBounds: jest.fn(() => new globalThis.google.maps.LatLngBounds()),
           getDiv: () => divRef.current ?? el,
         } as unknown as google.maps.Map;
 
@@ -97,6 +121,8 @@ jest.mock("@react-google-maps/api", () => ({
       "data-lat": position?.lat,
       "data-lng": position?.lng,
     }),
+  MarkerClustererF: ({ children }: { children?: (clusterer: unknown) => React.ReactNode }) => 
+    React.createElement("div", { "data-testid": "marker-clusterer" }, children?.({})),
   InfoWindowF: ({ children }: { children?: React.ReactNode }) =>
     React.createElement("div", { "data-testid": "info-window" }, children),
 }));
