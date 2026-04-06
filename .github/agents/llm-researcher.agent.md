@@ -6,6 +6,8 @@ tools:
   - search
   - editFiles
   - fetch
+  - useBrowser
+  - terminalCommand
 ---
 
 # LLM Researcher
