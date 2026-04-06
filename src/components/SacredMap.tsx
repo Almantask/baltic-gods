@@ -4,6 +4,8 @@ import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF, MarkerClustererF } from "@react-google-maps/api";
+import type { Clusterer } from "@react-google-maps/marker-clusterer";
+import type { MarkerClusterer } from "@googlemaps/markerclusterer";
 import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
 import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint, SiteCategory } from "@/types/content";
@@ -45,7 +47,7 @@ interface SacredMarkerProps {
   isActive: boolean;
   handleClick: (loc: LocationPoint) => void;
   setHoveredId: (id: string | null) => void;
-  clusterer: any;
+  clusterer: Clusterer | MarkerClusterer;
 }
 
 const SacredMarker = memo(function SacredMarker({
