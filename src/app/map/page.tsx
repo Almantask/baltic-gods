@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useCallback, useMemo, useState, useRef } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { SacredMap } from "@/components/SacredMap";

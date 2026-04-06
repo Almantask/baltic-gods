@@ -68,7 +68,7 @@ Object.defineProperty(globalThis, "google", {
         constructor(lat: number, lng: number) { this.lat = lat; this.lng = lng; }
       },
       LatLngBounds: class LatLngBounds {
-        contains(_latLng: unknown) { return true; }
+        contains() { return true; }
       },
     },
   },

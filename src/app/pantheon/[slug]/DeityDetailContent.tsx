@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 import { SacredMap } from "@/components/SacredMap";
 import { LeyIndexCard } from "@/components/LeyIndexCard";
