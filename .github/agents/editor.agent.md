@@ -7,6 +7,7 @@ tools:
   - editFiles
   - fetch
   - useBrowser
+  - terminalCommand
 ---
 
 # Mythology Editor (Fact-Checker)
