@@ -16,10 +16,14 @@
 /playwright-report/
 /blob-report/
 /screenshots/
+*.txt
+*.log
 
 # next.js
 /.next/
 /out/
+/.swc/
+/.turbo/
 
 # production
 /build
@@ -27,6 +31,9 @@
 # misc
 .DS_Store
 *.pem
+.idea/
+.vscode/
+Thumbs.db
 
 # debug
 npm-debug.log*
@@ -35,7 +42,9 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+.env*.local
+.env
+!.env.example
 
 # vercel
 .vercel

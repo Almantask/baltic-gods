@@ -1,91 +1,149 @@
-import * as React from "react";
-import type { StoryEntry } from "@/types/content";
+// AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY.
+// Run 'npm run generate' to update.
 
-// Ensure React has a default export for MDX runtime expectations.
+import * as React from "react";
+import dynamic from "next/dynamic";
+import type { StoryEntry } from "@/types/content";
+import * as meta from "./meta";
+
 (React as unknown as { default?: typeof React }).default ??= React;
 
-// English
-import ThunderOakEn from "./en/thunder-oak-of-perkunas.mdx";
-import WeavingOfLaimaEn from "./en/the-weaving-of-laima.mdx";
-import VelniasAndTheFiddlerEn from "./en/velnias-and-the-fiddler.mdx";
-import SauleAndMenulisEn from "./en/the-wedding-of-saule-and-menulis.mdx";
-import ZemynasBlessingEn from "./en/zemynas-blessing.mdx";
-import AustejaAndTheGoldenHiveEn from "./en/austeja-and-the-golden-hive.mdx";
-import GabijasHearthEn from "./en/gabijas-eternal-hearth.mdx";
-import BangputysAndTheAmberFleetEn from "./en/bangputys-and-the-amber-fleet.mdx";
-import MedeinaEn from "./en/medeina-and-the-sacred-hare.mdx";
-import GiltineEn from "./en/giltine-and-the-death-watch.mdx";
-import PukisEn from "./en/pukis-and-the-dragon-wealth.mdx";
-import EgleEn from "./en/egle-queen-of-serpents.mdx";
-import JurateEn from "./en/jurate-and-kastytis.mdx";
-import PerkunasDevilEn from "./en/perkunas-and-the-devil.mdx";
+export const storyBySlug: Record<string, StoryEntry> = {
+  "austeja-and-the-golden-hive": {
+    meta: meta.austejaAndTheGoldenHiveMeta,
+    Content: dynamic(() => import("./en/austeja-and-the-golden-hive.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/austeja-and-the-golden-hive.mdx")),
+      lt: dynamic(() => import("./lt/austeja-and-the-golden-hive.mdx")),
+      lv: dynamic(() => import("./lv/austeja-and-the-golden-hive.mdx")),
+    }
+  },
+  "bangputys-and-the-amber-fleet": {
+    meta: meta.bangputysAndTheAmberFleetMeta,
+    Content: dynamic(() => import("./en/bangputys-and-the-amber-fleet.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/bangputys-and-the-amber-fleet.mdx")),
+      lt: dynamic(() => import("./lt/bangputys-and-the-amber-fleet.mdx")),
+      lv: dynamic(() => import("./lv/bangputys-and-the-amber-fleet.mdx")),
+    }
+  },
+  "egle-queen-of-serpents": {
+    meta: meta.egleQueenOfSerpentsMeta,
+    Content: dynamic(() => import("./en/egle-queen-of-serpents.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/egle-queen-of-serpents.mdx")),
+      lt: dynamic(() => import("./lt/egle-queen-of-serpents.mdx")),
+      lv: dynamic(() => import("./lv/egle-queen-of-serpents.mdx")),
+    }
+  },
+  "gabijas-eternal-hearth": {
+    meta: meta.gabijasHearthMeta,
+    Content: dynamic(() => import("./en/gabijas-eternal-hearth.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/gabijas-eternal-hearth.mdx")),
+      lt: dynamic(() => import("./lt/gabijas-eternal-hearth.mdx")),
+      lv: dynamic(() => import("./lv/gabijas-eternal-hearth.mdx")),
+    }
+  },
+  "giltine-and-the-death-watch": {
+    meta: meta.giltineDeathWatchMeta,
+    Content: dynamic(() => import("./en/giltine-and-the-death-watch.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/giltine-and-the-death-watch.mdx")),
+      lt: dynamic(() => import("./lt/giltine-and-the-death-watch.mdx")),
+      lv: dynamic(() => import("./lv/giltine-and-the-death-watch.mdx")),
+    }
+  },
+  "jurate-and-kastytis": {
+    meta: meta.jurateAndKastytisMeta,
+    Content: dynamic(() => import("./en/jurate-and-kastytis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/jurate-and-kastytis.mdx")),
+      lt: dynamic(() => import("./lt/jurate-and-kastytis.mdx")),
+      lv: dynamic(() => import("./lv/jurate-and-kastytis.mdx")),
+    }
+  },
+  "medeina-and-the-sacred-hare": {
+    meta: meta.medeinaSacredHareMeta,
+    Content: dynamic(() => import("./en/medeina-and-the-sacred-hare.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/medeina-and-the-sacred-hare.mdx")),
+      lt: dynamic(() => import("./lt/medeina-and-the-sacred-hare.mdx")),
+      lv: dynamic(() => import("./lv/medeina-and-the-sacred-hare.mdx")),
+    }
+  },
+  "perkunas-and-the-devil": {
+    meta: meta.perkunasAndTheDevilMeta,
+    Content: dynamic(() => import("./en/perkunas-and-the-devil.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/perkunas-and-the-devil.mdx")),
+      lt: dynamic(() => import("./lt/perkunas-and-the-devil.mdx")),
+      lv: dynamic(() => import("./lv/perkunas-and-the-devil.mdx")),
+    }
+  },
+  "pukis-and-the-dragon-wealth": {
+    meta: meta.pukisWealthMeta,
+    Content: dynamic(() => import("./en/pukis-and-the-dragon-wealth.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/pukis-and-the-dragon-wealth.mdx")),
+      lt: dynamic(() => import("./lt/pukis-and-the-dragon-wealth.mdx")),
+      lv: dynamic(() => import("./lv/pukis-and-the-dragon-wealth.mdx")),
+    }
+  },
+  "the-wedding-of-saule-and-menulis": {
+    meta: meta.sauleAndMenulisMeta,
+    Content: dynamic(() => import("./en/the-wedding-of-saule-and-menulis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/the-wedding-of-saule-and-menulis.mdx")),
+      lt: dynamic(() => import("./lt/the-wedding-of-saule-and-menulis.mdx")),
+      lv: dynamic(() => import("./lv/the-wedding-of-saule-and-menulis.mdx")),
+    }
+  },
+  "the-quest-for-ausrine": {
+    meta: meta.theQuestForAusrineMeta,
+    Content: dynamic(() => import("./en/the-quest-for-ausrine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/the-quest-for-ausrine.mdx")),
+      lt: dynamic(() => import("./lt/the-quest-for-ausrine.mdx")),
+      lv: dynamic(() => import("./lv/the-quest-for-ausrine.mdx")),
+    }
+  },
+  "thunder-oak-of-perkunas": {
+    meta: meta.thunderOakMeta,
+    Content: dynamic(() => import("./en/thunder-oak-of-perkunas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/thunder-oak-of-perkunas.mdx")),
+      lt: dynamic(() => import("./lt/thunder-oak-of-perkunas.mdx")),
+      lv: dynamic(() => import("./lv/thunder-oak-of-perkunas.mdx")),
+    }
+  },
+  "velnias-and-the-fiddler": {
+    meta: meta.velniasAndTheFiddlerMeta,
+    Content: dynamic(() => import("./en/velnias-and-the-fiddler.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/velnias-and-the-fiddler.mdx")),
+      lt: dynamic(() => import("./lt/velnias-and-the-fiddler.mdx")),
+      lv: dynamic(() => import("./lv/velnias-and-the-fiddler.mdx")),
+    }
+  },
+  "the-weaving-of-laima": {
+    meta: meta.weavingOfLaimaMeta,
+    Content: dynamic(() => import("./en/the-weaving-of-laima.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/the-weaving-of-laima.mdx")),
+      lt: dynamic(() => import("./lt/the-weaving-of-laima.mdx")),
+      lv: dynamic(() => import("./lv/the-weaving-of-laima.mdx")),
+    }
+  },
+  "zemynas-blessing": {
+    meta: meta.zemynasBlessingMeta,
+    Content: dynamic(() => import("./en/zemynas-blessing.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zemynas-blessing.mdx")),
+      lt: dynamic(() => import("./lt/zemynas-blessing.mdx")),
+      lv: dynamic(() => import("./lv/zemynas-blessing.mdx")),
+    }
+  },
+};
 
-// Lithuanian
-import ThunderOakLt from "./lt/thunder-oak-of-perkunas.mdx";
-import WeavingOfLaimaLt from "./lt/the-weaving-of-laima.mdx";
-import VelniasAndTheFiddlerLt from "./lt/velnias-and-the-fiddler.mdx";
-import SauleAndMenulisLt from "./lt/the-wedding-of-saule-and-menulis.mdx";
-import ZemynasBlessingLt from "./lt/zemynas-blessing.mdx";
-import AustejaAndTheGoldenHiveLt from "./lt/austeja-and-the-golden-hive.mdx";
-import GabijasHearthLt from "./lt/gabijas-eternal-hearth.mdx";
-import BangputysAndTheAmberFleetLt from "./lt/bangputys-and-the-amber-fleet.mdx";
-import MedeinaLt from "./lt/medeina-and-the-sacred-hare.mdx";
-import GiltineLt from "./lt/giltine-and-the-death-watch.mdx";
-import PukisLt from "./lt/pukis-and-the-dragon-wealth.mdx";
-import EgleLt from "./lt/egle-queen-of-serpents.mdx";
-import JurateLt from "./lt/jurate-and-kastytis.mdx";
-import PerkunasDevilLt from "./lt/perkunas-and-the-devil.mdx";
-
-// Latvian
-import ThunderOakLv from "./lv/thunder-oak-of-perkunas.mdx";
-import WeavingOfLaimaLv from "./lv/the-weaving-of-laima.mdx";
-import VelniasAndTheFiddlerLv from "./lv/velnias-and-the-fiddler.mdx";
-import SauleAndMenulisLv from "./lv/the-wedding-of-saule-and-menulis.mdx";
-import ZemynasBlessingLv from "./lv/zemynas-blessing.mdx";
-import AustejaAndTheGoldenHiveLv from "./lv/austeja-and-the-golden-hive.mdx";
-import GabijasHearthLv from "./lv/gabijas-eternal-hearth.mdx";
-import BangputysAndTheAmberFleetLv from "./lv/bangputys-and-the-amber-fleet.mdx";
-import MedeinaLv from "./lv/medeina-and-the-sacred-hare.mdx";
-import GiltineLv from "./lv/giltine-and-the-death-watch.mdx";
-import PukisLv from "./lv/pukis-and-the-dragon-wealth.mdx";
-import EgleLv from "./lv/egle-queen-of-serpents.mdx";
-import JurateLv from "./lv/jurate-and-kastytis.mdx";
-import PerkunasDevilLv from "./lv/perkunas-and-the-devil.mdx";
-
-import {
-  thunderOakMeta,
-  weavingOfLaimaMeta,
-  velniasAndTheFiddlerMeta,
-  sauleAndMenulisMeta,
-  zemynasBlessingMeta,
-  austejaAndTheGoldenHiveMeta,
-  gabijasHearthMeta,
-  bangputysAndTheAmberFleetMeta,
-  medeinaSacredHareMeta,
-  giltineDeathWatchMeta,
-  pukisWealthMeta,
-  egleQueenOfSerpentsMeta,
-  jurateAndKastytisMeta,
-  perkunasAndTheDevilMeta,
-} from "./meta";
-
-export const stories: StoryEntry[] = [
-  { meta: thunderOakMeta, Content: ThunderOakEn, contentByLang: { en: ThunderOakEn, lt: ThunderOakLt, lv: ThunderOakLv } },
-  { meta: weavingOfLaimaMeta, Content: WeavingOfLaimaEn, contentByLang: { en: WeavingOfLaimaEn, lt: WeavingOfLaimaLt, lv: WeavingOfLaimaLv } },
-  { meta: velniasAndTheFiddlerMeta, Content: VelniasAndTheFiddlerEn, contentByLang: { en: VelniasAndTheFiddlerEn, lt: VelniasAndTheFiddlerLt, lv: VelniasAndTheFiddlerLv } },
-  { meta: sauleAndMenulisMeta, Content: SauleAndMenulisEn, contentByLang: { en: SauleAndMenulisEn, lt: SauleAndMenulisLt, lv: SauleAndMenulisLv } },
-  { meta: zemynasBlessingMeta, Content: ZemynasBlessingEn, contentByLang: { en: ZemynasBlessingEn, lt: ZemynasBlessingLt, lv: ZemynasBlessingLv } },
-  { meta: austejaAndTheGoldenHiveMeta, Content: AustejaAndTheGoldenHiveEn, contentByLang: { en: AustejaAndTheGoldenHiveEn, lt: AustejaAndTheGoldenHiveLt, lv: AustejaAndTheGoldenHiveLv } },
-  { meta: gabijasHearthMeta, Content: GabijasHearthEn, contentByLang: { en: GabijasHearthEn, lt: GabijasHearthLt, lv: GabijasHearthLv } },
-  { meta: bangputysAndTheAmberFleetMeta, Content: BangputysAndTheAmberFleetEn, contentByLang: { en: BangputysAndTheAmberFleetEn, lt: BangputysAndTheAmberFleetLt, lv: BangputysAndTheAmberFleetLv } },
-  { meta: medeinaSacredHareMeta, Content: MedeinaEn, contentByLang: { en: MedeinaEn, lt: MedeinaLt, lv: MedeinaLv } },
-  { meta: giltineDeathWatchMeta, Content: GiltineEn, contentByLang: { en: GiltineEn, lt: GiltineLt, lv: GiltineLv } },
-  { meta: pukisWealthMeta, Content: PukisEn, contentByLang: { en: PukisEn, lt: PukisLt, lv: PukisLv } },
-  { meta: egleQueenOfSerpentsMeta, Content: EgleEn, contentByLang: { en: EgleEn, lt: EgleLt, lv: EgleLv } },
-  { meta: jurateAndKastytisMeta, Content: JurateEn, contentByLang: { en: JurateEn, lt: JurateLt, lv: JurateLv } },
-  { meta: perkunasAndTheDevilMeta, Content: PerkunasDevilEn, contentByLang: { en: PerkunasDevilEn, lt: PerkunasDevilLt, lv: PerkunasDevilLv } },
-];
-
-export const storyBySlug = Object.fromEntries(
-  stories.map((entry) => [entry.meta.slug, entry]),
-) as Record<string, StoryEntry>;
+export const stories: StoryEntry[] = Object.values(storyBySlug);

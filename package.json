@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate": "tsx scripts/generate-content.ts",
+    "predev": "npm run generate",
+    "prebuild": "npm run generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -41,6 +44,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "serve": "^14.2.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

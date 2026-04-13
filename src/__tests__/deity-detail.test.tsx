@@ -15,6 +15,17 @@ jest.mock("next/navigation", () => ({
   notFound: jest.fn(),
 }));
 
+const originalConsoleError = console.error;
+beforeAll(() => {
+  console.error = (...args: any[]) => {
+    if (typeof args[0] === 'string' && args[0].includes('not wrapped in act')) return;
+    originalConsoleError(...args);
+  };
+});
+afterAll(() => {
+  console.error = originalConsoleError;
+});
+
 describe("Deity detail page", () => {
   it("renders lore and highlights passed location", () => {
     const { getByRole, getByText } = renderWithProviders(

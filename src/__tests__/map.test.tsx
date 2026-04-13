@@ -26,7 +26,7 @@ describe("Map page", () => {
 
     expect(getByText(/Sacred Map/i)).toBeInTheDocument();
     const input = getByPlaceholderText(/Ridge, dune, spring/i);
-    await user.type(input, "Aukštaitija");
+    await user.type(input, "Aukštaitija Thunder");
 
     const aside = getByRole("complementary");
     const listItem = within(aside).getByRole("button", {
@@ -42,11 +42,14 @@ describe("Map page", () => {
 
   it("pans the map to a location when its card is selected", async () => {
     const user = userEvent.setup();
-    const { getByRole, getByTestId } = renderWithProviders(<MapPage />);
+    const { getByRole, getByTestId, getByPlaceholderText } = renderWithProviders(<MapPage />);
 
     const mapEl = getByTestId("google-map") as HTMLElement & { __map?: { panTo: jest.Mock } };
     const panSpy = mapEl.__map?.panTo;
     expect(panSpy).toBeDefined();
+
+    const input = getByPlaceholderText(/Ridge, dune, spring/i);
+    await user.type(input, "Aukštaitija Thunder");
 
     const aside = getByRole("complementary");
     const listItem = within(aside).getByRole("button", {

@@ -10,6 +10,27 @@ This is a **Next.js** web application that serves as a digital compendium of Bal
 - **Testing**: Jest (unit), Playwright (E2E)
 - **Linting**: ESLint
 
+## Orchestrated Development & Research Pipeline
+
+The project uses a two-stage orchestrated pipeline for features and mythological content:
+
+### Stage 1: Development & Data Gathering (Parallel)
+- **Senior Frontend Engineer (Dev)**: Implements features and modifications.
+- **Senior QA Engineer (QA)**: Writes automated tests (Jest, Playwright).
+- **LLM Researcher (Mythology)**: Provides initial mythology research from internal knowledge.
+- **Browser Researcher (Mythology)**: Verifies mythology from web-based academic sources.
+
+### Stage 2: Quality Control & Validation (Parallel)
+- **Mythology Editor**: Cross-references and flags inconsistencies in mythology data.
+- **Code Reviewer**: Audits technical implementation for efficiency and performance.
+- **Product Designer**: Reviews UX/UI for aesthetics and usability.
+
+### Stage 3: Post-Review Fixes (Iterative)
+- **Senior Frontend Engineer & QA**: Addresses technical/UX feedback and updates tests.
+- **Mythology Editor & Researchers**: Resolves content inconsistencies and ensures full verification.
+
+All coordination is managed by the **Orchestrator** agent as defined in `_agents/workflows/orchestrated_dev_pipeline.md`.
+
 ## Project Structure
 
 ```

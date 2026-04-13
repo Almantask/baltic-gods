@@ -111,7 +111,7 @@ export const sauleAndMenulisMeta: StoryMeta = {
     lt: "Dangaus Saulės ir Mėnulio santuoka ir kodėl jie buvo išskirti amžiams.",
     lv: "Debesu Saules un Mēness laulības un kāpēc viņi tika šķirti uz mūžiem.",
   },
-  beings: ["saule", "menulis", "perkunas", "dievas"],
+  beings: ["saule", "menulis", "perkunas", "dievas", "ausrine"],
   locationIds: ["klaipeda-drift"],
   locations: ["Palanga Amber Coast"],
   regionDetails: {
@@ -468,5 +468,41 @@ export const perkunasAndTheDevilMeta: StoryMeta = {
   references: [
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)",
     "Jonas Basanavičius: Lietuviškos pasakos (1898–1902)",
+  ],
+};
+
+export const theQuestForAusrineMeta: StoryMeta = {
+  slug: "the-quest-for-ausrine",
+  title: {
+    en: "The Quest for the Second Sun",
+    lt: "Antrosios saulės paieškos",
+    lv: "Otrās saules meklējumi",
+  },
+  summary: {
+    en: "A young man journeys across the sea in search of a second sun, only to discover Aušrinė, the radiant Morning Star maiden.",
+    lt: "Jaunuolis keliauja per jūrą ieškodamas antrosios saulės, bet atranda Aušrinę – spindinčią Aušros žvaigždės mergelę.",
+    lv: "Jauneklis ceļo pāri jūrai, meklējot otro sauli, bet atklāj Aušrini – starojošo Rīta zvaigznes jaunavu.",
+  },
+  beings: ["ausrine"],
+  locationIds: [],
+  locations: ["Baltic Sea", "Celestial Island"],
+  regionDetails: {
+    en: "General Baltic / Mythic Space",
+    lt: "Bendrai baltų / Mitinė erdvė",
+    lv: "Vispārīgi baltu / Mītiskā telpa",
+  },
+  tribe: {
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
+  },
+  period: {
+    en: "19th Century Oral Tradition",
+    lt: "XIX a. žodinė tradicija",
+    lv: "19. gadsimta mutvārdu tradīcija",
+  },
+  references: [
+    "Algirdas Julien Greimas: Of Gods and Men (Apie dievus ir žmones)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"
   ],
 };

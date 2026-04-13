@@ -1,947 +1,1715 @@
-import * as React from "react";
-import type { DeityEntry, LocationPoint } from "@/types/content";
+// AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY.
+// Run 'npm run generate' to update.
 
-// Ensure React has a default export for MDX runtime expectations.
+import * as React from "react";
+import dynamic from "next/dynamic";
+import type { DeityEntry } from "@/types/content";
+import * as meta from "./meta";
+
 (React as unknown as { default?: typeof React }).default ??= React;
 
-// Gods
-import AutrimpasContentEn from "./creatures/en/autrimpas.mdx";
-import AutrimpasContentLt from "./creatures/lt/autrimpas.mdx";
-import AutrimpasContentLv from "./creatures/lv/autrimpas.mdx";
-import DaliaContentEn from "./gods/en/dalia.mdx";
-import DaliaContentLt from "./gods/lt/dalia.mdx";
-import DaliaContentLv from "./gods/lv/dalia.mdx";
-import DievasContentEn from "./gods/en/dievas.mdx";
-import DievasContentLt from "./gods/lt/dievas.mdx";
-import DievasContentLv from "./gods/lv/dievas.mdx";
-import JumisContentEn from "./gods/en/jumis.mdx";
-import JumisContentLt from "./gods/lt/jumis.mdx";
-import JumisContentLv from "./gods/lv/jumis.mdx";
-import MaraContentEn from "./gods/en/mara.mdx";
-import MaraContentLt from "./gods/lt/mara.mdx";
-import MaraContentLv from "./gods/lv/mara.mdx";
-import MenulisContentEn from "./gods/en/menulis.mdx";
-import MenulisContentLt from "./gods/lt/menulis.mdx";
-import MenulisContentLv from "./gods/lv/menulis.mdx";
-import PerkunasContentEn from "./gods/en/perkunas.mdx";
-import PerkunasContentLt from "./gods/lt/perkunas.mdx";
-import PerkunasContentLv from "./gods/lv/perkunas.mdx";
-import SauleContentEn from "./gods/en/saule.mdx";
-import SauleContentLt from "./gods/lt/saule.mdx";
-import SauleContentLv from "./gods/lv/saule.mdx";
-import TeliavelisContentEn from "./gods/en/teliavelis.mdx";
-import TeliavelisContentLt from "./gods/lt/teliavelis.mdx";
-import TeliavelisContentLv from "./gods/lv/teliavelis.mdx";
-import UsinsContentEn from "./gods/en/usins.mdx";
-import UsinsContentLt from "./gods/lt/usins.mdx";
-import UsinsContentLv from "./gods/lv/usins.mdx";
-import ZemynaContentEn from "./gods/en/zemyna.mdx";
-import ZemynaContentLt from "./gods/lt/zemyna.mdx";
-import ZemynaContentLv from "./gods/lv/zemyna.mdx";
+export const deityBySlug: Record<string, DeityEntry> = {
+  "ausrine": {
+    meta: meta.ausrineMeta,
+    Content: dynamic(() => import("./creatures/en/ausrine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/ausrine.mdx")),
+      lt: dynamic(() => import("./creatures/lt/ausrine.mdx")),
+      lv: dynamic(() => import("./creatures/lv/ausrine.mdx")),
+    }
+  },
+  "austeja": {
+    meta: meta.austejaMeta,
+    Content: dynamic(() => import("./creatures/en/austeja.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/austeja.mdx")),
+      lt: dynamic(() => import("./creatures/lt/austeja.mdx")),
+      lv: dynamic(() => import("./creatures/lv/austeja.mdx")),
+    }
+  },
+  "autrimpas": {
+    meta: meta.autrimpasMeta,
+    Content: dynamic(() => import("./creatures/en/autrimpas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/autrimpas.mdx")),
+      lt: dynamic(() => import("./creatures/lt/autrimpas.mdx")),
+      lv: dynamic(() => import("./creatures/lv/autrimpas.mdx")),
+    }
+  },
+  "bangputys": {
+    meta: meta.bangputysMeta,
+    Content: dynamic(() => import("./creatures/en/bangputys.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/bangputys.mdx")),
+      lt: dynamic(() => import("./creatures/lt/bangputys.mdx")),
+      lv: dynamic(() => import("./creatures/lv/bangputys.mdx")),
+    }
+  },
+  "dalia": {
+    meta: meta.daliaMeta,
+    Content: dynamic(() => import("./gods/en/dalia.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dalia.mdx")),
+      lt: dynamic(() => import("./gods/lt/dalia.mdx")),
+      lv: dynamic(() => import("./gods/lv/dalia.mdx")),
+    }
+  },
+  "dievas": {
+    meta: meta.dievasMeta,
+    Content: dynamic(() => import("./gods/en/dievas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dievas.mdx")),
+      lt: dynamic(() => import("./gods/lt/dievas.mdx")),
+      lv: dynamic(() => import("./gods/lv/dievas.mdx")),
+    }
+  },
+  "gabija": {
+    meta: meta.gabijaMeta,
+    Content: dynamic(() => import("./people/en/gabija.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/gabija.mdx")),
+      lt: dynamic(() => import("./people/lt/gabija.mdx")),
+      lv: dynamic(() => import("./people/lv/gabija.mdx")),
+    }
+  },
+  "giltine": {
+    meta: meta.giltineMeta,
+    Content: dynamic(() => import("./creatures/en/giltine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/giltine.mdx")),
+      lt: dynamic(() => import("./creatures/lt/giltine.mdx")),
+      lv: dynamic(() => import("./creatures/lv/giltine.mdx")),
+    }
+  },
+  "jumis": {
+    meta: meta.jumisMeta,
+    Content: dynamic(() => import("./gods/en/jumis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/jumis.mdx")),
+      lt: dynamic(() => import("./gods/lt/jumis.mdx")),
+      lv: dynamic(() => import("./gods/lv/jumis.mdx")),
+    }
+  },
+  "laima": {
+    meta: meta.laimaMeta,
+    Content: dynamic(() => import("./people/en/laima.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/laima.mdx")),
+      lt: dynamic(() => import("./people/lt/laima.mdx")),
+      lv: dynamic(() => import("./people/lv/laima.mdx")),
+    }
+  },
+  "mara": {
+    meta: meta.maraMeta,
+    Content: dynamic(() => import("./gods/en/mara.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/mara.mdx")),
+      lt: dynamic(() => import("./gods/lt/mara.mdx")),
+      lv: dynamic(() => import("./gods/lv/mara.mdx")),
+    }
+  },
+  "medine": {
+    meta: meta.medineMeta,
+    Content: dynamic(() => import("./creatures/en/medine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/medine.mdx")),
+      lt: dynamic(() => import("./creatures/lt/medine.mdx")),
+      lv: dynamic(() => import("./creatures/lv/medine.mdx")),
+    }
+  },
+  "menulis": {
+    meta: meta.menulisMeta,
+    Content: dynamic(() => import("./gods/en/menulis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/menulis.mdx")),
+      lt: dynamic(() => import("./gods/lt/menulis.mdx")),
+      lv: dynamic(() => import("./gods/lv/menulis.mdx")),
+    }
+  },
+  "patollo": {
+    meta: meta.patollaMeta,
+    Content: dynamic(() => import("./creatures/en/patollo.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/patollo.mdx")),
+      lt: dynamic(() => import("./creatures/lt/patollo.mdx")),
+      lv: dynamic(() => import("./creatures/lv/patollo.mdx")),
+    }
+  },
+  "patrimpas": {
+    meta: meta.patrimpAsMeta,
+    Content: dynamic(() => import("./gods/en/patrimpas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/patrimpas.mdx")),
+      lt: dynamic(() => import("./gods/lt/patrimpas.mdx")),
+      lv: dynamic(() => import("./gods/lv/patrimpas.mdx")),
+    }
+  },
+  "perkunas": {
+    meta: meta.perkunasMeta,
+    Content: dynamic(() => import("./gods/en/perkunas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/perkunas.mdx")),
+      lt: dynamic(() => import("./gods/lt/perkunas.mdx")),
+      lv: dynamic(() => import("./gods/lv/perkunas.mdx")),
+    }
+  },
+  "pukis": {
+    meta: meta.pukisMeta,
+    Content: dynamic(() => import("./creatures/en/pukis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/pukis.mdx")),
+      lt: dynamic(() => import("./creatures/lt/pukis.mdx")),
+      lv: dynamic(() => import("./creatures/lv/pukis.mdx")),
+    }
+  },
+  "saule": {
+    meta: meta.sauleMeta,
+    Content: dynamic(() => import("./gods/en/saule.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/saule.mdx")),
+      lt: dynamic(() => import("./gods/lt/saule.mdx")),
+      lv: dynamic(() => import("./gods/lv/saule.mdx")),
+    }
+  },
+  "teliavelis": {
+    meta: meta.teliavelIsMeta,
+    Content: dynamic(() => import("./gods/en/teliavelis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/teliavelis.mdx")),
+      lt: dynamic(() => import("./gods/lt/teliavelis.mdx")),
+      lv: dynamic(() => import("./gods/lv/teliavelis.mdx")),
+    }
+  },
+  "usins": {
+    meta: meta.usinsMeta,
+    Content: dynamic(() => import("./gods/en/usins.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/usins.mdx")),
+      lt: dynamic(() => import("./gods/lt/usins.mdx")),
+      lv: dynamic(() => import("./gods/lv/usins.mdx")),
+    }
+  },
+  "vakarine": {
+    meta: meta.vakarineMeta,
+    Content: dynamic(() => import("./creatures/en/vakarine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/vakarine.mdx")),
+      lt: dynamic(() => import("./creatures/lt/vakarine.mdx")),
+      lv: dynamic(() => import("./creatures/lv/vakarine.mdx")),
+    }
+  },
+  "velnias": {
+    meta: meta.velniasMeta,
+    Content: dynamic(() => import("./creatures/en/velnias.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/velnias.mdx")),
+      lt: dynamic(() => import("./creatures/lt/velnias.mdx")),
+      lv: dynamic(() => import("./creatures/lv/velnias.mdx")),
+    }
+  },
+  "zemyna": {
+    meta: meta.zemynaMeta,
+    Content: dynamic(() => import("./gods/en/zemyna.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/zemyna.mdx")),
+      lt: dynamic(() => import("./gods/lt/zemyna.mdx")),
+      lv: dynamic(() => import("./gods/lv/zemyna.mdx")),
+    }
+  },
+  "aitvaras": {
+    meta: meta.aitvarasMeta,
+    Content: dynamic(() => import("./creatures/en/aitvaras.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/aitvaras.mdx")),
+      lt: dynamic(() => import("./creatures/lt/aitvaras.mdx")),
+      lv: dynamic(() => import("./creatures/lv/aitvaras.mdx")),
+    }
+  },
+  "auschauts": {
+    meta: meta.auschautsMeta,
+    Content: dynamic(() => import("./gods/en/auschauts.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/auschauts.mdx")),
+      lt: dynamic(() => import("./gods/lt/auschauts.mdx")),
+      lv: dynamic(() => import("./gods/lv/auschauts.mdx")),
+    }
+  },
+  "bardoaits": {
+    meta: meta.bardoaitsMeta,
+    Content: dynamic(() => import("./gods/en/bardoaits.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bardoaits.mdx")),
+      lt: dynamic(() => import("./gods/lt/bardoaits.mdx")),
+      lv: dynamic(() => import("./gods/lv/bardoaits.mdx")),
+    }
+  },
+  "birzulis": {
+    meta: meta.birzulisMeta,
+    Content: dynamic(() => import("./gods/en/birzulis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/birzulis.mdx")),
+      lt: dynamic(() => import("./gods/lt/birzulis.mdx")),
+      lv: dynamic(() => import("./gods/lv/birzulis.mdx")),
+    }
+  },
+  "dieva-deli": {
+    meta: meta.dievaDeliMeta,
+    Content: dynamic(() => import("./gods/en/dieva-deli.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dieva-deli.mdx")),
+      lt: dynamic(() => import("./gods/lt/dieva-deli.mdx")),
+      lv: dynamic(() => import("./gods/lv/dieva-deli.mdx")),
+    }
+  },
+  "dimstipatis": {
+    meta: meta.dimstipatisMeta,
+    Content: dynamic(() => import("./gods/en/dimstipatis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dimstipatis.mdx")),
+      lt: dynamic(() => import("./gods/lt/dimstipatis.mdx")),
+      lv: dynamic(() => import("./gods/lv/dimstipatis.mdx")),
+    }
+  },
+  "egle": {
+    meta: meta.egleMeta,
+    Content: dynamic(() => import("./people/en/egle.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/egle.mdx")),
+      lt: dynamic(() => import("./people/lt/egle.mdx")),
+      lv: dynamic(() => import("./people/lv/egle.mdx")),
+    }
+  },
+  "gabjauja": {
+    meta: meta.gabjaujaMetaData,
+    Content: dynamic(() => import("./gods/en/gabjauja.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gabjauja.mdx")),
+      lt: dynamic(() => import("./gods/lt/gabjauja.mdx")),
+      lv: dynamic(() => import("./gods/lv/gabjauja.mdx")),
+    }
+  },
+  "janis": {
+    meta: meta.janisMeta,
+    Content: dynamic(() => import("./gods/en/janis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/janis.mdx")),
+      lt: dynamic(() => import("./gods/lt/janis.mdx")),
+      lv: dynamic(() => import("./gods/lv/janis.mdx")),
+    }
+  },
+  "juras-mate": {
+    meta: meta.jurasMateMeta,
+    Content: dynamic(() => import("./gods/en/juras-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/juras-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/juras-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/juras-mate.mdx")),
+    }
+  },
+  "kaukai": {
+    meta: meta.kaukaiMeta,
+    Content: dynamic(() => import("./creatures/en/kaukai.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/kaukai.mdx")),
+      lt: dynamic(() => import("./creatures/lt/kaukai.mdx")),
+      lv: dynamic(() => import("./creatures/lv/kaukai.mdx")),
+    }
+  },
+  "kirnis": {
+    meta: meta.kirnisMeta,
+    Content: dynamic(() => import("./gods/en/kirnis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kirnis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kirnis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kirnis.mdx")),
+    }
+  },
+  "kurke": {
+    meta: meta.kurkeMeta,
+    Content: dynamic(() => import("./gods/en/kurke.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kurke.mdx")),
+      lt: dynamic(() => import("./gods/lt/kurke.mdx")),
+      lv: dynamic(() => import("./gods/lv/kurke.mdx")),
+    }
+  },
+  "lacplesis": {
+    meta: meta.lacplesisMeta,
+    Content: dynamic(() => import("./people/en/lacplesis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/lacplesis.mdx")),
+      lt: dynamic(() => import("./people/lt/lacplesis.mdx")),
+      lv: dynamic(() => import("./people/lv/lacplesis.mdx")),
+    }
+  },
+  "laumes": {
+    meta: meta.laumesMeta,
+    Content: dynamic(() => import("./creatures/en/laumes.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/laumes.mdx")),
+      lt: dynamic(() => import("./creatures/lt/laumes.mdx")),
+      lv: dynamic(() => import("./creatures/lv/laumes.mdx")),
+    }
+  },
+  "lietuvens": {
+    meta: meta.lietuvensMeta,
+    Content: dynamic(() => import("./creatures/en/lietuvens.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/lietuvens.mdx")),
+      lt: dynamic(() => import("./creatures/lt/lietuvens.mdx")),
+      lv: dynamic(() => import("./creatures/lv/lietuvens.mdx")),
+    }
+  },
+  "meza-mate": {
+    meta: meta.mezaMateMeta,
+    Content: dynamic(() => import("./gods/en/meza-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/meza-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/meza-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/meza-mate.mdx")),
+    }
+  },
+  "neringa": {
+    meta: meta.neringaMeta,
+    Content: dynamic(() => import("./people/en/neringa.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/neringa.mdx")),
+      lt: dynamic(() => import("./people/lt/neringa.mdx")),
+      lv: dynamic(() => import("./people/lv/neringa.mdx")),
+    }
+  },
+  "okopirmus": {
+    meta: meta.okopirmusMeta,
+    Content: dynamic(() => import("./gods/en/okopirmus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/okopirmus.mdx")),
+      lt: dynamic(() => import("./gods/lt/okopirmus.mdx")),
+      lv: dynamic(() => import("./gods/lv/okopirmus.mdx")),
+    }
+  },
+  "pilvytis": {
+    meta: meta.pilvytisMetaData,
+    Content: dynamic(() => import("./gods/en/pilvytis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pilvytis.mdx")),
+      lt: dynamic(() => import("./gods/lt/pilvytis.mdx")),
+      lv: dynamic(() => import("./gods/lv/pilvytis.mdx")),
+    }
+  },
+  "praamzius": {
+    meta: meta.praamziusMeta,
+    Content: dynamic(() => import("./gods/en/praamzius.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/praamzius.mdx")),
+      lt: dynamic(() => import("./gods/lt/praamzius.mdx")),
+      lv: dynamic(() => import("./gods/lv/praamzius.mdx")),
+    }
+  },
+  "ragana": {
+    meta: meta.raganaMeta,
+    Content: dynamic(() => import("./creatures/en/ragana.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/ragana.mdx")),
+      lt: dynamic(() => import("./creatures/lt/ragana.mdx")),
+      lv: dynamic(() => import("./creatures/lv/ragana.mdx")),
+    }
+  },
+  "ragutis": {
+    meta: meta.ragutisMeta,
+    Content: dynamic(() => import("./gods/en/ragutis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ragutis.mdx")),
+      lt: dynamic(() => import("./gods/lt/ragutis.mdx")),
+      lv: dynamic(() => import("./gods/lv/ragutis.mdx")),
+    }
+  },
+  "saules-meitas": {
+    meta: meta.saulesMeitasMeta,
+    Content: dynamic(() => import("./gods/en/saules-meitas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/saules-meitas.mdx")),
+      lt: dynamic(() => import("./gods/lt/saules-meitas.mdx")),
+      lv: dynamic(() => import("./gods/lv/saules-meitas.mdx")),
+    }
+  },
+  "slogute": {
+    meta: meta.sloguteMeta,
+    Content: dynamic(() => import("./creatures/en/slogute.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/slogute.mdx")),
+      lt: dynamic(() => import("./creatures/lt/slogute.mdx")),
+      lv: dynamic(() => import("./creatures/lv/slogute.mdx")),
+    }
+  },
+  "sovijus": {
+    meta: meta.sovijusMeta,
+    Content: dynamic(() => import("./people/en/sovijus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/sovijus.mdx")),
+      lt: dynamic(() => import("./people/lt/sovijus.mdx")),
+      lv: dynamic(() => import("./people/lv/sovijus.mdx")),
+    }
+  },
+  "swayxtix": {
+    meta: meta.swayxtixMeta,
+    Content: dynamic(() => import("./gods/en/swayxtix.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/swayxtix.mdx")),
+      lt: dynamic(() => import("./gods/lt/swayxtix.mdx")),
+      lv: dynamic(() => import("./gods/lv/swayxtix.mdx")),
+    }
+  },
+  "udens-mate": {
+    meta: meta.udensMateMeta,
+    Content: dynamic(() => import("./gods/en/udens-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/udens-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/udens-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/udens-mate.mdx")),
+    }
+  },
+  "vaizgantas": {
+    meta: meta.vaizgantasMeta,
+    Content: dynamic(() => import("./gods/en/vaizgantas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vaizgantas.mdx")),
+      lt: dynamic(() => import("./gods/lt/vaizgantas.mdx")),
+      lv: dynamic(() => import("./gods/lv/vaizgantas.mdx")),
+    }
+  },
+  "veja-mate": {
+    meta: meta.vejaMateMeta,
+    Content: dynamic(() => import("./gods/en/veja-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/veja-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/veja-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/veja-mate.mdx")),
+    }
+  },
+  "vejopatis": {
+    meta: meta.vejopatisMeta,
+    Content: dynamic(() => import("./gods/en/vejopatis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vejopatis.mdx")),
+      lt: dynamic(() => import("./gods/lt/vejopatis.mdx")),
+      lv: dynamic(() => import("./gods/lv/vejopatis.mdx")),
+    }
+  },
+  "velu-mate": {
+    meta: meta.veluMateMeta,
+    Content: dynamic(() => import("./gods/en/velu-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/velu-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/velu-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/velu-mate.mdx")),
+    }
+  },
+  "vilkacis": {
+    meta: meta.vilkacisMeta,
+    Content: dynamic(() => import("./creatures/en/vilkacis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/vilkacis.mdx")),
+      lt: dynamic(() => import("./creatures/lt/vilkacis.mdx")),
+      lv: dynamic(() => import("./creatures/lv/vilkacis.mdx")),
+    }
+  },
+  "zaltys": {
+    meta: meta.zaltysMeta,
+    Content: dynamic(() => import("./creatures/en/zaltys.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/zaltys.mdx")),
+      lt: dynamic(() => import("./creatures/lt/zaltys.mdx")),
+      lv: dynamic(() => import("./creatures/lv/zaltys.mdx")),
+    }
+  },
+  "zemepatis": {
+    meta: meta.zemepatisMetaData,
+    Content: dynamic(() => import("./gods/en/zemepatis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/zemepatis.mdx")),
+      lt: dynamic(() => import("./gods/lt/zemepatis.mdx")),
+      lv: dynamic(() => import("./gods/lv/zemepatis.mdx")),
+    }
+  },
+  "zvoruna": {
+    meta: meta.zvorunaMeta,
+    Content: dynamic(() => import("./gods/en/zvoruna.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/zvoruna.mdx")),
+      lt: dynamic(() => import("./gods/lt/zvoruna.mdx")),
+      lv: dynamic(() => import("./gods/lv/zvoruna.mdx")),
+    }
+  },
+  "apideme": {
+    meta: meta.apidemeMeta,
+    Content: dynamic(() => import("./gods/en/apideme.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/apideme.mdx")),
+      lt: dynamic(() => import("./gods/lt/apideme.mdx")),
+      lv: dynamic(() => import("./gods/lv/apideme.mdx")),
+    }
+  },
+  "asvieniai": {
+    meta: meta.asviniaiMeta,
+    Content: dynamic(() => import("./gods/en/asvieniai.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/asvieniai.mdx")),
+      lt: dynamic(() => import("./gods/lt/asvieniai.mdx")),
+      lv: dynamic(() => import("./gods/lv/asvieniai.mdx")),
+    }
+  },
+  "birute": {
+    meta: meta.biruteMeta,
+    Content: dynamic(() => import("./people/en/birute.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/birute.mdx")),
+      lt: dynamic(() => import("./people/lt/birute.mdx")),
+      lv: dynamic(() => import("./people/lv/birute.mdx")),
+    }
+  },
+  "bubilas": {
+    meta: meta.bubilasMeta,
+    Content: dynamic(() => import("./gods/en/bubilas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bubilas.mdx")),
+      lt: dynamic(() => import("./gods/lt/bubilas.mdx")),
+      lv: dynamic(() => import("./gods/lv/bubilas.mdx")),
+    }
+  },
+  "cela-mate": {
+    meta: meta.celaMateMetaData,
+    Content: dynamic(() => import("./gods/en/cela-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/cela-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/cela-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/cela-mate.mdx")),
+    }
+  },
+  "curcho": {
+    meta: meta.curchoMeta,
+    Content: dynamic(() => import("./gods/en/curcho.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/curcho.mdx")),
+      lt: dynamic(() => import("./gods/lt/curcho.mdx")),
+      lv: dynamic(() => import("./gods/lv/curcho.mdx")),
+    }
+  },
+  "drebkulys": {
+    meta: meta.drebkulysMeta,
+    Content: dynamic(() => import("./gods/en/drebkulys.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/drebkulys.mdx")),
+      lt: dynamic(() => import("./gods/lt/drebkulys.mdx")),
+      lv: dynamic(() => import("./gods/lv/drebkulys.mdx")),
+    }
+  },
+  "ejaguste": {
+    meta: meta.ejagusteMeta,
+    Content: dynamic(() => import("./gods/en/ejaguste.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ejaguste.mdx")),
+      lt: dynamic(() => import("./gods/lt/ejaguste.mdx")),
+      lv: dynamic(() => import("./gods/lv/ejaguste.mdx")),
+    }
+  },
+  "erketus": {
+    meta: meta.erketusMeta,
+    Content: dynamic(() => import("./gods/en/erketus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/erketus.mdx")),
+      lt: dynamic(() => import("./gods/lt/erketus.mdx")),
+      lv: dynamic(() => import("./gods/lv/erketus.mdx")),
+    }
+  },
+  "ganiklis": {
+    meta: meta.ganiklisMeta,
+    Content: dynamic(() => import("./gods/en/ganiklis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ganiklis.mdx")),
+      lt: dynamic(() => import("./gods/lt/ganiklis.mdx")),
+      lv: dynamic(() => import("./gods/lv/ganiklis.mdx")),
+    }
+  },
+  "gardaitis": {
+    meta: meta.gardaitisMeta,
+    Content: dynamic(() => import("./gods/en/gardaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gardaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/gardaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/gardaitis.mdx")),
+    }
+  },
+  "gegute": {
+    meta: meta.geguteMeta,
+    Content: dynamic(() => import("./gods/en/gegute.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gegute.mdx")),
+      lt: dynamic(() => import("./gods/lt/gegute.mdx")),
+      lv: dynamic(() => import("./gods/lv/gegute.mdx")),
+    }
+  },
+  "giraitis": {
+    meta: meta.giraitisMeta,
+    Content: dynamic(() => import("./gods/en/giraitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/giraitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/giraitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/giraitis.mdx")),
+    }
+  },
+  "girstis": {
+    meta: meta.girstisMeta,
+    Content: dynamic(() => import("./gods/en/girstis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/girstis.mdx")),
+      lt: dynamic(() => import("./gods/lt/girstis.mdx")),
+      lv: dynamic(() => import("./gods/lv/girstis.mdx")),
+    }
+  },
+  "indraja": {
+    meta: meta.indrajaMeta,
+    Content: dynamic(() => import("./gods/en/indraja.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/indraja.mdx")),
+      lt: dynamic(() => import("./gods/lt/indraja.mdx")),
+      lv: dynamic(() => import("./gods/lv/indraja.mdx")),
+    }
+  },
+  "javine": {
+    meta: meta.javineMeta,
+    Content: dynamic(() => import("./gods/en/javine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/javine.mdx")),
+      lt: dynamic(() => import("./gods/lt/javine.mdx")),
+      lv: dynamic(() => import("./gods/lv/javine.mdx")),
+    }
+  },
+  "junda": {
+    meta: meta.jundaMeta,
+    Content: dynamic(() => import("./gods/en/junda.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/junda.mdx")),
+      lt: dynamic(() => import("./gods/lt/junda.mdx")),
+      lv: dynamic(() => import("./gods/lv/junda.mdx")),
+    }
+  },
+  "kapu-mate": {
+    meta: meta.kapuMateMetaData,
+    Content: dynamic(() => import("./gods/en/kapu-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kapu-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/kapu-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/kapu-mate.mdx")),
+    }
+  },
+  "kaupolis": {
+    meta: meta.kaupolisMeta,
+    Content: dynamic(() => import("./gods/en/kaupolis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kaupolis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kaupolis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kaupolis.mdx")),
+    }
+  },
+  "kovas": {
+    meta: meta.kovasMeta,
+    Content: dynamic(() => import("./gods/en/kovas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kovas.mdx")),
+      lt: dynamic(() => import("./gods/lt/kovas.mdx")),
+      lv: dynamic(() => import("./gods/lv/kovas.mdx")),
+    }
+  },
+  "lauksargis": {
+    meta: meta.lauksargisMeta,
+    Content: dynamic(() => import("./gods/en/lauksargis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lauksargis.mdx")),
+      lt: dynamic(() => import("./gods/lt/lauksargis.mdx")),
+      lv: dynamic(() => import("./gods/lv/lauksargis.mdx")),
+    }
+  },
+  "linksmine": {
+    meta: meta.linksmineMeta,
+    Content: dynamic(() => import("./gods/en/linksmine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/linksmine.mdx")),
+      lt: dynamic(() => import("./gods/lt/linksmine.mdx")),
+      lv: dynamic(() => import("./gods/lv/linksmine.mdx")),
+    }
+  },
+  "lopu-mate": {
+    meta: meta.lopuMateMetaData,
+    Content: dynamic(() => import("./gods/en/lopu-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lopu-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/lopu-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/lopu-mate.mdx")),
+    }
+  },
+  "lygyna": {
+    meta: meta.lygynaMeta,
+    Content: dynamic(() => import("./gods/en/lygyna.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lygyna.mdx")),
+      lt: dynamic(() => import("./gods/lt/lygyna.mdx")),
+      lv: dynamic(() => import("./gods/lv/lygyna.mdx")),
+    }
+  },
+  "majas-mate": {
+    meta: meta.majasMateMetaData,
+    Content: dynamic(() => import("./gods/en/majas-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/majas-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/majas-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/majas-mate.mdx")),
+    }
+  },
+  "medziojna": {
+    meta: meta.medziojnaMeta,
+    Content: dynamic(() => import("./gods/en/medziojna.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/medziojna.mdx")),
+      lt: dynamic(() => import("./gods/lt/medziojna.mdx")),
+      lv: dynamic(() => import("./gods/lv/medziojna.mdx")),
+    }
+  },
+  "milda": {
+    meta: meta.mildaMeta,
+    Content: dynamic(() => import("./gods/en/milda.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/milda.mdx")),
+      lt: dynamic(() => import("./gods/lt/milda.mdx")),
+      lv: dynamic(() => import("./gods/lv/milda.mdx")),
+    }
+  },
+  "pergrubrijus": {
+    meta: meta.pergrubrijusMeta,
+    Content: dynamic(() => import("./gods/en/pergrubrijus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pergrubrijus.mdx")),
+      lt: dynamic(() => import("./gods/lt/pergrubrijus.mdx")),
+      lv: dynamic(() => import("./gods/lv/pergrubrijus.mdx")),
+    }
+  },
+  "piena-mate": {
+    meta: meta.pienaMateMetaData,
+    Content: dynamic(() => import("./gods/en/piena-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/piena-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/piena-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/piena-mate.mdx")),
+    }
+  },
+  "pirts-mate": {
+    meta: meta.pirtsMateMetaData,
+    Content: dynamic(() => import("./gods/en/pirts-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pirts-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/pirts-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/pirts-mate.mdx")),
+    }
+  },
+  "pliuktis": {
+    meta: meta.pliuktisMeta,
+    Content: dynamic(() => import("./gods/en/pliuktis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pliuktis.mdx")),
+      lt: dynamic(() => import("./gods/lt/pliuktis.mdx")),
+      lv: dynamic(() => import("./gods/lv/pliuktis.mdx")),
+    }
+  },
+  "puschkaitis": {
+    meta: meta.puschkaitisMeta,
+    Content: dynamic(() => import("./gods/en/puschkaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/puschkaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/puschkaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/puschkaitis.mdx")),
+    }
+  },
+  "rasa": {
+    meta: meta.rasaMeta,
+    Content: dynamic(() => import("./gods/en/rasa.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/rasa.mdx")),
+      lt: dynamic(() => import("./gods/lt/rasa.mdx")),
+      lv: dynamic(() => import("./gods/lv/rasa.mdx")),
+    }
+  },
+  "ruguczys": {
+    meta: meta.rugucysMeta,
+    Content: dynamic(() => import("./gods/en/ruguczys.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ruguczys.mdx")),
+      lt: dynamic(() => import("./gods/lt/ruguczys.mdx")),
+      lv: dynamic(() => import("./gods/lv/ruguczys.mdx")),
+    }
+  },
+  "silinytis": {
+    meta: meta.silinytisMeta,
+    Content: dynamic(() => import("./gods/en/silinytis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/silinytis.mdx")),
+      lt: dynamic(() => import("./gods/lt/silinytis.mdx")),
+      lv: dynamic(() => import("./gods/lv/silinytis.mdx")),
+    }
+  },
+  "tiruma-mate": {
+    meta: meta.tirumaMateMetaData,
+    Content: dynamic(() => import("./gods/en/tiruma-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/tiruma-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/tiruma-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/tiruma-mate.mdx")),
+    }
+  },
+  "uguns-mate": {
+    meta: meta.ugunsMateMetaData,
+    Content: dynamic(() => import("./gods/en/uguns-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/uguns-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/uguns-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/uguns-mate.mdx")),
+    }
+  },
+  "vaiva": {
+    meta: meta.vaivaMeta,
+    Content: dynamic(() => import("./gods/en/vaiva.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vaiva.mdx")),
+      lt: dynamic(() => import("./gods/lt/vaiva.mdx")),
+      lv: dynamic(() => import("./gods/lv/vaiva.mdx")),
+    }
+  },
+  "veliuona": {
+    meta: meta.veliuonaMeta,
+    Content: dynamic(() => import("./gods/en/veliuona.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/veliuona.mdx")),
+      lt: dynamic(() => import("./gods/lt/veliuona.mdx")),
+      lv: dynamic(() => import("./gods/lv/veliuona.mdx")),
+    }
+  },
+  "vilku-mate": {
+    meta: meta.vilkuMateMetaData,
+    Content: dynamic(() => import("./gods/en/vilku-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vilku-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/vilku-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/vilku-mate.mdx")),
+    }
+  },
+  "algis": {
+    meta: meta.algisMeta,
+    Content: dynamic(() => import("./gods/en/algis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/algis.mdx")),
+      lt: dynamic(() => import("./gods/lt/algis.mdx")),
+      lv: dynamic(() => import("./gods/lv/algis.mdx")),
+    }
+  },
+  "aspelenie": {
+    meta: meta.aspelenieMeta,
+    Content: dynamic(() => import("./gods/en/aspelenie.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/aspelenie.mdx")),
+      lt: dynamic(() => import("./gods/lt/aspelenie.mdx")),
+      lv: dynamic(() => import("./gods/lv/aspelenie.mdx")),
+    }
+  },
+  "atlaibos": {
+    meta: meta.atlaibosMeta,
+    Content: dynamic(() => import("./gods/en/atlaibos.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/atlaibos.mdx")),
+      lt: dynamic(() => import("./gods/lt/atlaibos.mdx")),
+      lv: dynamic(() => import("./gods/lv/atlaibos.mdx")),
+    }
+  },
+  "ausklauts": {
+    meta: meta.ausklautsMeta,
+    Content: dynamic(() => import("./gods/en/ausklauts.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ausklauts.mdx")),
+      lt: dynamic(() => import("./gods/lt/ausklauts.mdx")),
+      lv: dynamic(() => import("./gods/lv/ausklauts.mdx")),
+    }
+  },
+  "ausra": {
+    meta: meta.ausraMeta,
+    Content: dynamic(() => import("./gods/en/ausra.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ausra.mdx")),
+      lt: dynamic(() => import("./gods/lt/ausra.mdx")),
+      lv: dynamic(() => import("./gods/lv/ausra.mdx")),
+    }
+  },
+  "babilos": {
+    meta: meta.babilosMeta,
+    Content: dynamic(() => import("./gods/en/babilos.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/babilos.mdx")),
+      lt: dynamic(() => import("./gods/lt/babilos.mdx")),
+      lv: dynamic(() => import("./gods/lv/babilos.mdx")),
+    }
+  },
+  "bangu-mate": {
+    meta: meta.banguMateMeta,
+    Content: dynamic(() => import("./gods/en/bangu-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bangu-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/bangu-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/bangu-mate.mdx")),
+    }
+  },
+  "bendikas": {
+    meta: meta.bendikasMeta,
+    Content: dynamic(() => import("./gods/en/bendikas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bendikas.mdx")),
+      lt: dynamic(() => import("./gods/lt/bendikas.mdx")),
+      lv: dynamic(() => import("./gods/lv/bendikas.mdx")),
+    }
+  },
+  "bentis": {
+    meta: meta.bentisMeta,
+    Content: dynamic(() => import("./gods/en/bentis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bentis.mdx")),
+      lt: dynamic(() => import("./gods/lt/bentis.mdx")),
+      lv: dynamic(() => import("./gods/lv/bentis.mdx")),
+    }
+  },
+  "bird-goddess": {
+    meta: meta.birdGoddessMeta,
+    Content: dynamic(() => import("./gods/en/bird-goddess.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/bird-goddess.mdx")),
+      lt: dynamic(() => import("./gods/lt/bird-goddess.mdx")),
+      lv: dynamic(() => import("./gods/lv/bird-goddess.mdx")),
+    }
+  },
+  "dausos": {
+    meta: meta.dausosMeta,
+    Content: dynamic(() => import("./gods/en/dausos.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dausos.mdx")),
+      lt: dynamic(() => import("./gods/lt/dausos.mdx")),
+      lv: dynamic(() => import("./gods/lv/dausos.mdx")),
+    }
+  },
+  "debess-mate": {
+    meta: meta.debessMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "debesu-kareivis": {
+    meta: meta.debesuKareivisMeta,
+    Content: dynamic(() => import("./gods/en/debesu-kareivis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/debesu-kareivis.mdx")),
+      lt: dynamic(() => import("./gods/lt/debesu-kareivis.mdx")),
+      lv: dynamic(() => import("./gods/lv/debesu-kareivis.mdx")),
+    }
+  },
+  "deer-mother": {
+    meta: meta.deerMotherMeta,
+    Content: dynamic(() => import("./gods/en/deer-mother.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/deer-mother.mdx")),
+      lt: dynamic(() => import("./gods/lt/deer-mother.mdx")),
+      lv: dynamic(() => import("./gods/lv/deer-mother.mdx")),
+    }
+  },
+  "deive": {
+    meta: meta.deiveMeta,
+    Content: dynamic(() => import("./gods/en/deive.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/deive.mdx")),
+      lt: dynamic(() => import("./gods/lt/deive.mdx")),
+      lv: dynamic(() => import("./gods/lv/deive.mdx")),
+    }
+  },
+  "deives-cult": {
+    meta: meta.deivesCultMeta,
+    Content: dynamic(() => import("./gods/en/deives-cult.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/deives-cult.mdx")),
+      lt: dynamic(() => import("./gods/lt/deives-cult.mdx")),
+      lv: dynamic(() => import("./gods/lv/deives-cult.mdx")),
+    }
+  },
+  "deives-valdytojos": {
+    meta: meta.deivesValdytojsMeta,
+    Content: dynamic(() => import("./gods/en/deives-valdytojos.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/deives-valdytojos.mdx")),
+      lt: dynamic(() => import("./gods/lt/deives-valdytojos.mdx")),
+      lv: dynamic(() => import("./gods/lv/deives-valdytojos.mdx")),
+    }
+  },
+  "devintos": {
+    meta: meta.devintosMeta,
+    Content: dynamic(() => import("./gods/en/devintos.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/devintos.mdx")),
+      lt: dynamic(() => import("./gods/lt/devintos.mdx")),
+      lv: dynamic(() => import("./gods/lv/devintos.mdx")),
+    }
+  },
+  "dienas-mate": {
+    meta: meta.dienasMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "dievaitis": {
+    meta: meta.dievaitisMeta,
+    Content: dynamic(() => import("./gods/en/dievaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dievaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/dievaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/dievaitis.mdx")),
+    }
+  },
+  "diviriks": {
+    meta: meta.diviriksMeta,
+    Content: dynamic(() => import("./gods/en/diviriks.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/diviriks.mdx")),
+      lt: dynamic(() => import("./gods/lt/diviriks.mdx")),
+      lv: dynamic(() => import("./gods/lv/diviriks.mdx")),
+    }
+  },
+  "duobkasis": {
+    meta: meta.duobkasisMeta,
+    Content: dynamic(() => import("./gods/en/duobkasis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/duobkasis.mdx")),
+      lt: dynamic(() => import("./gods/lt/duobkasis.mdx")),
+      lv: dynamic(() => import("./gods/lv/duobkasis.mdx")),
+    }
+  },
+  "ezeru-seimininke": {
+    meta: meta.ezeruSeimininkeMeta,
+    Content: dynamic(() => import("./gods/en/ezeru-seimininke.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ezeru-seimininke.mdx")),
+      lt: dynamic(() => import("./gods/lt/ezeru-seimininke.mdx")),
+      lv: dynamic(() => import("./gods/lv/ezeru-seimininke.mdx")),
+    }
+  },
+  "gabijos-ugnis": {
+    meta: meta.gabijosUgnisMeta,
+    Content: dynamic(() => import("./gods/en/gabijos-ugnis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gabijos-ugnis.mdx")),
+      lt: dynamic(() => import("./gods/lt/gabijos-ugnis.mdx")),
+      lv: dynamic(() => import("./gods/lv/gabijos-ugnis.mdx")),
+    }
+  },
+  "girinis": {
+    meta: meta.girinisMeta,
+    Content: dynamic(() => import("./gods/en/girinis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/girinis.mdx")),
+      lt: dynamic(() => import("./gods/lt/girinis.mdx")),
+      lv: dynamic(() => import("./gods/lv/girinis.mdx")),
+    }
+  },
+  "gulbi": {
+    meta: meta.gulbiMeta,
+    Content: dynamic(() => import("./gods/en/gulbi.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gulbi.mdx")),
+      lt: dynamic(() => import("./gods/lt/gulbi.mdx")),
+      lv: dynamic(() => import("./gods/lv/gulbi.mdx")),
+    }
+  },
+  "gulbis": {
+    meta: meta.gulbisMeta,
+    Content: dynamic(() => import("./gods/en/gulbis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/gulbis.mdx")),
+      lt: dynamic(() => import("./gods/lt/gulbis.mdx")),
+      lv: dynamic(() => import("./gods/lv/gulbis.mdx")),
+    }
+  },
+  "jievaras": {
+    meta: meta.jievarasMeta,
+    Content: dynamic(() => import("./gods/en/jievaras.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/jievaras.mdx")),
+      lt: dynamic(() => import("./gods/lt/jievaras.mdx")),
+      lv: dynamic(() => import("./gods/lv/jievaras.mdx")),
+    }
+  },
+  "jods": {
+    meta: meta.jodsMeta,
+    Content: dynamic(() => import("./gods/en/jods.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/jods.mdx")),
+      lt: dynamic(() => import("./gods/lt/jods.mdx")),
+      lv: dynamic(() => import("./gods/lv/jods.mdx")),
+    }
+  },
+  "kalvelis": {
+    meta: meta.kalvelisMeta,
+    Content: dynamic(() => import("./gods/en/kalvelis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kalvelis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kalvelis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kalvelis.mdx")),
+    }
+  },
+  "kauriraris": {
+    meta: meta.kaurirarisMeta,
+    Content: dynamic(() => import("./gods/en/kauriraris.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kauriraris.mdx")),
+      lt: dynamic(() => import("./gods/lt/kauriraris.mdx")),
+      lv: dynamic(() => import("./gods/lv/kauriraris.mdx")),
+    }
+  },
+  "kelukis": {
+    meta: meta.kelukisMeta,
+    Content: dynamic(() => import("./gods/en/kelukis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kelukis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kelukis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kelukis.mdx")),
+    }
+  },
+  "kempe": {
+    meta: meta.kempeMeta,
+    Content: dynamic(() => import("./gods/en/kempe.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kempe.mdx")),
+      lt: dynamic(() => import("./gods/lt/kempe.mdx")),
+      lv: dynamic(() => import("./gods/lv/kempe.mdx")),
+    }
+  },
+  "kirkis": {
+    meta: meta.kirkisMeta,
+    Content: dynamic(() => import("./gods/en/kirkis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kirkis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kirkis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kirkis.mdx")),
+    }
+  },
+  "kizmas": {
+    meta: meta.kizmasMeta,
+    Content: dynamic(() => import("./gods/en/kizmas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kizmas.mdx")),
+      lt: dynamic(() => import("./gods/lt/kizmas.mdx")),
+      lv: dynamic(() => import("./gods/lv/kizmas.mdx")),
+    }
+  },
+  "krumine": {
+    meta: meta.krumineMeta,
+    Content: dynamic(() => import("./gods/en/krumine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/krumine.mdx")),
+      lt: dynamic(() => import("./gods/lt/krumine.mdx")),
+      lv: dynamic(() => import("./gods/lv/krumine.mdx")),
+    }
+  },
+  "kurvaitis": {
+    meta: meta.kurvaitisMeta,
+    Content: dynamic(() => import("./gods/en/kurvaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/kurvaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/kurvaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/kurvaitis.mdx")),
+    }
+  },
+  "ladutis": {
+    meta: meta.ladutisMeta,
+    Content: dynamic(() => import("./gods/en/ladutis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ladutis.mdx")),
+      lt: dynamic(() => import("./gods/lt/ladutis.mdx")),
+      lv: dynamic(() => import("./gods/lv/ladutis.mdx")),
+    }
+  },
+  "laime-abstract": {
+    meta: meta.laimeAbstractMeta,
+    Content: dynamic(() => import("./gods/en/laime-abstract.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/laime-abstract.mdx")),
+      lt: dynamic(() => import("./gods/lt/laime-abstract.mdx")),
+      lv: dynamic(() => import("./gods/lv/laime-abstract.mdx")),
+    }
+  },
+  "lazdona": {
+    meta: meta.lazdonaMeta,
+    Content: dynamic(() => import("./gods/en/lazdona.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lazdona.mdx")),
+      lt: dynamic(() => import("./gods/lt/lazdona.mdx")),
+      lv: dynamic(() => import("./gods/lv/lazdona.mdx")),
+    }
+  },
+  "lietus-mate": {
+    meta: meta.lietusMateMeta,
+    Content: dynamic(() => import("./gods/en/lietus-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lietus-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/lietus-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/lietus-mate.mdx")),
+    }
+  },
+  "lietuvonis": {
+    meta: meta.lietuvonisMeta,
+    Content: dynamic(() => import("./gods/en/lietuvonis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/lietuvonis.mdx")),
+      lt: dynamic(() => import("./gods/lt/lietuvonis.mdx")),
+      lv: dynamic(() => import("./gods/lv/lietuvonis.mdx")),
+    }
+  },
+  "maro-deive": {
+    meta: meta.maroDeiveMeta,
+    Content: dynamic(() => import("./gods/en/maro-deive.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/maro-deive.mdx")),
+      lt: dynamic(() => import("./gods/lt/maro-deive.mdx")),
+      lv: dynamic(() => import("./gods/lv/maro-deive.mdx")),
+    }
+  },
+  "martins": {
+    meta: meta.martinsMeta,
+    Content: dynamic(() => import("./gods/en/martins.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/martins.mdx")),
+      lt: dynamic(() => import("./gods/lt/martins.mdx")),
+      lv: dynamic(() => import("./gods/lv/martins.mdx")),
+    }
+  },
+  "meness-mate": {
+    meta: meta.menessMate2Meta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "miglas-mate": {
+    meta: meta.miglasMateMeta,
+    Content: dynamic(() => import("./gods/en/miglas-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/miglas-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/miglas-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/miglas-mate.mdx")),
+    }
+  },
+  "miline": {
+    meta: meta.milineMeta,
+    Content: dynamic(() => import("./gods/en/miline.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/miline.mdx")),
+      lt: dynamic(() => import("./gods/lt/miline.mdx")),
+      lv: dynamic(() => import("./gods/lv/miline.mdx")),
+    }
+  },
+  "nakts-mate": {
+    meta: meta.naktsMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "negali": {
+    meta: meta.negaliMeta,
+    Content: dynamic(() => import("./gods/en/negali.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/negali.mdx")),
+      lt: dynamic(() => import("./gods/lt/negali.mdx")),
+      lv: dynamic(() => import("./gods/lv/negali.mdx")),
+    }
+  },
+  "pagirinis": {
+    meta: meta.pagirinisMeta,
+    Content: dynamic(() => import("./gods/en/pagirinis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pagirinis.mdx")),
+      lt: dynamic(() => import("./gods/lt/pagirinis.mdx")),
+      lv: dynamic(() => import("./gods/lv/pagirinis.mdx")),
+    }
+  },
+  "pagirnis": {
+    meta: meta.pagirnisMeta,
+    Content: dynamic(() => import("./gods/en/pagirnis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pagirnis.mdx")),
+      lt: dynamic(() => import("./gods/lt/pagirnis.mdx")),
+      lv: dynamic(() => import("./gods/lv/pagirnis.mdx")),
+    }
+  },
+  "perkunas-tikras": {
+    meta: meta.perkunasTikrasMeta,
+    Content: dynamic(() => import("./gods/en/perkunas-tikras.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/perkunas-tikras.mdx")),
+      lt: dynamic(() => import("./gods/lt/perkunas-tikras.mdx")),
+      lv: dynamic(() => import("./gods/lv/perkunas-tikras.mdx")),
+    }
+  },
+  "perkuno-kulka": {
+    meta: meta.perkunoKulkaMeta,
+    Content: dynamic(() => import("./gods/en/perkuno-kulka.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/perkuno-kulka.mdx")),
+      lt: dynamic(() => import("./gods/lt/perkuno-kulka.mdx")),
+      lv: dynamic(() => import("./gods/lv/perkuno-kulka.mdx")),
+    }
+  },
+  "perkuno-ozelis": {
+    meta: meta.perkunoOzelisMeta,
+    Content: dynamic(() => import("./gods/en/perkuno-ozelis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/perkuno-ozelis.mdx")),
+      lt: dynamic(() => import("./gods/lt/perkuno-ozelis.mdx")),
+      lv: dynamic(() => import("./gods/lv/perkuno-ozelis.mdx")),
+    }
+  },
+  "perkuno-rykste": {
+    meta: meta.perkunoRyksteMeta,
+    Content: dynamic(() => import("./gods/en/perkuno-rykste.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/perkuno-rykste.mdx")),
+      lt: dynamic(() => import("./gods/lt/perkuno-rykste.mdx")),
+      lv: dynamic(() => import("./gods/lv/perkuno-rykste.mdx")),
+    }
+  },
+  "pincukas": {
+    meta: meta.pincukasMeta,
+    Content: dynamic(() => import("./gods/en/pincukas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pincukas.mdx")),
+      lt: dynamic(() => import("./gods/lt/pincukas.mdx")),
+      lv: dynamic(() => import("./gods/lv/pincukas.mdx")),
+    }
+  },
+  "pizius": {
+    meta: meta.piziusMeta,
+    Content: dynamic(() => import("./gods/en/pizius.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pizius.mdx")),
+      lt: dynamic(() => import("./gods/lt/pizius.mdx")),
+      lv: dynamic(() => import("./gods/lv/pizius.mdx")),
+    }
+  },
+  "pjutis-dievas": {
+    meta: meta.pjutisDievasMeta,
+    Content: dynamic(() => import("./gods/en/pjutis-dievas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/pjutis-dievas.mdx")),
+      lt: dynamic(() => import("./gods/lt/pjutis-dievas.mdx")),
+      lv: dynamic(() => import("./gods/lv/pjutis-dievas.mdx")),
+    }
+  },
+  "prigirstis": {
+    meta: meta.prigirstisMeta,
+    Content: dynamic(() => import("./gods/en/prigirstis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/prigirstis.mdx")),
+      lt: dynamic(() => import("./gods/lt/prigirstis.mdx")),
+      lv: dynamic(() => import("./gods/lv/prigirstis.mdx")),
+    }
+  },
+  "ratainica": {
+    meta: meta.ratainicaMeta,
+    Content: dynamic(() => import("./gods/en/ratainica.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ratainica.mdx")),
+      lt: dynamic(() => import("./gods/lt/ratainica.mdx")),
+      lv: dynamic(() => import("./gods/lv/ratainica.mdx")),
+    }
+  },
+  "rita-mate": {
+    meta: meta.ritaMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "rungis": {
+    meta: meta.rungisMeta,
+    Content: dynamic(() => import("./gods/en/rungis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/rungis.mdx")),
+      lt: dynamic(() => import("./gods/lt/rungis.mdx")),
+      lv: dynamic(() => import("./gods/lv/rungis.mdx")),
+    }
+  },
+  "salaus": {
+    meta: meta.salausMeta,
+    Content: dynamic(() => import("./gods/en/salaus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/salaus.mdx")),
+      lt: dynamic(() => import("./gods/lt/salaus.mdx")),
+      lv: dynamic(() => import("./gods/lv/salaus.mdx")),
+    }
+  },
+  "salna-mate": {
+    meta: meta.salnaMateMeta,
+    Content: dynamic(() => import("./gods/en/salna-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/salna-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/salna-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/salna-mate.mdx")),
+    }
+  },
+  "samanis": {
+    meta: meta.samanisMeta,
+    Content: dynamic(() => import("./gods/en/samanis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/samanis.mdx")),
+      lt: dynamic(() => import("./gods/lt/samanis.mdx")),
+      lv: dynamic(() => import("./gods/lv/samanis.mdx")),
+    }
+  },
+  "saukstis": {
+    meta: meta.saukstisMeta,
+    Content: dynamic(() => import("./gods/en/saukstis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/saukstis.mdx")),
+      lt: dynamic(() => import("./gods/lt/saukstis.mdx")),
+      lv: dynamic(() => import("./gods/lv/saukstis.mdx")),
+    }
+  },
+  "saules-mate": {
+    meta: meta.saulesMateMeta2,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "sietynas": {
+    meta: meta.sietynasMeta,
+    Content: dynamic(() => import("./gods/en/sietynas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/sietynas.mdx")),
+      lt: dynamic(() => import("./gods/lt/sietynas.mdx")),
+      lv: dynamic(() => import("./gods/lv/sietynas.mdx")),
+    }
+  },
+  "skalsa": {
+    meta: meta.skalsaMeta,
+    Content: dynamic(() => import("./gods/en/skalsa.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/skalsa.mdx")),
+      lt: dynamic(() => import("./gods/lt/skalsa.mdx")),
+      lv: dynamic(() => import("./gods/lv/skalsa.mdx")),
+    }
+  },
+  "slaitis": {
+    meta: meta.slaitisMeta,
+    Content: dynamic(() => import("./gods/en/slaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/slaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/slaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/slaitis.mdx")),
+    }
+  },
+  "snake-goddess": {
+    meta: meta.snakeGoddessMeta,
+    Content: dynamic(() => import("./gods/en/snake-goddess.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/snake-goddess.mdx")),
+      lt: dynamic(() => import("./gods/lt/snake-goddess.mdx")),
+      lv: dynamic(() => import("./gods/lv/snake-goddess.mdx")),
+    }
+  },
+  "spindulys": {
+    meta: meta.spindulysMeta,
+    Content: dynamic(() => import("./gods/en/spindulys.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/spindulys.mdx")),
+      lt: dynamic(() => import("./gods/lt/spindulys.mdx")),
+      lv: dynamic(() => import("./gods/lv/spindulys.mdx")),
+    }
+  },
+  "srutis": {
+    meta: meta.srutisMeta,
+    Content: dynamic(() => import("./gods/en/srutis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/srutis.mdx")),
+      lt: dynamic(() => import("./gods/lt/srutis.mdx")),
+      lv: dynamic(() => import("./gods/lv/srutis.mdx")),
+    }
+  },
+  "sutartiniu-dievaiciai": {
+    meta: meta.sutartiniuDievaiciaiMeta,
+    Content: dynamic(() => import("./gods/en/sutartiniu-dievaiciai.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/sutartiniu-dievaiciai.mdx")),
+      lt: dynamic(() => import("./gods/lt/sutartiniu-dievaiciai.mdx")),
+      lv: dynamic(() => import("./gods/lv/sutartiniu-dievaiciai.mdx")),
+    }
+  },
+  "sutvaras": {
+    meta: meta.sutvarasMeta,
+    Content: dynamic(() => import("./gods/en/sutvaras.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/sutvaras.mdx")),
+      lt: dynamic(() => import("./gods/lt/sutvaras.mdx")),
+      lv: dynamic(() => import("./gods/lv/sutvaras.mdx")),
+    }
+  },
+  "tavalas": {
+    meta: meta.tavalasMeta,
+    Content: dynamic(() => import("./gods/en/tavalas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/tavalas.mdx")),
+      lt: dynamic(() => import("./gods/lt/tavalas.mdx")),
+      lv: dynamic(() => import("./gods/lv/tavalas.mdx")),
+    }
+  },
+  "tavalis": {
+    meta: meta.tavalisMeta,
+    Content: dynamic(() => import("./gods/en/tavalis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/tavalis.mdx")),
+      lt: dynamic(() => import("./gods/lt/tavalis.mdx")),
+      lv: dynamic(() => import("./gods/lv/tavalis.mdx")),
+    }
+  },
+  "tiklis": {
+    meta: meta.tiklisMeta,
+    Content: dynamic(() => import("./gods/en/tiklis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/tiklis.mdx")),
+      lt: dynamic(() => import("./gods/lt/tiklis.mdx")),
+      lv: dynamic(() => import("./gods/lv/tiklis.mdx")),
+    }
+  },
+  "ugniazaltis": {
+    meta: meta.ugniazaltisMeta,
+    Content: dynamic(() => import("./gods/en/ugniazaltis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ugniazaltis.mdx")),
+      lt: dynamic(() => import("./gods/lt/ugniazaltis.mdx")),
+      lv: dynamic(() => import("./gods/lv/ugniazaltis.mdx")),
+    }
+  },
+  "upes-mate": {
+    meta: meta.upesMateMeta,
+    Content: dynamic(() => import("./gods/en/upes-mate.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/upes-mate.mdx")),
+      lt: dynamic(() => import("./gods/lt/upes-mate.mdx")),
+      lv: dynamic(() => import("./gods/lv/upes-mate.mdx")),
+    }
+  },
+  "upinis": {
+    meta: meta.upinisMeta,
+    Content: dynamic(() => import("./gods/en/upinis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/upinis.mdx")),
+      lt: dynamic(() => import("./gods/lt/upinis.mdx")),
+      lv: dynamic(() => import("./gods/lv/upinis.mdx")),
+    }
+  },
+  "vaivora": {
+    meta: meta.vaivoraMeta,
+    Content: dynamic(() => import("./gods/en/vaivora.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vaivora.mdx")),
+      lt: dynamic(() => import("./gods/lt/vaivora.mdx")),
+      lv: dynamic(() => import("./gods/lv/vaivora.mdx")),
+    }
+  },
+  "vakara-mate": {
+    meta: meta.vakaraMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+  "velnio-motina": {
+    meta: meta.velnioMotinaMeta,
+    Content: dynamic(() => import("./gods/en/velnio-motina.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/velnio-motina.mdx")),
+      lt: dynamic(() => import("./gods/lt/velnio-motina.mdx")),
+      lv: dynamic(() => import("./gods/lv/velnio-motina.mdx")),
+    }
+  },
+  "vetustis": {
+    meta: meta.vetustisMeta,
+    Content: dynamic(() => import("./gods/en/vetustis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/vetustis.mdx")),
+      lt: dynamic(() => import("./gods/lt/vetustis.mdx")),
+      lv: dynamic(() => import("./gods/lv/vetustis.mdx")),
+    }
+  },
+  "white-lady": {
+    meta: meta.whiteLadyMeta,
+    Content: dynamic(() => import("./gods/en/white-lady.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/white-lady.mdx")),
+      lt: dynamic(() => import("./gods/lt/white-lady.mdx")),
+      lv: dynamic(() => import("./gods/lv/white-lady.mdx")),
+    }
+  },
+  "zaltvyksles": {
+    meta: meta.zaltvykslesMeta,
+    Content: dynamic(() => import("./gods/en/zaltvyksles.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/zaltvyksles.mdx")),
+      lt: dynamic(() => import("./gods/lt/zaltvyksles.mdx")),
+      lv: dynamic(() => import("./gods/lv/zaltvyksles.mdx")),
+    }
+  },
+  "zemininkas": {
+    meta: meta.zemininkasMeta,
+    Content: dynamic(() => import("./gods/en/zemininkas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/zemininkas.mdx")),
+      lt: dynamic(() => import("./gods/lt/zemininkas.mdx")),
+      lv: dynamic(() => import("./gods/lv/zemininkas.mdx")),
+    }
+  },
+  "ziburinis": {
+    meta: meta.ziburinisMeta,
+    Content: dynamic(() => import("./gods/en/ziburinis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/ziburinis.mdx")),
+      lt: dynamic(() => import("./gods/lt/ziburinis.mdx")),
+      lv: dynamic(() => import("./gods/lv/ziburinis.mdx")),
+    }
+  },
+  "zvaigznes-mate": {
+    meta: meta.zvaigznesMateMeta,
+    Content: () => null,
+    contentByLang: {
+      en: () => null,
+      lt: () => null,
+      lv: () => null,
+    }
+  },
+};
 
-// People
-import GabijaContentEn from "./people/en/gabija.mdx";
-import GabijaContentLt from "./people/lt/gabija.mdx";
-import GabijaContentLv from "./people/lv/gabija.mdx";
-import LaimaContentEn from "./people/en/laima.mdx";
-import LaimaContentLt from "./people/lt/laima.mdx";
-import LaimaContentLv from "./people/lv/laima.mdx";
-
-// Creatures
-import AustejaContentEn from "./creatures/en/austeja.mdx";
-import AustejaContentLt from "./creatures/lt/austeja.mdx";
-import AustejaContentLv from "./creatures/lv/austeja.mdx";
-import AusrineContentEn from "./creatures/en/ausrine.mdx";
-import AusrineContentLt from "./creatures/lt/ausrine.mdx";
-import AusrineContentLv from "./creatures/lv/ausrine.mdx";
-import BangputysContentEn from "./creatures/en/bangputys.mdx";
-import BangputysContentLt from "./creatures/lt/bangputys.mdx";
-import BangputysContentLv from "./creatures/lv/bangputys.mdx";
-import GiltineContentEn from "./creatures/en/giltine.mdx";
-import GiltineContentLt from "./creatures/lt/giltine.mdx";
-import GiltineContentLv from "./creatures/lv/giltine.mdx";
-import MedineContentEn from "./creatures/en/medine.mdx";
-import MedineContentLt from "./creatures/lt/medine.mdx";
-import MedineContentLv from "./creatures/lv/medine.mdx";
-import PatolloContentEn from "./creatures/en/patollo.mdx";
-import PatolloContentLt from "./creatures/lt/patollo.mdx";
-import PatolloContentLv from "./creatures/lv/patollo.mdx";
-import PatrimpasContentEn from "./gods/en/patrimpas.mdx";
-import PatrimpasContentLt from "./gods/lt/patrimpas.mdx";
-import PatrimpasContentLv from "./gods/lv/patrimpas.mdx";
-import PukisContentEn from "./creatures/en/pukis.mdx";
-import PukisContentLt from "./creatures/lt/pukis.mdx";
-import PukisContentLv from "./creatures/lv/pukis.mdx";
-import VelniasContentEn from "./creatures/en/velnias.mdx";
-import VelniasContentLt from "./creatures/lt/velnias.mdx";
-import VelniasContentLv from "./creatures/lv/velnias.mdx";
-import VakarineContentEn from "./creatures/en/vakarine.mdx";
-import VakarineContentLt from "./creatures/lt/vakarine.mdx";
-import VakarineContentLv from "./creatures/lv/vakarine.mdx";
-// Batch 3 — Gods
-import VejopatisContentEn from "./gods/en/vejopatis.mdx";
-import VejopatisContentLt from "./gods/lt/vejopatis.mdx";
-import VejopatisContentLv from "./gods/lv/vejopatis.mdx";
-import VaizgantasContentEn from "./gods/en/vaizgantas.mdx";
-import VaizgantasContentLt from "./gods/lt/vaizgantas.mdx";
-import VaizgantasContentLv from "./gods/lv/vaizgantas.mdx";
-import RagutisContentEn from "./gods/en/ragutis.mdx";
-import RagutisContentLt from "./gods/lt/ragutis.mdx";
-import RagutisContentLv from "./gods/lv/ragutis.mdx";
-import DimstisContentEn from "./gods/en/dimstipatis.mdx";
-import DimstisContentLt from "./gods/lt/dimstipatis.mdx";
-import DimstisContentLv from "./gods/lv/dimstipatis.mdx";
-import JanisContentEn from "./gods/en/janis.mdx";
-import JanisContentLt from "./gods/lt/janis.mdx";
-import JanisContentLv from "./gods/lv/janis.mdx";
-import MezaMateContentEn from "./gods/en/meza-mate.mdx";
-import MezaMateContentLt from "./gods/lt/meza-mate.mdx";
-import MezaMateContentLv from "./gods/lv/meza-mate.mdx";
-import VeluMateContentEn from "./gods/en/velu-mate.mdx";
-import VeluMateContentLt from "./gods/lt/velu-mate.mdx";
-import VeluMateContentLv from "./gods/lv/velu-mate.mdx";
-import AuschautsContentEn from "./gods/en/auschauts.mdx";
-import AuschautsContentLt from "./gods/lt/auschauts.mdx";
-import AuschautsContentLv from "./gods/lv/auschauts.mdx";
-import KurkeContentEn from "./gods/en/kurke.mdx";
-import KurkeContentLt from "./gods/lt/kurke.mdx";
-import KurkeContentLv from "./gods/lv/kurke.mdx";
-// Batch 3 — Creatures
-import AitvarasContentEn from "./creatures/en/aitvaras.mdx";
-import AitvarasContentLt from "./creatures/lt/aitvaras.mdx";
-import AitvarasContentLv from "./creatures/lv/aitvaras.mdx";
-import LaumesContentEn from "./creatures/en/laumes.mdx";
-import LaumesContentLt from "./creatures/lt/laumes.mdx";
-import LaumesContentLv from "./creatures/lv/laumes.mdx";
-import ZaltysContentEn from "./creatures/en/zaltys.mdx";
-import ZaltysContentLt from "./creatures/lt/zaltys.mdx";
-import ZaltysContentLv from "./creatures/lv/zaltys.mdx";
-// Batch 3 — People
-import NeringaContentEn from "./people/en/neringa.mdx";
-import NeringaContentLt from "./people/lt/neringa.mdx";
-import NeringaContentLv from "./people/lv/neringa.mdx";
-import SovijusContentEn from "./people/en/sovijus.mdx";
-import SovijusContentLt from "./people/lt/sovijus.mdx";
-import SovijusContentLv from "./people/lv/sovijus.mdx";
-// Batch 4 — Gods (LT)
-import PraamziusContentEn from "./gods/en/praamzius.mdx";
-import PraamziusContentLt from "./gods/lt/praamzius.mdx";
-import PraamziusContentLv from "./gods/lv/praamzius.mdx";
-import ZvorunaContentEn from "./gods/en/zvoruna.mdx";
-import ZvorunaContentLt from "./gods/lt/zvoruna.mdx";
-import ZvorunaContentLv from "./gods/lv/zvoruna.mdx";
-import ZemeipatisContentEn from "./gods/en/zemepatis.mdx";
-import ZemeipatisContentLt from "./gods/lt/zemepatis.mdx";
-import ZemeipatisContentLv from "./gods/lv/zemepatis.mdx";
-import GabjaujaContentEn from "./gods/en/gabjauja.mdx";
-import GabjaujaContentLt from "./gods/lt/gabjauja.mdx";
-import GabjaujaContentLv from "./gods/lv/gabjauja.mdx";
-import PilvytisContentEn from "./gods/en/pilvytis.mdx";
-import PilvytisContentLt from "./gods/lt/pilvytis.mdx";
-import PilvytisContentLv from "./gods/lv/pilvytis.mdx";
-import BirzulisContentEn from "./gods/en/birzulis.mdx";
-import BirzulisContentLt from "./gods/lt/birzulis.mdx";
-import BirzulisContentLv from "./gods/lv/birzulis.mdx";
-import KirnisContentEn from "./gods/en/kirnis.mdx";
-import KirnisContentLt from "./gods/lt/kirnis.mdx";
-import KirnisContentLv from "./gods/lv/kirnis.mdx";
-// Batch 4 — Gods (LV)
-import DievaDeliContentEn from "./gods/en/dieva-deli.mdx";
-import DievaDeliContentLt from "./gods/lt/dieva-deli.mdx";
-import DievaDeliContentLv from "./gods/lv/dieva-deli.mdx";
-import SaulesMeitasContentEn from "./gods/en/saules-meitas.mdx";
-import SaulesMeitasContentLt from "./gods/lt/saules-meitas.mdx";
-import SaulesMeitasContentLv from "./gods/lv/saules-meitas.mdx";
-import JurasMateContentEn from "./gods/en/juras-mate.mdx";
-import JurasMateContentLt from "./gods/lt/juras-mate.mdx";
-import JurasMateContentLv from "./gods/lv/juras-mate.mdx";
-import UdensMateContentEn from "./gods/en/udens-mate.mdx";
-import UdensMateContentLt from "./gods/lt/udens-mate.mdx";
-import UdensMateContentLv from "./gods/lv/udens-mate.mdx";
-import VejaMateContentEn from "./gods/en/veja-mate.mdx";
-import VejaMateContentLt from "./gods/lt/veja-mate.mdx";
-import VejaMateContentLv from "./gods/lv/veja-mate.mdx";
-// Batch 4 — Gods (PR)
-import OkopirmusContentEn from "./gods/en/okopirmus.mdx";
-import OkopirmusContentLt from "./gods/lt/okopirmus.mdx";
-import OkopirmusContentLv from "./gods/lv/okopirmus.mdx";
-import SwayxtixContentEn from "./gods/en/swayxtix.mdx";
-import SwayxtixContentLt from "./gods/lt/swayxtix.mdx";
-import SwayxtixContentLv from "./gods/lv/swayxtix.mdx";
-import BardoaitsContentEn from "./gods/en/bardoaits.mdx";
-import BardoaitsContentLt from "./gods/lt/bardoaits.mdx";
-import BardoaitsContentLv from "./gods/lv/bardoaits.mdx";
-// Batch 4 — Creatures
-import KaukaiContentEn from "./creatures/en/kaukai.mdx";
-import KaukaiContentLt from "./creatures/lt/kaukai.mdx";
-import KaukaiContentLv from "./creatures/lv/kaukai.mdx";
-import RaganaContentEn from "./creatures/en/ragana.mdx";
-import RaganaContentLt from "./creatures/lt/ragana.mdx";
-import RaganaContentLv from "./creatures/lv/ragana.mdx";
-import SloguteContentEn from "./creatures/en/slogute.mdx";
-import SloguteContentLt from "./creatures/lt/slogute.mdx";
-import SloguteContentLv from "./creatures/lv/slogute.mdx";
-import VilkacisContentEn from "./creatures/en/vilkacis.mdx";
-import VilkacisContentLt from "./creatures/lt/vilkacis.mdx";
-import VilkacisContentLv from "./creatures/lv/vilkacis.mdx";
-import LietuvensContentEn from "./creatures/en/lietuvens.mdx";
-import LietuvensContentLt from "./creatures/lt/lietuvens.mdx";
-import LietuvensContentLv from "./creatures/lv/lietuvens.mdx";
-// Batch 4 — People
-import EgleContentEn from "./people/en/egle.mdx";
-import EgleContentLt from "./people/lt/egle.mdx";
-import EgleContentLv from "./people/lv/egle.mdx";
-import LacplesisContentEn from "./people/en/lacplesis.mdx";
-import LacplesisContentLt from "./people/lt/lacplesis.mdx";
-import LacplesisContentLv from "./people/lv/lacplesis.mdx";
-// Batch 5 — Gods (LT Nature)
-import MedziojnaContentEn from "./gods/en/medziojna.mdx";
-import MedziojnaContentLt from "./gods/lt/medziojna.mdx";
-import MedziojnaContentLv from "./gods/lv/medziojna.mdx";
-import EjagusteContentEn from "./gods/en/ejaguste.mdx";
-import EjagusteContentLt from "./gods/lt/ejaguste.mdx";
-import EjagusteContentLv from "./gods/lv/ejaguste.mdx";
-import SilinytisContentEn from "./gods/en/silinytis.mdx";
-import SilinytisContentLt from "./gods/lt/silinytis.mdx";
-import SilinytisContentLv from "./gods/lv/silinytis.mdx";
-import GiraitisContentEn from "./gods/en/giraitis.mdx";
-import GiraitisContentLt from "./gods/lt/giraitis.mdx";
-import GiraitisContentLv from "./gods/lv/giraitis.mdx";
-// Batch 5 — Gods (LV Mates)
-import UgunsMateContentEn from "./gods/en/uguns-mate.mdx";
-import UgunsMateContentLt from "./gods/lt/uguns-mate.mdx";
-import UgunsMateContentLv from "./gods/lv/uguns-mate.mdx";
-import MajasMateContentEn from "./gods/en/majas-mate.mdx";
-import MajasMateContentLt from "./gods/lt/majas-mate.mdx";
-import MajasMateContentLv from "./gods/lv/majas-mate.mdx";
-import PirtsMateContentEn from "./gods/en/pirts-mate.mdx";
-import PirtsMateContentLt from "./gods/lt/pirts-mate.mdx";
-import PirtsMateContentLv from "./gods/lv/pirts-mate.mdx";
-import LopuMateContentEn from "./gods/en/lopu-mate.mdx";
-import LopuMateContentLt from "./gods/lt/lopu-mate.mdx";
-import LopuMateContentLv from "./gods/lv/lopu-mate.mdx";
-// Batch 5 — Gods (PR)
-import PuschkaitisContentEn from "./gods/en/puschkaitis.mdx";
-import PuschkaitisContentLt from "./gods/lt/puschkaitis.mdx";
-import PuschkaitisContentLv from "./gods/lv/puschkaitis.mdx";
-import CurchoContentEn from "./gods/en/curcho.mdx";
-import CurchoContentLt from "./gods/lt/curcho.mdx";
-import CurchoContentLv from "./gods/lv/curcho.mdx";
-// Batch 6 — Gods (LT Agricultural)
-import PliuktisContentEn from "./gods/en/pliuktis.mdx";
-import PliuktisContentLt from "./gods/lt/pliuktis.mdx";
-import PliuktisContentLv from "./gods/lv/pliuktis.mdx";
-import KaupolisContentEn from "./gods/en/kaupolis.mdx";
-import KaupolisContentLt from "./gods/lt/kaupolis.mdx";
-import KaupolisContentLv from "./gods/lv/kaupolis.mdx";
-import LygynaContentEn from "./gods/en/lygyna.mdx";
-import LygynaContentLt from "./gods/lt/lygyna.mdx";
-import LygynaContentLv from "./gods/lv/lygyna.mdx";
-import RugucysContentEn from "./gods/en/ruguczys.mdx";
-import RugucysContentLt from "./gods/lt/ruguczys.mdx";
-import RugucysContentLv from "./gods/lv/ruguczys.mdx";
-// Batch 6 — People (LT)
-import BiruteContentEn from "./people/en/birute.mdx";
-import BiruteContentLt from "./people/lt/birute.mdx";
-import BiruteContentLv from "./people/lv/birute.mdx";
-// Batch 6 — Gods (LV Mates)
-import PienaMateContentEn from "./gods/en/piena-mate.mdx";
-import PienaMateContentLt from "./gods/lt/piena-mate.mdx";
-import PienaMateContentLv from "./gods/lv/piena-mate.mdx";
-import VilkuMateContentEn from "./gods/en/vilku-mate.mdx";
-import VilkuMateContentLt from "./gods/lt/vilku-mate.mdx";
-import VilkuMateContentLv from "./gods/lv/vilku-mate.mdx";
-import TirumaMateContentEn from "./gods/en/tiruma-mate.mdx";
-import TirumaMateContentLt from "./gods/lt/tiruma-mate.mdx";
-import TirumaMateContentLv from "./gods/lv/tiruma-mate.mdx";
-import KapuMateContentEn from "./gods/en/kapu-mate.mdx";
-import KapuMateContentLt from "./gods/lt/kapu-mate.mdx";
-import KapuMateContentLv from "./gods/lv/kapu-mate.mdx";
-import CelaMateContentEn from "./gods/en/cela-mate.mdx";
-import CelaMateContentLt from "./gods/lt/cela-mate.mdx";
-import CelaMateContentLv from "./gods/lv/cela-mate.mdx";
-
-// Batch 7 — Gods (LT Nature / War / Pastoral)
-import GirstisContentEn from "./gods/en/girstis.mdx";
-import GirstisContentLt from "./gods/lt/girstis.mdx";
-import GirstisContentLv from "./gods/lv/girstis.mdx";
-import JundaContentEn from "./gods/en/junda.mdx";
-import JundaContentLt from "./gods/lt/junda.mdx";
-import JundaContentLv from "./gods/lv/junda.mdx";
-import KovasContentEn from "./gods/en/kovas.mdx";
-import KovasContentLt from "./gods/lt/kovas.mdx";
-import KovasContentLv from "./gods/lv/kovas.mdx";
-import LinksmineContentEn from "./gods/en/linksmine.mdx";
-import LinksmineContentLt from "./gods/lt/linksmine.mdx";
-import LinksmineContentLv from "./gods/lv/linksmine.mdx";
-import RasaContentEn from "./gods/en/rasa.mdx";
-import RasaContentLt from "./gods/lt/rasa.mdx";
-import RasaContentLv from "./gods/lv/rasa.mdx";
-import GardaitisContentEn from "./gods/en/gardaitis.mdx";
-import GardaitisContentLt from "./gods/lt/gardaitis.mdx";
-import GardaitisContentLv from "./gods/lv/gardaitis.mdx";
-import GaniklisContentEn from "./gods/en/ganiklis.mdx";
-import GaniklisContentLt from "./gods/lt/ganiklis.mdx";
-import GaniklisContentLv from "./gods/lv/ganiklis.mdx";
-import JavineContentEn from "./gods/en/javine.mdx";
-import JavineContentLt from "./gods/lt/javine.mdx";
-import JavineContentLv from "./gods/lv/javine.mdx";
-import GeguteContentEn from "./gods/en/gegute.mdx";
-import GeguteContentLt from "./gods/lt/gegute.mdx";
-import GeguteContentLv from "./gods/lv/gegute.mdx";
-import PergrubrijusContentEn from "./gods/en/pergrubrijus.mdx";
-import PergrubrijusContentLt from "./gods/lt/pergrubrijus.mdx";
-import PergrubrijusContentLv from "./gods/lv/pergrubrijus.mdx";
-// Batch 8
-import IndrajaContentEn from "./gods/en/indraja.mdx";
-import IndrajaContentLt from "./gods/lt/indraja.mdx";
-import IndrajaContentLv from "./gods/lv/indraja.mdx";
-import VaivaContentEn from "./gods/en/vaiva.mdx";
-import VaivaContentLt from "./gods/lt/vaiva.mdx";
-import VaivaContentLv from "./gods/lv/vaiva.mdx";
-import BubilasContentEn from "./gods/en/bubilas.mdx";
-import BubilasContentLt from "./gods/lt/bubilas.mdx";
-import BubilasContentLv from "./gods/lv/bubilas.mdx";
-import MildaContentEn from "./gods/en/milda.mdx";
-import MildaContentLt from "./gods/lt/milda.mdx";
-import MildaContentLv from "./gods/lv/milda.mdx";
-import AsviniaiContentEn from "./gods/en/asvieniai.mdx";
-import AsviniaiContentLt from "./gods/lt/asvieniai.mdx";
-import AsviniaiContentLv from "./gods/lv/asvieniai.mdx";
-import ErketusContentEn from "./gods/en/erketus.mdx";
-import ErketusContentLt from "./gods/lt/erketus.mdx";
-import ErketusContentLv from "./gods/lv/erketus.mdx";
-import VeliuonaContentEn from "./gods/en/veliuona.mdx";
-import VeliuonaContentLt from "./gods/lt/veliuona.mdx";
-import VeliuonaContentLv from "./gods/lv/veliuona.mdx";
-import LauksargisContentEn from "./gods/en/lauksargis.mdx";
-import LauksargisContentLt from "./gods/lt/lauksargis.mdx";
-import LauksargisContentLv from "./gods/lv/lauksargis.mdx";
-import DrebkulysContentEn from "./gods/en/drebkulys.mdx";
-import DrebkulysContentLt from "./gods/lt/drebkulys.mdx";
-import DrebkulysContentLv from "./gods/lv/drebkulys.mdx";
-import ApidemeMdxContentEn from "./gods/en/apideme.mdx";
-import ApidemeMdxContentLt from "./gods/lt/apideme.mdx";
-import ApidemeMdxContentLv from "./gods/lv/apideme.mdx";
-// Batch 9
-import SietynasContentEn from "./gods/en/sietynas.mdx";
-import SietynasContentLt from "./gods/lt/sietynas.mdx";
-import SietynasContentLv from "./gods/lv/sietynas.mdx";
-import RungisContentEn from "./gods/en/rungis.mdx";
-import RungisContentLt from "./gods/lt/rungis.mdx";
-import RungisContentLv from "./gods/lv/rungis.mdx";
-import KizmasContentEn from "./gods/en/kizmas.mdx";
-import KizmasContentLt from "./gods/lt/kizmas.mdx";
-import KizmasContentLv from "./gods/lv/kizmas.mdx";
-import SamanisContentEn from "./gods/en/samanis.mdx";
-import SamanisContentLt from "./gods/lt/samanis.mdx";
-import SamanisContentLv from "./gods/lv/samanis.mdx";
-import KrumineContentEn from "./gods/en/krumine.mdx";
-import KrumineContentLt from "./gods/lt/krumine.mdx";
-import KrumineContentLv from "./gods/lv/krumine.mdx";
-import LazdonaContentEn from "./gods/en/lazdona.mdx";
-import LazdonaContentLt from "./gods/lt/lazdona.mdx";
-import LazdonaContentLv from "./gods/lv/lazdona.mdx";
-import DiviriksContentEn from "./gods/en/diviriks.mdx";
-import DiviriksContentLt from "./gods/lt/diviriks.mdx";
-import DiviriksContentLv from "./gods/lv/diviriks.mdx";
-import PagirnisMdxContentEn from "./gods/en/pagirnis.mdx";
-import PagirnisMdxContentLt from "./gods/lt/pagirnis.mdx";
-import PagirnisMdxContentLv from "./gods/lv/pagirnis.mdx";
-import JievarasContentEn from "./gods/en/jievaras.mdx";
-import JievarasContentLt from "./gods/lt/jievaras.mdx";
-import JievarasContentLv from "./gods/lv/jievaras.mdx";
-import AtlaibosContentEn from "./gods/en/atlaibos.mdx";
-import AtlaibosContentLt from "./gods/lt/atlaibos.mdx";
-import AtlaibosContentLv from "./gods/lv/atlaibos.mdx";
-// Batch 10
-import RatainicaContentEn from "./gods/en/ratainica.mdx";
-import RatainicaContentLt from "./gods/lt/ratainica.mdx";
-import RatainicaContentLv from "./gods/lv/ratainica.mdx";
-import AspelenieContentEn from "./gods/en/aspelenie.mdx";
-import AspelenieContentLt from "./gods/lt/aspelenie.mdx";
-import AspelenieContentLv from "./gods/lv/aspelenie.mdx";
-import KempeContentEn from "./gods/en/kempe.mdx";
-import KempeContentLt from "./gods/lt/kempe.mdx";
-import KempeContentLv from "./gods/lv/kempe.mdx";
-import KaurirarisContentEn from "./gods/en/kauriraris.mdx";
-import KaurirarisContentLt from "./gods/lt/kauriraris.mdx";
-import KaurirarisContentLv from "./gods/lv/kauriraris.mdx";
-import KelukisContentEn from "./gods/en/kelukis.mdx";
-import KelukisContentLt from "./gods/lt/kelukis.mdx";
-import KelukisContentLv from "./gods/lv/kelukis.mdx";
-import KurvaitisContentEn from "./gods/en/kurvaitis.mdx";
-import KurvaitisContentLt from "./gods/lt/kurvaitis.mdx";
-import KurvaitisContentLv from "./gods/lv/kurvaitis.mdx";
-import UpinisContentEn from "./gods/en/upinis.mdx";
-import UpinisContentLt from "./gods/lt/upinis.mdx";
-import UpinisContentLv from "./gods/lv/upinis.mdx";
-import DeivesValdytojasContentEn from "./gods/en/deives-valdytojos.mdx";
-import DeivesValdytojasContentLt from "./gods/lt/deives-valdytojos.mdx";
-import DeivesValdytojasContentLv from "./gods/lv/deives-valdytojos.mdx";
-import DeiveContentEn from "./gods/en/deive.mdx";
-import DeiveContentLt from "./gods/lt/deive.mdx";
-import DeiveContentLv from "./gods/lv/deive.mdx";
-import GirinisContentEn from "./gods/en/girinis.mdx";
-import GirinisContentLt from "./gods/lt/girinis.mdx";
-import GirinisContentLv from "./gods/lv/girinis.mdx";
-import PagirinisBatchContentEn from "./gods/en/pagirinis.mdx";
-import PagirinisBatchContentLt from "./gods/lt/pagirinis.mdx";
-import PagirinisBatchContentLv from "./gods/lv/pagirinis.mdx";
-import BabilosContentEn from "./gods/en/babilos.mdx";
-import BabilosContentLt from "./gods/lt/babilos.mdx";
-import BabilosContentLv from "./gods/lv/babilos.mdx";
-import SutvarasContentEn from "./gods/en/sutvaras.mdx";
-import SutvarasContentLt from "./gods/lt/sutvaras.mdx";
-import SutvarasContentLv from "./gods/lv/sutvaras.mdx";
-import TavalasContentEn from "./gods/en/tavalas.mdx";
-import TavalasContentLt from "./gods/lt/tavalas.mdx";
-import TavalasContentLv from "./gods/lv/tavalas.mdx";
-import GulbisContentEn from "./gods/en/gulbis.mdx";
-import GulbisContentLt from "./gods/lt/gulbis.mdx";
-import GulbisContentLv from "./gods/lv/gulbis.mdx";
-import UgniazaltisContentEn from "./gods/en/ugniazaltis.mdx";
-import UgniazaltisContentLt from "./gods/lt/ugniazaltis.mdx";
-import UgniazaltisContentLv from "./gods/lv/ugniazaltis.mdx";
-import AusklautsContentEn from "./gods/en/ausklauts.mdx";
-import AusklautsContentLt from "./gods/lt/ausklauts.mdx";
-import AusklautsContentLv from "./gods/lv/ausklauts.mdx";
-import BentisContentEn from "./gods/en/bentis.mdx";
-import BentisContentLt from "./gods/lt/bentis.mdx";
-import BentisContentLv from "./gods/lv/bentis.mdx";
-import LietuvonisContentEn from "./gods/en/lietuvonis.mdx";
-import LietuvonisContentLt from "./gods/lt/lietuvonis.mdx";
-import LietuvonisContentLv from "./gods/lv/lietuvonis.mdx";
-import KalvelisContentEn from "./gods/en/kalvelis.mdx";
-import KalvelisContentLt from "./gods/lt/kalvelis.mdx";
-import KalvelisContentLv from "./gods/lv/kalvelis.mdx";
-// Batch 12
-import KirkisContentEn from "./gods/en/kirkis.mdx";
-import KirkisContentLt from "./gods/lt/kirkis.mdx";
-import KirkisContentLv from "./gods/lv/kirkis.mdx";
-import PiziusContentEn from "./gods/en/pizius.mdx";
-import PiziusContentLt from "./gods/lt/pizius.mdx";
-import PiziusContentLv from "./gods/lv/pizius.mdx";
-import DevintosContentEn from "./gods/en/devintos.mdx";
-import DevintosContentLt from "./gods/lt/devintos.mdx";
-import DevintosContentLv from "./gods/lv/devintos.mdx";
-import GulbiContentEn from "./gods/en/gulbi.mdx";
-import GulbiContentLt from "./gods/lt/gulbi.mdx";
-import GulbiContentLv from "./gods/lv/gulbi.mdx";
-import VaivoraContentEn from "./gods/en/vaivora.mdx";
-import VaivoraContentLt from "./gods/lt/vaivora.mdx";
-import VaivoraContentLv from "./gods/lv/vaivora.mdx";
-import PerkunasTikrasContentEn from "./gods/en/perkunas-tikras.mdx";
-import PerkunasTikrasContentLt from "./gods/lt/perkunas-tikras.mdx";
-import PerkunasTikrasContentLv from "./gods/lv/perkunas-tikras.mdx";
-import ZemininkasContentEn from "./gods/en/zemininkas.mdx";
-import ZemininkasContentLt from "./gods/lt/zemininkas.mdx";
-import ZemininkasContentLv from "./gods/lv/zemininkas.mdx";
-import PrigirstisContentEn from "./gods/en/prigirstis.mdx";
-import PrigirstisContentLt from "./gods/lt/prigirstis.mdx";
-import PrigirstisContentLv from "./gods/lv/prigirstis.mdx";
-import SalausContentEn from "./gods/en/salaus.mdx";
-import SalausContentLt from "./gods/lt/salaus.mdx";
-import SalausContentLv from "./gods/lv/salaus.mdx";
-// Batch 13
-import SrutisContentEn from "./gods/en/srutis.mdx";
-import SrutisContentLt from "./gods/lt/srutis.mdx";
-import SrutisContentLv from "./gods/lv/srutis.mdx";
-import SkalsaContentEn from "./gods/en/skalsa.mdx";
-import SkalsaContentLt from "./gods/lt/skalsa.mdx";
-import SkalsaContentLv from "./gods/lv/skalsa.mdx";
-import DausosContentEn from "./gods/en/dausos.mdx";
-import DausosContentLt from "./gods/lt/dausos.mdx";
-import DausosContentLv from "./gods/lv/dausos.mdx";
-import LaimeAbstractContentEn from "./gods/en/laime-abstract.mdx";
-import LaimeAbstractContentLt from "./gods/lt/laime-abstract.mdx";
-import LaimeAbstractContentLv from "./gods/lv/laime-abstract.mdx";
-import NegaliContentEn from "./gods/en/negali.mdx";
-import NegaliContentLt from "./gods/lt/negali.mdx";
-import NegaliContentLv from "./gods/lv/negali.mdx";
-import DievaitisContentEn from "./gods/en/dievaitis.mdx";
-import DievaitisContentLt from "./gods/lt/dievaitis.mdx";
-import DievaitisContentLv from "./gods/lv/dievaitis.mdx";
-import BirdGoddessContentEn from "./gods/en/bird-goddess.mdx";
-import BirdGoddessContentLt from "./gods/lt/bird-goddess.mdx";
-import BirdGoddessContentLv from "./gods/lv/bird-goddess.mdx";
-import SnakeGoddessContentEn from "./gods/en/snake-goddess.mdx";
-import SnakeGoddessContentLt from "./gods/lt/snake-goddess.mdx";
-import SnakeGoddessContentLv from "./gods/lv/snake-goddess.mdx";
-import WhiteLadyContentEn from "./gods/en/white-lady.mdx";
-import WhiteLadyContentLt from "./gods/lt/white-lady.mdx";
-import WhiteLadyContentLv from "./gods/lv/white-lady.mdx";
-import DeerMotherContentEn from "./gods/en/deer-mother.mdx";
-import DeerMotherContentLt from "./gods/lt/deer-mother.mdx";
-import DeerMotherContentLv from "./gods/lv/deer-mother.mdx";
-// Batch 14
-import VelnioMotinaContentEn from "./gods/en/velnio-motina.mdx";
-import VelnioMotinaContentLt from "./gods/lt/velnio-motina.mdx";
-import VelnioMotinaContentLv from "./gods/lv/velnio-motina.mdx";
-import AusraContentEn from "./gods/en/ausra.mdx";
-import AusraContentLt from "./gods/lt/ausra.mdx";
-import AusraContentLv from "./gods/lv/ausra.mdx";
-import SpindulysContentEn from "./gods/en/spindulys.mdx";
-import SpindulysContentLt from "./gods/lt/spindulys.mdx";
-import SpindulysContentLv from "./gods/lv/spindulys.mdx";
-import MaroDeiveContentEn from "./gods/en/maro-deive.mdx";
-import MaroDeiveContentLt from "./gods/lt/maro-deive.mdx";
-import MaroDeiveContentLv from "./gods/lv/maro-deive.mdx";
-import PjutisDievasContentEn from "./gods/en/pjutis-dievas.mdx";
-import PjutisDievasContentLt from "./gods/lt/pjutis-dievas.mdx";
-import PjutisDievasContentLv from "./gods/lv/pjutis-dievas.mdx";
-// Batch 15
-import PerkunoOzelisContentEn from "./gods/en/perkuno-ozelis.mdx";
-import PerkunoOzelisContentLt from "./gods/lt/perkuno-ozelis.mdx";
-import PerkunoOzelisContentLv from "./gods/lv/perkuno-ozelis.mdx";
-import PerkunoKulkaContentEn from "./gods/en/perkuno-kulka.mdx";
-import PerkunoKulkaContentLt from "./gods/lt/perkuno-kulka.mdx";
-import PerkunoKulkaContentLv from "./gods/lv/perkuno-kulka.mdx";
-import PerkunoRyksteContentEn from "./gods/en/perkuno-rykste.mdx";
-import PerkunoRyksteContentLt from "./gods/lt/perkuno-rykste.mdx";
-import PerkunoRyksteContentLv from "./gods/lv/perkuno-rykste.mdx";
-import PincukasContentEn from "./gods/en/pincukas.mdx";
-import PincukasContentLt from "./gods/lt/pincukas.mdx";
-import PincukasContentLv from "./gods/lv/pincukas.mdx";
-import EzeruSeimininkeContentEn from "./gods/en/ezeru-seimininke.mdx";
-import EzeruSeimininkeContentLt from "./gods/lt/ezeru-seimininke.mdx";
-import EzeruSeimininkeContentLv from "./gods/lv/ezeru-seimininke.mdx";
-import MilineContentEn from "./gods/en/miline.mdx";
-import MilineContentLt from "./gods/lt/miline.mdx";
-import MilineContentLv from "./gods/lv/miline.mdx";
-import ZiburinisContentEn from "./gods/en/ziburinis.mdx";
-import ZiburinisContentLt from "./gods/lt/ziburinis.mdx";
-import ZiburinisContentLv from "./gods/lv/ziburinis.mdx";
-import DebesuKareivisContentEn from "./gods/en/debesu-kareivis.mdx";
-import DebesuKareivisContentLt from "./gods/lt/debesu-kareivis.mdx";
-import DebesuKareivisContentLv from "./gods/lv/debesu-kareivis.mdx";
-import DuobkasisContentEn from "./gods/en/duobkasis.mdx";
-import DuobkasisContentLt from "./gods/lt/duobkasis.mdx";
-import DuobkasisContentLv from "./gods/lv/duobkasis.mdx";
-// Batch 16
-import SutartiniuDievaiciaiContentEn from "./gods/en/sutartiniu-dievaiciai.mdx";
-import SutartiniuDievaiciaiContentLt from "./gods/lt/sutartiniu-dievaiciai.mdx";
-import SutartiniuDievaiciaiContentLv from "./gods/lv/sutartiniu-dievaiciai.mdx";
-import LadutisContentEn from "./gods/en/ladutis.mdx";
-import LadutisContentLt from "./gods/lt/ladutis.mdx";
-import LadutisContentLv from "./gods/lv/ladutis.mdx";
-import DeivesCultContentEn from "./gods/en/deives-cult.mdx";
-import DeivesCultContentLt from "./gods/lt/deives-cult.mdx";
-import DeivesCultContentLv from "./gods/lv/deives-cult.mdx";
-import GabijosUgnisContentEn from "./gods/en/gabijos-ugnis.mdx";
-import GabijosUgnisContentLt from "./gods/lt/gabijos-ugnis.mdx";
-import GabijosUgnisContentLv from "./gods/lv/gabijos-ugnis.mdx";
-import ZaltvykslesContentEn from "./gods/en/zaltvyksles.mdx";
-import ZaltvykslesContentLt from "./gods/lt/zaltvyksles.mdx";
-import ZaltvykslesContentLv from "./gods/lv/zaltvyksles.mdx";
-import TavalisContentEn from "./gods/en/tavalis.mdx";
-import TavalisContentLt from "./gods/lt/tavalis.mdx";
-import TavalisContentLv from "./gods/lv/tavalis.mdx";
-import TiklisContentEn from "./gods/en/tiklis.mdx";
-import TiklisContentLt from "./gods/lt/tiklis.mdx";
-import TiklisContentLv from "./gods/lv/tiklis.mdx";
-import AlgisContentEn from "./gods/en/algis.mdx";
-import AlgisContentLt from "./gods/lt/algis.mdx";
-import AlgisContentLv from "./gods/lv/algis.mdx";
-import BendikasContentEn from "./gods/en/bendikas.mdx";
-import BendikasContentLt from "./gods/lt/bendikas.mdx";
-import BendikasContentLv from "./gods/lv/bendikas.mdx";
-import SlaitisContentEn from "./gods/en/slaitis.mdx";
-import SlaitisContentLt from "./gods/lt/slaitis.mdx";
-import SlaitisContentLv from "./gods/lv/slaitis.mdx";
-import VetustisContentEn from "./gods/en/vetustis.mdx";
-import VetustisContentLt from "./gods/lt/vetustis.mdx";
-import VetustisContentLv from "./gods/lv/vetustis.mdx";
-import SaukstisContentEn from "./gods/en/saukstis.mdx";
-import SaukstisContentLt from "./gods/lt/saukstis.mdx";
-import SaukstisContentLv from "./gods/lv/saukstis.mdx";
-// Batch 17
-import MartinsContentEn from "./gods/en/martins.mdx";
-import MartinsContentLt from "./gods/lt/martins.mdx";
-import MartinsContentLv from "./gods/lv/martins.mdx";
-import JodsContentEn from "./gods/en/jods.mdx";
-import JodsContentLt from "./gods/lt/jods.mdx";
-import JodsContentLv from "./gods/lv/jods.mdx";
-import BanguMateContentEn from "./gods/en/bangu-mate.mdx";
-import BanguMateContentLt from "./gods/lt/bangu-mate.mdx";
-import BanguMateContentLv from "./gods/lv/bangu-mate.mdx";
-import UpesMateContentEn from "./gods/en/upes-mate.mdx";
-import UpesMateContentLt from "./gods/lt/upes-mate.mdx";
-import UpesMateContentLv from "./gods/lv/upes-mate.mdx";
-import LietusMateContentEn from "./gods/en/lietus-mate.mdx";
-import LietusMateContentLt from "./gods/lt/lietus-mate.mdx";
-import LietusMateContentLv from "./gods/lv/lietus-mate.mdx";
-import MiglasMateContentEn from "./gods/en/miglas-mate.mdx";
-import MiglasMateContentLt from "./gods/lt/miglas-mate.mdx";
-import MiglasMateContentLv from "./gods/lv/miglas-mate.mdx";
-import SalnaMateContentEn from "./gods/en/salna-mate.mdx";
-import SalnaMateContentLt from "./gods/lt/salna-mate.mdx";
-import SalnaMateContentLv from "./gods/lv/salna-mate.mdx";
-
-import {
-  aitvarasMeta,
-  auschautsMeta,
-  austejaMeta,
-  ausrineMeta,
-  autrimpasMeta,
-  bangputysMeta,
-  daliaMeta,
-  dimstipatisMeta,
-  dievasMeta,
-  gabijaMeta,
-  giltineMeta,
-  janisMeta,
-  jumisMeta,
-  kurkeMeta,
-  laimaMeta,
-  laumesMeta,
-  maraMeta,
-  medineMeta,
-  menulisMeta,
-  mezaMateMeta,
-  neringaMeta,
-  patollaMeta,
-  patrimpAsMeta,
-  perkunasMeta,
-  pukisMeta,
-  ragutisMeta,
-  sauleMeta,
-  sovijusMeta,
-  teliavelIsMeta,
-  usinsMeta,
-  vakarineMeta,
-  vaizgantasMeta,
-  vejopatisMeta,
-  velniasMeta,
-  veluMateMeta,
-  zaltysMeta,
-  zemynaMeta,
-  // Batch 4
-  praamziusMeta,
-  zvorunaMeta,
-  zemepatisMetaData,
-  gabjaujaMetaData,
-  pilvytisMetaData,
-  birzulisMeta,
-  kirnisMeta,
-  dievaDeliMeta,
-  saulesMeitasMeta,
-  jurasMateMeta,
-  udensMateMeta,
-  vejaMateMeta,
-  okopirmusMeta,
-  swayxtixMeta,
-  bardoaitsMeta,
-  kaukaiMeta,
-  raganaMeta,
-  sloguteMeta,
-  vilkacisMeta,
-  lietuvensMeta,
-  egleMeta,
-  lacplesisMeta,
-  // Batch 5
-  medziojnaMeta,
-  ejagusteMeta,
-  silinytisMeta,
-  giraitisMeta,
-  ugunsMateMetaData,
-  majasMateMetaData,
-  pirtsMateMetaData,
-  lopuMateMetaData,
-  puschkaitisMeta,
-  curchoMeta,
-  // Batch 6
-  pliuktisMeta,
-  kaupolisMeta,
-  lygynaMeta,
-  rugucysMeta,
-  biruteMeta,
-  pienaMateMetaData,
-  vilkuMateMetaData,
-  tirumaMateMetaData,
-  kapuMateMetaData,
-  celaMateMetaData,
-  // Batch 7
-  girstisMeta,
-  jundaMeta,
-  kovasMeta,
-  linksmineMeta,
-  rasaMeta,
-  gardaitisMeta,
-  ganiklisMeta,
-  javineMeta,
-  geguteMeta,
-  pergrubrijusMeta,
-  // Batch 8
-  indrajaMeta,
-  vaivaMeta,
-  bubilasMeta,
-  mildaMeta,
-  asviniaiMeta,
-  erketusMeta,
-  veliuonaMeta,
-  lauksargisMeta,
-  drebkulysMeta,
-  apidemeMeta,
-  // Batch 9
-  sietynasMeta,
-  rungisMeta,
-  kizmasMeta,
-  samanisMeta,
-  krumineMeta,
-  lazdonaMeta,
-  diviriksMeta,
-  pagirnisMeta,
-  jievarasMeta,
-  atlaibosMeta,
-  // Batch 10
-  ratainicaMeta,
-  aspelenieMeta,
-  kempeMeta,
-  kaurirarisMeta,
-  kelukisMeta,
-  kurvaitisMeta,
-  upinisMeta,
-  deivesValdytojsMeta,
-  deiveMeta,
-  girinisMeta,
-  pagirinisMeta,
-  babilosMeta,
-  sutvarasMeta,
-  tavalasMeta,
-  gulbisMeta,
-  ugniazaltisMeta,
-  ausklautsMeta,
-  bentisMeta,
-  lietuvonisMeta,
-  kalvelisMeta,
-  // Batch 12
-  kirkisMeta,
-  piziusMeta,
-  devintosMeta,
-  gulbiMeta,
-  vaivoraMeta,
-  perkunasTikrasMeta,
-  zemininkasMeta,
-  prigirstisMeta,
-  salausMeta,
-  srutisMeta, skalsaMeta, dausosMeta, laimeAbstractMeta, negaliMeta,
-  dievaitisMeta, birdGoddessMeta, snakeGoddessMeta, whiteLadyMeta, deerMotherMeta,
-  velnioMotinaMeta, ausraMeta, spindulysMeta, maroDeiveMeta, pjutisDievasMeta,
-  perkunoOzelisMeta, perkunoKulkaMeta, perkunoRyksteMeta, pincukasMeta,
-  ezeruSeimininkeMeta, milineMeta, ziburinisMeta, debesuKareivisMeta, duobkasisMeta,
-  // Batch 16
-  sutartiniuDievaiciaiMeta, ladutisMeta, deivesCultMeta, gabijosUgnisMeta,
-  zaltvykslesMeta, tavalisMeta, tiklisMeta, algisMeta, bendikasMeta,
-  slaitisMeta, vetustisMeta, saukstisMeta,
-  // Batch 17
-  martinsMeta, jodsMeta, banguMateMeta, upesMateMeta,
-  lietusMateMeta, miglasMateMeta, salnaMateMeta,
-} from "./meta";
-
-export const deities: DeityEntry[] = [
-  { meta: perkunasMeta, Content: PerkunasContentEn, contentByLang: { en: PerkunasContentEn, lt: PerkunasContentLt, lv: PerkunasContentLv } },
-  { meta: zemynaMeta, Content: ZemynaContentEn, contentByLang: { en: ZemynaContentEn, lt: ZemynaContentLt, lv: ZemynaContentLv } },
-  { meta: sauleMeta, Content: SauleContentEn, contentByLang: { en: SauleContentEn, lt: SauleContentLt, lv: SauleContentLv } },
-  { meta: laimaMeta, Content: LaimaContentEn, contentByLang: { en: LaimaContentEn, lt: LaimaContentLt, lv: LaimaContentLv } },
-  { meta: velniasMeta, Content: VelniasContentEn, contentByLang: { en: VelniasContentEn, lt: VelniasContentLt, lv: VelniasContentLv } },
-  { meta: austejaMeta, Content: AustejaContentEn, contentByLang: { en: AustejaContentEn, lt: AustejaContentLt, lv: AustejaContentLv } },
-  { meta: menulisMeta, Content: MenulisContentEn, contentByLang: { en: MenulisContentEn, lt: MenulisContentLt, lv: MenulisContentLv } },
-  { meta: dievasMeta, Content: DievasContentEn, contentByLang: { en: DievasContentEn, lt: DievasContentLt, lv: DievasContentLv } },
-  { meta: gabijaMeta, Content: GabijaContentEn, contentByLang: { en: GabijaContentEn, lt: GabijaContentLt, lv: GabijaContentLv } },
-  { meta: bangputysMeta, Content: BangputysContentEn, contentByLang: { en: BangputysContentEn, lt: BangputysContentLt, lv: BangputysContentLv } },
-  { meta: medineMeta, Content: MedineContentEn, contentByLang: { en: MedineContentEn, lt: MedineContentLt, lv: MedineContentLv } },
-  { meta: giltineMeta, Content: GiltineContentEn, contentByLang: { en: GiltineContentEn, lt: GiltineContentLt, lv: GiltineContentLv } },
-  { meta: pukisMeta, Content: PukisContentEn, contentByLang: { en: PukisContentEn, lt: PukisContentLt, lv: PukisContentLv } },
-  { meta: ausrineMeta, Content: AusrineContentEn, contentByLang: { en: AusrineContentEn, lt: AusrineContentLt, lv: AusrineContentLv } },
-  { meta: maraMeta, Content: MaraContentEn, contentByLang: { en: MaraContentEn, lt: MaraContentLt, lv: MaraContentLv } },
-  { meta: jumisMeta, Content: JumisContentEn, contentByLang: { en: JumisContentEn, lt: JumisContentLt, lv: JumisContentLv } },
-  { meta: usinsMeta, Content: UsinsContentEn, contentByLang: { en: UsinsContentEn, lt: UsinsContentLt, lv: UsinsContentLv } },
-  { meta: vakarineMeta, Content: VakarineContentEn, contentByLang: { en: VakarineContentEn, lt: VakarineContentLt, lv: VakarineContentLv } },
-  { meta: teliavelIsMeta, Content: TeliavelisContentEn, contentByLang: { en: TeliavelisContentEn, lt: TeliavelisContentLt, lv: TeliavelisContentLv } },
-  { meta: daliaMeta, Content: DaliaContentEn, contentByLang: { en: DaliaContentEn, lt: DaliaContentLt, lv: DaliaContentLv } },
-  { meta: patollaMeta, Content: PatolloContentEn, contentByLang: { en: PatolloContentEn, lt: PatolloContentLt, lv: PatolloContentLv } },
-  { meta: patrimpAsMeta, Content: PatrimpasContentEn, contentByLang: { en: PatrimpasContentEn, lt: PatrimpasContentLt, lv: PatrimpasContentLv } },
-  { meta: autrimpasMeta, Content: AutrimpasContentEn, contentByLang: { en: AutrimpasContentEn, lt: AutrimpasContentLt, lv: AutrimpasContentLv } },
-  // Batch 3
-  { meta: vejopatisMeta, Content: VejopatisContentEn, contentByLang: { en: VejopatisContentEn, lt: VejopatisContentLt, lv: VejopatisContentLv } },
-  { meta: vaizgantasMeta, Content: VaizgantasContentEn, contentByLang: { en: VaizgantasContentEn, lt: VaizgantasContentLt, lv: VaizgantasContentLv } },
-  { meta: ragutisMeta, Content: RagutisContentEn, contentByLang: { en: RagutisContentEn, lt: RagutisContentLt, lv: RagutisContentLv } },
-  { meta: dimstipatisMeta, Content: DimstisContentEn, contentByLang: { en: DimstisContentEn, lt: DimstisContentLt, lv: DimstisContentLv } },
-  { meta: janisMeta, Content: JanisContentEn, contentByLang: { en: JanisContentEn, lt: JanisContentLt, lv: JanisContentLv } },
-  { meta: mezaMateMeta, Content: MezaMateContentEn, contentByLang: { en: MezaMateContentEn, lt: MezaMateContentLt, lv: MezaMateContentLv } },
-  { meta: veluMateMeta, Content: VeluMateContentEn, contentByLang: { en: VeluMateContentEn, lt: VeluMateContentLt, lv: VeluMateContentLv } },
-  { meta: auschautsMeta, Content: AuschautsContentEn, contentByLang: { en: AuschautsContentEn, lt: AuschautsContentLt, lv: AuschautsContentLv } },
-  { meta: kurkeMeta, Content: KurkeContentEn, contentByLang: { en: KurkeContentEn, lt: KurkeContentLt, lv: KurkeContentLv } },
-  { meta: aitvarasMeta, Content: AitvarasContentEn, contentByLang: { en: AitvarasContentEn, lt: AitvarasContentLt, lv: AitvarasContentLv } },
-  { meta: laumesMeta, Content: LaumesContentEn, contentByLang: { en: LaumesContentEn, lt: LaumesContentLt, lv: LaumesContentLv } },
-  { meta: zaltysMeta, Content: ZaltysContentEn, contentByLang: { en: ZaltysContentEn, lt: ZaltysContentLt, lv: ZaltysContentLv } },
-  { meta: neringaMeta, Content: NeringaContentEn, contentByLang: { en: NeringaContentEn, lt: NeringaContentLt, lv: NeringaContentLv } },
-  { meta: sovijusMeta, Content: SovijusContentEn, contentByLang: { en: SovijusContentEn, lt: SovijusContentLt, lv: SovijusContentLv } },
-  // Batch 4
-  { meta: praamziusMeta, Content: PraamziusContentEn, contentByLang: { en: PraamziusContentEn, lt: PraamziusContentLt, lv: PraamziusContentLv } },
-  { meta: zvorunaMeta, Content: ZvorunaContentEn, contentByLang: { en: ZvorunaContentEn, lt: ZvorunaContentLt, lv: ZvorunaContentLv } },
-  { meta: zemepatisMetaData, Content: ZemeipatisContentEn, contentByLang: { en: ZemeipatisContentEn, lt: ZemeipatisContentLt, lv: ZemeipatisContentLv } },
-  { meta: gabjaujaMetaData, Content: GabjaujaContentEn, contentByLang: { en: GabjaujaContentEn, lt: GabjaujaContentLt, lv: GabjaujaContentLv } },
-  { meta: pilvytisMetaData, Content: PilvytisContentEn, contentByLang: { en: PilvytisContentEn, lt: PilvytisContentLt, lv: PilvytisContentLv } },
-  { meta: birzulisMeta, Content: BirzulisContentEn, contentByLang: { en: BirzulisContentEn, lt: BirzulisContentLt, lv: BirzulisContentLv } },
-  { meta: kirnisMeta, Content: KirnisContentEn, contentByLang: { en: KirnisContentEn, lt: KirnisContentLt, lv: KirnisContentLv } },
-  { meta: dievaDeliMeta, Content: DievaDeliContentEn, contentByLang: { en: DievaDeliContentEn, lt: DievaDeliContentLt, lv: DievaDeliContentLv } },
-  { meta: saulesMeitasMeta, Content: SaulesMeitasContentEn, contentByLang: { en: SaulesMeitasContentEn, lt: SaulesMeitasContentLt, lv: SaulesMeitasContentLv } },
-  { meta: jurasMateMeta, Content: JurasMateContentEn, contentByLang: { en: JurasMateContentEn, lt: JurasMateContentLt, lv: JurasMateContentLv } },
-  { meta: udensMateMeta, Content: UdensMateContentEn, contentByLang: { en: UdensMateContentEn, lt: UdensMateContentLt, lv: UdensMateContentLv } },
-  { meta: vejaMateMeta, Content: VejaMateContentEn, contentByLang: { en: VejaMateContentEn, lt: VejaMateContentLt, lv: VejaMateContentLv } },
-  { meta: okopirmusMeta, Content: OkopirmusContentEn, contentByLang: { en: OkopirmusContentEn, lt: OkopirmusContentLt, lv: OkopirmusContentLv } },
-  { meta: swayxtixMeta, Content: SwayxtixContentEn, contentByLang: { en: SwayxtixContentEn, lt: SwayxtixContentLt, lv: SwayxtixContentLv } },
-  { meta: bardoaitsMeta, Content: BardoaitsContentEn, contentByLang: { en: BardoaitsContentEn, lt: BardoaitsContentLt, lv: BardoaitsContentLv } },
-  { meta: kaukaiMeta, Content: KaukaiContentEn, contentByLang: { en: KaukaiContentEn, lt: KaukaiContentLt, lv: KaukaiContentLv } },
-  { meta: raganaMeta, Content: RaganaContentEn, contentByLang: { en: RaganaContentEn, lt: RaganaContentLt, lv: RaganaContentLv } },
-  { meta: sloguteMeta, Content: SloguteContentEn, contentByLang: { en: SloguteContentEn, lt: SloguteContentLt, lv: SloguteContentLv } },
-  { meta: vilkacisMeta, Content: VilkacisContentEn, contentByLang: { en: VilkacisContentEn, lt: VilkacisContentLt, lv: VilkacisContentLv } },
-  { meta: lietuvensMeta, Content: LietuvensContentEn, contentByLang: { en: LietuvensContentEn, lt: LietuvensContentLt, lv: LietuvensContentLv } },
-  { meta: egleMeta, Content: EgleContentEn, contentByLang: { en: EgleContentEn, lt: EgleContentLt, lv: EgleContentLv } },
-  { meta: lacplesisMeta, Content: LacplesisContentEn, contentByLang: { en: LacplesisContentEn, lt: LacplesisContentLt, lv: LacplesisContentLv } },
-  // Batch 5
-  { meta: medziojnaMeta, Content: MedziojnaContentEn, contentByLang: { en: MedziojnaContentEn, lt: MedziojnaContentLt, lv: MedziojnaContentLv } },
-  { meta: ejagusteMeta, Content: EjagusteContentEn, contentByLang: { en: EjagusteContentEn, lt: EjagusteContentLt, lv: EjagusteContentLv } },
-  { meta: silinytisMeta, Content: SilinytisContentEn, contentByLang: { en: SilinytisContentEn, lt: SilinytisContentLt, lv: SilinytisContentLv } },
-  { meta: giraitisMeta, Content: GiraitisContentEn, contentByLang: { en: GiraitisContentEn, lt: GiraitisContentLt, lv: GiraitisContentLv } },
-  { meta: ugunsMateMetaData, Content: UgunsMateContentEn, contentByLang: { en: UgunsMateContentEn, lt: UgunsMateContentLt, lv: UgunsMateContentLv } },
-  { meta: majasMateMetaData, Content: MajasMateContentEn, contentByLang: { en: MajasMateContentEn, lt: MajasMateContentLt, lv: MajasMateContentLv } },
-  { meta: pirtsMateMetaData, Content: PirtsMateContentEn, contentByLang: { en: PirtsMateContentEn, lt: PirtsMateContentLt, lv: PirtsMateContentLv } },
-  { meta: lopuMateMetaData, Content: LopuMateContentEn, contentByLang: { en: LopuMateContentEn, lt: LopuMateContentLt, lv: LopuMateContentLv } },
-  { meta: puschkaitisMeta, Content: PuschkaitisContentEn, contentByLang: { en: PuschkaitisContentEn, lt: PuschkaitisContentLt, lv: PuschkaitisContentLv } },
-  { meta: curchoMeta, Content: CurchoContentEn, contentByLang: { en: CurchoContentEn, lt: CurchoContentLt, lv: CurchoContentLv } },
-  // Batch 6
-  { meta: pliuktisMeta, Content: PliuktisContentEn, contentByLang: { en: PliuktisContentEn, lt: PliuktisContentLt, lv: PliuktisContentLv } },
-  { meta: kaupolisMeta, Content: KaupolisContentEn, contentByLang: { en: KaupolisContentEn, lt: KaupolisContentLt, lv: KaupolisContentLv } },
-  { meta: lygynaMeta, Content: LygynaContentEn, contentByLang: { en: LygynaContentEn, lt: LygynaContentLt, lv: LygynaContentLv } },
-  { meta: rugucysMeta, Content: RugucysContentEn, contentByLang: { en: RugucysContentEn, lt: RugucysContentLt, lv: RugucysContentLv } },
-  { meta: biruteMeta, Content: BiruteContentEn, contentByLang: { en: BiruteContentEn, lt: BiruteContentLt, lv: BiruteContentLv } },
-  { meta: pienaMateMetaData, Content: PienaMateContentEn, contentByLang: { en: PienaMateContentEn, lt: PienaMateContentLt, lv: PienaMateContentLv } },
-  { meta: vilkuMateMetaData, Content: VilkuMateContentEn, contentByLang: { en: VilkuMateContentEn, lt: VilkuMateContentLt, lv: VilkuMateContentLv } },
-  { meta: tirumaMateMetaData, Content: TirumaMateContentEn, contentByLang: { en: TirumaMateContentEn, lt: TirumaMateContentLt, lv: TirumaMateContentLv } },
-  { meta: kapuMateMetaData, Content: KapuMateContentEn, contentByLang: { en: KapuMateContentEn, lt: KapuMateContentLt, lv: KapuMateContentLv } },
-  { meta: celaMateMetaData, Content: CelaMateContentEn, contentByLang: { en: CelaMateContentEn, lt: CelaMateContentLt, lv: CelaMateContentLv } },
-  // Batch 7
-  { meta: girstisMeta, Content: GirstisContentEn, contentByLang: { en: GirstisContentEn, lt: GirstisContentLt, lv: GirstisContentLv } },
-  { meta: jundaMeta, Content: JundaContentEn, contentByLang: { en: JundaContentEn, lt: JundaContentLt, lv: JundaContentLv } },
-  { meta: kovasMeta, Content: KovasContentEn, contentByLang: { en: KovasContentEn, lt: KovasContentLt, lv: KovasContentLv } },
-  { meta: linksmineMeta, Content: LinksmineContentEn, contentByLang: { en: LinksmineContentEn, lt: LinksmineContentLt, lv: LinksmineContentLv } },
-  { meta: rasaMeta, Content: RasaContentEn, contentByLang: { en: RasaContentEn, lt: RasaContentLt, lv: RasaContentLv } },
-  { meta: gardaitisMeta, Content: GardaitisContentEn, contentByLang: { en: GardaitisContentEn, lt: GardaitisContentLt, lv: GardaitisContentLv } },
-  { meta: ganiklisMeta, Content: GaniklisContentEn, contentByLang: { en: GaniklisContentEn, lt: GaniklisContentLt, lv: GaniklisContentLv } },
-  { meta: javineMeta, Content: JavineContentEn, contentByLang: { en: JavineContentEn, lt: JavineContentLt, lv: JavineContentLv } },
-  { meta: geguteMeta, Content: GeguteContentEn, contentByLang: { en: GeguteContentEn, lt: GeguteContentLt, lv: GeguteContentLv } },
-  { meta: pergrubrijusMeta, Content: PergrubrijusContentEn, contentByLang: { en: PergrubrijusContentEn, lt: PergrubrijusContentLt, lv: PergrubrijusContentLv } },
-  // Batch 8
-  { meta: indrajaMeta, Content: IndrajaContentEn, contentByLang: { en: IndrajaContentEn, lt: IndrajaContentLt, lv: IndrajaContentLv } },
-  { meta: vaivaMeta, Content: VaivaContentEn, contentByLang: { en: VaivaContentEn, lt: VaivaContentLt, lv: VaivaContentLv } },
-  { meta: bubilasMeta, Content: BubilasContentEn, contentByLang: { en: BubilasContentEn, lt: BubilasContentLt, lv: BubilasContentLv } },
-  { meta: mildaMeta, Content: MildaContentEn, contentByLang: { en: MildaContentEn, lt: MildaContentLt, lv: MildaContentLv } },
-  { meta: asviniaiMeta, Content: AsviniaiContentEn, contentByLang: { en: AsviniaiContentEn, lt: AsviniaiContentLt, lv: AsviniaiContentLv } },
-  { meta: erketusMeta, Content: ErketusContentEn, contentByLang: { en: ErketusContentEn, lt: ErketusContentLt, lv: ErketusContentLv } },
-  { meta: veliuonaMeta, Content: VeliuonaContentEn, contentByLang: { en: VeliuonaContentEn, lt: VeliuonaContentLt, lv: VeliuonaContentLv } },
-  { meta: lauksargisMeta, Content: LauksargisContentEn, contentByLang: { en: LauksargisContentEn, lt: LauksargisContentLt, lv: LauksargisContentLv } },
-  { meta: drebkulysMeta, Content: DrebkulysContentEn, contentByLang: { en: DrebkulysContentEn, lt: DrebkulysContentLt, lv: DrebkulysContentLv } },
-  { meta: apidemeMeta, Content: ApidemeMdxContentEn, contentByLang: { en: ApidemeMdxContentEn, lt: ApidemeMdxContentLt, lv: ApidemeMdxContentLv } },
-  // Batch 9
-  { meta: sietynasMeta, Content: SietynasContentEn, contentByLang: { en: SietynasContentEn, lt: SietynasContentLt, lv: SietynasContentLv } },
-  { meta: rungisMeta, Content: RungisContentEn, contentByLang: { en: RungisContentEn, lt: RungisContentLt, lv: RungisContentLv } },
-  { meta: kizmasMeta, Content: KizmasContentEn, contentByLang: { en: KizmasContentEn, lt: KizmasContentLt, lv: KizmasContentLv } },
-  { meta: samanisMeta, Content: SamanisContentEn, contentByLang: { en: SamanisContentEn, lt: SamanisContentLt, lv: SamanisContentLv } },
-  { meta: krumineMeta, Content: KrumineContentEn, contentByLang: { en: KrumineContentEn, lt: KrumineContentLt, lv: KrumineContentLv } },
-  { meta: lazdonaMeta, Content: LazdonaContentEn, contentByLang: { en: LazdonaContentEn, lt: LazdonaContentLt, lv: LazdonaContentLv } },
-  { meta: diviriksMeta, Content: DiviriksContentEn, contentByLang: { en: DiviriksContentEn, lt: DiviriksContentLt, lv: DiviriksContentLv } },
-  { meta: pagirnisMeta, Content: PagirnisMdxContentEn, contentByLang: { en: PagirnisMdxContentEn, lt: PagirnisMdxContentLt, lv: PagirnisMdxContentLv } },
-  { meta: jievarasMeta, Content: JievarasContentEn, contentByLang: { en: JievarasContentEn, lt: JievarasContentLt, lv: JievarasContentLv } },
-  { meta: atlaibosMeta, Content: AtlaibosContentEn, contentByLang: { en: AtlaibosContentEn, lt: AtlaibosContentLt, lv: AtlaibosContentLv } },
-  // Batch 10
-  { meta: ratainicaMeta, Content: RatainicaContentEn, contentByLang: { en: RatainicaContentEn, lt: RatainicaContentLt, lv: RatainicaContentLv } },
-  { meta: aspelenieMeta, Content: AspelenieContentEn, contentByLang: { en: AspelenieContentEn, lt: AspelenieContentLt, lv: AspelenieContentLv } },
-  { meta: kempeMeta, Content: KempeContentEn, contentByLang: { en: KempeContentEn, lt: KempeContentLt, lv: KempeContentLv } },
-  { meta: kaurirarisMeta, Content: KaurirarisContentEn, contentByLang: { en: KaurirarisContentEn, lt: KaurirarisContentLt, lv: KaurirarisContentLv } },
-  { meta: kelukisMeta, Content: KelukisContentEn, contentByLang: { en: KelukisContentEn, lt: KelukisContentLt, lv: KelukisContentLv } },
-  { meta: kurvaitisMeta, Content: KurvaitisContentEn, contentByLang: { en: KurvaitisContentEn, lt: KurvaitisContentLt, lv: KurvaitisContentLv } },
-  { meta: upinisMeta, Content: UpinisContentEn, contentByLang: { en: UpinisContentEn, lt: UpinisContentLt, lv: UpinisContentLv } },
-  { meta: deivesValdytojsMeta, Content: DeivesValdytojasContentEn, contentByLang: { en: DeivesValdytojasContentEn, lt: DeivesValdytojasContentLt, lv: DeivesValdytojasContentLv } },
-  { meta: deiveMeta, Content: DeiveContentEn, contentByLang: { en: DeiveContentEn, lt: DeiveContentLt, lv: DeiveContentLv } },
-  { meta: girinisMeta, Content: GirinisContentEn, contentByLang: { en: GirinisContentEn, lt: GirinisContentLt, lv: GirinisContentLv } },
-  { meta: pagirinisMeta, Content: PagirinisBatchContentEn, contentByLang: { en: PagirinisBatchContentEn, lt: PagirinisBatchContentLt, lv: PagirinisBatchContentLv } },
-  { meta: babilosMeta, Content: BabilosContentEn, contentByLang: { en: BabilosContentEn, lt: BabilosContentLt, lv: BabilosContentLv } },
-  { meta: sutvarasMeta, Content: SutvarasContentEn, contentByLang: { en: SutvarasContentEn, lt: SutvarasContentLt, lv: SutvarasContentLv } },
-  { meta: tavalasMeta, Content: TavalasContentEn, contentByLang: { en: TavalasContentEn, lt: TavalasContentLt, lv: TavalasContentLv } },
-  { meta: gulbisMeta, Content: GulbisContentEn, contentByLang: { en: GulbisContentEn, lt: GulbisContentLt, lv: GulbisContentLv } },
-  { meta: ugniazaltisMeta, Content: UgniazaltisContentEn, contentByLang: { en: UgniazaltisContentEn, lt: UgniazaltisContentLt, lv: UgniazaltisContentLv } },
-  { meta: ausklautsMeta, Content: AusklautsContentEn, contentByLang: { en: AusklautsContentEn, lt: AusklautsContentLt, lv: AusklautsContentLv } },
-  { meta: bentisMeta, Content: BentisContentEn, contentByLang: { en: BentisContentEn, lt: BentisContentLt, lv: BentisContentLv } },
-  { meta: lietuvonisMeta, Content: LietuvonisContentEn, contentByLang: { en: LietuvonisContentEn, lt: LietuvonisContentLt, lv: LietuvonisContentLv } },
-  { meta: kalvelisMeta, Content: KalvelisContentEn, contentByLang: { en: KalvelisContentEn, lt: KalvelisContentLt, lv: KalvelisContentLv } },
-  // Batch 12
-  { meta: kirkisMeta, Content: KirkisContentEn, contentByLang: { en: KirkisContentEn, lt: KirkisContentLt, lv: KirkisContentLv } },
-  { meta: piziusMeta, Content: PiziusContentEn, contentByLang: { en: PiziusContentEn, lt: PiziusContentLt, lv: PiziusContentLv } },
-  { meta: devintosMeta, Content: DevintosContentEn, contentByLang: { en: DevintosContentEn, lt: DevintosContentLt, lv: DevintosContentLv } },
-  { meta: gulbiMeta, Content: GulbiContentEn, contentByLang: { en: GulbiContentEn, lt: GulbiContentLt, lv: GulbiContentLv } },
-  { meta: vaivoraMeta, Content: VaivoraContentEn, contentByLang: { en: VaivoraContentEn, lt: VaivoraContentLt, lv: VaivoraContentLv } },
-  { meta: perkunasTikrasMeta, Content: PerkunasTikrasContentEn, contentByLang: { en: PerkunasTikrasContentEn, lt: PerkunasTikrasContentLt, lv: PerkunasTikrasContentLv } },
-  { meta: zemininkasMeta, Content: ZemininkasContentEn, contentByLang: { en: ZemininkasContentEn, lt: ZemininkasContentLt, lv: ZemininkasContentLv } },
-  { meta: prigirstisMeta, Content: PrigirstisContentEn, contentByLang: { en: PrigirstisContentEn, lt: PrigirstisContentLt, lv: PrigirstisContentLv } },
-  { meta: salausMeta, Content: SalausContentEn, contentByLang: { en: SalausContentEn, lt: SalausContentLt, lv: SalausContentLv } },
-  { meta: srutisMeta, Content: SrutisContentEn, contentByLang: { en: SrutisContentEn, lt: SrutisContentLt, lv: SrutisContentLv } },
-  { meta: skalsaMeta, Content: SkalsaContentEn, contentByLang: { en: SkalsaContentEn, lt: SkalsaContentLt, lv: SkalsaContentLv } },
-  { meta: dausosMeta, Content: DausosContentEn, contentByLang: { en: DausosContentEn, lt: DausosContentLt, lv: DausosContentLv } },
-  { meta: laimeAbstractMeta, Content: LaimeAbstractContentEn, contentByLang: { en: LaimeAbstractContentEn, lt: LaimeAbstractContentLt, lv: LaimeAbstractContentLv } },
-  { meta: negaliMeta, Content: NegaliContentEn, contentByLang: { en: NegaliContentEn, lt: NegaliContentLt, lv: NegaliContentLv } },
-  { meta: dievaitisMeta, Content: DievaitisContentEn, contentByLang: { en: DievaitisContentEn, lt: DievaitisContentLt, lv: DievaitisContentLv } },
-  { meta: birdGoddessMeta, Content: BirdGoddessContentEn, contentByLang: { en: BirdGoddessContentEn, lt: BirdGoddessContentLt, lv: BirdGoddessContentLv } },
-  { meta: snakeGoddessMeta, Content: SnakeGoddessContentEn, contentByLang: { en: SnakeGoddessContentEn, lt: SnakeGoddessContentLt, lv: SnakeGoddessContentLv } },
-  { meta: whiteLadyMeta, Content: WhiteLadyContentEn, contentByLang: { en: WhiteLadyContentEn, lt: WhiteLadyContentLt, lv: WhiteLadyContentLv } },
-  { meta: deerMotherMeta, Content: DeerMotherContentEn, contentByLang: { en: DeerMotherContentEn, lt: DeerMotherContentLt, lv: DeerMotherContentLv } },
-  { meta: velnioMotinaMeta, Content: VelnioMotinaContentEn, contentByLang: { en: VelnioMotinaContentEn, lt: VelnioMotinaContentLt, lv: VelnioMotinaContentLv } },
-  { meta: ausraMeta, Content: AusraContentEn, contentByLang: { en: AusraContentEn, lt: AusraContentLt, lv: AusraContentLv } },
-  { meta: spindulysMeta, Content: SpindulysContentEn, contentByLang: { en: SpindulysContentEn, lt: SpindulysContentLt, lv: SpindulysContentLv } },
-  { meta: maroDeiveMeta, Content: MaroDeiveContentEn, contentByLang: { en: MaroDeiveContentEn, lt: MaroDeiveContentLt, lv: MaroDeiveContentLv } },
-  { meta: pjutisDievasMeta, Content: PjutisDievasContentEn, contentByLang: { en: PjutisDievasContentEn, lt: PjutisDievasContentLt, lv: PjutisDievasContentLv } },
-  { meta: perkunoOzelisMeta, Content: PerkunoOzelisContentEn, contentByLang: { en: PerkunoOzelisContentEn, lt: PerkunoOzelisContentLt, lv: PerkunoOzelisContentLv } },
-  { meta: perkunoKulkaMeta, Content: PerkunoKulkaContentEn, contentByLang: { en: PerkunoKulkaContentEn, lt: PerkunoKulkaContentLt, lv: PerkunoKulkaContentLv } },
-  { meta: perkunoRyksteMeta, Content: PerkunoRyksteContentEn, contentByLang: { en: PerkunoRyksteContentEn, lt: PerkunoRyksteContentLt, lv: PerkunoRyksteContentLv } },
-  { meta: pincukasMeta, Content: PincukasContentEn, contentByLang: { en: PincukasContentEn, lt: PincukasContentLt, lv: PincukasContentLv } },
-  { meta: ezeruSeimininkeMeta, Content: EzeruSeimininkeContentEn, contentByLang: { en: EzeruSeimininkeContentEn, lt: EzeruSeimininkeContentLt, lv: EzeruSeimininkeContentLv } },
-  { meta: milineMeta, Content: MilineContentEn, contentByLang: { en: MilineContentEn, lt: MilineContentLt, lv: MilineContentLv } },
-  { meta: ziburinisMeta, Content: ZiburinisContentEn, contentByLang: { en: ZiburinisContentEn, lt: ZiburinisContentLt, lv: ZiburinisContentLv } },
-  { meta: debesuKareivisMeta, Content: DebesuKareivisContentEn, contentByLang: { en: DebesuKareivisContentEn, lt: DebesuKareivisContentLt, lv: DebesuKareivisContentLv } },
-  { meta: duobkasisMeta, Content: DuobkasisContentEn, contentByLang: { en: DuobkasisContentEn, lt: DuobkasisContentLt, lv: DuobkasisContentLv } },
-  // Batch 16
-  { meta: sutartiniuDievaiciaiMeta, Content: SutartiniuDievaiciaiContentEn, contentByLang: { en: SutartiniuDievaiciaiContentEn, lt: SutartiniuDievaiciaiContentLt, lv: SutartiniuDievaiciaiContentLv } },
-  { meta: ladutisMeta, Content: LadutisContentEn, contentByLang: { en: LadutisContentEn, lt: LadutisContentLt, lv: LadutisContentLv } },
-  { meta: deivesCultMeta, Content: DeivesCultContentEn, contentByLang: { en: DeivesCultContentEn, lt: DeivesCultContentLt, lv: DeivesCultContentLv } },
-  { meta: gabijosUgnisMeta, Content: GabijosUgnisContentEn, contentByLang: { en: GabijosUgnisContentEn, lt: GabijosUgnisContentLt, lv: GabijosUgnisContentLv } },
-  { meta: zaltvykslesMeta, Content: ZaltvykslesContentEn, contentByLang: { en: ZaltvykslesContentEn, lt: ZaltvykslesContentLt, lv: ZaltvykslesContentLv } },
-  { meta: tavalisMeta, Content: TavalisContentEn, contentByLang: { en: TavalisContentEn, lt: TavalisContentLt, lv: TavalisContentLv } },
-  { meta: tiklisMeta, Content: TiklisContentEn, contentByLang: { en: TiklisContentEn, lt: TiklisContentLt, lv: TiklisContentLv } },
-  { meta: algisMeta, Content: AlgisContentEn, contentByLang: { en: AlgisContentEn, lt: AlgisContentLt, lv: AlgisContentLv } },
-  { meta: bendikasMeta, Content: BendikasContentEn, contentByLang: { en: BendikasContentEn, lt: BendikasContentLt, lv: BendikasContentLv } },
-  { meta: slaitisMeta, Content: SlaitisContentEn, contentByLang: { en: SlaitisContentEn, lt: SlaitisContentLt, lv: SlaitisContentLv } },
-  { meta: vetustisMeta, Content: VetustisContentEn, contentByLang: { en: VetustisContentEn, lt: VetustisContentLt, lv: VetustisContentLv } },
-  { meta: saukstisMeta, Content: SaukstisContentEn, contentByLang: { en: SaukstisContentEn, lt: SaukstisContentLt, lv: SaukstisContentLv } },
-  // Batch 17
-  { meta: martinsMeta, Content: MartinsContentEn, contentByLang: { en: MartinsContentEn, lt: MartinsContentLt, lv: MartinsContentLv } },
-  { meta: jodsMeta, Content: JodsContentEn, contentByLang: { en: JodsContentEn, lt: JodsContentLt, lv: JodsContentLv } },
-  { meta: banguMateMeta, Content: BanguMateContentEn, contentByLang: { en: BanguMateContentEn, lt: BanguMateContentLt, lv: BanguMateContentLv } },
-  { meta: upesMateMeta, Content: UpesMateContentEn, contentByLang: { en: UpesMateContentEn, lt: UpesMateContentLt, lv: UpesMateContentLv } },
-  { meta: lietusMateMeta, Content: LietusMateContentEn, contentByLang: { en: LietusMateContentEn, lt: LietusMateContentLt, lv: LietusMateContentLv } },
-  { meta: miglasMateMeta, Content: MiglasMateContentEn, contentByLang: { en: MiglasMateContentEn, lt: MiglasMateContentLt, lv: MiglasMateContentLv } },
-  { meta: salnaMateMeta, Content: SalnaMateContentEn, contentByLang: { en: SalnaMateContentEn, lt: SalnaMateContentLt, lv: SalnaMateContentLv } },
-];
-
-export const deityBySlug = Object.fromEntries(
-  deities.map((entry) => [entry.meta.slug, entry]),
-) as Record<string, DeityEntry>;
-
-export const allLocations: LocationPoint[] = deities.flatMap(
-  (entry) => entry.meta.locations,
-);
-
-export function findLocationById(id: string) {
-  return allLocations.find((location) => location.id === id);
-}
+export const deities: DeityEntry[] = Object.values(deityBySlug);

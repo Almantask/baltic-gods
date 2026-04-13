@@ -1,10 +1,18 @@
 ---
-name: LLM Researcher
+name: llm-researcher
 description: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
 tools:
   - codebase
-  - editFiles
-  - terminalCommand
+  - list_directory
+  - read_file
+  - grep_search
+  - glob
+  - replace
+  - write_file
+  - run_shell_command
+  - save_memory
+  - ask_user
+  - enter_plan_mode
 ---
 
 # LLM Researcher

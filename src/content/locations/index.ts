@@ -1,317 +1,879 @@
+// AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY.
+// Run 'npm run generate' to update.
+
 import * as React from "react";
+import dynamic from "next/dynamic";
 import type { Language, LocationEntry, LocationMeta, LocationPoint } from "@/types/content";
+import * as meta from "./meta";
 
-// Ensure React has a default export for MDX runtime expectations.
 (React as unknown as { default?: typeof React }).default ??= React;
-import {
-  aukstaiciaiLakeMeta,
-  aukstaitijaOaksMeta,
-  druskininkaiMistMeta,
-  dzukijaMeadowMeta,
-  gaujaCorridorMeta,
-  jelgavaStoneMeta,
-  jurmalaShoreMeta,
-  kaunasHearthMeta,
-  klaipedaDriftMeta,
-  kolkaSurgeMeta,
-  kernaveMoundsMeta,
-  latgaleHiveMeta,
-  madonaEmberMeta,
-  nidaDunesMeta,
-  rigaSpiresMeta,
-  samogitiaStandMeta,
-  siguldaSpringsMeta,
-  siauliaiHillMeta,
-  telsiaiAltarsMeta,
-  ventspilsShoreMeta,
-  vilniusThreadMeta,
-  zemaitijaSkyMeta,
-  anyksciaiForestMeta,
-  salantaiBurialMeta,
-  rundaleFieldsMeta,
-  turaidaSpringsMeta,
-  palangaAmberMeta,
-  sventojiOaksMeta,
-  sventaragisValleyMeta,
-  rambynasHillMeta,
-  biruteHillMeta,
-  lopaiciaiComplexMeta,
-  hillOfCrossesMeta,
-  verkiaiGroveMeta,
-  kaunasConfluenceMeta,
-  zaltvyksleSpringMeta,
-  witchesHillMeta,
-  satrijaHillMeta,
-  medvegalisHillMeta,
-  puntukasBoulderMeta,
-  dubingiaiSanctuaryMeta,
-  zilaiskalnsHillMeta,
-  staburagsCliffMeta,
-  daugavaBendsMeta,
-  ergluKlintisMeta,
-  mezotneMoundMeta,
-  pokainiForestMeta,
-  selpilsMoundMeta,
-  terveteMoundMeta,
-  lielvardeParkMeta,
-  kemeriSanctuaryMeta,
-  romuvaSanctuaryMeta,
-  balgaFortressMeta,
-  ragnitMoundMeta,
-  swentomestGroveMeta,
-  kaupBurialMeta,
-  trusoEmporiumMeta,
-  twangsteHillMeta,
-  pomeranianStonesMeta,
-  labiauFortressMeta,
-  tilsitHillMeta,
-  turaidaHillMeta,
-  talsiHillsMeta,
-  kuldigaSpringMeta,
-  rezekneHillMeta,
-  dobeleMoundMeta,
-  araisiLakeMeta,
-  girgzduteHillMeta,
-  sprudeHillMeta,
-  birstonasSpringsMeta,
-  durbeSiteMeta,
-  alkaHillsMeta,
-  belmontoStoneMeta,
-  sventojiShrineMeta,
-  seimyniskeliaiFortMeta,
-  panemuneMoundMeta,
-  zagareStonesMeta,
-  pagramantisOakMeta,
-  anyksciaiSilelisMeta,
-  joniskisGroveMeta,
-  tytuvenaiSpringMeta,
-  imbareFortMeta,
-  limbazuEzersMeta,
-  sabileHillMeta,
-  aizkraukleCenterMeta,
-  beverinaCastleMeta,
-  cesisHillMeta,
-  krustpilsMoundMeta,
-  alytusConfluenceMeta,
-  kaunoMariosMeta,
-  romuvaGroveMeta,
-  rundaleSurroundingsMeta,
-  grobinaSiteMeta,
-  rumsiskesMuseumMeta,
-} from "./meta";
-import AukstaitijaOaksContentEn from "./en/aukstaitija-oaks.mdx";
-import JelgavaStoneContentEn from "./en/jelgava-stone.mdx";
-import SiauliaiHillContentEn from "./en/siauliai-hill.mdx";
-import JurmalaShoreContentEn from "./en/jurmala-shore.mdx";
-import SiguldaSpringsContentEn from "./en/sigulda-springs.mdx";
-import VilniusThreadContentEn from "./en/vilnius-thread.mdx";
-import KernaveMoundsContentEn from "./en/kernave-mounds.mdx";
-import TelsiaiAltarsContentEn from "./en/telsiai-altars.mdx";
-import DruskininkaiMistContentEn from "./en/druskininkai-mist.mdx";
-import NidaDunesContentEn from "./en/nida-dunes.mdx";
-import DzukijaMeadowContentEn from "./en/dzukija-meadow.mdx";
-import LatgaleHiveContentEn from "./en/latgale-hive.mdx";
-import AukstaiciaiLakeContentEn from "./en/aukstaiciai-lake.mdx";
-import VentspilsShoreContentEn from "./en/ventspils-shore.mdx";
-import RigaSpiresContentEn from "./en/riga-spires.mdx";
-import ZemaitijaSkyContentEn from "./en/zemaitija-sky.mdx";
-import KaunasHearthContentEn from "./en/kaunas-hearth.mdx";
-import MadonaEmberContentEn from "./en/madona-ember.mdx";
-import KlaipedaDriftContentEn from "./en/klaipeda-drift.mdx";
-import KolkaSurgeContentEn from "./en/kolka-surge.mdx";
-import SamogitiaStandContentEn from "./en/samogitia-stand.mdx";
-import GaujaCorridorContentEn from "./en/gauja-corridor.mdx";
-import AnyksciaiForestContentEn from "./en/anyksciai-forest.mdx";
-import SalantaiBurialContentEn from "./en/salantai-burial.mdx";
-import RundaleFieldsContentEn from "./en/rundale-fields.mdx";
-import TuraidaSpringsContentEn from "./en/turaida-springs.mdx";
-import PalangaAmberContentEn from "./en/palanga-amber.mdx";
-import SventojiOaksContentEn from "./en/sventoji-oaks.mdx";
-import SventaragisValleyContentEn from "./en/sventaragis-valley.mdx";
-import RambynasHillContentEn from "./en/rambynas-hill.mdx";
-import BiruteHillContentEn from "./en/birute-hill.mdx";
-import LopaiciaiComplexContentEn from "./en/lopaiciai-complex.mdx";
-import HillOfCrossesContentEn from "./en/hill-of-crosses.mdx";
-import VerkiaiGroveContentEn from "./en/verkiai-grove.mdx";
-import KaunasConfluenceContentEn from "./en/kaunas-confluence.mdx";
-import ZaltvyksleSpringContentEn from "./en/zaltvyksle-spring.mdx";
-import WitchesHillContentEn from "./en/witches-hill.mdx";
-import SatrijaHillContentEn from "./en/satrija-hill.mdx";
-import MedvegalisHillContentEn from "./en/medvegalis-hill.mdx";
-import PuntukasBoulderContentEn from "./en/puntukas-boulder.mdx";
-import DubingiaiSanctuaryContentEn from "./en/dubingiai-sanctuary.mdx";
-import ZilaiskalnsHillContentEn from "./en/zilaiskalns-hill.mdx";
-import StaburagsCliffContentEn from "./en/staburags-cliff.mdx";
-import DaugavaBendsContentEn from "./en/daugava-bends.mdx";
-import ErgluKlintisContentEn from "./en/erglu-klintis.mdx";
-import MezotneMoundContentEn from "./en/mezotne-mound.mdx";
-import PokainiForestContentEn from "./en/pokaini-forest.mdx";
-import SelpilsMoundContentEn from "./en/selpils-mound.mdx";
-import TerveteMoundContentEn from "./en/tervete-mound.mdx";
-import LielvardeParkContentEn from "./en/lielvarde-park.mdx";
-import KemeriSanctuaryContentEn from "./en/kemeri-sanctuary.mdx";
-import RomuvaSanctuaryContentEn from "./en/romuva-sanctuary.mdx";
-import BalgaFortressContentEn from "./en/balga-fortress.mdx";
-import RagnitMoundContentEn from "./en/ragnit-mound.mdx";
-import SwentomestGroveContentEn from "./en/swentomest-grove.mdx";
-import KaupBurialContentEn from "./en/kaup-burial.mdx";
-import TrusoEmporiumContentEn from "./en/truso-emporium.mdx";
-import TwangsteHillContentEn from "./en/twangste-hill.mdx";
-import PomeranianStonesContentEn from "./en/pomeranian-stones.mdx";
-import LabiauFortressContentEn from "./en/labiau-fortress.mdx";
-import TilsitHillContentEn from "./en/tilsit-hill.mdx";
-import TuraidaHillContentEn from "./en/turaida-hill.mdx";
-import TalsiHillsContentEn from "./en/talsi-hills.mdx";
-import KuldigaSpringContentEn from "./en/kuldiga-spring.mdx";
-import RezekneHillContentEn from "./en/rezekne-hill.mdx";
-import DobeleMoundContentEn from "./en/dobele-mound.mdx";
-import AraisiLakeContentEn from "./en/araisi-lake.mdx";
-import GirgzduteHillContentEn from "./en/girgzdute-hill.mdx";
-import SprudeHillContentEn from "./en/sprude-hill.mdx";
-import BirstonasSpringsContentEn from "./en/birstonas-springs.mdx";
-import DurbeSiteContentEn from "./en/durbe-site.mdx";
-import AlkaHillsContentEn from "./en/alka-hills.mdx";
-import BelmontoStoneContentEn from "./en/belmonto-stone.mdx";
-import SventojiShrineContentEn from "./en/sventoji-shrine.mdx";
-import SeimyniskeliaiFortContentEn from "./en/seimyniskeliai-fort.mdx";
-import PanemuneMoundContentEn from "./en/panemune-mound.mdx";
-import ZagareStonesContentEn from "./en/zagare-stones.mdx";
-import PagramantisOakContentEn from "./en/pagramantis-oak.mdx";
-import AnyksciaiSilelisContentEn from "./en/anyksciai-silelis.mdx";
-import JoniskisGroveContentEn from "./en/joniskis-grove.mdx";
-import TytuvenaiSpringContentEn from "./en/tytuvenai-spring.mdx";
-import ImbareFortContentEn from "./en/imbare-fort.mdx";
-import LimbazuEzersContentEn from "./en/limbazu-ezers.mdx";
-import SabileHillContentEn from "./en/sabile-hill.mdx";
-import AizkraukleCenterContentEn from "./en/aizkraukle-center.mdx";
-import BeverinaCastleContentEn from "./en/beverina-castle.mdx";
-import CesisHillContentEn from "./en/cesis-hill.mdx";
-import KrustpilsMoundContentEn from "./en/krustpils-mound.mdx";
-import AlytusConfluenceContentEn from "./en/alytus-confluence.mdx";
-import KaunoMariosContentEn from "./en/kauno-marios.mdx";
-import RomuvaGroveContentEn from "./en/romuva-grove.mdx";
-import RundaleSurroundingsContentEn from "./en/rundale-surroundings.mdx";
-import GrobinaSiteContentEn from "./en/grobina-site.mdx";
-import RumsiskesMuseumContentEn from "./en/rumsiskes-museum.mdx";
 
-export const locationEntries: LocationEntry[] = [
-  { meta: aukstaitijaOaksMeta, Content: AukstaitijaOaksContentEn, contentByLang: { en: AukstaitijaOaksContentEn, lt: AukstaitijaOaksContentEn, lv: AukstaitijaOaksContentEn } },
-  { meta: jelgavaStoneMeta, Content: JelgavaStoneContentEn, contentByLang: { en: JelgavaStoneContentEn, lt: JelgavaStoneContentEn, lv: JelgavaStoneContentEn } },
-  { meta: siauliaiHillMeta, Content: SiauliaiHillContentEn, contentByLang: { en: SiauliaiHillContentEn, lt: SiauliaiHillContentEn, lv: SiauliaiHillContentEn } },
-  { meta: jurmalaShoreMeta, Content: JurmalaShoreContentEn, contentByLang: { en: JurmalaShoreContentEn, lt: JurmalaShoreContentEn, lv: JurmalaShoreContentEn } },
-  { meta: siguldaSpringsMeta, Content: SiguldaSpringsContentEn, contentByLang: { en: SiguldaSpringsContentEn, lt: SiguldaSpringsContentEn, lv: SiguldaSpringsContentEn } },
-  { meta: vilniusThreadMeta, Content: VilniusThreadContentEn, contentByLang: { en: VilniusThreadContentEn, lt: VilniusThreadContentEn, lv: VilniusThreadContentEn } },
-  { meta: kernaveMoundsMeta, Content: KernaveMoundsContentEn, contentByLang: { en: KernaveMoundsContentEn, lt: KernaveMoundsContentEn, lv: KernaveMoundsContentEn } },
-  { meta: telsiaiAltarsMeta, Content: TelsiaiAltarsContentEn, contentByLang: { en: TelsiaiAltarsContentEn, lt: TelsiaiAltarsContentEn, lv: TelsiaiAltarsContentEn } },
-  { meta: druskininkaiMistMeta, Content: DruskininkaiMistContentEn, contentByLang: { en: DruskininkaiMistContentEn, lt: DruskininkaiMistContentEn, lv: DruskininkaiMistContentEn } },
-  { meta: nidaDunesMeta, Content: NidaDunesContentEn, contentByLang: { en: NidaDunesContentEn, lt: NidaDunesContentEn, lv: NidaDunesContentEn } },
-  { meta: dzukijaMeadowMeta, Content: DzukijaMeadowContentEn, contentByLang: { en: DzukijaMeadowContentEn, lt: DzukijaMeadowContentEn, lv: DzukijaMeadowContentEn } },
-  { meta: latgaleHiveMeta, Content: LatgaleHiveContentEn, contentByLang: { en: LatgaleHiveContentEn, lt: LatgaleHiveContentEn, lv: LatgaleHiveContentEn } },
-  { meta: aukstaiciaiLakeMeta, Content: AukstaiciaiLakeContentEn, contentByLang: { en: AukstaiciaiLakeContentEn, lt: AukstaiciaiLakeContentEn, lv: AukstaiciaiLakeContentEn } },
-  { meta: ventspilsShoreMeta, Content: VentspilsShoreContentEn, contentByLang: { en: VentspilsShoreContentEn, lt: VentspilsShoreContentEn, lv: VentspilsShoreContentEn } },
-  { meta: rigaSpiresMeta, Content: RigaSpiresContentEn, contentByLang: { en: RigaSpiresContentEn, lt: RigaSpiresContentEn, lv: RigaSpiresContentEn } },
-  { meta: zemaitijaSkyMeta, Content: ZemaitijaSkyContentEn, contentByLang: { en: ZemaitijaSkyContentEn, lt: ZemaitijaSkyContentEn, lv: ZemaitijaSkyContentEn } },
-  { meta: kaunasHearthMeta, Content: KaunasHearthContentEn, contentByLang: { en: KaunasHearthContentEn, lt: KaunasHearthContentEn, lv: KaunasHearthContentEn } },
-  { meta: madonaEmberMeta, Content: MadonaEmberContentEn, contentByLang: { en: MadonaEmberContentEn, lt: MadonaEmberContentEn, lv: MadonaEmberContentEn } },
-  { meta: klaipedaDriftMeta, Content: KlaipedaDriftContentEn, contentByLang: { en: KlaipedaDriftContentEn, lt: KlaipedaDriftContentEn, lv: KlaipedaDriftContentEn } },
-  { meta: kolkaSurgeMeta, Content: KolkaSurgeContentEn, contentByLang: { en: KolkaSurgeContentEn, lt: KolkaSurgeContentEn, lv: KolkaSurgeContentEn } },
-  { meta: samogitiaStandMeta, Content: SamogitiaStandContentEn, contentByLang: { en: SamogitiaStandContentEn, lt: SamogitiaStandContentEn, lv: SamogitiaStandContentEn } },
-  { meta: gaujaCorridorMeta, Content: GaujaCorridorContentEn, contentByLang: { en: GaujaCorridorContentEn, lt: GaujaCorridorContentEn, lv: GaujaCorridorContentEn } },
-  { meta: anyksciaiForestMeta, Content: AnyksciaiForestContentEn, contentByLang: { en: AnyksciaiForestContentEn, lt: AnyksciaiForestContentEn, lv: AnyksciaiForestContentEn } },
-  { meta: salantaiBurialMeta, Content: SalantaiBurialContentEn, contentByLang: { en: SalantaiBurialContentEn, lt: SalantaiBurialContentEn, lv: SalantaiBurialContentEn } },
-  { meta: rundaleFieldsMeta, Content: RundaleFieldsContentEn, contentByLang: { en: RundaleFieldsContentEn, lt: RundaleFieldsContentEn, lv: RundaleFieldsContentEn } },
-  { meta: turaidaSpringsMeta, Content: TuraidaSpringsContentEn, contentByLang: { en: TuraidaSpringsContentEn, lt: TuraidaSpringsContentEn, lv: TuraidaSpringsContentEn } },
-  { meta: palangaAmberMeta, Content: PalangaAmberContentEn, contentByLang: { en: PalangaAmberContentEn, lt: PalangaAmberContentEn, lv: PalangaAmberContentEn } },
-  { meta: sventojiOaksMeta, Content: SventojiOaksContentEn, contentByLang: { en: SventojiOaksContentEn, lt: SventojiOaksContentEn, lv: SventojiOaksContentEn } },
-  { meta: sventaragisValleyMeta, Content: SventaragisValleyContentEn, contentByLang: { en: SventaragisValleyContentEn, lt: SventaragisValleyContentEn, lv: SventaragisValleyContentEn } },
-  { meta: rambynasHillMeta, Content: RambynasHillContentEn, contentByLang: { en: RambynasHillContentEn, lt: RambynasHillContentEn, lv: RambynasHillContentEn } },
-  { meta: biruteHillMeta, Content: BiruteHillContentEn, contentByLang: { en: BiruteHillContentEn, lt: BiruteHillContentEn, lv: BiruteHillContentEn } },
-  { meta: lopaiciaiComplexMeta, Content: LopaiciaiComplexContentEn, contentByLang: { en: LopaiciaiComplexContentEn, lt: LopaiciaiComplexContentEn, lv: LopaiciaiComplexContentEn } },
-  { meta: hillOfCrossesMeta, Content: HillOfCrossesContentEn, contentByLang: { en: HillOfCrossesContentEn, lt: HillOfCrossesContentEn, lv: HillOfCrossesContentEn } },
-  { meta: verkiaiGroveMeta, Content: VerkiaiGroveContentEn, contentByLang: { en: VerkiaiGroveContentEn, lt: VerkiaiGroveContentEn, lv: VerkiaiGroveContentEn } },
-  { meta: kaunasConfluenceMeta, Content: KaunasConfluenceContentEn, contentByLang: { en: KaunasConfluenceContentEn, lt: KaunasConfluenceContentEn, lv: KaunasConfluenceContentEn } },
-  { meta: zaltvyksleSpringMeta, Content: ZaltvyksleSpringContentEn, contentByLang: { en: ZaltvyksleSpringContentEn, lt: ZaltvyksleSpringContentEn, lv: ZaltvyksleSpringContentEn } },
-  { meta: witchesHillMeta, Content: WitchesHillContentEn, contentByLang: { en: WitchesHillContentEn, lt: WitchesHillContentEn, lv: WitchesHillContentEn } },
-  { meta: satrijaHillMeta, Content: SatrijaHillContentEn, contentByLang: { en: SatrijaHillContentEn, lt: SatrijaHillContentEn, lv: SatrijaHillContentEn } },
-  { meta: medvegalisHillMeta, Content: MedvegalisHillContentEn, contentByLang: { en: MedvegalisHillContentEn, lt: MedvegalisHillContentEn, lv: MedvegalisHillContentEn } },
-  { meta: puntukasBoulderMeta, Content: PuntukasBoulderContentEn, contentByLang: { en: PuntukasBoulderContentEn, lt: PuntukasBoulderContentEn, lv: PuntukasBoulderContentEn } },
-  { meta: dubingiaiSanctuaryMeta, Content: DubingiaiSanctuaryContentEn, contentByLang: { en: DubingiaiSanctuaryContentEn, lt: DubingiaiSanctuaryContentEn, lv: DubingiaiSanctuaryContentEn } },
-  { meta: zilaiskalnsHillMeta, Content: ZilaiskalnsHillContentEn, contentByLang: { en: ZilaiskalnsHillContentEn, lt: ZilaiskalnsHillContentEn, lv: ZilaiskalnsHillContentEn } },
-  { meta: staburagsCliffMeta, Content: StaburagsCliffContentEn, contentByLang: { en: StaburagsCliffContentEn, lt: StaburagsCliffContentEn, lv: StaburagsCliffContentEn } },
-  { meta: daugavaBendsMeta, Content: DaugavaBendsContentEn, contentByLang: { en: DaugavaBendsContentEn, lt: DaugavaBendsContentEn, lv: DaugavaBendsContentEn } },
-  { meta: ergluKlintisMeta, Content: ErgluKlintisContentEn, contentByLang: { en: ErgluKlintisContentEn, lt: ErgluKlintisContentEn, lv: ErgluKlintisContentEn } },
-  { meta: mezotneMoundMeta, Content: MezotneMoundContentEn, contentByLang: { en: MezotneMoundContentEn, lt: MezotneMoundContentEn, lv: MezotneMoundContentEn } },
-  { meta: pokainiForestMeta, Content: PokainiForestContentEn, contentByLang: { en: PokainiForestContentEn, lt: PokainiForestContentEn, lv: PokainiForestContentEn } },
-  { meta: selpilsMoundMeta, Content: SelpilsMoundContentEn, contentByLang: { en: SelpilsMoundContentEn, lt: SelpilsMoundContentEn, lv: SelpilsMoundContentEn } },
-  { meta: terveteMoundMeta, Content: TerveteMoundContentEn, contentByLang: { en: TerveteMoundContentEn, lt: TerveteMoundContentEn, lv: TerveteMoundContentEn } },
-  { meta: lielvardeParkMeta, Content: LielvardeParkContentEn, contentByLang: { en: LielvardeParkContentEn, lt: LielvardeParkContentEn, lv: LielvardeParkContentEn } },
-  { meta: kemeriSanctuaryMeta, Content: KemeriSanctuaryContentEn, contentByLang: { en: KemeriSanctuaryContentEn, lt: KemeriSanctuaryContentEn, lv: KemeriSanctuaryContentEn } },
-  { meta: romuvaSanctuaryMeta, Content: RomuvaSanctuaryContentEn, contentByLang: { en: RomuvaSanctuaryContentEn, lt: RomuvaSanctuaryContentEn, lv: RomuvaSanctuaryContentEn } },
-  { meta: balgaFortressMeta, Content: BalgaFortressContentEn, contentByLang: { en: BalgaFortressContentEn, lt: BalgaFortressContentEn, lv: BalgaFortressContentEn } },
-  { meta: ragnitMoundMeta, Content: RagnitMoundContentEn, contentByLang: { en: RagnitMoundContentEn, lt: RagnitMoundContentEn, lv: RagnitMoundContentEn } },
-  { meta: swentomestGroveMeta, Content: SwentomestGroveContentEn, contentByLang: { en: SwentomestGroveContentEn, lt: SwentomestGroveContentEn, lv: SwentomestGroveContentEn } },
-  { meta: kaupBurialMeta, Content: KaupBurialContentEn, contentByLang: { en: KaupBurialContentEn, lt: KaupBurialContentEn, lv: KaupBurialContentEn } },
-  { meta: trusoEmporiumMeta, Content: TrusoEmporiumContentEn, contentByLang: { en: TrusoEmporiumContentEn, lt: TrusoEmporiumContentEn, lv: TrusoEmporiumContentEn } },
-  { meta: twangsteHillMeta, Content: TwangsteHillContentEn, contentByLang: { en: TwangsteHillContentEn, lt: TwangsteHillContentEn, lv: TwangsteHillContentEn } },
-  { meta: pomeranianStonesMeta, Content: PomeranianStonesContentEn, contentByLang: { en: PomeranianStonesContentEn, lt: PomeranianStonesContentEn, lv: PomeranianStonesContentEn } },
-  { meta: labiauFortressMeta, Content: LabiauFortressContentEn, contentByLang: { en: LabiauFortressContentEn, lt: LabiauFortressContentEn, lv: LabiauFortressContentEn } },
-  { meta: tilsitHillMeta, Content: TilsitHillContentEn, contentByLang: { en: TilsitHillContentEn, lt: TilsitHillContentEn, lv: TilsitHillContentEn } },
-  { meta: turaidaHillMeta, Content: TuraidaHillContentEn, contentByLang: { en: TuraidaHillContentEn, lt: TuraidaHillContentEn, lv: TuraidaHillContentEn } },
-  { meta: talsiHillsMeta, Content: TalsiHillsContentEn, contentByLang: { en: TalsiHillsContentEn, lt: TalsiHillsContentEn, lv: TalsiHillsContentEn } },
-  { meta: kuldigaSpringMeta, Content: KuldigaSpringContentEn, contentByLang: { en: KuldigaSpringContentEn, lt: KuldigaSpringContentEn, lv: KuldigaSpringContentEn } },
-  { meta: rezekneHillMeta, Content: RezekneHillContentEn, contentByLang: { en: RezekneHillContentEn, lt: RezekneHillContentEn, lv: RezekneHillContentEn } },
-  { meta: dobeleMoundMeta, Content: DobeleMoundContentEn, contentByLang: { en: DobeleMoundContentEn, lt: DobeleMoundContentEn, lv: DobeleMoundContentEn } },
-  { meta: araisiLakeMeta, Content: AraisiLakeContentEn, contentByLang: { en: AraisiLakeContentEn, lt: AraisiLakeContentEn, lv: AraisiLakeContentEn } },
-  { meta: girgzduteHillMeta, Content: GirgzduteHillContentEn, contentByLang: { en: GirgzduteHillContentEn, lt: GirgzduteHillContentEn, lv: GirgzduteHillContentEn } },
-  { meta: sprudeHillMeta, Content: SprudeHillContentEn, contentByLang: { en: SprudeHillContentEn, lt: SprudeHillContentEn, lv: SprudeHillContentEn } },
-  { meta: birstonasSpringsMeta, Content: BirstonasSpringsContentEn, contentByLang: { en: BirstonasSpringsContentEn, lt: BirstonasSpringsContentEn, lv: BirstonasSpringsContentEn } },
-  { meta: durbeSiteMeta, Content: DurbeSiteContentEn, contentByLang: { en: DurbeSiteContentEn, lt: DurbeSiteContentEn, lv: DurbeSiteContentEn } },
-  { meta: alkaHillsMeta, Content: AlkaHillsContentEn, contentByLang: { en: AlkaHillsContentEn, lt: AlkaHillsContentEn, lv: AlkaHillsContentEn } },
-  { meta: belmontoStoneMeta, Content: BelmontoStoneContentEn, contentByLang: { en: BelmontoStoneContentEn, lt: BelmontoStoneContentEn, lv: BelmontoStoneContentEn } },
-  { meta: sventojiShrineMeta, Content: SventojiShrineContentEn, contentByLang: { en: SventojiShrineContentEn, lt: SventojiShrineContentEn, lv: SventojiShrineContentEn } },
-  { meta: seimyniskeliaiFortMeta, Content: SeimyniskeliaiFortContentEn, contentByLang: { en: SeimyniskeliaiFortContentEn, lt: SeimyniskeliaiFortContentEn, lv: SeimyniskeliaiFortContentEn } },
-  { meta: panemuneMoundMeta, Content: PanemuneMoundContentEn, contentByLang: { en: PanemuneMoundContentEn, lt: PanemuneMoundContentEn, lv: PanemuneMoundContentEn } },
-  { meta: zagareStonesMeta, Content: ZagareStonesContentEn, contentByLang: { en: ZagareStonesContentEn, lt: ZagareStonesContentEn, lv: ZagareStonesContentEn } },
-  { meta: pagramantisOakMeta, Content: PagramantisOakContentEn, contentByLang: { en: PagramantisOakContentEn, lt: PagramantisOakContentEn, lv: PagramantisOakContentEn } },
-  { meta: anyksciaiSilelisMeta, Content: AnyksciaiSilelisContentEn, contentByLang: { en: AnyksciaiSilelisContentEn, lt: AnyksciaiSilelisContentEn, lv: AnyksciaiSilelisContentEn } },
-  { meta: joniskisGroveMeta, Content: JoniskisGroveContentEn, contentByLang: { en: JoniskisGroveContentEn, lt: JoniskisGroveContentEn, lv: JoniskisGroveContentEn } },
-  { meta: tytuvenaiSpringMeta, Content: TytuvenaiSpringContentEn, contentByLang: { en: TytuvenaiSpringContentEn, lt: TytuvenaiSpringContentEn, lv: TytuvenaiSpringContentEn } },
-  { meta: imbareFortMeta, Content: ImbareFortContentEn, contentByLang: { en: ImbareFortContentEn, lt: ImbareFortContentEn, lv: ImbareFortContentEn } },
-  { meta: limbazuEzersMeta, Content: LimbazuEzersContentEn, contentByLang: { en: LimbazuEzersContentEn, lt: LimbazuEzersContentEn, lv: LimbazuEzersContentEn } },
-  { meta: sabileHillMeta, Content: SabileHillContentEn, contentByLang: { en: SabileHillContentEn, lt: SabileHillContentEn, lv: SabileHillContentEn } },
-  { meta: aizkraukleCenterMeta, Content: AizkraukleCenterContentEn, contentByLang: { en: AizkraukleCenterContentEn, lt: AizkraukleCenterContentEn, lv: AizkraukleCenterContentEn } },
-  { meta: beverinaCastleMeta, Content: BeverinaCastleContentEn, contentByLang: { en: BeverinaCastleContentEn, lt: BeverinaCastleContentEn, lv: BeverinaCastleContentEn } },
-  { meta: cesisHillMeta, Content: CesisHillContentEn, contentByLang: { en: CesisHillContentEn, lt: CesisHillContentEn, lv: CesisHillContentEn } },
-  { meta: krustpilsMoundMeta, Content: KrustpilsMoundContentEn, contentByLang: { en: KrustpilsMoundContentEn, lt: KrustpilsMoundContentEn, lv: KrustpilsMoundContentEn } },
-  { meta: alytusConfluenceMeta, Content: AlytusConfluenceContentEn, contentByLang: { en: AlytusConfluenceContentEn, lt: AlytusConfluenceContentEn, lv: AlytusConfluenceContentEn } },
-  { meta: kaunoMariosMeta, Content: KaunoMariosContentEn, contentByLang: { en: KaunoMariosContentEn, lt: KaunoMariosContentEn, lv: KaunoMariosContentEn } },
-  { meta: romuvaGroveMeta, Content: RomuvaGroveContentEn, contentByLang: { en: RomuvaGroveContentEn, lt: RomuvaGroveContentEn, lv: RomuvaGroveContentEn } },
-  { meta: rundaleSurroundingsMeta, Content: RundaleSurroundingsContentEn, contentByLang: { en: RundaleSurroundingsContentEn, lt: RundaleSurroundingsContentEn, lv: RundaleSurroundingsContentEn } },
-  { meta: grobinaSiteMeta, Content: GrobinaSiteContentEn, contentByLang: { en: GrobinaSiteContentEn, lt: GrobinaSiteContentEn, lv: GrobinaSiteContentEn } },
-  { meta: rumsiskesMuseumMeta, Content: RumsiskesMuseumContentEn, contentByLang: { en: RumsiskesMuseumContentEn, lt: RumsiskesMuseumContentEn, lv: RumsiskesMuseumContentEn } },
-];
+export const locationEntryById: Record<string, LocationEntry> = {
+  "aizkraukle-center": {
+    meta: meta.aizkraukleCenterMeta,
+    Content: dynamic(() => import("./en/aizkraukle-center.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/aizkraukle-center.mdx")),
+      lt: dynamic(() => import("./en/aizkraukle-center.mdx")),
+      lv: dynamic(() => import("./en/aizkraukle-center.mdx")),
+    }
+  },
+  "alka-hills": {
+    meta: meta.alkaHillsMeta,
+    Content: dynamic(() => import("./en/alka-hills.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/alka-hills.mdx")),
+      lt: dynamic(() => import("./en/alka-hills.mdx")),
+      lv: dynamic(() => import("./en/alka-hills.mdx")),
+    }
+  },
+  "alytus-confluence": {
+    meta: meta.alytusConfluenceMeta,
+    Content: dynamic(() => import("./en/alytus-confluence.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/alytus-confluence.mdx")),
+      lt: dynamic(() => import("./en/alytus-confluence.mdx")),
+      lv: dynamic(() => import("./en/alytus-confluence.mdx")),
+    }
+  },
+  "anyksciai-forest": {
+    meta: meta.anyksciaiForestMeta,
+    Content: dynamic(() => import("./en/anyksciai-forest.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/anyksciai-forest.mdx")),
+      lt: dynamic(() => import("./en/anyksciai-forest.mdx")),
+      lv: dynamic(() => import("./en/anyksciai-forest.mdx")),
+    }
+  },
+  "anyksciai-silelis": {
+    meta: meta.anyksciaiSilelisMeta,
+    Content: dynamic(() => import("./en/anyksciai-silelis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/anyksciai-silelis.mdx")),
+      lt: dynamic(() => import("./en/anyksciai-silelis.mdx")),
+      lv: dynamic(() => import("./en/anyksciai-silelis.mdx")),
+    }
+  },
+  "araisi-lake": {
+    meta: meta.araisiLakeMeta,
+    Content: dynamic(() => import("./en/araisi-lake.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/araisi-lake.mdx")),
+      lt: dynamic(() => import("./en/araisi-lake.mdx")),
+      lv: dynamic(() => import("./en/araisi-lake.mdx")),
+    }
+  },
+  "aukstaiciai-lake": {
+    meta: meta.aukstaiciaiLakeMeta,
+    Content: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
+      lt: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
+      lv: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
+    }
+  },
+  "aukstaitija-oaks": {
+    meta: meta.aukstaitijaOaksMeta,
+    Content: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
+      lt: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
+      lv: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
+    }
+  },
+  "balga-fortress": {
+    meta: meta.balgaFortressMeta,
+    Content: dynamic(() => import("./en/balga-fortress.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/balga-fortress.mdx")),
+      lt: dynamic(() => import("./en/balga-fortress.mdx")),
+      lv: dynamic(() => import("./en/balga-fortress.mdx")),
+    }
+  },
+  "belmonto-stone": {
+    meta: meta.belmontoStoneMeta,
+    Content: dynamic(() => import("./en/belmonto-stone.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/belmonto-stone.mdx")),
+      lt: dynamic(() => import("./en/belmonto-stone.mdx")),
+      lv: dynamic(() => import("./en/belmonto-stone.mdx")),
+    }
+  },
+  "beverina-castle": {
+    meta: meta.beverinaCastleMeta,
+    Content: dynamic(() => import("./en/beverina-castle.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/beverina-castle.mdx")),
+      lt: dynamic(() => import("./en/beverina-castle.mdx")),
+      lv: dynamic(() => import("./en/beverina-castle.mdx")),
+    }
+  },
+  "birstonas-springs": {
+    meta: meta.birstonasSpringsMeta,
+    Content: dynamic(() => import("./en/birstonas-springs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/birstonas-springs.mdx")),
+      lt: dynamic(() => import("./en/birstonas-springs.mdx")),
+      lv: dynamic(() => import("./en/birstonas-springs.mdx")),
+    }
+  },
+  "birute-hill": {
+    meta: meta.biruteHillMeta,
+    Content: dynamic(() => import("./en/birute-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/birute-hill.mdx")),
+      lt: dynamic(() => import("./en/birute-hill.mdx")),
+      lv: dynamic(() => import("./en/birute-hill.mdx")),
+    }
+  },
+  "cesis-hill": {
+    meta: meta.cesisHillMeta,
+    Content: dynamic(() => import("./en/cesis-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/cesis-hill.mdx")),
+      lt: dynamic(() => import("./en/cesis-hill.mdx")),
+      lv: dynamic(() => import("./en/cesis-hill.mdx")),
+    }
+  },
+  "daugava-bends": {
+    meta: meta.daugavaBendsMeta,
+    Content: dynamic(() => import("./en/daugava-bends.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/daugava-bends.mdx")),
+      lt: dynamic(() => import("./en/daugava-bends.mdx")),
+      lv: dynamic(() => import("./en/daugava-bends.mdx")),
+    }
+  },
+  "dobele-mound": {
+    meta: meta.dobeleMoundMeta,
+    Content: dynamic(() => import("./en/dobele-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/dobele-mound.mdx")),
+      lt: dynamic(() => import("./en/dobele-mound.mdx")),
+      lv: dynamic(() => import("./en/dobele-mound.mdx")),
+    }
+  },
+  "druskininkai-mist": {
+    meta: meta.druskininkaiMistMeta,
+    Content: dynamic(() => import("./en/druskininkai-mist.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/druskininkai-mist.mdx")),
+      lt: dynamic(() => import("./en/druskininkai-mist.mdx")),
+      lv: dynamic(() => import("./en/druskininkai-mist.mdx")),
+    }
+  },
+  "dubingiai-sanctuary": {
+    meta: meta.dubingiaiSanctuaryMeta,
+    Content: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
+      lt: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
+      lv: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
+    }
+  },
+  "durbe-site": {
+    meta: meta.durbeSiteMeta,
+    Content: dynamic(() => import("./en/durbe-site.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/durbe-site.mdx")),
+      lt: dynamic(() => import("./en/durbe-site.mdx")),
+      lv: dynamic(() => import("./en/durbe-site.mdx")),
+    }
+  },
+  "dzukija-meadow": {
+    meta: meta.dzukijaMeadowMeta,
+    Content: dynamic(() => import("./en/dzukija-meadow.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/dzukija-meadow.mdx")),
+      lt: dynamic(() => import("./en/dzukija-meadow.mdx")),
+      lv: dynamic(() => import("./en/dzukija-meadow.mdx")),
+    }
+  },
+  "erglu-klintis": {
+    meta: meta.ergluKlintisMeta,
+    Content: dynamic(() => import("./en/erglu-klintis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/erglu-klintis.mdx")),
+      lt: dynamic(() => import("./en/erglu-klintis.mdx")),
+      lv: dynamic(() => import("./en/erglu-klintis.mdx")),
+    }
+  },
+  "gauja-corridor": {
+    meta: meta.gaujaCorridorMeta,
+    Content: dynamic(() => import("./en/gauja-corridor.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/gauja-corridor.mdx")),
+      lt: dynamic(() => import("./en/gauja-corridor.mdx")),
+      lv: dynamic(() => import("./en/gauja-corridor.mdx")),
+    }
+  },
+  "girgzdute-hill": {
+    meta: meta.girgzduteHillMeta,
+    Content: dynamic(() => import("./en/girgzdute-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/girgzdute-hill.mdx")),
+      lt: dynamic(() => import("./en/girgzdute-hill.mdx")),
+      lv: dynamic(() => import("./en/girgzdute-hill.mdx")),
+    }
+  },
+  "grobina-site": {
+    meta: meta.grobinaSiteMeta,
+    Content: dynamic(() => import("./en/grobina-site.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/grobina-site.mdx")),
+      lt: dynamic(() => import("./en/grobina-site.mdx")),
+      lv: dynamic(() => import("./en/grobina-site.mdx")),
+    }
+  },
+  "hill-of-crosses": {
+    meta: meta.hillOfCrossesMeta,
+    Content: dynamic(() => import("./en/hill-of-crosses.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/hill-of-crosses.mdx")),
+      lt: dynamic(() => import("./en/hill-of-crosses.mdx")),
+      lv: dynamic(() => import("./en/hill-of-crosses.mdx")),
+    }
+  },
+  "imbare-fort": {
+    meta: meta.imbareFortMeta,
+    Content: dynamic(() => import("./en/imbare-fort.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/imbare-fort.mdx")),
+      lt: dynamic(() => import("./en/imbare-fort.mdx")),
+      lv: dynamic(() => import("./en/imbare-fort.mdx")),
+    }
+  },
+  "jelgava-stone": {
+    meta: meta.jelgavaStoneMeta,
+    Content: dynamic(() => import("./en/jelgava-stone.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/jelgava-stone.mdx")),
+      lt: dynamic(() => import("./en/jelgava-stone.mdx")),
+      lv: dynamic(() => import("./en/jelgava-stone.mdx")),
+    }
+  },
+  "joniskis-grove": {
+    meta: meta.joniskisGroveMeta,
+    Content: dynamic(() => import("./en/joniskis-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/joniskis-grove.mdx")),
+      lt: dynamic(() => import("./en/joniskis-grove.mdx")),
+      lv: dynamic(() => import("./en/joniskis-grove.mdx")),
+    }
+  },
+  "jurmala-shore": {
+    meta: meta.jurmalaShoreMeta,
+    Content: dynamic(() => import("./en/jurmala-shore.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/jurmala-shore.mdx")),
+      lt: dynamic(() => import("./en/jurmala-shore.mdx")),
+      lv: dynamic(() => import("./en/jurmala-shore.mdx")),
+    }
+  },
+  "kaunas-confluence": {
+    meta: meta.kaunasConfluenceMeta,
+    Content: dynamic(() => import("./en/kaunas-confluence.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kaunas-confluence.mdx")),
+      lt: dynamic(() => import("./en/kaunas-confluence.mdx")),
+      lv: dynamic(() => import("./en/kaunas-confluence.mdx")),
+    }
+  },
+  "kaunas-hearth": {
+    meta: meta.kaunasHearthMeta,
+    Content: dynamic(() => import("./en/kaunas-hearth.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kaunas-hearth.mdx")),
+      lt: dynamic(() => import("./en/kaunas-hearth.mdx")),
+      lv: dynamic(() => import("./en/kaunas-hearth.mdx")),
+    }
+  },
+  "kauno-marios": {
+    meta: meta.kaunoMariosMeta,
+    Content: dynamic(() => import("./en/kauno-marios.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kauno-marios.mdx")),
+      lt: dynamic(() => import("./en/kauno-marios.mdx")),
+      lv: dynamic(() => import("./en/kauno-marios.mdx")),
+    }
+  },
+  "kaup-burial": {
+    meta: meta.kaupBurialMeta,
+    Content: dynamic(() => import("./en/kaup-burial.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kaup-burial.mdx")),
+      lt: dynamic(() => import("./en/kaup-burial.mdx")),
+      lv: dynamic(() => import("./en/kaup-burial.mdx")),
+    }
+  },
+  "kemeri-sanctuary": {
+    meta: meta.kemeriSanctuaryMeta,
+    Content: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
+      lt: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
+      lv: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
+    }
+  },
+  "kernave-mounds": {
+    meta: meta.kernaveMoundsMeta,
+    Content: dynamic(() => import("./en/kernave-mounds.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kernave-mounds.mdx")),
+      lt: dynamic(() => import("./en/kernave-mounds.mdx")),
+      lv: dynamic(() => import("./en/kernave-mounds.mdx")),
+    }
+  },
+  "klaipeda-drift": {
+    meta: meta.klaipedaDriftMeta,
+    Content: dynamic(() => import("./en/klaipeda-drift.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/klaipeda-drift.mdx")),
+      lt: dynamic(() => import("./en/klaipeda-drift.mdx")),
+      lv: dynamic(() => import("./en/klaipeda-drift.mdx")),
+    }
+  },
+  "kolka-surge": {
+    meta: meta.kolkaSurgeMeta,
+    Content: dynamic(() => import("./en/kolka-surge.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kolka-surge.mdx")),
+      lt: dynamic(() => import("./en/kolka-surge.mdx")),
+      lv: dynamic(() => import("./en/kolka-surge.mdx")),
+    }
+  },
+  "krustpils-mound": {
+    meta: meta.krustpilsMoundMeta,
+    Content: dynamic(() => import("./en/krustpils-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/krustpils-mound.mdx")),
+      lt: dynamic(() => import("./en/krustpils-mound.mdx")),
+      lv: dynamic(() => import("./en/krustpils-mound.mdx")),
+    }
+  },
+  "kuldiga-spring": {
+    meta: meta.kuldigaSpringMeta,
+    Content: dynamic(() => import("./en/kuldiga-spring.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kuldiga-spring.mdx")),
+      lt: dynamic(() => import("./en/kuldiga-spring.mdx")),
+      lv: dynamic(() => import("./en/kuldiga-spring.mdx")),
+    }
+  },
+  "labiau-fortress": {
+    meta: meta.labiauFortressMeta,
+    Content: dynamic(() => import("./en/labiau-fortress.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/labiau-fortress.mdx")),
+      lt: dynamic(() => import("./en/labiau-fortress.mdx")),
+      lv: dynamic(() => import("./en/labiau-fortress.mdx")),
+    }
+  },
+  "latgale-hive": {
+    meta: meta.latgaleHiveMeta,
+    Content: dynamic(() => import("./en/latgale-hive.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/latgale-hive.mdx")),
+      lt: dynamic(() => import("./en/latgale-hive.mdx")),
+      lv: dynamic(() => import("./en/latgale-hive.mdx")),
+    }
+  },
+  "lielvarde-park": {
+    meta: meta.lielvardeParkMeta,
+    Content: dynamic(() => import("./en/lielvarde-park.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/lielvarde-park.mdx")),
+      lt: dynamic(() => import("./en/lielvarde-park.mdx")),
+      lv: dynamic(() => import("./en/lielvarde-park.mdx")),
+    }
+  },
+  "limbazu-ezers": {
+    meta: meta.limbazuEzersMeta,
+    Content: dynamic(() => import("./en/limbazu-ezers.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/limbazu-ezers.mdx")),
+      lt: dynamic(() => import("./en/limbazu-ezers.mdx")),
+      lv: dynamic(() => import("./en/limbazu-ezers.mdx")),
+    }
+  },
+  "lopaiciai-complex": {
+    meta: meta.lopaiciaiComplexMeta,
+    Content: dynamic(() => import("./en/lopaiciai-complex.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/lopaiciai-complex.mdx")),
+      lt: dynamic(() => import("./en/lopaiciai-complex.mdx")),
+      lv: dynamic(() => import("./en/lopaiciai-complex.mdx")),
+    }
+  },
+  "madona-ember": {
+    meta: meta.madonaEmberMeta,
+    Content: dynamic(() => import("./en/madona-ember.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/madona-ember.mdx")),
+      lt: dynamic(() => import("./en/madona-ember.mdx")),
+      lv: dynamic(() => import("./en/madona-ember.mdx")),
+    }
+  },
+  "medvegalis-hill": {
+    meta: meta.medvegalisHillMeta,
+    Content: dynamic(() => import("./en/medvegalis-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/medvegalis-hill.mdx")),
+      lt: dynamic(() => import("./en/medvegalis-hill.mdx")),
+      lv: dynamic(() => import("./en/medvegalis-hill.mdx")),
+    }
+  },
+  "mezotne-mound": {
+    meta: meta.mezotneMoundMeta,
+    Content: dynamic(() => import("./en/mezotne-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/mezotne-mound.mdx")),
+      lt: dynamic(() => import("./en/mezotne-mound.mdx")),
+      lv: dynamic(() => import("./en/mezotne-mound.mdx")),
+    }
+  },
+  "nida-dunes": {
+    meta: meta.nidaDunesMeta,
+    Content: dynamic(() => import("./en/nida-dunes.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/nida-dunes.mdx")),
+      lt: dynamic(() => import("./en/nida-dunes.mdx")),
+      lv: dynamic(() => import("./en/nida-dunes.mdx")),
+    }
+  },
+  "pagramantis-oak": {
+    meta: meta.pagramantisOakMeta,
+    Content: dynamic(() => import("./en/pagramantis-oak.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/pagramantis-oak.mdx")),
+      lt: dynamic(() => import("./en/pagramantis-oak.mdx")),
+      lv: dynamic(() => import("./en/pagramantis-oak.mdx")),
+    }
+  },
+  "palanga-amber": {
+    meta: meta.palangaAmberMeta,
+    Content: dynamic(() => import("./en/palanga-amber.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/palanga-amber.mdx")),
+      lt: dynamic(() => import("./en/palanga-amber.mdx")),
+      lv: dynamic(() => import("./en/palanga-amber.mdx")),
+    }
+  },
+  "panemune-mound": {
+    meta: meta.panemuneMoundMeta,
+    Content: dynamic(() => import("./en/panemune-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/panemune-mound.mdx")),
+      lt: dynamic(() => import("./en/panemune-mound.mdx")),
+      lv: dynamic(() => import("./en/panemune-mound.mdx")),
+    }
+  },
+  "pokaini-forest": {
+    meta: meta.pokainiForestMeta,
+    Content: dynamic(() => import("./en/pokaini-forest.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/pokaini-forest.mdx")),
+      lt: dynamic(() => import("./en/pokaini-forest.mdx")),
+      lv: dynamic(() => import("./en/pokaini-forest.mdx")),
+    }
+  },
+  "pomeranian-stones": {
+    meta: meta.pomeranianStonesMeta,
+    Content: dynamic(() => import("./en/pomeranian-stones.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/pomeranian-stones.mdx")),
+      lt: dynamic(() => import("./en/pomeranian-stones.mdx")),
+      lv: dynamic(() => import("./en/pomeranian-stones.mdx")),
+    }
+  },
+  "puntukas-boulder": {
+    meta: meta.puntukasBoulderMeta,
+    Content: dynamic(() => import("./en/puntukas-boulder.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/puntukas-boulder.mdx")),
+      lt: dynamic(() => import("./en/puntukas-boulder.mdx")),
+      lv: dynamic(() => import("./en/puntukas-boulder.mdx")),
+    }
+  },
+  "ragnit-mound": {
+    meta: meta.ragnitMoundMeta,
+    Content: dynamic(() => import("./en/ragnit-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/ragnit-mound.mdx")),
+      lt: dynamic(() => import("./en/ragnit-mound.mdx")),
+      lv: dynamic(() => import("./en/ragnit-mound.mdx")),
+    }
+  },
+  "rambynas-hill": {
+    meta: meta.rambynasHillMeta,
+    Content: dynamic(() => import("./en/rambynas-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rambynas-hill.mdx")),
+      lt: dynamic(() => import("./en/rambynas-hill.mdx")),
+      lv: dynamic(() => import("./en/rambynas-hill.mdx")),
+    }
+  },
+  "rezekne-hill": {
+    meta: meta.rezekneHillMeta,
+    Content: dynamic(() => import("./en/rezekne-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rezekne-hill.mdx")),
+      lt: dynamic(() => import("./en/rezekne-hill.mdx")),
+      lv: dynamic(() => import("./en/rezekne-hill.mdx")),
+    }
+  },
+  "riga-spires": {
+    meta: meta.rigaSpiresMeta,
+    Content: dynamic(() => import("./en/riga-spires.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/riga-spires.mdx")),
+      lt: dynamic(() => import("./en/riga-spires.mdx")),
+      lv: dynamic(() => import("./en/riga-spires.mdx")),
+    }
+  },
+  "romuva-grove": {
+    meta: meta.romuvaGroveMeta,
+    Content: dynamic(() => import("./en/romuva-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/romuva-grove.mdx")),
+      lt: dynamic(() => import("./en/romuva-grove.mdx")),
+      lv: dynamic(() => import("./en/romuva-grove.mdx")),
+    }
+  },
+  "romuva-sanctuary": {
+    meta: meta.romuvaSanctuaryMeta,
+    Content: dynamic(() => import("./en/romuva-sanctuary.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/romuva-sanctuary.mdx")),
+      lt: dynamic(() => import("./en/romuva-sanctuary.mdx")),
+      lv: dynamic(() => import("./en/romuva-sanctuary.mdx")),
+    }
+  },
+  "rumsiskes-museum": {
+    meta: meta.rumsiskesMuseumMeta,
+    Content: dynamic(() => import("./en/rumsiskes-museum.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rumsiskes-museum.mdx")),
+      lt: dynamic(() => import("./en/rumsiskes-museum.mdx")),
+      lv: dynamic(() => import("./en/rumsiskes-museum.mdx")),
+    }
+  },
+  "rundale-fields": {
+    meta: meta.rundaleFieldsMeta,
+    Content: dynamic(() => import("./en/rundale-fields.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rundale-fields.mdx")),
+      lt: dynamic(() => import("./en/rundale-fields.mdx")),
+      lv: dynamic(() => import("./en/rundale-fields.mdx")),
+    }
+  },
+  "rundale-surroundings": {
+    meta: meta.rundaleSurroundingsMeta,
+    Content: dynamic(() => import("./en/rundale-surroundings.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rundale-surroundings.mdx")),
+      lt: dynamic(() => import("./en/rundale-surroundings.mdx")),
+      lv: dynamic(() => import("./en/rundale-surroundings.mdx")),
+    }
+  },
+  "sabile-hill": {
+    meta: meta.sabileHillMeta,
+    Content: dynamic(() => import("./en/sabile-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sabile-hill.mdx")),
+      lt: dynamic(() => import("./en/sabile-hill.mdx")),
+      lv: dynamic(() => import("./en/sabile-hill.mdx")),
+    }
+  },
+  "salantai-burial": {
+    meta: meta.salantaiBurialMeta,
+    Content: dynamic(() => import("./en/salantai-burial.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/salantai-burial.mdx")),
+      lt: dynamic(() => import("./en/salantai-burial.mdx")),
+      lv: dynamic(() => import("./en/salantai-burial.mdx")),
+    }
+  },
+  "samogitia-stand": {
+    meta: meta.samogitiaStandMeta,
+    Content: dynamic(() => import("./en/samogitia-stand.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/samogitia-stand.mdx")),
+      lt: dynamic(() => import("./en/samogitia-stand.mdx")),
+      lv: dynamic(() => import("./en/samogitia-stand.mdx")),
+    }
+  },
+  "satrija-hill": {
+    meta: meta.satrijaHillMeta,
+    Content: dynamic(() => import("./en/satrija-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/satrija-hill.mdx")),
+      lt: dynamic(() => import("./en/satrija-hill.mdx")),
+      lv: dynamic(() => import("./en/satrija-hill.mdx")),
+    }
+  },
+  "seimyniskeliai-fort": {
+    meta: meta.seimyniskeliaiFortMeta,
+    Content: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
+      lt: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
+      lv: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
+    }
+  },
+  "selpils-mound": {
+    meta: meta.selpilsMoundMeta,
+    Content: dynamic(() => import("./en/selpils-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/selpils-mound.mdx")),
+      lt: dynamic(() => import("./en/selpils-mound.mdx")),
+      lv: dynamic(() => import("./en/selpils-mound.mdx")),
+    }
+  },
+  "siauliai-hill": {
+    meta: meta.siauliaiHillMeta,
+    Content: dynamic(() => import("./en/siauliai-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/siauliai-hill.mdx")),
+      lt: dynamic(() => import("./en/siauliai-hill.mdx")),
+      lv: dynamic(() => import("./en/siauliai-hill.mdx")),
+    }
+  },
+  "sigulda-springs": {
+    meta: meta.siguldaSpringsMeta,
+    Content: dynamic(() => import("./en/sigulda-springs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sigulda-springs.mdx")),
+      lt: dynamic(() => import("./en/sigulda-springs.mdx")),
+      lv: dynamic(() => import("./en/sigulda-springs.mdx")),
+    }
+  },
+  "sprude-hill": {
+    meta: meta.sprudeHillMeta,
+    Content: dynamic(() => import("./en/sprude-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sprude-hill.mdx")),
+      lt: dynamic(() => import("./en/sprude-hill.mdx")),
+      lv: dynamic(() => import("./en/sprude-hill.mdx")),
+    }
+  },
+  "staburags-cliff": {
+    meta: meta.staburagsCliffMeta,
+    Content: dynamic(() => import("./en/staburags-cliff.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/staburags-cliff.mdx")),
+      lt: dynamic(() => import("./en/staburags-cliff.mdx")),
+      lv: dynamic(() => import("./en/staburags-cliff.mdx")),
+    }
+  },
+  "sventaragis-valley": {
+    meta: meta.sventaragisValleyMeta,
+    Content: dynamic(() => import("./en/sventaragis-valley.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sventaragis-valley.mdx")),
+      lt: dynamic(() => import("./en/sventaragis-valley.mdx")),
+      lv: dynamic(() => import("./en/sventaragis-valley.mdx")),
+    }
+  },
+  "sventoji-oaks": {
+    meta: meta.sventojiOaksMeta,
+    Content: dynamic(() => import("./en/sventoji-oaks.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sventoji-oaks.mdx")),
+      lt: dynamic(() => import("./en/sventoji-oaks.mdx")),
+      lv: dynamic(() => import("./en/sventoji-oaks.mdx")),
+    }
+  },
+  "sventoji-shrine": {
+    meta: meta.sventojiShrineMeta,
+    Content: dynamic(() => import("./en/sventoji-shrine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sventoji-shrine.mdx")),
+      lt: dynamic(() => import("./en/sventoji-shrine.mdx")),
+      lv: dynamic(() => import("./en/sventoji-shrine.mdx")),
+    }
+  },
+  "swentomest-grove": {
+    meta: meta.swentomestGroveMeta,
+    Content: dynamic(() => import("./en/swentomest-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/swentomest-grove.mdx")),
+      lt: dynamic(() => import("./en/swentomest-grove.mdx")),
+      lv: dynamic(() => import("./en/swentomest-grove.mdx")),
+    }
+  },
+  "talsi-hills": {
+    meta: meta.talsiHillsMeta,
+    Content: dynamic(() => import("./en/talsi-hills.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/talsi-hills.mdx")),
+      lt: dynamic(() => import("./en/talsi-hills.mdx")),
+      lv: dynamic(() => import("./en/talsi-hills.mdx")),
+    }
+  },
+  "telsiai-altars": {
+    meta: meta.telsiaiAltarsMeta,
+    Content: dynamic(() => import("./en/telsiai-altars.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/telsiai-altars.mdx")),
+      lt: dynamic(() => import("./en/telsiai-altars.mdx")),
+      lv: dynamic(() => import("./en/telsiai-altars.mdx")),
+    }
+  },
+  "tervete-mound": {
+    meta: meta.terveteMoundMeta,
+    Content: dynamic(() => import("./en/tervete-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/tervete-mound.mdx")),
+      lt: dynamic(() => import("./en/tervete-mound.mdx")),
+      lv: dynamic(() => import("./en/tervete-mound.mdx")),
+    }
+  },
+  "tilsit-hill": {
+    meta: meta.tilsitHillMeta,
+    Content: dynamic(() => import("./en/tilsit-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/tilsit-hill.mdx")),
+      lt: dynamic(() => import("./en/tilsit-hill.mdx")),
+      lv: dynamic(() => import("./en/tilsit-hill.mdx")),
+    }
+  },
+  "truso-emporium": {
+    meta: meta.trusoEmporiumMeta,
+    Content: dynamic(() => import("./en/truso-emporium.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/truso-emporium.mdx")),
+      lt: dynamic(() => import("./en/truso-emporium.mdx")),
+      lv: dynamic(() => import("./en/truso-emporium.mdx")),
+    }
+  },
+  "turaida-hill": {
+    meta: meta.turaidaHillMeta,
+    Content: dynamic(() => import("./en/turaida-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/turaida-hill.mdx")),
+      lt: dynamic(() => import("./en/turaida-hill.mdx")),
+      lv: dynamic(() => import("./en/turaida-hill.mdx")),
+    }
+  },
+  "turaida-springs": {
+    meta: meta.turaidaSpringsMeta,
+    Content: dynamic(() => import("./en/turaida-springs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/turaida-springs.mdx")),
+      lt: dynamic(() => import("./en/turaida-springs.mdx")),
+      lv: dynamic(() => import("./en/turaida-springs.mdx")),
+    }
+  },
+  "twangste-hill": {
+    meta: meta.twangsteHillMeta,
+    Content: dynamic(() => import("./en/twangste-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/twangste-hill.mdx")),
+      lt: dynamic(() => import("./en/twangste-hill.mdx")),
+      lv: dynamic(() => import("./en/twangste-hill.mdx")),
+    }
+  },
+  "tytuvenai-spring": {
+    meta: meta.tytuvenaiSpringMeta,
+    Content: dynamic(() => import("./en/tytuvenai-spring.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/tytuvenai-spring.mdx")),
+      lt: dynamic(() => import("./en/tytuvenai-spring.mdx")),
+      lv: dynamic(() => import("./en/tytuvenai-spring.mdx")),
+    }
+  },
+  "ventspils-shore": {
+    meta: meta.ventspilsShoreMeta,
+    Content: dynamic(() => import("./en/ventspils-shore.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/ventspils-shore.mdx")),
+      lt: dynamic(() => import("./en/ventspils-shore.mdx")),
+      lv: dynamic(() => import("./en/ventspils-shore.mdx")),
+    }
+  },
+  "verkiai-grove": {
+    meta: meta.verkiaiGroveMeta,
+    Content: dynamic(() => import("./en/verkiai-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/verkiai-grove.mdx")),
+      lt: dynamic(() => import("./en/verkiai-grove.mdx")),
+      lv: dynamic(() => import("./en/verkiai-grove.mdx")),
+    }
+  },
+  "vilnius-thread": {
+    meta: meta.vilniusThreadMeta,
+    Content: dynamic(() => import("./en/vilnius-thread.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/vilnius-thread.mdx")),
+      lt: dynamic(() => import("./en/vilnius-thread.mdx")),
+      lv: dynamic(() => import("./en/vilnius-thread.mdx")),
+    }
+  },
+  "witches-hill": {
+    meta: meta.witchesHillMeta,
+    Content: dynamic(() => import("./en/witches-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/witches-hill.mdx")),
+      lt: dynamic(() => import("./en/witches-hill.mdx")),
+      lv: dynamic(() => import("./en/witches-hill.mdx")),
+    }
+  },
+  "zagare-stones": {
+    meta: meta.zagareStonesMeta,
+    Content: dynamic(() => import("./en/zagare-stones.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zagare-stones.mdx")),
+      lt: dynamic(() => import("./en/zagare-stones.mdx")),
+      lv: dynamic(() => import("./en/zagare-stones.mdx")),
+    }
+  },
+  "zaltvyksle-spring": {
+    meta: meta.zaltvyksleSpringMeta,
+    Content: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
+      lt: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
+      lv: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
+    }
+  },
+  "zemaitija-sky": {
+    meta: meta.zemaitijaSkyMeta,
+    Content: dynamic(() => import("./en/zemaitija-sky.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zemaitija-sky.mdx")),
+      lt: dynamic(() => import("./en/zemaitija-sky.mdx")),
+      lv: dynamic(() => import("./en/zemaitija-sky.mdx")),
+    }
+  },
+  "zilaiskalns-hill": {
+    meta: meta.zilaiskalnsHillMeta,
+    Content: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+      lt: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+      lv: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+    }
+  },
+};
 
+export const locationEntries: LocationEntry[] = Object.values(locationEntryById);
 export const locationMetas: LocationMeta[] = locationEntries.map((entry) => entry.meta);
+export const locationById: Record<string, LocationMeta> = Object.fromEntries(
+  locationEntries.map((entry) => [entry.meta.id, entry.meta])
+);
 
-export const locationById = Object.fromEntries(
-  locationEntries.map((entry) => [entry.meta.id, entry.meta]),
-) as Record<string, LocationMeta>;
-
-export const locationEntryById = Object.fromEntries(
-  locationEntries.map((entry) => [entry.meta.id, entry]),
-) as Record<string, LocationEntry>;
-
-function toLocationPoint(meta: LocationMeta, language: Language, fallback?: LocationPoint): LocationPoint {
+export function toLocationPoint(metaInfo: LocationMeta, language: Language, fallback?: LocationPoint): LocationPoint {
   return {
-    id: meta.id,
-    name: meta.name[language] ?? fallback?.name ?? meta.name.en,
-    coordinates: meta.coordinates,
-    region: meta.region,
-    description: meta.description[language] ?? fallback?.description ?? meta.description.en,
-    siteType: meta.siteType,
-    aura: meta.aura,
-    deity: meta.deity,
-    significance: meta.significance[language] ?? fallback?.significance ?? meta.significance.en,
+    id: metaInfo.id,
+    name: metaInfo.name[language] ?? fallback?.name ?? metaInfo.name.en,
+    coordinates: metaInfo.coordinates,
+    region: metaInfo.region,
+    description: metaInfo.description[language] ?? fallback?.description ?? metaInfo.description.en,
+    siteType: metaInfo.siteType,
+    aura: metaInfo.aura,
+    deity: metaInfo.deity,
+    significance: metaInfo.significance[language] ?? fallback?.significance ?? metaInfo.significance.en,
   };
 }
 
@@ -324,9 +886,9 @@ export function findLocationPoint(
   language: Language = "en",
   fallback?: LocationPoint,
 ) {
-  const meta = locationById[id];
-  if (!meta) return fallback;
-  return toLocationPoint(meta, language, fallback);
+  const metaInfo = locationById[id];
+  if (!metaInfo) return fallback;
+  return toLocationPoint(metaInfo, language, fallback);
 }
 
 export function getLocationsForDeity(deitySlug: string, language: Language = "en") {
