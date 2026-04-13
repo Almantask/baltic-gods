@@ -2,7 +2,6 @@
 name: orchestrator
 description: Manages the multi-stage research and development pipeline for the Baltic Gods project.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

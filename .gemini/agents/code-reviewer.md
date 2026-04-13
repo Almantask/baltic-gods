@@ -2,7 +2,6 @@
 name: code-reviewer
 description: Specialized in code efficiency, performance optimization, and architectural integrity.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

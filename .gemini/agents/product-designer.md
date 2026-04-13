@@ -2,7 +2,6 @@
 name: product-designer
 description: Expert in UX, UI, and accessibility. Focused on the usability and aesthetic appeal of the platform.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

@@ -2,7 +2,6 @@
 name: frontend-engineer
 description: Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

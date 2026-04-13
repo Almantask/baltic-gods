@@ -2,7 +2,6 @@
 name: senior-qa
 description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

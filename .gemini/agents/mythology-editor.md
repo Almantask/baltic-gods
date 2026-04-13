@@ -2,7 +2,6 @@
 name: mythology-editor
 description: Verified mythology researcher focused on cross-referencing information from LLM and Browser researchers.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

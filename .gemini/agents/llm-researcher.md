@@ -2,7 +2,6 @@
 name: llm-researcher
 description: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search

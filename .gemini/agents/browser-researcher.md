@@ -2,7 +2,6 @@
 name: browser-researcher
 description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
 tools:
-  - codebase
   - list_directory
   - read_file
   - grep_search
