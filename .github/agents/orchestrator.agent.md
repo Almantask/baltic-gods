@@ -1,13 +1,17 @@
 ---
 name: Orchestrator
 description: Manages the multi-stage research and development pipeline for the Baltic Gods project.
-tools:
-  - codebase
-  - editFiles
-  - terminalCommand
-  - fetch
-  - useBrowser
-  - search
+argument-hint: Describe the feature or research task to orchestrate across the full development pipeline
+tools: ['search', 'web', 'search/codebase', 'edit', 'execute', 'agent']
+agents:
+  - browser-researcher
+  - code-reviewer
+  - editor
+  - frontend-engineer
+  - llm-researcher
+  - mythology-researcher
+  - product-designer
+  - senior-qa
 ---
 
 # Project Orchestrator

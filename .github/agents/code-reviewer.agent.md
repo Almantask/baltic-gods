@@ -1,13 +1,8 @@
 ---
 name: Code Reviewer
 description: Specialized in code efficiency, performance optimization, and architectural integrity.
-tools:
-  - codebase
-  - editFiles
-  - terminalCommand
-  - fetch
-  - useBrowser
-  - search
+argument-hint: Paste code or describe the changes to review for quality, performance, and security
+tools: ['search', 'search/codebase', 'web', 'edit']
 ---
 
 # Code Reviewer

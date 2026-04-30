@@ -1,13 +1,17 @@
 ---
 name: Senior Frontend Engineer
 description: Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations.
-tools:
-  - codebase
-  - editFiles
-  - terminalCommand
-  - fetch
-  - useBrowser
-  - search
+argument-hint: Describe the feature, component, or bug fix to implement in the Baltic Gods project
+tools: ['search', 'edit', 'execute', 'web', 'search', 'agent']
+handoffs:
+  - label: Write Tests
+    agent: Senior QA Engineer
+    prompt: Review the implementation and write or update tests for the changes just made.
+    send: false
+  - label: Code Review
+    agent: Code Reviewer
+    prompt: Review the implementation for code quality, performance, and security best practices.
+    send: false
 ---
 
 # Senior Frontend Engineer

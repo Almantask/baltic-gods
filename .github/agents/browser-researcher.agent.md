@@ -1,13 +1,13 @@
 ---
 name: Browser Researcher
 description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
-tools:
-  - codebase
-  - editFiles
-  - terminalCommand
-  - fetch
-  - useBrowser
-  - search
+argument-hint: Enter a deity name, myth, or Baltic mythology claim to verify online
+tools: ['search', 'web', 'search/codebase', 'edit']
+handoffs:
+  - label: Send to Mythology Editor
+    agent: Mythology Editor
+    prompt: Cross-reference this Browser research with the LLM Researcher's findings and produce a verified mythology record.
+    send: false
 ---
 
 # Browser Researcher

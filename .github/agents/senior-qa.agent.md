@@ -1,13 +1,13 @@
 ---
 name: Senior QA Engineer
 description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
-tools:
-  - codebase
-  - editFiles
-  - terminalCommand
-  - fetch
-  - useBrowser
-  - search
+argument-hint: Describe the feature, component, or bug to write or update tests for
+tools: ['search', 'search/codebase', 'edit', 'execute']
+handoffs:
+  - label: Code Review
+    agent: Code Reviewer
+    prompt: Review the implementation and tests for code quality, performance, and security.
+    send: false
 ---
 
 # Senior QA Engineer
