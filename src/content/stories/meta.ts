@@ -30,7 +30,7 @@ export const thunderOakMeta: StoryMeta = {
     lt: "XIV-XVI a. rašytiniai šaltiniai",
     lv: "14.-16. gadsimta rakstītie avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik"],
+  references: ["Jan Łasicki: De Diis Samagitarum (written c. 1582, published 1615)", "Simon Grunau: Preussische Chronik (c. 1526–1529; reliability questioned by modern scholars)"],
 };
 
 export const weavingOfLaimaMeta: StoryMeta = {

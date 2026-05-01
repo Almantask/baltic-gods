@@ -1,4 +1,4 @@
-import type { JSX, ComponentType } from "react";
+import type { ComponentType } from "react";
 
 export type Domain = "God" | "Creature" | "Person";
 
@@ -67,7 +67,7 @@ export interface DeityMeta {
   references: string[];
 }
 
-export type DeityContent = ComponentType<any>;
+export type DeityContent = ComponentType<Record<string, unknown>>;
 
 export interface DeityEntry {
   meta: DeityMeta;
@@ -90,7 +90,7 @@ export interface LocationMeta {
   references: string[];
 }
 
-export type LocationContent = ComponentType<any>;
+export type LocationContent = ComponentType<Record<string, unknown>>;
 
 export interface LocationEntry {
   meta: LocationMeta;
@@ -98,7 +98,7 @@ export interface LocationEntry {
   contentByLang: Record<Language, LocationContent>;
 }
 
-export type StoryContent = ComponentType<any>;
+export type StoryContent = ComponentType<Record<string, unknown>>;
 
 export interface StoryMeta {
   slug: string;
