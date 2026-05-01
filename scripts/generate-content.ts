@@ -27,7 +27,7 @@ export const storyBySlug: Record<string, StoryEntry> = {
 `;
 
   for (const key of metaKeys) {
-    const metaObj = (storiesMetaMap as any)[key];
+    const metaObj = (storiesMetaMap as Record<string, { slug?: string }>)[key];
     if (metaObj && metaObj.slug) {
       const slug = metaObj.slug;
       const enExists = fs.existsSync(path.join(STORIES_DIR, 'en', slug + '.mdx'));
@@ -77,7 +77,7 @@ export const locationEntryById: Record<string, LocationEntry> = {
 `;
 
   for (const key of metaKeys) {
-    const metaObj = (locationsMetaMap as any)[key];
+    const metaObj = (locationsMetaMap as Record<string, { id?: string }>)[key];
     if (metaObj && metaObj.id) {
       const id = metaObj.id;
       const enExists = fs.existsSync(path.join(LOCATIONS_DIR, 'en', id + '.mdx'));
@@ -167,7 +167,7 @@ export const deityBySlug: Record<string, DeityEntry> = {
   const categories = ['gods', 'creatures', 'people'];
 
   for (const key of metaKeys) {
-    const metaObj = (deitiesMetaMap as any)[key];
+    const metaObj = (deitiesMetaMap as Record<string, { slug?: string }>)[key];
     if (metaObj && metaObj.slug) {
       const slug = metaObj.slug;
       
