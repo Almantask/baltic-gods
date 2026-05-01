@@ -14,8 +14,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/aglona-basilica-site.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/aglona-basilica-site.mdx")),
-      lt: dynamic(() => import("./en/aglona-basilica-site.mdx")),
-      lv: dynamic(() => import("./en/aglona-basilica-site.mdx")),
+      lt: dynamic(() => import("./lt/aglona-basilica-site.mdx")),
+      lv: dynamic(() => import("./lv/aglona-basilica-site.mdx")),
     }
   },
   "aizkraukle-center": {
@@ -23,8 +23,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/aizkraukle-center.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/aizkraukle-center.mdx")),
-      lt: dynamic(() => import("./en/aizkraukle-center.mdx")),
-      lv: dynamic(() => import("./en/aizkraukle-center.mdx")),
+      lt: dynamic(() => import("./lt/aizkraukle-center.mdx")),
+      lv: dynamic(() => import("./lv/aizkraukle-center.mdx")),
     }
   },
   "alka-hills": {
@@ -32,8 +32,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/alka-hills.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/alka-hills.mdx")),
-      lt: dynamic(() => import("./en/alka-hills.mdx")),
-      lv: dynamic(() => import("./en/alka-hills.mdx")),
+      lt: dynamic(() => import("./lt/alka-hills.mdx")),
+      lv: dynamic(() => import("./lv/alka-hills.mdx")),
     }
   },
   "alytus-confluence": {
@@ -41,8 +41,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/alytus-confluence.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/alytus-confluence.mdx")),
-      lt: dynamic(() => import("./en/alytus-confluence.mdx")),
-      lv: dynamic(() => import("./en/alytus-confluence.mdx")),
+      lt: dynamic(() => import("./lt/alytus-confluence.mdx")),
+      lv: dynamic(() => import("./lv/alytus-confluence.mdx")),
     }
   },
   "anyksciai-forest": {
@@ -50,8 +50,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/anyksciai-forest.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/anyksciai-forest.mdx")),
-      lt: dynamic(() => import("./en/anyksciai-forest.mdx")),
-      lv: dynamic(() => import("./en/anyksciai-forest.mdx")),
+      lt: dynamic(() => import("./lt/anyksciai-forest.mdx")),
+      lv: dynamic(() => import("./lv/anyksciai-forest.mdx")),
     }
   },
   "anyksciai-silelis": {
@@ -59,8 +59,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/anyksciai-silelis.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/anyksciai-silelis.mdx")),
-      lt: dynamic(() => import("./en/anyksciai-silelis.mdx")),
-      lv: dynamic(() => import("./en/anyksciai-silelis.mdx")),
+      lt: dynamic(() => import("./lt/anyksciai-silelis.mdx")),
+      lv: dynamic(() => import("./lv/anyksciai-silelis.mdx")),
     }
   },
   "araisi-lake": {
@@ -68,8 +68,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/araisi-lake.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/araisi-lake.mdx")),
-      lt: dynamic(() => import("./en/araisi-lake.mdx")),
-      lv: dynamic(() => import("./en/araisi-lake.mdx")),
+      lt: dynamic(() => import("./lt/araisi-lake.mdx")),
+      lv: dynamic(() => import("./lv/araisi-lake.mdx")),
     }
   },
   "aukstaiciai-lake": {
@@ -77,8 +77,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
-      lt: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
-      lv: dynamic(() => import("./en/aukstaiciai-lake.mdx")),
+      lt: dynamic(() => import("./lt/aukstaiciai-lake.mdx")),
+      lv: dynamic(() => import("./lv/aukstaiciai-lake.mdx")),
     }
   },
   "aukstaitija-oaks": {
@@ -86,8 +86,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
-      lt: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
-      lv: dynamic(() => import("./en/aukstaitija-oaks.mdx")),
+      lt: dynamic(() => import("./lt/aukstaitija-oaks.mdx")),
+      lv: dynamic(() => import("./lv/aukstaitija-oaks.mdx")),
     }
   },
   "balga-fortress": {
@@ -95,8 +95,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/balga-fortress.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/balga-fortress.mdx")),
-      lt: dynamic(() => import("./en/balga-fortress.mdx")),
-      lv: dynamic(() => import("./en/balga-fortress.mdx")),
+      lt: dynamic(() => import("./lt/balga-fortress.mdx")),
+      lv: dynamic(() => import("./lv/balga-fortress.mdx")),
     }
   },
   "belmonto-stone": {
@@ -104,8 +104,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/belmonto-stone.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/belmonto-stone.mdx")),
-      lt: dynamic(() => import("./en/belmonto-stone.mdx")),
-      lv: dynamic(() => import("./en/belmonto-stone.mdx")),
+      lt: dynamic(() => import("./lt/belmonto-stone.mdx")),
+      lv: dynamic(() => import("./lv/belmonto-stone.mdx")),
     }
   },
   "beverina-castle": {
@@ -113,8 +113,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/beverina-castle.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/beverina-castle.mdx")),
-      lt: dynamic(() => import("./en/beverina-castle.mdx")),
-      lv: dynamic(() => import("./en/beverina-castle.mdx")),
+      lt: dynamic(() => import("./lt/beverina-castle.mdx")),
+      lv: dynamic(() => import("./lv/beverina-castle.mdx")),
     }
   },
   "birstonas-springs": {
@@ -122,8 +122,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/birstonas-springs.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/birstonas-springs.mdx")),
-      lt: dynamic(() => import("./en/birstonas-springs.mdx")),
-      lv: dynamic(() => import("./en/birstonas-springs.mdx")),
+      lt: dynamic(() => import("./lt/birstonas-springs.mdx")),
+      lv: dynamic(() => import("./lv/birstonas-springs.mdx")),
     }
   },
   "birute-hill": {
@@ -131,8 +131,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/birute-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/birute-hill.mdx")),
-      lt: dynamic(() => import("./en/birute-hill.mdx")),
-      lv: dynamic(() => import("./en/birute-hill.mdx")),
+      lt: dynamic(() => import("./lt/birute-hill.mdx")),
+      lv: dynamic(() => import("./lv/birute-hill.mdx")),
     }
   },
   "birzai-grove": {
@@ -140,8 +140,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/birzai-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/birzai-grove.mdx")),
-      lt: dynamic(() => import("./en/birzai-grove.mdx")),
-      lv: dynamic(() => import("./en/birzai-grove.mdx")),
+      lt: dynamic(() => import("./lt/birzai-grove.mdx")),
+      lv: dynamic(() => import("./lv/birzai-grove.mdx")),
     }
   },
   "burtnieks-lake": {
@@ -149,8 +149,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/burtnieks-lake.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/burtnieks-lake.mdx")),
-      lt: dynamic(() => import("./en/burtnieks-lake.mdx")),
-      lv: dynamic(() => import("./en/burtnieks-lake.mdx")),
+      lt: dynamic(() => import("./lt/burtnieks-lake.mdx")),
+      lv: dynamic(() => import("./lv/burtnieks-lake.mdx")),
     }
   },
   "cesis-hill": {
@@ -158,8 +158,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/cesis-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/cesis-hill.mdx")),
-      lt: dynamic(() => import("./en/cesis-hill.mdx")),
-      lv: dynamic(() => import("./en/cesis-hill.mdx")),
+      lt: dynamic(() => import("./lt/cesis-hill.mdx")),
+      lv: dynamic(() => import("./lv/cesis-hill.mdx")),
     }
   },
   "daugava-bends": {
@@ -167,8 +167,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/daugava-bends.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/daugava-bends.mdx")),
-      lt: dynamic(() => import("./en/daugava-bends.mdx")),
-      lv: dynamic(() => import("./en/daugava-bends.mdx")),
+      lt: dynamic(() => import("./lt/daugava-bends.mdx")),
+      lv: dynamic(() => import("./lv/daugava-bends.mdx")),
     }
   },
   "daugmale-hillfort": {
@@ -176,8 +176,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/daugmale-hillfort.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/daugmale-hillfort.mdx")),
-      lt: dynamic(() => import("./en/daugmale-hillfort.mdx")),
-      lv: dynamic(() => import("./en/daugmale-hillfort.mdx")),
+      lt: dynamic(() => import("./lt/daugmale-hillfort.mdx")),
+      lv: dynamic(() => import("./lv/daugmale-hillfort.mdx")),
     }
   },
   "dobele-mound": {
@@ -185,8 +185,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/dobele-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/dobele-mound.mdx")),
-      lt: dynamic(() => import("./en/dobele-mound.mdx")),
-      lv: dynamic(() => import("./en/dobele-mound.mdx")),
+      lt: dynamic(() => import("./lt/dobele-mound.mdx")),
+      lv: dynamic(() => import("./lv/dobele-mound.mdx")),
     }
   },
   "druskininkai-mist": {
@@ -194,8 +194,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/druskininkai-mist.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/druskininkai-mist.mdx")),
-      lt: dynamic(() => import("./en/druskininkai-mist.mdx")),
-      lv: dynamic(() => import("./en/druskininkai-mist.mdx")),
+      lt: dynamic(() => import("./lt/druskininkai-mist.mdx")),
+      lv: dynamic(() => import("./lv/druskininkai-mist.mdx")),
     }
   },
   "dubingiai-sanctuary": {
@@ -203,8 +203,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
-      lt: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
-      lv: dynamic(() => import("./en/dubingiai-sanctuary.mdx")),
+      lt: dynamic(() => import("./lt/dubingiai-sanctuary.mdx")),
+      lv: dynamic(() => import("./lv/dubingiai-sanctuary.mdx")),
     }
   },
   "durbe-site": {
@@ -212,8 +212,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/durbe-site.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/durbe-site.mdx")),
-      lt: dynamic(() => import("./en/durbe-site.mdx")),
-      lv: dynamic(() => import("./en/durbe-site.mdx")),
+      lt: dynamic(() => import("./lt/durbe-site.mdx")),
+      lv: dynamic(() => import("./lv/durbe-site.mdx")),
     }
   },
   "dzukija-meadow": {
@@ -221,8 +221,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/dzukija-meadow.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/dzukija-meadow.mdx")),
-      lt: dynamic(() => import("./en/dzukija-meadow.mdx")),
-      lv: dynamic(() => import("./en/dzukija-meadow.mdx")),
+      lt: dynamic(() => import("./lt/dzukija-meadow.mdx")),
+      lv: dynamic(() => import("./lv/dzukija-meadow.mdx")),
     }
   },
   "erglu-klintis": {
@@ -230,8 +230,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/erglu-klintis.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/erglu-klintis.mdx")),
-      lt: dynamic(() => import("./en/erglu-klintis.mdx")),
-      lv: dynamic(() => import("./en/erglu-klintis.mdx")),
+      lt: dynamic(() => import("./lt/erglu-klintis.mdx")),
+      lv: dynamic(() => import("./lv/erglu-klintis.mdx")),
     }
   },
   "gauja-corridor": {
@@ -239,8 +239,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/gauja-corridor.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/gauja-corridor.mdx")),
-      lt: dynamic(() => import("./en/gauja-corridor.mdx")),
-      lv: dynamic(() => import("./en/gauja-corridor.mdx")),
+      lt: dynamic(() => import("./lt/gauja-corridor.mdx")),
+      lv: dynamic(() => import("./lv/gauja-corridor.mdx")),
     }
   },
   "girgzdute-hill": {
@@ -248,8 +248,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/girgzdute-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/girgzdute-hill.mdx")),
-      lt: dynamic(() => import("./en/girgzdute-hill.mdx")),
-      lv: dynamic(() => import("./en/girgzdute-hill.mdx")),
+      lt: dynamic(() => import("./lt/girgzdute-hill.mdx")),
+      lv: dynamic(() => import("./lv/girgzdute-hill.mdx")),
     }
   },
   "grobina-site": {
@@ -257,8 +257,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/grobina-site.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/grobina-site.mdx")),
-      lt: dynamic(() => import("./en/grobina-site.mdx")),
-      lv: dynamic(() => import("./en/grobina-site.mdx")),
+      lt: dynamic(() => import("./lt/grobina-site.mdx")),
+      lv: dynamic(() => import("./lv/grobina-site.mdx")),
     }
   },
   "heiligenbeil-grove": {
@@ -266,8 +266,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
-      lt: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
-      lv: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
+      lt: dynamic(() => import("./lt/heiligenbeil-grove.mdx")),
+      lv: dynamic(() => import("./lv/heiligenbeil-grove.mdx")),
     }
   },
   "hill-of-crosses": {
@@ -275,8 +275,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/hill-of-crosses.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/hill-of-crosses.mdx")),
-      lt: dynamic(() => import("./en/hill-of-crosses.mdx")),
-      lv: dynamic(() => import("./en/hill-of-crosses.mdx")),
+      lt: dynamic(() => import("./lt/hill-of-crosses.mdx")),
+      lv: dynamic(() => import("./lv/hill-of-crosses.mdx")),
     }
   },
   "honeda-sanctuary": {
@@ -284,8 +284,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/honeda-sanctuary.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/honeda-sanctuary.mdx")),
-      lt: dynamic(() => import("./en/honeda-sanctuary.mdx")),
-      lv: dynamic(() => import("./en/honeda-sanctuary.mdx")),
+      lt: dynamic(() => import("./lt/honeda-sanctuary.mdx")),
+      lv: dynamic(() => import("./lv/honeda-sanctuary.mdx")),
     }
   },
   "ikskile-island": {
@@ -293,8 +293,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/ikskile-island.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/ikskile-island.mdx")),
-      lt: dynamic(() => import("./en/ikskile-island.mdx")),
-      lv: dynamic(() => import("./en/ikskile-island.mdx")),
+      lt: dynamic(() => import("./lt/ikskile-island.mdx")),
+      lv: dynamic(() => import("./lv/ikskile-island.mdx")),
     }
   },
   "imbare-fort": {
@@ -302,8 +302,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/imbare-fort.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/imbare-fort.mdx")),
-      lt: dynamic(() => import("./en/imbare-fort.mdx")),
-      lv: dynamic(() => import("./en/imbare-fort.mdx")),
+      lt: dynamic(() => import("./lt/imbare-fort.mdx")),
+      lv: dynamic(() => import("./lv/imbare-fort.mdx")),
     }
   },
   "jelgava-stone": {
@@ -311,8 +311,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/jelgava-stone.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/jelgava-stone.mdx")),
-      lt: dynamic(() => import("./en/jelgava-stone.mdx")),
-      lv: dynamic(() => import("./en/jelgava-stone.mdx")),
+      lt: dynamic(() => import("./lt/jelgava-stone.mdx")),
+      lv: dynamic(() => import("./lv/jelgava-stone.mdx")),
     }
   },
   "joniskis-grove": {
@@ -320,8 +320,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/joniskis-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/joniskis-grove.mdx")),
-      lt: dynamic(() => import("./en/joniskis-grove.mdx")),
-      lv: dynamic(() => import("./en/joniskis-grove.mdx")),
+      lt: dynamic(() => import("./lt/joniskis-grove.mdx")),
+      lv: dynamic(() => import("./lv/joniskis-grove.mdx")),
     }
   },
   "jurmala-shore": {
@@ -329,8 +329,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/jurmala-shore.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/jurmala-shore.mdx")),
-      lt: dynamic(() => import("./en/jurmala-shore.mdx")),
-      lv: dynamic(() => import("./en/jurmala-shore.mdx")),
+      lt: dynamic(() => import("./lt/jurmala-shore.mdx")),
+      lv: dynamic(() => import("./lv/jurmala-shore.mdx")),
     }
   },
   "kaunas-confluence": {
@@ -338,8 +338,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kaunas-confluence.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kaunas-confluence.mdx")),
-      lt: dynamic(() => import("./en/kaunas-confluence.mdx")),
-      lv: dynamic(() => import("./en/kaunas-confluence.mdx")),
+      lt: dynamic(() => import("./lt/kaunas-confluence.mdx")),
+      lv: dynamic(() => import("./lv/kaunas-confluence.mdx")),
     }
   },
   "kaunas-hearth": {
@@ -347,8 +347,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kaunas-hearth.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kaunas-hearth.mdx")),
-      lt: dynamic(() => import("./en/kaunas-hearth.mdx")),
-      lv: dynamic(() => import("./en/kaunas-hearth.mdx")),
+      lt: dynamic(() => import("./lt/kaunas-hearth.mdx")),
+      lv: dynamic(() => import("./lv/kaunas-hearth.mdx")),
     }
   },
   "kauno-marios": {
@@ -356,8 +356,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kauno-marios.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kauno-marios.mdx")),
-      lt: dynamic(() => import("./en/kauno-marios.mdx")),
-      lv: dynamic(() => import("./en/kauno-marios.mdx")),
+      lt: dynamic(() => import("./lt/kauno-marios.mdx")),
+      lv: dynamic(() => import("./lv/kauno-marios.mdx")),
     }
   },
   "kaup-burial": {
@@ -365,8 +365,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kaup-burial.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kaup-burial.mdx")),
-      lt: dynamic(() => import("./en/kaup-burial.mdx")),
-      lv: dynamic(() => import("./en/kaup-burial.mdx")),
+      lt: dynamic(() => import("./lt/kaup-burial.mdx")),
+      lv: dynamic(() => import("./lv/kaup-burial.mdx")),
     }
   },
   "kemeri-sanctuary": {
@@ -374,8 +374,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
-      lt: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
-      lv: dynamic(() => import("./en/kemeri-sanctuary.mdx")),
+      lt: dynamic(() => import("./lt/kemeri-sanctuary.mdx")),
+      lv: dynamic(() => import("./lv/kemeri-sanctuary.mdx")),
     }
   },
   "kernave-mounds": {
@@ -383,8 +383,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kernave-mounds.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kernave-mounds.mdx")),
-      lt: dynamic(() => import("./en/kernave-mounds.mdx")),
-      lv: dynamic(() => import("./en/kernave-mounds.mdx")),
+      lt: dynamic(() => import("./lt/kernave-mounds.mdx")),
+      lv: dynamic(() => import("./lv/kernave-mounds.mdx")),
     }
   },
   "klaipeda-drift": {
@@ -392,8 +392,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/klaipeda-drift.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/klaipeda-drift.mdx")),
-      lt: dynamic(() => import("./en/klaipeda-drift.mdx")),
-      lv: dynamic(() => import("./en/klaipeda-drift.mdx")),
+      lt: dynamic(() => import("./lt/klaipeda-drift.mdx")),
+      lv: dynamic(() => import("./lv/klaipeda-drift.mdx")),
     }
   },
   "koknese-ford": {
@@ -401,8 +401,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/koknese-ford.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/koknese-ford.mdx")),
-      lt: dynamic(() => import("./en/koknese-ford.mdx")),
-      lv: dynamic(() => import("./en/koknese-ford.mdx")),
+      lt: dynamic(() => import("./lt/koknese-ford.mdx")),
+      lv: dynamic(() => import("./lv/koknese-ford.mdx")),
     }
   },
   "kolka-surge": {
@@ -410,8 +410,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kolka-surge.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kolka-surge.mdx")),
-      lt: dynamic(() => import("./en/kolka-surge.mdx")),
-      lv: dynamic(() => import("./en/kolka-surge.mdx")),
+      lt: dynamic(() => import("./lt/kolka-surge.mdx")),
+      lv: dynamic(() => import("./lv/kolka-surge.mdx")),
     }
   },
   "krustpils-mound": {
@@ -419,8 +419,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/krustpils-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/krustpils-mound.mdx")),
-      lt: dynamic(() => import("./en/krustpils-mound.mdx")),
-      lv: dynamic(() => import("./en/krustpils-mound.mdx")),
+      lt: dynamic(() => import("./lt/krustpils-mound.mdx")),
+      lv: dynamic(() => import("./lv/krustpils-mound.mdx")),
     }
   },
   "kuldiga-spring": {
@@ -428,8 +428,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/kuldiga-spring.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/kuldiga-spring.mdx")),
-      lt: dynamic(() => import("./en/kuldiga-spring.mdx")),
-      lv: dynamic(() => import("./en/kuldiga-spring.mdx")),
+      lt: dynamic(() => import("./lt/kuldiga-spring.mdx")),
+      lv: dynamic(() => import("./lv/kuldiga-spring.mdx")),
     }
   },
   "labiau-fortress": {
@@ -437,8 +437,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/labiau-fortress.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/labiau-fortress.mdx")),
-      lt: dynamic(() => import("./en/labiau-fortress.mdx")),
-      lv: dynamic(() => import("./en/labiau-fortress.mdx")),
+      lt: dynamic(() => import("./lt/labiau-fortress.mdx")),
+      lv: dynamic(() => import("./lv/labiau-fortress.mdx")),
     }
   },
   "latgale-hive": {
@@ -446,8 +446,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/latgale-hive.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/latgale-hive.mdx")),
-      lt: dynamic(() => import("./en/latgale-hive.mdx")),
-      lv: dynamic(() => import("./en/latgale-hive.mdx")),
+      lt: dynamic(() => import("./lt/latgale-hive.mdx")),
+      lv: dynamic(() => import("./lv/latgale-hive.mdx")),
     }
   },
   "lielupe-confluence": {
@@ -455,8 +455,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/lielupe-confluence.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/lielupe-confluence.mdx")),
-      lt: dynamic(() => import("./en/lielupe-confluence.mdx")),
-      lv: dynamic(() => import("./en/lielupe-confluence.mdx")),
+      lt: dynamic(() => import("./lt/lielupe-confluence.mdx")),
+      lv: dynamic(() => import("./lv/lielupe-confluence.mdx")),
     }
   },
   "lielvarde-park": {
@@ -464,8 +464,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/lielvarde-park.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/lielvarde-park.mdx")),
-      lt: dynamic(() => import("./en/lielvarde-park.mdx")),
-      lv: dynamic(() => import("./en/lielvarde-park.mdx")),
+      lt: dynamic(() => import("./lt/lielvarde-park.mdx")),
+      lv: dynamic(() => import("./lv/lielvarde-park.mdx")),
     }
   },
   "limbazu-ezers": {
@@ -473,8 +473,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/limbazu-ezers.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/limbazu-ezers.mdx")),
-      lt: dynamic(() => import("./en/limbazu-ezers.mdx")),
-      lv: dynamic(() => import("./en/limbazu-ezers.mdx")),
+      lt: dynamic(() => import("./lt/limbazu-ezers.mdx")),
+      lv: dynamic(() => import("./lv/limbazu-ezers.mdx")),
     }
   },
   "lopaiciai-complex": {
@@ -482,8 +482,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/lopaiciai-complex.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/lopaiciai-complex.mdx")),
-      lt: dynamic(() => import("./en/lopaiciai-complex.mdx")),
-      lv: dynamic(() => import("./en/lopaiciai-complex.mdx")),
+      lt: dynamic(() => import("./lt/lopaiciai-complex.mdx")),
+      lv: dynamic(() => import("./lv/lopaiciai-complex.mdx")),
     }
   },
   "lubana-lake": {
@@ -491,8 +491,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/lubana-lake.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/lubana-lake.mdx")),
-      lt: dynamic(() => import("./en/lubana-lake.mdx")),
-      lv: dynamic(() => import("./en/lubana-lake.mdx")),
+      lt: dynamic(() => import("./lt/lubana-lake.mdx")),
+      lv: dynamic(() => import("./lv/lubana-lake.mdx")),
     }
   },
   "madona-ember": {
@@ -500,8 +500,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/madona-ember.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/madona-ember.mdx")),
-      lt: dynamic(() => import("./en/madona-ember.mdx")),
-      lv: dynamic(() => import("./en/madona-ember.mdx")),
+      lt: dynamic(() => import("./lt/madona-ember.mdx")),
+      lv: dynamic(() => import("./lv/madona-ember.mdx")),
     }
   },
   "medininkai-castle": {
@@ -509,8 +509,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/medininkai-castle.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/medininkai-castle.mdx")),
-      lt: dynamic(() => import("./en/medininkai-castle.mdx")),
-      lv: dynamic(() => import("./en/medininkai-castle.mdx")),
+      lt: dynamic(() => import("./lt/medininkai-castle.mdx")),
+      lv: dynamic(() => import("./lv/medininkai-castle.mdx")),
     }
   },
   "medvegalis-hill": {
@@ -518,8 +518,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/medvegalis-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/medvegalis-hill.mdx")),
-      lt: dynamic(() => import("./en/medvegalis-hill.mdx")),
-      lv: dynamic(() => import("./en/medvegalis-hill.mdx")),
+      lt: dynamic(() => import("./lt/medvegalis-hill.mdx")),
+      lv: dynamic(() => import("./lv/medvegalis-hill.mdx")),
     }
   },
   "mezotne-mound": {
@@ -527,8 +527,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/mezotne-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/mezotne-mound.mdx")),
-      lt: dynamic(() => import("./en/mezotne-mound.mdx")),
-      lv: dynamic(() => import("./en/mezotne-mound.mdx")),
+      lt: dynamic(() => import("./lt/mezotne-mound.mdx")),
+      lv: dynamic(() => import("./lv/mezotne-mound.mdx")),
     }
   },
   "nida-dunes": {
@@ -536,8 +536,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/nida-dunes.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/nida-dunes.mdx")),
-      lt: dynamic(() => import("./en/nida-dunes.mdx")),
-      lv: dynamic(() => import("./en/nida-dunes.mdx")),
+      lt: dynamic(() => import("./lt/nida-dunes.mdx")),
+      lv: dynamic(() => import("./lv/nida-dunes.mdx")),
     }
   },
   "pagramantis-oak": {
@@ -545,8 +545,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/pagramantis-oak.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/pagramantis-oak.mdx")),
-      lt: dynamic(() => import("./en/pagramantis-oak.mdx")),
-      lv: dynamic(() => import("./en/pagramantis-oak.mdx")),
+      lt: dynamic(() => import("./lt/pagramantis-oak.mdx")),
+      lv: dynamic(() => import("./lv/pagramantis-oak.mdx")),
     }
   },
   "palanga-amber": {
@@ -554,8 +554,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/palanga-amber.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/palanga-amber.mdx")),
-      lt: dynamic(() => import("./en/palanga-amber.mdx")),
-      lv: dynamic(() => import("./en/palanga-amber.mdx")),
+      lt: dynamic(() => import("./lt/palanga-amber.mdx")),
+      lv: dynamic(() => import("./lv/palanga-amber.mdx")),
     }
   },
   "panemune-mound": {
@@ -563,8 +563,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/panemune-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/panemune-mound.mdx")),
-      lt: dynamic(() => import("./en/panemune-mound.mdx")),
-      lv: dynamic(() => import("./en/panemune-mound.mdx")),
+      lt: dynamic(() => import("./lt/panemune-mound.mdx")),
+      lv: dynamic(() => import("./lv/panemune-mound.mdx")),
     }
   },
   "panevezys-springs": {
@@ -572,8 +572,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/panevezys-springs.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/panevezys-springs.mdx")),
-      lt: dynamic(() => import("./en/panevezys-springs.mdx")),
-      lv: dynamic(() => import("./en/panevezys-springs.mdx")),
+      lt: dynamic(() => import("./lt/panevezys-springs.mdx")),
+      lv: dynamic(() => import("./lv/panevezys-springs.mdx")),
     }
   },
   "platelia-lake": {
@@ -581,8 +581,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/platelia-lake.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/platelia-lake.mdx")),
-      lt: dynamic(() => import("./en/platelia-lake.mdx")),
-      lv: dynamic(() => import("./en/platelia-lake.mdx")),
+      lt: dynamic(() => import("./lt/platelia-lake.mdx")),
+      lv: dynamic(() => import("./lv/platelia-lake.mdx")),
     }
   },
   "pokaini-forest": {
@@ -590,8 +590,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/pokaini-forest.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/pokaini-forest.mdx")),
-      lt: dynamic(() => import("./en/pokaini-forest.mdx")),
-      lv: dynamic(() => import("./en/pokaini-forest.mdx")),
+      lt: dynamic(() => import("./lt/pokaini-forest.mdx")),
+      lv: dynamic(() => import("./lv/pokaini-forest.mdx")),
     }
   },
   "pomeranian-stones": {
@@ -599,8 +599,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/pomeranian-stones.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/pomeranian-stones.mdx")),
-      lt: dynamic(() => import("./en/pomeranian-stones.mdx")),
-      lv: dynamic(() => import("./en/pomeranian-stones.mdx")),
+      lt: dynamic(() => import("./lt/pomeranian-stones.mdx")),
+      lv: dynamic(() => import("./lv/pomeranian-stones.mdx")),
     }
   },
   "puntukas-boulder": {
@@ -608,8 +608,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/puntukas-boulder.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/puntukas-boulder.mdx")),
-      lt: dynamic(() => import("./en/puntukas-boulder.mdx")),
-      lv: dynamic(() => import("./en/puntukas-boulder.mdx")),
+      lt: dynamic(() => import("./lt/puntukas-boulder.mdx")),
+      lv: dynamic(() => import("./lv/puntukas-boulder.mdx")),
     }
   },
   "ragnit-mound": {
@@ -617,8 +617,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/ragnit-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/ragnit-mound.mdx")),
-      lt: dynamic(() => import("./en/ragnit-mound.mdx")),
-      lv: dynamic(() => import("./en/ragnit-mound.mdx")),
+      lt: dynamic(() => import("./lt/ragnit-mound.mdx")),
+      lv: dynamic(() => import("./lv/ragnit-mound.mdx")),
     }
   },
   "rambynas-hill": {
@@ -626,8 +626,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/rambynas-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/rambynas-hill.mdx")),
-      lt: dynamic(() => import("./en/rambynas-hill.mdx")),
-      lv: dynamic(() => import("./en/rambynas-hill.mdx")),
+      lt: dynamic(() => import("./lt/rambynas-hill.mdx")),
+      lv: dynamic(() => import("./lv/rambynas-hill.mdx")),
     }
   },
   "rezekne-hill": {
@@ -635,8 +635,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/rezekne-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/rezekne-hill.mdx")),
-      lt: dynamic(() => import("./en/rezekne-hill.mdx")),
-      lv: dynamic(() => import("./en/rezekne-hill.mdx")),
+      lt: dynamic(() => import("./lt/rezekne-hill.mdx")),
+      lv: dynamic(() => import("./lv/rezekne-hill.mdx")),
     }
   },
   "riga-spires": {
@@ -644,8 +644,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/riga-spires.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/riga-spires.mdx")),
-      lt: dynamic(() => import("./en/riga-spires.mdx")),
-      lv: dynamic(() => import("./en/riga-spires.mdx")),
+      lt: dynamic(() => import("./lt/riga-spires.mdx")),
+      lv: dynamic(() => import("./lv/riga-spires.mdx")),
     }
   },
   "romuva-grove": {
@@ -653,8 +653,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/romuva-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/romuva-grove.mdx")),
-      lt: dynamic(() => import("./en/romuva-grove.mdx")),
-      lv: dynamic(() => import("./en/romuva-grove.mdx")),
+      lt: dynamic(() => import("./lt/romuva-grove.mdx")),
+      lv: dynamic(() => import("./lv/romuva-grove.mdx")),
     }
   },
   "romuva-sanctuary": {
@@ -662,8 +662,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/romuva-sanctuary.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/romuva-sanctuary.mdx")),
-      lt: dynamic(() => import("./en/romuva-sanctuary.mdx")),
-      lv: dynamic(() => import("./en/romuva-sanctuary.mdx")),
+      lt: dynamic(() => import("./lt/romuva-sanctuary.mdx")),
+      lv: dynamic(() => import("./lv/romuva-sanctuary.mdx")),
     }
   },
   "rumsiskes-museum": {
@@ -671,8 +671,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/rumsiskes-museum.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/rumsiskes-museum.mdx")),
-      lt: dynamic(() => import("./en/rumsiskes-museum.mdx")),
-      lv: dynamic(() => import("./en/rumsiskes-museum.mdx")),
+      lt: dynamic(() => import("./lt/rumsiskes-museum.mdx")),
+      lv: dynamic(() => import("./lv/rumsiskes-museum.mdx")),
     }
   },
   "rundale-fields": {
@@ -680,8 +680,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/rundale-fields.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/rundale-fields.mdx")),
-      lt: dynamic(() => import("./en/rundale-fields.mdx")),
-      lv: dynamic(() => import("./en/rundale-fields.mdx")),
+      lt: dynamic(() => import("./lt/rundale-fields.mdx")),
+      lv: dynamic(() => import("./lv/rundale-fields.mdx")),
     }
   },
   "rundale-surroundings": {
@@ -689,8 +689,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/rundale-surroundings.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/rundale-surroundings.mdx")),
-      lt: dynamic(() => import("./en/rundale-surroundings.mdx")),
-      lv: dynamic(() => import("./en/rundale-surroundings.mdx")),
+      lt: dynamic(() => import("./lt/rundale-surroundings.mdx")),
+      lv: dynamic(() => import("./lv/rundale-surroundings.mdx")),
     }
   },
   "sabile-hill": {
@@ -698,8 +698,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sabile-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sabile-hill.mdx")),
-      lt: dynamic(() => import("./en/sabile-hill.mdx")),
-      lv: dynamic(() => import("./en/sabile-hill.mdx")),
+      lt: dynamic(() => import("./lt/sabile-hill.mdx")),
+      lv: dynamic(() => import("./lv/sabile-hill.mdx")),
     }
   },
   "salantai-burial": {
@@ -707,8 +707,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/salantai-burial.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/salantai-burial.mdx")),
-      lt: dynamic(() => import("./en/salantai-burial.mdx")),
-      lv: dynamic(() => import("./en/salantai-burial.mdx")),
+      lt: dynamic(() => import("./lt/salantai-burial.mdx")),
+      lv: dynamic(() => import("./lv/salantai-burial.mdx")),
     }
   },
   "sambia-peninsula-shrine": {
@@ -716,8 +716,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
-      lt: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
-      lv: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
+      lt: dynamic(() => import("./lt/sambia-peninsula-shrine.mdx")),
+      lv: dynamic(() => import("./lv/sambia-peninsula-shrine.mdx")),
     }
   },
   "samogitia-stand": {
@@ -725,8 +725,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/samogitia-stand.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/samogitia-stand.mdx")),
-      lt: dynamic(() => import("./en/samogitia-stand.mdx")),
-      lv: dynamic(() => import("./en/samogitia-stand.mdx")),
+      lt: dynamic(() => import("./lt/samogitia-stand.mdx")),
+      lv: dynamic(() => import("./lv/samogitia-stand.mdx")),
     }
   },
   "satrija-hill": {
@@ -734,8 +734,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/satrija-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/satrija-hill.mdx")),
-      lt: dynamic(() => import("./en/satrija-hill.mdx")),
-      lv: dynamic(() => import("./en/satrija-hill.mdx")),
+      lt: dynamic(() => import("./lt/satrija-hill.mdx")),
+      lv: dynamic(() => import("./lv/satrija-hill.mdx")),
     }
   },
   "seimyniskeliai-fort": {
@@ -743,8 +743,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
-      lt: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
-      lv: dynamic(() => import("./en/seimyniskeliai-fort.mdx")),
+      lt: dynamic(() => import("./lt/seimyniskeliai-fort.mdx")),
+      lv: dynamic(() => import("./lv/seimyniskeliai-fort.mdx")),
     }
   },
   "selpils-mound": {
@@ -752,8 +752,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/selpils-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/selpils-mound.mdx")),
-      lt: dynamic(() => import("./en/selpils-mound.mdx")),
-      lv: dynamic(() => import("./en/selpils-mound.mdx")),
+      lt: dynamic(() => import("./lt/selpils-mound.mdx")),
+      lv: dynamic(() => import("./lv/selpils-mound.mdx")),
     }
   },
   "siauliai-hill": {
@@ -761,8 +761,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/siauliai-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/siauliai-hill.mdx")),
-      lt: dynamic(() => import("./en/siauliai-hill.mdx")),
-      lv: dynamic(() => import("./en/siauliai-hill.mdx")),
+      lt: dynamic(() => import("./lt/siauliai-hill.mdx")),
+      lv: dynamic(() => import("./lv/siauliai-hill.mdx")),
     }
   },
   "sigulda-springs": {
@@ -770,8 +770,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sigulda-springs.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sigulda-springs.mdx")),
-      lt: dynamic(() => import("./en/sigulda-springs.mdx")),
-      lv: dynamic(() => import("./en/sigulda-springs.mdx")),
+      lt: dynamic(() => import("./lt/sigulda-springs.mdx")),
+      lv: dynamic(() => import("./lv/sigulda-springs.mdx")),
     }
   },
   "sprude-hill": {
@@ -779,8 +779,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sprude-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sprude-hill.mdx")),
-      lt: dynamic(() => import("./en/sprude-hill.mdx")),
-      lv: dynamic(() => import("./en/sprude-hill.mdx")),
+      lt: dynamic(() => import("./lt/sprude-hill.mdx")),
+      lv: dynamic(() => import("./lv/sprude-hill.mdx")),
     }
   },
   "staburags-cliff": {
@@ -788,8 +788,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/staburags-cliff.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/staburags-cliff.mdx")),
-      lt: dynamic(() => import("./en/staburags-cliff.mdx")),
-      lv: dynamic(() => import("./en/staburags-cliff.mdx")),
+      lt: dynamic(() => import("./lt/staburags-cliff.mdx")),
+      lv: dynamic(() => import("./lv/staburags-cliff.mdx")),
     }
   },
   "stelmuze-oak": {
@@ -797,8 +797,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/stelmuze-oak.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/stelmuze-oak.mdx")),
-      lt: dynamic(() => import("./en/stelmuze-oak.mdx")),
-      lv: dynamic(() => import("./en/stelmuze-oak.mdx")),
+      lt: dynamic(() => import("./lt/stelmuze-oak.mdx")),
+      lv: dynamic(() => import("./lv/stelmuze-oak.mdx")),
     }
   },
   "sventaragis-valley": {
@@ -806,8 +806,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sventaragis-valley.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sventaragis-valley.mdx")),
-      lt: dynamic(() => import("./en/sventaragis-valley.mdx")),
-      lv: dynamic(() => import("./en/sventaragis-valley.mdx")),
+      lt: dynamic(() => import("./lt/sventaragis-valley.mdx")),
+      lv: dynamic(() => import("./lv/sventaragis-valley.mdx")),
     }
   },
   "sventoji-oaks": {
@@ -815,8 +815,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sventoji-oaks.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sventoji-oaks.mdx")),
-      lt: dynamic(() => import("./en/sventoji-oaks.mdx")),
-      lv: dynamic(() => import("./en/sventoji-oaks.mdx")),
+      lt: dynamic(() => import("./lt/sventoji-oaks.mdx")),
+      lv: dynamic(() => import("./lv/sventoji-oaks.mdx")),
     }
   },
   "sventoji-shrine": {
@@ -824,8 +824,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/sventoji-shrine.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/sventoji-shrine.mdx")),
-      lt: dynamic(() => import("./en/sventoji-shrine.mdx")),
-      lv: dynamic(() => import("./en/sventoji-shrine.mdx")),
+      lt: dynamic(() => import("./lt/sventoji-shrine.mdx")),
+      lv: dynamic(() => import("./lv/sventoji-shrine.mdx")),
     }
   },
   "swentomest-grove": {
@@ -833,8 +833,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/swentomest-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/swentomest-grove.mdx")),
-      lt: dynamic(() => import("./en/swentomest-grove.mdx")),
-      lv: dynamic(() => import("./en/swentomest-grove.mdx")),
+      lt: dynamic(() => import("./lt/swentomest-grove.mdx")),
+      lv: dynamic(() => import("./lv/swentomest-grove.mdx")),
     }
   },
   "talsi-hills": {
@@ -842,8 +842,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/talsi-hills.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/talsi-hills.mdx")),
-      lt: dynamic(() => import("./en/talsi-hills.mdx")),
-      lv: dynamic(() => import("./en/talsi-hills.mdx")),
+      lt: dynamic(() => import("./lt/talsi-hills.mdx")),
+      lv: dynamic(() => import("./lv/talsi-hills.mdx")),
     }
   },
   "telsiai-altars": {
@@ -851,8 +851,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/telsiai-altars.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/telsiai-altars.mdx")),
-      lt: dynamic(() => import("./en/telsiai-altars.mdx")),
-      lv: dynamic(() => import("./en/telsiai-altars.mdx")),
+      lt: dynamic(() => import("./lt/telsiai-altars.mdx")),
+      lv: dynamic(() => import("./lv/telsiai-altars.mdx")),
     }
   },
   "tervete-mound": {
@@ -860,8 +860,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/tervete-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/tervete-mound.mdx")),
-      lt: dynamic(() => import("./en/tervete-mound.mdx")),
-      lv: dynamic(() => import("./en/tervete-mound.mdx")),
+      lt: dynamic(() => import("./lt/tervete-mound.mdx")),
+      lv: dynamic(() => import("./lv/tervete-mound.mdx")),
     }
   },
   "tilsit-hill": {
@@ -869,8 +869,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/tilsit-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/tilsit-hill.mdx")),
-      lt: dynamic(() => import("./en/tilsit-hill.mdx")),
-      lv: dynamic(() => import("./en/tilsit-hill.mdx")),
+      lt: dynamic(() => import("./lt/tilsit-hill.mdx")),
+      lv: dynamic(() => import("./lv/tilsit-hill.mdx")),
     }
   },
   "truso-emporium": {
@@ -878,8 +878,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/truso-emporium.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/truso-emporium.mdx")),
-      lt: dynamic(() => import("./en/truso-emporium.mdx")),
-      lv: dynamic(() => import("./en/truso-emporium.mdx")),
+      lt: dynamic(() => import("./lt/truso-emporium.mdx")),
+      lv: dynamic(() => import("./lv/truso-emporium.mdx")),
     }
   },
   "turaida-hill": {
@@ -887,8 +887,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/turaida-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/turaida-hill.mdx")),
-      lt: dynamic(() => import("./en/turaida-hill.mdx")),
-      lv: dynamic(() => import("./en/turaida-hill.mdx")),
+      lt: dynamic(() => import("./lt/turaida-hill.mdx")),
+      lv: dynamic(() => import("./lv/turaida-hill.mdx")),
     }
   },
   "turaida-springs": {
@@ -896,8 +896,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/turaida-springs.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/turaida-springs.mdx")),
-      lt: dynamic(() => import("./en/turaida-springs.mdx")),
-      lv: dynamic(() => import("./en/turaida-springs.mdx")),
+      lt: dynamic(() => import("./lt/turaida-springs.mdx")),
+      lv: dynamic(() => import("./lv/turaida-springs.mdx")),
     }
   },
   "twangste-hill": {
@@ -905,8 +905,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/twangste-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/twangste-hill.mdx")),
-      lt: dynamic(() => import("./en/twangste-hill.mdx")),
-      lv: dynamic(() => import("./en/twangste-hill.mdx")),
+      lt: dynamic(() => import("./lt/twangste-hill.mdx")),
+      lv: dynamic(() => import("./lv/twangste-hill.mdx")),
     }
   },
   "tytuvenai-spring": {
@@ -914,8 +914,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/tytuvenai-spring.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/tytuvenai-spring.mdx")),
-      lt: dynamic(() => import("./en/tytuvenai-spring.mdx")),
-      lv: dynamic(() => import("./en/tytuvenai-spring.mdx")),
+      lt: dynamic(() => import("./lt/tytuvenai-spring.mdx")),
+      lv: dynamic(() => import("./lv/tytuvenai-spring.mdx")),
     }
   },
   "veliuona-mound": {
@@ -923,8 +923,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/veliuona-mound.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/veliuona-mound.mdx")),
-      lt: dynamic(() => import("./en/veliuona-mound.mdx")),
-      lv: dynamic(() => import("./en/veliuona-mound.mdx")),
+      lt: dynamic(() => import("./lt/veliuona-mound.mdx")),
+      lv: dynamic(() => import("./lv/veliuona-mound.mdx")),
     }
   },
   "ventspils-shore": {
@@ -932,8 +932,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/ventspils-shore.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/ventspils-shore.mdx")),
-      lt: dynamic(() => import("./en/ventspils-shore.mdx")),
-      lv: dynamic(() => import("./en/ventspils-shore.mdx")),
+      lt: dynamic(() => import("./lt/ventspils-shore.mdx")),
+      lv: dynamic(() => import("./lv/ventspils-shore.mdx")),
     }
   },
   "verkiai-grove": {
@@ -941,8 +941,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/verkiai-grove.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/verkiai-grove.mdx")),
-      lt: dynamic(() => import("./en/verkiai-grove.mdx")),
-      lv: dynamic(() => import("./en/verkiai-grove.mdx")),
+      lt: dynamic(() => import("./lt/verkiai-grove.mdx")),
+      lv: dynamic(() => import("./lv/verkiai-grove.mdx")),
     }
   },
   "vilnius-thread": {
@@ -950,8 +950,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/vilnius-thread.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/vilnius-thread.mdx")),
-      lt: dynamic(() => import("./en/vilnius-thread.mdx")),
-      lv: dynamic(() => import("./en/vilnius-thread.mdx")),
+      lt: dynamic(() => import("./lt/vilnius-thread.mdx")),
+      lv: dynamic(() => import("./lv/vilnius-thread.mdx")),
     }
   },
   "witches-hill": {
@@ -959,8 +959,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/witches-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/witches-hill.mdx")),
-      lt: dynamic(() => import("./en/witches-hill.mdx")),
-      lv: dynamic(() => import("./en/witches-hill.mdx")),
+      lt: dynamic(() => import("./lt/witches-hill.mdx")),
+      lv: dynamic(() => import("./lv/witches-hill.mdx")),
     }
   },
   "zagare-stones": {
@@ -968,8 +968,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/zagare-stones.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/zagare-stones.mdx")),
-      lt: dynamic(() => import("./en/zagare-stones.mdx")),
-      lv: dynamic(() => import("./en/zagare-stones.mdx")),
+      lt: dynamic(() => import("./lt/zagare-stones.mdx")),
+      lv: dynamic(() => import("./lv/zagare-stones.mdx")),
     }
   },
   "zaltvyksle-spring": {
@@ -977,8 +977,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
-      lt: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
-      lv: dynamic(() => import("./en/zaltvyksle-spring.mdx")),
+      lt: dynamic(() => import("./lt/zaltvyksle-spring.mdx")),
+      lv: dynamic(() => import("./lv/zaltvyksle-spring.mdx")),
     }
   },
   "zemaitija-sky": {
@@ -986,8 +986,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/zemaitija-sky.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/zemaitija-sky.mdx")),
-      lt: dynamic(() => import("./en/zemaitija-sky.mdx")),
-      lv: dynamic(() => import("./en/zemaitija-sky.mdx")),
+      lt: dynamic(() => import("./lt/zemaitija-sky.mdx")),
+      lv: dynamic(() => import("./lv/zemaitija-sky.mdx")),
     }
   },
   "zilaiskalns-hill": {
@@ -995,8 +995,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
-      lt: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
-      lv: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+      lt: dynamic(() => import("./lt/zilaiskalns-hill.mdx")),
+      lv: dynamic(() => import("./lv/zilaiskalns-hill.mdx")),
     }
   },
   "zuvintas-wetland": {
@@ -1004,8 +1004,8 @@ export const locationEntryById: Record<string, LocationEntry> = {
     Content: dynamic(() => import("./en/zuvintas-wetland.mdx")),
     contentByLang: {
       en: dynamic(() => import("./en/zuvintas-wetland.mdx")),
-      lt: dynamic(() => import("./en/zuvintas-wetland.mdx")),
-      lv: dynamic(() => import("./en/zuvintas-wetland.mdx")),
+      lt: dynamic(() => import("./lt/zuvintas-wetland.mdx")),
+      lv: dynamic(() => import("./lv/zuvintas-wetland.mdx")),
     }
   },
 };
