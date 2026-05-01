@@ -2589,10 +2589,10 @@ export const stelmuzeOakMeta: LocationMeta = {
   significance: {
     en: "The oak was historically surrounded by smaller sacred trees forming a natural grove (alka). Pilgrims left offerings of iron, grain, and cloth at its roots. Christianization failed to fully suppress the veneration, and the tree remains a protected natural monument.",
     lt: "Ąžuolą istoriškai supo mažesni šventieji medžiai, sudarantys natūralią giraitę (alką). Piligrimai paliko geležies, grūdų ir audinio aukas prie jo šaknų. Krikščionybė nesugebėjo visiškai nuslopinti garbinimo, ir medis tebėra saugomas gamtos paminklas.",
-    lv: "Vēsturiski ozolu ieskauja mazāki svētie koki, veidojot dabīgu birzīti (alka). Svētceļnieki pie tā saknēm atstāja dzelzs, graudu un auduma ziedojumus. Kristianizācija nespēja pilnībā apspiест pagodināšanu, un koks joprojām ir aizsargāts dabas piemineklis.",
+    lv: "Vēsturiski ozolu ieskauja mazāki svētie koki, veidojot dabīgu birzīti (alka). Svētceļnieki pie tā saknēm atstāja dzelzs, graudu un auduma ziedojumus. Kristianizācija nespēja pilnībā apspiest pagodināšanu, un koks joprojām ir aizsargāts dabas piemineklis.",
   },
   tribe: { en: "Lithuanians (Aukštaitians)", lt: "Lietuviai (Aukštaičiai)", lv: "Lietuvieši (Augštaiši)" },
-  period: { en: "Pre-Christian (estimated 1st millennium CE)", lt: "Ikikrikščioniška (apytiksliai I tūkstantmečio pr. m. e.)", lv: "Pirmskristīgā (aptuveni 1. gadu tūkstotis m. ē.)" },
+  period: { en: "Pre-Christian (estimated 1st millennium CE)", lt: "Ikikrikščioniška (apytiksliai I tūkstantmečio m. e.)", lv: "Pirmskristīgā (aptuveni 1. gadu tūkstotis m. ē.)" },
   references: [
     "Vaitkevičius: Senosios Lietuvos šventvietės – Aukštaitija",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
@@ -2833,7 +2833,7 @@ export const medininkaiCastleMeta: LocationMeta = {
   },
   siteType: "Sacred groves",
   aura: "green",
-  deity: "medine",
+  deity: "medeina",
   significance: {
     en: "The forest surrounding Medininkai was one of the last great sacred forests of Lithuania proper. The hill fort itself may have served as a ritual boundary marker between settled lands and the sacred woodland. Hunters performed propitiation rites to Medeina before entering.",
     lt: "Miškai aplink Medininkus buvo vienas paskutinių didžiųjų šventųjų Lietuvos miškų. Pats piliakalnis galėjo tarnauti kaip ritualinis riboženklis tarp apgyvendintos žemės ir šventojo miško. Medžiotojai atlikdavo numalšinimo apeigas Miškinei prieš įeidami.",
@@ -2884,7 +2884,7 @@ export const daugmaleHillfortMeta: LocationMeta = {
   name: {
     en: "Daugmale Ancient Center",
     lt: "Daugmalės senovės centras",
-    lv: "Daugmales sencilvēku centrs",
+    lv: "Daugmales senovisko centrs",
   },
   coordinates: [56.87, 24.06],
   region: "Latvia",
