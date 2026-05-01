@@ -17,7 +17,7 @@
 
 ## Primary Source Details
 
-- **Malecki (Malec):** Specifically distinguishes *Percunos Tikros* as the "True Thunderer" in his 16th-century chronicle of Prussian and Lithuanian beliefs. [Jan Malecki, 1563]
+- **Malecki (Malec):** Records *Percunos* (Perkūnas) as a chief thunder deity of the Prussians and Lithuanians in his 16th-century chronicle. [Jan Malecki, 1563] *(⚠️ Unverified: the specific phrase "Percunos Tikros" as an exact term used by Malecki awaits primary source confirmation — see Francis Young, Pagans in the Early Modern Baltic, Arc Humanities Press, 2022. Pending verification, this epithet should not be presented as a direct Malecki quotation.)*
 - **Vėlius (Vel):** Analyzes this epithet as evidence for a developed theological hierarchy within Baltic paganism, where a single supreme "True" god reigned over localized aspects. [Norbertas Vėlius]
 - **VLE:** Mentions this title as an archaic variant of Perkūnas found in 16th-century written sources.
 - **Folklore (Bas):** Contains legends where "The Old One" or "True One" Perkūnas descends to correct the mistakes of his sons or other spirits.
@@ -32,6 +32,6 @@
 - **Function**: Divine Justice, Cosmic Stability, Arch-Thunder
 - **Etymology**: *tikr- (true/authentic) + *perk- (oak/strike)
 - **References**:
-    - "Malecki, Jan: Libellus de sacrificiis et idololatria (1563)"
+    - "Malecki, Jan: Libellus de sacrificiis et idolatria veterum Borussorum (1563)"
     - "Vėlius, Norbertas: Senovės baltų pasaulėžiūra (1983)"
     - "VLE: Visuotinė lietuvių enciklopedija (vle.lt)"

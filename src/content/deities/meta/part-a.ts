@@ -80,7 +80,7 @@ export const perkunasMeta: DeityMeta = {
     lt: "XIII-XVI a. šaltiniai",
     lv: "13.-16. gs. avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik", "Gintaras Beresnevičius: Essays on Baltic Religion"],
+  references: ["Jan Łasicki: De Diis Samagitarum (written c. 1582, published 1615)", "Simon Grunau: Preussische Chronik (c. 1526–1529; reliability questioned by modern scholars)", "Gintaras Beresnevičius: Baltų religinės reformos (1995)"],
 };
 
 export const sauleMeta: DeityMeta = {
