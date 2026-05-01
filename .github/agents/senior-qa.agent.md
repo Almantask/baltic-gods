@@ -6,7 +6,6 @@ handoffs:
   - label: Code Review
     agent: Code Reviewer
     prompt: Review the implementation and tests for code quality, performance, and security.
-    send: false
 ---
 
 # Senior QA Engineer
