@@ -9,6 +9,15 @@ import * as meta from "./meta";
 (React as unknown as { default?: typeof React }).default ??= React;
 
 export const locationEntryById: Record<string, LocationEntry> = {
+  "aglona-basilica-site": {
+    meta: meta.aglonaBasilicaSiteMeta,
+    Content: dynamic(() => import("./en/aglona-basilica-site.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/aglona-basilica-site.mdx")),
+      lt: dynamic(() => import("./en/aglona-basilica-site.mdx")),
+      lv: dynamic(() => import("./en/aglona-basilica-site.mdx")),
+    }
+  },
   "aizkraukle-center": {
     meta: meta.aizkraukleCenterMeta,
     Content: dynamic(() => import("./en/aizkraukle-center.mdx")),
@@ -126,6 +135,24 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/birute-hill.mdx")),
     }
   },
+  "birzai-grove": {
+    meta: meta.birzaiGroveMeta,
+    Content: dynamic(() => import("./en/birzai-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/birzai-grove.mdx")),
+      lt: dynamic(() => import("./en/birzai-grove.mdx")),
+      lv: dynamic(() => import("./en/birzai-grove.mdx")),
+    }
+  },
+  "burtnieks-lake": {
+    meta: meta.burtnieksLakeMeta,
+    Content: dynamic(() => import("./en/burtnieks-lake.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/burtnieks-lake.mdx")),
+      lt: dynamic(() => import("./en/burtnieks-lake.mdx")),
+      lv: dynamic(() => import("./en/burtnieks-lake.mdx")),
+    }
+  },
   "cesis-hill": {
     meta: meta.cesisHillMeta,
     Content: dynamic(() => import("./en/cesis-hill.mdx")),
@@ -142,6 +169,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/daugava-bends.mdx")),
       lt: dynamic(() => import("./en/daugava-bends.mdx")),
       lv: dynamic(() => import("./en/daugava-bends.mdx")),
+    }
+  },
+  "daugmale-hillfort": {
+    meta: meta.daugmaleHillfortMeta,
+    Content: dynamic(() => import("./en/daugmale-hillfort.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/daugmale-hillfort.mdx")),
+      lt: dynamic(() => import("./en/daugmale-hillfort.mdx")),
+      lv: dynamic(() => import("./en/daugmale-hillfort.mdx")),
     }
   },
   "dobele-mound": {
@@ -225,6 +261,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/grobina-site.mdx")),
     }
   },
+  "heiligenbeil-grove": {
+    meta: meta.heiligenbeilGroveMeta,
+    Content: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
+      lt: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
+      lv: dynamic(() => import("./en/heiligenbeil-grove.mdx")),
+    }
+  },
   "hill-of-crosses": {
     meta: meta.hillOfCrossesMeta,
     Content: dynamic(() => import("./en/hill-of-crosses.mdx")),
@@ -232,6 +277,24 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/hill-of-crosses.mdx")),
       lt: dynamic(() => import("./en/hill-of-crosses.mdx")),
       lv: dynamic(() => import("./en/hill-of-crosses.mdx")),
+    }
+  },
+  "honeda-sanctuary": {
+    meta: meta.honedaSanctuaryMeta,
+    Content: dynamic(() => import("./en/honeda-sanctuary.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/honeda-sanctuary.mdx")),
+      lt: dynamic(() => import("./en/honeda-sanctuary.mdx")),
+      lv: dynamic(() => import("./en/honeda-sanctuary.mdx")),
+    }
+  },
+  "ikskile-island": {
+    meta: meta.ikskileIslandMeta,
+    Content: dynamic(() => import("./en/ikskile-island.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/ikskile-island.mdx")),
+      lt: dynamic(() => import("./en/ikskile-island.mdx")),
+      lv: dynamic(() => import("./en/ikskile-island.mdx")),
     }
   },
   "imbare-fort": {
@@ -333,6 +396,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/klaipeda-drift.mdx")),
     }
   },
+  "koknese-ford": {
+    meta: meta.koknesesFordMeta,
+    Content: dynamic(() => import("./en/koknese-ford.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/koknese-ford.mdx")),
+      lt: dynamic(() => import("./en/koknese-ford.mdx")),
+      lv: dynamic(() => import("./en/koknese-ford.mdx")),
+    }
+  },
   "kolka-surge": {
     meta: meta.kolkaSurgeMeta,
     Content: dynamic(() => import("./en/kolka-surge.mdx")),
@@ -378,6 +450,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/latgale-hive.mdx")),
     }
   },
+  "lielupe-confluence": {
+    meta: meta.lielupeConfluenceMeta,
+    Content: dynamic(() => import("./en/lielupe-confluence.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/lielupe-confluence.mdx")),
+      lt: dynamic(() => import("./en/lielupe-confluence.mdx")),
+      lv: dynamic(() => import("./en/lielupe-confluence.mdx")),
+    }
+  },
   "lielvarde-park": {
     meta: meta.lielvardeParkMeta,
     Content: dynamic(() => import("./en/lielvarde-park.mdx")),
@@ -405,6 +486,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/lopaiciai-complex.mdx")),
     }
   },
+  "lubana-lake": {
+    meta: meta.lubanaLakeMeta,
+    Content: dynamic(() => import("./en/lubana-lake.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/lubana-lake.mdx")),
+      lt: dynamic(() => import("./en/lubana-lake.mdx")),
+      lv: dynamic(() => import("./en/lubana-lake.mdx")),
+    }
+  },
   "madona-ember": {
     meta: meta.madonaEmberMeta,
     Content: dynamic(() => import("./en/madona-ember.mdx")),
@@ -412,6 +502,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/madona-ember.mdx")),
       lt: dynamic(() => import("./en/madona-ember.mdx")),
       lv: dynamic(() => import("./en/madona-ember.mdx")),
+    }
+  },
+  "medininkai-castle": {
+    meta: meta.medininkaiCastleMeta,
+    Content: dynamic(() => import("./en/medininkai-castle.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/medininkai-castle.mdx")),
+      lt: dynamic(() => import("./en/medininkai-castle.mdx")),
+      lv: dynamic(() => import("./en/medininkai-castle.mdx")),
     }
   },
   "medvegalis-hill": {
@@ -466,6 +565,24 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/panemune-mound.mdx")),
       lt: dynamic(() => import("./en/panemune-mound.mdx")),
       lv: dynamic(() => import("./en/panemune-mound.mdx")),
+    }
+  },
+  "panevezys-springs": {
+    meta: meta.panevezysSpringsMeta,
+    Content: dynamic(() => import("./en/panevezys-springs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/panevezys-springs.mdx")),
+      lt: dynamic(() => import("./en/panevezys-springs.mdx")),
+      lv: dynamic(() => import("./en/panevezys-springs.mdx")),
+    }
+  },
+  "platelia-lake": {
+    meta: meta.plateliaLakeMeta,
+    Content: dynamic(() => import("./en/platelia-lake.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/platelia-lake.mdx")),
+      lt: dynamic(() => import("./en/platelia-lake.mdx")),
+      lv: dynamic(() => import("./en/platelia-lake.mdx")),
     }
   },
   "pokaini-forest": {
@@ -594,6 +711,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/salantai-burial.mdx")),
     }
   },
+  "sambia-peninsula-shrine": {
+    meta: meta.sambiaPeninsulaShrineMeta,
+    Content: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
+      lt: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
+      lv: dynamic(() => import("./en/sambia-peninsula-shrine.mdx")),
+    }
+  },
   "samogitia-stand": {
     meta: meta.samogitiaStandMeta,
     Content: dynamic(() => import("./en/samogitia-stand.mdx")),
@@ -664,6 +790,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/staburags-cliff.mdx")),
       lt: dynamic(() => import("./en/staburags-cliff.mdx")),
       lv: dynamic(() => import("./en/staburags-cliff.mdx")),
+    }
+  },
+  "stelmuze-oak": {
+    meta: meta.stelmuzeOakMeta,
+    Content: dynamic(() => import("./en/stelmuze-oak.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/stelmuze-oak.mdx")),
+      lt: dynamic(() => import("./en/stelmuze-oak.mdx")),
+      lv: dynamic(() => import("./en/stelmuze-oak.mdx")),
     }
   },
   "sventaragis-valley": {
@@ -783,6 +918,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./en/tytuvenai-spring.mdx")),
     }
   },
+  "veliuona-mound": {
+    meta: meta.veliuonaMoundMeta,
+    Content: dynamic(() => import("./en/veliuona-mound.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/veliuona-mound.mdx")),
+      lt: dynamic(() => import("./en/veliuona-mound.mdx")),
+      lv: dynamic(() => import("./en/veliuona-mound.mdx")),
+    }
+  },
   "ventspils-shore": {
     meta: meta.ventspilsShoreMeta,
     Content: dynamic(() => import("./en/ventspils-shore.mdx")),
@@ -853,6 +997,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
       lt: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
       lv: dynamic(() => import("./en/zilaiskalns-hill.mdx")),
+    }
+  },
+  "zuvintas-wetland": {
+    meta: meta.zuvintasWetlandMeta,
+    Content: dynamic(() => import("./en/zuvintas-wetland.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/zuvintas-wetland.mdx")),
+      lt: dynamic(() => import("./en/zuvintas-wetland.mdx")),
+      lv: dynamic(() => import("./en/zuvintas-wetland.mdx")),
     }
   },
 };
