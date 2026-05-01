@@ -2538,3 +2538,531 @@ export const rumsiskesMuseumMeta: LocationMeta = {
   references: ["Rumšiškės Museum Official Site", "Laimutė Dundulienė: Lietuvos etnografija"],
 };
 
+export const plateliaLakeMeta: LocationMeta = {
+  id: "platelia-lake",
+  name: {
+    en: "Lake Plateliai",
+    lt: "Platelių ežeras",
+    lv: "Plateļu ezers",
+  },
+  coordinates: [56.04, 21.84],
+  region: "Lithuania",
+  description: {
+    en: "The largest lake in Samogitia and one of the most sacred bodies of water in Lithuanian folk belief. Local legend holds that a sunken city lies beneath its waters, and the lake was a site of offerings to water spirits and the earth goddess.",
+    lt: "Didžiausias Žemaitijos ežeras ir vienas švenčiausių vandens telkinių lietuvių liaudies tikėjime. Vietinė legenda byloja, kad po jo vandenimis slepiasi nuskendęs miestas, o ežeras buvo aukojimų vandens dvasioms ir žemės deivei vieta.",
+    lv: "Lielākais ezers Žemaitijā un viens no svētākajiem ūdens objektiem lietuviešu tautas ticējumos. Vietējā leģenda vēsta, ka zem tā ūdeņiem slēpjas nogrimusi pilsēta, un ezers bija ziedojumu vieta ūdens gariem un zemes dievietei.",
+  },
+  siteType: "Springs, rivers, lakes with cult significance",
+  aura: "mist",
+  deity: "zemyna",
+  significance: {
+    en: "A site of midsummer raft ceremonies and offerings. The lake island of Pilies Sala was a refuge and possibly an ancient cult center associated with the Samogitian resistance to Christianization.",
+    lt: "Joninių plausto ceremonijų ir aukojimų vieta. Pilies salos ežere buvo prieglobstis ir galbūt senovinis kulto centras, susijęs su žemaičių pasipriešinimu krikščionybei.",
+    lv: "Vasaras saulgriežu plosta ceremoniju un ziedojumu vieta. Ezera sala Pilies Sala bija patvērums un, iespējams, sena kulta vieta, kas saistīta ar žemaiču pretestību kristianizācijai.",
+  },
+  tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
+  period: { en: "Pre-Christian / Medieval", lt: "Ikikrikščioniška / Viduramžiai", lv: "Pirmskristīgā / Viduslaiki" },
+  references: [
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Algirdas Julius Greimas: Of Gods and Men (Apie dievus ir žmones)",
+    "Vaitkevičius: Senosios Lietuvos šventvietės – Žemaitija",
+  ],
+};
+
+export const stelmuzeOakMeta: LocationMeta = {
+  id: "stelmuze-oak",
+  name: {
+    en: "Stelmuže Sacred Oak",
+    lt: "Stelmužės šventasis ąžuolas",
+    lv: "Stelmuzes svētais ozols",
+  },
+  coordinates: [55.98, 26.13],
+  region: "Lithuania",
+  description: {
+    en: "The oldest oak tree in Lithuania and one of the oldest living trees in Europe, estimated to be over 1,500 years old. Venerated as a living sanctuary of Perkūnas, it stands in Stelmužė village in Zarasai district, Aukštaitija.",
+    lt: "Seniausias Lietuvos ąžuolas ir vienas seniausių gyvų medžių Europoje, kurio amžius, manoma, viršija 1 500 metų. Gerbiamas kaip gyva Perkūno šventovė, stovi Stelmužės kaime Zarasų rajone, Aukštaitijoje.",
+    lv: "Vecākais ozols Lietuvā un viens no vecākajiem dzīvajiem kokiem Eiropā, kura vecums tiek lēsts vairāk nekā 1500 gadus. Cienīts kā dzīva Pērkona svētvieta, tas atrodas Stelmuzes ciemā Zarasu rajonā, Augštaitijā.",
+  },
+  siteType: "Sacred groves",
+  aura: "amber",
+  deity: "perkunas",
+  significance: {
+    en: "The oak was historically surrounded by smaller sacred trees forming a natural grove (alka). Pilgrims left offerings of iron, grain, and cloth at its roots. Christianization failed to fully suppress the veneration, and the tree remains a protected natural monument.",
+    lt: "Ąžuolą istoriškai supo mažesni šventieji medžiai, sudarantys natūralią giraitę (alką). Piligrimai paliko geležies, grūdų ir audinio aukas prie jo šaknų. Krikščionybė nesugebėjo visiškai nuslopinti garbinimo, ir medis tebėra saugomas gamtos paminklas.",
+    lv: "Vēsturiski ozolu ieskauja mazāki svētie koki, veidojot dabīgu birzīti (alka). Svētceļnieki pie tā saknēm atstāja dzelzs, graudu un auduma ziedojumus. Kristianizācija nespēja pilnībā apspiест pagodināšanu, un koks joprojām ir aizsargāts dabas piemineklis.",
+  },
+  tribe: { en: "Lithuanians (Aukštaitians)", lt: "Lietuviai (Aukštaičiai)", lv: "Lietuvieši (Augštaiši)" },
+  period: { en: "Pre-Christian (estimated 1st millennium CE)", lt: "Ikikrikščioniška (apytiksliai I tūkstantmečio pr. m. e.)", lv: "Pirmskristīgā (aptuveni 1. gadu tūkstotis m. ē.)" },
+  references: [
+    "Vaitkevičius: Senosios Lietuvos šventvietės – Aukštaitija",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lithuanian Department of Cultural Heritage: Stelmuže Oak Registry",
+  ],
+};
+
+export const aglonaBasilicaSiteMeta: LocationMeta = {
+  id: "aglona-basilica-site",
+  name: {
+    en: "Aglona Sacred Hill",
+    lt: "Agluonos šventasis kalnas",
+    lv: "Aglonas svētais kalns",
+  },
+  coordinates: [56.14, 27.0],
+  region: "Latvia",
+  description: {
+    en: "Before the Catholic Basilica of Aglona was built, this hill in Latgale was a pre-Christian sacred site associated with Laima and water cult veneration. The hilltop spring was considered to possess healing and prophetic powers.",
+    lt: "Prieš pastatant Agluonos katalikų baziliką, šis Latgalos kalnas buvo ikikrikščioniškas šventasis kalnas, susijęs su Laimos garbinimu ir vandens kultais. Kalvos viršūnės šaltinis buvo laikomas turinčiu gydomųjų ir pranašiškų galių.",
+    lv: "Pirms katoļu Aglonas bazilikas uzcelšanas šis Latgales kalns bija pirmskristīgā svētvieta, kas saistīta ar Laimas un ūdens kulta godināšanu. Paugura virsotnes avots tika uzskatīts par dziedniecisku un pravietisku.",
+  },
+  siteType: "Sacred springs",
+  aura: "mist",
+  deity: "laima",
+  significance: {
+    en: "The sacred spring at the foot of the hill continues to draw pilgrims to this day. Ethnographic records document pre-Christian healing rituals, ribbon-tying at the spring, and night-long vigils during midsummer that predate the Christian overlay.",
+    lt: "Šventasis šaltinis kalvos papėdėje ir šiandien traukia piligrimus. Etnografiniuose šaltiniuose užfiksuoti ikikrikščioniški gydymo ritualai, juostelių rišimas prie šaltinio ir naktinės vigilijos vasarvidžio metu, ankstesnės už krikščioniškus papildus.",
+    lv: "Svētais avots kalna pakājē turpina piesaistīt svētceļniekus līdz pat mūsdienām. Etnogrāfiskie ieraksti dokumentē pirmskristīgos dziedinošos rituālus, lentīšu sēšanu pie avota un nakts vigīlijas vasaras saulgriežu laikā, kas ir senākas par kristīgo pārklājumu.",
+  },
+  tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
+  period: { en: "Pre-Christian / 18th Century Syncretic", lt: "Ikikrikščioniška / XVIII a. sinkretizmas", lv: "Pirmskristīgā / 18. gadsimta sinkrētisms" },
+  references: [
+    "Pēteris Šmits: Latviešu mitoloģija",
+    "Krišjānis Barons: Latvju Dainas",
+    "Urtāns: Latvijas senā svētvietas (Ancient Sacred Sites of Latvia)",
+  ],
+};
+
+export const lielupeConfluenceMeta: LocationMeta = {
+  id: "lielupe-confluence",
+  name: {
+    en: "Lielupe River Confluence",
+    lt: "Lielupės upių santaka",
+    lv: "Lielupes upes satekas",
+  },
+  coordinates: [56.59, 24.37],
+  region: "Latvia",
+  description: {
+    en: "The confluence of the Mūsa and Mēmele rivers at Bauska, forming the Lielupe ('Great River'), was a sacred boundary site in Semigallian tradition. The meeting of waters was associated with fate-weaving and seasonal transition rites.",
+    lt: "Mūsos ir Mēmele upių santaka Bauskoje, sudaranti Lielupę ('Didžiąją upę'), buvo šventas ribinis taškas žiemgalių tradicijoje. Vandenų susitikimas buvo siejamas su likimo audimo ir sezoninių pereinamųjų apeigomis.",
+    lv: "Mūsas un Mēmeles upju saplūšana Bauskā, veidojot Lielupi ('Lielo upi'), bija svēta robežvieta zemgaļu tradīcijā. Ūdeņu tikšanās bija saistīta ar likteņa vērpšanu un sezonālo pārejas rituāliem.",
+  },
+  siteType: "Springs, rivers, lakes with cult significance",
+  aura: "moss",
+  deity: "laima",
+  significance: {
+    en: "The Semigallians performed seasonal sacrifice rites at river confluences, reading omens in the mixing of waters. Archaeological finds at Bauska indicate pre-Christian ritual deposits including amber beads and animal bones.",
+    lt: "Žiemgaliai atliko sezoninių aukojimų apeigas upių santakose, skaitydami ženklus vandenyse maišantis. Archeologiniai radiniai Bauskoje rodo ikikrikščioniškus ritualinius indėlius, įskaitant gintaro karolius ir gyvūnų kaulus.",
+    lv: "Zemgaļi veica sezonālos upurēšanas rituālus upju saplūšanas vietās, lasot zīmes ūdeņu sajaukšanā. Arheoloģiskie atradumi Bauskā norāda uz pirmskristīgajiem rituālajiem noguldījumiem, tostarp dzintara krellēm un dzīvnieku kauliem.",
+  },
+  tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
+  period: { en: "Pre-Christian / Early Medieval", lt: "Ikikrikščioniška / Ankstyvieji viduramžiai", lv: "Pirmskristīgā / Agrie Viduslaiki" },
+  references: [
+    "Pēteris Šmits: Latviešu mitoloģija",
+    "Urtāns: Latvijas senā svētvietas",
+    "Mugurēvičs: Archaeology of Medieval Latvia",
+  ],
+};
+
+export const lubanaLakeMeta: LocationMeta = {
+  id: "lubana-lake",
+  name: {
+    en: "Lake Lubāns",
+    lt: "Lubānos ežeras",
+    lv: "Lubāna ezers",
+  },
+  coordinates: [56.74, 26.72],
+  region: "Latvia",
+  description: {
+    en: "The largest lake in Latvia, located in Latgale, Lake Lubāns was a major sacred site in Latvian folk tradition. Its broad, mist-covered surface was associated with Dievas and the primordial waters from which the world emerged.",
+    lt: "Didžiausias Latvijos ežeras, esantis Latgaloje. Lubānos ežeras buvo svarbi šventovė latvių liaudies tradicijoje. Jo platus, rūku dengtas paviršius buvo siejamas su Dievu ir pirminiais vandenimis, iš kurių atsirado pasaulis.",
+    lv: "Latvijas lielākais ezers Latgalē, Lubāna ezers bija nozīmīga svētvieta latviešu tautas tradīcijā. Tā platā, miglas klātā virsma bija saistīta ar Dievu un pirmatnējiem ūdeņiem, no kuriem radās pasaule.",
+  },
+  siteType: "Springs, rivers, lakes with cult significance",
+  aura: "mist",
+  deity: "dievas",
+  significance: {
+    en: "Fishermen made offerings at the lake shore before setting out, addressing the 'lake mother' (ezera māte). Midsummer fires were lit on the surrounding marshland ridges. The lake was also associated with the souls of the dead passing through watery realms.",
+    lt: "Žvejai aukojo ežero pakrantėje prieš išplaukdami, kreipdamiesi į 'ežero motiną' (ezera māte). Joninių ugniakurai buvo uždegami ant supančių pelkių aukštumų. Ežeras taip pat buvo siejamas su mirusiųjų sielomis, pereinančiomis per vandeningus pasaulius.",
+    lv: "Zvejnieki upurēja ezera krastā pirms izgāšanas, uzrunājot 'ezera māti' (ezera māte). Jāņu ugunskuri tika dedzināti uz apkārtējo purvu grēdām. Ezers tika saistīts arī ar mirušo dvēselēm, kas ceļo caur ūdens valstībām.",
+  },
+  tribe: { en: "Latgalians / Latvians", lt: "Latgaliai / Latviai", lv: "Latgalieši / Latvieši" },
+  period: { en: "Pre-Christian / Folk Tradition", lt: "Ikikrikščioniška / Tautosakinė tradicija", lv: "Pirmskristīgā / Folkloras tradīcija" },
+  references: [
+    "Krišjānis Barons: Latvju Dainas",
+    "Pēteris Šmits: Latviešu mitoloģija",
+    "Haralds Biezais: Die Hauptgöttinnen der alten Letten",
+  ],
+};
+
+export const burtnieksLakeMeta: LocationMeta = {
+  id: "burtnieks-lake",
+  name: {
+    en: "Lake Burtnieks",
+    lt: "Burtnieko ežeras",
+    lv: "Burtnieku ezers",
+  },
+  coordinates: [57.73, 25.23],
+  region: "Latvia",
+  description: {
+    en: "Lake Burtnieks in northern Latvia was associated with oracular and divination practices in Latvian folk tradition. Its name derives from an old Latvian word for 'seer' or 'wise man,' suggesting it was a center of prophetic ritual.",
+    lt: "Burtnieko ežeras šiaurinėje Latvijoje buvo siejamas su orakulo ir būrimo praktikomis latvių liaudies tradicijoje. Jo pavadinimas kilęs iš seno latvių žodžio, reiškiančio 'regėtojas' arba 'išminčius', rodant, kad tai buvo pranašiškų ritualų centras.",
+    lv: "Burtnieku ezers Latvijas ziemeļos tika saistīts ar pravietošanas un zīlēšanas praksi latviešu tautas tradīcijā. Tā nosaukums cēlies no sena latviešu vārda, kas nozīmē 'gaišreģis' vai 'gudrais', liekot domāt, ka tas bija pravietojumu rituālu centrs.",
+  },
+  siteType: "Springs, rivers, lakes with cult significance",
+  aura: "sky",
+  deity: "laima",
+  significance: {
+    en: "The lake shore was a gathering place for seasonal divination rites performed by wise women (burtnīcas). Women waded into the shallow waters on Midsummer morning to divine the fates of newborns and marriages in the coming year.",
+    lt: "Ežero pakrantė buvo sezoninių būrimo apeigų, atliekamų išmintingų moterų (burtnīcas), susirinkimo vieta. Moterys brisdavo į seklų vandenį Joninių rytą, spėdamos naujagimių ir santuokų likimus ateinančiais metais.",
+    lv: "Ezera krasts bija sezonālo zīlēšanas rituālu sapulcēšanās vieta, ko veica gudras sievietes (burtnīcas). Sievietes brida seklajos ūdeņos Jāņu rītā, lai zīlētu jaundzimušo un laulību likteni nākamajā gadā.",
+  },
+  tribe: { en: "Latvians / Vends", lt: "Latviai / Vendai", lv: "Latvieši / Vendi" },
+  period: { en: "Pre-Christian / Medieval", lt: "Ikikrikščioniška / Viduramžiai", lv: "Pirmskristīgā / Viduslaiki" },
+  references: [
+    "Pēteris Šmits: Latviešu mitoloģija",
+    "Haralds Biezais: Die Hauptgöttinnen der alten Letten",
+    "Urtāns: Latvijas senā svētvietas",
+  ],
+};
+
+export const ikskileIslandMeta: LocationMeta = {
+  id: "ikskile-island",
+  name: {
+    en: "Ikšķile Sacred Island",
+    lt: "Ikšķilės šventoji sala",
+    lv: "Ikšķiles svētā sala",
+  },
+  coordinates: [56.84, 24.49],
+  region: "Latvia",
+  description: {
+    en: "The ancient island site on the Daugava River at Ikšķile, now partially submerged by the Ķegums hydroelectric reservoir. Archaeological evidence and historical records confirm it was a major Livonian and Baltic cult site long before the German crusaders built a church there in 1185.",
+    lt: "Senoji salos vietovė ant Dauguvos upės ties Ikšķile, dabar iš dalies panardinta po Ķegumo hidroelektrinės rezervuaru. Archeologiniai įrodymai ir istoriniai šaltiniai patvirtina, kad tai buvo svarbus Livų ir baltų kulto centras, dar prieš vokiečių kryžiuočiams ten pastatant bažnyčią 1185 m.",
+    lv: "Senā salas vieta uz Daugavas Ikšķilē, kas tagad daļēji ir appludināta ar Ķeguma hidroelektrostacijas rezervuāru. Arheoloģiskie liecinieki un vēsturiskie avoti apliecina, ka tā bija nozīmīga lībiešu un baltu kulta vieta ilgi pirms vācu krustnešu baznīcas celtniecības tur 1185. gadā.",
+  },
+  siteType: "Sacrifice / offering sites",
+  aura: "mist",
+  deity: "dievas",
+  significance: {
+    en: "The river island served as a naturally bounded ritual space. Offerings including pottery, weapons, and ornaments have been recovered from the riverbed around the island. The site represents the confluence of indigenous Baltic spiritual practice and the earliest phase of Christian mission in Latvia.",
+    lt: "Upės sala tarnavo kaip natūraliai apibrėžta ritualinė erdvė. Iš upės dugno aplink salą išgauta keramikos, ginklų ir puošmenų. Vietovė atspindi vietinės baltų dvasinės praktikos ir ankstyviausiojo krikščionybės misijų Latvijoje fazės sankirtą.",
+    lv: "Upessala kalpoja kā dabiski norobežota rituālā telpa. No upes gultnes ap salu ir iegūti keramika, ieroči un rotaslietas. Vieta pārstāv vietējo baltu garīgās prakses un agrākās kristīgās misijas Latvijā sākumposma saskari.",
+  },
+  tribe: { en: "Livonians / Latvians", lt: "Livai / Latviai", lv: "Lībieši / Latvieši" },
+  period: { en: "Pre-Christian / 12th Century", lt: "Ikikrikščioniška / XII a.", lv: "Pirmskristīgā / 12. gadsimts" },
+  references: [
+    "Mugurēvičs: Archaeology of Medieval Latvia",
+    "Urtāns: Latvijas senā svētvietas",
+    "Heinricus Lettus: Chronicon Livoniae (c. 1225)",
+  ],
+};
+
+export const koknesesFordMeta: LocationMeta = {
+  id: "koknese-ford",
+  name: {
+    en: "Koknese Sacred Ford",
+    lt: "Koknese šventoji brasta",
+    lv: "Koknese svētā brasta",
+  },
+  coordinates: [56.65, 25.44],
+  region: "Latvia",
+  description: {
+    en: "The ancient hill fort and sacred ford at Koknese on the Daugava River was a major center of Latvian Semigallian and Selonian spiritual life. The promontory overlooking the river confluence was used for seasonal fire rites and offerings to the river deity.",
+    lt: "Senasis piliakalnis ir šventoji brasta Koknese ant Dauguvos upės buvo svarbus latvių žiemgalių ir selių dvasinio gyvenimo centras. Kyšulys, žvelgiantis į upių santaką, buvo naudojamas sezoninėms ugnies apeigoms ir aukojimui upės dievybei.",
+    lv: "Senais pilskalns un svētā brasta Koknesē uz Daugavas bija nozīmīgs latviešu zemgaļu un sēļu garīgās dzīves centrs. Ragains, kas skatās uz upju saplūšanu, tika izmantots sezonālo uguns rituāliem un ziedojumiem upes dievībai.",
+  },
+  siteType: "Ritual fire sites",
+  aura: "amber",
+  deity: "perkunas",
+  significance: {
+    en: "The hillfort controlled a strategic Daugava ford. Seasonal fire festivals were held on the promontory at midsummer and winter solstice. The ford itself was a sacred boundary where travelers made offerings before crossing into 'other' territory.",
+    lt: "Piliakalnis kontroliavo strateginę Dauguvos brastą. Sezoniniai ugnies festivaliai vyko ant kyšulio vasarvidžio ir žiemos saulėgrįžos metu. Pati brasta buvo šventoji riba, kur keliauninkai atnešdavo aukas prieš kirsdami į 'kitą' teritoriją.",
+    lv: "Pilskalns kontrolēja stratēģisko Daugavas braslu. Sezonālie uguns festivāli notika uz ragāna vasaras saulgriežu un ziemas saulgriežu laikā. Brasta pati bija svēta robeža, kur ceļotāji atnesa ziedojumus pirms pāriešanas 'citā' teritorijā.",
+  },
+  tribe: { en: "Semigallians / Selonians", lt: "Žiemgaliai / Seliai", lv: "Zemgaļi / Sēļi" },
+  period: { en: "Pre-Christian / Early Medieval", lt: "Ikikrikščioniška / Ankstyvieji viduramžiai", lv: "Pirmskristīgā / Agrie Viduslaiki" },
+  references: [
+    "Mugurēvičs: Archaeology of Medieval Latvia",
+    "Urtāns: Latvijas senā svētvietas",
+    "Latvijas vēstures avoti (Sources of Latvian History), vol. I",
+  ],
+};
+
+export const veliuonaMoundMeta: LocationMeta = {
+  id: "veliuona-mound",
+  name: {
+    en: "Veliuona Sacred Mound",
+    lt: "Veliuonos šventasis piliakalnis",
+    lv: "Veļuonas svētais pilskalns",
+  },
+  coordinates: [55.09, 23.15],
+  region: "Lithuania",
+  description: {
+    en: "The hill fort of Veliuona on the Nemunas River is associated with the cult of the dead and ancestor veneration in Lithuanian tradition. Its name derives from the Lithuanian word 'vėlės' (souls of the dead), linking it to the underworld deity Velnias.",
+    lt: "Veliuonos piliakalnis ant Nemuno upės yra siejamas su mirusiųjų kultu ir protėvių garbinimu lietuvių tradicijoje. Jo pavadinimas kilęs iš lietuviško žodžio 'vėlės' (mirusiųjų sielos), jungiant jį su požemio dievybe Velniu.",
+    lv: "Veļuonas pilskalns uz Nemuno upes ir saistīts ar mirušo kultu un senču godināšanu lietuviešu tradīcijā. Tā nosaukums cēlies no lietuviešu vārda 'vėlės' (mirušo dvēseles), saistot to ar pazemes dievību Velni.",
+  },
+  siteType: "Burial/cremation sites",
+  aura: "mist",
+  deity: "velnias",
+  significance: {
+    en: "The mound was a site of ancestral soul propitiation (Vėlinės/Ilgės). Ritual feasts for the dead were held here each autumn, when the boundary between worlds was thin. Archaeological excavations have revealed cremation burials and ritual deposits spanning the 1st millennium CE.",
+    lt: "Piliakalnis buvo protėvių sielų numalšinimo (Vėlinės/Ilgės) vieta. Kiekvieną rudenį čia vykdavo ritualinės puotos mirusiesiems, kai riba tarp pasaulių buvo plona. Archeologiniai kasinėjimai atskleidė kremacijos kapus ir ritualinius indėlius, apimančius I tūkstantmetį m. e.",
+    lv: "Pilskalns bija senču dvēseļu nomierināšanas (Vėlinės/Ilgės) vieta. Ik rudeni šeit notika rituālās mielasts mirušajiem, kad robeža starp pasaulēm bija plāna. Arheoloģiskās izrakumi atklāja kremācijas apbedījumus un rituālos noguldījumus, kas aptver 1. gadu tūkstoti m. ē.",
+  },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "Pre-Christian / 1st Millennium CE", lt: "Ikikrikščioniška / I tūkstantmetis m. e.", lv: "Pirmskristīgā / 1. gadu tūkstotis m. ē." },
+  references: [
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Beresnevičius: Lietuvių religija ir mitologija",
+    "Vaitkevičius: Senosios Lietuvos šventvietės – Vidurio Lietuva",
+  ],
+};
+
+export const medininkaiCastleMeta: LocationMeta = {
+  id: "medininkai-castle",
+  name: {
+    en: "Medininkai Hill Fort",
+    lt: "Medininkų piliakalnis",
+    lv: "Mediņinku pilskalns",
+  },
+  coordinates: [54.61, 25.66],
+  region: "Lithuania",
+  description: {
+    en: "The medieval castle and earlier hill fort at Medininkai near Vilnius occupies a site with deep pre-Christian significance. The name derives from 'medis' (tree/forest), and the surrounding forest was considered a sacred domain of Medeina, the forest goddess.",
+    lt: "Vidurinio laikmečio pilis ir ankstesnis piliakalnis Medininkuose netoli Vilniaus užima vietovę su giliu ikikrikščionišku reikšmingumu. Pavadinimas kilęs iš žodžio 'medis' (medis/miškas), o aplinkiniai miškai buvo laikomi šventąja Miškinės valdų zona.",
+    lv: "Viduslaiku pils un agrākais pilskalns Mediņinkos netālu no Viļņas atrodas vietā ar dziļu pirmskristīgo nozīmi. Nosaukums cēlies no 'medis' (koks/mežs), un apkārtējais mežs tika uzskatīts par meža dievietes Medeinas svēto valdījumu.",
+  },
+  siteType: "Sacred groves",
+  aura: "green",
+  deity: "medine",
+  significance: {
+    en: "The forest surrounding Medininkai was one of the last great sacred forests of Lithuania proper. The hill fort itself may have served as a ritual boundary marker between settled lands and the sacred woodland. Hunters performed propitiation rites to Medeina before entering.",
+    lt: "Miškai aplink Medininkus buvo vienas paskutinių didžiųjų šventųjų Lietuvos miškų. Pats piliakalnis galėjo tarnauti kaip ritualinis riboženklis tarp apgyvendintos žemės ir šventojo miško. Medžiotojai atlikdavo numalšinimo apeigas Miškinei prieš įeidami.",
+    lv: "Mežs ap Mediņinkiem bija viens no pēdējiem lielajiem svētajiem Lietuvas meža masīviem. Pats pilskalns varēja kalpot kā rituāla robežzīme starp apdzīvotajām zemēm un svēto mežu. Mednieki veica nomierināšanas rituālus Medeinai pirms iebraukšanas.",
+  },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "Pre-Christian / Medieval (14th Century)", lt: "Ikikrikščioniška / Viduramžiai (XIV a.)", lv: "Pirmskristīgā / Viduslaiki (14. gadsimts)" },
+  references: [
+    "Vaitkevičius: Senosios Lietuvos šventvietės",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Jan Łasicki: De Diis Samagitarum (1582)",
+  ],
+};
+
+export const birzaiGroveMeta: LocationMeta = {
+  id: "birzai-grove",
+  name: {
+    en: "Biržai Sacred Grove",
+    lt: "Biržų šventoji giraitė",
+    lv: "Biržu svētā birzīte",
+  },
+  coordinates: [56.2, 24.75],
+  region: "Lithuania",
+  description: {
+    en: "The karst landscape around Biržai in northern Lithuania, with its sinkholes, springs, and sacred birch groves, was a significant cult site in Baltic tradition. The area's unusual geography — ground that opens unexpectedly — was associated with Velnias and the entrance to the underworld.",
+    lt: "Karsto kraštovaizdis aplink Biržus Šiaurės Lietuvoje, su savo įgriuvomis, šaltiniais ir šventomis beržų giraitėmis, buvo svarbus kulto centras baltų tradicijoje. Neįprasta teritorijos geografija — žemė, kuri netikėtai atsiveria — buvo siejama su Velniu ir įėjimu į požemio pasaulį.",
+    lv: "Karsta ainava ap Biržiem Lietuvas ziemeļos ar savām bedres, avotiem un svētajām bērzu birzīm bija nozīmīga kulta vieta baltu tradīcijā. Apvidus neparastā ģeogrāfija — zeme, kas netikēti atveras — bija saistīta ar Velni un ieeju pazemes pasaulē.",
+  },
+  siteType: "Sacred groves",
+  aura: "green",
+  deity: "velnias",
+  significance: {
+    en: "The sinkholes (karstic depressions) were considered portals to the underworld realm of Velnias. Offerings of dairy products, grain, and small figurines were deposited in the sinkholes as petitions to the dead. The birch groves surrounding the depressions were sacred boundary markers.",
+    lt: "Įgriuvos (karsto įdubimai) buvo laikomos vartais į Velnio požemio valdas. Pieno produktų, grūdų ir mažų figūrėlių aukos buvo dedamos į įgriuvas kaip prašymai mirusiesiems. Beržų giraitės aplink įdubes buvo šventieji ribų ženklai.",
+    lv: "Iedobes (karstas ieplakas) tika uzskatītas par vārtiem uz Velna pazemes valstību. Piena produktu, graudu un mazu figūriņu ziedojumus noguldīja iedobēs kā lūgumus mirušajiem. Bērzu birzes ap iedobēm bija svētas robežzīmes.",
+  },
+  tribe: { en: "Lithuanians (Northern Aukštaitians)", lt: "Lietuviai (Šiaurės aukštaičiai)", lv: "Lietuvieši (Ziemeļu augštaiši)" },
+  period: { en: "Pre-Christian / Folk Tradition", lt: "Ikikrikščioniška / Tautosakinė tradicija", lv: "Pirmskristīgā / Folkloras tradīcija" },
+  references: [
+    "Vaitkevičius: Senosios Lietuvos šventvietės – Aukštaitija",
+    "Jonas Balys: Lietuvių mitologiškos sakmės",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+  ],
+};
+
+export const daugmaleHillfortMeta: LocationMeta = {
+  id: "daugmale-hillfort",
+  name: {
+    en: "Daugmale Ancient Center",
+    lt: "Daugmalės senovės centras",
+    lv: "Daugmales sencilvēku centrs",
+  },
+  coordinates: [56.87, 24.06],
+  region: "Latvia",
+  description: {
+    en: "Daugmale, on the lower Daugava River near Riga, was one of the most important centers of pre-Christian Latvian spiritual and commercial life. Its hilltop commanded a view of the river delta and was a site of seasonal gatherings, trade, and ritual.",
+    lt: "Daugmalė, žemupio Dauguvos upėje netoli Rygos, buvo vienas svarbiausių ikikrikščioniškojo latvių dvasinio ir komercinio gyvenimo centrų. Kalvos viršūnė valdė vaizdą į upės deltą ir buvo sezoninių susibūrimų, prekybos ir ritualų vieta.",
+    lv: "Daugmale, uz lejteces Daugavas netālu no Rīgas, bija viens no nozīmīgākajiem pirmskristīgās latviešu garīgās un komerciālās dzīves centriem. Paugura virsotne dominēja pār upes deltas skatu un bija sezonālo pulcēšanās, tirdzniecības un rituālu vieta.",
+  },
+  siteType: "Communal feast sites",
+  aura: "amber",
+  deity: "dievas",
+  significance: {
+    en: "Extensive archaeological finds at Daugmale include amber artifacts, ritual deposits, and evidence of communal feasts. The site functioned as a seasonal gathering point for Baltic tribes exchanging goods and conducting religious ceremonies under the supervision of priests (vaidilai).",
+    lt: "Platūs archeologiniai radiniai Daugmalėje apima gintaro artefaktus, ritualinius indėlius ir bendruomeninių puotų įrodymus. Vietovė funkcionavo kaip sezoninis baltų genčių susirinkimo taškas, kuriame buvo keičiamasi prekėmis ir vedamos religinės ceremonijos prižiūrint kunigams (vaidilai).",
+    lv: "Plaši arheoloģiskie atradumi Daugmalē ietver dzintara artefaktus, rituālos noguldījumus un kopienas mielastu liecības. Vieta funkcionēja kā sezonāls baltu cilšu pulcēšanās punkts, kur apmainījās ar precēm un veica reliģiskās ceremonijas priesteru (vaidilai) uzraudzībā.",
+  },
+  tribe: { en: "Latvians / Livonians", lt: "Latviai / Livai", lv: "Latvieši / Lībieši" },
+  period: { en: "7th–12th Century", lt: "VII–XII a.", lv: "7.–12. gadsimts" },
+  references: [
+    "Mugurēvičs: Archaeology of Medieval Latvia",
+    "Urtāns: Latvijas senā svētvietas",
+    "Šnore: Daugmale un tās vieta Latvijas aizvēsturē",
+  ],
+};
+
+export const zuvintasWetlandMeta: LocationMeta = {
+  id: "zuvintas-wetland",
+  name: {
+    en: "Žuvintas Sacred Wetland",
+    lt: "Žuvinto šventoji pelkė",
+    lv: "Žuvinto svētais purvs",
+  },
+  coordinates: [54.36, 23.63],
+  region: "Lithuania",
+  description: {
+    en: "Lake Žuvintas and the surrounding wetlands in Dzūkija (southern Lithuania) form one of the oldest protected natural sanctuaries in the Baltic region. Rich in waterfowl and amber-colored bog water, the site was associated with Laima and the prophetic powers of birds.",
+    lt: "Žuvinto ežeras ir aplinkinės pelkės Dzūkijoje (pietų Lietuvoje) yra viena seniausių saugomų gamtos šventovių Baltijos regione. Turtinga vandens paukščiais ir gintarinės spalvos durpyno vandeniu, vietovė buvo siejama su Laima ir pranašiškomis paukščių galiomis.",
+    lv: "Žuvinto ezers un apkārtējie purvi Dzūkijā (Lietuvas dienvidos) veido vienu no vecākajām aizsargātajām dabas svētvietām Baltijas reģionā. Bagāts ūdensputniem un dzintara krāsas purva ūdeni, vieta bija saistīta ar Laimu un putnu pravietiskajām spējām.",
+  },
+  siteType: "Springs, rivers, lakes with cult significance",
+  aura: "mist",
+  deity: "laima",
+  significance: {
+    en: "Augury from waterfowl flight patterns was a traditional practice here. Women gathered at the lake shore in spring to observe the arrival of migratory birds, reading the omens for the agricultural year. The bog was also associated with the souls of the dead in Dzūkian tradition.",
+    lt: "Vandens paukščių skrydžio modelių augurija buvo tradicinė praktika čia. Moterys rinkosi prie ežero kranto pavasarį stebėti klajoklių paukščių atskridimą, skaitydamos žemės ūkio metų ženklus. Pelkė taip pat buvo siejama su mirusiųjų sielomis Dzūkijos tradicijoje.",
+    lv: "Ūdensputnu lidojuma modeļu augurija bija tradicionāla prakse šeit. Sievietes pulcējās pie ezera krasta pavasarī, lai novērotu migrējošo putnu ierašanos, lasot lauksaimniecības gada zīmes. Purvs bija saistīts arī ar mirušo dvēselēm Dzūkijas tradīcijā.",
+  },
+  tribe: { en: "Lithuanians (Dzukians)", lt: "Lietuviai (Dzūkai)", lv: "Lietuvieši (Dzūki)" },
+  period: { en: "Pre-Christian / Folk Tradition", lt: "Ikikrikščioniška / Tautosakinė tradicija", lv: "Pirmskristīgā / Folkloras tradīcija" },
+  references: [
+    "Jonas Balys: Lietuvių mitologiškos sakmės",
+    "Dundulienė: Pagonybė Lietuvoje",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+  ],
+};
+
+export const heiligenbeilGroveMeta: LocationMeta = {
+  id: "heiligenbeil-grove",
+  name: {
+    en: "Heiligenbeil Sacred Grove",
+    lt: "Heiligenbeilo šventoji giraitė",
+    lv: "Heiligenbeiles svētā birzs",
+  },
+  coordinates: [54.63, 19.9],
+  region: "Old Prussia",
+  description: {
+    en: "Heiligenbeil (modern Mamonovo, Kaliningrad Oblast) was a major sacred site of the Old Prussians, known to medieval chroniclers as a center of Baltic paganism in Sambia. The name 'Holy Axe' (German: heilige Beil) may refer to the Prussian thunder cult of Perkūnas and his sacred instrument.",
+    lt: "Heiligenbeilis (šiuolaikinis Mamonovas, Kaliningrado sritis) buvo pagrindinis senųjų prūsų šventovė, žinoma viduramžių kronikų rašytojams kaip baltų pagoniškumo centras Semboje. Pavadinimas 'Šventasis kirvis' (vok.: heilige Beil) gali nurodyti prūsų griaustinio kultą Perkūnui ir jo šventajam instrumentui.",
+    lv: "Heiligenbeile (mūsdienu Mamonovs, Kaļiņingradas apgabals) bija nozīmīga senprūšu svētvieta, ko viduslaiku hronistu raksti pazīst kā baltu pagānisma centru Sambijā. Nosaukums 'Svētais cirvis' (vācu: heilige Beil) var attiekties uz prūšu pērkona kultu Pērkona un viņa svētajam instrumentam.",
+  },
+  siteType: "Sacrifice / offering sites",
+  aura: "amber",
+  deity: "perkunas",
+  significance: {
+    en: "Medieval chronicles record the site as a place of seasonal animal sacrifice and communal feasts. The proximity to the Baltic coast made it a node on the amber trade route, and amber offerings were made at the sacred grove. The site was destroyed during the Teutonic Knights' conquest of Prussia.",
+    lt: "Viduramžių kronikos fiksuoja vietovę kaip sezoninių gyvūnų aukojimų ir bendruomeninių puotų vietą. Artumas prie Baltijos jūros pakrantės padarė jį mazgu gintaro prekybos kelyje, o gintaro aukos buvo aukojamos šventojoje giraitėje. Vietovė buvo sunaikinta Kryžiuočių ordino konkysto metu.",
+    lv: "Viduslaiku hronikas atzīmē vietu kā sezonālo dzīvnieku upurēšanas un kopienas mielastu vietu. Tuvums Baltijas jūras krastam padarīja to par mezglu dzintara tirdzniecības ceļā, un dzintara ziedojumi tika ziedoti svētajā birzī. Vieta tika iznīcināta Vācu ordeņa Prūsijas iekarošanas laikā.",
+  },
+  tribe: { en: "Old Prussians (Sambians)", lt: "Senprūsai (Sembai)", lv: "Senprūši (Sambieši)" },
+  period: { en: "Pre-Christian / 13th Century Records", lt: "Ikikrikščioniška / XIII a. šaltiniai", lv: "Pirmskristīgā / 13. gadsimta avoti" },
+  references: [
+    "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
+    "Simon Grunau: Preussische Chronik (c. 1526)",
+    "Boockmann: The Teutonic Order in Prussia",
+  ],
+};
+
+export const honedaSanctuaryMeta: LocationMeta = {
+  id: "honeda-sanctuary",
+  name: {
+    en: "Honeda Prussian Sanctuary",
+    lt: "Honedos prūsų šventovė",
+    lv: "Honedas prūšu svētvieta",
+  },
+  coordinates: [54.05, 21.45],
+  region: "Old Prussia",
+  description: {
+    en: "Honeda (sometimes Honedis) was an important sacred forest grove of the Old Prussian tribe in Galindian territory, mentioned in 13th-century Teutonic chronicles as a major pagan sanctuary where the god Curcho was venerated alongside fire and oak rituals.",
+    lt: "Honeda (kartais Honedis) buvo svarbi senųjų prūsų genties šventoji miško giraitė Galindinų teritorijoje, minima XIII a. Kryžiuočių kronikose kaip pagrindinė pagonių šventovė, kur dievas Curcho buvo gerbiamas kartu su ugnies ir ąžuolo ritualais.",
+    lv: "Honeda (dažreiz Honedis) bija svarīga senprūšu cilts svētā meža birze Galindiesu teritorijā, kas minēta 13. gadsimta Vācu ordeņa hronikās kā galvenā pagānu svētvieta, kur dievs Kurcho tika godināts kopā ar uguns un ozola rituāliem.",
+  },
+  siteType: "Sacred groves",
+  aura: "green",
+  deity: "perkunas",
+  significance: {
+    en: "Honeda was described by Teutonic chroniclers as a sacred grove with a perpetual fire tended by priests. Tribal assemblies and seasonal sacrifices were performed here. The site represents the Galindian variant of the widespread Baltic sacred oak and fire cult.",
+    lt: "Honeda buvo aprašyta Kryžiuočių kronikų rašytojų kaip šventa giraitė su amžina ugnimi, kurią kūreno kunigai. Čia buvo rengiami genčių susirinkimai ir sezoniniai aukojimai. Vietovė atspindi Galindinų variantą plačiai paplitusio baltų šventojo ąžuolo ir ugnies kulto.",
+    lv: "Honeda tika aprakstīta Vācu ordeņa hronistu kā svēta birze ar mūžīgu uguni, ko kopj priesteri. Šeit notika cilts sapulces un sezonālie upurējumi. Vieta pārstāv Galindiesu variantu plaši izplatītā baltu svētā ozola un uguns kultā.",
+  },
+  tribe: { en: "Old Prussians (Galindians)", lt: "Senprūsai (Galindai)", lv: "Senprūši (Galindieši)" },
+  period: { en: "Pre-Christian / 13th Century Records", lt: "Ikikrikščioniška / XIII a. šaltiniai", lv: "Pirmskristīgā / 13. gadsimta avoti" },
+  references: [
+    "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
+    "Hartknoch: Alt und Neues Preussen (1684)",
+    "Marija Gimbutas: The Balts (1963)",
+  ],
+};
+
+export const panevezysSpringsMeta: LocationMeta = {
+  id: "panevezys-springs",
+  name: {
+    en: "Panevėžys Valley Springs",
+    lt: "Panevėžio slėnio šaltiniai",
+    lv: "Panevēžas ielejas avoti",
+  },
+  coordinates: [55.73, 24.36],
+  region: "Lithuania",
+  description: {
+    en: "The spring-rich valley of the Nevėžis River at Panevėžys was a sacred water site in northern Lithuanian tradition. Multiple spring sources were associated with different healing deities and fates, and the river bend was used for seasonal rites of purification.",
+    lt: "Šaltiniais turtingas Nevėžio upės slėnis ties Panevėžiu buvo šventoji vandens vieta šiaurinėje lietuvių tradicijoje. Keli šaltinių šaltiniai buvo siejami su skirtingomis gydančiomis dievybėmis ir likimais, o upės posūkis buvo naudojamas sezoninėms apsivalymo apeigoms.",
+    lv: "Avotiem bagātā Nevēžio upes ieleja pie Panevēžas bija svēta ūdens vieta Lietuvas ziemeļu tradīcijā. Vairāki avotu šaltieni bija saistīti ar dažādiem dziedinošiem dieviem un likteņiem, un upes līkums tika izmantots sezonāliem šķīstīšanās rituāliem.",
+  },
+  siteType: "Sacred springs",
+  aura: "sky",
+  deity: "laima",
+  significance: {
+    en: "Spring waters were considered 'fate-water' (likimingas vanduo) — water that carried the blessings or curses of fate spirits. Women visited specific springs on the eve of major calendar festivals to divine personal futures and seek healing for illness.",
+    lt: "Šaltinio vandenys buvo laikomi 'likimingas vanduo' (likimo vanduo) — vandeniu, nešančiu likimo dvasių palaiminimus ar prakeikimus. Moterys lankydavosi konkrečiuose šaltiniuose svarbių kalendorinių švenčių išvakarėse, spėdamos asmenines ateities ir ieškodamos gydymo nuo ligų.",
+    lv: "Avota ūdeņi tika uzskatīti par 'likteņūdeni' (likimingas vanduo) — ūdeni, kas nesa likteņa garu svētības vai lāstus. Sievietes apmeklēja konkrētus avotus lielo kalendāra svētku priekšvakarā, lai pareģotu personīgo nākotni un meklētu dziedināšanu no slimībām.",
+  },
+  tribe: { en: "Lithuanians (Northern Aukštaitians)", lt: "Lietuviai (Šiaurės aukštaičiai)", lv: "Lietuvieši (Ziemeļu augštaiši)" },
+  period: { en: "Pre-Christian / Folk Tradition", lt: "Ikikrikščioniška / Tautosakinė tradicija", lv: "Pirmskristīgā / Folkloras tradīcija" },
+  references: [
+    "Jonas Balys: Lietuvių mitologiškos sakmės",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Dundulienė: Pagonybė Lietuvoje",
+  ],
+};
+
+export const sambiaPeninsulaShrineMeta: LocationMeta = {
+  id: "sambia-peninsula-shrine",
+  name: {
+    en: "Sambia Peninsula Amber Shrine",
+    lt: "Sembos pusiasalio gintaro šventovė",
+    lv: "Sambijas pussalas dzintara svētvieta",
+  },
+  coordinates: [54.85, 20.4],
+  region: "Old Prussia",
+  description: {
+    en: "The Sambia (Zemland) Peninsula in Old Prussia was the world's greatest source of amber and a sacred landscape for Baltic peoples. The amber-rich coast from Königsberg to Palmniken (Yantarny) was considered a dwelling place of gods and spirits, where the tears of Saulė (the Sun goddess) washed ashore.",
+    lt: "Semba (Žemlandas) pusiasalis Senojoje Prūsijoje buvo didžiausias pasaulio gintaro šaltinis ir šventasis kraštovaizdis baltų tautoms. Gintaru turtinga pakrantė nuo Karaliaučiaus iki Palmnikeno (Jantarny) buvo laikoma dievų ir dvasių buveine, kur Saulės deivės ašaros plovė krantą.",
+    lv: "Sambijas (Žemļandes) pussala Senprūsijā bija pasaules lielākais dzintara avots un svēts ainaviskais objekts baltu tautām. Dzintariem bagātais krasts no Kēnigsbergas līdz Palmnīkenai (Jantarny) tika uzskatīts par dievu un garu mājvietu, kur Saules dievietes asaras skāla krastu.",
+  },
+  siteType: "Sacrifice / offering sites",
+  aura: "amber",
+  deity: "saule",
+  significance: {
+    en: "Amber was the most sacred material in Baltic religion, believed to be the crystallized tears or ornaments of the Sun goddess Saulė. The coastal sites of Sambia were pilgrimage points where amber was collected as a gift from the gods and ceremonial deposits of amber were made in return.",
+    lt: "Gintaras buvo švenčiausia medžiaga baltų religijoje, tikima, kad tai Saulės deivės sukietėjusios ašaros arba papuošalai. Sembos pakrantės vietos buvo piligrimystės taškai, kur gintaras buvo renkamas kaip dovana iš dievų, o atsakant buvo daromos ceremoninės gintaro aukos.",
+    lv: "Dzintars bija svētākais materiāls baltu reliģijā, uzskatīts par Saules dievietes kristalizētajām asarām vai rotaslietām. Sambijas krasta vietas bija svētceļojumu punkti, kur dzintars tika savākts kā dievu dāvana un apmaiņā tika veikti ceremoniāli dzintara noguldījumi.",
+  },
+  tribe: { en: "Old Prussians (Sambians)", lt: "Senprūsai (Sembai)", lv: "Senprūši (Sambieši)" },
+  period: { en: "Pre-Christian / Amber Age through Medieval", lt: "Ikikrikščioniška / Gintaro amžius iki viduramžių", lv: "Pirmskristīgā / Dzintara laikmets līdz viduslaikiem" },
+  references: [
+    "Matthäus Praetorius: Deliciae Prussicae (c. 1690)",
+    "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
+    "Marija Gimbutas: The Balts (1963)",
+    "Cynthia Eller: Amber Cult and Baltic Paganism",
+  ],
+};
+
