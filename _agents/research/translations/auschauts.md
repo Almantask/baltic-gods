@@ -18,7 +18,6 @@
 ## Primary Source Details
 
 - **Sudovian Book (Sud):** Lists Auschauts as the god of health and equates him with Aesculapius. [Sudauer Büchlein, 16th c.]
-- **Łasicki (Łas):** Mentions the Prussian "God of Health" in his compilation of Baltic deities. [Jan Łasicki, 1582]
 - **Vėlius (Vel):** Analyzes Auschauts as a specialized professional deity in the late Prussian pantheon. [Norbertas Vėlius, 1996]
 - **VLE:** Describes Aušautas as a minor but vital figure in the Prussian religious hierarchy.
 

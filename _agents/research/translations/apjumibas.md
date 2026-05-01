@@ -31,4 +31,4 @@
 - **Ritual actions**: Roof-wreath placement, threshold beer-pouring for Mājas māte, communal feast, house-blessing songs
 - **References**:
     - "Barons, Krišjānis: Latvju dainas (1894–1915)"
-    - "Šmits, Pēteris: Latviešu mitoloģija (1918)"
+    - "Šmits, Pēteris: Latviešu mitoloģija (1926)"
