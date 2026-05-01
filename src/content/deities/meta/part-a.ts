@@ -62,8 +62,8 @@ export const perkunasMeta: DeityMeta = {
   ],
   materialLegacy: ["Iron spearhead talismans", "Pitch-black thunderstones tied with flax"],
   symbols: [
-    { label: "Element", detail: "Sky-fire over pine crowns" },
-    { label: "Offerings", detail: "Barley, iron nails, smoked salt" },
+    { label: "Element", detail: "Sky-fire over oak crowns" },
+    { label: "Offerings", detail: "Barley, iron nails, mead" },
   ],
   regionDetails: {
     en: "Pan-Baltic / Aukštaitija",
@@ -80,7 +80,7 @@ export const perkunasMeta: DeityMeta = {
     lt: "XIII-XVI a. šaltiniai",
     lv: "13.-16. gs. avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik", "Gintaras Beresnevičius: Essays on Baltic Religion"],
+  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik", "Gintaras Beresnevičius: Lietuvių religija ir mitologija (2004)", "Nijolė Laurinkienė: The God Perkūnas of the Ancient Lithuanians (FFC 327, 2023)"],
 };
 
 export const sauleMeta: DeityMeta = {
