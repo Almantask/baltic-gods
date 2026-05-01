@@ -6,9 +6,11 @@ handoffs:
   - label: Write Tests
     agent: Senior QA Engineer
     prompt: Review the implementation and write or update tests for the changes just made.
+    send: true
   - label: Code Review
     agent: Code Reviewer
     prompt: Review the implementation for code quality, performance, and security best practices.
+    send: true
 ---
 
 # Senior Frontend Engineer

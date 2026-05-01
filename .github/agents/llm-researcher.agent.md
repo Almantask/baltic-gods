@@ -6,6 +6,7 @@ handoffs:
   - label: Verify with Browser
     agent: Browser Researcher
     prompt: Please verify the following Baltic mythology findings against online academic sources.
+    send: true
 ---
 
 # LLM Researcher

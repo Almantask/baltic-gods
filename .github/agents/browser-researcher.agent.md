@@ -6,6 +6,7 @@ handoffs:
   - label: Send to Mythology Editor
     agent: Mythology Editor
     prompt: Cross-reference this Browser research with the LLM Researcher's findings and produce a verified mythology record.
+    send: true
 ---
 
 # Browser Researcher
