@@ -2,7 +2,6 @@
 name: LLM Researcher
 description: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
 argument-hint: Enter a Baltic deity name, spirit, or myth to research from internal knowledge
-tools: ['search', 'search/codebase', 'edit']
 handoffs:
   - label: Verify with Browser
     agent: Browser Researcher

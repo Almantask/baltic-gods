@@ -2,7 +2,6 @@
 name: Product Designer
 description: Expert in UX, UI, and accessibility. Focused on the usability and aesthetic appeal of the platform.
 argument-hint: Describe the UI feature or user flow to design or review for the Baltic Gods platform
-tools: ['search', 'web', 'search/codebase', 'edit']
 ---
 
 # Product Designer
