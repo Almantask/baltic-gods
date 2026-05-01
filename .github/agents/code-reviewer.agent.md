@@ -2,7 +2,7 @@
 name: Code Reviewer
 description: Specialized in code efficiency, performance optimization, and architectural integrity.
 argument-hint: Paste code or describe the changes to review for quality, performance, and security
-tools: ['search', 'search/codebase', 'web', 'edit']
+tools: ['search', 'web', 'search/codebase', 'edit', 'execute', 'agent']
 ---
 
 # Code Reviewer

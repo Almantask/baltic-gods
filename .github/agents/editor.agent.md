@@ -2,7 +2,7 @@
 name: Mythology Editor
 description: Verified mythology researcher focused on cross-referencing information from LLM and Browser researchers.
 argument-hint: Provide the LLM and Browser research reports to cross-reference and fact-check
-tools: ['search', 'web', 'search/codebase', 'edit']
+tools: ['search', 'web', 'search/codebase', 'edit', 'execute', 'agent']
 ---
 
 # Mythology Editor (Fact-Checker)

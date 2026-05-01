@@ -2,7 +2,7 @@
 name: Mythology Researcher
 description: End-to-end Baltic mythology research workflow — discovers, curates, verifies, and formats mythological entities for the project.
 argument-hint: Enter a Baltic mythology entity, story, or deity to research and format for the compendium
-tools: ['search', 'web', 'search/codebase', 'edit', 'execute']
+tools: ['search', 'web', 'search/codebase', 'edit', 'execute', 'agent']
 ---
 
 # Mythology Researcher

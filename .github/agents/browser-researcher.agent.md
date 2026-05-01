@@ -2,7 +2,7 @@
 name: Browser Researcher
 description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
 argument-hint: Enter a deity name, myth, or Baltic mythology claim to verify online
-tools: ['search', 'web', 'search/codebase', 'edit']
+tools: ['search', 'web', 'search/codebase', 'edit', 'execute', 'agent']
 handoffs:
   - label: Send to Mythology Editor
     agent: Mythology Editor
