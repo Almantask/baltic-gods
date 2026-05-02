@@ -107,7 +107,7 @@ export interface StoryMeta {
   summary: Record<Language, string>;
   beings: string[];
   locationIds?: string[];
-  locations: string[];
+  locations: Record<Language, string>[];
   regionDetails: Record<Language, string>;
   tribe: Record<Language, string>;
   period: Record<Language, string>;

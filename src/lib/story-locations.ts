@@ -58,13 +58,14 @@ export function getStoryLocations(meta: StoryMeta, language: Language) {
   (meta.locationIds ?? []).forEach(addById);
 
   for (const label of meta.locations) {
-    const fallbackId = LABEL_FALLBACKS[normalize(label)];
+    const labelEn = label.en;
+    const fallbackId = LABEL_FALLBACKS[normalize(labelEn)];
     if (fallbackId) {
       addById(fallbackId);
       continue;
     }
 
-    const matched = matchLabelToLocation(label, allLocationsEn, meta.beings, selectedIds);
+    const matched = matchLabelToLocation(labelEn, allLocationsEn, meta.beings, selectedIds);
     if (matched) addById(matched.id);
   }
 

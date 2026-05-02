@@ -14,7 +14,7 @@ export const thunderOakMeta: StoryMeta = {
   },
   beings: ["perkunas", "velnias"],
   locationIds: ["aukstaitija-oaks"],
-  locations: ["Šventoji Oak Sanctuary"],
+  locations: [{ en: "Šventoji Oak Sanctuary", lt: "Šventosios ąžuolų šventovė", lv: "Šventoji ozolu svētnīca" }],
   regionDetails: {
     en: "Aukštaitija / Curonian Spit border",
     lt: "Aukštaitija / Kuršių nerijos riba",
@@ -47,7 +47,7 @@ export const weavingOfLaimaMeta: StoryMeta = {
   },
   beings: ["laima"],
   locationIds: ["sigulda-springs"],
-  locations: ["Turaida Sacred Spring"],
+  locations: [{ en: "Turaida Sacred Spring", lt: "Turaidos šventasis šaltinis", lv: "Turaidas svētais avots" }],
   regionDetails: {
     en: "Vidzeme",
     lt: "Vidžemė",
@@ -80,7 +80,7 @@ export const velniasAndTheFiddlerMeta: StoryMeta = {
   },
   beings: ["velnias"],
   locationIds: ["kernave-mounds"],
-  locations: ["Kernavė"],
+  locations: [{ en: "Kernavė", lt: "Kernavė", lv: "Kernavė" }],
   regionDetails: {
     en: "Aukštaitija",
     lt: "Aukštaitija",
@@ -113,7 +113,7 @@ export const sauleAndMenulisMeta: StoryMeta = {
   },
   beings: ["saule", "menulis", "perkunas", "dievas", "ausrine"],
   locationIds: ["klaipeda-drift"],
-  locations: ["Palanga Amber Coast"],
+  locations: [{ en: "Palanga Amber Coast", lt: "Palangos gintaro pajūris", lv: "Palangā dzintara krasts" }],
   regionDetails: {
     en: "Coastal / Neringa",
     lt: "Pajūris / Neringa",
@@ -146,7 +146,7 @@ export const zemynasBlessingMeta: StoryMeta = {
   },
   beings: ["zemyna"],
   locationIds: ["telsiai-altars"],
-  locations: ["Rambynas Hill"],
+  locations: [{ en: "Rambynas Hill", lt: "Rambyno kalnas", lv: "Rambinu kalns" }],
   regionDetails: {
     en: "Samogitia / Lithuania Minor",
     lt: "Žemaitija / Mažoji Lietuva",
@@ -179,7 +179,7 @@ export const austejaAndTheGoldenHiveMeta: StoryMeta = {
   },
   beings: ["austeja"],
   locationIds: ["dzukija-meadow"],
-  locations: ["Dzūkija Forest"],
+  locations: [{ en: "Dzūkija Forest", lt: "Dzūkijos miškas", lv: "Dzūkijas mežs" }],
   regionDetails: {
     en: "Dzūkija",
     lt: "Dzūkija",
@@ -212,7 +212,7 @@ export const gabijasHearthMeta: StoryMeta = {
   },
   beings: ["gabija"],
   locationIds: ["kaunas-hearth"],
-  locations: ["Kernavė"],
+  locations: [{ en: "Kernavė", lt: "Kernavė", lv: "Kernavė" }],
   regionDetails: {
     en: "Aukštaitija / Kernavė",
     lt: "Aukštaitija / Kernavė",
@@ -245,7 +245,7 @@ export const bangputysAndTheAmberFleetMeta: StoryMeta = {
   },
   beings: ["bangputys", "saule"],
   locationIds: ["nida-dunes"],
-  locations: ["Curonian Spit"],
+  locations: [{ en: "Curonian Spit", lt: "Kuršių nerija", lv: "Kuršu kāpa" }],
   regionDetails: {
     en: "Curonias / Coastal",
     lt: "Kuršas / Pajūris",
@@ -278,7 +278,7 @@ export const medeinaSacredHareMeta: StoryMeta = {
   },
   beings: ["medeina"],
   locationIds: ["anyksciai-forest"],
-  locations: ["Anykščiai Forest"],
+  locations: [{ en: "Anykščiai Forest", lt: "Anykščių miškas", lv: "Anīkšu mežs" }],
   regionDetails: {
     en: "Aukštaitija / Samogitia",
     lt: "Aukštaitija / Žemaitija",
@@ -311,7 +311,7 @@ export const giltineDeathWatchMeta: StoryMeta = {
   },
   beings: ["giltine"],
   locationIds: ["salantai-burial"],
-  locations: ["Salantai Burial Mounds"],
+  locations: [{ en: "Salantai Burial Mounds", lt: "Salantų kapkalniai", lv: "Salantu kapukalniņi" }],
   regionDetails: {
     en: "Samogitia / General",
     lt: "Žemaitija / Bendrai",
@@ -344,7 +344,7 @@ export const pukisWealthMeta: StoryMeta = {
   },
   beings: ["pukis"],
   locationIds: ["rundale-fields"],
-  locations: ["Zemgale Plains"],
+  locations: [{ en: "Zemgale Plains", lt: "Žiemgalos lygumos", lv: "Zemgales līdzenums" }],
   regionDetails: {
     en: "Kurzeme / Zemgale",
     lt: "Kuršas / Žiemgala",
@@ -377,7 +377,7 @@ export const egleQueenOfSerpentsMeta: StoryMeta = {
   },
   beings: ["velnias"],
   locationIds: ["druskininkai-mist"],
-  locations: ["Nemunas River", "Baltic Sea"],
+  locations: [{ en: "Nemunas River", lt: "Nemunas", lv: "Nemuna upe" }, { en: "Baltic Sea", lt: "Baltijos jūra", lv: "Baltijas jūra" }],
   regionDetails: {
     en: "Dzūkija / Aukštaitija",
     lt: "Dzūkija / Aukštaitija",
@@ -413,7 +413,7 @@ export const jurateAndKastytisMeta: StoryMeta = {
   },
   beings: ["perkunas", "bangputys"],
   locationIds: ["klaipeda-drift"],
-  locations: ["Baltic Sea", "Palanga Amber Coast"],
+  locations: [{ en: "Baltic Sea", lt: "Baltijos jūra", lv: "Baltijas jūra" }, { en: "Palanga Amber Coast", lt: "Palangos gintaro pajūris", lv: "Palangā dzintara krasts" }],
   regionDetails: {
     en: "Curonian Coast",
     lt: "Kuršių marių pajūris",
@@ -449,7 +449,7 @@ export const perkunasAndTheDevilMeta: StoryMeta = {
   },
   beings: ["perkunas", "velnias"],
   locationIds: ["aukstaitija-oaks", "kernave-mounds"],
-  locations: ["Lithuania", "Latvia"],
+  locations: [{ en: "Lithuania", lt: "Lietuva", lv: "Lietuva" }, { en: "Latvia", lt: "Latvija", lv: "Latvija" }],
   regionDetails: {
     en: "Pan-Baltic",
     lt: "Visos baltų žemės",
@@ -485,7 +485,7 @@ export const theQuestForAusrineMeta: StoryMeta = {
   },
   beings: ["ausrine"],
   locationIds: [],
-  locations: ["Baltic Sea", "Celestial Island"],
+  locations: [{ en: "Baltic Sea", lt: "Baltijos jūra", lv: "Baltijas jūra" }, { en: "Celestial Island", lt: "Dangaus sala", lv: "Debesu sala" }],
   regionDetails: {
     en: "General Baltic / Mythic Space",
     lt: "Bendrai baltų / Mitinė erdvė",
