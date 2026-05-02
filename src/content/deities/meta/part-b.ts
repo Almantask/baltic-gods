@@ -823,6 +823,18 @@ export const zaltysMeta: DeityMeta = {
       deity: "zaltys",
       significance: "Milk bowls placed by hearths for the household snake.",
     },
+  
+    {
+      id: "zaltvyksle-spring",
+      name: "Žaltvykslė Spring",
+      coordinates: [55.3, 25.5],
+      region: "Lithuania",
+      description: "A deep, bubbling spring in eastern Lithuania associated with the celestial grass-snake spirits.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "mist",
+      deity: "zaltys",
+      significance: "Believed to be a portal where the sacred grass snake (Žaltys) interacts with the underworld and mortal plane.",
+    }
   ],
   materialLegacy: ["Hearth-snake milk bowls", "Snake-motif amber pendants"],
   symbols: [
@@ -1969,6 +1981,18 @@ export const raganaMeta: DeityMeta = {
       deity: "ragana",
       significance: "The hill's summit crossroads served as a liminal meeting point where the boundary between the human world and the spirit world grew thin enough for the witch to pass through.",
     },
+  
+    {
+      id: "satrija-hill",
+      name: "Šatrija Hill",
+      coordinates: [55.87, 22.55],
+      region: "Lithuania",
+      description: "One of the most legendary mounds in Samogitia, long considered a center of magical activity.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "moss",
+      deity: "ragana",
+      significance: "Believed to be the principal gathering place for 'witches' (Raganos) of Lithuania during the solstices.",
+    }
   ],
   gallery: [],
   materialLegacy: [],

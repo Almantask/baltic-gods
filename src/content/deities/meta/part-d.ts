@@ -788,6 +788,18 @@ export const upinisMeta: DeityMeta = {
       deity: "upinis",
       significance: "Fishermen and travelers offered the first catch and grain to Upinis at this ford to secure safe passage and plentiful fish from the river's sacred current.",
     },
+  
+    {
+      id: "alytus-confluence",
+      name: "Alytus Confluence",
+      coordinates: [54.4, 24.05],
+      region: "Lithuania",
+      description: "The meeting point of the Nemunas and Alytupis rivers, traditionally seen as a sacred 'marriage' of waters.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "mist",
+      deity: "upinis",
+      significance: "Confluences were considered highly volatile and powerful sites where offerings were made to ensure safe passage and fertility.",
+    }
   ],
   gallery: [],
   materialLegacy: [],
