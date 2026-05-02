@@ -1296,7 +1296,7 @@ export const jumisMeta: DeityMeta = {
     {
       title: { en: "Double-grain crown", lt: "Dvigubų grūdų karūna", lv: "Dubultgraudu vainags" },
       medium: { en: "braided rye", lt: "pinami rugiai", lv: "pīti rudzi" },
-      note: { en: "Hung above the farmhouse door after harvest — Jumis's symbol.", lt: "Kabinama virš sodo namo durų po derliaus — Jumio simbolis.", lv: "Karāts virs lauku mājas durvīm pēc ražas — Jumja simbols." },
+      note: { en: "Hung above the farmhouse door after harvest — Jumis's symbol.", lt: "Kabinama virš sodybos durų po derliaus — Jumio simbolis.", lv: "Karāts virs lauku mājas durvīm pēc ražas — Jumja simbols." },
     },
     {
       title: { en: "Last sheaf effigy", lt: "Paskutinio pėdo efigija", lv: "Pēdējā kūļa efigija" },

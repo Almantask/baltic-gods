@@ -311,7 +311,7 @@ const translations = {
       },
       auraNames: {
         amber: "Gintaras",
-        moss: "Samana",
+        moss: "Samanos",
         mist: "Rūkas",
         sky: "Dangus",
         green: "Žalia",

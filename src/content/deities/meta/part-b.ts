@@ -28,7 +28,7 @@ export const vejopatisMeta: DeityMeta = {
     {
       title: { en: "Wind-bent hilltop pine", lt: "Vėjo palenktoji kalvagūbrio pušis", lv: "Vēja locīta pakalna priede" },
       medium: { en: "natural", lt: "gamtinis", lv: "dabisks" },
-      note: { en: "Pines on Samogitian ridges bent by prevailing westerlies, treated as Vėjopatis shrines.", lt: "Žemaitijos keteros pušys, palenktos vyraujančių vakarų vėjų, laikytos Vėjopačio šventovėmis.", lv: "Zemgales kalnu priedes, kas locītas valdošo rietumu vēju ietekmē, uzskatītas par Vėjopatis svētnīcām." },
+      note: { en: "Pines on Samogitian ridges bent by prevailing westerlies, treated as Vėjopatis shrines.", lt: "Žemaitijos keteros pušys, palenktos vyraujančių vakarų vėjų, laikytos Vėjopačio šventovėmis.", lv: "Žemaitijas kalnu priedes, kas locītas valdošo rietumu vēju ietekmē, uzskatītas par Vėjopatis svētnīcām." },
     },
   ],
   locations: [
@@ -385,7 +385,7 @@ export const mezaMateMeta: DeityMeta = {
     {
       title: { en: "Old-growth linden shrine", lt: "Senos liepos šventovė", lv: "Sena liepa svētnīca" },
       medium: { en: "natural", lt: "gamtinis", lv: "dabisks" },
-      note: { en: "Hollowed linden trees served as her dwelling; offerings left in the cavity.", lt: "Vidurį iškopusios liepos tarnavo jos buveinei; pasiūlymai palikti ertmėje.", lv: "Dobumainas liepas kalpoja kā viņas mājoklis; upuri atstāti dobumā." },
+      note: { en: "Hollowed linden trees served as her dwelling; offerings left in the cavity.", lt: "Tuščiaviduriės liepos tarnavo jos buveinei; aukos paliktos ertmėje.", lv: "Dobumainas liepas kalpoja kā viņas mājoklis; upuri atstāti dobumā." },
     },
   ],
   locations: [
