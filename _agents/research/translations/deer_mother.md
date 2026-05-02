@@ -2,7 +2,9 @@
 
 ## Comprehensive Overview
 
-"The Deer Mother" (Elnių motina) is a pre-Indo-European forest deity reconstructed by **Marija Gimbutas**. She represents the maternal force of the wilderness and the sacredness of the deer, whose antlers were seen as symbols of cosmic growth and seasonal renewal.
+> ⚠️ **Editorial note:** The "Deer Mother" as a specifically named goddess is a **scholarly reconstruction** by Marija Gimbutas from archaeological and folk material. She is not directly named or described as a distinct deity in any Lithuanian or Latvian written sources. The folk motifs attributed to her — particularly the nine-antlered golden deer — are genuinely attested. Treat all claims about her as a "named deity" as scholarly interpretation, not primary attestation.
+
+"The Deer Mother" (*Elnių motina*) is a pre-Indo-European forest deity reconstructed by **Marija Gimbutas**. She represents the maternal force of the wilderness and the sacredness of the deer, whose antlers were seen as symbols of cosmic growth and seasonal renewal.
 
 ### English (EN)
 **The Deer Mother** is a primordial goddess of the forest and the animal kingdom, dating back to the Mesolithic and Neolithic periods. She was later absorbed into the roles of goddesses like **Medeina** (the Huntress) and **Meža māte** (Mother of the Forest). Her primary symbol is the reindeer or the red deer, whose antlers reached toward the sky like the branches of the Tree of Life. In Baltic mythology, her presence is found in the folk motif of a "Golden Deer" (*auksaragis elnias*) who carries the sun or nine branches on his antlers. She is the nurturer of the deep woods, whose primary role was to ensure the multiplication and protection of wild herds. Gimbutas notes that she is the oldest manifestation of the Great Goddess as a "nurturer of wild nature."

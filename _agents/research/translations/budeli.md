@@ -18,7 +18,7 @@
 ## Primary Source Details
 
 - **Barons (Bar):** *Budēļu dziesmas* (mummers' songs) preserved in extensive folk-song collections. [Krišjānis Barons, *Latvju dainas*, 1894–1915]
-- **Šmits (Šmits):** Comprehensive documentation of Budēļi and Ķekatas traditions across Latvian regions, including costume descriptions and route customs. [Pēteris Šmits, *Latviešu mitoloģija*, 1926]
+- **Šmits (Šmits):** Comprehensive documentation of Budēļi and Ķekatas traditions across Latvian regions, including costume descriptions and route customs. [Pēteris Šmits, *Latviešu mitoloģija*, 1918]
 - **LNE:** Article on Budēļi as cultural heritage and their winter-solstice context. [*Latvijas Nacionālā enciklopēdija*]
 
 ## Key Metadata

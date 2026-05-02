@@ -20,7 +20,7 @@ Bubilas is the Lithuanian (and shared Baltic) god of bees, drones, and honey pro
 - **Łasicki (Łas):** Records *Bubilos* as a deity associated with beekeeping/honey (*pro apibus*). [Jan Łasicki, 1615]
 - **Vėlius (Vel):** Analyzed Bubilas's role in the agricultural and social tier of the Baltic pantheon, noting the specific guardians assigned to different types of insects. [Norbertas Vėlius, 1996]
 - **VLE:** Confirms the identification of Bubilas as a bee and mead deity, often paired with Austėja. [Visuotinė lietuvių enciklopedija]
-- **Narbutas (Nar):** Described Bubilas as a god and a protector of beekeepers. [Teodoras Narbutas, 1835]
+- **Narbutas (Nar):** Described Bubilas as a god and a protector of beekeepers. [Teodoras Narbutas, 1835] ⚠️ *19th-century Romantic-era source; Narbutas is known to embellish and sometimes fabricate mythology. This claim is treated as supporting context only; primary attestation rests on Łasicki.*
 
 ## Key Metadata
 - **Region**: Lithuania (Aukštaitija / Samogitia)
