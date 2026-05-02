@@ -1013,7 +1013,19 @@ export const praamziusMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Sky vault, Endless circle, Oak, Rainbow, Scepter" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "aukstaitija-eternity-hill",
+      name: "Eternity Hill of Aukštaitija",
+      coordinates: [55.7, 25.8],
+      region: "Lithuania",
+      description: "A high open ridge in the Aukštaitija highlands where the sky touches the earth, regarded as a place outside ordinary time.",
+      siteType: "Sacred hilltops",
+      aura: "sky",
+      deity: "praamzius",
+      significance: "Offerings of grain and fire were made at dawn to honour the cosmic orderer who set the world in motion before memory began.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1060,7 +1072,19 @@ export const zvorunaMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Wolf, Bow and arrow, Animal tooth, Forest glade" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "samogitia-hunting-grove",
+      name: "Samogitian Hunting Grove",
+      coordinates: [55.9, 22.3],
+      region: "Lithuania",
+      description: "A dense oak and pine forest in Samogitia where hunters gathered before the chase to seek blessing from the goddess of wild beasts.",
+      siteType: "Sacred groves",
+      aura: "moss",
+      deity: "zvoruna",
+      significance: "Animal bones and arrowheads were buried at the forest edge as offerings; no beast was to be killed here without ritual permission.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1107,7 +1131,19 @@ export const zemepatisMetaData: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Soil, Farmstead boundary, Žaltys (sacred snake), Bread, Ale" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "kaunas-farmstead-threshold",
+      name: "Kaunas Farmstead Threshold",
+      coordinates: [54.9, 23.9],
+      region: "Lithuania",
+      description: "A traditional Lithuanian farmstead near Kaunas where the household boundary stone and sacred snake shelter were maintained as holy ground.",
+      siteType: "Household ritual sites",
+      aura: "green",
+      deity: "zemepatis",
+      significance: "Bread and ale were poured at the threshold and boundary stones each spring to invoke the Lord of the homestead's protection over fields and livestock.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1154,7 +1190,19 @@ export const gabjaujaMetaData: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Grain ear, Threshing barn, Sickle, Rooster, Bread" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "zemaitija-threshing-barn",
+      name: "Žemaitija Threshing Barn Site",
+      coordinates: [55.8, 22.1],
+      region: "Lithuania",
+      description: "A traditional Samogitian farmstead barn site where grain was dried and threshed under the protection of Gabjauja's fire.",
+      siteType: "Field altars",
+      aura: "amber",
+      deity: "gabjauja",
+      significance: "A small fire was kept burning in the barn's drying chamber; bread loaves and the first sheaf of the harvest were offered to Gabjauja before threshing began.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1201,7 +1249,19 @@ export const pilvytisMetaData: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Granary (klėtis), Grain sack, Coin, Horn of plenty, Sieve" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "lithuania-granary-fields",
+      name: "Lithuanian Granary Fields",
+      coordinates: [55.3, 23.7],
+      region: "Lithuania",
+      description: "Fertile lowland fields of central Lithuania where communal granaries (klėtis) stood at the centre of each village's ritual life.",
+      siteType: "Field altars",
+      aura: "amber",
+      deity: "pilvytis",
+      significance: "First portions of every harvest were set aside and ritually offered to Pilvytis to ensure the granary remained full through the winter months.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1248,7 +1308,19 @@ export const birzulisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Birch leaf, Birch sap, White bark, Spring catkin" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "aukstaitija-birch-grove",
+      name: "Aukštaitija Sacred Birch Grove",
+      coordinates: [55.6, 25.5],
+      region: "Lithuania",
+      description: "A stand of ancient white birches in the Aukštaitija lake district, regarded as the dwelling place of Biržulis at the first sap-rise of spring.",
+      siteType: "Sacred groves",
+      aura: "green",
+      deity: "birzulis",
+      significance: "In early spring, small clay cups of fresh birch sap were left at the grove's oldest tree as offerings to honour the spirit of forest renewal.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1295,7 +1367,19 @@ export const kirnisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Cherry blossom, Red fruit, Cherry wood, Basket" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "samogitia-cherry-orchard",
+      name: "Samogitian Cherry Orchard",
+      coordinates: [55.85, 22.6],
+      region: "Lithuania",
+      description: "A traditional cherry orchard on a gentle Samogitian hillside, tended for generations and regarded as sacred to the orchard spirit Kirnis.",
+      siteType: "Sacred groves",
+      aura: "green",
+      deity: "kirnis",
+      significance: "Blossom-time offerings of milk and bread were placed beneath the oldest cherry tree; no fruit was eaten before the first ritual taste was dedicated to Kirnis.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1342,7 +1426,19 @@ export const dievaDeliMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Two horses, Twin stars, Golden stirrups, Gray horse" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "vidzeme-twin-hilltop",
+      name: "Vidzeme Twin Hilltop",
+      coordinates: [57.1, 26.0],
+      region: "Latvia",
+      description: "A pair of adjacent hilltops in the Vidzeme highlands associated with the divine twins, where Midsummer horse races were held in their honour.",
+      siteType: "Sacred hilltops",
+      aura: "sky",
+      deity: "dieva-deli",
+      significance: "At summer solstice, young men raced horses between the twin hills to re-enact the celestial ride of the Dieva dēli courting the Daughters of the Sun.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1389,7 +1485,19 @@ export const saulesMeitasMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Golden ring, Golden scarf, Sunray weaving, Loom, Morning dew" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "latvia-amber-shore-sun",
+      name: "Amber Shore of the Sun Daughters",
+      coordinates: [56.5, 21.0],
+      region: "Latvia",
+      description: "The amber-strewn Liepāja coastline where Saules meitas were believed to descend at dawn, trailing golden light across the Baltic waves.",
+      siteType: "Seasonal festival locations",
+      aura: "amber",
+      deity: "saules-meitas",
+      significance: "At the summer solstice, young women waded into the shallows at dawn and cast wreaths of flowers onto the waves as gifts to the daughters of the Sun.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1436,7 +1544,19 @@ export const jurasMateMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Sea-foam, Amber, Fishing net, Wave-crest" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "ventspils-sea-coast",
+      name: "Ventspils Sea Coast",
+      coordinates: [57.4, 21.6],
+      region: "Latvia",
+      description: "The windswept Baltic coastline near Ventspils, where Latvian fishermen cast offerings into the waves before setting out to sea.",
+      siteType: "Sacrifice / offering sites",
+      aura: "mist",
+      deity: "juras-mate",
+      significance: "Fishermen poured beer or threw bread onto the waves before each voyage, invoking Jūras māte's protection and asking her to fill their nets with fish.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1483,7 +1603,19 @@ export const udensMateMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Spring-well, Riverbend, Silver water-drops, Beads, Woven ribbons" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "gauja-river-spring",
+      name: "Gauja River Sacred Spring",
+      coordinates: [57.1, 25.3],
+      region: "Latvia",
+      description: "A natural spring feeding into the Gauja River in the Vidzeme region, long regarded as a dwelling place of the water mother Ūdens māte.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "moss",
+      deity: "udens-mate",
+      significance: "Women offered beads, ribbons, and small loaves at this spring during rites of passage — before marriage, after childbirth — to receive the water mother's blessing.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1530,7 +1662,19 @@ export const vejaMateMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Wind-vane, Tree-tops in motion, Cloud-streaks, Sail" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "latvia-windy-hilltop",
+      name: "Open Hilltop of the Wind Mother",
+      coordinates: [56.9, 24.7],
+      region: "Latvia",
+      description: "A broad exposed hilltop in central Latvia where strong prevailing winds sweep unobstructed across the plain, consecrated to Vēja māte.",
+      siteType: "Sacred hilltops",
+      aura: "sky",
+      deity: "veja-mate",
+      significance: "Farmers climbed this hill to scatter grain into the wind before winnowing season, asking the wind mother to separate chaff cleanly and fill their barns.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1577,7 +1721,19 @@ export const okopirmusMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Sky vault, Sun-wheel, White falcon, White horse" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "sambia-sacred-fire-site",
+      name: "Sambian Sacred Fire Mound",
+      coordinates: [54.9, 20.5],
+      region: "Old Prussia",
+      description: "A mound in the Sambia peninsula where the eternal fire of Okopirmus was kept burning by Prussian priests as a symbol of the first creative power.",
+      siteType: "Ritual fire sites",
+      aura: "amber",
+      deity: "okopirmus",
+      significance: "The undying flame represented the primordial creative act of the supreme god; it was never allowed to go out, and fresh wood was offered at each dawn and dusk.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1624,7 +1780,19 @@ export const swayxtixMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Sun-disc, Glowing flame, Star-burst, Golden spear" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "old-prussia-star-hill",
+      name: "Star-Observation Hill of Old Prussia",
+      coordinates: [54.5, 19.8],
+      region: "Old Prussia",
+      description: "A prominent ridge near Königsberg used by Prussian vaidilutai to observe celestial phenomena and track the movements of stars sacred to Swayxtix.",
+      siteType: "Sacred hilltops",
+      aura: "sky",
+      deity: "swayxtix",
+      significance: "Priests lit torches at this hilltop at key solar moments to reflect the god's celestial light down to the earth and invoke his blessing for the ripening of crops.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1671,7 +1839,19 @@ export const bardoaitsMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Ship's prow, Anchor-stone, Fishing net, Calm horizon" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "sambia-coastal-harbor",
+      name: "Sambian Coastal Harbor Site",
+      coordinates: [54.6, 19.9],
+      region: "Old Prussia",
+      description: "A sheltered natural harbour on the Sambia peninsula coast where Prussian fishermen beached their boats and kept a small stone altar to Bardoaits.",
+      siteType: "Sacrifice / offering sites",
+      aura: "mist",
+      deity: "bardoaits",
+      significance: "Before each sea voyage, sailors left carved wooden offerings shaped like ships at this harbour altar, beseeching Bardoaits to guard them on the open Baltic waters.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1718,7 +1898,19 @@ export const kaukaiMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Elder tree roots, Bowl of milk, Small beard, Stone altar" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "lithuania-elder-threshold",
+      name: "Lithuanian Elder-Tree Threshold",
+      coordinates: [55.5, 24.0],
+      region: "Lithuania",
+      description: "The root hollow beneath the elder tree at the farmstead threshold, regarded as the underground home of the Kaukai household spirits.",
+      siteType: "Household ritual sites",
+      aura: "green",
+      deity: "kaukai",
+      significance: "Each evening, small bowls of milk and porridge were left under the elder tree; the Kaukai who received these offerings would invisibly complete farmwork during the night.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1765,7 +1957,19 @@ export const raganaMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Broom, Cauldron, Cat, Šatrija Hill" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "satrija-hill-crossroads",
+      name: "Šatrija Hill Crossroads",
+      coordinates: [55.95, 22.45],
+      region: "Lithuania",
+      description: "The legendary Šatrija Hill in Samogitia, where the ragana was said to gather with other witches at crossroads beneath the moonlit sky.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "mist",
+      deity: "ragana",
+      significance: "The hill's summit crossroads served as a liminal meeting point where the boundary between the human world and the spirit world grew thin enough for the witch to pass through.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1812,7 +2016,19 @@ export const sloguteMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Iron knife, Scissors, Weight on the chest" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "lithuania-hearth-threshold-night",
+      name: "Lithuanian Hearth Threshold at Night",
+      coordinates: [55.6, 24.2],
+      region: "Lithuania",
+      description: "The liminal space of the hearth threshold within a Lithuanian farmstead home, where the boundary between the sleeping world and the spirit world was considered dangerously thin at night.",
+      siteType: "Hearth cult zones",
+      aura: "mist",
+      deity: "slogute",
+      significance: "Iron objects — a knife or scissors — were placed beneath the sleeper's pillow or across the threshold to prevent Slogutė from crossing over and pressing upon the chest.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1859,7 +2075,19 @@ export const vilkacisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Wolf pelt, Belt of transformation, Iron teeth, Forest path" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "latvia-wolf-forest-edge",
+      name: "Latvian Wolf Forest Edge",
+      coordinates: [57.0, 25.0],
+      region: "Latvia",
+      description: "The dark fringe of old forest in central Latvia where the boundary between human settlement and wilderness dissolved — the traditional haunt of the Vilkacis.",
+      siteType: "Sacred groves",
+      aura: "mist",
+      deity: "vilkacis",
+      significance: "Accounts record that those cursed to become vilkaciai would retreat to this forest edge at the full moon; villagers left offerings of bread at the treeline to appease them.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1906,7 +2134,19 @@ export const lietuvensMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Keyhole, Sweating horse, Weight on the chest" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "latvia-misty-lakeside-night",
+      name: "Latvian Misty Lakeside",
+      coordinates: [56.8, 26.1],
+      region: "Latvia",
+      description: "A low-lying misty lakeshore in the Gauja region where the spirits of those who died unnaturally were said to linger and venture out at night.",
+      siteType: "Springs, rivers, lakes with cult significance",
+      aura: "mist",
+      deity: "lietuvens",
+      significance: "Folk tradition held that the Lietuvēns arose from stagnant water near such lakeshores; iron was thrown into the water at dawn to drive the nightmare spirit back.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -1953,7 +2193,19 @@ export const egleMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Spruce tree, Snake-crown, Underwater palace, Her children's names" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "curonian-lagoon-shore-egle",
+      name: "Curonian Lagoon Shore",
+      coordinates: [55.3, 21.2],
+      region: "Lithuania",
+      description: "The sheltered amber-tinted shore of the Curonian Lagoon where Eglė first encountered the serpent king Žilvinas rising from the waves to claim her as his bride.",
+      siteType: "Legendary creation sites",
+      aura: "amber",
+      deity: "egle",
+      significance: "The lagoon shore marks the mythic threshold between the human world and the underwater serpent kingdom; offerings of flowers were cast into the water in remembrance of Eglė's oath.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
@@ -2000,7 +2252,19 @@ export const lacplesisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Bear-ears, Giant boulder, Daugava river, Oak-staff" },
   ],
-  locations: [],
+  locations: [
+    {
+      id: "daugava-staburags-canyon",
+      name: "Staburags — Daugava River Canyon",
+      coordinates: [56.7, 25.1],
+      region: "Latvia",
+      description: "The Staburags cliff on the Daugava River, legendary site of Lāčplēsis's final battle where the hero and the Black Knight plunged into the river together.",
+      siteType: "Mythic hills / burial mounds",
+      aura: "moss",
+      deity: "lacplesis",
+      significance: "Latvians regarded Staburags as a sacred memorial to the bear-slayer; midsummer bonfires were lit on the cliffs above, and the hero's return was awaited each Jāņi festival. The cliff was submerged in 1966 by the Pļaviņas hydroelectric dam, making it a legendary site that now exists only in memory and myth.",
+    },
+  ],
   gallery: [],
   materialLegacy: [],
   regionDetails: {
