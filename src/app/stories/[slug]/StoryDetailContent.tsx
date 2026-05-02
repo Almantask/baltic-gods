@@ -76,10 +76,10 @@ export function StoryDetailContent({ slug }: { slug: string }) {
             ))
             : meta.locations.map((loc) => (
               <span
-                key={loc}
+                key={loc.en}
                 className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-200"
               >
-                {loc}
+                {loc[language]}
               </span>
             ))}
         </div>
