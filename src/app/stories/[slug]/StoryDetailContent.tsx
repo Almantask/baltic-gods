@@ -65,14 +65,23 @@ export function StoryDetailContent({ slug }: { slug: string }) {
           <span className="text-xs uppercase tracking-[0.2em] text-zinc-400 self-center">
             {strings.stories.locations}:
           </span>
-          {meta.locations.map((loc) => (
-            <span
-              key={loc}
-              className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-200"
-            >
-              {loc}
-            </span>
-          ))}
+          {relatedLocations.length > 0
+            ? relatedLocations.map((loc) => (
+              <span
+                key={loc.id}
+                className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-200"
+              >
+                {loc.name}
+              </span>
+            ))
+            : meta.locations.map((loc) => (
+              <span
+                key={loc}
+                className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-200"
+              >
+                {loc}
+              </span>
+            ))}
         </div>
       </header>
 

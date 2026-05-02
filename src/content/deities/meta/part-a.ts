@@ -24,6 +24,12 @@ export const perkunasMeta: DeityMeta = {
     lv: "Pērkons",
   },
   keywords: ["thunder", "storm", "oak", "justice"],
+  keywordsByLang: {
+    thunder: { en: "thunder", lt: "griaustinis", lv: "pērkons" },
+    storm: { en: "storm", lt: "audra", lv: "vētra" },
+    oak: { en: "oak", lt: "ąžuolas", lv: "ozols" },
+    justice: { en: "justice", lt: "teisingumas", lv: "taisnīgums" },
+  },
   gallery: [
     {
       title: "Bronze axe charm",
@@ -1908,4 +1914,3 @@ export const autrimpasMeta: DeityMeta = {
 };
 
 // ── Batch 3 additions ──────────────────────────────────────────────────────
-

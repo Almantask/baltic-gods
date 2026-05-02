@@ -42,7 +42,7 @@ export function LocationDetailContent({ id }: { id: string }) {
               {strings.location.overview}
             </span>
             <span className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-amber-50">
-              {meta.siteType}
+              {strings.map.categories[meta.siteType] ?? meta.siteType}
             </span>
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200">
               {meta.region}
@@ -95,7 +95,7 @@ export function LocationDetailContent({ id }: { id: string }) {
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200">
               <p className="text-amber-100">{strings.location.siteType}</p>
-              <p>{meta.siteType}</p>
+              <p>{strings.map.categories[meta.siteType] ?? meta.siteType}</p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200">
               <p className="text-amber-100">{strings.location.coordinates}</p>
