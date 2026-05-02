@@ -85,7 +85,7 @@ export default function Home() {
               className="group rounded-2xl border border-white/10 bg-gradient-to-b from-black/60 to-zinc-900/60 p-5 shadow-lg transition hover:border-amber-200/30"
             >
               <span className="text-[10px] font-semibold uppercase tracking-widest text-amber-300/80">
-                {loc.siteType}
+                {strings.map.categories[loc.siteType] ?? loc.siteType}
               </span>
               <h3 className="mt-1 text-lg font-semibold text-amber-50 group-hover:text-amber-200 transition">
                 {loc.name}

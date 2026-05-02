@@ -57,6 +57,7 @@ export interface DeityMeta {
   accent: string;
   altNames: Record<Language, string>;
   keywords: string[];
+  keywordsByLang?: Record<string, Record<Language, string>>;
   gallery: GalleryItem[];
   locations: LocationPoint[];
   materialLegacy: string[];

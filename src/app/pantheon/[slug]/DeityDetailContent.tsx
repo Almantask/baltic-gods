@@ -90,7 +90,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
                 key={word}
                 className="rounded-full border border-white/15 bg-white/5 px-3 py-1"
               >
-                {word}
+                {entry.meta.keywordsByLang?.[word]?.[language] ?? word}
               </span>
             ))}
           </div>

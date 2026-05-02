@@ -449,8 +449,14 @@ const I18nContext = createContext<I18nContextValue>({
   strings: translations.en,
 });
 
-export function TranslationProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en");
+export function TranslationProvider({
+  children,
+  initialLanguage = "en",
+}: {
+  children: React.ReactNode;
+  initialLanguage?: Language;
+}) {
+  const [language, setLanguage] = useState<Language>(initialLanguage);
 
   const value = useMemo<I18nContextValue>(
     () => ({
@@ -466,4 +472,37 @@ export function TranslationProvider({ children }: { children: React.ReactNode })
 
 export function useTranslation() {
   return useContext(I18nContext);
+}
+
+type TranslatedText = {
+  en: string;
+  lt: string;
+  lv: string;
+};
+
+function isTranslatedText(value: unknown): value is TranslatedText {
+  if (!value || typeof value !== "object") {
+    return false;
+  }
+  const record = value as Record<string, unknown>;
+  return typeof record.en === "string" && typeof record.lt === "string" && typeof record.lv === "string";
+}
+
+export function resolveTranslatedText(
+  value: string | Partial<TranslatedText> | undefined,
+  language: Language,
+) {
+  if (!value) {
+    return "";
+  }
+
+  if (typeof value === "string") {
+    return value;
+  }
+
+  if (isTranslatedText(value)) {
+    return value[language];
+  }
+
+  return value[language] ?? value.en ?? value.lt ?? value.lv ?? "";
 }
