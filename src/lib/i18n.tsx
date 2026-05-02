@@ -449,8 +449,14 @@ const I18nContext = createContext<I18nContextValue>({
   strings: translations.en,
 });
 
-export function TranslationProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en");
+export function TranslationProvider({
+  children,
+  initialLanguage = "en",
+}: {
+  children: React.ReactNode;
+  initialLanguage?: Language;
+}) {
+  const [language, setLanguage] = useState<Language>(initialLanguage);
 
   const value = useMemo<I18nContextValue>(
     () => ({

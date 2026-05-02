@@ -177,6 +177,10 @@ export function SacredMap({
     [locations, hoveredId],
   );
 
+  const hoveredLocationCategory = hoveredLocation
+    ? (strings.map.categories[hoveredLocation.siteType] ?? hoveredLocation.siteType)
+    : undefined;
+
   useEffect(() => {
     if (!selectedLocation || !mapRef.current) return;
     mapRef.current.panTo({
@@ -302,7 +306,7 @@ export function SacredMap({
                   {hoveredLocation.region}
                 </span>
               </div>
-              <p className="mt-1 text-gray-600">{hoveredLocation.siteType}</p>
+              <p className="mt-1 text-gray-600">{hoveredLocationCategory}</p>
               <p className="mt-1 text-gray-500">{hoveredLocation.description}</p>
             </div>
           </InfoWindowF>

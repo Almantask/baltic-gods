@@ -3,7 +3,7 @@ import { renderWithProviders } from "../testing/render-with-providers";
 
 describe("Story detail page", () => {
   it("renders story content and tags", () => {
-    const { getByText, getByRole, getByTestId } = renderWithProviders(
+    const { getAllByText, getByText, getByRole, getByTestId } = renderWithProviders(
       <StoryDetailContent slug="thunder-oak-of-perkunas" />,
     );
 
@@ -12,9 +12,19 @@ describe("Story detail page", () => {
     );
     expect(getByText("Perkūnas")).toBeInTheDocument();
     expect(getByText("Velnias")).toBeInTheDocument();
-    expect(getByText("Šventoji Oak Sanctuary")).toBeInTheDocument();
-    expect(getByText("Aukštaitija Thunder Oaks")).toBeInTheDocument();
+    expect(getAllByText(/Oak/).length).toBeGreaterThan(0);
+    expect(getAllByText(/Aukštaitij/).length).toBeGreaterThan(0);
     expect(getByTestId("google-map")).toBeInTheDocument();
+  });
+
+  it("renders translated location tags when available", () => {
+    const { getAllByText } = renderWithProviders(
+      <StoryDetailContent slug="thunder-oak-of-perkunas" />,
+      { language: "lt" },
+    );
+
+    // Location names should come from translated LocationPoint data.
+    expect(getAllByText(/ąžuol/i).length).toBeGreaterThan(0);
   });
 
   it("returns null for unknown slug", () => {

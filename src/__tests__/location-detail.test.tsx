@@ -15,6 +15,16 @@ describe("Location detail content", () => {
     expect(getByText(/Map preview/i)).toBeInTheDocument();
   });
 
+  it("translates site type label", () => {
+    const target = locationMetas.find((meta) => meta.siteType === "Sacred hilltops") ?? locationMetas[0];
+    const { getAllByText } = renderWithProviders(
+      <LocationDetailContent id={target.id} />,
+      { language: "lt" },
+    );
+
+    expect(getAllByText(/Šventi/).length).toBeGreaterThan(0);
+  });
+
   it("renders nothing for an unknown location id", () => {
     const { container } = renderWithProviders(
       <LocationDetailContent id="unknown-location" />,

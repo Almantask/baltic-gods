@@ -19,6 +19,7 @@ export const LeyIndexCard = memo(function LeyIndexCard({
   showDescription = true,
 }: LeyIndexCardProps) {
   const { strings } = useTranslation();
+  const translatedSiteType = strings.map.categories[location.siteType] ?? location.siteType;
 
   return (
     <div
@@ -45,7 +46,7 @@ export const LeyIndexCard = memo(function LeyIndexCard({
             {location.name}
           </p>
           <p className="text-xs text-zinc-400">
-            {location.region} · {location.siteType}
+            {location.region} · {translatedSiteType}
           </p>
         </div>
         <span className="text-[0.65rem] tabular-nums tracking-tighter text-zinc-500">
