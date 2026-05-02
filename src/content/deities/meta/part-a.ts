@@ -32,14 +32,14 @@ export const perkunasMeta: DeityMeta = {
   },
   gallery: [
     {
-      title: "Bronze axe charm",
-      medium: "forged bronze",
-      note: "Carried by travelers crossing storm-lines on the Nemunas ridge.",
+      title: { en: "Bronze axe charm", lt: "Bronzinis kirvis talismanas", lv: "Bronzas cirvis-talismans" },
+      medium: { en: "forged bronze", lt: "nukaltas bronza", lv: "kalta bronza" },
+      note: { en: "Carried by travelers crossing storm-lines on the Nemunas ridge.", lt: "Nešiojamas keliautojų, kertančių audros linijas Nemuno aukštumose.", lv: "Nests ceļotāju, šķērsojot vētras līnijas Nemuna kalnajā joslā." },
     },
     {
-      title: "Storm-tempered oak plank",
-      medium: "river-cured wood",
-      note: "Used as altar top in Aukštaitija heights.",
+      title: { en: "Storm-tempered oak plank", lt: "Audros grūdintas ąžuolo lentas", lv: "Vētrā sacietēta ozola dēlis" },
+      medium: { en: "river-cured wood", lt: "upėje grūdintas medis", lv: "upē cietināts koks" },
+      note: { en: "Used as altar top in Aukštaitija heights.", lt: "Naudotas kaip altoriaus viršus Aukštaitijos aukštumose.", lv: "Izmantots kā altāra virsma Aukštaitijas augstienēs." },
     },
   ],
   locations: [
@@ -115,14 +115,14 @@ export const sauleMeta: DeityMeta = {
   keywords: ["sun", "amber", "weaving", "dawn"],
   gallery: [
     {
-      title: "Amber bead clasp",
-      medium: "Baltic amber",
-      note: "Passed between mothers at solstice vigils.",
+      title: { en: "Amber bead clasp", lt: "Gintaro karolių sagė", lv: "Dzintara pērlīšu sakta" },
+      medium: { en: "Baltic amber", lt: "Baltijos gintaras", lv: "Baltijas dzintars" },
+      note: { en: "Passed between mothers at solstice vigils.", lt: "Perduodama tarp motinų saulėgrįžos budėjimuose.", lv: "Nodota starp mātēm saulgriežu nakts novērošanas laikā." },
     },
     {
-      title: "Gold-thread linen panel",
-      medium: "flax, gilt thread",
-      note: "Displays the solar sledge motif from Žemaitija.",
+      title: { en: "Gold-thread linen panel", lt: "Aukso siūlo drobės plokštė", lv: "Zeltdiegā linu panelis" },
+      medium: { en: "flax, gilt thread", lt: "linai, paauksuotas siūlas", lv: "lini, zeltīts diegs" },
+      note: { en: "Displays the solar sledge motif from Žemaitija.", lt: "Vaizduoja saulės rogių motyvą iš Žemaitijos.", lv: "Attēlo saules ragavas motīvu no Žemaitijas." },
     },
   ],
   locations: [
@@ -199,14 +199,14 @@ export const laimaMeta: DeityMeta = {
   keywords: ["fate", "birch", "springs", "threads"],
   gallery: [
     {
-      title: "Birch divination lot",
-      medium: "birch bark, charcoal",
-      note: "Marked with three lines to foretell safe crossings.",
+      title: { en: "Birch divination lot", lt: "Beržo burtų skirtukas", lv: "Bērza zīlēšanas kauliņš" },
+      medium: { en: "birch bark, charcoal", lt: "beržo žievė, anglis", lv: "bērza mizas, ogle" },
+      note: { en: "Marked with three lines to foretell safe crossings.", lt: "Pažymėtas trimis linijomis, pranašaujančiomis saugias perėjas.", lv: "Iezīmēts ar trim svītrām, lai pareģotu drošas pārejas." },
     },
     {
-      title: "River flax braid",
-      medium: "flax, beeswax",
-      note: "Knotted at weddings to seal fortunes.",
+      title: { en: "River flax braid", lt: "Upinė lino pyne", lv: "Upes linu pine" },
+      medium: { en: "flax, beeswax", lt: "linai, bičių vaškas", lv: "lini, bišu vasks" },
+      note: { en: "Knotted at weddings to seal fortunes.", lt: "Mezgamas vestuvėse, siekiant užantspauduoti likimus.", lv: "Sasiets kāzās, lai aizzīmogotu likteņus." },
     },
   ],
   locations: [
@@ -282,14 +282,14 @@ export const zemynaMeta: DeityMeta = {
   keywords: ["soil", "harvest", "mounds", "grains"],
   gallery: [
     {
-      title: "Clay seed jar",
-      medium: "fired clay",
-      note: "Buried at field corners before plowing.",
+      title: { en: "Clay seed jar", lt: "Molinė sėklų ąsotis", lv: "Māla sēklu trauks" },
+      medium: { en: "fired clay", lt: "degtas molis", lv: "apdedzināts māls" },
+      note: { en: "Buried at field corners before plowing.", lt: "Laidojamas laukų kampuose prieš ariant.", lv: "Aprakts lauku stūros pirms aršanas." },
     },
     {
-      title: "Rye straw torque",
-      medium: "braided straw",
-      note: "Hung in barns to keep mice away by her favor.",
+      title: { en: "Rye straw torque", lt: "Rugių šiaudų apykaklė", lv: "Rudzu salmu kaklagredzens" },
+      medium: { en: "braided straw", lt: "pintas šiaudas", lv: "pīts salms" },
+      note: { en: "Hung in barns to keep mice away by her favor.", lt: "Kabinamas tvarte, siekiant jos malone atbaidyti peles.", lv: "Karāts stallī, lai ar viņas labvēlību atbaidītu peles." },
     },
   ],
   locations: [
@@ -365,14 +365,14 @@ export const velniasMeta: DeityMeta = {
   keywords: ["trickster", "forest", "crossroads", "night"],
   gallery: [
     {
-      title: "Bog iron talon",
-      medium: "bog iron",
-      note: "Left at crossroads to mislead harmful spirits.",
+      title: { en: "Bog iron talon", lt: "Pelkių geležies letena", lv: "Purva dzelzs nags" },
+      medium: { en: "bog iron", lt: "pelkių geležis", lv: "purva dzelzs" },
+      note: { en: "Left at crossroads to mislead harmful spirits.", lt: "Palikta kryžkelėse, siekiant suklaidinti kenksmingąsias dvasias.", lv: "Atstāts krustceļos, lai maldinātu kaitīgos garus." },
     },
     {
-      title: "Ashen hoof print",
-      medium: "ash, oak charcoal",
-      note: "Ritual mark to call a protective wanderer.",
+      title: { en: "Ashen hoof print", lt: "Pelenų kanopų žymė", lv: "Pelnu naga nospiedums" },
+      medium: { en: "ash, oak charcoal", lt: "pelenai, ąžuolo anglis", lv: "pelni, ozola ogle" },
+      note: { en: "Ritual mark to call a protective wanderer.", lt: "Apeiginė žymė, kviečianti globėjišką klajoklį.", lv: "Rituāla zīme, lai izsauktu aizsardzošu klaidoni." },
     },
   ],
   locations: [
@@ -448,14 +448,14 @@ export const austejaMeta: DeityMeta = {
   keywords: ["bees", "honey", "linden", "meadow"],
   gallery: [
     {
-      title: "Wax comb reliquary",
-      medium: "beeswax, linen",
-      note: "Holds dried meadow herbs for calm weather.",
+      title: { en: "Wax comb reliquary", lt: "Vaško korių relikvijorius", lv: "Vaska šūnu relikvijas kastīte" },
+      medium: { en: "beeswax, linen", lt: "bičių vaškas, linas", lv: "bišu vasks, lins" },
+      note: { en: "Holds dried meadow herbs for calm weather.", lt: "Laiko džiovintas pievų žoles ramiam orui.", lv: "Glabā žāvētas pļavas zāles mierīgam laikam." },
     },
     {
-      title: "Linden bark skep",
-      medium: "linden bark",
-      note: "Used as portable hive for blessing new farms.",
+      title: { en: "Linden bark skep", lt: "Liepų žievės avilys", lv: "Liepu mizas strops" },
+      medium: { en: "linden bark", lt: "liepų žievė", lv: "liepu miza" },
+      note: { en: "Used as portable hive for blessing new farms.", lt: "Naudotas kaip nešiojamas avilys naujiems ūkiams palaiminti.", lv: "Izmantots kā pārnēsājams strops jaunu saimniecību svētīšanai." },
     },
   ],
   locations: [
@@ -533,14 +533,14 @@ export const menulisMeta: DeityMeta = {
   keywords: ["moon", "night", "tides", "silver"],
   gallery: [
     {
-      title: "Silver shard pendant",
-      medium: "river silver",
-      note: "Hung on boats to travel under waning moons.",
+      title: { en: "Silver shard pendant", lt: "Sidabro šukės pakabukas", lv: "Sudraba lauskas kulons" },
+      medium: { en: "river silver", lt: "upės sidabras", lv: "upes sudrabs" },
+      note: { en: "Hung on boats to travel under waning moons.", lt: "Kabinamas ant valtis keliauti mažėjančios mėnulio šviesoje.", lv: "Karāts uz laivām ceļošanai dilstošās mēness gaismā." },
     },
     {
-      title: "Night-map cloth",
-      medium: "indigo dye",
-      note: "Painted with tidal lines for safe nocturnal crossings.",
+      title: { en: "Night-map cloth", lt: "Nakties žemėlapio drobė", lv: "Nakts kartes audums" },
+      medium: { en: "indigo dye", lt: "indigio dažai", lv: "indigo krāsa" },
+      note: { en: "Painted with tidal lines for safe nocturnal crossings.", lt: "Nupiešta potvynių linijomis saugioms nakties perėjoms.", lv: "Gleznots ar paisuma līnijām drošām nakts šķērsošanām." },
     },
   ],
   locations: [
@@ -616,14 +616,14 @@ export const dievasMeta: DeityMeta = {
   keywords: ["sky", "order", "stillness", "bells"],
   gallery: [
     {
-      title: "Bronze bell canopy",
-      medium: "bronze, linen",
-      note: "Hung in farmyards to carry prayers upward.",
+      title: { en: "Bronze bell canopy", lt: "Bronzinis varpų stogelis", lv: "Bronzas zvanu nojume" },
+      medium: { en: "bronze, linen", lt: "bronza, linas", lv: "bronza, lins" },
+      note: { en: "Hung in farmyards to carry prayers upward.", lt: "Kabinamas ūkio kiemeliuose, kad maldas nešiotų aukštyn.", lv: "Karāts saimniecību pagalmos, lai nestas lūgšanas augšup." },
     },
     {
-      title: "Star-etched staff",
-      medium: "ash wood",
-      note: "Used by elders to note stellar alignments on solstice nights.",
+      title: { en: "Star-etched staff", lt: "Žvaigždėmis išraižytas štabas", lv: "Zvaigznēs iezīmēts spieķis" },
+      medium: { en: "ash wood", lt: "uosio medis", lv: "ošu koks" },
+      note: { en: "Used by elders to note stellar alignments on solstice nights.", lt: "Senolių naudotas žvaigždžių padėčiai fiksuoti saulėgrįžos naktimis.", lv: "Izmantots no vecajiem zvaigžņu izlīdzinājumu atzīmēšanai saulgrieža naktīs." },
     },
   ],
   locations: [
@@ -700,14 +700,14 @@ export const gabijaMeta: DeityMeta = {
   keywords: ["fire", "home", "hearth", "protection"],
   gallery: [
     {
-      title: "Clay hearth tile",
-      medium: "fired clay",
-      note: "Painted with spirals to cradle embers overnight.",
+      title: { en: "Clay hearth tile", lt: "Molinė židinio plytelė", lv: "Māla pavarda flīze" },
+      medium: { en: "fired clay", lt: "degtas molis", lv: "apdedzināts māls" },
+      note: { en: "Painted with spirals to cradle embers overnight.", lt: "Nutapyta spiralėmis žarijoms priglausti per naktį.", lv: "Gleznota ar spirālēm, lai šūpotu ogles nakti." },
     },
     {
-      title: "Ember spoon",
-      medium: "iron",
-      note: "Used to carry live coals between farmsteads at weddings.",
+      title: { en: "Ember spoon", lt: "Žarijų kaušelis", lv: "Ogļu karote" },
+      medium: { en: "iron", lt: "geležis", lv: "dzelzs" },
+      note: { en: "Used to carry live coals between farmsteads at weddings.", lt: "Naudotas gyvoms žarijoms nešti tarp ūkių vestuvių metu.", lv: "Izmantots dzīvu ogļu nešanai starp saimniecībām kāzu laikā." },
     },
   ],
   locations: [
@@ -783,14 +783,14 @@ export const bangputysMeta: DeityMeta = {
   keywords: ["wind", "sea", "storm", "sail"],
   gallery: [
     {
-      title: "Tide bone whistle",
-      medium: "whale bone",
-      note: "Blown before casting nets to ask for steady currents.",
+      title: { en: "Tide bone whistle", lt: "Potvynio kaulinis švilpukas", lv: "Paisuma kaula svilpe" },
+      medium: { en: "whale bone", lt: "banginio kaulas", lv: "vaļa kauls" },
+      note: { en: "Blown before casting nets to ask for steady currents.", lt: "Pučiamas prieš tinklų metimą prašyti pastovių srovių.", lv: "Pūsta pirms tīklu mešanas, lūdzot pastāvīgas straumes." },
     },
     {
-      title: "Pitch-sealed mast charm",
-      medium: "pine pitch, linen",
-      note: "Wrapped around masts to keep winds balanced.",
+      title: { en: "Pitch-sealed mast charm", lt: "Derva užantspauduotas stiebo talismanas", lv: "Darvas noslēgts masta talismans" },
+      medium: { en: "pine pitch, linen", lt: "pušų derva, linas", lv: "priedes darva, lins" },
+      note: { en: "Wrapped around masts to keep winds balanced.", lt: "Vyniojamas aplink stiebus, kad vėjai išliktų subalansuoti.", lv: "Ietīts ap mastiem, lai vēji paliktu līdzsvaroti." },
     },
   ],
   locations: [
@@ -867,14 +867,14 @@ export const medineMeta: DeityMeta = {
   keywords: ["forest", "bark", "guardian", "path"],
   gallery: [
     {
-      title: "Spruce resin seal",
-      medium: "resin, linen",
-      note: "Pressed onto axes to remind of measured cuts.",
+      title: { en: "Spruce resin seal", lt: "Eglės dervos antspaudas", lv: "Egles sveķu zīmogs" },
+      medium: { en: "resin, linen", lt: "derva, linas", lv: "sveķi, lins" },
+      note: { en: "Pressed onto axes to remind of measured cuts.", lt: "Spaudžiamas ant kirvių, primenantis apie subalansuotus kirčius.", lv: "Nospiestas uz cirvjiem, lai atgādinātu par mērenajiem cirtieniem." },
     },
     {
-      title: "Moss-lined reliquary",
-      medium: "oak, moss",
-      note: "Holds birch bark prayers from wood gatherers.",
+      title: { en: "Moss-lined reliquary", lt: "Samanomis išklotas relikvijorius", lv: "Ar sūnām izklāta relikvijas kastīte" },
+      medium: { en: "oak, moss", lt: "ąžuolas, samanos", lv: "ozols, sūnas" },
+      note: { en: "Holds birch bark prayers from wood gatherers.", lt: "Laiko beržo žievės maldas iš malkakirčių.", lv: "Glabā bērza mizas lūgšanas no malkas vācējiem." },
     },
   ],
   locations: [
@@ -950,14 +950,14 @@ export const giltineMeta: DeityMeta = {
   keywords: ["death", "white", "serpent", "threshold"],
   gallery: [
     {
-      title: "White burial shroud",
-      medium: "linen",
-      note: "Left at crossroads on All Souls Night for the pale goddess.",
+      title: { en: "White burial shroud", lt: "Baltasis laidotuvių drobulė", lv: "Baltais bēru lins" },
+      medium: { en: "linen", lt: "linas", lv: "lins" },
+      note: { en: "Left at crossroads on All Souls Night for the pale goddess.", lt: "Palikta kryžkelėse Vėlinių naktį blyškiajai deivei.", lv: "Atstāts krustceļos Visu dvēseļu naktī bālajai dievietei." },
     },
     {
-      title: "Iron death-hook",
-      medium: "bog iron",
-      note: "Traditional Lithuanian grave marker with serpent motif.",
+      title: { en: "Iron death-hook", lt: "Geležinis mirties kablys", lv: "Dzelzs nāves āķis" },
+      medium: { en: "bog iron", lt: "pelkių geležis", lv: "purva dzelzs" },
+      note: { en: "Traditional Lithuanian grave marker with serpent motif.", lt: "Tradicinis lietuviškos kapavietės ženklas su žalčio motyvu.", lv: "Tradicionāls lietuviešu kapa marķieris ar čūskas motīvu." },
     },
   ],
   locations: [
@@ -1036,14 +1036,14 @@ export const pukisMeta: DeityMeta = {
   keywords: ["dragon", "wealth", "fire", "serpent", "household"],
   gallery: [
     {
-      title: "Amber fire-dragon amulet",
-      medium: "Baltic amber",
-      note: "Worn by those seeking pūķis's favour, found in Latvian folk collections.",
+      title: { en: "Amber fire-dragon amulet", lt: "Gintarinis ugniagesio drakono amuletas", lv: "Dzintara uguns-pūķa amulets" },
+      medium: { en: "Baltic amber", lt: "Baltijos gintaras", lv: "Baltijas dzintars" },
+      note: { en: "Worn by those seeking pūķis's favour, found in Latvian folk collections.", lt: "Nešiojamas tų, kurie ieško pūķio palankumo; rastas latvių tautosakos kolekcijose.", lv: "Nests tiem, kas meklē pūķa labvēlību; atrasts latviešu folkloras kolekcijās." },
     },
     {
-      title: "Charred roof-beam",
-      medium: "oak, pine pitch",
-      note: "Evidence of pūķis visits — scorched entry point in a farmstead loft.",
+      title: { en: "Charred roof-beam", lt: "Sudegusi stogo sija", lv: "Piesvilinēta jumta sija" },
+      medium: { en: "oak, pine pitch", lt: "ąžuolas, pušų derva", lv: "ozols, priedes darva" },
+      note: { en: "Evidence of pūķis visits — scorched entry point in a farmstead loft.", lt: "Pūķio apsilankymų įrodymas — apdegęs įėjimo taškas ūkinio pastato palėpėje.", lv: "Pūķa apciemojumu liecība — apdeguša ieeja saimniecības bēniņos." },
     },
   ],
   locations: [
@@ -1122,14 +1122,14 @@ export const ausrineMeta: DeityMeta = {
   keywords: ["dawn", "morning star", "fire", "Venus"],
   gallery: [
     {
-      title: "Golden thread brooch",
-      medium: "gilded bronze",
-      note: "Worn by young women at dawn rituals, symbolising the morning star's light.",
+      title: { en: "Golden thread brooch", lt: "Aukso siūlo sagė", lv: "Zelta diegā sakta" },
+      medium: { en: "gilded bronze", lt: "paauksuota bronza", lv: "apzeltīta bronza" },
+      note: { en: "Worn by young women at dawn rituals, symbolising the morning star's light.", lt: "Nešiojama jaunų moterų aušros apeigose, simbolizuojančiose ryto žvaigždės šviesą.", lv: "Nesta jaunām sievietēm rīta ausmas rituālos, simbolizējot rīta zvaigznes gaismu." },
     },
     {
-      title: "Dawn water vessel",
-      medium: "clay",
-      note: "Filled with dew before sunrise and offered with sung prayers.",
+      title: { en: "Dawn water vessel", lt: "Aušros vandens indas", lv: "Ausmas ūdens trauks" },
+      medium: { en: "clay", lt: "molis", lv: "māls" },
+      note: { en: "Filled with dew before sunrise and offered with sung prayers.", lt: "Prisipildytas rasos prieš saulėtekį ir paaukotas dainuojant maldas.", lv: "Piepildīts ar rasu pirms saullēkta un upurēts ar dziedātām lūgšanām." },
     },
   ],
   locations: [
@@ -1208,14 +1208,14 @@ export const maraMeta: DeityMeta = {
   keywords: ["earth", "cattle", "weaving", "death", "rebirth"],
   gallery: [
     {
-      title: "Māra's cross pendant",
-      medium: "silver",
-      note: "Pre-Christian solar cross associated with Māra, still worn in Latvia.",
+      title: { en: "Māra's cross pendant", lt: "Māros kryžiaus pakabukas", lv: "Māras krusta kulons" },
+      medium: { en: "silver", lt: "sidabras", lv: "sudrabs" },
+      note: { en: "Pre-Christian solar cross associated with Māra, still worn in Latvia.", lt: "Ikrikščioniškas saulės kryžius, susijęs su Māra; tebenešiojamas Latvijoje.", lv: "Pirms-kristīgs saules krusts, kas saistīts ar Māru; joprojām nēsāts Latvijā." },
     },
     {
-      title: "Sacred cow skull",
-      medium: "bone, red ochre",
-      note: "Placed in barn eaves to invoke Māra's protection of cattle.",
+      title: { en: "Sacred cow skull", lt: "Šventosios karvės kaukolė", lv: "Svētā govs galvaskauss" },
+      medium: { en: "bone, red ochre", lt: "kaulas, raudonasis ochras", lv: "kauls, sarkanā okra" },
+      note: { en: "Placed in barn eaves to invoke Māra's protection of cattle.", lt: "Dedama tvarto stogtarpyje, kviečiant Māros karvelių globą.", lv: "Novietots staļļa jumta pakājē, lai aicinātu Māras lopu aizsardzību." },
     },
   ],
   locations: [
@@ -1294,14 +1294,14 @@ export const jumisMeta: DeityMeta = {
   keywords: ["grain", "harvest", "double", "fertility", "last-sheaf"],
   gallery: [
     {
-      title: "Double-grain crown",
-      medium: "braided rye",
-      note: "Hung above the farmhouse door after harvest — Jumis's symbol.",
+      title: { en: "Double-grain crown", lt: "Dvigubų grūdų karūna", lv: "Dubultgraudu vainags" },
+      medium: { en: "braided rye", lt: "pinami rugiai", lv: "pīti rudzi" },
+      note: { en: "Hung above the farmhouse door after harvest — Jumis's symbol.", lt: "Kabinama virš sodybos durų po derliaus — Jumio simbolis.", lv: "Karāts virs lauku mājas durvīm pēc ražas — Jumja simbols." },
     },
     {
-      title: "Last sheaf effigy",
-      medium: "wheat straw",
-      note: "Woven into a human shape, given a name, kept through winter.",
+      title: { en: "Last sheaf effigy", lt: "Paskutinio pėdo efigija", lv: "Pēdējā kūļa efigija" },
+      medium: { en: "wheat straw", lt: "kviečių šiaudai", lv: "kviešu salmi" },
+      note: { en: "Woven into a human shape, given a name, kept through winter.", lt: "Nupinta žmogaus pavidalu, pavadinta vardu, saugoma per žiemą.", lv: "Austas cilvēka formā, dots vārds, paturēts cauru ziemu." },
     },
   ],
   locations: [
@@ -1380,14 +1380,14 @@ export const usinsMeta: DeityMeta = {
   keywords: ["light", "horses", "spring", "bees", "pasture"],
   gallery: [
     {
-      title: "Horse wreath",
-      medium: "oak leaves, herbs",
-      note: "Placed on horses' heads on Ūsiņš Day (April 23) before first pasturing.",
+      title: { en: "Horse wreath", lt: "Žirgų vainikas", lv: "Zirgu vainags" },
+      medium: { en: "oak leaves, herbs", lt: "ąžuolo lapai, žolės", lv: "ozola lapas, garšaugi" },
+      note: { en: "Placed on horses' heads on Ūsiņš Day (April 23) before first pasturing.", lt: "Dedamas ant žirgų galvų Ūsiņo dieną (balandžio 23 d.) prieš pirmąjį ganymą.", lv: "Novietots uz zirgu galvām Ūsiņa dienā (23. aprīlī) pirms pirmās ganīšanas." },
     },
     {
-      title: "Spring candle cluster",
-      medium: "beeswax",
-      note: "Lit before dawn on Ūsiņdiena to welcome Ūsiņš's return.",
+      title: { en: "Spring candle cluster", lt: "Pavasario žvakių grupelė", lv: "Pavasara sveces pušķis" },
+      medium: { en: "beeswax", lt: "bičių vaškas", lv: "bišu vasks" },
+      note: { en: "Lit before dawn on Ūsiņdiena to welcome Ūsiņš's return.", lt: "Uždegama prieš aušrą Ūsiņo dieną, sveikant sugrįžtantį Ūsiņą.", lv: "Aizdegtas pirms ausmas Ūsiņdienā, lai sagaidītu Ūsiņa atgriešanos." },
     },
   ],
   locations: [
@@ -1466,14 +1466,14 @@ export const vakarineMeta: DeityMeta = {
   keywords: ["evening star", "venus", "sunset", "twilight", "celestial handmaiden", "sun's bed"],
   gallery: [
     {
-      title: "Silver tray of evening light",
-      medium: "hammered silver",
-      note: "Symbolic vessel for carrying the last warmth of the sun across the horizon.",
+      title: { en: "Silver tray of evening light", lt: "Sidabrinė vakaro šviesos lėkštė", lv: "Sudraba vakara gaismas paplāte" },
+      medium: { en: "hammered silver", lt: "kaustas sidabras", lv: "kalts sudrabs" },
+      note: { en: "Symbolic vessel for carrying the last warmth of the sun across the horizon.", lt: "Simbolinis indas, skirtas nešti paskutiniam saulės šilumos mirkui per horizontą.", lv: "Simbolisks trauks pēdējā saules siltuma nešanai pāri horizontam." },
     },
     {
-      title: "Linen evening cloth",
-      medium: "flax",
-      note: "Women's offering woven with silver thread, laid at hilltops at dusk for Vakarinė.",
+      title: { en: "Linen evening cloth", lt: "Lino vakaro audeklas", lv: "Linu vakara audums" },
+      medium: { en: "flax", lt: "linai", lv: "lini" },
+      note: { en: "Women's offering woven with silver thread, laid at hilltops at dusk for Vakarinė.", lt: "Moterų pasiūlymas, austas sidabro siūlu, dedamas ant kalvų sutemos metu Vakarinei.", lv: "Sieviešu upuris, austs ar sudraba diegs, likts uz pakalniem krēslā Vakarinei." },
     },
   ],
   locations: [
@@ -1554,14 +1554,14 @@ export const teliavelIsMeta: DeityMeta = {
   keywords: ["blacksmith", "sun", "forge", "creation myth", "fire", "celestial smith", "cultural hero"],
   gallery: [
     {
-      title: "Bronze sun-disc pendant",
-      medium: "cast bronze",
-      note: "Baltic Bronze Age pendant representing the Sun forged by the divine smith; found across Lithuania.",
+      title: { en: "Bronze sun-disc pendant", lt: "Bronzinis saulės disko pakabukas", lv: "Bronzas saules diska kulons" },
+      medium: { en: "cast bronze", lt: "liedinė bronza", lv: "lieta bronza" },
+      note: { en: "Baltic Bronze Age pendant representing the Sun forged by the divine smith; found across Lithuania.", lt: "Baltų bronzos amžiaus pakabukas, vaizduojantis Saulę, nukalatą dieviškojo kalvio; rastas visoje Lietuvoje.", lv: "Baltu bronzas laikmeta kulons, kas attēlo Sauli, kalt dievišķajam kalējam; atrasts visā Lietuvā." },
     },
     {
-      title: "Iron anvil shard",
-      medium: "iron",
-      note: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.",
+      title: { en: "Iron anvil shard", lt: "Geležinė priekalo šukė", lv: "Dzelzs laktas lauska" },
+      medium: { en: "iron", lt: "geležis", lv: "dzelzs" },
+      note: { en: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.", lt: "Ritualiniai geležies fragmentai, padėti kalvystės vietose kaip pasiūlymai dieviškajam meistrui.", lv: "Rituāli dzelzs gabali, novietoti kaldināšanas vietās kā upuri dievišķajam amatniekam." },
     },
   ],
   locations: [
@@ -1631,14 +1631,14 @@ export const daliaMeta: DeityMeta = {
   keywords: ["fate", "portion", "wealth", "weaving", "destiny", "material fortune", "dalis"],
   gallery: [
     {
-      title: "Woven fate cloth",
-      medium: "linen with pattern",
-      note: "Ritual cloth woven as a dowry offering to Dalia at birth ceremonies.",
+      title: { en: "Woven fate cloth", lt: "Austinis likimo audeklas", lv: "Austas likteņa audums" },
+      medium: { en: "linen with pattern", lt: "linas su raštu", lv: "lins ar rakstu" },
+      note: { en: "Ritual cloth woven as a dowry offering to Dalia at birth ceremonies.", lt: "Ritualinis audeklas, austs kaip kraičio pasiūlymas Daliai gimdymo apeigose.", lv: "Rituāls audums, austs kā pūra upuris Dalijai dzimšanas ceremonijās." },
     },
     {
-      title: "Grain-measuring vessel",
-      medium: "clay pot",
-      note: "Used to portend the amount of harvest Dalia would allot a household.",
+      title: { en: "Grain-measuring vessel", lt: "Grūdų matavimo indas", lv: "Graudu mēršanas trauks" },
+      medium: { en: "clay pot", lt: "molinis puodas", lv: "māla pods" },
+      note: { en: "Used to portend the amount of harvest Dalia would allot a household.", lt: "Naudotas numanyti derliaus kiekiui, kurį Dalia skirtų namų ūkiui.", lv: "Izmantots, lai pareģotu ražas apjomu, ko Dalia piešķirtu mājsaimniecībai." },
     },
   ],
   locations: [
@@ -1708,14 +1708,14 @@ export const patollaMeta: DeityMeta = {
   keywords: ["underworld", "death", "romuva", "prussian", "darkness", "shroud", "ancestral spirits"],
   gallery: [
     {
-      title: "White burial shroud",
-      medium: "linen",
-      note: "The white cloth head-covering of Patollo's idol at Romuva, described by Grunau (1529).",
+      title: { en: "White burial shroud", lt: "Baltasis laidotuvių drobulė", lv: "Baltais bēru lins" },
+      medium: { en: "linen", lt: "linas", lv: "lins" },
+      note: { en: "The white cloth head-covering of Patollo's idol at Romuva, described by Grunau (1529).", lt: "Baltasis Patolo stabulo galvos apdangalas Romuvoje, aprašytas Grunau (1529).", lv: "Baltā galvas pārklāja Patollo elka Romuvā, aprakstīts Grunau (1529)." },
     },
     {
-      title: "Skull offering vessel",
-      medium: "carved wood",
-      note: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.",
+      title: { en: "Skull offering vessel", lt: "Kaukolės aukojimo indas", lv: "Galvaskausa upura trauks" },
+      medium: { en: "carved wood", lt: "drožinėtas medis", lv: "griests koks" },
+      note: { en: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.", lt: "Ritualinis pelenų paaukojimų Šešėlių Valdovui žiemos apeigose indas.", lv: "Rituāls trauks pelnu upuriem Ēnu Kungam ziemas rituālos." },
     },
   ],
   locations: [
@@ -1785,14 +1785,14 @@ export const patrimpAsMeta: DeityMeta = {
   keywords: ["youth", "harvest", "spring", "fertility", "prussian", "romuva", "rivers", "grain crown"],
   gallery: [
     {
-      title: "Grain wreath festival crown",
-      medium: "rye and flax",
-      note: "Woven crown for Patrimpas celebrations at spring planting, worn by the lead dancer.",
+      title: { en: "Grain wreath festival crown", lt: "Grūdų vainiko šventės karūna", lv: "Graudu vainaga svētku kronis" },
+      medium: { en: "rye and flax", lt: "rugiai ir linai", lv: "rudzi un lini" },
+      note: { en: "Woven crown for Patrimpas celebrations at spring planting, worn by the lead dancer.", lt: "Pintoji karūna Patrimpaso šventėms pavasarinio sėjimo metu, nešiojama vyriausiojo šokėjo.", lv: "Pīts kronis Patrimpas svinībām pavasara sējas laikā, nests vadošā dejotāja." },
     },
     {
-      title: "Spring waters vessel",
-      medium: "clay jug",
-      note: "Used to carry first river-water of spring as an offering to Patrimpas.",
+      title: { en: "Spring waters vessel", lt: "Pavasario vandenų indas", lv: "Pavasara ūdeņu trauks" },
+      medium: { en: "clay jug", lt: "molinis ąsotis", lv: "māla krūze" },
+      note: { en: "Used to carry first river-water of spring as an offering to Patrimpas.", lt: "Naudotas pirmajam pavasario upės vandeniui nešti kaip pasiūlymas Patrimpasui.", lv: "Izmantots pirmā pavasara upes ūdens nešanai kā upuris Patrimpam." },
     },
   ],
   locations: [
@@ -1862,14 +1862,14 @@ export const autrimpasMeta: DeityMeta = {
   keywords: ["sea", "ocean", "prussian", "sailors", "fish", "waves", "baltic coast", "neptune"],
   gallery: [
     {
-      title: "Amber sea offering",
-      medium: "amber",
-      note: "Raw amber cast into the sea as first-catch offering to Autrimpas before offshore voyages.",
+      title: { en: "Amber sea offering", lt: "Gintaro jūros auka", lv: "Dzintara jūras upuris" },
+      medium: { en: "amber", lt: "gintaras", lv: "dzintars" },
+      note: { en: "Raw amber cast into the sea as first-catch offering to Autrimpas before offshore voyages.", lt: "Neapdorotas gintaras metamas į jūrą kaip pirmojo laimikio auka prieš jūrinius žygius.", lv: "Neapstrādāts dzintars iemests jūrā kā pirmā loma upuris pirms jūras braucieniem." },
     },
     {
-      title: "Carved driftwood fish",
-      medium: "driftwood",
-      note: "Votive fish carvings left at shore shrines to ensure abundant catch.",
+      title: { en: "Carved driftwood fish", lt: "Drožinėtas sujudusios medienos žuvis", lv: "Grebts dreifkoka zivs" },
+      medium: { en: "driftwood", lt: "sujudusi mediena", lv: "dreifkoks" },
+      note: { en: "Votive fish carvings left at shore shrines to ensure abundant catch.", lt: "Votyvų žuviniai drožiniai, palikti prie kranto šventovių, siekiant užtikrinti gausų laimikį.", lv: "Votīvas zivju grebumi atstāti krasta svētnīcās, lai nodrošinātu bagātīgu lomu." },
     },
   ],
   locations: [

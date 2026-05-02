@@ -45,7 +45,7 @@ export function LocationDetailContent({ id }: { id: string }) {
               {strings.map.categories[meta.siteType] ?? meta.siteType}
             </span>
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200">
-              {meta.region}
+              {strings.location.regions[meta.region] ?? meta.region}
             </span>
           </div>
           <h1 className="text-4xl font-semibold text-amber-50 sm:text-5xl">
@@ -59,7 +59,7 @@ export function LocationDetailContent({ id }: { id: string }) {
               {strings.location.coordinates}: {coordinates}
             </span>
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 capitalize">
-              {strings.location.aura}: {meta.aura}
+              {strings.location.aura}: {strings.location.auraNames[meta.aura] ?? meta.aura}
             </span>
           </div>
         </div>
@@ -91,7 +91,7 @@ export function LocationDetailContent({ id }: { id: string }) {
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200">
               <p className="text-amber-100">{strings.location.region}</p>
-              <p>{meta.region}</p>
+              <p>{strings.location.regions[meta.region] ?? meta.region}</p>
             </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200">
               <p className="text-amber-100">{strings.location.siteType}</p>

@@ -26,9 +26,9 @@ export const vejopatisMeta: DeityMeta = {
   keywords: ["wind", "souls", "afterlife", "Dausos"],
   gallery: [
     {
-      title: "Wind-bent hilltop pine",
-      medium: "natural",
-      note: "Pines on Samogitian ridges bent by prevailing westerlies, treated as Vėjopatis shrines.",
+      title: { en: "Wind-bent hilltop pine", lt: "Vėjo palenktoji kalvagūbrio pušis", lv: "Vēja locīta pakalna priede" },
+      medium: { en: "natural", lt: "gamtinis", lv: "dabisks" },
+      note: { en: "Pines on Samogitian ridges bent by prevailing westerlies, treated as Vėjopatis shrines.", lt: "Žemaitijos keteros pušys, palenktos vyraujančių vakarų vėjų, laikytos Vėjopačio šventovėmis.", lv: "Žemaitijas kalnu priedes, kas locītas valdošo rietumu vēju ietekmē, uzskatītas par Vėjopatis svētnīcām." },
     },
   ],
   locations: [
@@ -97,9 +97,9 @@ export const vaizgantasMeta: DeityMeta = {
   keywords: ["flax", "hemp", "weaving", "fibres"],
   gallery: [
     {
-      title: "Linen distaff bundle",
-      medium: "prepared flax",
-      note: "Placed at field altars in Samogitia at flax-sowing time.",
+      title: { en: "Linen distaff bundle", lt: "Lino verpstės ryšulys", lv: "Linu vārpstas pušķis" },
+      medium: { en: "prepared flax", lt: "paruoštas linas", lv: "sagatavots lins" },
+      note: { en: "Placed at field altars in Samogitia at flax-sowing time.", lt: "Dedamas ant lauko aukurų Žemaitijoje lino sėjos metu.", lv: "Novietots lauku altāros Žemaitijā linu sēšanas laikā." },
     },
   ],
   locations: [
@@ -167,9 +167,9 @@ export const ragutisMeta: DeityMeta = {
   keywords: ["beer", "brewing", "mead", "feasting"],
   gallery: [
     {
-      title: "Clay brewing vessel",
-      medium: "fired clay",
-      note: "Ringed with ochre bands; used in communal harvest ceremonies.",
+      title: { en: "Clay brewing vessel", lt: "Molinis alaus indas", lv: "Māla alus trauks" },
+      medium: { en: "fired clay", lt: "degtas molis", lv: "apdedzināts māls" },
+      note: { en: "Ringed with ochre bands; used in communal harvest ceremonies.", lt: "Apjuostas ochra juostomis; naudojamas bendruomeninėse derliaus ceremonijose.", lv: "Apjozts ar okras joslām; izmantots kopienas ražas ceremonijās." },
     },
   ],
   locations: [
@@ -237,9 +237,9 @@ export const dimstipatisMeta: DeityMeta = {
   keywords: ["household", "farmstead", "threshold", "protection"],
   gallery: [
     {
-      title: "Carved gate post",
-      medium: "oak",
-      note: "Gate posts carved with protective sun-wheels and snake motifs.",
+      title: { en: "Carved gate post", lt: "Drožinėtas vartų stulpas", lv: "Griezts vārtu stabs" },
+      medium: { en: "oak", lt: "ąžuolas", lv: "ozols" },
+      note: { en: "Gate posts carved with protective sun-wheels and snake motifs.", lt: "Vartų stulpai drožinėti apsauginiais saulės ratais ir žalčio motyvais.", lv: "Vārtu stabi grezbīti ar aizsargājošiem saules ratiem un čūskas motīviem." },
     },
   ],
   locations: [
@@ -307,14 +307,14 @@ export const janisMeta: DeityMeta = {
   keywords: ["midsummer", "solstice", "bonfire", "fertility"],
   gallery: [
     {
-      title: "Oak-leaf wreath",
-      medium: "oak leaves, grass",
-      note: "Woven by women before the festival and worn throughout the night.",
+      title: { en: "Oak-leaf wreath", lt: "Ąžuolo lapų vainikas", lv: "Ozola lapu vainags" },
+      medium: { en: "oak leaves, grass", lt: "ąžuolo lapai, žolė", lv: "ozola lapas, zāle" },
+      note: { en: "Woven by women before the festival and worn throughout the night.", lt: "Moterų pintas prieš šventę ir dėvimas visą naktį.", lv: "Austas sievietēm pirms svētkiem un nests cauru nakti." },
     },
     {
-      title: "Midsummer bonfire",
-      medium: "oak wood",
-      note: "Lit on hilltops so neighboring homesteads can see the glow.",
+      title: { en: "Midsummer bonfire", lt: "Joninių laužas", lv: "Vasaras saulgriežu ugunskurs" },
+      medium: { en: "oak wood", lt: "ąžuolo medis", lv: "ozola malka" },
+      note: { en: "Lit on hilltops so neighboring homesteads can see the glow.", lt: "Uždegamas ant kalvų, kad kaimyniniai ūkiai galėtų matyti liepsną.", lv: "Aizdedzināts uz pakalniem, lai kaimiņu mājas varētu redzēt mirdzumu." },
     },
   ],
   locations: [
@@ -383,9 +383,9 @@ export const mezaMateMeta: DeityMeta = {
   keywords: ["forest", "nature", "trees", "animals"],
   gallery: [
     {
-      title: "Old-growth linden shrine",
-      medium: "natural",
-      note: "Hollowed linden trees served as her dwelling; offerings left in the cavity.",
+      title: { en: "Old-growth linden shrine", lt: "Senos liepos šventovė", lv: "Sena liepa svētnīca" },
+      medium: { en: "natural", lt: "gamtinis", lv: "dabisks" },
+      note: { en: "Hollowed linden trees served as her dwelling; offerings left in the cavity.", lt: "Tuščiaviduriės liepos tarnavo jos buveinei; aukos paliktos ertmėje.", lv: "Dobumainas liepas kalpoja kā viņas mājoklis; upuri atstāti dobumā." },
     },
   ],
   locations: [
@@ -453,9 +453,9 @@ export const veluMateMeta: DeityMeta = {
   keywords: ["death", "underworld", "ancestors", "souls"],
   gallery: [
     {
-      title: "Ancestral offering bowl",
-      medium: "birch bark",
-      note: "Left at gravesides during Veļu laiks with food for the returning dead.",
+      title: { en: "Ancestral offering bowl", lt: "Protėvių aukojimo dubenėlis", lv: "Senču upura bļoda" },
+      medium: { en: "birch bark", lt: "beržo žievė", lv: "bērza miza" },
+      note: { en: "Left at gravesides during Veļu laiks with food for the returning dead.", lt: "Paliekama kapų pusėje Veļu laiks metu su maistu sugrįžtantiesiems mirusiesiems.", lv: "Atstāta kapa pusē Veļu laiku laikā ar pārtiku atgriežošajiem mirušajiem." },
     },
   ],
   locations: [
@@ -523,9 +523,9 @@ export const auschautsMeta: DeityMeta = {
   keywords: ["health", "healing", "medicine", "livestock"],
   gallery: [
     {
-      title: "Healing herb bundle",
-      medium: "dried herbs",
-      note: "Bundles of medicinal plants offered at Auschauts's shrine before illness treatment.",
+      title: { en: "Healing herb bundle", lt: "Gydomojo žolynų ryšulys", lv: "Dziedinošo augu pušķis" },
+      medium: { en: "dried herbs", lt: "džiovintos žolės", lv: "žāvētas zāles" },
+      note: { en: "Bundles of medicinal plants offered at Auschauts's shrine before illness treatment.", lt: "Vaistinių augalų ryšuliai, paaukoti prie Aušcauto šventovės prieš ligų gydymą.", lv: "Ārstniecības augu pušķi, upurēti pie Auschauts svētnīcas pirms slimību ārstēšanas." },
     },
   ],
   locations: [
@@ -593,9 +593,9 @@ export const kurkeMeta: DeityMeta = {
   keywords: ["grain", "harvest", "food", "granary"],
   gallery: [
     {
-      title: "Last-sheaf idol",
-      medium: "bound rye stalks",
-      note: "Effigy made from the last sheaf of harvest, identified with Curche.",
+      title: { en: "Last-sheaf idol", lt: "Paskutinio pėdo stabas", lv: "Pēdējā kūļa elks" },
+      medium: { en: "bound rye stalks", lt: "surišti rugių stiebeliai", lv: "sasieti rudzu stublāji" },
+      note: { en: "Effigy made from the last sheaf of harvest, identified with Curche.", lt: "Atvaizdas, pagamintas iš paskutinio derliaus pėdo, tapatinamas su Kurčiu.", lv: "Efigija izgatavota no pēdējā ražas kūļa, identificēta ar Curche." },
     },
   ],
   locations: [
@@ -664,9 +664,9 @@ export const aitvarasMeta: DeityMeta = {
   keywords: ["fire", "serpent", "wealth", "household"],
   gallery: [
     {
-      title: "Comet-streak carving",
-      medium: "carved wood",
-      note: "Rooftop carving representing the Aitvaras's nightly flight.",
+      title: { en: "Comet-streak carving", lt: "Kometos brūkšnio drožinys", lv: "Komētas svītra grebums" },
+      medium: { en: "carved wood", lt: "drožinėtas medis", lv: "griests koks" },
+      note: { en: "Rooftop carving representing the Aitvaras's nightly flight.", lt: "Stogo drožinys, vaizduojantis Aitvaro naktinius skrydžius.", lv: "Jumta grebums, kas attēlo Aitvara naktiskos lidojumus." },
     },
   ],
   locations: [
@@ -735,9 +735,9 @@ export const laumesMeta: DeityMeta = {
   keywords: ["fate", "weaving", "forest", "spirits"],
   gallery: [
     {
-      title: "Linen spindle found in forest",
-      medium: "carved bone",
-      note: "Laumės were said to leave their spindles behind when disturbed at their nighttime work.",
+      title: { en: "Linen spindle found in forest", lt: "Miške rastas lino verpstė", lv: "Mežā atrastā linu vārpsta" },
+      medium: { en: "carved bone", lt: "drožinėtas kaulas", lv: "griezts kauls" },
+      note: { en: "Laumės were said to leave their spindles behind when disturbed at their nighttime work.", lt: "Sakyta, kad laumės palieka savo verpstis, kai jas trikdo naktiniai darbai.", lv: "Tika uzskatīts, ka Laumės atstāj savas vārpstas, kad tās traucē nakts darbā." },
     },
   ],
   locations: [
@@ -806,9 +806,9 @@ export const zaltysMeta: DeityMeta = {
   keywords: ["snake", "household", "sacred", "protection"],
   gallery: [
     {
-      title: "Hearth snake shelter",
-      medium: "smooth river stones",
-      note: "Stones arranged at the base of the hearth to provide shelter for the sacred snake.",
+      title: { en: "Hearth snake shelter", lt: "Židinio žalčio prieglobstis", lv: "Pavarda čūskas patversme" },
+      medium: { en: "smooth river stones", lt: "lygūs upės akmenys", lv: "gludi upes akmeņi" },
+      note: { en: "Stones arranged at the base of the hearth to provide shelter for the sacred snake.", lt: "Akmenys sudėti prie židinio pamato suteikti prieglobstį šventajai gyvatei.", lv: "Akmeņi sakārtoti pie pavarda pamata, lai nodrošinātu pajumti svētajai čūskai." },
     },
   ],
   locations: [
@@ -877,9 +877,9 @@ export const neringaMeta: DeityMeta = {
   keywords: ["giant", "coast", "creation", "sea"],
   gallery: [
     {
-      title: "Amber bead from Nida dunes",
-      medium: "Baltic amber",
-      note: "Amber beads found at her feet according to legend.",
+      title: { en: "Amber bead from Nida dunes", lt: "Gintaro karoliukas iš Nidos kopų", lv: "Dzintara pērlīte no Nidas kāpām" },
+      medium: { en: "Baltic amber", lt: "Baltijos gintaras", lv: "Baltijas dzintars" },
+      note: { en: "Amber beads found at her feet according to legend.", lt: "Gintaro karoliai, rasti prie jos kojų pagal legendą.", lv: "Dzintara pērlītes atrasts pie viņas kājām saskaņā ar leģendu." },
     },
   ],
   locations: [
@@ -947,9 +947,9 @@ export const sovijusMeta: DeityMeta = {
   keywords: ["cremation", "afterlife", "fire", "ancestor"],
   gallery: [
     {
-      title: "Funerary pyre reconstruction",
-      medium: "oak and pine",
-      note: "The pre-Christian Lithuanian funeral rite introduced according to legend by Sovijus.",
+      title: { en: "Funerary pyre reconstruction", lt: "Laidotuvių laužo rekonstrukcija", lv: "Bēru sārta rekonstrukcija" },
+      medium: { en: "oak and pine", lt: "ąžuolas ir pušis", lv: "ozols un priede" },
+      note: { en: "The pre-Christian Lithuanian funeral rite introduced according to legend by Sovijus.", lt: "Ikrikščioniška lietuvių laidotuvių apeiga, pagal legendą pristatyta Sovijaus.", lv: "Pirms-kristīgais lietuviešu bēru rituāls, ko pēc leģendas ieviesa Sovijus." },
     },
   ],
   locations: [

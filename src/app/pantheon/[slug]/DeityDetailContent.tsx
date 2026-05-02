@@ -6,7 +6,7 @@ import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { deityBySlug } from "@/content/deities";
 import { findLocationPoint } from "@/content/locations";
 import { useSearchParams } from "next/navigation";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, resolveTranslatedText } from "@/lib/i18n";
 import type { Domain, LocationPoint, SiteCategory } from "@/types/content";
 
 const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
@@ -168,12 +168,12 @@ export function DeityDetailContent({ slug }: { slug: string }) {
         <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-3">
           {entry.meta.gallery.map((item) => (
             <div
-              key={item.title}
+              key={typeof item.title === "string" ? item.title : item.title.en}
               className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200"
             >
-              <p className="text-amber-100">{item.title}</p>
-              <p className="text-zinc-300">{item.medium}</p>
-              <p className="text-zinc-400">{item.note}</p>
+              <p className="text-amber-100">{resolveTranslatedText(item.title, language)}</p>
+              <p className="text-zinc-300">{resolveTranslatedText(item.medium, language)}</p>
+              <p className="text-zinc-400">{resolveTranslatedText(item.note, language)}</p>
             </div>
           ))}
         </div>
