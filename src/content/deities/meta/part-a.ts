@@ -32,9 +32,9 @@ export const perkunasMeta: DeityMeta = {
   },
   gallery: [
     {
-      title: { en: "Bronze axe charm", lt: "Bronzinis kirvis-talismanas", lv: "Bronzas cirvis-talismans" },
+      title: { en: "Bronze axe charm", lt: "Bronzinis kirvis talismanas", lv: "Bronzas cirvis-talismans" },
       medium: { en: "forged bronze", lt: "nukaltas bronza", lv: "kalta bronza" },
-      note: { en: "Carried by travelers crossing storm-lines on the Nemunas ridge.", lt: "Nešiojamas keliautojų, kertančių audros linijas Nemuno keteros perėjose.", lv: "Nests ceļotāju, šķērsojot vētras līnijas Nemuna kalnajā joslā." },
+      note: { en: "Carried by travelers crossing storm-lines on the Nemunas ridge.", lt: "Nešiojamas keliautojų, kertančių audros linijas Nemuno aukštumose.", lv: "Nests ceļotāju, šķērsojot vētras līnijas Nemuna kalnajā joslā." },
     },
     {
       title: { en: "Storm-tempered oak plank", lt: "Audros grūdintas ąžuolo lentas", lv: "Vētrā sacietēta ozola dēlis" },
@@ -1299,7 +1299,7 @@ export const jumisMeta: DeityMeta = {
       note: { en: "Hung above the farmhouse door after harvest — Jumis's symbol.", lt: "Kabinama virš sodo namo durų po derliaus — Jumio simbolis.", lv: "Karāts virs lauku mājas durvīm pēc ražas — Jumja simbols." },
     },
     {
-      title: { en: "Last sheaf effigy", lt: "Paskutinio pėdo ikonografija", lv: "Pēdējā kūļa efigija" },
+      title: { en: "Last sheaf effigy", lt: "Paskutinio pėdo efigija", lv: "Pēdējā kūļa efigija" },
       medium: { en: "wheat straw", lt: "kviečių šiaudai", lv: "kviešu salmi" },
       note: { en: "Woven into a human shape, given a name, kept through winter.", lt: "Nupinta žmogaus pavidalu, pavadinta vardu, saugoma per žiemą.", lv: "Austas cilvēka formā, dots vārds, paturēts cauru ziemu." },
     },
@@ -1561,7 +1561,7 @@ export const teliavelIsMeta: DeityMeta = {
     {
       title: { en: "Iron anvil shard", lt: "Geležinė priekalo šukė", lv: "Dzelzs laktas lauska" },
       medium: { en: "iron", lt: "geležis", lv: "dzelzs" },
-      note: { en: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.", lt: "Ritualiniai geležies fragmentai, padėti kalvystės vietose kaip pasiūlymai dieviškajam meistrei.", lv: "Rituāli dzelzs gabali, novietoti kaldināšanas vietās kā upuri dievišķajam amatniekam." },
+      note: { en: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.", lt: "Ritualiniai geležies fragmentai, padėti kalvystės vietose kaip pasiūlymai dieviškajam meistrui.", lv: "Rituāli dzelzs gabali, novietoti kaldināšanas vietās kā upuri dievišķajam amatniekam." },
     },
   ],
   locations: [

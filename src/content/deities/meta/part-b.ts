@@ -949,7 +949,7 @@ export const sovijusMeta: DeityMeta = {
     {
       title: { en: "Funerary pyre reconstruction", lt: "Laidotuvių laužo rekonstrukcija", lv: "Bēru sārta rekonstrukcija" },
       medium: { en: "oak and pine", lt: "ąžuolas ir pušis", lv: "ozols un priede" },
-      note: { en: "The pre-Christian Lithuanian funeral rite introduced according to legend by Sovijus.", lt: "Ikrikščioniškas lietuvių laidotuvių apeigas, pagal legendą pristatyta Sovijaus.", lv: "Pirms-kristīgais lietuviešu bēru rituāls, ko pēc leģendas ieviesa Sovijus." },
+      note: { en: "The pre-Christian Lithuanian funeral rite introduced according to legend by Sovijus.", lt: "Ikrikščioniška lietuvių laidotuvių apeiga, pagal legendą pristatyta Sovijaus.", lv: "Pirms-kristīgais lietuviešu bēru rituāls, ko pēc leģendas ieviesa Sovijus." },
     },
   ],
   locations: [
