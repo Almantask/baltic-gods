@@ -19,7 +19,9 @@ The **Barstucke** are specifically "bearded" dwarf-spirits who inhabit the fores
 - **Symbol**: Long beard, Acorn, Moss-covered roots
 
 ### Smok (Amber-Serpent / Coastal Dragon)
-The **Smok** is a legendary serpent or dragon-like being from the Prussian coast. Legend associated these creatures with the protection of the "sea gold" (**amber**). While the term *Smok* is shared with Slavic folklore, in the Prussian context, it personifies the dangerous and treasure-laden nature of the Baltic Sea. Amber was often seen as "tears of a goddess" or "dragon's scales," and the Smok was its fierce guardian.
+> ⚠️ **Editorial note:** The term *Smok* is a **Slavic word** (Polish: *smok* = dragon) and does not appear in any identified Old Prussian-language source, the Sudovian Book, or Praetorius. The amber-guardian serpent motif itself has Baltic parallels (cf. *Žaltys*, *Eglė*), but no Old Prussian creature is attested under this specific name. This entry describes a motif found in Prussian coastal folk tradition via Slavic-influenced transmission; it should not be presented as a native Prussian mythological term.
+
+The **Smok** is a legendary serpent or dragon-like being from the Prussian coast. Legend associated these creatures with the protection of the "sea gold" (**amber**). While the term *Smok* is shared with Slavic folklore, in the Prussian coastal context, it personifies the dangerous and treasure-laden nature of the Baltic Sea. Amber was often seen as "tears of a goddess" or "dragon's scales," and the Smok was its fierce guardian.
 - **Symbol**: Amber piece, Sea-waves, Serpent-coil
 
 ---

@@ -2,7 +2,7 @@
 
 ## Comprehensive Overview
 
-"Debesų kareivis" (The Cloud Soldier) is a mythic, celestial warrior associated with the atmospheric battles of **Perkūnas** (the Thunder God). He represents the "celestial army" that fights the forces of chaos (*Velnias*) during violent storms.
+"Debesų kareivis" (The Cloud Soldier) is a **folkloric atmospheric motif** — not a named cult deity — associated with the storms of **Perkūnas** (the Thunder God). Appearances of "cloud warriors" in the sky during violent storms were interpreted in folk narrative as Perkūnas's celestial army fighting the forces of chaos (*Velnias*). The figure has no dedicated cult, shrine, or primary source attestation as an independent deity; it is consistently recorded in folk legend (sakmės) as a secondary personification of lightning and thunder.
 
 ### English (EN)
 **Debesų kareivis** (along with the "Cloud Riders") is a spectral figure often seen by farmers during the most powerful summer storms. As the clouds gather into dark, towering shapes, folks would "see" giant warriors riding on white horses or chariots, wielding fiery swords. These soldiers are the active "troops" of Perkūnas, tasked with striking down the devil (**Velnias**) wherever he hides—whether inside a tree, under a stone, or in the human heart. Hearing the thunder was interpreted as the sound of their chariot wheels or the clash of their weapons. The Cloud Soldier is a manifestation of divine justice on a massive, atmospheric scale, signaling that a "heavenly war" is taking place to purify the world.
@@ -26,7 +26,7 @@
 - **Region**: Lithuania, Latvia
 - **Tribe**: All Baltic tribes
 - **Period**: Medieval to 20th-century folklore
-- **Category**: Celestial Entity / Atmospheric Warrior
+- **Category**: Folkloric Atmospheric Motif / Celestial Warrior Figure (not a canonical cult deity)
 - **Symbol**: Sword of Fire, White Horse, Chariot wheel, Dark Towering Cloud (Cumulonimbus)
 - **Animals**: White Horse, Grey Horse
 - **Function**: Striking down Velnias, Purifying the air, Maintaining divine order

@@ -34,13 +34,16 @@ Together, they ensure the survival of the bees, which were considered sacred "pe
 
 ## Primary Source Details
 
-- **Hyperion & Malala Chronicles (Chron):** 13th-century records mentioning Medeina and Žvorūna as major Lithuanian deities.
+- **Livonian Rhymed Chronicle / Livländische Reimchronik (Chron):** c. 1290 chronicle mentioning Žvorūna as a Lithuanian deity of the hunt. [Livländische Reimchronik, c. 1290]
+- **Hypatian Codex / Ipatiev Chronicle (Hypat):** 13th-century Rus' chronicle mentioning Lithuanian peoples and deities, sometimes associated with early references to Medeina. [Ipatiev Chronicle, 13th c.]
 - **LNE (Latvian National Encyclopedia):** Analyzes the pervasive role of the *Austras koks* in Latvian design and folk songs.
 - **Dundulienė (Dun):** Explored the bee-cult and the Kupolė rituals in depth. [Lietuvių mitologija, 1990]
 - **Kursīte (Kur):** Discussed the World Tree as the structural core of the Baltic universe.
 
 ## Key Metadata
 - **Region**: Pan-Baltic (World Tree, Bees), Lithuania (Medeina, Kupolė), Latvia (Austras koks)
+- **Tribe**: Pan-Baltic (Lithuanians, Latvians, Samogitians)
+- **Period**: Proto-Baltic origin; earliest written attestation 13th century (Medeina/Žvorūna)
 - **Category**: Cosmic Symbols / Forest Deities / Agricultural Spirits
 - **Function**: Structuring the universe (World Tree), Protecting the forest (Medeina), Blessing the harvest (Kupolė), Guarding the family hive (Austėja)
 - **References**:
