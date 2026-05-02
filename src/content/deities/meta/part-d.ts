@@ -788,7 +788,6 @@ export const upinisMeta: DeityMeta = {
       deity: "upinis",
       significance: "Fishermen and travelers offered the first catch and grain to Upinis at this ford to secure safe passage and plentiful fish from the river's sacred current.",
     },
-  
     {
       id: "alytus-confluence",
       name: "Alytus Confluence",

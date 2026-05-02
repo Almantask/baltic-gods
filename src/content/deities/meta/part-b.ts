@@ -823,7 +823,6 @@ export const zaltysMeta: DeityMeta = {
       deity: "zaltys",
       significance: "Milk bowls placed by hearths for the household snake.",
     },
-  
     {
       id: "zaltvyksle-spring",
       name: "Žaltvykslė Spring",
@@ -1981,7 +1980,6 @@ export const raganaMeta: DeityMeta = {
       deity: "ragana",
       significance: "The hill's summit crossroads served as a liminal meeting point where the boundary between the human world and the spirit world grew thin enough for the witch to pass through.",
     },
-  
     {
       id: "satrija-hill",
       name: "Šatrija Hill",

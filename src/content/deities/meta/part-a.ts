@@ -65,7 +65,6 @@ export const perkunasMeta: DeityMeta = {
       deity: "perkunas",
       significance: "Used to divine the coming of dry thunder over Zemgale fields.",
     },
-  
     {
       id: "aizkraukle-center",
       name: "Aizkraukle Tribal Center",
@@ -414,7 +413,6 @@ export const sauleMeta: DeityMeta = {
       deity: "saule",
       significance: "Fisherfolk lay amber beads for calm waters before departure.",
     },
-  
     {
       id: "palanga-amber",
       name: "Palanga Amber Coast",
@@ -520,7 +518,6 @@ export const laimaMeta: DeityMeta = {
       deity: "laima",
       significance: "Midwives climb here before births to braid names into cloth.",
     },
-  
     {
       id: "aglona-basilica-site",
       name: "Aglona Sacred Hill",
@@ -714,7 +711,6 @@ export const zemynaMeta: DeityMeta = {
       deity: "zemyna",
       significance: "Rye crowns are left to dry as a pledge to the next harvest.",
     },
-  
     {
       id: "anyksciai-silelis",
       name: "Anykščių šilelis",
@@ -897,7 +893,6 @@ export const velniasMeta: DeityMeta = {
       deity: "velnias",
       significance: "Fishermen ask for misdirection of storms toward open water.",
     },
-  
     {
       id: "birzai-grove",
       name: "Biržai Sacred Grove",
@@ -1216,7 +1211,6 @@ export const dievasMeta: DeityMeta = {
       deity: "dievas",
       significance: "Night vigils trace constellations while reciting ancestral lines.",
     },
-  
     {
       id: "alka-hills",
       name: "Alka Hills / Alkos",
@@ -1487,7 +1481,6 @@ export const gabijaMeta: DeityMeta = {
       deity: "gabija",
       significance: "Travelers rest here to warm hands and leave bread for safe homes.",
     },
-  
     {
       id: "birute-hill",
       name: "Birutė's Hill",
@@ -1594,7 +1587,6 @@ export const bangputysMeta: DeityMeta = {
       deity: "bangputys",
       significance: "Wind vanes carved as twin faces stand here to turn storms away from boats.",
     },
-  
     {
       id: "grobina-site",
       name: "Grobiņa Archeological Site",
@@ -1689,7 +1681,6 @@ export const medineMeta: DeityMeta = {
       deity: "medine",
       significance: "Pilgrims hang bark slips with family names asking for safe timber gathering.",
     },
-  
     {
       id: "anyksciai-forest",
       name: "Anykščiai Forest",
@@ -2053,7 +2044,6 @@ export const maraMeta: DeityMeta = {
       deity: "mara",
       significance: "On March 25 — Māras diena — farmers first touched the soil to invite her blessing.",
     },
-  
     {
       id: "dobele-mound",
       name: "Dobele Castle Mound",
@@ -2697,7 +2687,6 @@ export const patrimpAsMeta: DeityMeta = {
       deity: "patrimpas",
       significance: "Youth danced and sang here to invoke Patrimpas's blessing on fields and newborn livestock at each spring planting.",
     },
-  
     {
       id: "kaup-burial",
       name: "Kaup (Wiskiauten)",
@@ -2797,7 +2786,6 @@ export const autrimpasMeta: DeityMeta = {
       deity: "autrimpas",
       significance: "Prussian and later Lithuanian fishermen cast the first fish of the season back into the sea as tribute to the Lord of the Baltic Deep.",
     },
-  
     {
       id: "balga-fortress",
       name: "Balga (Honeida)",
