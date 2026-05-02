@@ -1715,7 +1715,7 @@ export const patollaMeta: DeityMeta = {
     {
       title: { en: "Skull offering vessel", lt: "Kaukolės aukojimo indas", lv: "Galvaskausa upura trauks" },
       medium: { en: "carved wood", lt: "drožinėtas medis", lv: "griests koks" },
-      note: { en: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.", lt: "Ritualinis pelenų paaukojimų Šešėlių Valdovui žiemos apeigose indas.", lv: "Rituāls trauks pīšļu upuriem Ēnu Kungam ziemas rituālos." },
+      note: { en: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.", lt: "Ritualinis pelenų paaukojimų Šešėlių Valdovui žiemos apeigose indas.", lv: "Rituāls trauks pelnu upuriem Ēnu Kungam ziemas rituālos." },
     },
   ],
   locations: [

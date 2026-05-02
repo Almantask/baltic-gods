@@ -36,9 +36,9 @@ export interface LocationPoint {
 }
 
 export interface GalleryItem {
-  title: string;
-  medium: string;
-  note: string;
+  title: string | Record<Language, string>;
+  medium: string | Record<Language, string>;
+  note: string | Record<Language, string>;
 }
 
 export interface SymbolicCard {

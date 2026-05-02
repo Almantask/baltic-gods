@@ -31,7 +31,7 @@ export default function StoriesPage() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="mt-2 w-full rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-amber-50 placeholder:text-zinc-500 focus:border-amber-200 focus:outline-none"
-          placeholder="Storm, amber, fate..."
+          placeholder={strings.stories.inputPlaceholder}
         />
       </label>
 
