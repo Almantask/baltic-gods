@@ -2438,7 +2438,7 @@ export const romuvaGroveMeta: LocationMeta = {
     lv: "Romuvas svētbirzs",
   },
   coordinates: [54.5, 21.5], // Nadruvia area
-  region: "Latvia", // Using Latvia as proxy for Prussia
+  region: "Old Prussia",
   description: {
     en: "The hypothesized central sanctuary of the Baltic peoples in Nadruvia (Old Prussia), home to the eternal flame and the high priest Kriwe.",
     lt: "Hipotetinė centrinė baltų šventovė Nadruvoje (Prūsuose), kurioje degė amžinoji ugnis ir gyveno vyriausiasis žynys Krivis.",

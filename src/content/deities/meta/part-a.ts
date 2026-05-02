@@ -1347,7 +1347,7 @@ export const dievasMeta: DeityMeta = {
       id: "romuva-grove",
       name: "Romuva Sacred Grove",
       coordinates: [54.5, 21.5],
-      region: "Latvia",
+      region: "Old Prussia",
       description: "The hypothesized central sanctuary of the Baltic peoples in Nadruvia (Old Prussia), home to the eternal flame and the high priest Kriwe.",
       siteType: "Sacred groves",
       aura: "amber",
