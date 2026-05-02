@@ -1500,7 +1500,7 @@ export const kaupBurialMeta: LocationMeta = {
   },
   siteType: "Mythic hills / burial mounds",
   aura: "amber",
-  deity: "patrimpAs",
+  deity: "patrimpas",
   significance: {
     en: "The primary gateway of the 'Amber Road', where wealth, trade, and burial rites intersected.",
     lt: "Pagrindiniai „Gintaro kelio“ vartai, kuriuose susikirto turtai, prekyba ir laidojimo apeigos.",
@@ -1608,7 +1608,7 @@ export const labiauFortressMeta: LocationMeta = {
   },
   siteType: "Springs, rivers, lakes with cult significance",
   aura: "mist",
-  deity: "patrimpAs",
+  deity: "patrimpas",
   significance: {
     en: "A nodal point for both defense and water-related offerings in northern Prussia.",
     lt: "Šiaurės Prūsijos gynybos ir su vandeniu susijusių aukojimų mazgas.",
@@ -2500,7 +2500,7 @@ export const grobinaSiteMeta: LocationMeta = {
   },
   siteType: "Mythic hills / burial mounds",
   aura: "amber",
-  deity: "mar", // Custom deity for sea?
+  deity: "bangputys",
   significance: {
     en: "A UNESCO-listed testament to the Northmen-Baltic symbiosis and the maritime spirit of the Curonian kings.",
     lt: "UNESCO paveldo sąrašo liudijimas apie skandinavų ir baltų simbiozę bei jūrinę kuršių karalių dvasią.",
@@ -2833,7 +2833,7 @@ export const medininkaiCastleMeta: LocationMeta = {
   },
   siteType: "Sacred groves",
   aura: "green",
-  deity: "medeina",
+  deity: "medine",
   significance: {
     en: "The forest surrounding Medininkai was one of the last great sacred forests of Lithuania proper. The hill fort itself may have served as a ritual boundary marker between settled lands and the sacred woodland. Hunters performed propitiation rites to Medeina before entering.",
     lt: "Miškai aplink Medininkus buvo vienas paskutinių didžiųjų šventųjų Lietuvos miškų. Pats piliakalnis galėjo tarnauti kaip ritualinis riboženklis tarp apgyvendintos žemės ir šventojo miško. Medžiotojai atlikdavo numalšinimo apeigas Miškinei prieš įeidami.",
