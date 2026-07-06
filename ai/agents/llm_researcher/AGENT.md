@@ -1,19 +1,8 @@
 <!-- AUTO-GENERATED from ai/specs/llm-researcher.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
 
 ---
-name: "llm-researcher"
+name: "LLM Researcher"
 description: "Investigates Baltic mythology using internal knowledge and flags potential hallucinations."
-tools:
-  - "list_directory"
-  - "read_file"
-  - "grep_search"
-  - "glob"
-  - "replace"
-  - "write_file"
-  - "run_shell_command"
-  - "save_memory"
-  - "ask_user"
-  - "enter_plan_mode"
 ---
 
 # LLM Researcher

@@ -1,19 +1,21 @@
+<!-- AUTO-GENERATED from ai/specs/senior-qa.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
+
 ---
-name: senior-qa
-description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
+name: "senior-qa"
+description: "Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library."
 tools:
-  - list_directory
-  - read_file
-  - grep_search
-  - glob
-  - replace
-  - write_file
-  - run_shell_command
-  - google_web_search
-  - web_fetch
-  - save_memory
-  - ask_user
-  - enter_plan_mode
+  - "list_directory"
+  - "read_file"
+  - "grep_search"
+  - "glob"
+  - "replace"
+  - "write_file"
+  - "run_shell_command"
+  - "google_web_search"
+  - "web_fetch"
+  - "save_memory"
+  - "ask_user"
+  - "enter_plan_mode"
 ---
 
 # Senior QA Engineer

@@ -15,21 +15,21 @@ This is a **Next.js** web application that serves as a digital compendium of Bal
 The project uses a two-stage orchestrated pipeline for features and mythological content:
 
 ### Stage 1: Development & Data Gathering (Parallel)
-- **Senior Frontend Engineer (Dev)**: Implements features and modifications.
-- **Senior QA Engineer (QA)**: Writes automated tests (Jest, Playwright).
-- **LLM Researcher (Mythology)**: Provides initial mythology research from internal knowledge.
-- **Browser Researcher (Mythology)**: Verifies mythology from web-based academic sources.
+- **Senior Frontend Engineer**: Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations.
+- **Senior QA Engineer**: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
+- **LLM Researcher**: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
+- **Browser Researcher**: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
 
 ### Stage 2: Quality Control & Validation (Parallel)
-- **Mythology Editor**: Cross-references and flags inconsistencies in mythology data.
-- **Code Reviewer**: Audits technical implementation for efficiency and performance.
-- **Product Designer**: Reviews UX/UI for aesthetics and usability.
+- **Mythology Editor**: Verified mythology researcher focused on cross-referencing information from LLM and Browser researchers.
+- **Code Reviewer**: Specialized in code efficiency, performance optimization, and architectural integrity.
+- **Product Designer**: Expert in UX, UI, and accessibility. Focused on the usability and aesthetic appeal of the platform.
 
 ### Stage 3: Post-Review Fixes (Iterative)
 - **Senior Frontend Engineer & QA**: Addresses technical/UX feedback and updates tests.
 - **Mythology Editor & Researchers**: Resolves content inconsistencies and ensures full verification.
 
-All coordination is managed by the **Orchestrator** agent as defined in `_agents/workflows/orchestrated_dev_pipeline.md`.
+All coordination is managed by the **Orchestrator** agent as defined in `ai/workflows/orchestrated_dev_pipeline.md`.
 
 ## Project Structure
 
@@ -43,19 +43,27 @@ src/
       lt/[slug].mdx    — Lithuanian translations
       lv/[slug].mdx    — Latvian translations
   types/content.ts     — TypeScript interfaces for all content types
-_agents/
+ai/
+  specs/               — CANONICAL agent/skill/workflow definitions (source of truth)
   research/            — Research files and checklist
-  skills/              — Skill definitions (mythology_researcher)
-  agents/              — Legacy agent definitions
-  workflows/           — Workflow definitions
-.github/agents/        — VS Code Copilot custom agent definitions
+  skills/              — Antigravity skill definitions (auto-generated body, manual resources/)
+  agents/              — Antigravity agent definitions (auto-generated)
+  workflows/           — Antigravity workflow definitions (auto-generated)
+scripts/
+  sync-agents.js       — Generates tool-specific configs from ai/specs/
+.github/agents/        — VS Code Copilot custom agents (auto-generated)
+.gemini/agents/        — Gemini CLI agents (auto-generated)
 ```
+
+> **Note**: All files in `.github/agents/`, `.gemini/agents/`, `ai/agents/`, and
+> `ai/workflows/` are auto-generated from `ai/specs/`. Run `npm run sync-agents` to regenerate after editing specs.
 
 ## Development Commands
 
 ```bash
 npm run dev          # Start dev server
 npm run build        # Production build
+npm run sync-agents  # Regenerate tool-specific agent configs from ai/specs/
 npm run lint         # Run ESLint
 npm test             # Run Jest tests
 npx playwright test  # Run E2E tests
@@ -104,7 +112,7 @@ All summaries and titles must be provided in three languages:
 
 ## Research & Verification
 
-- The research checklist is at `_agents/research/baltic_mythology_checklist.md`
-- Academic sources are catalogued at `_agents/skills/mythology_researcher/resources/sources.md`
+- The research checklist is at `ai/research/baltic_mythology_checklist.md`
+- Academic sources are catalogued at `ai/skills/mythology_researcher/resources/sources.md`
 - Never commit unverified mythology claims — flag uncertainties explicitly
 - Prioritize native-language (Lithuanian/Latvian) sources over English summaries

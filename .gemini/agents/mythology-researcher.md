@@ -1,9 +1,8 @@
 <!-- AUTO-GENERATED from ai/specs/mythology-researcher.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
 
 ---
-name: "Mythology Researcher"
+name: "mythology-researcher"
 description: "End-to-end Baltic mythology research workflow — discovers, curates, verifies, and formats mythological entities for the project."
-argument-hint: "Enter a Baltic mythology entity, story, or deity to research and format for the compendium"
 tools:
   - "list_directory"
   - "read_file"

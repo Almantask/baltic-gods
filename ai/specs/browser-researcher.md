@@ -1,21 +1,27 @@
-<!-- AUTO-GENERATED from ai/specs/browser-researcher.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
-
 ---
-name: "browser-researcher"
-description: "Investigates Baltic mythology using internet search and browser capabilities for real-world verification."
+name: Browser Researcher
+type: agent
+description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
+argument-hint: Enter a deity name, myth, or Baltic mythology claim to verify online
+handoffs:
+  - label: Send to Mythology Editor
+    agent: Mythology Editor
+    prompt: Cross-reference this Browser research with the LLM Researcher's findings and produce a verified mythology record.
+    send: true
+globs: "src/content/**/*"
 tools:
-  - "list_directory"
-  - "read_file"
-  - "grep_search"
-  - "glob"
-  - "replace"
-  - "write_file"
-  - "run_shell_command"
-  - "google_web_search"
-  - "web_fetch"
-  - "save_memory"
-  - "ask_user"
-  - "enter_plan_mode"
+  - list_directory
+  - read_file
+  - grep_search
+  - glob
+  - replace
+  - write_file
+  - run_shell_command
+  - google_web_search
+  - web_fetch
+  - save_memory
+  - ask_user
+  - enter_plan_mode
 ---
 
 # Browser Researcher

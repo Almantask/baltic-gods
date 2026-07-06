@@ -1,8 +1,9 @@
 ---
-description: Mythology Researcher Workflow
+name: Mythology Researcher Workflow
+type: workflow
+description: Mythology Researcher Workflow - orchestrates LLM Researcher and Editor for content accuracy.
 ---
 
-// turbo-all
 # Mythology Researcher Workflow
 
 This workflow orchestrates two distinct AI agents to ensure mythological accuracy and rich content creation:

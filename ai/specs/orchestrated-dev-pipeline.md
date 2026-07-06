@@ -1,3 +1,9 @@
+---
+name: Orchestrated Development & Research Pipeline
+type: workflow
+description: Orchestrates the execution model and stages for features and mythological content in Baltic Gods.
+---
+
 # Orchestrated Development & Research Pipeline
 
 This workflow outlines the two-stage execution process for the "Baltic Gods" project, coordinated by the **Orchestrator** agent.

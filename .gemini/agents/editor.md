@@ -1,9 +1,8 @@
 <!-- AUTO-GENERATED from ai/specs/editor.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
 
 ---
-name: "Mythology Editor"
+name: "editor"
 description: "Verified mythology researcher focused on cross-referencing information from LLM and Browser researchers."
-argument-hint: "Provide the LLM and Browser research reports to cross-reference and fact-check"
 tools:
   - "list_directory"
   - "read_file"

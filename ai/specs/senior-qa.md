@@ -1,28 +1,31 @@
-<!-- AUTO-GENERATED from ai/specs/senior-qa.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
-
 ---
-name: "Senior QA Engineer"
-description: "Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library."
-argument-hint: "Describe the feature, component, or bug to write or update tests for"
+name: Senior QA Engineer
+type: agent
+description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
+argument-hint: Describe the feature, component, or bug to write or update tests for
 handoffs:
-  - label: "Code Review"
-    agent: "Code Reviewer"
-    prompt: |
-      Review the implementation and tests for code quality, performance, and security.
+  - label: Code Review
+    agent: Code Reviewer
+    prompt: Review the implementation and tests for code quality, performance, and security.
     send: true
+globs:
+  - "src/__tests__/**/*"
+  - "e2e/**/*"
+  - "jest.config.mjs"
+  - "playwright.config.ts"
 tools:
-  - "list_directory"
-  - "read_file"
-  - "grep_search"
-  - "glob"
-  - "replace"
-  - "write_file"
-  - "run_shell_command"
-  - "google_web_search"
-  - "web_fetch"
-  - "save_memory"
-  - "ask_user"
-  - "enter_plan_mode"
+  - list_directory
+  - read_file
+  - grep_search
+  - glob
+  - replace
+  - write_file
+  - run_shell_command
+  - google_web_search
+  - web_fetch
+  - save_memory
+  - ask_user
+  - enter_plan_mode
 ---
 
 # Senior QA Engineer

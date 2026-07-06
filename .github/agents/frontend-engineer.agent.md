@@ -1,16 +1,33 @@
+<!-- AUTO-GENERATED from ai/specs/frontend-engineer.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
+
 ---
-name: Senior Frontend Engineer
-description: Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations.
-argument-hint: Describe the feature, component, or bug fix to implement in the Baltic Gods project
+name: "Senior Frontend Engineer"
+description: "Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations."
+argument-hint: "Describe the feature, component, or bug fix to implement in the Baltic Gods project"
 handoffs:
-  - label: Write Tests
-    agent: Senior QA Engineer
-    prompt: Review the implementation and write or update tests for the changes just made.
+  - label: "Write Tests"
+    agent: "Senior QA Engineer"
+    prompt: |
+      Review the implementation and write or update tests for the changes just made.
     send: true
-  - label: Code Review
-    agent: Code Reviewer
-    prompt: Review the implementation for code quality, performance, and security best practices.
+  - label: "Code Review"
+    agent: "Code Reviewer"
+    prompt: |
+      Review the implementation for code quality, performance, and security best practices.
     send: true
+tools:
+  - "list_directory"
+  - "read_file"
+  - "grep_search"
+  - "glob"
+  - "replace"
+  - "write_file"
+  - "run_shell_command"
+  - "google_web_search"
+  - "web_fetch"
+  - "save_memory"
+  - "ask_user"
+  - "enter_plan_mode"
 ---
 
 # Senior Frontend Engineer

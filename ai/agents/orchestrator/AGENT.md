@@ -1,21 +1,8 @@
 <!-- AUTO-GENERATED from ai/specs/orchestrator.md — do not edit directly. Run `npm run sync-agents` to regenerate. -->
 
 ---
-name: "orchestrator"
+name: "Orchestrator"
 description: "Manages the multi-stage research and development pipeline for the Baltic Gods project."
-tools:
-  - "list_directory"
-  - "read_file"
-  - "grep_search"
-  - "glob"
-  - "replace"
-  - "write_file"
-  - "run_shell_command"
-  - "google_web_search"
-  - "web_fetch"
-  - "save_memory"
-  - "ask_user"
-  - "enter_plan_mode"
 ---
 
 # Project Orchestrator
