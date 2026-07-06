@@ -243,6 +243,37 @@ export const druskininkaiMistMeta: LocationMeta = {
   references: ["Jonas Balys: Lietuvių mitologiškos sakmės", "Beresnevičius: Lietuvių religija ir mitologija"],
 };
 
+export const svendubresStoneMeta: LocationMeta = {
+  id: "svendubres-stone",
+  name: {
+    en: "Švendubrė Devil's Stone",
+    lt: "Švendubrės akmuo",
+    lv: "Švendubres Velnakmens",
+  },
+  coordinates: [53.985265, 23.928997],
+  region: "Lithuania",
+  description: {
+    en: "A geologic and mythological monument in the Raigardas valley north of Švendubrė, also known as Velnio akmuo, with cup-marks dated to the Bronze and Early Iron Age.",
+    lt: "Geologinis ir mitologinis paminklas Raigardo slėnyje į šiaurę nuo Švendubrės, dar vadinamas Velnio akmeniu, su bronzos ir ankstyvojo geležies amžiaus duobutėmis.",
+    lv: "Ģeoloģisks un mitoloģisks piemineklis Raigardas ielejā uz ziemeļiem no Švendubres, pazīstams arī kā Velnakmens, ar bedrītēm, kas datētas bronzas un agrā dzelzs laikmetā.",
+  },
+  siteType: "Ritual stones",
+  aura: "moss",
+  deity: "velnias",
+  significance: {
+    en: "Its legends tell of Velnias dropping the stone while trying to dam the Nemunas, while archaeologists classify it among cup-marked ritual stones and sacred boulders.",
+    lt: "Padavimai pasakoja, kad Velnias numetė šį akmenį mėgindamas užtvenkti Nemuną, o archeologai jį priskiria dubenuotiesiems apeiginiams akmenims ir šventiems rieduliams.",
+    lv: "Teikas stāsta, ka Velns nometis šo akmeni, mēģinot aizsprostot Nemunu, savukārt arheologi to pieskaita bedrīšu rituālajiem akmeņiem un svētajiem laukakmeņiem.",
+  },
+  tribe: { en: "Lithuanians (Dzukians)", lt: "Lietuviai (Dzūkai)", lv: "Lietuvieši (Dzūki)" },
+  period: { en: "Bronze to Early Iron Age / later folklore", lt: "Bronzos ir ankstyvojo geležies amžiaus / vėlesnė tautosaka", lv: "Bronzas līdz agrā dzelzs laikmeta / vēlākā folklora" },
+  references: [
+    "VLE: Švendubrės akmuo (https://www.vle.lt/straipsnis/svendubres-akmuo/)",
+    "Tarasenka, Petras: Lietuvos archeologijos medžiaga (1928)",
+    "Vaitkevičius, Vykintas: Žvalgomoji ekspedicija Raigardo slėnyje (1998-1999; cited by VLE)",
+  ],
+};
+
 export const nidaDunesMeta: LocationMeta = {
   id: "nida-dunes",
   name: {
@@ -268,6 +299,36 @@ export const nidaDunesMeta: LocationMeta = {
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
   references: ["Matthäus Praetorius: Deliciae Prussicae", "VLE: Kuršių nerija"],
+};
+
+export const valatkoniuDevilStoneMeta: LocationMeta = {
+  id: "valatkoniu-devil-stone",
+  name: {
+    en: "Valatkoniai Devil's Stone",
+    lt: "Valatkonių Velnio akmuo",
+    lv: "Valatkoņu Velnakmens",
+  },
+  coordinates: [55.612956, 23.774384],
+  region: "Lithuania",
+  description: {
+    en: "A split glacial boulder in the eastern part of Baisogala forest, identified by VLE as Velnio akmuo or Valatkonių akmuo and protected as both cultural and geological heritage.",
+    lt: "Skilęs ledyninis riedulys rytinėje Baisogalos miško dalyje, VLE įvardijamas kaip Velnio akmuo arba Valatkonių akmuo ir saugomas kaip kultūros bei geologijos paveldas.",
+    lv: "Sašķelts ledāja laukakmens Baisogalas meža austrumu daļā, ko VLE dēvē par Velnio akmeni jeb Valatkoņu akmeni un kas tiek aizsargāts kā kultūras un ģeoloģijas mantojums.",
+  },
+  siteType: "Legendary creation sites",
+  aura: "moss",
+  deity: "velnias",
+  significance: {
+    en: "One legend says the devil dropped it when a rooster crowed before he could destroy Baisogala church; another turns it into a disputed boundary stone moved with infernal help.",
+    lt: "Vienos padavimas sako, kad velnias jį numetė pragydus gaidžiui dar nespėjęs sugriauti Baisogalos bažnyčios; kitas pasakojimas paverčia jį ginčytinu riboženkliu, perstumtu su velnio pagalba.",
+    lv: "Viena teika vēsta, ka velns to nometis, kad iedziedājies gailis, pirms viņš paspējis sagraut Baisogalas baznīcu; cita padara to par strīdīgu robežakmeni, kas pārbīdīts ar velna palīdzību.",
+  },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "Folk tradition / first scholarly description 1989", lt: "Tautosaka / pirmasis mokslinis aprašas 1989 m.", lv: "Folklora / pirmais zinātniskais apraksts 1989. gadā" },
+  references: [
+    "VLE: Velnio akmuo (https://www.vle.lt/straipsnis/velnio-akmuo/)",
+    "Linčius, A. (1989; first description cited by VLE)",
+  ],
 };
 
 export const dzukijaMeadowMeta: LocationMeta = {

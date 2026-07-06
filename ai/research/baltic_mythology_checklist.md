@@ -652,6 +652,8 @@
 - [x] **Alka Hills / Alkos** (Various locations) — VLE, archaeology; *generic term for sacrificial hills throughout Lithuania* — *id: alka-hills*
 - [x] **Puntukas Boulder** (Anykščiai, Aukštaitija) — VLE; *second-largest boulder in LT; milžinai legend* — *id: puntukas-boulder*
 - [x] **Belmonto Stone** (Vilnius region) — folk; *sacred offering stone* — *id: belmonto-stone*
+- [x] **Švendubrės Stone / Devil's Stone** (Druskininkai, Raigardas valley) — VLE, Tarasenka, Vaitkevičius; *cup-marked mythological boulder; Bronze-Early Iron Age dating* — *id: svendubres-stone*
+- [x] **Valatkonių Devil's Stone** (Baisogala forest, Radviliškis district) — VLE; *split glacial boulder with devil-and-rooster and boundary-shift legends* — *id: valatkoniu-devil-stone*
 - [x] **Šventoji** (Palanga region) — VLE; *"sacred" settlement; ancient amber trade center* — *id: sventoji-shrine*
 - [x] **Dubingiai Lake Sanctuary** (Aukštaitija) — VLE, archaeology; *underwater offerings* — *id: dubingiai-sanctuary*
 - [x] **Šeimyniškėliai Hill Fort** (near Kernavė) — VLE; *earliest settlement in complex* — *id: seimyniskeliai-fort*

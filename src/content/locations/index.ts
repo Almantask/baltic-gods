@@ -801,6 +801,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./lv/stelmuze-oak.mdx")),
     }
   },
+  "svendubres-stone": {
+    meta: meta.svendubresStoneMeta,
+    Content: dynamic(() => import("./en/svendubres-stone.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/svendubres-stone.mdx")),
+      lt: dynamic(() => import("./lt/svendubres-stone.mdx")),
+      lv: dynamic(() => import("./lv/svendubres-stone.mdx")),
+    }
+  },
   "sventaragis-valley": {
     meta: meta.sventaragisValleyMeta,
     Content: dynamic(() => import("./en/sventaragis-valley.mdx")),
@@ -916,6 +925,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/tytuvenai-spring.mdx")),
       lt: dynamic(() => import("./lt/tytuvenai-spring.mdx")),
       lv: dynamic(() => import("./lv/tytuvenai-spring.mdx")),
+    }
+  },
+  "valatkoniu-devil-stone": {
+    meta: meta.valatkoniuDevilStoneMeta,
+    Content: dynamic(() => import("./en/valatkoniu-devil-stone.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/valatkoniu-devil-stone.mdx")),
+      lt: dynamic(() => import("./lt/valatkoniu-devil-stone.mdx")),
+      lv: dynamic(() => import("./lv/valatkoniu-devil-stone.mdx")),
     }
   },
   "veliuona-mound": {
