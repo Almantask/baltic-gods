@@ -8,20 +8,6 @@ handoffs:
     agent: research-orchestrator
     prompt: Cross-reference this Browser research with the llm-researcher's findings and produce a verified mythology record.
     send: true
-globs: "src/content/**/*"
-tools:
-  - list_directory
-  - read_file
-  - grep_search
-  - glob
-  - replace
-  - write_file
-  - run_shell_command
-  - google_web_search
-  - web_fetch
-  - save_memory
-  - ask_user
-  - enter_plan_mode
 ---
 
 # browser-researcher

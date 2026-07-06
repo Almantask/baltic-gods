@@ -3,29 +3,6 @@ name: development-orchestrator
 type: agent
 description: Manages the multi-stage research and development pipeline for the Baltic Gods project.
 argument-hint: Describe the feature or research task to orchestrate across the full development pipeline
-agents:
-  - research-orchestrator
-  - code-reviewer
-  - senior-frontend-engineer
-  - product-designer
-  - senior-qa-engineer
-globs:
-  - "src/**/*"
-  - "e2e/**/*"
-  - "ai/**/*"
-tools:
-  - list_directory
-  - read_file
-  - grep_search
-  - glob
-  - replace
-  - write_file
-  - run_shell_command
-  - google_web_search
-  - web_fetch
-  - save_memory
-  - ask_user
-  - enter_plan_mode
 ---
 
 # Development Orchestrator

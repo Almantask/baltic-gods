@@ -3,23 +3,6 @@ name: llm-researcher
 type: agent
 description: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
 argument-hint: Enter a Baltic deity name, spirit, or myth to research from internal knowledge
-handoffs:
-  - label: Verify with Browser
-    agent: browser-researcher
-    prompt: Please verify the following Baltic mythology findings against online academic sources.
-    send: true
-globs: "src/content/**/*"
-tools:
-  - list_directory
-  - read_file
-  - grep_search
-  - glob
-  - replace
-  - write_file
-  - run_shell_command
-  - save_memory
-  - ask_user
-  - enter_plan_mode
 ---
 
 # llm-researcher

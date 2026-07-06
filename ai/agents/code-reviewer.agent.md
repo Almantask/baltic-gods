@@ -3,22 +3,6 @@ name: code-reviewer
 type: agent
 description: Specialized in code efficiency, performance optimization, and architectural integrity.
 argument-hint: Paste code or describe the changes to review for quality, performance, and security
-globs:
-  - "src/**/*"
-  - "package.json"
-tools:
-  - list_directory
-  - read_file
-  - grep_search
-  - glob
-  - replace
-  - write_file
-  - run_shell_command
-  - google_web_search
-  - web_fetch
-  - save_memory
-  - ask_user
-  - enter_plan_mode
 ---
 
 # code-reviewer
