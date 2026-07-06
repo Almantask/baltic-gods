@@ -31,7 +31,7 @@ To find authentic tales/legends with specific metadata (region, tribe, year, ref
 - **Lithuanian Institute of History**: [istorija.lt](https://www.istorija.lt)
 
 ## Journals & Publications
-- **Tautosakos Darbai**: [zurnalai.vu.lt/td/en](https://www.zurnalai.vu.lt/td/en) - Folklore Studies Journal.
+- **Tautosakos Darbai**: [zurnalai.vu.lt/td/en](https://zurnalai.vu.lt/td/en) - Folklore Studies Journal.
 - **Folklore: Electronic Journal of Folklore**: [folklore.ee/folklore](https://www.folklore.ee/folklore)
 - **Archaeologia Lituana**: [journals.vu.lt/archaeologia-lituana](https://www.journals.vu.lt/archaeologia-lituana)
 - **Lietuvos archeologija**: [istorija.lt/.../lietuvos-archeologija](https://www.istorija.lt/leidiniai/mokslo-zurnalai-ir-testiniai-leidiniai/lietuvos-archeologija/826)

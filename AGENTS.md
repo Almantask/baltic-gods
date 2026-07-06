@@ -17,17 +17,17 @@ The project uses a two-stage orchestrated pipeline for features and mythological
 ### Stage 1: Development & Data Gathering (Parallel)
 - **Senior Frontend Engineer**: Expert in Next.js, TypeScript, and modern frontend best practices. Specialized in Gemini and GitHub integrations.
 - **Senior QA Engineer**: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
-- **LLM Researcher**: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
-- **Browser Researcher**: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
+- **Research Orchestrator**: Coordinates Baltic mythology research. Spawns Browser and LLM researchers, cross-checks findings, and synthesizes finalized metadata and content.
+  - **LLM Researcher**: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
+  - **Browser Researcher**: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
 
 ### Stage 2: Quality Control & Validation (Parallel)
-- **Mythology Editor**: Verified mythology researcher focused on cross-referencing information from LLM and Browser researchers.
 - **Code Reviewer**: Specialized in code efficiency, performance optimization, and architectural integrity.
 - **Product Designer**: Expert in UX, UI, and accessibility. Focused on the usability and aesthetic appeal of the platform.
 
 ### Stage 3: Post-Review Fixes (Iterative)
 - **Senior Frontend Engineer & QA**: Addresses technical/UX feedback and updates tests.
-- **Mythology Editor & Researchers**: Resolves content inconsistencies and ensures full verification.
+- **Research Orchestrator**: Resolves content inconsistencies and ensures full verification.
 
 All coordination is managed by the **Orchestrator** agent as defined in `ai/workflows/orchestrated_dev_pipeline.md`.
 
@@ -106,6 +106,6 @@ All summaries and titles must be provided in three languages:
 ## Research & Verification
 
 - The research checklist is at `ai/research/baltic_mythology_checklist.md`
-- Academic sources are catalogued at `ai/agents/mythology_researcher/resources/sources.md`
+- Academic sources are catalogued at `ai/agents/research_orchestrator/resources/sources.md`
 - Never commit unverified mythology claims — flag uncertainties explicitly
 - Prioritize native-language (Lithuanian/Latvian) sources over English summaries

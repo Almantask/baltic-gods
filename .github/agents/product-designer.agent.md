@@ -1,1 +1,0 @@
-../../ai/agents/product_designer/AGENT.md

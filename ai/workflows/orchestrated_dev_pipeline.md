@@ -6,67 +6,62 @@ description: Orchestrates the execution model and stages for features and mythol
 
 # Orchestrated Development & Research Pipeline
 
-This workflow outlines the two-stage execution process for the "Baltic Gods" project, coordinated by the **Orchestrator** agent.
+This workflow outlines the multi-stage development and content research process for the "Baltic Gods" project, coordinated by the **Orchestrator** agent.
 
 ## Execution Model
 
-The pipeline consists of two distinct stages, where agents within each stage run in parallel to ensure efficiency and thoroughness.
+The pipeline consists of three stages, where tasks within Stage 1 and Stage 2 run in parallel to maximize efficiency while maintaining strict quality gates.
+
+---
 
 ### Stage 1: Development & Data Gathering (Parallel)
 
-In this stage, the primary implementation and research tasks are performed.
+In this stage, the implementation and mythology research tasks are performed concurrently:
 
 - **Senior Frontend Engineer (Dev)**:
-  - Implements the requested feature or modification.
+  - Implements the requested features, components, or UI adjustments.
   - Follows Next.js and React best practices.
-  - Ensures type safety and architectural integrity.
+  - Ensures absolute type safety and clean architecture.
+  
 - **Senior QA Engineer (QA)**:
-  - Writes automated tests (unit, integration, or E2E) for the feature.
-  - Ensures no regressions are introduced.
-- **LLM Researcher (Mythology)**:
-  - Provides initial mythology research based on internal knowledge.
-  - Flags potential hallucinations and uncertainties.
-- **Browser Researcher (Mythology)**:
-  - Performs web-based research to find primary and secondary sources.
-  - Gathers academic references and visual evidence.
+  - Writes automated tests (unit, integration, or E2E) for the implementation.
+  - Ensures no regressions are introduced and verifies edge cases.
+  
+- **Research Orchestrator (Mythology)**:
+  - Initiates the [Parallel Deity Research Workflow](file:///c:/Users/ITWORK/source/repos/baltic-gods/ai/workflows/parallel_research_workflow.md).
+  - Spawns and manages 5 subagents (2 Lithuanian browser crawlers, 2 Latvian browser crawlers, and 1 LLM internal researcher).
+  - Fact-checks reports, compiles inconsistencies, validates academic references, and outputs the final metadata and MDX entries.
+
+---
 
 ### Stage 2: Quality Control & Validation (Parallel)
 
-Once Stage 1 is complete, this stage performs a comprehensive review of the work.
+Once Stage 1 tasks are verified as complete, the Orchestrator initiates reviews:
 
-- **Mythology Editor**:
-  - Compares reports from the LLM and Browser researchers.
-  - Identifies and flags inconsistencies.
-  - Synthesizes a finalized, verified mythological record.
 - **Code Reviewer**:
-  - Performs a technical audit of the implementation.
-  - Focuses on efficiency, performance, and code quality.
-  - Ensures adherence to project standards.
+  - Performs a technical audit of the code and configuration changes.
+  - Focuses on efficiency, performance, bundle size, and strict type safety.
+  - Ensures compliance with project standards.
+  
 - **Product Designer**:
-  - Reviews the UI/UX implementation.
-  - Assesses the aesthetic quality and usability.
-  - Ensures a high-quality user experience.
+  - Reviews the UX/UI implementation for aesthetics and responsive layout.
+  - Audits accessibility (a11y) to ensure WCAG color contrast, ARIA tags, and keyboard navigability are satisfied.
+
+---
 
 ### Stage 3: Post-Review Fixes (Iterative)
 
-In this stage, any issues or suggestions identified in Stage 2 are addressed.
+In this stage, feedback or issues highlighted in Stage 2 are resolved:
 
-- **Frontend Engineer**: Addresses code efficiency, performance, or UI/UX feedback.
-- **QA Engineer**: Updates tests to cover new scenarios or verify fixes.
-- **Mythology Editor & Researchers**: Resolve any remaining data inconsistencies or lack of verification.
+- **Frontend Engineer**: Addresses code efficiency, styling, or UX/UI issues.
+- **QA Engineer**: Updates tests to cover modified logic or edge cases.
+- **Research Orchestrator**: Resolves any lingering mythological content or localization discrepancies.
+
+---
 
 ## Dependency Resolution
 
-1.  The **Orchestrator** monitors the completion of all Stage 1 tasks.
-2.  If any Stage 1 task fails or requires clarification, the **Orchestrator** facilitates the necessary feedback loop.
-3.  Once Stage 1 is verified as complete, the **Orchestrator** triggers Stage 2 tasks.
-4.  Feedback from Stage 2 agents may require returning to Stage 3 for targeted fixes or additional research.
-5.  Stage 3 is iterative and may involve multiple rounds of fixes and re-verification by the reviewers.
-
-## Completion Criteria
-
-The workflow is considered complete when:
-1.  The feature is implemented and tested.
-2.  The mythological data is verified and synthesized.
-3.  The technical and design reviews are passed.
-4.  The **Orchestrator** generates a final synthesis of the entire process.
+1. The **Orchestrator** initiates Stage 1. The Frontend Engineer, QA, and Research Orchestrator work independently.
+2. The **Research Orchestrator** is responsible for managing its fanned-out subagents and producing a finalized, reference-backed content record by the end of Stage 1.
+3. Once all Stage 1 tasks have successfully completed, the **Orchestrator** triggers Stage 2 audits.
+4. If the Code Reviewer or Product Designer flags issues, the pipeline returns to Stage 3 for targeted adjustments before a final build and verification.

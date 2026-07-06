@@ -1,1 +1,0 @@
-../../ai/agents/browser_researcher/AGENT.md

@@ -1,1 +1,0 @@
-../../ai/agents/editor/AGENT.md

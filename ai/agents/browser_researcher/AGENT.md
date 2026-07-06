@@ -4,8 +4,8 @@ type: agent
 description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
 argument-hint: Enter a deity name, myth, or Baltic mythology claim to verify online
 handoffs:
-  - label: Send to Mythology Editor
-    agent: Mythology Editor
+  - label: Send to Research Orchestrator
+    agent: Research Orchestrator
     prompt: Cross-reference this Browser research with the LLM Researcher's findings and produce a verified mythology record.
     send: true
 globs: "src/content/**/*"
@@ -45,4 +45,4 @@ Your primary goal is to use your browser and search tools to find primary and se
 - Prioritize academic and peer-reviewed sources (LLTI, LFK, University repositories).
 - Log the number of search results (hits) for specific mythological terms to gauge their prominence.
 - Identify "fake" mythology or 19th-century reconstructions as such.
-- Your output will be consumed by the Editor agent for cross-referencing.
+- Your output will be consumed by the Research Orchestrator agent for cross-referencing.
