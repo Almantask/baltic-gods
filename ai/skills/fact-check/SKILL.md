@@ -50,12 +50,9 @@ Once the subagents complete their crawl and send their reports:
    Output a comparison report formatted as a Markdown table:
 
    | Field | Local Value | Discovered Value | Status | Reference/URL |
-   | :--- | :--- | :--- | :--- | :--- |
-   | **Region** | *e.g. Samogitia* | *e.g. Samogitia* | `MATCH` / `MISMATCH` / `MISSING` | [Link](url) |
-   | **Tribe** | *e.g. Curonians* | *e.g. Semigallians* | `MISMATCH` | [Link](url) |
-   | **Period** | *e.g. 16th Cent.* | *e.g. 15th Cent.* | `MISMATCH` | [Link](url) |
-   | **References** | *e.g. 1 ref* | *e.g. 3 refs found* | `INCOMPLETE` (needs 2+) | [Link](url) |
+
+   ALWAYS include a URL for each discovered value. If no URL is found, mark the reference as `MISSING` and note that the source could not be verified.
 
 3. **Propose Modifications**:
-   - If mismatches or missing academic references are found, draft the proposed edits to [meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/deities/meta.ts) and the MDX story files.
+   - If mismatches or missing academic references are found, draft the proposed edits to [meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/deities/meta.ts) and the MDX files.
    - If the local data is correct and verified, confirm that no changes are needed.
