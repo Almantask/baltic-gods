@@ -1,5 +1,5 @@
 ---
-name: Parallel Deity Research Workflow
+name: parallel-deity-research-workflow
 type: workflow
 description: Coordinates parallel fanned-out web crawlers and internal knowledge lookup for Baltic deities, followed by a fact-checking and consolidation phase.
 ---
@@ -14,11 +14,11 @@ This workflow orchestrates five parallel research subagents and a single fact-ch
 
 ```mermaid
 graph TD
-    Ed[Research Orchestrator] -->|invoke_subagent| LT1[LT Browser Researcher 1: Academic]
+    Ed[research-orchestrator] -->|invoke_subagent| LT1[LT Browser Researcher 1: Academic]
     Ed -->|invoke_subagent| LT2[LT Browser Researcher 2: Folklore & Chronicles]
     Ed -->|invoke_subagent| LV1[LV Browser Researcher 1: Academic]
     Ed -->|invoke_subagent| LV2[LV Browser Researcher 2: Folklore & Dainas]
-    Ed -->|invoke_subagent| LLM[LLM Researcher: Internal Knowledge]
+    Ed -->|invoke_subagent| LLM[llm-researcher]
     
     LT1 -->|Report| Ed
     LT2 -->|Report| Ed
@@ -36,7 +36,7 @@ graph TD
 ## Step-by-Step Workflow
 
 ### Step 1: Task Spawning (Editor)
-When a deity or myth is requested for research, the **Research Orchestrator** invokes 5 subagents in parallel with the following specialized prompts and scopes:
+When a deity or myth is requested for research, the **research-orchestrator** invokes 5 subagents in parallel with the following specialized prompts and scopes:
 
 1. **LT Browser Researcher 1 (Academic)**:
    - **Scope**: Lithuanian academic archives, VLE (Universal Lithuanian Encyclopedia), Alkas.lt, researchgate.net, and academic papers.
@@ -54,7 +54,7 @@ When a deity or myth is requested for research, the **Research Orchestrator** in
    - **Scope**: LFK (Latvian Folklore Archives - lfk.lv), Krišjānis Barons Dainas collections (dainuskapis.lv), and regional folklore databases (Latgale, Kurzeme, Vidzeme, Semigallia).
    - **Target**: Find Latvian folk tales, dainas (folk songs) referencing the deity, sacred sites (mounds, oak trees), and ritual details.
 
-5. **LLM Researcher**:
+5. **llm-researcher**:
    - **Scope**: Internal LLM training data.
    - **Target**: Extract cognates across different Baltic tribes (Lithuanians, Latvians, Curonians, Semigallians, Old Prussians), identify the earliest historical period of mention, and list known appearance/iconography summaries.
 
@@ -68,7 +68,7 @@ Each subagent performs its task in its workspace, saving findings, web search hi
 ---
 
 ### Step 3: Synthesis & Cross-Checking (Editor)
-Upon receiving the reports, the **Research Orchestrator** performs a comprehensive validation:
+Upon receiving the reports, the **research-orchestrator** performs a comprehensive validation:
 
 1. **Compare Key Metadata**:
    - Verify that the tribe, sub-region, and historical period align.

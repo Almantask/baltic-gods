@@ -21,23 +21,23 @@ When a deep research task is initiated for a deity:
 Use the `invoke_subagent` tool to spawn 5 concurrent research subagents:
 
 - **LT Browser Researcher 1 (Academic)**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LT Academic Archivist
   - **Prompt**: Search for academic articles, VLE (vle.lt), Alkas.lt, and ResearchGate papers about '[Deity Name]'. Focus on etymology, earliest mentions, and historical context. Identify specific URLs.
 - **LT Browser Researcher 2 (Folklore & Chronicles)**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LT Folklorist & Chronicler
   - **Prompt**: Search Jonas Basanavičius folklore archives, llti.lt, and historical chronicles (Łasicki, Stryjkowski) for tales, sacred groves, stones, and rituals associated with '[Deity Name]'. Identify specific URLs.
 - **LV Browser Researcher 1 (Academic)**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LV Academic Archivist
   - **Prompt**: Search Latvian National Encyclopedia (enciklopedija.lv) and LU/LKA academic repositories for '[Deity Name]'. Focus on linguistic reconstructions, Livonian chronicles, and academic interpretations. Identify specific URLs.
 - **LV Browser Researcher 2 (Folklore & Dainas)**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LV Folklorist & Dainas collector
   - **Prompt**: Search lfk.lv (Latvian Folklore Archives) and dainuskapis.lv (Krišjānis Barons Dainas) for folk songs, tales, sacred mounds, and rituals associated with '[Deity Name]'. Identify specific URLs.
 - **LLM Researcher**:
-  - **TypeName**: `llm_researcher`
+  - **TypeName**: `llm-researcher`
   - **Role**: LLM Internal Knowledge Researcher
   - **Prompt**: Query internal knowledge database for '[Deity Name]'. Identify cognates across Baltic tribes, known visual iconography, and flag any 19th-century romantic additions or potential hallucination risks.
 

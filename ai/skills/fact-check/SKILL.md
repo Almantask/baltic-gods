@@ -5,7 +5,7 @@ description: Spawns specialized browser researchers to crawl web and compare fac
 
 # Fact-Check Skill
 
-Spawns specialized `browser_researcher` subagents to search online archives for Baltic deity facts, then performs a comparison check against the local compendium.
+Spawns specialized `browser-researcher` subagents to search online archives for Baltic deity facts, then performs a comparison check against the local compendium.
 
 ## Quick Start
 
@@ -21,14 +21,14 @@ When fact-checking is requested for one or more target deities:
 Extract the list of deities to verify. If multiple deities are requested, you will spawn parallel subagent sets for each target concurrently.
 
 ### 2. Invoke Browser Researchers
-For each target deity, invoke specialized `browser_researcher` subagents:
+For each target deity, invoke specialized `browser-researcher` subagents:
 
 - **Lithuanian/General Deity**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LT Browser Crawler (`[Deity Name]`)
   - **Prompt**: Search for academic references, VLE (vle.lt), Alkas.lt, llti.lt, and university papers regarding '[Deity Name]'. Retrieve primary sources, regional details, tribal affiliations, and earliest historical mentions with exact URLs.
 - **Latvian/General Deity**:
-  - **TypeName**: `browser_researcher`
+  - **TypeName**: `browser-researcher`
   - **Role**: LV Browser Crawler (`[Deity Name]`)
   - **Prompt**: Search for Latvian academic articles, National Encyclopedia (enciklopedija.lv), and LFK archives (lfk.lv) regarding '[Deity Name]'. Retrieve dainas, regional details, tribal affiliations, and earliest historical mentions with exact URLs.
 

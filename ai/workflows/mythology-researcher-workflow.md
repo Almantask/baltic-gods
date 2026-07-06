@@ -1,14 +1,14 @@
 ---
-name: Research Orchestrator Workflow
+name: mythology-researcher-workflow
 type: workflow
-description: Research Orchestrator Workflow - orchestrates LLM Researcher and Research Orchestrator for content accuracy.
+description: Mythology-researcher workflow - orchestrates llm-researcher and research-orchestrator for content accuracy.
 ---
 
-# Research Orchestrator Workflow
+# Mythology-Researcher Workflow
 
-This workflow orchestrates the **Research Orchestrator** to ensure mythological accuracy and rich content creation:
-1. **LLM Researcher**: Retrieves raw mythological data, tales, and historical context from internal knowledge.
-2. **Research Orchestrator**: Verifies the researcher's findings using web search tools, cross-references academic sources, and explicitly flags any claims lacking verifiable references.
+This workflow orchestrates the **research-orchestrator** to ensure mythological accuracy and rich content creation:
+1. **llm-researcher**: Retrieves raw mythological data, tales, and historical context from internal knowledge.
+2. **research-orchestrator**: Verifies the researcher's findings using web search tools, cross-references academic sources, and explicitly flags any claims lacking verifiable references.
 
 Select the appropriate workflow variant below based on the task at hand.
 
@@ -16,13 +16,13 @@ Select the appropriate workflow variant below based on the task at hand.
 
 ## Variant 1: Researching a specific tale/entity/legend/person/place
 
-**Step 1: LLM Researcher - Initial Data Gathering**
+**Step 1: llm-researcher - Initial Data Gathering**
 - Find the specific mythological entity, place, or tale requested.
 - **Target**: Extract name, region, tribe, period/first mention (e.g., 14th century), and associated sacred sites or beings.
 - Draft a brief story (3-4 paragraphs) in English based on internal knowledge.
 
-**Step 2: Research Orchestrator - Verification & Referencing**
-- Fact-check the LLM Researcher's draft by searching the web.
+**Step 2: research-orchestrator - Verification & Referencing**
+- Fact-check the llm-researcher's draft by searching the web.
 - **Target**: Find at least 2 primary or secondary academic references for the entity/tale.
 - **FLAGGING**: If no reliable academic references can be found, **stop and flag** the entity for the user before proceeding. Never commit unverified claims.
 - Validate the region, tribe, and historical period against search results.
@@ -35,11 +35,11 @@ Select the appropriate workflow variant below based on the task at hand.
 
 ## Variant 2: Fact checking, cross referencing, and flagging
 
-**Step 1: LLM Researcher - Content Review**
+**Step 1: llm-researcher - Content Review**
 - Review existing `.mdx` stories or metadata entries in `src/content/`.
 - Extract key claims, dates, tribal associations, regional specifics, and deity relationships.
 
-**Step 2: Research Orchestrator - Web Cross-Referencing**
+**Step 2: research-orchestrator - Web Cross-Referencing**
 - Use web search to cross-reference the extracted claims against academic sources, mythology databases, or established encyclopedias.
 - Identify any discrepancies between the existing codebase content and verified external research.
 
@@ -52,12 +52,12 @@ Select the appropriate workflow variant below based on the task at hand.
 
 ## Variant 3: Translating all content to 3 languages
 
-**Step 1: LLM Researcher - Translation Generation**
+**Step 1: llm-researcher - Translation Generation**
 - Take the verified English markdown content and metadata summaries.
 - Translate the story, titles, and metadata fields (`regionDetails`, `tribe`, `period`) into **Lithuanian (lt)** and **Latvian (lv)**.
-- Ensure mythological terms are accurately localized natively (e.g., Perk┼½nas vs P─ôrkons).
+- Ensure mythological terms are accurately localized natively (e.g., Perkūnas vs Pērkons).
 
-**Step 2: Research Orchestrator - Linguistic Verification**
+**Step 2: research-orchestrator - Linguistic Verification**
 - Quality-check the Latvian and Lithuanian translations for accuracy.
 - Search the web for localized mythological terminology if a specific translation is ambiguous or if dialects require specific spellings.
 
