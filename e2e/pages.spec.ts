@@ -13,6 +13,9 @@ test("map page", async ({ page }) => {
   await expect(page.locator("h1")).toBeVisible();
   await page.screenshot({ path: `${screenshotDir}/map.png`, fullPage: true });
 
+  // Filter the virtualized Ley Index list so the target location is rendered.
+  await page.getByRole("textbox", { name: "Search by location name" }).fill("Aukštaitija Thunder");
+
   // Click a location in the Ley Index
   const locationCard = page.getByRole("button", { name: "Aukštaitija Thunder Oaks" });
   await locationCard.click();
