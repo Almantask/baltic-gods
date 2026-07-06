@@ -506,3 +506,42 @@ export const theQuestForAusrineMeta: StoryMeta = {
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"
   ],
 };
+
+export const velnioAkmuoMeta: StoryMeta = {
+  slug: "velnio-akmuo",
+  title: {
+    en: "The Devil's Stone",
+    lt: "Velnio Akmuo",
+    lv: "Velna Akmens",
+  },
+  summary: {
+    en: "Explore the ancient and mysterious Devil's Stones, mythological landmarks found across Baltic lands, steeped in folklore and legend.",
+    lt: "Tyrinėkite senovinius ir paslaptingus Velnio Akmenis – mitologinius paminklus, rastus visose Baltijos šalyse, apipintus folkloru ir legendomis.",
+    lv: "Izpētiet senos un noslėpumainos Velna Akmeņus – mitoloģiskus orientierius, kas atrodami visā Baltijas zemēs, iesakņojušies folklorā un leģendās.",
+  },
+  beings: ["velnias"], // As the devil is central to these stories
+  locationIds: [], // This would require creating many location entries, which is beyond the scope of a single fact-check.
+  locations: [{ en: "Various Baltic Regions", lt: "Įvairūs Baltijos regionai", lv: "Dažādi Baltijas reģioni" }],
+  regionDetails: {
+    en: "Pan-Baltic",
+    lt: "Visos Baltijos šalys",
+    lv: "Visas Baltijos valstis",
+  },
+  tribe: {
+    en: "All Baltic Tribes",
+    lt: "Visos Baltijos gentys",
+    lv: "Visas Baltijos ciltis",
+  },
+  period: {
+    en: "Pre-Christian Oral Tradition, collected 19th-20th Century",
+    lt: "Ikikrikščioniškoji žodinė tradicija, surinkta XIX-XX a.",
+    lv: "Pirmskristīgā mutvārdu tradīcija, vākta 19.-20. gadsimtā",
+  },
+  references: [
+    "VLE (vle.lt)",
+    "Alkas.lt",
+    "LLTI (llti.lt)",
+    "Latvijas Nacionālā enciklopedija (enciklopedija.lv)",
+    "LFK archives (lfk.lv)",
+  ],
+};

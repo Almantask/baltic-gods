@@ -72,9 +72,9 @@ export const perkunasMeta: DeityMeta = {
     { label: "Offerings", detail: "Barley, iron nails, smoked salt" },
   ],
   regionDetails: {
-    en: "Pan-Baltic / Aukštaitija",
-    lt: "Visos baltų žemės / Aukštaitija",
-    lv: "Visas baltu zemes / Augštaitija",
+    en: "Pan-Baltic / Lithuania",
+    lt: "Visos baltų žemės / Lietuva",
+    lv: "Visas baltu zemes / Lietuva",
   },
   tribe: {
     en: "All Baltic Tribes",
@@ -86,7 +86,11 @@ export const perkunasMeta: DeityMeta = {
     lt: "XIII-XVI a. šaltiniai",
     lv: "13.-16. gs. avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum (written c. 1582, published 1615)", "Simon Grunau: Preussische Chronik (c. 1526–1529; reliability questioned by modern scholars)", "Gintaras Beresnevičius: Baltų religinės reformos (1995)"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Perkūnas",
+    "Nijolė Laurinkienė: Transformations of the Lithuanian God Perkūnas (Studia Mythologica Slavica, 2000)",
+    "Asta Skujytė-Razmienė: The God Perkūnas (Re)Introduced (Tautosakos darbai, 2024)",
+  ],
 };
 
 export const sauleMeta: DeityMeta = {

@@ -126,6 +126,15 @@ export const storyBySlug: Record<string, StoryEntry> = {
       lv: dynamic(() => import("./lv/velnias-and-the-fiddler.mdx")),
     }
   },
+  "velnio-akmuo": {
+    meta: meta.velnioAkmuoMeta,
+    Content: dynamic(() => import("./en/velnio-akmuo.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/velnio-akmuo.mdx")),
+      lt: dynamic(() => import("./lt/velnio-akmuo.mdx")),
+      lv: dynamic(() => import("./lv/velnio-akmuo.mdx")),
+    }
+  },
   "the-weaving-of-laima": {
     meta: meta.weavingOfLaimaMeta,
     Content: dynamic(() => import("./en/the-weaving-of-laima.mdx")),
