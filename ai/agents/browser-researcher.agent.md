@@ -1,12 +1,6 @@
 ---
 name: browser-researcher
 description: Investigates Baltic mythology using internet search and browser capabilities for real-world verification.
-argument-hint: Enter a deity name, myth, or Baltic mythology claim to verify online
-handoffs:
-  - label: Send to Research Orchestrator
-    agent: research-orchestrator
-    prompt: Cross-reference this Browser research with the llm-researcher's findings and produce a verified mythology record.
-    send: true
 ---
 
 # browser-researcher

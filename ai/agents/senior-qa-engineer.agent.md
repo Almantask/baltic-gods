@@ -1,12 +1,6 @@
 ---
 name: senior-qa-engineer
 description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
-argument-hint: Describe the feature, component, or bug to write or update tests for
-handoffs:
-  - label: Code Review
-    agent: code-reviewer
-    prompt: Review the implementation and tests for code quality, performance, and security.
-    send: true
 ---
 
 # senior-qa-engineer

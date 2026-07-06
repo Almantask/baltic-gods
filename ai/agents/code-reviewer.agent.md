@@ -1,7 +1,6 @@
 ---
 name: code-reviewer
 description: Specialized in code efficiency, performance optimization, and architectural integrity.
-argument-hint: Paste code or describe the changes to review for quality, performance, and security
 ---
 
 # code-reviewer
