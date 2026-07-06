@@ -1,1 +1,1 @@
-../../ai/specs/mythology-researcher.md
+../../ai/agents/mythology_researcher/AGENT.md

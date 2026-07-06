@@ -1,1 +1,1 @@
-../../ai/specs/editor.md
+../../ai/agents/editor/AGENT.md

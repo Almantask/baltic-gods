@@ -1,1 +1,1 @@
-../../ai/specs/senior-qa.md
+../../ai/agents/senior_qa/AGENT.md

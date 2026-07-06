@@ -1,1 +1,1 @@
-../../ai/specs/code-reviewer.md
+../../ai/agents/code_reviewer/AGENT.md

@@ -1,1 +1,1 @@
-../../ai/specs/frontend-engineer.md
+../../ai/agents/frontend_engineer/AGENT.md

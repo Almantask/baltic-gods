@@ -44,26 +44,19 @@ src/
       lv/[slug].mdx    — Latvian translations
   types/content.ts     — TypeScript interfaces for all content types
 ai/
-  specs/               — CANONICAL agent/skill/workflow definitions (source of truth)
   research/            — Research files and checklist
-  skills/              — Antigravity skill definitions (auto-generated body, manual resources/)
-  agents/              — Antigravity agent definitions (auto-generated)
-  workflows/           — Antigravity workflow definitions (auto-generated)
-scripts/
-  sync-agents.js       — Generates tool-specific configs from ai/specs/
-.github/agents/        — VS Code Copilot custom agents (auto-generated)
-.gemini/agents/        — Gemini CLI agents (auto-generated)
+  skills/              — Antigravity skill definitions
+  agents/              — Antigravity agent definitions (source of truth)
+  workflows/           — Antigravity workflow definitions (source of truth)
+.github/agents/        — VS Code Copilot custom agents (symbolic links)
+.gemini/agents/        — Gemini CLI agents (symbolic links)
 ```
-
-> **Note**: All files in `.github/agents/`, `.gemini/agents/`, `ai/agents/`, and
-> `ai/workflows/` are auto-generated from `ai/specs/`. Run `npm run sync-agents` to regenerate after editing specs.
 
 ## Development Commands
 
 ```bash
 npm run dev          # Start dev server
 npm run build        # Production build
-npm run sync-agents  # Regenerate tool-specific agent configs from ai/specs/
 npm run lint         # Run ESLint
 npm test             # Run Jest tests
 npx playwright test  # Run E2E tests
@@ -113,6 +106,6 @@ All summaries and titles must be provided in three languages:
 ## Research & Verification
 
 - The research checklist is at `ai/research/baltic_mythology_checklist.md`
-- Academic sources are catalogued at `ai/skills/mythology_researcher/resources/sources.md`
+- Academic sources are catalogued at `ai/agents/mythology_researcher/resources/sources.md`
 - Never commit unverified mythology claims — flag uncertainties explicitly
 - Prioritize native-language (Lithuanian/Latvian) sources over English summaries

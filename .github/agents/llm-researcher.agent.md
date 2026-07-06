@@ -1,1 +1,1 @@
-../../ai/specs/llm-researcher.md
+../../ai/agents/llm_researcher/AGENT.md

@@ -1,1 +1,1 @@
-../../ai/specs/orchestrator.md
+../../ai/agents/orchestrator/AGENT.md

@@ -1,1 +1,1 @@
-../../ai/specs/product-designer.md
+../../ai/agents/product_designer/AGENT.md

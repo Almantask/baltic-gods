@@ -1,1 +1,1 @@
-../../ai/specs/browser-researcher.md
+../../ai/agents/browser_researcher/AGENT.md
