@@ -1,6 +1,5 @@
 ---
 name: llm-researcher
-type: agent
 description: Investigates Baltic mythology using internal knowledge and flags potential hallucinations.
 argument-hint: Enter a Baltic deity name, spirit, or myth to research from internal knowledge
 ---

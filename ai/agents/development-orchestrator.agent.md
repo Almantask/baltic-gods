@@ -1,6 +1,5 @@
 ---
 name: development-orchestrator
-type: agent
 description: Manages the multi-stage research and development pipeline for the Baltic Gods project.
 argument-hint: Describe the feature or research task to orchestrate across the full development pipeline
 ---

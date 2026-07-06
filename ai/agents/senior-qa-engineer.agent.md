@@ -1,6 +1,5 @@
 ---
 name: senior-qa-engineer
-type: agent
 description: Expert in automated testing, ensuring code quality and regression prevention. Specialized in Playwright, Jest, and Testing Library.
 argument-hint: Describe the feature, component, or bug to write or update tests for
 handoffs:
