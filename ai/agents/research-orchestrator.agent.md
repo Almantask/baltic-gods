@@ -1,12 +1,6 @@
 ---
 name: research-orchestrator
 description: Orchestrator and supervisor for Baltic mythology research. Spawns browser and LLM researchers, cross-checks findings, updates metadata, and curates stories.
-agents:
-  - browser-researcher
-  - llm-researcher
-skills:
-  - fact-check
-  - research
 ---
 
 # research-orchestrator (Supervisor & Content Editor)
