@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "sync-agents": "node scripts/sync-agents.js",
     "generate": "tsx scripts/generate-content.ts",
-    "predev": "npm run sync-agents && npm run generate",
-    "prebuild": "npm run sync-agents && npm run generate",
+    "predev": "npm run generate",
+    "prebuild": "npm run generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
