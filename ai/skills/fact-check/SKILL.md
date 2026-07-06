@@ -21,7 +21,7 @@ When fact-checking is requested for one or more target deities:
 Extract the list of deities to verify. If multiple deities are requested, you will spawn parallel subagent sets for each target concurrently.
 
 ### 2. Invoke Browser Researchers
-For each target deity, invoke specialized `browser-researcher` subagents:
+For each target deity, invoke specialized `browser-researcher` subagents, timeboxed to 1 minute each:
 
 - **Lithuanian/General Deity**:
   - **TypeName**: `browser-researcher`
@@ -31,6 +31,8 @@ For each target deity, invoke specialized `browser-researcher` subagents:
   - **TypeName**: `browser-researcher`
   - **Role**: LV Browser Crawler (`[Deity Name]`)
   - **Prompt**: Search for Latvian academic articles, National Encyclopedia (enciklopedija.lv), and LFK archives (lfk.lv) regarding '[Deity Name]'. Retrieve dainas, regional details, tribal affiliations, and earliest historical mentions with exact URLs.
+
+IMPORTANT: spawn subagents in parallel for each deity. Do not wait for previous deity results. For example, if the user requests `/fact-check Perkūnas, Laima`, you must spawn 2 parallel sets of browser researchers (one for Perkūnas and one for Laima) concurrently (4 subagents in total: 2 for Perkūnas, 2 for Laima; 2 in LV, 2 in LT).
 
 *Note: If the origin/tribe of the deity is unknown, spawn both LT and LV browser crawlers.*
 

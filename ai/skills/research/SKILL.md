@@ -18,7 +18,7 @@ Runs the full fanned-out parallel research pipeline to gather online academic re
 When a deep research task is initiated for a deity:
 
 ### 1. Spawn Subagents (In Parallel)
-Use the `invoke_subagent` tool to spawn 5 concurrent research subagents:
+Use the `invoke_subagent` tool to spawn 5 concurrent research subagents, timeboxed to 1 minute each:
 
 - **LT Browser Researcher 1 (Academic)**:
   - **TypeName**: `browser-researcher`
