@@ -1,4 +1,4 @@
----
+﻿---
 name: Mythology Researcher Workflow
 type: workflow
 description: Mythology Researcher Workflow - orchestrates LLM Researcher and Editor for content accuracy.
@@ -55,7 +55,7 @@ Select the appropriate workflow variant below based on the task at hand.
 **Step 1: LLM Researcher - Translation Generation**
 - Take the verified English markdown content and metadata summaries.
 - Translate the story, titles, and metadata fields (`regionDetails`, `tribe`, `period`) into **Lithuanian (lt)** and **Latvian (lv)**.
-- Ensure mythological terms are accurately localized natively (e.g., Perkūnas vs Pērkons).
+- Ensure mythological terms are accurately localized natively (e.g., Perk┼½nas vs P─ôrkons).
 
 **Step 2: Editor - Linguistic Verification**
 - Quality-check the Latvian and Lithuanian translations for accuracy.
