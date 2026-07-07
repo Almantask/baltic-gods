@@ -26,11 +26,11 @@ For each target deity, invoke specialized `browser-researcher` subagents, timebo
 - **Lithuanian/General Deity**:
   - **TypeName**: `browser-researcher`
   - **Role**: LT Browser Crawler (`[Deity Name]`)
-  - **Prompt**: Search for academic references, VLE (vle.lt), Alkas.lt, llti.lt, and university papers regarding '[Deity Name]'. Retrieve primary sources, regional details, tribal affiliations, and earliest historical mentions with exact URLs.
+  - **Prompt**: Search for academic references, VLE (vle.lt), Alkas.lt, llti.lt, and university papers regarding '[Deity Name]'. Retrieve primary sources, regional details, tribal affiliations, and earliest historical mentions with exact URLs. For each source, note down any specific search terms used or navigation actions (links/buttons to click) to find the relevant information.
 - **Latvian/General Deity**:
   - **TypeName**: `browser-researcher`
   - **Role**: LV Browser Crawler (`[Deity Name]`)
-  - **Prompt**: Search for Latvian academic articles, National Encyclopedia (enciklopedija.lv), and LFK archives (lfk.lv) regarding '[Deity Name]'. Retrieve dainas, regional details, tribal affiliations, and earliest historical mentions with exact URLs.
+  - **Prompt**: Search for Latvian academic articles, National Encyclopedia (enciklopedija.lv), and LFK archives (lfk.lv) regarding '[Deity Name]'. Retrieve dainas, regional details, tribal affiliations, and earliest historical mentions with exact URLs. For each source, note down any specific search terms used or navigation actions (links/buttons to click) to find the relevant information.
 
 IMPORTANT: spawn subagents in parallel for each deity. Do not wait for previous deity results. For example, if the user requests `/fact-check Perkūnas, Laima`, you must spawn 2 parallel sets of browser researchers (one for Perkūnas and one for Laima) concurrently (4 subagents in total: 2 for Perkūnas, 2 for Laima; 2 in LV, 2 in LT).
 
@@ -49,10 +49,17 @@ Once the subagents complete their crawl and send their reports:
 2. **Generate the Comparison Table**:
    Output a comparison report formatted as a Markdown table:
 
-   | Field | Local Value | Discovered Value | Status | Reference/URL |
+   | Field | Local Value | Discovered Value | Status | Reference/URL | Navigation Brief |
 
-   ALWAYS include a URL for each discovered value. If no URL is found, mark the reference as `MISSING` and note that the source could not be verified.
+   - ALWAYS include a URL for each discovered value. If no URL is found, mark the reference as `MISSING` and note that the source could not be verified.
+   - **Navigation Brief** — provide a Ctrl+F query or search term that locates the **discovered value or its evidence** on the target page. The brief must help a reviewer verify the *finding*, not re-find the deity.
+     - ❌ **BAD**: `Ctrl+F: 'Milda'` (the deity name you already searched — this proves nothing)
+     - ✅ **GOOD**: `Ctrl+F: 'tariamoji'` (Lithuanian for "purported" — proves the disputed status)
+     - ✅ **GOOD**: `Ctrl+F: '1835'` (proves the date of earliest mention)
+     - The brief must NEVER be the same term used to find the page. It must be a term that **proves the point** of the discovered value.
 
 3. **Propose Modifications**:
    - If mismatches or missing academic references are found, draft the proposed edits to [meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/deities/meta.ts) and the MDX files.
+   - When drafting reference updates for `meta.ts`, format the reference string to include the navigation brief if it is not immediately obvious (e.g., `"Author: Title (Ctrl+F: 'evidentiary phrase')"` or `"URL (click 'link name')"`).
+     The navigation brief in the reference string must follow the same rule: it must point to the **evidentiary phrase** that supports the claim, never the deity name itself.
    - If the local data is correct and verified, confirm that no changes are needed.
