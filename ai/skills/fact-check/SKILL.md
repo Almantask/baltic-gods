@@ -1,6 +1,6 @@
 ---
 name: fact-check
-description: Spawns specialized browser researchers to verify Baltic mythology facts against online academic sources. Supports three modes: deity-based (checks all local content for a deity), location-based, and statement-based (verifies an arbitrary claim or paragraph). Use when the user requests a fact-check or types /fact-check for one or more deities, locations, or statements.
+description: Spawns specialized browser researchers to verify Baltic mythology facts against online academic sources. Supports 2 modes - local verification, statement-based verification.
 ---
 
 # Fact-Check Skill
@@ -20,21 +20,7 @@ Verifies Baltic mythology facts against online academic sources. Three modes:
 /fact-check Perkūnas was first mentioned in the 13th century by Peter of Dusburg
 ```
 
-## Mode Detection
-
-Classify the input before starting:
-
-| Pattern | Mode | Example |
-|---|---|---|
-| Matches a known deity slug/name from `src/content/deities/meta.ts` | **Deity** | `Perkūnas`, `Laima, Saulė` |
-| Starts with `location:` | **Location** | `location:aukstaitija-oaks` |
-| Contains a verb/predicate (a sentence or paragraph) | **Statement** | `Mėnulis is a brother of Saulė` |
-
-If ambiguous, ask the user to clarify.
-
----
-
-## Mode A: Deity / Location
+## Mode A: Local
 
 1. **Extract claims** — read every local file mentioning the target and build a **Claim Ledger**. See [REFERENCE.md § Claim Extraction](REFERENCE.md) for file-by-field rules.
 2. **Spawn researchers** — invoke parallel `browser-researcher` subagents (1 LT + 1 LV per target). Pass them the claim ledger. See [REFERENCE.md § Researcher Prompts](REFERENCE.md).
@@ -42,8 +28,6 @@ If ambiguous, ask the user to clarify.
 4. **Propose modifications** if mismatches are found — draft edits to `meta.ts` / `meta/part-*.ts` / MDX files.
 
 Spawn all researchers in parallel across targets. Example: `/fact-check Perkūnas, Laima` → 4 subagents total.
-
----
 
 ## Mode B: Statement
 
@@ -55,11 +39,9 @@ Spawn all researchers in parallel across targets. Example: `/fact-check Perkūna
 
 **Example**:
 
-| # | Claim | Final Status | Notes |
-|---|---|---|---|
-| 1 | Mėnulis is a brother of Saulė | ❌ WRONG | Mėnulis is the *husband*, not brother |
-
----
+| # | Claim | Final Status | Notes | Reference/URL | Navigation Brief |
+|---|---|---|---|---|---|
+| 1 | Mėnulis is a brother of Saulė | ❌ WRONG | Mėnulis is the *husband*, not brother | [URL] | [What to search to manually verify] |
 
 ## Navigation Brief Rules (MANDATORY)
 
