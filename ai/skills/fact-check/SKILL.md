@@ -1,65 +1,73 @@
 ---
 name: fact-check
-description: Spawns specialized browser researchers to crawl web and compare facts about one or more deities against existing local data. Use when the user requests a fact-check or types /fact-check for one or more deities.
+description: Spawns specialized browser researchers to verify Baltic mythology facts against online academic sources. Supports three modes: deity-based (checks all local content for a deity), location-based, and statement-based (verifies an arbitrary claim or paragraph). Use when the user requests a fact-check or types /fact-check for one or more deities, locations, or statements.
 ---
 
 # Fact-Check Skill
 
-Spawns specialized `browser-researcher` subagents to search online archives for Baltic deity facts, then performs a comparison check against the local compendium.
+Verifies Baltic mythology facts against online academic sources. Three modes:
+
+- **Deity/Location mode** — extracts every claim from local metadata and narrative files, then validates each against online sources.
+- **Statement mode** — takes an arbitrary claim or paragraph, decomposes it into atomic facts, and verifies each independently.
 
 ## Quick Start
 
 ```
+/fact-check Perkūnas
 /fact-check Perkūnas, Laima
+/fact-check location:aukstaitija-oaks
+/fact-check Mėnulis is a brother of Saulė
+/fact-check Perkūnas was first mentioned in the 13th century by Peter of Dusburg
 ```
 
-## Spawning Workflows
+## Mode Detection
 
-When fact-checking is requested for one or more target deities:
+Classify the input before starting:
 
-### 1. Identify Target Deities
-Extract the list of deities to verify. If multiple deities are requested, you will spawn parallel subagent sets for each target concurrently.
+| Pattern | Mode | Example |
+|---|---|---|
+| Matches a known deity slug/name from `src/content/deities/meta.ts` | **Deity** | `Perkūnas`, `Laima, Saulė` |
+| Starts with `location:` | **Location** | `location:aukstaitija-oaks` |
+| Contains a verb/predicate (a sentence or paragraph) | **Statement** | `Mėnulis is a brother of Saulė` |
 
-### 2. Invoke Browser Researchers
-For each target deity, invoke specialized `browser-researcher` subagents, timeboxed to 1 minute each:
-
-- **Lithuanian/General Deity**:
-  - **TypeName**: `browser-researcher`
-  - **Role**: LT Browser Crawler (`[Deity Name]`)
-  - **Prompt**: Search for academic references, VLE (vle.lt), Alkas.lt, llti.lt, and university papers regarding '[Deity Name]'. Retrieve primary sources, regional details, tribal affiliations, and earliest historical mentions with exact URLs. For each source, note down any specific search terms used or navigation actions (links/buttons to click) to find the relevant information.
-- **Latvian/General Deity**:
-  - **TypeName**: `browser-researcher`
-  - **Role**: LV Browser Crawler (`[Deity Name]`)
-  - **Prompt**: Search for Latvian academic articles, National Encyclopedia (enciklopedija.lv), and LFK archives (lfk.lv) regarding '[Deity Name]'. Retrieve dainas, regional details, tribal affiliations, and earliest historical mentions with exact URLs. For each source, note down any specific search terms used or navigation actions (links/buttons to click) to find the relevant information.
-
-IMPORTANT: spawn subagents in parallel for each deity. Do not wait for previous deity results. For example, if the user requests `/fact-check Perkūnas, Laima`, you must spawn 2 parallel sets of browser researchers (one for Perkūnas and one for Laima) concurrently (4 subagents in total: 2 for Perkūnas, 2 for Laima; 2 in LV, 2 in LT).
-
-*Note: If the origin/tribe of the deity is unknown, spawn both LT and LV browser crawlers.*
+If ambiguous, ask the user to clarify.
 
 ---
 
-## Comparison & Reporting
+## Mode A: Deity / Location
 
-Once the subagents complete their crawl and send their reports:
+1. **Extract claims** — read every local file mentioning the target and build a **Claim Ledger**. See [REFERENCE.md § Claim Extraction](REFERENCE.md) for file-by-field rules.
+2. **Spawn researchers** — invoke parallel `browser-researcher` subagents (1 LT + 1 LV per target). Pass them the claim ledger. See [REFERENCE.md § Researcher Prompts](REFERENCE.md).
+3. **Compare & report** — build per-content-type comparison tables. Mark each field: ✅ Confirmed · ⚠️ Disputed · ❌ Wrong · ❓ Unverified. See [REFERENCE.md § Comparison Tables](REFERENCE.md).
+4. **Propose modifications** if mismatches are found — draft edits to `meta.ts` / `meta/part-*.ts` / MDX files.
 
-1. **Locate Existing Data**:
-   - Read the existing metadata from [deities/meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/deities/meta.ts) or [stories/meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/stories/meta.ts) for the target deity.
-   - Read any associated MDX files under `src/content/stories/`.
+Spawn all researchers in parallel across targets. Example: `/fact-check Perkūnas, Laima` → 4 subagents total.
 
-2. **Generate the Comparison Table**:
-   Output a comparison report formatted as a Markdown table:
+---
 
-   | Field | Local Value | Discovered Value | Status | Reference/URL | Navigation Brief |
+## Mode B: Statement
 
-   - ALWAYS include a URL for each discovered value. If no URL is found, mark the reference as `MISSING` and note that the source could not be verified.
-   - **Navigation Brief** — provide a Ctrl+F query or search term that locates the **discovered value or its evidence** on the target page. The brief must help a reviewer verify the *finding*, not re-find the deity.
-     - ❌ **BAD**: `Ctrl+F: 'Milda'` (the deity name you already searched — this proves nothing)
-     - ✅ **GOOD**: `Ctrl+F: 'tariamoji'` (Lithuanian for "purported" — proves the disputed status)
-     - ✅ **GOOD**: `Ctrl+F: '1835'` (proves the date of earliest mention)
-     - The brief must NEVER be the same term used to find the page. It must be a term that **proves the point** of the discovered value.
+1. **Decompose** — break the input into independently verifiable atomic claims (one predicate each).
+2. **Cross-reference local data** — check if mentioned entities exist in `src/content/deities/meta/part-*.ts` or `src/content/stories/meta.ts`. Note any supporting/contradicting local data.
+3. **Spawn researchers** — invoke 1 LT + 1 LV `browser-researcher` with the decomposed claims. See [REFERENCE.md § Statement Prompts](REFERENCE.md).
+4. **Produce verdict table** — one row per atomic claim with LT/LV verdicts, final status, URL, and navigation brief.
+5. **Summary verdict** — clear statement of overall conclusion with sources.
 
-3. **Propose Modifications**:
-   - If mismatches or missing academic references are found, draft the proposed edits to [meta.ts](file:///c:/Users/ITWORK/source/repos/baltic-gods/src/content/deities/meta.ts) and the MDX files.
-   - When drafting reference updates for `meta.ts`, format the reference string to include the navigation brief if it is not immediately obvious (e.g., `"Author: Title (Ctrl+F: 'evidentiary phrase')"` or `"URL (click 'link name')"`).
-     The navigation brief in the reference string must follow the same rule: it must point to the **evidentiary phrase** that supports the claim, never the deity name itself.
-   - If the local data is correct and verified, confirm that no changes are needed.
+**Example**:
+
+| # | Claim | Final Status | Notes |
+|---|---|---|---|
+| 1 | Mėnulis is a brother of Saulė | ❌ WRONG | Mėnulis is the *husband*, not brother |
+
+---
+
+## Navigation Brief Rules (MANDATORY)
+
+The brief must point to the **evidentiary phrase** — never the search term or entity name.
+
+- ❌ `Ctrl+F: 'Perkūnas'` — deity name, proves nothing
+- ✅ `Ctrl+F: 'tariamoji'` — proves disputed status
+- ✅ `Ctrl+F: '1835'` — proves earliest mention date
+- ✅ `Ctrl+F: 'De Diis Samagitarum'` — proves source attribution
+
+Full rules and edge cases in [REFERENCE.md](REFERENCE.md).
