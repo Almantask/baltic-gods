@@ -729,7 +729,7 @@ export const aitvarasMeta: DeityMeta = {
 export const laumesMeta: DeityMeta = {
   slug: "laumes",
   name: "Laumės",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Spinners of fate in moonlit forest clearings",
     lt: "Likimo verpėjos mėnesienos nušviestose miško proskynose",
@@ -1974,7 +1974,7 @@ export const raganaMeta: DeityMeta = {
   slug: "ragana",
   name: "Ragana",
   altNames: { en: "Ragana", lt: "Ragana", lv: "Ragana" },
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Lithuanian Witch and Seer",
     lt: "Lietuvių ragana ir regėtoja",

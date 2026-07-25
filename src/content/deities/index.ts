@@ -11,38 +11,38 @@ import * as meta from "./meta";
 export const deityBySlug: Record<string, DeityEntry> = {
   "ausrine": {
     meta: meta.ausrineMeta,
-    Content: dynamic(() => import("./creatures/en/ausrine.mdx")),
+    Content: dynamic(() => import("./gods/en/ausrine.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/ausrine.mdx")),
-      lt: dynamic(() => import("./creatures/lt/ausrine.mdx")),
-      lv: dynamic(() => import("./creatures/lv/ausrine.mdx")),
+      en: dynamic(() => import("./gods/en/ausrine.mdx")),
+      lt: dynamic(() => import("./gods/lt/ausrine.mdx")),
+      lv: dynamic(() => import("./gods/lv/ausrine.mdx")),
     }
   },
   "austeja": {
     meta: meta.austejaMeta,
-    Content: dynamic(() => import("./creatures/en/austeja.mdx")),
+    Content: dynamic(() => import("./gods/en/austeja.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/austeja.mdx")),
-      lt: dynamic(() => import("./creatures/lt/austeja.mdx")),
-      lv: dynamic(() => import("./creatures/lv/austeja.mdx")),
+      en: dynamic(() => import("./gods/en/austeja.mdx")),
+      lt: dynamic(() => import("./gods/lt/austeja.mdx")),
+      lv: dynamic(() => import("./gods/lv/austeja.mdx")),
     }
   },
   "autrimpas": {
     meta: meta.autrimpasMeta,
-    Content: dynamic(() => import("./creatures/en/autrimpas.mdx")),
+    Content: dynamic(() => import("./gods/en/autrimpas.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/autrimpas.mdx")),
-      lt: dynamic(() => import("./creatures/lt/autrimpas.mdx")),
-      lv: dynamic(() => import("./creatures/lv/autrimpas.mdx")),
+      en: dynamic(() => import("./gods/en/autrimpas.mdx")),
+      lt: dynamic(() => import("./gods/lt/autrimpas.mdx")),
+      lv: dynamic(() => import("./gods/lv/autrimpas.mdx")),
     }
   },
   "bangputys": {
     meta: meta.bangputysMeta,
-    Content: dynamic(() => import("./creatures/en/bangputys.mdx")),
+    Content: dynamic(() => import("./gods/en/bangputys.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/bangputys.mdx")),
-      lt: dynamic(() => import("./creatures/lt/bangputys.mdx")),
-      lv: dynamic(() => import("./creatures/lv/bangputys.mdx")),
+      en: dynamic(() => import("./gods/en/bangputys.mdx")),
+      lt: dynamic(() => import("./gods/lt/bangputys.mdx")),
+      lv: dynamic(() => import("./gods/lv/bangputys.mdx")),
     }
   },
   "dalia": {
@@ -74,11 +74,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "giltine": {
     meta: meta.giltineMeta,
-    Content: dynamic(() => import("./creatures/en/giltine.mdx")),
+    Content: dynamic(() => import("./gods/en/giltine.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/giltine.mdx")),
-      lt: dynamic(() => import("./creatures/lt/giltine.mdx")),
-      lv: dynamic(() => import("./creatures/lv/giltine.mdx")),
+      en: dynamic(() => import("./gods/en/giltine.mdx")),
+      lt: dynamic(() => import("./gods/lt/giltine.mdx")),
+      lv: dynamic(() => import("./gods/lv/giltine.mdx")),
     }
   },
   "jumis": {
@@ -92,11 +92,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "laima": {
     meta: meta.laimaMeta,
-    Content: dynamic(() => import("./people/en/laima.mdx")),
+    Content: dynamic(() => import("./gods/en/laima.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./people/en/laima.mdx")),
-      lt: dynamic(() => import("./people/lt/laima.mdx")),
-      lv: dynamic(() => import("./people/lv/laima.mdx")),
+      en: dynamic(() => import("./gods/en/laima.mdx")),
+      lt: dynamic(() => import("./gods/lt/laima.mdx")),
+      lv: dynamic(() => import("./gods/lv/laima.mdx")),
     }
   },
   "mara": {
@@ -110,11 +110,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "medine": {
     meta: meta.medineMeta,
-    Content: dynamic(() => import("./creatures/en/medine.mdx")),
+    Content: dynamic(() => import("./gods/en/medine.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/medine.mdx")),
-      lt: dynamic(() => import("./creatures/lt/medine.mdx")),
-      lv: dynamic(() => import("./creatures/lv/medine.mdx")),
+      en: dynamic(() => import("./gods/en/medine.mdx")),
+      lt: dynamic(() => import("./gods/lt/medine.mdx")),
+      lv: dynamic(() => import("./gods/lv/medine.mdx")),
     }
   },
   "menulis": {
@@ -128,11 +128,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "patollo": {
     meta: meta.patollaMeta,
-    Content: dynamic(() => import("./creatures/en/patollo.mdx")),
+    Content: dynamic(() => import("./gods/en/patollo.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/patollo.mdx")),
-      lt: dynamic(() => import("./creatures/lt/patollo.mdx")),
-      lv: dynamic(() => import("./creatures/lv/patollo.mdx")),
+      en: dynamic(() => import("./gods/en/patollo.mdx")),
+      lt: dynamic(() => import("./gods/lt/patollo.mdx")),
+      lv: dynamic(() => import("./gods/lv/patollo.mdx")),
     }
   },
   "patrimpas": {
@@ -191,20 +191,20 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "vakarine": {
     meta: meta.vakarineMeta,
-    Content: dynamic(() => import("./creatures/en/vakarine.mdx")),
+    Content: dynamic(() => import("./gods/en/vakarine.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/vakarine.mdx")),
-      lt: dynamic(() => import("./creatures/lt/vakarine.mdx")),
-      lv: dynamic(() => import("./creatures/lv/vakarine.mdx")),
+      en: dynamic(() => import("./gods/en/vakarine.mdx")),
+      lt: dynamic(() => import("./gods/lt/vakarine.mdx")),
+      lv: dynamic(() => import("./gods/lv/vakarine.mdx")),
     }
   },
   "velnias": {
     meta: meta.velniasMeta,
-    Content: dynamic(() => import("./creatures/en/velnias.mdx")),
+    Content: dynamic(() => import("./gods/en/velnias.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/velnias.mdx")),
-      lt: dynamic(() => import("./creatures/lt/velnias.mdx")),
-      lv: dynamic(() => import("./creatures/lv/velnias.mdx")),
+      en: dynamic(() => import("./gods/en/velnias.mdx")),
+      lt: dynamic(() => import("./gods/lt/velnias.mdx")),
+      lv: dynamic(() => import("./gods/lv/velnias.mdx")),
     }
   },
   "zemyna": {
@@ -344,11 +344,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "laumes": {
     meta: meta.laumesMeta,
-    Content: dynamic(() => import("./creatures/en/laumes.mdx")),
+    Content: dynamic(() => import("./gods/en/laumes.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/laumes.mdx")),
-      lt: dynamic(() => import("./creatures/lt/laumes.mdx")),
-      lv: dynamic(() => import("./creatures/lv/laumes.mdx")),
+      en: dynamic(() => import("./gods/en/laumes.mdx")),
+      lt: dynamic(() => import("./gods/lt/laumes.mdx")),
+      lv: dynamic(() => import("./gods/lv/laumes.mdx")),
     }
   },
   "lietuvens": {
@@ -407,11 +407,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "ragana": {
     meta: meta.raganaMeta,
-    Content: dynamic(() => import("./creatures/en/ragana.mdx")),
+    Content: dynamic(() => import("./gods/en/ragana.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./creatures/en/ragana.mdx")),
-      lt: dynamic(() => import("./creatures/lt/ragana.mdx")),
-      lv: dynamic(() => import("./creatures/lv/ragana.mdx")),
+      en: dynamic(() => import("./gods/en/ragana.mdx")),
+      lt: dynamic(() => import("./gods/lt/ragana.mdx")),
+      lv: dynamic(() => import("./gods/lv/ragana.mdx")),
     }
   },
   "ragutis": {
