@@ -512,7 +512,7 @@ export const velnioAkmuoMeta: StoryMeta = {
   title: {
     en: "The Devil's Stone",
     lt: "Velnio Akmuo",
-    lv: "Velna Akmens",
+    lv: "Velna akmens",
   },
   summary: {
     en: "Explore the ancient and mysterious Devil's Stones, mythological landmarks found across Baltic lands, steeped in folklore and legend.",
@@ -528,9 +528,9 @@ export const velnioAkmuoMeta: StoryMeta = {
     lv: "Visas Baltijos valstis",
   },
   tribe: {
-    en: "All Baltic Tribes",
-    lt: "Visos Baltijos gentys",
-    lv: "Visas Baltijos ciltis",
+    en: "Lithuanian and Latvian folklore",
+    lt: "Lietuvių ir latvių tautosaka",
+    lv: "Lietuviešu un latviešu folklora",
   },
   period: {
     en: "Pre-Christian Oral Tradition, collected 19th-20th Century",

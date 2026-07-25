@@ -1,4 +1,4 @@
-﻿import type { DeityMeta } from "@/types/content";
+import type { DeityMeta } from "@/types/content";
 
 export const medziojnaMeta: DeityMeta = {
   slug: "medziojna",
@@ -26,15 +26,15 @@ export const medziojnaMeta: DeityMeta = {
   gallery: [],
   locations: [
     {
-      id: "sambia-hunting-forest",
-      name: "Sambian Sacred Hunting Forest",
-      coordinates: [54.85, 20.4],
-      region: "Old Prussia",
-      description: "Dense primeval forest in the Sambian peninsula where Prussian hunters offered prayers before the hunt.",
+      id: "samogitia-hunting-forest",
+      name: "Samogitian Sacred Hunting Forest",
+      coordinates: [55.85, 22.4],
+      region: "Lithuania",
+      description: "Dense primeval forest in Samogitia where Lithuanians offered prayers before the chase to Medeina / Medziojna.",
       siteType: "Sacred groves",
       aura: "moss",
       deity: "medziojna",
-      significance: "Hunters invoked Medziojna here for swift pursuit and safe return, leaving game offerings at forest shrines.",
+      significance: "Hunters invoked Medziojna here for swift pursuit and safe return, leaving game offerings at sacred forest altars.",
     },
   ],
   materialLegacy: [],
@@ -54,6 +54,7 @@ export const medziojnaMeta: DeityMeta = {
 export const ejagusteMeta: DeityMeta = {
   slug: "ejaguste",
   name: "Ejagustė",
+  altNames: { en: "Ejagustė", lt: "Ejagustė", lv: "Ejaguste" },
   domain: "God",
   epithet: {
     en: "Spirit of Hunting Fortune",
@@ -61,27 +62,22 @@ export const ejagusteMeta: DeityMeta = {
     lv: "Medību veiksmes gars",
   },
   summary: {
-    en: "Ejagustė is the Lithuanian spirit of hunting luck, ensuring favorable outcomes in the chase.",
-    lt: "Ejagustė yra lietuvių medžioklės sėkmės dvasia, užtikrinanti palankų medžioklės rezultatą.",
-    lv: "Ejaguste ir lietuviešu medību veiksmes gars, kas nodrošina labvēlīgus medību rezultātus.",
+    en: "Ejagustė is the Samogitian spirit of hunting luck, recorded by Łasicki (Eagustis), ensuring favorable outcomes in the chase and protecting hunters in the forest.",
+    lt: "Ejagustė yra žemaičių medžioklės sėkmės dvasia (Lasickio Eagustis), užtikrinanti palankų medžioklės rezultatą ir sauganti medžiotojus miške.",
+    lv: "Ejaguste ir žemaitiešu medību veiksmes gars (Łasicki Eagustis), kas nodrošina labvēlīgus medību rezultātus un sargā medniekus mežā.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  altNames: {
-    en: "Ejagustė",
-    lt: "Ejagustė",
-    lv: "Ejaguste",
-  },
   keywords: ["Hunting luck", "Fortune", "Chase"],
   gallery: [],
   locations: [
     {
-      id: "sambia-bird-clearing",
-      name: "Sambian Forest Clearing Shrine",
-      coordinates: [54.88, 20.6],
-      region: "Old Prussia",
-      description: "An open forest clearing in Old Prussia where birds were observed as omens and offerings made to the spirit of hunting luck.",
+      id: "samogitia-bird-clearing",
+      name: "Samogitian Forest Clearing Shrine",
+      coordinates: [55.88, 22.4],
+      region: "Lithuania",
+      description: "An open forest clearing in Samogitia where birds were observed as omens and offerings made to the spirit of hunting luck.",
       siteType: "Sacred groves",
       aura: "moss",
       deity: "ejaguste",
@@ -92,19 +88,20 @@ export const ejagusteMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Bow, Footsteps, Game animal" },
   ],
-  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
-  tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
-  period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Ejagustė (vle.lt)",
   ],
 };
 
 export const silinytisMeta: DeityMeta = {
   slug: "silinytis",
   name: "Šilinytis",
+  altNames: { en: "Šilinytis", lt: "Šilinytis", lv: "Šilinytis" },
   domain: "God",
   epithet: {
     en: "Guardian of the Pine Forest",
@@ -112,27 +109,22 @@ export const silinytisMeta: DeityMeta = {
     lv: "Priežu meža sargs",
   },
   summary: {
-    en: "Šilinytis is the Lithuanian spirit of the pine forest, guardian of the sandy-soiled šilas groves and the life that thrives within them.",
-    lt: "Šilinytis yra lietuvių pušyno dvasia, šilų globėjas ir jų augmenijos saugotojas.",
-    lv: "Šilinytis ir lietuviešu priežu meža gars, kas sargā smilšaino šilu birzis un to dzīvību.",
+    en: "Šilinytis is the Samogitian spirit of the pine forest, recorded by Łasicki (Szelinatis), guardian of the sandy-soiled šilas groves and the life that thrives within them.",
+    lt: "Šilinytis yra žemaičių pušyno dvasia (Lasickio Szelinatis), šilų globėjas ir jų augmenijos saugotojas.",
+    lv: "Šilinytis ir žemaitiešu priežu meža gars (Łasicki Szelinatis), kas sargā smilšaino šilu birzis un to dzīvību.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  altNames: {
-    en: "Šilinytis",
-    lt: "Šilinytis",
-    lv: "Šilinytis",
-  },
   keywords: ["Pine forest", "Resin", "Heather", "Moss"],
   gallery: [],
   locations: [
     {
-      id: "sambia-pine-grove",
-      name: "Sambian Pine Heathland",
-      coordinates: [54.9, 20.55],
-      region: "Old Prussia",
-      description: "Sandy-soiled pine heathland (šilas) in the Sambian peninsula, home of the guardian spirit of fir and pine forests.",
+      id: "samogitia-pine-grove",
+      name: "Samogitian Pine Heathland",
+      coordinates: [55.9, 22.3],
+      region: "Lithuania",
+      description: "Sandy-soiled pine heathland (šilas) in Samogitia, home of the guardian spirit of fir and pine forests.",
       siteType: "Sacred groves",
       aura: "moss",
       deity: "silinytis",
@@ -143,19 +135,20 @@ export const silinytisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Pine cone, Heather, Moss, Resin" },
   ],
-  regionDetails: { en: "Samogitia / Aukštaitija", lt: "Žemaitija / Aukštaitija", lv: "Žemaitija / Aukštaitija" },
-  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Šilinytis (vle.lt)",
   ],
 };
 
 export const giraitisMeta: DeityMeta = {
   slug: "giraitis",
   name: "Giraitis",
+  altNames: { en: "Giraitis", lt: "Giraitis", lv: "Giraitis" },
   domain: "God",
   epithet: {
     en: "Guardian of the Sacred Grove",
@@ -170,11 +163,6 @@ export const giraitisMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  altNames: {
-    en: "Giraitis",
-    lt: "Giraitis",
-    lv: "Giraitis",
-  },
   keywords: ["Sacred grove", "Trees", "Forest peace"],
   gallery: [],
   locations: [
@@ -194,19 +182,20 @@ export const giraitisMeta: DeityMeta = {
   symbols: [
     { label: "Sacred symbols", detail: "Oak branch, Birch catkin, Sacred grove boundary" },
   ],
-  regionDetails: { en: "Samogitia / Pan-Lithuanian", lt: "Žemaitija / visos Lietuvos", lv: "Žemaitija / visas Lietuvas" },
-  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  regionDetails: { en: "Lithuania (Samogitia, Aukštaitija)", lt: "Lietuva (Žemaitija, Aukštaitija)", lv: "Lietuva (Žemaitija, Augštaitija)" },
+  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
   period: { en: "16th–17th Century Records", lt: "XVI–XVII a. šaltiniai", lv: "16.–17. gadsimta avoti" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Mierzyński, Antoni: Mythologiae Lituanicae Monumenta (1892)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Antoni Mierzyński: Mythologiae Lituanicae Monumenta (1892)",
   ],
 };
 
 export const ugunsMateMetaData: DeityMeta = {
   slug: "uguns-mate",
   name: "Uguns māte",
+  altNames: { en: "Uguns māte", lt: "Ugnies motina", lv: "Uguns māte" },
   domain: "God",
   epithet: {
     en: "Mother of Fire and the Hearth",
@@ -221,11 +210,6 @@ export const ugunsMateMetaData: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(180, 80, 40, 0.27)",
   accent: "#c05030",
-  altNames: {
-    en: "Uguns māte",
-    lt: "Ugnies motina",
-    lv: "Uguns māte",
-  },
   keywords: ["Fire", "Hearth", "Home protection", "Family"],
   gallery: [],
   locations: [
@@ -247,11 +231,12 @@ export const ugunsMateMetaData: DeityMeta = {
   ],
   regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Uguns māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Uguns māte (enciklopedija.lv)",
   ],
 };
 
@@ -294,11 +279,12 @@ export const majasMateMetaData: DeityMeta = {
   materialLegacy: [],
   regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Mājas māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Mājas māte (enciklopedija.lv)",
   ],
 };
 
@@ -339,13 +325,14 @@ export const pirtsMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Pirts māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Pirts māte (enciklopedija.lv)",
   ],
 };
 
@@ -386,20 +373,21 @@ export const lopuMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Agricultural regions)", lt: "Latvija (žemdirbystės regionai)", lv: "Latvija (lauksaimniecības reģioni)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "LNE: Lopu māte (enciklopedija.lv)",
-    "Kursīte, Janīna: Mītiskais folklorā (1999)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Janīna Kursīte: Mītiskais folklorā (1999)",
+    "Latvijas Nacionālā enciklopēdija: Lopu māte (enciklopedija.lv)",
   ],
 };
 
 export const puschkaitisMeta: DeityMeta = {
   slug: "puschkaitis",
   name: "Puschkaitis",
-  altNames: { en: "Puschkaitis", lt: "Puschkaitis", lv: "Puškaitss" },
+  altNames: { en: "Puschkaitis", lt: "Puškaitis", lv: "Puškaitss" },
   domain: "God",
   epithet: {
     en: "Earth Lord beneath the Elder Tree",
@@ -408,7 +396,7 @@ export const puschkaitisMeta: DeityMeta = {
   },
   summary: {
     en: "Puschkaitis is the Old Prussian deity of the earth beneath trees, ruler of the Kaukai and Markopoles household spirits who bring agricultural abundance.",
-    lt: "Puschkaitis yra senovės prūsų žemės po medžiais dievas, Kaukų ir Markopolių namų dvasinių valdovas.",
+    lt: "Puschkaitis yra senovės prūsų žemės po medžiais dievas, Kaukų ir Markopolių namų dvasių valdovas.",
     lv: "Puschkaitis ir vecprūšu zemes zem kokiem dievs, Kaukai un Markopoles mājas garu valdnieks.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
@@ -434,12 +422,13 @@ export const puschkaitisMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Old Prussia (Sambia, Sudovia)", lt: "Senoji Prūsija (Semba, Sūduva)", lv: "Senprūsija (Sambija, Sūdava)" },
-  tribe: { en: "Old Prussian (Prūsai)", lt: "Senovės prūsai (Prūsai)", lv: "Vecprūši (Prūsai)" },
-  period: { en: "16th–17th Century Records", lt: "XVI–XVII a. šaltiniai", lv: "16.–17. gadsimta avoti" },
+  tribe: { en: "Old Prussians (Prūsai)", lt: "Prūsai", lv: "Prūši" },
+  period: { en: "16th Century (Sudovian Book c. 1520s, Łasicki 1582)", lt: "XVI a. (Sūduvių knygelė ~1520 m., Łasicki 1582 m.)", lv: "16. gs. (Sudāviešu grāmatiņa ~1520, Łasicki 1582)" },
   references: [
-    "Sudauer Büchlein / Sudovian Book (16th c.)",
-    "Praetorius, Matthäus: Deliciae Prussicae (ms. ~1690)",
-    "Mannhardt, Wilhelm: Letto-Preussische Götterlehre (1936)",
+    "Sudauer Büchlein / Sudovian Book (c. 1520–1530: 'Puschkaitus')",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Matthäus Praetorius: Deliciae Prussicae (c. 1690)",
+    "Visuotinė lietuvių enciklopedija: Puškaitis (vle.lt)",
   ],
 };
 
@@ -454,9 +443,9 @@ export const curchoMeta: DeityMeta = {
     lv: "Ražas un pārticības gars",
   },
   summary: {
-    en: "Curcho is the Old Prussian harvest spirit, a ritual personification of the grain's vital force to whom the first-fruits of every sowing were offered.",
-    lt: "Curcho yra senovės prūsų derliaus dvasia, ritualinė javų gyvybinės jėgos personifikacija, kuriai aukojami pirmieji javai.",
-    lv: "Curcho ir vecprūšu ražas gars, rituāla graudu dzīvīgā spēka personifikācija, kuram tiek ziedoti pirmie ražas augļi.",
+    en: "Curcho (Curche) is the Old Prussian harvest deity recorded in the 1249 Treaty of Christburg, a personification of grain vitality to whom first-fruits were offered.",
+    lt: "Curcho (Kurkė) yra senovės prūsų derliaus dievas, paminėtas 1249 m. Christburgo sutartyje, javų gyvybinės jėgos personifikacija.",
+    lv: "Curcho (Kurķis) ir vecprūšu ražas dievs, minēts 1249. gada Kristburgas līgumā, graudu dzīvīgā spēka personifikācija.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -469,9 +458,9 @@ export const curchoMeta: DeityMeta = {
     {
       id: "prussia-harvest-field",
       name: "Old Prussian Harvest Field Altar",
-      coordinates: [54.5, 20.8],
+      coordinates: [54.4, 20.6],
       region: "Old Prussia",
-      description: "An open harvest field in Old Prussia where the first sheaves of grain were ceremonially offered to Curcho each autumn.",
+      description: "An open harvest field in Natangia/Sambia where the first sheaves of grain were ceremonially offered to Curcho each autumn.",
       siteType: "Field altars",
       aura: "amber",
       deity: "curcho",
@@ -480,13 +469,14 @@ export const curchoMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Old Prussia", lt: "Senoji Prūsija", lv: "Senprūsija" },
-  tribe: { en: "Old Prussian (Prūsai)", lt: "Senovės prūsai (Prūsai)", lv: "Vecprūši (Prūsai)" },
-  period: { en: "16th–17th Century Records", lt: "XVI–XVII a. šaltiniai", lv: "16.–17. gadsimta avoti" },
+  regionDetails: { en: "Old Prussia (Natangia, Sambia)", lt: "Senoji Prūsija (Natangija, Semba)", lv: "Senprūsija (Natangija, Sembija)" },
+  tribe: { en: "Old Prussians (Prūsai)", lt: "Prūsai", lv: "Prūši" },
+  period: { en: "13th Century (Treaty of Christburg 1249)", lt: "XIII a. (Christburgo sutartis 1249 m.)", lv: "13. gs. (Kristburgas līgums 1249)" },
   references: [
-    "Sudauer Büchlein / Sudovian Book (16th c.)",
-    "Hartknoch, Christoph: Alt- und neues Prussien (1684)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai (1996)",
+    "Treaty of Christburg (1249: 'Idolum Curche')",
+    "Sudauer Büchlein / Sudovian Book (c. 1520–1530)",
+    "Christoph Hartknoch: Alt- und neues Preussen (1684)",
+    "Visuotinė lietuvių enciklopedija: Kurkė (vle.lt)",
   ],
 };
 
@@ -502,9 +492,9 @@ export const pliuktisMeta: DeityMeta = {
     lv: "Lietus dievs",
   },
   summary: {
-    en: "Pliuktis is the Lithuanian god of rain, invoked during drought to send the life-giving precipitation needed for crops.",
-    lt: "Pliuktis yra lietuvių lietaus dievas, šaukiamas sausrų metu siųsti gyvybę teikiančio lietaus javams.",
-    lv: "Pliuktis ir lietuviešu lietus dievs, piesaukts sausuma laikā, lai sūtītu dzīvību dodošos nokrišņus ražai.",
+    en: "Pliuktis is the Lithuanian god of rain (Łasicki's Pliuštis), invoked during drought to send the life-giving precipitation needed for crops.",
+    lt: "Pliuktis yra lietuvių lietaus dievas (Lasickio Pliuštis), šaukiamas sausrų metu siųsti gyvybę teikiančio lietaus javams.",
+    lv: "Pliuktis ir lietuviešu lietus dievs (Łasicki Pliuštis), piesaukts sausuma laikā, lai sūtītu dzīvību dodošos nokrišņus ražai.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -528,13 +518,13 @@ export const pliuktisMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
-  tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
-  period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Pliuktis (vle.lt)",
   ],
 };
 
@@ -575,13 +565,13 @@ export const kaupolisMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania (Pan-Lithuanian)", lt: "Lietuva (visos)", lv: "Lietuva (visā)" },
+  regionDetails: { en: "Lithuania (Pan-Lithuanian)", lt: "Lietuva (visuose regionuose)", lv: "Lietuva (visā Latvijā)" },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "Proto-Baltic / 16th Century Records", lt: "Protobaltiška / XVI a. šaltiniai", lv: "Protobaltu / 16. gadsimta avoti" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Greimas, Algirdas J.: Tautos atminties beieškant (1990)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Algirdas Julius Greimas: Tautos atminties beieškant (1990)",
   ],
 };
 
@@ -622,13 +612,13 @@ export const lygynaMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
-  tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
-  period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Lygyna (vle.lt)",
   ],
 };
 
@@ -656,7 +646,7 @@ export const rugucysMeta: DeityMeta = {
   ],
   locations: [
     {
-      id: "prussia-rye-brewery",
+      id: "samogitia-rye-brewery",
       name: "Samogitian Rye Brewery and Field",
       coordinates: [55.9, 22.5],
       region: "Lithuania",
@@ -669,13 +659,13 @@ export const rugucysMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Samogitia", lt: "Žemaitija", lv: "Žemaitija" },
-  tribe: { en: "Samogitian Lithuanians", lt: "Žemaičiai", lv: "Samogitijas lietuvieši" },
-  period: { en: "16th Century (Recorded by Łasicki)", lt: "XVI a. (Lasickio paminėta)", lv: "16. gadsimts (Łasicki pierakstīts)" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Rugučys (vle.lt)",
   ],
 };
 
@@ -716,20 +706,20 @@ export const biruteMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Palanga (Coastal Samogitia)", lt: "Palanga (Žemaitijos pakrantė)", lv: "Palanga (Samogitijas piekraste)" },
-  tribe: { en: "Samogitians / Curonians", lt: "Žemaičiai / Kuršiai", lv: "Samogitijas / Kureši" },
+  regionDetails: { en: "Lithuania (Palanga, Coastal Samogitia)", lt: "Lietuva (Palanga, Žemaitijos pakrantė)", lv: "Lietuva (Palanga, Samogitijas piekraste)" },
+  tribe: { en: "Samogitians, Curonians", lt: "Žemaičiai, kuršiai", lv: "Žemaiši, kurši" },
   period: { en: "14th Century (Historical) / 15th–16th Century (Cult)", lt: "XIV a. (istorinė) / XV–XVI a. (kultas)", lv: "14. gadsimts (vēsturiska) / 15.–16. gadsimts (kults)" },
   references: [
     "Bychowiec Chronicle (16th Century MS)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
+    "Visuotinė lietuvių enciklopedija: Birutė (vle.lt)",
   ],
 };
 
 export const pienaMateMetaData: DeityMeta = {
   slug: "piena-mate",
   name: "Piena māte",
-  altNames: { en: "Piena māte", lt: "Piena māte", lv: "Piena māte" },
+  altNames: { en: "Piena māte", lt: "Pieno motina", lv: "Piena māte" },
   domain: "God",
   epithet: {
     en: "Mother of Milk",
@@ -763,13 +753,14 @@ export const pienaMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Piena māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Piena māte (enciklopedija.lv)",
   ],
 };
 
@@ -810,13 +801,14 @@ export const vilkuMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Vilku māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Vilku māte (enciklopedija.lv)",
   ],
 };
 
@@ -857,13 +849,14 @@ export const tirumaMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Agricultural regions)", lt: "Latvija (žemdirbystės regionai)", lv: "Latvija (lauksaimniecības reģioni)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "Kursīte, Janīna: Mītiskais folklorā (1999)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Janīna Kursīte: Mītiskais folklorā (1999)",
   ],
 };
 
@@ -904,13 +897,14 @@ export const kapuMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Kapu māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Kapu māte (enciklopedija.lv)",
   ],
 };
 
@@ -951,13 +945,14 @@ export const celaMateMetaData: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visos regionuose)", lv: "Latvija (visā Latvijā)" },
+  regionDetails: { en: "Latvia (Pan-Latvian)", lt: "Latvija (visuose regionuose)", lv: "Latvija (visā Latvijā)" },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
-  period: { en: "Archaic / Oral Tradition", lt: "Archajiška / žodinė tradicija", lv: "Arhaiskā / mutvārdu tradīcija" },
+  period: { en: "17th Century (Paul Einhorn 1649); 19th–20th c. dainas", lt: "XVII a. (Paul Einhorn 1649 m.); XIX–XX a. dainos", lv: "17. gs. (Paul Einhorn 1649); 19.–20. gs. dainas" },
   references: [
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "Šmits, Pēteris: Latviešu mitoloģija (1918)",
-    "LNE: Ceļa māte (enciklopedija.lv)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918)",
+    "Latvijas Nacionālā enciklopēdija: Ceļa māte (enciklopedija.lv)",
   ],
 };
 
@@ -974,9 +969,9 @@ export const girstisMeta: DeityMeta = {
     lv: "Brikšņu meža gars",
   },
   summary: {
-    en: "Girstis is a Lithuanian forest deity who guards the undergrowth and thickets of the sacred groves, documented by Jan Łasicki in his 16th-century catalogue of Samogitian gods.",
-    lt: "Girstis yra lietuvių miško dvasia, saugojanti šventų girių tankmynus, užfiksuota Jano Lasickio XVI a. dievybių sąraše.",
-    lv: "Girstis ir lietuviešu meža gars, kas sargā svēto birzu brikšņus, dokumentēts Jāņa Lasicija 16. gadsimta sarakstā.",
+    en: "Girstis is a Samogitian forest deity who guards the undergrowth and thickets of the sacred groves, documented by Jan Łasicki in his 16th-century catalogue of Samogitian gods.",
+    lt: "Girstis yra žemaičių miško dvasia, saugojanti šventų girių tankmynus, užfiksuota Jano Lasickio XVI a. dievybių sąraše.",
+    lv: "Girstis ir žemaitiešu meža gars, kas sargā svēto birzu brikšņus, dokumentēts Jāņa Lasicija 16. gadsimta sarakstā.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1001,12 +996,12 @@ export const girstisMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Girstis (vle.lt)",
   ],
 };
 
@@ -1022,8 +1017,8 @@ export const jundaMeta: DeityMeta = {
   },
   summary: {
     en: "Junda is the Lithuanian goddess of war and conquest, embodying the fierce spirit of Baltic warriors, first systematized by 19th-century historian Teodor Narbutt.",
-    lt: "Junda yra lietuvių karo ir pergalės deivė, įkūnijanti baltų karių narsą ir T. Narbyto XIX a. mitologijos rekonstrukcijoje.",
-    lv: "Junda ir lietuviešu kara un uzvaras dieviete, kas iemieso senbaltu karotāju drosmi un 19. gadsimta mitoloģijas rekonstrukcijās.",
+    lt: "Junda yra lietuvių karo ir pergalės deivė, įkūnijanti baltų karių narsą T. Narbuto XIX a. mitologijos rekonstrukcijoje.",
+    lv: "Junda ir lietuviešu kara un uzvaras dieviete, kas iemieso senbaltu karotāju drosmi T. Narbuta 19. gadsimta mitoloģijas rekonstrukcijās.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1047,13 +1042,13 @@ export const jundaMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania", lt: "Lietuva", lv: "Lietuva" },
+  regionDetails: { en: "Lithuania (Aukštaitija)", lt: "Lietuva (Aukštaitija)", lv: "Lietuva (Augštaitija)" },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "19th Century (Reconstructed)", lt: "XIX a. (rekonstruotas)", lv: "19. gadsimts (rekonstruēts)" },
+  period: { en: "19th Century (Teodor Narbutt 1835 literary synthesis)", lt: "XIX a. (Teodoras Narbutas 1835 m.)", lv: "19. gs. (Teodors Narbuts 1835)" },
   references: [
-    "Narbutt, Teodor: Dzieje starożytne narodu litewskiego (1835)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Teodor Narbutt: Dzieje starożytne narodu litewskiego (1835)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
+    "Visuotinė lietuvių enciklopedija: Junda (vle.lt)",
   ],
 };
 
@@ -1068,9 +1063,9 @@ export const kovasMeta: DeityMeta = {
     lv: "Kara un cīņas dievs",
   },
   summary: {
-    en: "Kovas is the Lithuanian god of war and combat, whose name is synonymous with struggle and the month of March — the traditional start of the Baltic campaign season.",
-    lt: "Kovas yra lietuvių karo ir kovos dievas, kurio vardas reiškia kovą ir kovo mėnesį – tradicinę karo žygių pradžią.",
-    lv: "Kovas ir lietuviešu kara un cīņas dievs, kura vārds ir sinonīms cīņai un marta mēnesim — tradicionālā karagājienu sākuma laikam.",
+    en: "Kovas is the Lithuanian god of war and combat (Łasicki's Kowas), whose name is synonymous with struggle and the month of March — the traditional start of the Baltic campaign season.",
+    lt: "Kovas yra lietuvių karo ir kovos dievas (Lasickio Kowas), kurio vardas reiškia kovą ir kovo mėnesį – tradicinę karo žygių pradžią.",
+    lv: "Kovas ir lietuviešu kara un cīņas dievs (Łasicki Kowas), kura vārds ir sinonīms cīņai un marta mēnesim — tradicionālā karagājienu sākuma laikam.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1094,13 +1089,13 @@ export const kovasMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  regionDetails: { en: "Lithuania (Aukštaitija, Kernavė)", lt: "Lietuva (Aukštaitija, Kernavė)", lv: "Lietuva (Augštaitija, Kernave)" },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Kovas (vle.lt)",
   ],
 };
 
@@ -1115,9 +1110,9 @@ export const linksmineMeta: DeityMeta = {
     lv: "Prieka un jautrības dieviete",
   },
   summary: {
-    en: "Linksminė is the Lithuanian goddess of happiness and merriment, invoked at weddings and harvest festivals to ensure joyful atmospheres and the divine blessing of laughter.",
-    lt: "Linksminė yra lietuvių džiaugsmo deivė, šaukiama per vestuves ir derliaus šventes, kad namai spindėtų šviesa ir daina.",
-    lv: "Linksminė ir lietuviešu prieka un jautrības dieviete, ko piesauca kāzās un ražas svētkos.",
+    en: "Linksminė is the Lithuanian goddess of happiness and merriment (Łasicki's Lymschnis), invoked at weddings and harvest festivals to ensure joyful atmospheres.",
+    lt: "Linksminė yra lietuvių džiaugsmo deivė (Lasickio Lymschnis), šaukiama per vestuves ir derliaus šventes, kad namai spindėtų šviesa ir daina.",
+    lv: "Linksminė ir lietuviešu prieka un jautrības dieviete (Łasicki Lymschnis), ko piesauca kāzās un ražas svētkos.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1142,12 +1137,12 @@ export const linksmineMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Linksminė (vle.lt)",
   ],
 };
 
@@ -1189,12 +1184,12 @@ export const rasaMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
-  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
-  period: { en: "Ancient Origins", lt: "Seniausi laikai", lv: "Senākais periods" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
+  period: { en: "Archaic oral tradition, collected 19th–20th c.", lt: "Archajiška žodinė tradicija, surinkta XIX–XX a.", lv: "Arhaiska mutvārdu tradīcija, vākta 19.–20. gs." },
   references: [
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
-    "Barons, Krišjānis: Latvju dainas (1894–1915)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 4 (2005)",
+    "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Visuotinė lietuvių enciklopedija: Rasa (vle.lt)",
   ],
 };
 
@@ -1209,9 +1204,9 @@ export const gardaitisMeta: DeityMeta = {
     lv: "Laivu un jūrnieku aizbildnis",
   },
   summary: {
-    en: "Gardaitis is the Lithuanian deity of boats and sailors, invoked during storms to ensure the safety of vessels and their crews on coastal and maritime voyages.",
-    lt: "Gardaitis yra lietuvių laivų ir jūreivių dievas, šaukiamas audros metu, saugantis laivus ir įgulas nuo pavojų vandenyse.",
-    lv: "Gardaitis ir lietuviešu laivu un jūrnieku dievs, ko piesauca vētrās, lai nodrošinātu kuģu un to apkalpes drošību.",
+    en: "Gardaitis is the Lithuanian deity of boats and sailors (Łasicki's Gardiun), invoked during storms to ensure the safety of vessels and their crews on coastal and maritime voyages.",
+    lt: "Gardaitis yra lietuvių laivų ir jūreivių dievas (Lasickio Gardiun), šaukiamas audros metu, saugantis laivus ir įgulas nuo pavojų vandenyse.",
+    lv: "Gardaitis ir lietuviešu laivu un jūrnieku dievs (Łasicki Gardiun), ko piesauca vētrās, lai nodrošinātu kuģu un to apkalpes drošību.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1256,9 +1251,9 @@ export const ganiklisMeta: DeityMeta = {
     lv: "Ganu saimnieks",
   },
   summary: {
-    en: "Ganiklis is the Lithuanian deity of shepherds and livestock grazing, invoked to ensure animals were not lost or attacked by wolves during the pasturing season.",
-    lt: "Ganiklis yra lietuvių piemenų ir ganymo dievas, šaukiamas piemens apsaugai ir gyvulių saugumui ganymo laiku.",
-    lv: "Ganiklis ir lietuviešu ganu un lopu ganīšanas dievs, ko piesauca, lai lopus sargātu no vilkiem un pazušanas.",
+    en: "Ganiklis is the Lithuanian deity of shepherds and livestock grazing (Łasicki's Goniglis), invoked to ensure animals were not lost or attacked by wolves.",
+    lt: "Ganiklis yra lietuvių piemenų ir ganymo dievas (Lasickio Goniglis), šaukiamas piemens apsaugai ir gyvulių saugumui ganymo laiku.",
+    lv: "Ganiklis ir lietuviešu ganu un lopu ganīšanas dievs (Łasicki Goniglis), ko piesauca, lai lopus sargātu no vilkiem un pazušanas.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1283,12 +1278,12 @@ export const ganiklisMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Ganiklis (vle.lt)",
   ],
 };
 
@@ -1303,9 +1298,9 @@ export const javineMeta: DeityMeta = {
     lv: "Labības un rijas dieviete",
   },
   summary: {
-    en: "Javinė is the Lithuanian deity who protects harvested grain and the threshing barn, guarding the stored bounty against rot, fire, and dark spirits until the next sowing.",
-    lt: "Javinė yra lietuvių deivė, saugojanti nupjautus javus ir klojimą nuo drėgmės, ugnies ir piktųjų dvasių.",
-    lv: "Javinė ir lietuviešu dieviete, kas sargā novāktus labības kūļus un rijā glabātās graudu krājumus.",
+    en: "Javinė is the Lithuanian deity who protects harvested grain and the threshing barn (Łasicki's Javine), guarding the stored bounty against rot, fire, and pests.",
+    lt: "Javinė yra lietuvių deivė (Lasickio Javine), saugojanti nupjautus javus ir klojimą nuo drėgmės, ugnies ir piktųjų dvasių.",
+    lv: "Javinė ir lietuviešu dieviete (Łasicki Javine), kas sargā novāktus labības kūļus un rijā glabātās graudu krājumus.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1329,13 +1324,14 @@ export const javineMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania, Samogitia", lt: "Lietuva, Žemaitija", lv: "Lietuva, Žemaitija" },
-  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "Medieval to 18th Century", lt: "Viduramžiai – XVIII a.", lv: "Viduslaiki – 18. gadsimts" },
+  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Dundulienė, Pranė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
-    "Ruigys, Pilypas: Littauisch-Deutsches Lexikon (1747)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Pranė Dundulienė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
+    "Pilypas Ruigys: Littauisch-Deutsches Lexikon (1747)",
+    "Visuotinė lietuvių enciklopedija: Javinė (vle.lt)",
   ],
 };
 
@@ -1378,11 +1374,11 @@ export const geguteMeta: DeityMeta = {
   materialLegacy: [],
   regionDetails: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
   tribe: { en: "Lithuanians, Latvians, Prussians", lt: "Lietuviai, latviai, prūsai", lv: "Lietuvieši, latvieši, prūši" },
-  period: { en: "Ancient Origins", lt: "Seniausi laikai", lv: "Senākais periods" },
+  period: { en: "Archaic oral tradition, collected 19th–20th c.", lt: "Archajiška žodinė tradicija, surinkta XIX–XX a.", lv: "Arhaiska mutvārdu tradīcija, vākta 19.–20. gs." },
   references: [
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (2004)",
+    "Visuotinė lietuvių enciklopedija: Gegutė (vle.lt)",
   ],
 };
 
@@ -1397,9 +1393,9 @@ export const pergrubrijusMeta: DeityMeta = {
     lv: "Pavasara un zaļuma dievs",
   },
   summary: {
-    en: "Pergrubrijus is the Prussian and Lithuanian deity of spring who unlocks the frozen earth with his key, bringing forth the first greenery and blessing the new agricultural year.",
-    lt: "Pergrubrijus yra prūsų ir lietuvių pavasario dievas, kuris raktu atrakina įšalusią žemę ir leidžia jai sužaliuoti.",
-    lv: "Pergrubrijus ir prūšu un lietuviešu pavasara dievs, kas ar atslēgu atver sasalušo zemi un atved pirmo zaļumu.",
+    en: "Pergrubrijus is the Old Prussian and Lithuanian deity of spring (Sudovian Book Pergrubrius) who unlocks the frozen earth with his key, bringing forth greenery.",
+    lt: "Pergrubrijus yra prūsų ir lietuvių pavasario dievas (Sūduvių knygelės Pergrubrius), kuris raktu atrakina įšalusią žemę ir leidžia jai sužaliuoti.",
+    lv: "Pergrubrijus ir prūšu un lietuviešu pavasara dievs (Sudāviešu grāmatiņas Pergrubrius), kas ar atslēgu atver sasalušo zemi un atved pirmo zaļumu.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1423,14 +1419,14 @@ export const pergrubrijusMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Prussia, Lithuania, Samogitia", lt: "Prūsija, Lietuva, Žemaitija", lv: "Prūsija, Lietuva, Žemaitija" },
-  tribe: { en: "Prussians, Sudovians, Lithuanians", lt: "Prūsai, sūduviai, lietuviai", lv: "Prūši, sudavieši, lietuvieši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  regionDetails: { en: "Old Prussia (Sambia, Sudovia), Lithuania", lt: "Senoji Prūsija (Semba, Sūduva), Lietuva", lv: "Senprūsija (Sembija, Sūdava), Lietuva" },
+  tribe: { en: "Old Prussians, Lithuanians", lt: "Prūsai, lietuviai", lv: "Prūši, lietuvieši" },
+  period: { en: "16th Century (Sudovian Book c. 1520s, Łasicki 1582)", lt: "XVI a. (Sūduvių knygelė ~1520 m., Łasicki 1582 m.)", lv: "16. gs. (Sudāviešu grāmatiņa ~1520, Łasicki 1582)" },
   references: [
-    "Sudovian Book (Suduviu knygele), 16th c.",
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Sudauer Büchlein / Sudovian Book (c. 1520–1530: 'Pergrubrius')",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Pergrubrijus (vle.lt)",
   ],
 };
 
@@ -1541,9 +1537,9 @@ export const bubilasMeta: DeityMeta = {
     lv: "Bišu meistars un medus dievs",
   },
   summary: {
-    en: "Bubilas is the Lithuanian god of bees, drones, and honey production, the masculine counterpart to Austėja, who presides over the hive's strength and the abundance of the mead harvest.",
-    lt: "Bubilas yra lietuvių bičių, tranų ir medaus gausos dievas, vyriškasis Austėjos atitikmuo, rūpinantis avilio stiprumu ir midaus derliumi.",
-    lv: "Bubilas ir lietuviešu bišu, tranu un medus ražošanas dievs, vīrišķais Austējas atbilsme, kas pārskata stropu spēku.",
+    en: "Bubilas is the Lithuanian god of bees, drones, and honey production (Łasicki's Bebilus), the masculine counterpart to Austėja.",
+    lt: "Bubilas yra lietuvių bičių, tranų ir medaus gausos dievas (Lasickio Bebilus), vyriškasis Austėjos atitikmuo, rūpinantis avilio stiprumu.",
+    lv: "Bubilas ir lietuviešu bišu, tranu un medus ražošanas dievs (Łasicki Bebilus), vīrišķais Austējas atbilsme.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1567,13 +1563,13 @@ export const bubilasMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania (Aukštaitija / Samogitia)", lt: "Lietuva (Aukštaitija / Žemaitija)", lv: "Lietuva (Augšzeme / Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  regionDetails: { en: "Lithuania (Aukštaitija, Samogitia)", lt: "Lietuva (Aukštaitija, Žemaitija)", lv: "Lietuva (Augštaitija, Žemaitija)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Bubilas (vle.lt)",
   ],
 };
 
@@ -1589,7 +1585,7 @@ export const mildaMeta: DeityMeta = {
   },
   summary: {
     en: "Milda is the purported Lithuanian goddess of love and beauty, a figure popularized by 19th-century Romantic historian Teodor Narbutt. Contemporary scholars classify her as a literary reconstruction without authentic pre-Christian sources.",
-    lt: "Milda yra tariama lietuvių meilės ir grožio deivė, T. Narbyto XIX a. romantinė rekonstrukcija; šiuolaikiniai mokslininkai laiko ją neautentišku išradimu.",
+    lt: "Milda yra tariama lietuvių meilės ir grožio deivė, T. Narbuto XIX a. romantinė rekonstrukcija; šiuolaikiniai mokslininkai laiko ją neautentišku išradimu.",
     lv: "Milda ir apgalvotā lietuviešu mīlestības un skaistuma dieviete, 19. gadsimta romantiskā rekonstrukcija; mūsdienu pētnieki to uzskata par vēlāku literāru izgudrojumu.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
@@ -1618,10 +1614,10 @@ export const mildaMeta: DeityMeta = {
   tribe: { en: "No historical tribal attribution attested", lt: "Istorinis gentinis priskyrimas nepaliudytas", lv: "Vēsturiska cilts piederība nav apliecināta" },
   period: { en: "1835 / 19th Century Romantic reconstruction", lt: "1835 m. / XIX a. romantinė rekonstrukcija", lv: "1835. g. / 19. gadsimta romantiskā rekonstrukcija" },
   references: [
-    "Narbutt, Teodor: Dzieje starożytne narodu litewskiego, t. 1 (1835)",
-    "VLE: Milda (https://www.vle.lt/straipsnis/milda/)",
-    "Balsys, Rimantas: Meilės deivės Mildos autentiškumo klausimu, Logos 59 (2009)",
-    "Kregždys, Rolandas: Pseudomitologemos \"Milda\" kilmė, Baltu filoloģija 30(1-2) (2021)",
+    "Teodor Narbutt: Dzieje starożytne narodu litewskiego, t. 1 (1835)",
+    "Visuotinė lietuvių enciklopedija: Milda (vle.lt)",
+    "Rimantas Balsys: Meilės deivės Mildos autentiškumo klausimu, Logos 59 (2009) & Logos 60 (2009)",
+    "Rolandas Kregždys: Pseudomitologemos \"Milda\" kilmė, Baltu filoloģija 30(1-2) (2021)",
   ],
 };
 
@@ -1663,12 +1659,12 @@ export const asviniaiMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
-  tribe: { en: "All Baltic tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
+  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
   period: { en: "Proto-Baltic to Present", lt: "Protobaltiški laikai – dabartis", lv: "Protobaltu laiki – mūsdienas" },
   references: [
-    "Dundulienė, Pranė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
-    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
+    "Pranė Dundulienė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
+    "Algirdas Julius Greimas: Of Gods and Men (1992)",
+    "Visuotinė lietuvių enciklopedija: Ašvieniai (vle.lt)",
   ],
 };
 
@@ -1683,9 +1679,9 @@ export const erketusMeta: DeityMeta = {
     lv: "Ērkšķu un aizsargbarjeru gars",
   },
   summary: {
-    en: "Erketus is the Lithuanian spirit of thorns and briers, the divine guardian of protective hedges and natural barriers that separated the sacred farmstead from the wild forest beyond.",
-    lt: "Erketus yra lietuvių erškėčių ir dygliuotų kliūčių dvasia, apsauginių gyvatvorių sargas, skiriančių šventą sodybą nuo laukinio miško.",
-    lv: "Erketus ir lietuviešu ērkšķu un dzeloņu gars, aizsardzības dzīvžogu sargs, kas atdalīja sētu no savvaļas meža.",
+    en: "Erketus is the Samogitian spirit of thorns and briers (Łasicki's Erkettus), divine guardian of protective hedges separating the farmstead from the wilderness.",
+    lt: "Erketus yra žemaičių erškėčių ir dygliuotų kliūčių dvasia (Lasickio Erkettus), apsauginių gyvatvorių sargas, skiriantis sodybą nuo miško.",
+    lv: "Erketus ir žemaitiešu ērkšķu un dzeloņu gars (Łasicki Erkettus), aizsardzības dzīvžogu sargs, kas atdalīja sētu no savvaļas meža.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1710,12 +1706,12 @@ export const erketusMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Erketus (vle.lt)",
   ],
 };
 
@@ -1730,9 +1726,9 @@ export const veliuonaMeta: DeityMeta = {
     lv: "Mirušo valdniece",
   },
   summary: {
-    en: "Veliuona is the Lithuanian goddess of death and the realm of ancestral spirits, the solemn guardian who receives the departed and maintains the boundary between the living and the dead.",
-    lt: "Veliuona yra lietuvių mirties ir protėvių vėlių karalystės deivė, iškilmingoji sargė, priimanti mirusius ir sauganti gyvenimo bei mirties ribą.",
-    lv: "Veliuona ir lietuviešu nāves un senču garu valstības dieviete, svinīgā sargātāja, kas uztur robežu starp dzīvajiem un mirušajiem.",
+    en: "Veliuona is the Lithuanian goddess of death and the realm of ancestral spirits (Łasicki's Vielona), the solemn guardian who receives the departed.",
+    lt: "Veliuona yra lietuvių mirties ir protėvių vėlių karalystės deivė (Lasickio Vielona), iškilmingoji sargė, priimanti mirusius ir sauganti mirties ribą.",
+    lv: "Veliuona ir lietuviešu nāves un senču garu valstības dieviete (Łasicki Vielona), svinīgā sargātāja, kas uztur robežu starp dzīvajiem un mirušajiem.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1756,13 +1752,13 @@ export const veliuonaMeta: DeityMeta = {
   ],
   gallery: [],
   materialLegacy: [],
-  regionDetails: { en: "Lithuania, Samogitia", lt: "Lietuva, Žemaitija", lv: "Lietuva, Žemaitija" },
+  regionDetails: { en: "Lithuania (Samogitia, Pan-Lithuanian)", lt: "Lietuva (Žemaitija, visos Lietuvos)", lv: "Lietuva (Žemaitija, visas Lietuvas)" },
   tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Veliuona (vle.lt)",
   ],
 };
 
@@ -1777,9 +1773,9 @@ export const lauksargisMeta: DeityMeta = {
     lv: "Lauku sargs",
   },
   summary: {
-    en: "Lauksargis is the Baltic field guardian deity, protector of crops and agricultural boundaries, invoked before sowing to ensure the land's safety and the health of the harvest.",
-    lt: "Lauksargis yra baltų laukų sargo dievybė, pasėlių ir žemės ribų globėjas, šaukiamas prieš sėją užtikrinti derliaus saugumą.",
-    lv: "Lauksargis ir baltu lauku sargātājs, kultūraugu un lauksaimniecības robežu aizsargs, ko piesauca pirms sējas.",
+    en: "Lauksargis is the Baltic field guardian deity (Mažvydas's Lauksargus), protector of crops and agricultural boundaries, invoked before sowing to ensure the land's safety.",
+    lt: "Lauksargis yra baltų laukų sargo dievybė (Mažvydo Lauksargus), pasėlių ir žemės ribų globėjas, šaukiamas prieš sėją užtikrinti derliaus saugumą.",
+    lv: "Lauksargis ir baltu lauku sargātājs (Mažvydas Lauksargus), kultūraugu un lauksaimniecības robežu aizsargs, ko piesauca pirms sējas.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1804,12 +1800,12 @@ export const lauksargisMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania, Latvia", lt: "Lietuva, Latvija", lv: "Lietuva, Latvija" },
-  tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
-  period: { en: "Medieval to 18th Century", lt: "Viduramžiai – XVIII a.", lv: "Viduslaiki – 18. gadsimts" },
+  tribe: { en: "Lithuanians, Latvians, Old Prussians", lt: "Lietuviai, latviai, prūsai", lv: "Lietuvieši, latvieši, prūši" },
+  period: { en: "16th Century (Martynas Mažvydas 1547 Catechismus)", lt: "XVI a. (Martynas Mažvydas 1547 m. Katekizmas)", lv: "16. gs. (Martynas Mažvydas 1547)" },
   references: [
-    "Mažvydas, Martynas: Katekizmas (1547)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
-    "Dundulienė, Pranė: Žemdirbystė lietuvių mitologijoje (1963)",
+    "Martynas Mažvydas: Catechismus (1547)",
+    "Pranė Dundulienė: Žemdirbystė lietuvių mitologijoje (1963)",
+    "Visuotinė lietuvių enciklopedija: Lauksargis (vle.lt)",
   ],
 };
 
@@ -1824,9 +1820,9 @@ export const drebkulysMeta: DeityMeta = {
     lv: "Drudža drebēšanas gars",
   },
   summary: {
-    en: "Drebkulys is the Lithuanian spirit of fever and chills, the personification of the shaking sickness recorded by Jan Łasicki, representing the archaic Baltic belief that every illness was governed by its own divine force.",
-    lt: "Drebkulys yra lietuvių karštinės ir drebulio dvasia, krečiančios ligos personifikacija, užrašyta Jano Lasickio — liudijimas archajinio tikėjimo, kad kiekvieną ligą valdo savita dvasia.",
-    lv: "Drebkulys ir lietuviešu drudža un drebuļa gars, locītavās kratošās slimības personifikācija pēc Jana Lasicija, kas atspoguļo senu baltu uzskatu par slimību garu varu.",
+    en: "Drebkulys is the Lithuanian spirit of fever and chills (Łasicki's Drebkulis), representing the archaic Baltic belief that every illness was governed by its own divine force.",
+    lt: "Drebkulys yra lietuvių karštinės ir drebulio dvasia (Lasickio Drebkulis), krečiančios ligos personifikacija, užrašyta Jano Lasickio.",
+    lv: "Drebkulys ir lietuviešu drudža un drebuļa gars (Łasicki Drebkulis), locītavās kratošās slimības personifikācija pēc Jana Lasicija.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1851,12 +1847,12 @@ export const drebkulysMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Visuotinė lietuvių enciklopedija: Drebkulys (vle.lt)",
   ],
 };
 
@@ -1871,9 +1867,9 @@ export const apidemeMeta: DeityMeta = {
     lv: "Mājas robežu sargātāja",
   },
   summary: {
-    en: "Apidėmė is the Lithuanian spirit of the homestead boundary, the divine guardian of fences and thresholds who was offered sacrifices when a family moved to ensure she would follow and protect the new farmstead.",
-    lt: "Apidėmė yra lietuvių sodybos ribų dvasia, dieviškoji tvorų ir slenksčio sargė, kuriai aukojama kraustantis, kad ji sektų ir saugotų naują sodybą.",
-    lv: "Apidēme ir lietuviešu mājas robežu gars, žogu un sliekšņa dievišķā sargātāja, kurai upuroja pārceļoties, lai viņa sekotu un sargātu jauno saimniecību.",
+    en: "Apidėmė is the Lithuanian spirit of the homestead boundary (Łasicki's Apidome), the divine guardian of fences and thresholds who was offered sacrifices when moving.",
+    lt: "Apidėmė yra lietuvių sodybos ribų dvasia (Lasickio Apidome), dieviškoji tvorų ir slenksčio sargė, kuriai aukojama kraustantis į naują sodybą.",
+    lv: "Apidēme ir lietuviešu mājas robežu gars (Łasicki Apidome), žogu un sliekšņa dievišķā sargātāja, kurai upuroja pārceļoties.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
@@ -1898,12 +1894,12 @@ export const apidemeMeta: DeityMeta = {
   gallery: [],
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Recorded)", lt: "XVI a. (užrašytas)", lv: "16. gadsimts (dokumentēts)" },
+  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
   references: [
-    "Łasicki, Jan: De diis Samagitarum caeterisque Sarmatum (1582)",
-    "Beresnevičius, Gintaras: Lietuvių religija ir mitologija (2004)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (2004)",
+    "Visuotinė lietuvių enciklopedija: Apidėmė (vle.lt)",
   ],
 };
 

@@ -10,7 +10,7 @@ describe("Pantheon page", () => {
     expect(getByText(/Medinė/)).toBeInTheDocument();
     expect(getAllByText(/Pantheon/i).length).toBeGreaterThan(0);
 
-    await user.click(getByRole("button", { name: "Creature" }));
+    await user.click(getByRole("button", { name: "God" }));
     expect(getByText(/Bangpūtys/)).toBeInTheDocument();
   });
 });

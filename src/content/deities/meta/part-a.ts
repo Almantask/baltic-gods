@@ -1,4 +1,4 @@
-﻿import type { DeityMeta } from "@/types/content";
+import type { DeityMeta } from "@/types/content";
 
 export const perkunasMeta: DeityMeta = {
   slug: "perkunas",
@@ -55,15 +55,15 @@ export const perkunasMeta: DeityMeta = {
       significance: "Offerings of iron nails and barley echo between trees during spring storms.",
     },
     {
-      id: "jelgava-stone",
-      name: "Jelgava Sky-Stone",
-      coordinates: [56.65, 23.72],
-      region: "Latvia",
-      description: "A glacial erratic etched with spiral burn marks after cloud-fire nights.",
-      siteType: "Ritual stones",
-      aura: "moss",
+      id: "sventoji-oaks",
+      name: "Šventoji Oak Sanctuary",
+      coordinates: [56.03, 21.08],
+      region: "Lithuania",
+      description: "A grove of colossal oaks near the Šventoji river, where the eternal fire was kept.",
+      siteType: "\"World tree\" analog sites",
+      aura: "mist",
       deity: "perkunas",
-      significance: "Used to divine the coming of dry thunder over Zemgale fields.",
+      significance: "The principal site for the cult of Perkūnas in the northern coastal region.",
     },
   ],
   materialLegacy: ["Iron spearhead talismans", "Pitch-black thunderstones tied with flax"],
@@ -114,7 +114,7 @@ export const sauleMeta: DeityMeta = {
   altNames: {
     en: "Saule",
     lt: "Saulė",
-    lv: "Saules",
+    lv: "Saule",
   },
   keywords: ["sun", "amber", "weaving", "dawn"],
   gallery: [
@@ -160,27 +160,34 @@ export const sauleMeta: DeityMeta = {
     { label: "Offerings", detail: "Flax garlands, gold thread, honey" },
   ],
   regionDetails: {
-    en: "Pan-Baltic",
-    lt: "Visos baltų žemės",
-    lv: "Visas baltu zemes",
+    en: "Pan-Baltic (Aukštaitija, Samogitia, Kurzeme, Latgale)",
+    lt: "Visos baltų žemės (Aukštaitija, Žemaitija, Kuršas, Latgala)",
+    lv: "Visas baltu zemes (Augšzeme, Kurzeme, Latgale, Vidzeme, Zemgale)",
   },
   tribe: {
-    en: "All Baltic Tribes",
-    lt: "Visos baltų gentys",
-    lv: "Visas baltu ciltis",
+    en: "All Baltic Tribes (Lithuanians, Latvians, Curonians, Semigallians, Old Prussians)",
+    lt: "Visos baltų gentys (lietuviai, latviai, kuršiai, žiemgaliai, prūsai)",
+    lv: "Visas baltu ciltis (latvieši, lietuvieši, kurši, zemgaļi, prūši)",
   },
   period: {
-    en: "Pre-Christian to Folklore",
-    lt: "Ikikrikščioniškasis laikotarpis iki tautosakos",
-    lv: "Pirmskristīgā ēra līdz folklorai",
+    en: "13th Century (Earliest mention in 1262 Chronograph)",
+    lt: "XIII a. (ankstyviausias paminėjimas 1262 m. chronografe)",
+    lv: "13. gadsimts (agrākā pieminēšana 1262. gada hronogrāfā)",
   },
-  references: ["Ludwig Rhesa: Dainos", "Jonas Basanavičius: Lithuanian Folklore", "Marija Gimbutas: The Balts"],
+  references: [
+    "Ludwig Rhesa: Dainos",
+    "Jonas Basanavičius: Lithuanian Folklore",
+    "Marija Gimbutas: The Balts",
+    "Visuotinė lietuvių enciklopedija: Saulė (https://www.vle.lt/straipsnis/saule/)",
+    "Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/149867)",
+    "Nijolė Laurinkienė: Dangus baltų mitiniame pasaulėvaizdyje (2019)",
+  ],
 };
 
 export const laimaMeta: DeityMeta = {
   slug: "laima",
   name: "Laima",
-  domain: "Person",
+  domain: "God",
   epithet: {
     en: "Weaver of fates at the spring edge",
     lt: "Likimų audėja prie šaltinio krašto",
@@ -243,21 +250,27 @@ export const laimaMeta: DeityMeta = {
     { label: "Offerings", detail: "Flax knots, copper coins, whispered vows" },
   ],
   regionDetails: {
-    en: "Vidzeme / Latgale",
-    lt: "Vidžemė / Latgalia",
-    lv: "Vidzeme / Latgale",
+    en: "Pan-Baltic (Lithuania & Latvia)",
+    lt: "Visos baltų žemės (Lietuva ir Latvija)",
+    lv: "Visas baltu zemes (Lietuva un Latvija)",
   },
   tribe: {
-    en: "Latvians",
-    lt: "Latviai",
-    lv: "Latvieši",
+    en: "All Baltic Tribes (Lithuanians, Latvians, Curonians, Semigallians)",
+    lt: "Visos baltų gentys (lietuviai, latviai, kuršiai, žiemgaliai)",
+    lv: "Visas baltu ciltis (latvieši, lietuvieši, kurši, zemgaļi)",
   },
   period: {
-    en: "18th-19th Century Collections",
-    lt: "XVIII-XIX a. tautosakos rinkiniai",
-    lv: "18.-19. gs. folkloras krājumi",
+    en: "17th Century Records (Earliest mention 1636 P. Einhorn / 1653 D. Klein)",
+    lt: "XVII a. šaltiniai (ankstyviausias paminėjimas 1636 m. P. Einhorn / 1653 m. D. Klein)",
+    lv: "17. gadsimta avoti (agrākā pieminēšana 1636. g. P. Einhorns)",
   },
-  references: ["Krišjānis Barons: Latvju dainas", "Marija Gimbutas", "Vilis Biļķins: Senlatviešu dievības"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Laimė (https://www.vle.lt/straipsnis/laime/)",
+    "Nacionālā enciklopēdija: Latviešu mitoloģija - Laima (https://enciklopedija.lv/skirklis/149867)",
+    "Krišjānis Barons: Latvju dainas",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996-2005)",
+    "Vilis Biļķins: Senlatviešu dievības",
+  ],
 };
 
 export const zemynaMeta: DeityMeta = {
@@ -326,27 +339,32 @@ export const zemynaMeta: DeityMeta = {
     { label: "Offerings", detail: "Milk, rye crowns, crushed herbs" },
   ],
   regionDetails: {
-    en: "Samogitia / Lithuania Minor",
-    lt: "Žemaitija / Mažoji Lietuva",
-    lv: "Žemaitija / Mazā Lietuva",
+    en: "Pan-Baltic (Lithuania & Latvia)",
+    lt: "Visos baltų žemės (Lietuva ir Latvija)",
+    lv: "Visas baltu zemes (Lietuva un Latvija)",
   },
   tribe: {
-    en: "Lithuanians / Samogitians",
-    lt: "Lietuviai / Žemaičiai",
-    lv: "Lietuvieši / Žemaiši",
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
   },
   period: {
-    en: "Late 16th Century Records",
-    lt: "XVI a. pabaigos šaltiniai",
-    lv: "16. gs. beigu avoti",
+    en: "16th Century Records (1547 M. Mažvydas, 1582 J. Łasicki)",
+    lt: "XVI a. šaltiniai (1547 m. M. Mažvydas, 1582 m. J. Lasickis)",
+    lv: "16. gadsimta avoti (1547. g. M. Mažvīds, 1582. g. J. Lasickis)",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Jonas Basanavičius", "Norbertas Vėlius: The World Outlook of the Ancient Lithuanians"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Žemyna (https://www.vle.lt/straipsnis/zemyna/)",
+    "Jan Łasicki: De Diis Samagitarum (1582/1615)",
+    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis (1987)",
+    "Jonas Basanavičius",
+  ],
 };
 
 export const velniasMeta: DeityMeta = {
   slug: "velnias",
   name: "Velnias",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Keeper of hollows and bargains",
     lt: "Daubų ir sandėrių sargas",
@@ -419,17 +437,22 @@ export const velniasMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "Inter-war Period to Recent Collections",
-    lt: "Tarpukaris iki šių dienų rinkinių",
-    lv: "Starpkaru periods līdz mūsdienu krājumiem",
+    en: "13th Century Records (Earliest mention in 1261 Malalas Chronicle)",
+    lt: "XIII a. šaltiniai (ankstyviausias paminėjimas 1261 m. Malalos kronikoje)",
+    lv: "13. gadsimta avoti (agrākā pieminēšana 1261. g. Malalas hronikā)",
   },
-  references: ["Jonas Basanavičius", "Norbertas Vėlius", "Gintaras Beresnevičius: Of Gods and Men"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Velnias (https://www.vle.lt/straipsnis/velnias/)",
+    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis: folklorinio velnio analizė (Vaga, 1987)",
+    "Gintaras Beresnevičius: Dausos (1990) & Trumpas lietuvių mitologijos žodynas (2004)",
+    "Jonas Basanavičius",
+  ],
 };
 
 export const austejaMeta: DeityMeta = {
   slug: "austeja",
   name: "Austėja",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Mistress of bees and blooming edges",
     lt: "Bičių ir žydinčių pakraščių valdovė",
@@ -494,21 +517,25 @@ export const austejaMeta: DeityMeta = {
     { label: "Offerings", detail: "Honeycomb, linden blossoms, smoke" },
   ],
   regionDetails: {
-    en: "Aukštaitija / Dzūkija",
-    lt: "Aukštaitija / Dzūkija",
-    lv: "Augštaitija / Dzūkija",
+    en: "Aukštaitija / Dzūkija / Pan-Baltic",
+    lt: "Aukštaitija / Dzūkija / Visos baltų žemės",
+    lv: "Augštaitija / Dzūkija / Visas baltu zemes",
   },
   tribe: {
-    en: "Lithuanians",
-    lt: "Lietuviai",
-    lv: "Lietuvieši",
+    en: "Lithuanians & Samogitians",
+    lt: "Lietuviai ir Žemaičiai",
+    lv: "Lietuvieši un Žemaiši",
   },
   period: {
-    en: "19th Century Oral Tradition",
-    lt: "XIX a. žodinė tradicija",
-    lv: "19. gs. mutvārdu tradīcija",
+    en: "16th Century Records (1580/1582 J. Łasicki)",
+    lt: "XVI a. šaltiniai (1580/1582 m. J. Lasickis)",
+    lv: "16. gadsimta avoti (1580/1582. g. J. Lasickis)",
   },
-  references: ["Norbertas Vėlius: Mythology of Bees", "Pranas Skardžius: Lithuanian Mythological Names"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum (1582/1615)",
+    "Norbertas Vėlius: Senovės lietuvių pasaulėžiūra (1983)",
+    "Visuotinė lietuvių enciklopedija: Austėja",
+  ],
 };
 
 export const menulisMeta: DeityMeta = {
@@ -577,21 +604,25 @@ export const menulisMeta: DeityMeta = {
     { label: "Offerings", detail: "River silver, white pebbles, silence" },
   ],
   regionDetails: {
-    en: "Coast / Lowlands",
-    lt: "Pajūris / Žemumos",
-    lv: "Piekrastes / Zemienes",
+    en: "Pan-Baltic (Coast & Lowlands)",
+    lt: "Visos baltų žemės (Pajūris ir žemumos)",
+    lv: "Visas baltu zemes (Piekrastes un zemienes)",
   },
   tribe: {
-    en: "Lithuanians / Latvians",
-    lt: "Lietuviai / Latviai",
-    lv: "Lietuvieši / Latvieši",
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
   },
   period: {
-    en: "Folklore Tradition",
-    lt: "Tautosakos tradicija",
-    lv: "Folkloras tradīcija",
+    en: "13th-16th Century Records (1261/1262 Malalas Chronograph)",
+    lt: "XIII-XVI a. šaltiniai (1261/1262 m. Malalos chronografas)",
+    lv: "13.-16. gs. avoti (1261/1262. g. Malalas hronika)",
   },
-  references: ["Jonas Basanavičius", "Ludwig Rhesa: Prutena", "Krišjānis Barons"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Mėnulis",
+    "Krišjānis Barons: Latvju dainas",
+    "Jonas Basanavičius: Lithuanian Folklore",
+  ],
 };
 
 export const dievasMeta: DeityMeta = {
@@ -625,7 +656,7 @@ export const dievasMeta: DeityMeta = {
       note: { en: "Hung in farmyards to carry prayers upward.", lt: "Kabinamas ūkio kiemeliuose, kad maldas nešiotų aukštyn.", lv: "Karāts saimniecību pagalmos, lai nestas lūgšanas augšup." },
     },
     {
-      title: { en: "Star-etched staff", lt: "Žvaigždėmis išraižytas štabas", lv: "Zvaigznēs iezīmēts spieķis" },
+      title: { en: "Star-etched staff", lt: "Žvaigždėmis išraižytas štabas", lv: "Zvaigznēs iezīmėts spieķis" },
       medium: { en: "ash wood", lt: "uosio medis", lv: "ošu koks" },
       note: { en: "Used by elders to note stellar alignments on solstice nights.", lt: "Senolių naudotas žvaigždžių padėčiai fiksuoti saulėgrįžos naktimis.", lv: "Izmantots no vecajiem zvaigžņu izlīdzinājumu atzīmēšanai saulgrieža naktīs." },
     },
@@ -661,27 +692,32 @@ export const dievasMeta: DeityMeta = {
     { label: "Offerings", detail: "Bells, silence, unbroken bread" },
   ],
   regionDetails: {
-    en: "Upper Regions",
-    lt: "Aukštutinės žemės",
-    lv: "Augšzemes",
+    en: "Pan-Baltic (Lithuania, Latvia, Prussia)",
+    lt: "Visos baltų žemės (Lietuva, Latvija, Prūsija)",
+    lv: "Visas baltu zemes (Lietuva, Latvija, Prūsija)",
   },
   tribe: {
-    en: "Lithuanians / Lithuanians Proper",
-    lt: "Lietuviai",
-    lv: "Lietuvieši",
+    en: "All Baltic Tribes",
+    lt: "Visos baltų gentys",
+    lv: "Visas baltu ciltis",
   },
   period: {
-    en: "16th-17th Century Accounts",
-    lt: "XVI-XVII a. aprašymai",
-    lv: "16.-17. gs. apraksti",
+    en: "13th Century Records (1249 Treaty of Christburg, 1261 Malalas)",
+    lt: "XIII a. šaltiniai (1249 m. Kristburgo sutartis, 1261 m. Malalos chronografas)",
+    lv: "13. gadsimta avoti (1249. g. Kristburgas līgums)",
   },
-  references: ["Maciej Stryjkowski: Chronicle of Poland, Lithuania, Samogitia", "Gintaras Beresnevičius", "Jan Łasicki"],
+  references: [
+    "Visuotinė lietuvių enciklopedija: Dievas",
+    "Algirdas Julius Greimas: Of Gods and Men (1992)",
+    "Maciej Stryjkowski: Kronika polska, litewska, żmódzka (1582)",
+    "Jan Łasicki: De Diis Samagitarum (1582)",
+  ],
 };
 
 export const gabijaMeta: DeityMeta = {
   slug: "gabija",
   name: "Gabija",
-  domain: "Person",
+  domain: "God",
   epithet: {
     en: "Ember in the hearth",
     lt: "Žarija židinyje",
@@ -744,9 +780,9 @@ export const gabijaMeta: DeityMeta = {
     { label: "Offerings", detail: "Bread crusts, salt, glowing coals" },
   ],
   regionDetails: {
-    en: "All Domestic Sites",
-    lt: "Visos gyvenamosios vietos",
-    lv: "Visas dzīvojamās vietas",
+    en: "Pan-Baltic (Lithuania & Latvia)",
+    lt: "Visos baltų žemės (Lietuva ir Latvija)",
+    lv: "Visas baltu zemes (Lietuva un Latvija)",
   },
   tribe: {
     en: "All Baltic Tribes",
@@ -754,17 +790,22 @@ export const gabijaMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "15th-16th Century Chroniclers",
-    lt: "XV-XVI a. metraščiai",
-    lv: "15.-16. gs. hronikas",
+    en: "16th Century Records (1582 Jan Łasicki, 1583 Jesuit Reports)",
+    lt: "XVI a. šaltiniai (1582 m. Jonas Lasickis, 1583 m. jėzuitų ataskaitos)",
+    lv: "16. gadsimta avoti (1582. g. J. Lasickis)",
   },
-  references: ["Maciej Stryjkowski", "Jan Łasicki: De Diis Samagitarum", "Jonas Basanavičius"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum (1582/1615) (search: 'Gabie')",
+    "Daiva Vaitkevičienė: Ugnies raiškos lietuvių mitologijoje (LLTI, 2001) (search: 'Gabija')",
+    "Visuotinė lietuvių enciklopedija: Gabija (https://www.vle.lt/straipsnis/gabija-1/)",
+    "Latviešu tautas ticējumi: Uguns (http://valoda.ailab.lv/folklora/ticejumi/uguns.htm) (search: 'Uguns māte')",
+  ],
 };
 
 export const bangputysMeta: DeityMeta = {
   slug: "bangputys",
   name: "Bangpūtys",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Two-faced wind of the Baltic",
     lt: "Dviveidis Baltijos vėjas",
@@ -833,22 +874,26 @@ export const bangputysMeta: DeityMeta = {
     lv: "Kuršu krasts / Prūsija",
   },
   tribe: {
-    en: "Curonians / Prussians",
-    lt: "Kuršiai / Prūsai",
-    lv: "Kurši / Prūši",
+    en: "Curonians / Prussians / Western Lithuanians",
+    lt: "Kuršiai / Prūsai / Pajūrio lietuviai",
+    lv: "Kurši / Prūši / Piekrastes lietuvieši",
   },
   period: {
-    en: "17th Century Maritime Records",
-    lt: "XVII a. jūriniai užrašai",
-    lv: "17. gs. jūrniecības avoti",
+    en: "17th Century Maritime Records (Matthäus Praetorius ~1690)",
+    lt: "XVII a. jūriniai užrašai (Matthäus Praetorius ~1690 m.)",
+    lv: "17. gs. jūrniecības avoti (Matthäus Praetorius ~1690. g.)",
   },
-  references: ["Matthäus Praetorius: Deliciae Prussicae", "Simon Grunau"],
+  references: [
+    "Matthäus Praetorius: Deliciae Prussicae (~1690)",
+    "Rimantas Balsys: Lietuvių ir prūsų dievai, deivės, dvasios: nuo apeigos iki prietaro (2010)",
+    "Visuotinė lietuvių enciklopedija: Bangpūtys (https://www.vle.lt/straipsnis/bangputys/)",
+  ],
 };
 
 export const medineMeta: DeityMeta = {
   slug: "medine",
   name: "Medinė",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Lady of bark and shadow",
     lt: "Žievės ir šešėlių valdovė",
@@ -911,9 +956,9 @@ export const medineMeta: DeityMeta = {
     { label: "Offerings", detail: "Resin drops, moss, quiet footsteps" },
   ],
   regionDetails: {
-    en: "Forest Regions",
-    lt: "Miškų regionai",
-    lv: "Mežu reģioni",
+    en: "Forest Regions / Samogitia & Aukštaitija",
+    lt: "Miškų regionai / Žemaitija ir Aukštaitija",
+    lv: "Mežu reģioni / Žemaitija un Augštaitija",
   },
   tribe: {
     en: "Lithuanians / Samogitians",
@@ -921,26 +966,31 @@ export const medineMeta: DeityMeta = {
     lv: "Lietuvieši / Žemaiši",
   },
   period: {
-    en: "13th Century Chroniclers",
-    lt: "XIII a. metraščiai",
-    lv: "13. gs. hronikas",
+    en: "13th Century Chroniclers (1252 Volhynian Chron. 'Medein', 1261 Malalas)",
+    lt: "XIII a. šaltiniai (1252 m. Ipatijaus metraštis 'Medein', 1261 m. Malalos chronografas)",
+    lv: "13. gadsimta hronikas (1252. g. Volīnijas hronika 'Medein')",
   },
-  references: ["Volhynian Chronicle", "Ipatios Chronicle (1252 mention)", "Norbertas Vėlius"],
+  references: [
+    "Volhynian / Hypatian Chronicle (1252 mention: 'Medein')",
+    "Malalas Chronicle Slavonic translation (1261)",
+    "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Visuotinė lietuvių enciklopedija: Medeina (https://www.vle.lt/straipsnis/medeina/)",
+  ],
 };
 
 export const giltineMeta: DeityMeta = {
   slug: "giltine",
   name: "Giltinė",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Tall pale woman at the threshold",
     lt: "Aukšta blyški moteris prie slenksčio",
     lv: "Gara bāla sieviete pie sliekšņa",
   },
   summary: {
-    en: "Death comes not as a monster but as a pale woman with a long tongue, licking the dying to ease their passage.",
-    lt: "Mirtis ateina ne kaip pabaisos, bet kaip blyški moteris ilgu liežuviu, laižanti mirštančiuosius ir palengvinanti jų perėjimą.",
-    lv: "Nāve nāk ne kā briesmonis, bet kā bāla sieviete ar garu mēli, laizot mirstošos, lai atvieglotu viņu pāreju.",
+    en: "The Baltic goddess of death and sister of Laima; she appears as a tall pale woman clad in white, inflicting fatal venom with her long tongue at the mortal threshold.",
+    lt: "Lietuvių mirties deivė ir Laimos sesuo; vaizduojama kaip aukšta blyški moteris baltais drabužiais, nešanti mirtį savo nuodingu liežuviu prie žmogiškojo slenksčio.",
+    lv: "Baltu nāves dieviete un Laimas māsa; attēlota kā gara bāla sieviete baltās drēbēs, kas nes nāvi ar savu indīgo mēli pie cilvēka sliekšņa.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80",
@@ -1004,13 +1054,15 @@ export const giltineMeta: DeityMeta = {
     lv: "Lietuvieši / Žemaiši",
   },
   period: {
-    en: "16th-17th Century Records",
-    lt: "XVI-XVII a. šaltiniai",
-    lv: "16.-17. gadsimta avoti",
+    en: "16th-17th Century Records (1582 Jan Łasicki, 1690 M. Praetorius)",
+    lt: "XVI-XVII a. šaltiniai (1582 m. Jonas Lasickis, 1690 m. M. Praetorius)",
+    lv: "16.-17. gadsimta avoti (1582. g. J. Lasickis)",
   },
   references: [
     "Jan Łasicki: De Diis Samagitarum (1582)",
     "Matthäus Praetorius: Deliciae Prussicae (~1690)",
+    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis (1987)",
+    "Visuotinė lietuvių enciklopedija: Giltinė (https://www.vle.lt/straipsnis/giltine/)",
   ],
 };
 
@@ -1080,21 +1132,22 @@ export const pukisMeta: DeityMeta = {
     { label: "Offerings", detail: "Grain, cream, black bread" },
   ],
   regionDetails: {
-    en: "Kurzeme / Zemgale",
-    lt: "Kuršas / Žiemgala",
-    lv: "Kurzeme / Zemgale",
+    en: "Kurzeme / Zemgale / Lower Lithuania",
+    lt: "Kuršas / Žiemgala / Pajūrio Lietuva",
+    lv: "Kurzeme / Zemgale / Piekrastes Lietuva",
   },
   tribe: {
-    en: "Latvians / Semigallians",
-    lt: "Latviai / Žiemgaliai",
-    lv: "Latvieši / Zemgaļi",
+    en: "Latvians / Semigallians / Curonians",
+    lt: "Latviai / Žiemgaliai / Kuršiai",
+    lv: "Latvieši / Zemgaļi / Kurši",
   },
   period: {
-    en: "18th-19th Century Folklore",
-    lt: "XVIII-XIX a. tautosaka",
-    lv: "18.-19. gadsimta folklora",
+    en: "17th-19th Century Records (1690 M. Praetorius, P. Šmits)",
+    lt: "XVII-XIX a. šaltiniai (1690 m. M. Praetorius, P. Šmits)",
+    lv: "17.-19. gadsimta avoti (1690. g. M. Praetorius)",
   },
   references: [
+    "Matthäus Praetorius: Deliciae Prussicae (~1690)",
     "Pēteris Šmits: Latviešu pasakas un teikas (1925–37)",
     "Latvijas Nacionālā enciklopēdija",
   ],
@@ -1103,7 +1156,7 @@ export const pukisMeta: DeityMeta = {
 export const ausrineMeta: DeityMeta = {
   slug: "ausrine",
   name: "Aušrinė",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Handmaiden who kindles the sky",
     lt: "Tarnaitė, uždeganti dangų",
@@ -1166,22 +1219,24 @@ export const ausrineMeta: DeityMeta = {
     { label: "Offerings", detail: "Dew water, golden thread, smoke" },
   ],
   regionDetails: {
-    en: "Žemaitija / Pan-Lithuanian",
-    lt: "Žemaitija / Visa Lietuva",
-    lv: "Žemaitija / Visa Lietuva",
+    en: "Pan-Baltic (Lithuania & Latvia)",
+    lt: "Visos baltų žemės (Lietuva ir Latvija)",
+    lv: "Visas baltu zemes (Lietuva un Latvija)",
   },
   tribe: {
-    en: "Lithuanians / Samogitians",
-    lt: "Lietuviai / Žemaičiai",
-    lv: "Lietuvieši / Žemaiši",
+    en: "Lithuanians / Samogitians / Latvians",
+    lt: "Lietuviai / Žemaičiai / Latviai",
+    lv: "Lietuvieši / Žemaiši / Latvieši",
   },
   period: {
-    en: "16th Century Sources",
-    lt: "XVI a. šaltiniai",
-    lv: "16. gadsimta avoti",
+    en: "16th Century Sources (1582 Jan Łasicki 'Ausca')",
+    lt: "XVI a. šaltiniai (1582 m. Jonas Lasickis 'Ausca')",
+    lv: "16. gadsimta avoti (1582. g. J. Lasickis 'Ausca')",
   },
   references: [
     "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Krišjānis Barons: Latvju dainas (Auseklis)",
+    "Visuotinė lietuvių enciklopedija: Aušrinė (https://www.vle.lt/straipsnis/ausrine/)",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)",
   ],
 };
@@ -1224,26 +1279,26 @@ export const maraMeta: DeityMeta = {
   ],
   locations: [
     {
-      id: "lielvarde-earth-ground",
-      name: "Lielvārde Sacred Ground",
-      coordinates: [56.71, 24.80],
+      id: "gauja-cliff",
+      name: "Gauja Valley Clay Cliff",
+      coordinates: [57.15, 24.85],
       region: "Latvia",
-      description: "Ancient Daugava settlement associated with Māra earth rituals and the sacred belt tradition.",
-      siteType: "Sacrifice / offering sites",
-      aura: "moss",
-      deity: "mara",
-      significance: "The Lielvārdes josta — a sacred ornamental belt — embodies Māra's cosmic order.",
-    },
-    {
-      id: "zemgale-grain-field",
-      name: "Zemgale Grain Fields",
-      coordinates: [56.47, 24.43],
-      region: "Latvia",
-      description: "The broad Zemgale plain where Māra's presence was felt in every plowed furrow.",
-      siteType: "Seasonal festival locations",
+      description: "Red sandstone bank where milk was poured into hollows at springtime.",
+      siteType: "Springs, rivers, lakes with cult significance",
       aura: "amber",
       deity: "mara",
       significance: "On March 25 — Māras diena — farmers first touched the soil to invite her blessing.",
+    },
+    {
+      id: "eleja-stone",
+      name: "Eleja Hollow Stone",
+      coordinates: [56.4259, 23.6934],
+      region: "Latvia",
+      description: "A massive glacial erratic boulder with a deep hollow cup-mark on its upper surface, integrated into the stone wall of Eleja Manor park.",
+      siteType: "Ritual stones",
+      aura: "moss",
+      deity: "mara",
+      significance: "Historically revered as a sacred offering stone where peasants left libations of milk, grain, or beer to secure soil fertility.",
     },
   ],
   materialLegacy: ["Māra's cross amulets", "Sacred cattle skull barn charms"],
@@ -1348,13 +1403,15 @@ export const jumisMeta: DeityMeta = {
     lv: "Latvieši",
   },
   period: {
-    en: "13th Century Attestation / 18th-19th Century Collection",
-    lt: "XIII a. paliudijimas / XVIII-XIX a. rinkimas",
-    lv: "13. gs. apliecinājums / 18.-19. gs. krākums",
+    en: "17th-18th Century Records (1627 P. Einhorn) & Oral Dainas",
+    lt: "XVII-XVIII a. šaltiniai (1627 m. P. Einhorn) ir dainos",
+    lv: "17.-18. gadsimta avoti (1627. g. P. Einhorns) un dainas",
   },
   references: [
-    "Henricus de Lettis: Chronicon Livoniae (c.1227)",
+    "Paul Einhorn: Wiederlegunge der Abgötterey (1627) & Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
+    "Liene Neulande: Jumis senlatviešu reliģijā (1977)",
+    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/15893)",
   ],
 };
 
@@ -1447,7 +1504,7 @@ export const usinsMeta: DeityMeta = {
 export const vakarineMeta: DeityMeta = {
   slug: "vakarine",
   name: "Vakarinė",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Silver lamp that tucks the sun to rest",
     lt: "Sidabrinis žibintas, guldantis saulę miegoti",
@@ -1511,9 +1568,9 @@ export const vakarineMeta: DeityMeta = {
     { label: "Offering", detail: "Flax candles and silver thread" },
   ],
   regionDetails: {
-    en: "Pan-Baltic (Lithuania, Latvia)",
-    lt: "Visos baltų žemės (Lietuva, Latvija)",
-    lv: "Visu baltu zemes (Lietuva, Latvija)",
+    en: "Pan-Baltic (Lithuania & Latvia)",
+    lt: "Visos baltų žemės (Lietuva ir Latvija)",
+    lv: "Visas baltu zemes (Lietuva un Latvija)",
   },
   tribe: {
     en: "All Baltic Tribes",
@@ -1521,14 +1578,15 @@ export const vakarineMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "Ancient — first recorded by Łasicki (1582)",
-    lt: "Seniausieji laikai — pirmą kartą užrašyta Łasicki (1582)",
-    lv: "Senākie laiki — pirmoreiz pierakstīts no Łasicki (1582)",
+    en: "16th Century Sources (1582 Jan Łasicki)",
+    lt: "XVI a. šaltiniai (1582 m. Jonas Lasickis)",
+    lv: "16. gadsimta avoti (1582. g. J. Lasickis)",
   },
   references: [
-    "Łasicki, Jan: De Diis Samagitarum (1582; publ. 1615)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Biezais, Haralds: Die himmlische Götterfamilie der alten Letten (1972)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
+    "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
+    "Visuotinė lietuvių enciklopedija: Vakarinė (https://www.vle.lt/straipsnis/vakarine/)",
   ],
 };
 
@@ -1665,31 +1723,31 @@ export const daliaMeta: DeityMeta = {
     { label: "Companion", detail: "Works alongside Laima" },
   ],
   regionDetails: {
-    en: "Pan-Baltic (Lithuania, Latvia)",
-    lt: "Visos baltų žemės (Lietuva, Latvija)",
-    lv: "Visu baltu zemes (Lietuva, Latvija)",
+    en: "Lithuania (Aukštaitija & Samogitia)",
+    lt: "Lietuva (Aukštaitija ir Žemaitija)",
+    lv: "Lietuva (Augštaitija un Žemaitija)",
   },
   tribe: {
-    en: "All Baltic Tribes",
-    lt: "Visos baltų gentys",
-    lv: "Visas baltu ciltis",
+    en: "Lithuanians & Samogitians",
+    lt: "Lietuviai ir Žemaičiai",
+    lv: "Lietuvieši un Žemaiši",
   },
   period: {
-    en: "Ancient — reconstructed from folk tradition and Vėlius (1983)",
-    lt: "Seniausieji laikai — atkurta iš liaudies tradicijos ir Vėliaus (1983)",
-    lv: "Senākie laiki — rekonstruēts no tautas tradīcijas un Vēliusa (1983)",
+    en: "19th-20th Century Folklore Reconstruction (N. Vėlius 1983)",
+    lt: "XIX-XX a. tautosakos rekonstrukcija (N. Vėlius 1983)",
+    lv: "19.-20. gs. folkloras rekonstrukcija",
   },
   references: [
-    "Vėlius, Norbertas: Senovės baltų pasaulėžiūra (1983)",
-    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Norbertas Vėlius: Senovės baltų pasaulėžiūra (1983)",
+    "Algirdas Julius Greimas: Of Gods and Men (1992)",
+    "Visuotinė lietuvių enciklopedija: Dalia (https://www.vle.lt/straipsnis/dalia/)",
   ],
 };
 
 export const patollaMeta: DeityMeta = {
   slug: "patollo",
   name: "Patollo",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Pale elder shrouded in white at the world's root",
     lt: "Blyškus senis, baltu drobule aprištu galva prie pasaulio šaknų",
@@ -1752,14 +1810,15 @@ export const patollaMeta: DeityMeta = {
     lv: "Senie prūši (Prūsi)",
   },
   period: {
-    en: "Medieval — recorded by Simon Grunau (1529)",
-    lt: "Viduramžiai — užrašė Simonas Grunau (1529)",
-    lv: "Viduslaiki — pierakstīts no Simona Grunau (1529)",
+    en: "Medieval — 1418 Warmia Document ('patollu') & Simon Grunau (1529)",
+    lt: "Viduramžiai — 1418 m. Varmės dokumentas ('patollu') ir Simonas Grunau (1529)",
+    lv: "Viduslaiki — 1418. g. Vārmijas dokuments un Simonas Grunau (1529)",
   },
   references: [
+    "Collatio Episcopi Warmiensis (1418 Warmia document: 'patollu')",
     "Grunau, Simon: Preussische Chronik (1529)",
     "Sudauer Büchlein / Sudovian Book (16th c.)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Visuotinė lietuvių enciklopedija: Baltų mitologija (https://www.vle.lt/straipsnis/baltu-mitologija/)",
   ],
 };
 
@@ -1782,8 +1841,8 @@ export const patrimpAsMeta: DeityMeta = {
   overlay: "rgba(80, 150, 60, 0.22)",
   accent: "#6ca846",
   altNames: {
-    en: "Potrimpas, Patrimpo",
-    lt: "Potrimpas, Patrimpo",
+    en: "Potrimpas, Patrimpo, Natrimpe",
+    lt: "Potrimpas, Patrimpo, Natrimpe",
     lv: "Potrimpas, Patrimpo",
   },
   keywords: ["youth", "harvest", "spring", "fertility", "prussian", "romuva", "rivers", "grain crown"],
@@ -1796,7 +1855,7 @@ export const patrimpAsMeta: DeityMeta = {
     {
       title: { en: "Spring waters vessel", lt: "Pavasario vandenų indas", lv: "Pavasara ūdeņu trauks" },
       medium: { en: "clay jug", lt: "molinis ąsotis", lv: "māla krūze" },
-      note: { en: "Used to carry first river-water of spring as an offering to Patrimpas.", lt: "Naudotas pirmajam pavasario upės vandeniui nešti kaip pasiūlymas Patrimpasui.", lv: "Izmantots pirmā pavasara upes ūdens nešanai kā upuris Patrimpam." },
+      note: { en: "Used to carry first river-water of spring as an offering to Patrimpas.", lt: "Naudotas pirmajam pavasario upės vandeniui nešti kaip pasiūlymas Patrimpasui.", lv: "Izmantots pirmā pavasara ūdens nešanai kā upuris Patrimpam." },
     },
   ],
   locations: [
@@ -1829,21 +1888,22 @@ export const patrimpAsMeta: DeityMeta = {
     lv: "Senie prūši (Prūsi)",
   },
   period: {
-    en: "Medieval — recorded by Simon Grunau (1529)",
-    lt: "Viduramžiai — užrašė Simonas Grunau (1529)",
-    lv: "Viduslaiki — pierakstīts no Simona Grunau (1529)",
+    en: "Medieval — recorded in 1418 Warmia document ('Natrimpe') and Simon Grunau (1529)",
+    lt: "Viduramžiai — 1418 m. Varmės dokumentas ('Natrimpe') ir Simonas Grunau (1529)",
+    lv: "Viduslaiki — 1418. g. Vārmijas dokuments ('Natrimpe') un Simonas Grunau (1529)",
   },
   references: [
+    "Collatio Episcopi Warmiensis (1418 Warmia document: 'Natrimpe')",
     "Grunau, Simon: Preussische Chronik (1529)",
     "Sudauer Büchlein / Sudovian Book (16th c.)",
-    "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai (1996)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996)",
   ],
 };
 
 export const autrimpasMeta: DeityMeta = {
   slug: "autrimpas",
   name: "Autrimpas",
-  domain: "Creature",
+  domain: "God",
   epithet: {
     en: "Neptune of the amber sea, lord of the Baltic deep",
     lt: "Gintarų jūros Neptūnas, Baltijos gelmių valdovas",
@@ -1906,14 +1966,14 @@ export const autrimpasMeta: DeityMeta = {
     lv: "Senie prūši / sembi",
   },
   period: {
-    en: "Medieval — recorded in Grunau (1529) and Sudovian Book (16th c.)",
-    lt: "Viduramžiai — Grunau (1529) ir Sūduvių knygelė (XVI a.)",
-    lv: "Viduslaiki — Grunau (1529) un Sudāviešu grāmatiņa (16. gs.)",
+    en: "16th Century (Sudovian Book c. 1520–1530 & Jan Malecki 1551)",
+    lt: "XVI a. (Sūduvių knygelė ~1520–1530 m. ir J. Maleckis 1551 m.)",
+    lv: "16. gs. (Sudāviešu grāmatiņa ~1520–1530 un J. Maļeckis 1551)",
   },
   references: [
-    "Grunau, Simon: Preussische Chronik (1529)",
-    "Sudauer Büchlein / Sudovian Book (16th c.)",
-    "VLE: Visuotinė lietuvių enciklopedija (vle.lt)",
+    "Sudauer Büchlein / Sudovian Book (c. 1520–1530)",
+    "Jan Malecki: Libellus de sacrificiis et idolatria (1551)",
+    "Gintaras Beresnevičius: Autrimpas (Visuotinė lietuvių enciklopedija, T. II, 2002)",
   ],
 };
 

@@ -27,31 +27,34 @@ export const aukstaitijaOaksMeta: LocationMeta = {
   references: ["Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"],
 };
 
-export const jelgavaStoneMeta: LocationMeta = {
-  id: "jelgava-stone",
+export const elejaStoneMeta: LocationMeta = {
+  id: "eleja-stone",
   name: {
-    en: "Jelgava Sky-Stone",
-    lt: "Jelgavos Dangaus Akmuo",
-    lv: "Jelgavas Debess Akmens",
+    en: "Eleja Hollow Stone",
+    lt: "Elejas dobumakmens",
+    lv: "Elejas dobumakmens",
   },
-  coordinates: [56.65, 23.72],
+  coordinates: [56.4259, 23.6934],
   region: "Latvia",
   description: {
-    en: "A glacial erratic etched with spiral burn marks after cloud-fire nights.",
-    lt: "Ledyninis riedulys, išraižytas spiraliniais degimo ženklais po debesų ugnies naktų.",
-    lv: "Ledāja nesējs ar spirālveida dedzināšanas zīmēm pēc mākoņuguns naktīm.",
+    en: "A massive glacial erratic boulder with a deep hollow cup-mark on its upper surface, integrated into the stone wall of Eleja Manor park.",
+    lt: "Masyvus ledyninis riedulys su gilia dubens formos duobute viršutiniame paviršiuje, įmūrytas į Elejos dvaro parko akmeninę tvorą.",
+    lv: "Milzīgs ledāja atvests laukakmens ar dziļu kausveida dobumu tā virspusē, kas iemūrēts Elejas muižas parka akmens žogā.",
   },
   siteType: "Ritual stones",
   aura: "moss",
-  deity: "perkunas",
+  deity: "mara",
   significance: {
-    en: "Used to divine the coming of dry thunder over Zemgale fields.",
-    lt: "Naudojamas sausojo griaustinio atėjimui virš Žiemgalos laukų nuspėti.",
-    lv: "Izmantots sausā pērkona paredzēšanai virs Zemgales laukiem.",
+    en: "Historically revered as a sacred offering stone where peasants left libations of milk, grain, or beer to secure soil fertility.",
+    lt: "Istoriškai gerbtas kaip šventas aukojimo akmuo, ant kurio valstiečiai palikdavo pieno, grūdų ar alaus aukas žemės derlingumui užtikrinti.",
+    lv: "Vēsturiski cienīts kā svēts upurakmens, uz kura zemnieki atstāja piena, graudu vai alus ziedojumus, lai nodrošinātu augsnes auglību.",
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
-  period: { en: "Medieval / Folk tradition", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Pēteris Šmits: Latviešu mitoloģija", "LNE: Pērkons"],
+  period: { en: "Bronze to Iron Age / later folklore", lt: "Bronzos-geležies amžius / vėlesnė tautosaka", lv: "Bronzas līdz dzelzs laikmets / vēlākā folklora" },
+  references: [
+    "Juris Urtāns: Pēdakmeņi, robežakmeņi, muldakmeņi (1990)",
+    "Latvian Folklore Repository (garamantas.lv)",
+  ],
 };
 
 export const siauliaiHillMeta: LocationMeta = {
@@ -265,12 +268,15 @@ export const svendubresStoneMeta: LocationMeta = {
     lt: "Padavimai pasakoja, kad Velnias numetė šį akmenį mėgindamas užtvenkti Nemuną, o archeologai jį priskiria dubenuotiesiems apeiginiams akmenims ir šventiems rieduliams.",
     lv: "Teikas stāsta, ka Velns nometis šo akmeni, mēģinot aizsprostot Nemunu, savukārt arheologi to pieskaita bedrīšu rituālajiem akmeņiem un svētajiem laukakmeņiem.",
   },
-  tribe: { en: "Lithuanians (Dzukians)", lt: "Lietuviai (Dzūkai)", lv: "Lietuvieši (Dzūki)" },
+  tribe: { en: "Dzūkians", lt: "Dzūkai", lv: "Dzūki" },
   period: { en: "Bronze to Early Iron Age / later folklore", lt: "Bronzos ir ankstyvojo geležies amžiaus / vėlesnė tautosaka", lv: "Bronzas līdz agrā dzelzs laikmeta / vēlākā folklora" },
   references: [
     "VLE: Švendubrės akmuo (https://www.vle.lt/straipsnis/svendubres-akmuo/)",
     "Tarasenka, Petras: Lietuvos archeologijos medžiaga (1928)",
     "Vaitkevičius, Vykintas: Žvalgomoji ekspedicija Raigardo slėnyje (1998-1999; cited by VLE)",
+    "Vincas Krėvė-Mickevičius: Padavimai apie Raigrodo miestą (Tauta ir žodis, 1923)",
+    "Vykintas Vaitkevičius: Šventa Dubrė – Raigardas (Būdas, 2022)",
+    "KVR: Švendubrės akmuo su dubenėliais / Velnio akmuo (Unique Code: 13037)",
   ],
 };
 
@@ -823,24 +829,24 @@ export const sventaragisValleyMeta: LocationMeta = {
     lt: "Šventaragio slėnis",
     lv: "Šventaraga ieleja",
   },
-  coordinates: [54.68, 25.28],
+  coordinates: [54.686, 25.288],
   region: "Lithuania",
   description: {
-    en: "The sacred valley where the Grand Dukes of Lithuania were cremated with their horses and hounds.",
-    lt: "Šventas slėnis, kuriame Lietuvos didieji kunigaikščiai buvo deginami kartu su žirgais ir šunimis.",
-    lv: "Svētā ieleja, kurā Lietuvas dižkunigaiši tika kremēti kopā ar zirgiem un suņiem.",
+    en: "The sacred valley at the confluence of the Neris and Vilnia rivers where the Grand Dukes of Lithuania were cremated with their horses and war gear according to the mythic founder legend.",
+    lt: "Šventas slėnis Neries ir Vilnios santakoje, kuriame Lietuvos didieji kunigaikščiai buvo deginami pagal Šventaragio legendą.",
+    lv: "Svētā ieleja Nēres un Viļņas satekā, kurā Lietuvas dižkunigaiši tika kremēti saskaņā ar šo teiku.",
   },
   siteType: "Sacrifice / offering sites",
   aura: "amber",
   deity: "dievas",
   significance: {
-    en: "The symbolic heart of the old faith, where the transition of rulers was sanctified by fire.",
-    lt: "Simbolinė senojo tikėjimo širdis, kur valdovų perėjimas buvo pašventintas ugnimi.",
-    lv: "Sveno ticību simboliskā sirds, kur valdnieku pāreja tika iesvētīta ar uguni.",
+    en: "The symbolic heart of pre-Christian Lithuania, recorded in 16th-century chronicles as the central royal cremation precinct.",
+    lt: "Simbolinė ikikrikščioniškos Lietuvos širdis, XVI a. kronikose įvardyta kaip kunigaikščių deginimo vieta.",
+    lv: "Pirmskristīgās Lietuvas simboliskā sirds, 16. gadsimta hronikās minēta kā dižkunigaišu kremācijas vieta.",
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "13th Century Records", lt: "XIII a. rašytiniai šaltiniai", lv: "13. gadsimta rakstītie avoti" },
-  references: ["Chronicle of Bychowiec", "Maciej Stryjkowski: Chronicle"],
+  period: { en: "14th-16th Century Chronicles", lt: "XIV-XVI a. kronikos", lv: "14.-16. gadsimta hronikas" },
+  references: ["Chronicle of Bychowiec (c. 1530)", "Maciej Stryjkowski: Kronika Polska, Litewska, Żmódzka (1582)", "Visuotinė lietuvių enciklopedija: Šventaragio slėnis (vle.lt)"],
 };
 
 export const rambynasHillMeta: LocationMeta = {
@@ -850,24 +856,24 @@ export const rambynasHillMeta: LocationMeta = {
     lt: "Rambyno kalnas",
     lv: "Rambīna kalns",
   },
-  coordinates: [55.09, 22.02],
+  coordinates: [55.0845, 21.9056],
   region: "Lithuania",
   description: {
-    en: "A sacred hill on the Nemunas river, once topped with a massive sacrificial stone.",
-    lt: "Šventa kalva Nemuno pakrantėje, kadaise vainikuota milžinišku aukuro akmeniu.",
+    en: "A sacred hill in Pagėgiai municipality overlooking the Nemunas River, historically crowned with a massive sacrificial stone until its destruction in 1811.",
+    lt: "Šventa kalva Pagėgių savivaldybėje prie Nemuno, kadaise vainikuota milžinišku aukuro akmeniu.",
     lv: "Svētais kalns Nemunas krastā, kuru kādreiz vainagoja milzīgs upurakmens.",
   },
   siteType: "Mythic hills / burial mounds",
   aura: "moss",
   deity: "perkunas",
   significance: {
-    en: "A central site for seasonal festivals where offerings for field fertility were made.",
-    lt: "Centrinė sezoninių švenčių vieta, kur buvo nešamos aukos laukų derlingumui.",
-    lv: "Centrālā sezonas svētku vieta, kur tika nesti upuri lauku auglībai.",
+    en: "Recorded by Matthäus Praetorius as the supreme sacred hill of the Scalvians and Lithuanians for harvest offerings to Perkūnas and Laimė.",
+    lt: "M. Pretorijaus paminėtas kaip skalvių ir lietuvių šventakalnis Perkūno ir Laimės aukoms.",
+    lv: "M. Pretorija pieminēts kā skalvju un lietuviešu svētkalns upuriem Pērkonam un Laimai.",
   },
-  tribe: { en: "Scalvians / Lithuanians", lt: "Skalviai / Lietuviai", lv: "Skalvji / Lietuvieši" },
-  period: { en: "14th-16th Century", lt: "XIV-XVI a.", lv: "14.-16. gadsimts" },
-  references: ["VLE: Rambynas", "Matthäus Praetorius: Deliciae Prussicae"],
+  tribe: { en: "Scalvians, Lithuanians", lt: "Skalviai, lietuviai", lv: "Skalvji, lietuvieši" },
+  period: { en: "14th-17th Century Records", lt: "XIV-XVII a. šaltiniai", lv: "14.-17. gadsimta avoti" },
+  references: ["Matthäus Praetorius: Deliciae Prussicae (c. 1690)", "Visuotinė lietuvių enciklopedija: Rambynas (vle.lt)"],
 };
 
 export const biruteHillMeta: LocationMeta = {
@@ -877,24 +883,24 @@ export const biruteHillMeta: LocationMeta = {
     lt: "Birutės kalnas",
     lv: "Birutes kalns",
   },
-  coordinates: [55.9, 21.05],
+  coordinates: [55.9061, 21.0539],
   region: "Lithuania",
   description: {
-    en: "A high coastal dune where the priestess Birutė was said to have guarded the sacred fire.",
-    lt: "Aukšta pajūrio kopa, kur, sakoma, vaidilutė Birutė saugojo šventąją ugnį.",
-    lv: "Augsta piekrastes kāpa, kur, kā mēdz teikt, priesteriene Birute sargāja svēto uguni.",
+    en: "A high coastal dune and ancient pagan sanctuary in Palanga where Grand Duchess Birutė was buried, according to 16th-century Lithuanian chronicles.",
+    lt: "Aukšta pajūrio kopa ir pagonystės alka Palangoje, kur pagal XVI a. metraščius palaidota kunigaikštienė Birutė.",
+    lv: "Augsta piekrastes kāpa un sena svētvieta Palangā, kur apglabāta dižkunigaitiene Birute.",
   },
   siteType: "Hearth cult zones",
   aura: "amber",
   deity: "gabija",
   significance: {
-    en: "A symbol of the persistence of the old faith and the cult of the sacred fire.",
-    lt: "Senojo tikėjimo išlikimo ir šventosios ugnies kulto simbolis.",
-    lv: "Senās ticības saglabāšanās un svētās uguns kulta simbols.",
+    en: "Excavations revealed an 11th–14th century pagan observatory post arrangement and hearth structure.",
+    lt: "Archoeloginiai kasinėjimai atskleidė XI–XIV a. palydovinę alko krosnį ir stulpų stebyklą.",
+    lv: "Arheoloģiskajos izrakumos atklāta 11.–14. gadsimta svētvietas mūra krāsns un stabu observatorija.",
   },
-  tribe: { en: "Curonians / Lithuanians", lt: "Kuršiai / Lietuviai", lv: "Kurši / Lietuvieši" },
-  period: { en: "14th Century", lt: "XIV a.", lv: "14. gadsimts" },
-  references: ["Jan Długosz: Annales", "VLE: Birutė"],
+  tribe: { en: "Curonians, Lithuanians", lt: "Kuršiai, lietuviai", lv: "Kurši, lietuvieši" },
+  period: { en: "11th-14th Century Sanctuary", lt: "XI-XIV a. alka", lv: "11.-14. gadsimta svētvieta" },
+  references: ["Chronicle of Bychowiec (c. 1530)", "Vladas Žulkus: Palangos viduramžių gyvenvietės ir alka (1997)", "Visuotinė lietuvių enciklopedija: Birutės kalnas (vle.lt)"],
 };
 
 export const lopaiciaiComplexMeta: LocationMeta = {
@@ -904,24 +910,24 @@ export const lopaiciaiComplexMeta: LocationMeta = {
     lt: "Lopaičių alkakalnis",
     lv: "Lopaiču svētvieta",
   },
-  coordinates: [55.74, 22.18],
+  coordinates: [55.746, 22.186],
   region: "Lithuania",
   description: {
-    en: "A multi-layered sacred site in Samogitia featuring a mound, a dolmen-like stone, and a healing spring.",
-    lt: "Daugiasluoksnė šventvietė Žemaitijoje su alkakalniu, dolmeniniu akmeniu ir gydomuoju šaltiniu.",
-    lv: "Daudzslāņu svētvieta Žemaitijā ar pilskalnu, dolmenam līdzīgu akmeni un dziedniecisku avotu.",
+    en: "A multi-layered pagan sanctuary in Samogitia featuring a hillfort, dolmen-like stone arrangement, and a spring.",
+    lt: "Daugiasluoksnė pagonybės šventvietė Žemaitijoje su alkakalniu, dolmeniniu akmeniu ir šaltiniu.",
+    lv: "Daudzslāņu svētvieta Žemaitijā ar pilskalnu, dolmenam līdzīgu akmeni un avotu.",
   },
   siteType: "Mythic hills / burial mounds",
   aura: "moss",
   deity: "zemyna",
   significance: {
-    en: "Considered a modern spiritual heart of Samogitia, believed to be an ancient astronomical and ritual center.",
-    lt: "Laikoma modernia Žemaitijos dvasine širdimi, senoviniu astronominiu ir ritualiniu centru.",
-    lv: "Tiek uzskatīta par mūsdienu Žemaitijas garīgo sirdi, senu astronomisko un rituālo centru.",
+    en: "One of Samogitia's most prominent preserved sacred sites, associated with ancient earth and water rites.",
+    lt: "Viena ryškiausių Žemaitijoje išlikusių šventviečių, susijusi su senovinėmis žemės ir vandens apeigomis.",
+    lv: "Viena no ievērojamākajām saglabātajām Žemaitijas svētvietām.",
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
-  period: { en: "1st Millennium AD", lt: "I tūkstantmetis po Kr.", lv: "1. tūkstošgade p.m.ē." },
-  references: ["Rietavas Tourism Information Center", "VLE: Lopaičių alkakalnis"],
+  period: { en: "1st Millennium AD - Middle Ages", lt: "I tūkstantmetis - Viduramžiai", lv: "1. tūkstošgade - Viduslaiki" },
+  references: ["Vykintas Vaitkevičius: Senosios Lietuvos šventvietės (1998)", "Visuotinė lietuvių enciklopedija: Lopaičių piliakalnis (vle.lt)"],
 };
 
 export const hillOfCrossesMeta: LocationMeta = {
@@ -931,20 +937,20 @@ export const hillOfCrossesMeta: LocationMeta = {
     lt: "Kryžių kalnas",
     lv: "Krustu kalns",
   },
-  coordinates: [56.01, 23.41],
+  coordinates: [56.0153, 23.4167],
   region: "Lithuania",
   description: {
-    en: "A non-traditional hillfort covered in thousands of crosses, symbolizing national and spiritual endurance.",
-    lt: "Netradicinis piliakalnis, nuklotas tūkstančiais kryžių, simbolizuojantis tautinę ir dvasinę stiprybę.",
-    lv: "Netradicionāls pilskalns, kuru klāj tūkstošiem krustu, simbolizējot tautas un garīgo izturību.",
+    en: "The historic Jurgaičiai (Domantai) hillfort near Šiauliai, repurposed since the 1831 uprising into a global site of spiritual resistance.",
+    lt: "Istorinis Jurgaičių piliakalnis netoli Šiaulių, po 1831 m. sukilimo tapęs dvasinio pasipriešinimo kryžių kalnu.",
+    lv: "Vēsturiskais Jurgaiču pilskalns pie Šauļiem, kas pēc 1831. gada sacelšanās kļuvis par dvasīgās pretestības vietu.",
   },
   siteType: "Mythic hills / burial mounds",
   aura: "mist",
   deity: "dievas",
   significance: {
-    en: "Originally a pre-Christian sacred site, it transformed into a site of resistance and faith after the 19th-century uprisings.",
-    lt: "Pradžioje buvusi ikikrikščioniška šventvietė, po XIX a. sukilimų ji tapo pasipriešinimo ir tikėjimo simboliu.",
-    lv: "Sākotnēji pirmskristīga svētvieta, pēc 19. gadsimta sacelšanās tā kļuva par pretošanās un ticības simbolu.",
+    en: "Built on an Iron Age hillfort, blending ancient sacred mound reverence with centuries of devotional offerings.",
+    lt: "Iškilo ant geležies amžiaus piliakalnio, sujungdamas senąją kalvos šventumo tradiciją su amžių aukomis.",
+    lv: "Pacēlies uz dzelzs laikmeta pilskalna, apvienojot senā kalna svētumu ar gadsimtu upuriem.",
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "14th Century Origin", lt: "XIV a. ištakos", lv: "14. gadsimta izcelsme" },
@@ -1137,7 +1143,11 @@ export const puntukasBoulderMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Glacial / Persistent Folk Belief", lt: "Ledynmetis / Išlikusi tautosaka", lv: "Ledus laikmets / Noturīga folklora" },
-  references: ["Antanas Baranauskas: Anykščių šilelis", "VLE: Puntukas"],
+  references: [
+    "Antanas Baranauskas: Anykščių šilelis (Written 1858-1859)",
+    "VLE: Puntukas (https://www.vle.lt/straipsnis/puntukas/)",
+    "Lina Būgienė: From the Mythical Stone to the National Heritage Site (EASR 2023, https://nomadit.co.uk/conference/easr2023/paper/73617/)"
+  ],
 };
 
 export const dubingiaiSanctuaryMeta: LocationMeta = {
@@ -1405,9 +1415,14 @@ export const lielvardeParkMeta: LocationMeta = {
     lt: "„Austo likimo“ paveldo centras, siejamas su Lielvardės juostos raštais.",
     lv: "Mantojumā saņemtā 'austā likteņa' centrs, kas saistīts ar Lielvārdes jostas rakstiem.",
   },
-  tribe: { en: "Vidzeme Latvians", lt: "Vidžemės latviai", lv: "Vidzemes latvieši" },
+  tribe: { en: "Daugava Livonians / Latgalians", lt: "Dauguvos lyviai / latgaliai", lv: "Daugavas lībieši / latgaļi" },
   period: { en: "Medieval / 19th c. National Epic", lt: "Viduramžiai / XIX a. nacionalinis epas", lv: "Viduslaiki / 19. gs. nacionālais eps" },
-  references: ["Andrejs Pumpurs: Lāčplēsis", "Lielvārde Municipality archives"],
+  references: [
+    "Andrejs Pumpurs: Lāčplēsis",
+    "Lielvārde Municipality archives",
+    "Juris Urtāns: Daugavas kultūrvēsturiskie akmeņi (2007)",
+    "Archives of Latvian Folklore (garamantas.lv)",
+  ],
 };
 
 export const kemeriSanctuaryMeta: LocationMeta = {
@@ -2004,32 +2019,7 @@ export const alkaHillsMeta: LocationMeta = {
   references: ["VLE: Alka", "Vaitkevičius: Senosios Lietuvos šventvietės"],
 };
 
-export const belmontoStoneMeta: LocationMeta = {
-  id: "belmonto-stone",
-  name: {
-    en: "Belmonto Stone",
-    lt: "Belmonto akmuo",
-    lv: "Belmonto akmens",
-  },
-  coordinates: [54.68, 25.35],
-  region: "Lithuania",
-  description: {
-    en: "A massive mythological stone in the Pavilniai Regional Park, associated with local folklore and offering traditions.",
-    lt: "Masyvus mitologinis akmuo Pavilnių regioniniame parke, siejamas su vietos folklore ir aukojimo tradicijomis.",
-    lv: "Milzīgs mitoloģisks akmens Pāvilni reģionālajā parkā, kas saistīts ar vietējo folkloru un upurēšanas tradīcijām.",
-  },
-  siteType: "Ritual stones",
-  aura: "moss",
-  deity: "zemyna",
-  significance: {
-    en: "A site where the geological power of the earth is venerated as a witness to ancient oaths and prayers.",
-    lt: "Vieta, kurioje žemės geologinė galia gerbiama kaip senovinių priesaikų ir maldų liudininkė.",
-    lv: "Vieta, kur zemes ģeoloģiskais spēks tiek godināts kā seno zvērestu un lūgšanu liecinieks.",
-  },
-  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Vilnius Tourism", "Mythological stones of Lithuania"],
-};
+
 
 export const sventojiShrineMeta: LocationMeta = {
   id: "sventoji-shrine",
@@ -3124,6 +3114,66 @@ export const sambiaPeninsulaShrineMeta: LocationMeta = {
     "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
     "Marija Gimbutas: The Balts (1963)",
     "Cynthia Eller: Amber Cult and Baltic Paganism",
+  ],
+};
+
+export const vidoAkmuoMeta: LocationMeta = {
+  id: "vido-akmuo",
+  name: {
+    en: "Vido Stone",
+    lt: "Vido akmuo",
+    lv: "Vido akmens",
+  },
+  coordinates: [54.6865, 25.3524],
+  region: "Lithuania",
+  description: {
+    en: "A massive granite gneiss boulder split in half, located in the Pūčkoriai forest within Pavilniai Regional Park. Officially protected as a state geological monument.",
+    lt: "Masyvus perpus skilęs granito gneiso riedulys, esantis Pūčkorių miške Pavilnių regioniniame parke. Oficialiai saugomas kaip valstybinis geologinis paminklas.",
+    lv: "Milzīgs uz pusēm sašķelts granīta gneisa laukakmens, kas atrodas Pūčkori mežā Pāvilnu reģionālajā parkā. Oficiāli aizsargāts kā valsts ģeoloģijas piemineklis.",
+  },
+  siteType: "Ritual stones",
+  aura: "moss",
+  deity: "zemyna",
+  significance: {
+    en: "The central natural erratic of the Vilnia river valley, representing the raw geological power of the earth.",
+    lt: "Centrinis Vilnios upės slėnio riedulys, reprezentuojantis pirminę žemės geologinę galią.",
+    lv: "Centrālais Viļņas upes ielejas laukakmens, kas reprezentē zemes pirmatnējo ģeoloģisko spēku.",
+  },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "Glacial Erratic / Protected 2022", lt: "Ledynmetis / Saugomas nuo 2022 m.", lv: "Ledus laikmets / Aizsargāts kopš 2022. gada" },
+  references: [
+    "State Geotopes Database of Lithuania",
+    "Pavilniai Regional Park Directorate",
+  ],
+};
+
+export const puckoriuAukurasMeta: LocationMeta = {
+  id: "puckoriu-aukuras",
+  name: {
+    en: "Pūčkoriai Hillfort Fire Altar",
+    lt: "Pūčkorių piliakalnio aukuras",
+    lv: "Pūčkori pilskalna ugunsaltāris",
+  },
+  coordinates: [54.6881, 25.3615],
+  region: "Lithuania",
+  description: {
+    en: "A modern ceremonial fire altar built by Baltic neopagans (Romuva) on top of the ancient Pūčkoriai Hillfort, which dates from the 1st millennium BC to the 14th century AD.",
+    lt: "Šiuolaikinis apeiginis aukuras, įrengtas baltų neopagonių (Romuvos) ant senovinio Pūčkorių piliakalnio, datuojamo nuo I tūkst. pr. m. e. iki XIV a. po m. e.",
+    lv: "Mūsdienu ceremoniālais ugunsaltāris, ko baltu neopagāni (Romuva) uzbūvējuši senā Pūčkori pilskalna galotnē, kas datēts no 1. tūkstošgades p.m.e. līdz 14. gadsimtam m.e.",
+  },
+  siteType: "Sacrifice / offering sites",
+  aura: "amber",
+  deity: "gabija",
+  significance: {
+    en: "Used for seasonal fire rituals, singing dainas, and making symbolic offerings of grain and mead to honor the ancient Baltic deities.",
+    lt: "Naudojamas sezoninėms ugnies apeigoms, dainų dainavimui ir simbolinėms grūdų bei midaus aukoms, pagerbiant senovės baltų dievybes.",
+    lv: "Izmantots sezonāliem uguns rituāliem, dainu dziedāšanai un simboliskām graudu un alus/miesta dāvanām, godinot senos baltu dievus.",
+  },
+  tribe: { en: "Lithuanians (Aukštaičiai)", lt: "Aukštaičiai", lv: "Lietuvieši (Augštaieši)" },
+  period: { en: "Ancient Hillfort / Modern Romuva Rituals", lt: "Senovinis piliakalnis / Šiuolaikinės Romuvos apeigos", lv: "Senais pilskalns / Mūsdienu Romuvas rituāli" },
+  references: [
+    "Vykintas Vaitkevičius: Senosios Lietuvos šventvietės",
+    "Romuva Community Archives (romuva.lt)",
   ],
 };
 

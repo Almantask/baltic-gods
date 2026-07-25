@@ -99,15 +99,6 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./lv/balga-fortress.mdx")),
     }
   },
-  "belmonto-stone": {
-    meta: meta.belmontoStoneMeta,
-    Content: dynamic(() => import("./en/belmonto-stone.mdx")),
-    contentByLang: {
-      en: dynamic(() => import("./en/belmonto-stone.mdx")),
-      lt: dynamic(() => import("./lt/belmonto-stone.mdx")),
-      lv: dynamic(() => import("./lv/belmonto-stone.mdx")),
-    }
-  },
   "beverina-castle": {
     meta: meta.beverinaCastleMeta,
     Content: dynamic(() => import("./en/beverina-castle.mdx")),
@@ -225,6 +216,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./lv/dzukija-meadow.mdx")),
     }
   },
+  "eleja-stone": {
+    meta: meta.elejaStoneMeta,
+    Content: dynamic(() => import("./en/eleja-stone.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/eleja-stone.mdx")),
+      lt: dynamic(() => import("./lt/eleja-stone.mdx")),
+      lv: dynamic(() => import("./lv/eleja-stone.mdx")),
+    }
+  },
   "erglu-klintis": {
     meta: meta.ergluKlintisMeta,
     Content: dynamic(() => import("./en/erglu-klintis.mdx")),
@@ -304,15 +304,6 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/imbare-fort.mdx")),
       lt: dynamic(() => import("./lt/imbare-fort.mdx")),
       lv: dynamic(() => import("./lv/imbare-fort.mdx")),
-    }
-  },
-  "jelgava-stone": {
-    meta: meta.jelgavaStoneMeta,
-    Content: dynamic(() => import("./en/jelgava-stone.mdx")),
-    contentByLang: {
-      en: dynamic(() => import("./en/jelgava-stone.mdx")),
-      lt: dynamic(() => import("./lt/jelgava-stone.mdx")),
-      lv: dynamic(() => import("./lv/jelgava-stone.mdx")),
     }
   },
   "joniskis-grove": {
@@ -601,6 +592,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/pomeranian-stones.mdx")),
       lt: dynamic(() => import("./lt/pomeranian-stones.mdx")),
       lv: dynamic(() => import("./lv/pomeranian-stones.mdx")),
+    }
+  },
+  "puckoriu-aukuras": {
+    meta: meta.puckoriuAukurasMeta,
+    Content: dynamic(() => import("./en/puckoriu-aukuras.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/puckoriu-aukuras.mdx")),
+      lt: dynamic(() => import("./lt/puckoriu-aukuras.mdx")),
+      lv: dynamic(() => import("./lv/puckoriu-aukuras.mdx")),
     }
   },
   "puntukas-boulder": {
@@ -961,6 +961,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/verkiai-grove.mdx")),
       lt: dynamic(() => import("./lt/verkiai-grove.mdx")),
       lv: dynamic(() => import("./lv/verkiai-grove.mdx")),
+    }
+  },
+  "vido-akmuo": {
+    meta: meta.vidoAkmuoMeta,
+    Content: dynamic(() => import("./en/vido-akmuo.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/vido-akmuo.mdx")),
+      lt: dynamic(() => import("./lt/vido-akmuo.mdx")),
+      lv: dynamic(() => import("./lv/vido-akmuo.mdx")),
     }
   },
   "vilnius-thread": {

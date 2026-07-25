@@ -95,11 +95,11 @@ describe("Deity detail page", () => {
     const aside = getByRole("complementary");
     expect(within(aside).queryByText(sacredGroveLoc.name)).toBeNull();
 
-    // The "Ritual stones" location should still be visible
-    const ritualStoneLoc = entry.meta.locations.find(
-      (l) => l.siteType === "Ritual stones",
+    // The other location should still be visible
+    const otherLoc = entry.meta.locations.find(
+      (l) => l.siteType !== "Sacred groves",
     )!;
-    expect(within(aside).getByText(ritualStoneLoc.name)).toBeInTheDocument();
+    expect(within(aside).getByText(otherLoc.name)).toBeInTheDocument();
 
     // Re-enable the category
     await user.click(legendButton);

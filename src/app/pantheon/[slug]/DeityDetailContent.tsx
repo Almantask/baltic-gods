@@ -85,7 +85,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           <p className="text-xl italic text-zinc-200">{entry.meta.epithet[language]}</p>
           <p className="max-w-3xl text-zinc-200">{entry.meta.summary[language]}</p>
           <div className="mt-2 flex flex-wrap gap-2 text-xs text-zinc-300">
-            {entry.meta.keywords.map((word) => (
+            {(entry.meta.keywords ?? []).map((word) => (
               <span
                 key={word}
                 className="rounded-full border border-white/15 bg-white/5 px-3 py-1"
@@ -108,7 +108,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           <div className="glass rounded-3xl p-5">
             <h3 className="text-lg font-semibold text-amber-100">{strings.deity.symbolicCards}</h3>
             <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
-              {entry.meta.symbols.map((symbol) => (
+              {(entry.meta.symbols ?? []).map((symbol) => (
                 <div
                   key={symbol.label}
                   className="rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-zinc-200"
@@ -122,7 +122,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           <div className="glass rounded-3xl p-5">
             <h3 className="text-lg font-semibold text-amber-100">{strings.deity.materialLegacy}</h3>
             <ul className="mt-3 space-y-2 text-sm text-zinc-300">
-              {entry.meta.materialLegacy.map((item) => (
+              {(entry.meta.materialLegacy ?? []).map((item) => (
                 <li key={item} className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-200" />
                   <span>{item}</span>
@@ -166,7 +166,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
       <div className="glass rounded-3xl p-6">
         <h3 className="text-2xl font-semibold text-amber-100">{strings.deity.gallery}</h3>
         <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-3">
-          {entry.meta.gallery.map((item) => (
+          {(entry.meta.gallery ?? []).map((item) => (
             <div
               key={typeof item.title === "string" ? item.title : item.title.en}
               className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-zinc-200"
@@ -184,12 +184,12 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           {strings.deity.arrivedViaMap} {selectedLocation?.name ?? strings.deity.none}.
         </div>
 
-        {entry.meta.references.length > 0 && (
+        {(entry.meta.references ?? []).length > 0 && (
           <div className="flex flex-wrap gap-2 lg:max-w-md justify-end">
             <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 self-center mr-2">
               {strings.deity.references}:
             </span>
-            {entry.meta.references.map((ref) => (
+            {(entry.meta.references ?? []).map((ref) => (
               <span
                 key={ref}
                 className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"

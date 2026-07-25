@@ -65,11 +65,11 @@ export const deityBySlug: Record<string, DeityEntry> = {
   },
   "gabija": {
     meta: meta.gabijaMeta,
-    Content: dynamic(() => import("./people/en/gabija.mdx")),
+    Content: dynamic(() => import("./gods/en/gabija.mdx")),
     contentByLang: {
-      en: dynamic(() => import("./people/en/gabija.mdx")),
-      lt: dynamic(() => import("./people/lt/gabija.mdx")),
-      lv: dynamic(() => import("./people/lv/gabija.mdx")),
+      en: dynamic(() => import("./gods/en/gabija.mdx")),
+      lt: dynamic(() => import("./gods/lt/gabija.mdx")),
+      lv: dynamic(() => import("./gods/lv/gabija.mdx")),
     }
   },
   "giltine": {
@@ -280,7 +280,7 @@ export const deityBySlug: Record<string, DeityEntry> = {
     }
   },
   "gabjauja": {
-    meta: meta.gabjaujaMetaData,
+    meta: meta.gabjaujaMeta,
     Content: dynamic(() => import("./gods/en/gabjauja.mdx")),
     contentByLang: {
       en: dynamic(() => import("./gods/en/gabjauja.mdx")),
@@ -388,7 +388,7 @@ export const deityBySlug: Record<string, DeityEntry> = {
     }
   },
   "pilvytis": {
-    meta: meta.pilvytisMetaData,
+    meta: meta.pilvytisMeta,
     Content: dynamic(() => import("./gods/en/pilvytis.mdx")),
     contentByLang: {
       en: dynamic(() => import("./gods/en/pilvytis.mdx")),
@@ -523,7 +523,7 @@ export const deityBySlug: Record<string, DeityEntry> = {
     }
   },
   "zemepatis": {
-    meta: meta.zemepatisMetaData,
+    meta: meta.zemepatisMeta,
     Content: dynamic(() => import("./gods/en/zemepatis.mdx")),
     contentByLang: {
       en: dynamic(() => import("./gods/en/zemepatis.mdx")),
@@ -1305,15 +1305,6 @@ export const deityBySlug: Record<string, DeityEntry> = {
       lv: () => null,
     }
   },
-  "miglas-mate": {
-    meta: meta.miglasMateMeta,
-    Content: dynamic(() => import("./gods/en/miglas-mate.mdx")),
-    contentByLang: {
-      en: dynamic(() => import("./gods/en/miglas-mate.mdx")),
-      lt: dynamic(() => import("./gods/lt/miglas-mate.mdx")),
-      lv: dynamic(() => import("./gods/lv/miglas-mate.mdx")),
-    }
-  },
   "miline": {
     meta: meta.milineMeta,
     Content: dynamic(() => import("./gods/en/miline.mdx")),
@@ -1495,7 +1486,7 @@ export const deityBySlug: Record<string, DeityEntry> = {
     }
   },
   "saules-mate": {
-    meta: meta.saulesMateMeta2,
+    meta: meta.saulesMate2Meta,
     Content: () => null,
     contentByLang: {
       en: () => null,
