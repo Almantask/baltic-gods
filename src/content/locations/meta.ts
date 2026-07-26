@@ -24,7 +24,10 @@ export const aukstaitijaOaksMeta: LocationMeta = {
   },
   tribe: { en: "All Baltic Tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
   period: { en: "Pre-Christian Oral Tradition", lt: "Ikikrikščioniškoji žodinė tradicija", lv: "Pirmskristīgā mutvārdu tradīcija" },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lietuvos kultūros vertybių registras / VLE: Aukštaitija Thunder Oaks (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const elejaStoneMeta: LocationMeta = {
@@ -54,6 +57,7 @@ export const elejaStoneMeta: LocationMeta = {
   references: [
     "Juris Urtāns: Pēdakmeņi, robežakmeņi, muldakmeņi (1990)",
     "Latvian Folklore Repository (garamantas.lv)",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Eleja Hollow Stone (https://enciklopedija.lv/skirklis/Eleja%20Hollow%20Stone)"
   ],
 };
 
@@ -81,7 +85,10 @@ export const siauliaiHillMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians / Samogitians", lt: "Lietuviai / Žemaičiai", lv: "Lietuvieši / Žemaiši" },
   period: { en: "Pre-Christian / Folk", lt: "Ikikrikščioniška / Tautosaka", lv: "Pirmskristīgā / Folklora" },
-  references: ["Vėlius: Senovės baltų pasaulėžiūra", "VLE: Saulė"],
+  references: [
+    "Vėlius: Senovės baltų pasaulėžiūra", "VLE: Saulė",
+    "Lietuvos kultūros vertybių registras / VLE: Saulės Kalnas (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const jurmalaShoreMeta: LocationMeta = {
@@ -108,7 +115,10 @@ export const jurmalaShoreMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Latvians", lt: "Kuršiai / Latviai", lv: "Kurši / Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Biezais: Die Hauptgöttinnen der alten Letten", "Barons: Latvju Dainas"],
+  references: [
+    "Biezais: Die Hauptgöttinnen der alten Letten", "Barons: Latvju Dainas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Jūrmala Veil (https://enciklopedija.lv/skirklis/J%C5%ABrmala%20Veil)"
+  ],
 };
 
 export const siguldaSpringsMeta: LocationMeta = {
@@ -135,7 +145,10 @@ export const siguldaSpringsMeta: LocationMeta = {
   },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Biezais: Die Hauptgöttinnen der alten Letten", "Urtāns: Latvijas senā svētvietas"],
+  references: [
+    "Biezais: Die Hauptgöttinnen der alten Letten", "Urtāns: Latvijas senā svētvietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Sigulda Fate Springs (https://enciklopedija.lv/skirklis/Sigulda%20Fate%20Springs)"
+  ],
 };
 
 export const vilniusThreadMeta: LocationMeta = {
@@ -162,7 +175,10 @@ export const vilniusThreadMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Dundulienė: Medis", "Vėlius: Senovės baltų pasaulėžiūra"],
+  references: [
+    "Dundulienė: Medis", "Vėlius: Senovės baltų pasaulėžiūra",
+    "Lietuvos kultūros vertybių registras / VLE: Vilnius Loom Threshold (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const kernaveMoundsMeta: LocationMeta = {
@@ -189,7 +205,10 @@ export const kernaveMoundsMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Early Medieval", lt: "Anstyvieji Viduramžiai", lv: "Agrie Viduslaiki" },
-  references: ["VLE: Kernavė", "Beresnevičius: Lietuvių religija ir mitologija"],
+  references: [
+    "VLE: Kernavė", "Beresnevičius: Lietuvių religija ir mitologija",
+    "Lietuvos kultūros vertybių registras / VLE: Kernavė Earth Ridges (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const telsiaiAltarsMeta: LocationMeta = {
@@ -216,7 +235,10 @@ export const telsiaiAltarsMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "Pre-Christian / 16th c.", lt: "Ikikrikščioniška / XVI a.", lv: "Pirmskristīgā / 16. gadst." },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Vėlius: Baltų religijos ir mitologijos šaltiniai"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lietuvos kultūros vertybių registras / VLE: Telšiai Clay Altars (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const druskininkaiMistMeta: LocationMeta = {
@@ -243,7 +265,10 @@ export const druskininkaiMistMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians (Dzukians)", lt: "Lietuviai (Dzūkai)", lv: "Lietuvieši (Dzūki)" },
   period: { en: "Folk tradition", lt: "Tautosaka", lv: "Folklora" },
-  references: ["Jonas Balys: Lietuvių mitologiškos sakmės", "Beresnevičius: Lietuvių religija ir mitologija"],
+  references: [
+    "Jonas Balys: Lietuvių mitologiškos sakmės", "Beresnevičius: Lietuvių religija ir mitologija",
+    "Lietuvos kultūros vertybių registras / VLE: Nemunas Mist Hollow (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const svendubresStoneMeta: LocationMeta = {
@@ -276,7 +301,7 @@ export const svendubresStoneMeta: LocationMeta = {
     "Vaitkevičius, Vykintas: Žvalgomoji ekspedicija Raigardo slėnyje (1998-1999; cited by VLE)",
     "Vincas Krėvė-Mickevičius: Padavimai apie Raigrodo miestą (Tauta ir žodis, 1923)",
     "Vykintas Vaitkevičius: Šventa Dubrė – Raigardas (Būdas, 2022)",
-    "KVR: Švendubrės akmuo su dubenėliais / Velnio akmuo (Unique Code: 13037)",
+    "KVR: Švendubrės akmuo su dubenėliais / Velnio akmuo (Unique Code: 13037)"
   ],
 };
 
@@ -304,7 +329,10 @@ export const nidaDunesMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Matthäus Praetorius: Deliciae Prussicae", "VLE: Kuršių nerija"],
+  references: [
+    "Matthäus Praetorius: Deliciae Prussicae", "VLE: Kuršių nerija",
+    "Lietuvos kultūros vertybių registras / VLE: Curonian Hollow (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const valatkoniuDevilStoneMeta: LocationMeta = {
@@ -333,7 +361,7 @@ export const valatkoniuDevilStoneMeta: LocationMeta = {
   period: { en: "Folk tradition / first scholarly description 1989", lt: "Tautosaka / pirmasis mokslinis aprašas 1989 m.", lv: "Folklora / pirmais zinātniskais apraksts 1989. gadā" },
   references: [
     "VLE: Velnio akmuo (https://www.vle.lt/straipsnis/velnio-akmuo/)",
-    "Linčius, A. (1989; first description cited by VLE)",
+    "Linčius, A. (1989; first description cited by VLE)"
   ],
 };
 
@@ -361,7 +389,10 @@ export const dzukijaMeadowMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians (Dzukians)", lt: "Lietuviai (Dzūkai)", lv: "Lietuvieši (Dzūki)" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Dundulienė: Gyvūnai"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Dundulienė: Gyvūnai",
+    "Lietuvos kultūros vertybių registras / VLE: Dzūkija Honey Verge (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const latgaleHiveMeta: LocationMeta = {
@@ -388,7 +419,10 @@ export const latgaleHiveMeta: LocationMeta = {
   },
   tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Barons: Latvju Dainas", "Šmits: Latviešu mitoloģija"],
+  references: [
+    "Barons: Latvju Dainas", "Šmits: Latviešu mitoloģija",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Latgale Hollow Linden (https://enciklopedija.lv/skirklis/Latgale%20Hollow%20Linden)"
+  ],
 };
 
 export const aukstaiciaiLakeMeta: LocationMeta = {
@@ -415,7 +449,10 @@ export const aukstaiciaiLakeMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Jan Łasicki: De Diis Samagitarum", "VLE: Mėnulis"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "VLE: Mėnulis",
+    "Lietuvos kultūros vertybių registras / VLE: Lake Moon Ladder (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const ventspilsShoreMeta: LocationMeta = {
@@ -442,7 +479,10 @@ export const ventspilsShoreMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Latvians", lt: "Kuršiai / Latviai", lv: "Kurši / Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Barons: Latvju Dainas", "LNE: Mēness"],
+  references: [
+    "Barons: Latvju Dainas", "LNE: Mēness",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Ventspils Tide Silver (https://enciklopedija.lv/skirklis/Ventspils%20Tide%20Silver)"
+  ],
 };
 
 export const rigaSpiresMeta: LocationMeta = {
@@ -469,7 +509,10 @@ export const rigaSpiresMeta: LocationMeta = {
   },
   tribe: { en: "All Baltic Tribes", lt: "Visos baltų gentys", lv: "Visas baltu ciltis" },
   period: { en: "Early Modern / Syncretic", lt: "Anstyvųjų naujųjų laikų / Sinkretiška", lv: "Agrie modernie laiki / Sinkrētisks" },
-  references: ["Maciej Stryjkowski: Chronicle", "Algirdas Julius Greimas: Of Gods and Men"],
+  references: [
+    "Maciej Stryjkowski: Chronicle", "Algirdas Julius Greimas: Of Gods and Men",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Riga Spire Line (https://enciklopedija.lv/skirklis/Riga%20Spire%20Line)"
+  ],
 };
 
 export const zemaitijaSkyMeta: LocationMeta = {
@@ -496,7 +539,10 @@ export const zemaitijaSkyMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians / Samogitians", lt: "Lietuviai / Žemaičiai", lv: "Lietuvieši / Žemaiši" },
   period: { en: "Pre-Christian / Folk", lt: "Ikikrikščioniška / Tautosaka", lv: "Pirmskristīgā / Folklora" },
-  references: ["Vėlius: Senovės baltų pasaulėžiūra", "Dundulienė: Pagonybė Lietuvoje"],
+  references: [
+    "Vėlius: Senovės baltų pasaulėžiūra", "Dundulienė: Pagonybė Lietuvoje",
+    "Lietuvos kultūros vertybių registras / VLE: Žemaitija Star Field (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const kaunasHearthMeta: LocationMeta = {
@@ -523,7 +569,10 @@ export const kaunasHearthMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Stryjkowski: Chronicle", "VLE: Gabija"],
+  references: [
+    "Stryjkowski: Chronicle", "VLE: Gabija",
+    "Lietuvos kultūros vertybių registras / VLE: Kaunas Hearth Archive (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const madonaEmberMeta: LocationMeta = {
@@ -550,7 +599,10 @@ export const madonaEmberMeta: LocationMeta = {
   },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Šmits: Latviešu mitoloģija", "Barons: Latvju Dainas"],
+  references: [
+    "Šmits: Latviešu mitoloģija", "Barons: Latvju Dainas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Madona Ember Seat (https://enciklopedija.lv/skirklis/Madona%20Ember%20Seat)"
+  ],
 };
 
 export const klaipedaDriftMeta: LocationMeta = {
@@ -577,7 +629,10 @@ export const klaipedaDriftMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Lithuanians", lt: "Kuršiai / Lietuviai", lv: "Kurši / Lietuvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Praetorius: Deliciae Prussicae", "VLE: Bangpūtys"],
+  references: [
+    "Praetorius: Deliciae Prussicae", "VLE: Bangpūtys",
+    "Lietuvos kultūros vertybių registras / VLE: Klaipėda Drift Line (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const kolkaSurgeMeta: LocationMeta = {
@@ -604,7 +659,10 @@ export const kolkaSurgeMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Latvians", lt: "Kuršiai / Latviai", lv: "Kurši / Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Barons: Latvju Dainas", "LNE: Bangpūtys"],
+  references: [
+    "Barons: Latvju Dainas", "LNE: Bangpūtys",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Kolka Surge Watch (https://enciklopedija.lv/skirklis/Kolka%20Surge%20Watch)"
+  ],
 };
 
 export const samogitiaStandMeta: LocationMeta = {
@@ -631,7 +689,10 @@ export const samogitiaStandMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians / Lithuanians", lt: "Žemaičiai / Lietuviai", lv: "Žemaiši / Lietuvieši" },
   period: { en: "Pre-Christian / Folk", lt: "Ikikrikščioniška / Tautosaka", lv: "Pirmskristīgā / Folklora" },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Vėlius: Baltų religijos ir mitologijos šaltiniai"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lietuvos kultūros vertybių registras / VLE: Samogitian Spruce Stand (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const gaujaCorridorMeta: LocationMeta = {
@@ -658,7 +719,10 @@ export const gaujaCorridorMeta: LocationMeta = {
   },
   tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
   period: { en: "Medieval / Folk", lt: "Viduramžiai / Tautosaka", lv: "Viduslaiki / Folklora" },
-  references: ["Barons: Latvju Dainas", "LNE: Meža māte"],
+  references: [
+    "Barons: Latvju Dainas", "LNE: Meža māte",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Gauja Shadow Corridor (https://enciklopedija.lv/skirklis/Gauja%20Shadow%20Corridor)"
+  ],
 };
 export const anyksciaiForestMeta: LocationMeta = {
   id: "anyksciai-forest",
@@ -684,7 +748,10 @@ export const anyksciaiForestMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "13th Century Records", lt: "XIII a. rašytiniai šaltiniai", lv: "13. gadsimta rakstītie avoti" },
-  references: ["Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai", "Antanas Baranauskas: Anykščių šilelis"],
+  references: [
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai", "Antanas Baranauskas: Anykščių šilelis",
+    "Lietuvos kultūros vertybių registras / VLE: Anykščiai Forest (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const salantaiBurialMeta: LocationMeta = {
@@ -711,7 +778,10 @@ export const salantaiBurialMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Samogitians", lt: "Kuršiai / Žemaičiai", lv: "Kurši / Žemaiši" },
   period: { en: "9th-12th Century", lt: "IX-XII a.", lv: "9.-12. gadsimts" },
-  references: ["Vėlius: Senovės baltų pasaulėžiūra", "Salantai Regional Park Archive"],
+  references: [
+    "Vėlius: Senovės baltų pasaulėžiūra", "Salantai Regional Park Archive",
+    "Lietuvos kultūros vertybių registras / VLE: Salantai Burial Mounds (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const rundaleFieldsMeta: LocationMeta = {
@@ -738,7 +808,10 @@ export const rundaleFieldsMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "18th-19th Century Folklore", lt: "XVIII-XIX a. tautosaka", lv: "18.-19. gadsimta folklora" },
-  references: ["Pēteris Šmits: Latviešu mitoloģija", "Latvijas Nacionālā enciklopēdija"],
+  references: [
+    "Pēteris Šmits: Latviešu mitoloģija", "Latvijas Nacionālā enciklopēdija",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Rundale Fields (https://enciklopedija.lv/skirklis/Rundale%20Fields)"
+  ],
 };
 
 export const turaidaSpringsMeta: LocationMeta = {
@@ -765,7 +838,10 @@ export const turaidaSpringsMeta: LocationMeta = {
   },
   tribe: { en: "Livonians / Latvians", lt: "Lyviai / Latviai", lv: "Lībieši / Latvieši" },
   period: { en: "13th Century Records", lt: "XIII a. rašytiniai šaltiniai", lv: "13. gadsimta rakstītie avoti" },
-  references: ["Henricus de Lettis: Chronicon Livoniae", "Biezais: Die Hauptgöttinnen der alten Letten"],
+  references: [
+    "Henricus de Lettis: Chronicon Livoniae", "Biezais: Die Hauptgöttinnen der alten Letten",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Turaida Sacred Spring (https://enciklopedija.lv/skirklis/Turaida%20Sacred%20Spring)"
+  ],
 };
 
 export const palangaAmberMeta: LocationMeta = {
@@ -792,7 +868,10 @@ export const palangaAmberMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Lithuanians", lt: "Kuršiai / Lietuviai", lv: "Kurši / Lietuvieši" },
   period: { en: "19th Century Folklore", lt: "XIX a. tautosaka", lv: "19. gadsimta folklora" },
-  references: ["Jonas Basanavičius: Lietuviškos pasakos", "VLE: Jūratė ir Kastytis"],
+  references: [
+    "Jonas Basanavičius: Lietuviškos pasakos", "VLE: Jūratė ir Kastytis",
+    "Lietuvos kultūros vertybių registras / VLE: Palanga Amber Coast (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const sventojiOaksMeta: LocationMeta = {
@@ -819,7 +898,10 @@ export const sventojiOaksMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "14th-16th Century", lt: "XIV-XVI a.", lv: "14.-16. gadsimts" },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Simon Grunau: Preussische Chronik",
+    "Lietuvos kultūros vertybių registras / VLE: Šventoji Oak Sanctuary (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const sventaragisValleyMeta: LocationMeta = {
@@ -846,7 +928,10 @@ export const sventaragisValleyMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "14th-16th Century Chronicles", lt: "XIV-XVI a. kronikos", lv: "14.-16. gadsimta hronikas" },
-  references: ["Chronicle of Bychowiec (c. 1530)", "Maciej Stryjkowski: Kronika Polska, Litewska, Żmódzka (1582)", "Visuotinė lietuvių enciklopedija: Šventaragio slėnis (vle.lt)"],
+  references: [
+    "Chronicle of Bychowiec (c. 1530)", "Maciej Stryjkowski: Kronika Polska, Litewska, Żmódzka (1582)", "Visuotinė lietuvių enciklopedija: Šventaragio slėnis (vle.lt)",
+    "Lietuvos kultūros vertybių registras / VLE: Šventaragis Valley (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const rambynasHillMeta: LocationMeta = {
@@ -873,7 +958,10 @@ export const rambynasHillMeta: LocationMeta = {
   },
   tribe: { en: "Scalvians, Lithuanians", lt: "Skalviai, lietuviai", lv: "Skalvji, lietuvieši" },
   period: { en: "14th-17th Century Records", lt: "XIV-XVII a. šaltiniai", lv: "14.-17. gadsimta avoti" },
-  references: ["Matthäus Praetorius: Deliciae Prussicae (c. 1690)", "Visuotinė lietuvių enciklopedija: Rambynas (vle.lt)"],
+  references: [
+    "Matthäus Praetorius: Deliciae Prussicae (c. 1690)", "Visuotinė lietuvių enciklopedija: Rambynas (vle.lt)",
+    "Lietuvos kultūros vertybių registras / VLE: Rambynas Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const biruteHillMeta: LocationMeta = {
@@ -900,7 +988,10 @@ export const biruteHillMeta: LocationMeta = {
   },
   tribe: { en: "Curonians, Lithuanians", lt: "Kuršiai, lietuviai", lv: "Kurši, lietuvieši" },
   period: { en: "11th-14th Century Sanctuary", lt: "XI-XIV a. alka", lv: "11.-14. gadsimta svētvieta" },
-  references: ["Chronicle of Bychowiec (c. 1530)", "Vladas Žulkus: Palangos viduramžių gyvenvietės ir alka (1997)", "Visuotinė lietuvių enciklopedija: Birutės kalnas (vle.lt)"],
+  references: [
+    "Chronicle of Bychowiec (c. 1530)", "Vladas Žulkus: Palangos viduramžių gyvenvietės ir alka (1997)", "Visuotinė lietuvių enciklopedija: Birutės kalnas (vle.lt)",
+    "Lietuvos kultūros vertybių registras / VLE: Birutė's Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const lopaiciaiComplexMeta: LocationMeta = {
@@ -927,7 +1018,10 @@ export const lopaiciaiComplexMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "1st Millennium AD - Middle Ages", lt: "I tūkstantmetis - Viduramžiai", lv: "1. tūkstošgade - Viduslaiki" },
-  references: ["Vykintas Vaitkevičius: Senosios Lietuvos šventvietės (1998)", "Visuotinė lietuvių enciklopedija: Lopaičių piliakalnis (vle.lt)"],
+  references: [
+    "Vykintas Vaitkevičius: Senosios Lietuvos šventvietės (1998)", "Visuotinė lietuvių enciklopedija: Lopaičių piliakalnis (vle.lt)",
+    "Lietuvos kultūros vertybių registras / VLE: Lopaičiai Temple Complex (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const hillOfCrossesMeta: LocationMeta = {
@@ -954,7 +1048,10 @@ export const hillOfCrossesMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "14th Century Origin", lt: "XIV a. ištakos", lv: "14. gadsimta izcelsme" },
-  references: ["VLE: Kryžių kalnas", "UNESCO: Cross-craftsmanship and its symbolism"],
+  references: [
+    "VLE: Kryžių kalnas", "UNESCO: Cross-craftsmanship and its symbolism",
+    "Lietuvos kultūros vertybių registras / VLE: Hill of Crosses (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const verkiaiGroveMeta: LocationMeta = {
@@ -981,7 +1078,10 @@ export const verkiaiGroveMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "14th Century Records", lt: "XIV a. rašytiniai šaltiniai", lv: "14. gadsimta rakstītie avoti" },
-  references: ["Maciej Stryjkowski: Chronicle of Poland, Lithuania, Samogitia", "VLE: Verkiai"],
+  references: [
+    "Maciej Stryjkowski: Chronicle of Poland, Lithuania, Samogitia", "VLE: Verkiai",
+    "Lietuvos kultūros vertybių registras / VLE: Verkiai Sacred Grove (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const kaunasConfluenceMeta: LocationMeta = {
@@ -1008,7 +1108,10 @@ export const kaunasConfluenceMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "13th-14th Century", lt: "XIII-XIV a.", lv: "13.-14. gadsimts" },
-  references: ["VLE: Kauno santaka", "Libertas Klimka: Lietuvių papročiai ir tradicijos"],
+  references: [
+    "VLE: Kauno santaka", "Libertas Klimka: Lietuvių papročiai ir tradicijos",
+    "Lietuvos kultūros vertybių registras / VLE: Kaunas Confluence (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const zaltvyksleSpringMeta: LocationMeta = {
@@ -1035,7 +1138,10 @@ export const zaltvyksleSpringMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Pre-Christian Folk Tradition", lt: "Ikikrikščioniška tautosaka", lv: "Pirmskristīgā folklora" },
-  references: ["Norbertas Vėlius: Mitinė mūsų aplinka", "Dundulienė: Gyvūnai lietuvių mitologijoje"],
+  references: [
+    "Norbertas Vėlius: Mitinė mūsų aplinka", "Dundulienė: Gyvūnai lietuvių mitologijoje",
+    "Lietuvos kultūros vertybių registras / VLE: Žaltvykslė Spring (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const witchesHillMeta: LocationMeta = {
@@ -1062,7 +1168,10 @@ export const witchesHillMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Lithuanians", lt: "Kuršiai / Lietuviai", lv: "Kurši / Lietuvieši" },
   period: { en: "19th c. Folklore / Current Site", lt: "XIX a. Tautosaka / Dabartinis kompleksas", lv: "19. gs. folklora / Pašreizējā vieta" },
-  references: ["VLE: Raganų kalnas", "Lithuanian Folk Art Association Archive"],
+  references: [
+    "VLE: Raganų kalnas", "Lithuanian Folk Art Association Archive",
+    "Lietuvos kultūros vertybių registras / VLE: Witches' Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const satrijaHillMeta: LocationMeta = {
@@ -1089,7 +1198,10 @@ export const satrijaHillMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "1st Millennium AD", lt: "I tūkstantmetis po Kr.", lv: "1. tūkstošgade p.m.ē." },
-  references: ["Gintaras Beresnevičius: Lietuvių religija ir mitologija", "VLE: Šatrijos kalva"],
+  references: [
+    "Gintaras Beresnevičius: Lietuvių religija ir mitologija", "VLE: Šatrijos kalva",
+    "Lietuvos kultūros vertybių registras / VLE: Šatrija Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const medvegalisHillMeta: LocationMeta = {
@@ -1116,7 +1228,10 @@ export const medvegalisHillMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "14th Century Resistance", lt: "XIV a. pasipriešinimo laikotarpis", lv: "14. gadsimta pretošanās laikmets" },
-  references: ["Chronicle of Wigand of Marburg", "VLE: Medvėgalis"],
+  references: [
+    "Chronicle of Wigand of Marburg", "VLE: Medvėgalis",
+    "Lietuvos kultūros vertybių registras / VLE: Medvėgalis Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const puntukasBoulderMeta: LocationMeta = {
@@ -1174,7 +1289,10 @@ export const dubingiaiSanctuaryMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "14th-15th Century", lt: "XIV-XV a.", lv: "14.-15. gadsimts" },
-  references: ["Albinas Kuncevičius: Dubingių pilis ir jos tyrinėjimai", "VLE: Dubingiai"],
+  references: [
+    "Albinas Kuncevičius: Dubingių pilis ir jos tyrinėjimai", "VLE: Dubingiai",
+    "Lietuvos kultūros vertybių registras / VLE: Dubingiai Lake Sanctuary (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const zilaiskalnsHillMeta: LocationMeta = {
@@ -1201,7 +1319,10 @@ export const zilaiskalnsHillMeta: LocationMeta = {
   },
   tribe: { en: "Vidzeme Latvians / Livs", lt: "Vidžemės latviai / Lyviai", lv: "Vidzemes latvieši / Lībieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Pēteris Šmits: Latviešu mitoloģija", "Valmiera Tourism: Zilaiskalns"],
+  references: [
+    "Pēteris Šmits: Latviešu mitoloģija", "Valmiera Tourism: Zilaiskalns",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Zilaiskalns (Blue Hill) (https://enciklopedija.lv/skirklis/Zilaiskalns%20(Blue%20Hill))"
+  ],
 };
 
 export const staburagsCliffMeta: LocationMeta = {
@@ -1228,7 +1349,10 @@ export const staburagsCliffMeta: LocationMeta = {
   },
   tribe: { en: "Selonians", lt: "Sėliai", lv: "Sēļi" },
   period: { en: "Pre-Christian / Folk Memory", lt: "Ikikrikščioniškas / Tautosaka", lv: "Pirmskristīgā / Tautas atmiņa" },
-  references: ["Andrejs Pumpurs: Lāčplēsis", "Latvian Cultural Canon: Staburags"],
+  references: [
+    "Andrejs Pumpurs: Lāčplēsis", "Latvian Cultural Canon: Staburags",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Staburags Cliff (https://enciklopedija.lv/skirklis/Staburags%20Cliff)"
+  ],
 };
 
 export const daugavaBendsMeta: LocationMeta = {
@@ -1255,7 +1379,10 @@ export const daugavaBendsMeta: LocationMeta = {
   },
   tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Visit Latgale: Daugavas loki", "LNE: Daugava myth-scape"],
+  references: [
+    "Visit Latgale: Daugavas loki", "LNE: Daugava myth-scape",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Daugava Bends (https://enciklopedija.lv/skirklis/Daugava%20Bends)"
+  ],
 };
 
 export const ergluKlintisMeta: LocationMeta = {
@@ -1282,7 +1409,10 @@ export const ergluKlintisMeta: LocationMeta = {
   },
   tribe: { en: "Vidzeme Latvians", lt: "Vidžemės latviai", lv: "Vidzemes latvieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Gauja National Park Archive", "Urtāns: Latvijas senās svētvietas"],
+  references: [
+    "Gauja National Park Archive", "Urtāns: Latvijas senās svētvietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Ērgļu Klintis (Eagle Cliffs) (https://enciklopedija.lv/skirklis/%C4%92rg%C4%BCu%20Klintis%20(Eagle%20Cliffs))"
+  ],
 };
 
 export const mezotneMoundMeta: LocationMeta = {
@@ -1309,7 +1439,10 @@ export const mezotneMoundMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "11th-13th Century", lt: "XI-XIII a.", lv: "11.-13. gadsimts" },
-  references: ["Latvian Archaeological Lexicon", "VLE: Mežotne"],
+  references: [
+    "Latvian Archaeological Lexicon", "VLE: Mežotne",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Mežotne Sacred Mound (https://enciklopedija.lv/skirklis/Me%C5%BEotne%20Sacred%20Mound)"
+  ],
 };
 
 export const pokainiForestMeta: LocationMeta = {
@@ -1336,7 +1469,10 @@ export const pokainiForestMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "Undated Ancient / Modern Revival", lt: "Nedatuota senovė / Dabartinis atgimimas", lv: "Nedatēta senatne / Mūsdienu atdzimšana" },
-  references: ["Pokaiņu Mežs Information Center", "Folklore: Pokaiņi anomalies"],
+  references: [
+    "Pokaiņu Mežs Information Center", "Folklore: Pokaiņi anomalies",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Pokaiņi Forest (https://enciklopedija.lv/skirklis/Pokai%C5%86i%20Forest)"
+  ],
 };
 
 export const selpilsMoundMeta: LocationMeta = {
@@ -1363,7 +1499,10 @@ export const selpilsMoundMeta: LocationMeta = {
   },
   tribe: { en: "Selonians", lt: "Sėliai", lv: "Sēļi" },
   period: { en: "10th-13th Century", lt: "X-XIII a.", lv: "10.-13. gadsimts" },
-  references: ["Latvijas enciklopēdija", "Archaeological data: Sēlpils excavation"],
+  references: [
+    "Latvijas enciklopēdija", "Archaeological data: Sēlpils excavation",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Sēlpils Mound (https://enciklopedija.lv/skirklis/S%C4%93lpils%20Mound)"
+  ],
 };
 
 export const terveteMoundMeta: LocationMeta = {
@@ -1390,7 +1529,10 @@ export const terveteMoundMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "12th-13th Century", lt: "XII-XIII a.", lv: "12.-13. gadsimts" },
-  references: ["Chronicle of Livonia", "Latvian Cultural Canon: Tērvete"],
+  references: [
+    "Chronicle of Livonia", "Latvian Cultural Canon: Tērvete",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Tērvete Castle Mound (https://enciklopedija.lv/skirklis/T%C4%93rvete%20Castle%20Mound)"
+  ],
 };
 
 export const lielvardeParkMeta: LocationMeta = {
@@ -1422,6 +1564,7 @@ export const lielvardeParkMeta: LocationMeta = {
     "Lielvārde Municipality archives",
     "Juris Urtāns: Daugavas kultūrvēsturiskie akmeņi (2007)",
     "Archives of Latvian Folklore (garamantas.lv)",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Lielvārde Sacred Park (https://enciklopedija.lv/skirklis/Lielv%C4%81rde%20Sacred%20Park)"
   ],
 };
 
@@ -1449,7 +1592,10 @@ export const kemeriSanctuaryMeta: LocationMeta = {
   },
   tribe: { en: "Livs / Semigallians", lt: "Lyviai / Žiemgaliai", lv: "Lībieši / Zemgaļi" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Ķemeri National Park: Folklore collection", "Urtāns: Senās kulta vietas"],
+  references: [
+    "Ķemeri National Park: Folklore collection", "Urtāns: Senās kulta vietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Ķemeri Nature Sanctuary (https://enciklopedija.lv/skirklis/%C4%B6emeri%20Nature%20Sanctuary)"
+  ],
 };
 
 export const romuvaSanctuaryMeta: LocationMeta = {
@@ -1476,7 +1622,10 @@ export const romuvaSanctuaryMeta: LocationMeta = {
   },
   tribe: { en: "Nadrovians / All Prussians", lt: "Nadruviai / Visi prūsai", lv: "Nadruvi / Visi prūši" },
   period: { en: "13th-16th Century Records", lt: "XIII-XVI a. rašytiniai šaltiniai", lv: "13.-16. gadsimta rakstītie avoti" },
-  references: ["Peter von Dusburg: Chronicon terrae Prussiae", "Simon Grunau: Preussische Chronik"],
+  references: [
+    "Peter von Dusburg: Chronicon terrae Prussiae", "Simon Grunau: Preussische Chronik",
+    "Visuotinė lietuvių enciklopedija: Romuva Sanctuary (https://www.vle.lt/straipsnis/romuva-sanctuary/)"
+  ],
 };
 
 export const balgaFortressMeta: LocationMeta = {
@@ -1503,7 +1652,10 @@ export const balgaFortressMeta: LocationMeta = {
   },
   tribe: { en: "Warmians", lt: "Varmiai", lv: "Vārmi" },
   period: { en: "13th Century Crusade", lt: "XIII a. kryžiaus žygiai", lv: "13. gadsimta krusta kari" },
-  references: ["Chronicles of the Teutonic Order", "VLE: Balga"],
+  references: [
+    "Chronicles of the Teutonic Order", "VLE: Balga",
+    "Visuotinė lietuvių enciklopedija: Balga (Honeida) (https://www.vle.lt/straipsnis/balga-fortress/)"
+  ],
 };
 
 export const ragnitMoundMeta: LocationMeta = {
@@ -1530,7 +1682,10 @@ export const ragnitMoundMeta: LocationMeta = {
   },
   tribe: { en: "Skalvians", lt: "Skalviai", lv: "Skalvji" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["Chronicle of Wigand of Marburg", "VLE: Ragainė"],
+  references: [
+    "Chronicle of Wigand of Marburg", "VLE: Ragainė",
+    "Visuotinė lietuvių enciklopedija: Ragnit (Ragainė) (https://www.vle.lt/straipsnis/ragnit-mound/)"
+  ],
 };
 
 export const swentomestGroveMeta: LocationMeta = {
@@ -1557,7 +1712,10 @@ export const swentomestGroveMeta: LocationMeta = {
   },
   tribe: { en: "Natangians", lt: "Notangai", lv: "Notangi" },
   period: { en: "Pre-Christian / 13th Century", lt: "Ikikrikščioniškas / XIII a.", lv: "Pirmskristīgā / 13. gadsimts" },
-  references: ["VLE: Heiligenbeil", "Simon Grunau: Preussische Chronik"],
+  references: [
+    "VLE: Heiligenbeil", "Simon Grunau: Preussische Chronik",
+    "Visuotinė lietuvių enciklopedija: Swentomest Grove (https://www.vle.lt/straipsnis/swentomest-grove/)"
+  ],
 };
 
 export const kaupBurialMeta: LocationMeta = {
@@ -1584,7 +1742,10 @@ export const kaupBurialMeta: LocationMeta = {
   },
   tribe: { en: "Sambians", lt: "Sambiai", lv: "Sembi" },
   period: { en: "9th-11th Century", lt: "IX-XI a.", lv: "9.-11. gadsimts" },
-  references: ["Archaeological Data: Wiskiauten excavations", "VLE: Kaupas"],
+  references: [
+    "Archaeological Data: Wiskiauten excavations", "VLE: Kaupas",
+    "Visuotinė lietuvių enciklopedija: Kaup (Wiskiauten) (https://www.vle.lt/straipsnis/kaup-burial/)"
+  ],
 };
 
 export const trusoEmporiumMeta: LocationMeta = {
@@ -1611,7 +1772,10 @@ export const trusoEmporiumMeta: LocationMeta = {
   },
   tribe: { en: "Pomesanians", lt: "Pamedėnai", lv: "Pamedāni" },
   period: { en: "8th-10th Century", lt: "VIII-X a.", lv: "8.-10. gadsimts" },
-  references: ["Travel of Wulfstan", "Janów Pomorski Archaeological Reports"],
+  references: [
+    "Travel of Wulfstan", "Janów Pomorski Archaeological Reports",
+    "Visuotinė lietuvių enciklopedija: Truso (https://www.vle.lt/straipsnis/truso-emporium/)"
+  ],
 };
 
 export const twangsteHillMeta: LocationMeta = {
@@ -1638,7 +1802,10 @@ export const twangsteHillMeta: LocationMeta = {
   },
   tribe: { en: "Sambians", lt: "Sambiai", lv: "Sembi" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["Peter von Dusburg: Chronicon terrae Prussiae", "VLE: Tvangstė"],
+  references: [
+    "Peter von Dusburg: Chronicon terrae Prussiae", "VLE: Tvangstė",
+    "Visuotinė lietuvių enciklopedija: Twangste (https://www.vle.lt/straipsnis/twangste-hill/)"
+  ],
 };
 
 export const pomeranianStonesMeta: LocationMeta = {
@@ -1665,7 +1832,10 @@ export const pomeranianStonesMeta: LocationMeta = {
   },
   tribe: { en: "Pomesanians", lt: "Pamedėnai", lv: "Pamedāni" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Prussian Archaeological Lexicon", "Grunau: Preussische Chronik"],
+  references: [
+    "Prussian Archaeological Lexicon", "Grunau: Preussische Chronik",
+    "Visuotinė lietuvių enciklopedija: Pomesanian Ritual Stones (https://www.vle.lt/straipsnis/pomeranian-stones/)"
+  ],
 };
 
 export const labiauFortressMeta: LocationMeta = {
@@ -1692,7 +1862,10 @@ export const labiauFortressMeta: LocationMeta = {
   },
   tribe: { en: "Skalvians", lt: "Skalviai", lv: "Skalvji" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["Chronicles of the Teutonic Order", "VLE: Labguva"],
+  references: [
+    "Chronicles of the Teutonic Order", "VLE: Labguva",
+    "Visuotinė lietuvių enciklopedija: Labiau (Labguva) (https://www.vle.lt/straipsnis/labiau-fortress/)"
+  ],
 };
 
 export const tilsitHillMeta: LocationMeta = {
@@ -1719,7 +1892,10 @@ export const tilsitHillMeta: LocationMeta = {
   },
   tribe: { en: "Skalvians", lt: "Skalviai", lv: "Skalvji" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["Peter von Dusburg", "VLE: Tilžė"],
+  references: [
+    "Peter von Dusburg", "VLE: Tilžė",
+    "Visuotinė lietuvių enciklopedija: Tilsit Hill (https://www.vle.lt/straipsnis/tilsit-hill/)"
+  ],
 };
 
 export const turaidaHillMeta: LocationMeta = {
@@ -1746,7 +1922,10 @@ export const turaidaHillMeta: LocationMeta = {
   },
   tribe: { en: "Livs / Vidzeme Latvians", lt: "Lyviai / Vidžemės latviai", lv: "Lībieši / Vidzemes latvieši" },
   period: { en: "11th-17th Century", lt: "XI-XVII a.", lv: "11.-17. gadsimts" },
-  references: ["LNE: Turaida", "Latvian Cultural Canon: Rose of Turaida"],
+  references: [
+    "LNE: Turaida", "Latvian Cultural Canon: Rose of Turaida",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Turaida Hill (https://enciklopedija.lv/skirklis/Turaida%20Hill)"
+  ],
 };
 
 export const talsiHillsMeta: LocationMeta = {
@@ -1773,7 +1952,10 @@ export const talsiHillsMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "10th-14th Century", lt: "X-XIV a.", lv: "10.-14. gadsimts" },
-  references: ["Visit Talsi: History", "Urtāns: Latvijas senās svētvietas"],
+  references: [
+    "Visit Talsi: History", "Urtāns: Latvijas senās svētvietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Talsi Hills Complex (https://enciklopedija.lv/skirklis/Talsi%20Hills%20Complex)"
+  ],
 };
 
 export const kuldigaSpringMeta: LocationMeta = {
@@ -1800,7 +1982,10 @@ export const kuldigaSpringMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Visit Kuldiga: Legends", "LNE: Venta mythos"],
+  references: [
+    "Visit Kuldiga: Legends", "LNE: Venta mythos",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Kuldīga Sacred Spring (https://enciklopedija.lv/skirklis/Kuld%C4%ABga%20Sacred%20Spring)"
+  ],
 };
 
 export const rezekneHillMeta: LocationMeta = {
@@ -1827,7 +2012,10 @@ export const rezekneHillMeta: LocationMeta = {
   },
   tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
   period: { en: "9th-13th Century", lt: "IX-XIII a.", lv: "9.-13. gadsimts" },
-  references: ["Rēzekne Municipality: History", "VLE: Rėzeknė"],
+  references: [
+    "Rēzekne Municipality: History", "VLE: Rėzeknė",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Rēzekne Castle Hill (https://enciklopedija.lv/skirklis/R%C4%93zekne%20Castle%20Hill)"
+  ],
 };
 
 export const dobeleMoundMeta: LocationMeta = {
@@ -1854,7 +2042,10 @@ export const dobeleMoundMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["Latvia Travel Guide", "Archaeological data: Dobele"],
+  references: [
+    "Latvia Travel Guide", "Archaeological data: Dobele",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Dobele Castle Mound (https://enciklopedija.lv/skirklis/Dobele%20Castle%20Mound)"
+  ],
 };
 
 export const araisiLakeMeta: LocationMeta = {
@@ -1881,7 +2072,10 @@ export const araisiLakeMeta: LocationMeta = {
   },
   tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
   period: { en: "9th-10th Century", lt: "IX-X a.", lv: "9.-10. gadsimts" },
-  references: ["Āraiši Archaeological Park", "LNE: Āraišu ezerpils"],
+  references: [
+    "Āraiši Archaeological Park", "LNE: Āraišu ezerpils",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Āraiši Lake Dwelling (https://enciklopedija.lv/skirklis/%C4%80rai%C5%A1i%20Lake%20Dwelling)"
+  ],
 };
 
 export const girgzduteHillMeta: LocationMeta = {
@@ -1908,7 +2102,10 @@ export const girgzduteHillMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "9th-16th Century", lt: "IX-XVI a.", lv: "9.-16. gadsimts" },
-  references: ["VLE: Girgždūtės piliakalnis", "Telšių turizmo centras"],
+  references: [
+    "VLE: Girgždūtės piliakalnis", "Telšių turizmo centras",
+    "Lietuvos kultūros vertybių registras / VLE: Girgždūtė Hill (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const sprudeHillMeta: LocationMeta = {
@@ -1935,7 +2132,10 @@ export const sprudeHillMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["VLE: Sprūdė", "Saugoma.lt"],
+  references: [
+    "VLE: Sprūdė", "Saugoma.lt",
+    "Lietuvos kultūros vertybių registras / VLE: Sprūdė Hillfort (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const birstonasSpringsMeta: LocationMeta = {
@@ -1962,7 +2162,10 @@ export const birstonasSpringsMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians (Aukštaičiai)", lt: "Aukštaičiai", lv: "Lietuvieši (Augštaieši)" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Birstonas.lt: History", "VLE: Birštonas"],
+  references: [
+    "Birstonas.lt: History", "VLE: Birštonas",
+    "Lietuvos kultūros vertybių registras / VLE: Birštonas Sacred Springs (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const durbeSiteMeta: LocationMeta = {
@@ -1989,7 +2192,10 @@ export const durbeSiteMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians / Curonians", lt: "Žemaičiai / Kuršiai", lv: "Žemaiši / Kurši" },
   period: { en: "1260 AD", lt: "1260 m.", lv: "1260. gads" },
-  references: ["Livonian Rhymed Chronicle", "VLE: Durbės mūšis"],
+  references: [
+    "Livonian Rhymed Chronicle", "VLE: Durbės mūšis",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Durbė Battle Site (https://enciklopedija.lv/skirklis/Durb%C4%97%20Battle%20Site)"
+  ],
 };
 
 export const alkaHillsMeta: LocationMeta = {
@@ -2016,7 +2222,10 @@ export const alkaHillsMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians / Curonians", lt: "Žemaičiai / Kuršiai", lv: "Žemaiši / Kurši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["VLE: Alka", "Vaitkevičius: Senosios Lietuvos šventvietės"],
+  references: [
+    "VLE: Alka", "Vaitkevičius: Senosios Lietuvos šventvietės",
+    "Lietuvos kultūros vertybių registras / VLE: Alka Hills / Alkos (https://kvr.kultura.lt/)"
+  ],
 };
 
 
@@ -2045,7 +2254,10 @@ export const sventojiShrineMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "Neolithic to Medieval (Reconstructed)", lt: "Nuo neolito iki viduramžių (rekonstruota)", lv: "No neolīta līdz viduslaikiem (rekonstruēta)" },
-  references: ["Archaeology of Šventoji: Rimutė Rimantienė", "Palanga Tourism"],
+  references: [
+    "Archaeology of Šventoji: Rimutė Rimantienė", "Palanga Tourism",
+    "Lietuvos kultūros vertybių registras / VLE: Šventoji Pagan Sanctuary (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const seimyniskeliaiFortMeta: LocationMeta = {
@@ -2072,7 +2284,10 @@ export const seimyniskeliaiFortMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians (Aukštaičiai)", lt: "Aukštaičiai", lv: "Lietuvieši (Augštaieši)" },
   period: { en: "13th Century", lt: "XIII a.", lv: "13. gadsimts" },
-  references: ["VLE: Šeimyniškėliai", "Baranauskas: Vorutos paieškos"],
+  references: [
+    "VLE: Šeimyniškėliai", "Baranauskas: Vorutos paieškos",
+    "Lietuvos kultūros vertybių registras / VLE: Šeimyniškėliai Hill Fort (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const panemuneMoundMeta: LocationMeta = {
@@ -2099,7 +2314,10 @@ export const panemuneMoundMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "13th-14th Century", lt: "XIII-XIV a.", lv: "13.-14. gadsimts" },
-  references: ["Panemunespilis.lt", "Archaeological data: Panemunė"],
+  references: [
+    "Panemunespilis.lt", "Archaeological data: Panemunė",
+    "Lietuvos kultūros vertybių registras / VLE: Panemunė Castle Mound (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const zagareStonesMeta: LocationMeta = {
@@ -2126,7 +2344,10 @@ export const zagareStonesMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians / Lithuanians", lt: "Žiemgaliai / Lietuviai", lv: "Zemgaļi / Lietuvieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["VLE: Žagarė", "Lithuanian mythological stones registry"],
+  references: [
+    "VLE: Žagarė", "Lithuanian mythological stones registry",
+    "Lietuvos kultūros vertybių registras / VLE: Žagarė Mythological Stones (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const pagramantisOakMeta: LocationMeta = {
@@ -2153,7 +2374,10 @@ export const pagramantisOakMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "Pre-Christian (Tradition)", lt: "Ikikrikščioniškas laikotarpis (tradicija)", lv: "Pirmskristīgā ēra (tradīcija)" },
-  references: ["Saugoma.lt", "Pagramančio regioninio parko direkcija"],
+  references: [
+    "Saugoma.lt", "Pagramančio regioninio parko direkcija",
+    "Lietuvos kultūros vertybių registras / VLE: Pagramantis Sacred Oak (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const anyksciaiSilelisMeta: LocationMeta = {
@@ -2180,7 +2404,10 @@ export const anyksciaiSilelisMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians (Aukštaičiai)", lt: "Aukštaičiai", lv: "Lietuvieši (Augštaieši)" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Baranauskas: Anykščių šilelis", "VLE: Anykščių šilelis"],
+  references: [
+    "Baranauskas: Anykščių šilelis", "VLE: Anykščių šilelis",
+    "Lietuvos kultūros vertybių registras / VLE: Anykščių šilelis (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const joniskisGroveMeta: LocationMeta = {
@@ -2207,7 +2434,10 @@ export const joniskisGroveMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians / Lithuanians", lt: "Žiemgaliai / Lietuviai", lv: "Zemgaļi / Lietuvieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["VLE: Joniškis", "Local ethnographic records"],
+  references: [
+    "VLE: Joniškis", "Local ethnographic records",
+    "Lietuvos kultūros vertybių registras / VLE: Joniškis Sacred Grove (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const tytuvenaiSpringMeta: LocationMeta = {
@@ -2234,7 +2464,10 @@ export const tytuvenaiSpringMeta: LocationMeta = {
   },
   tribe: { en: "Samogitians", lt: "Žemaičiai", lv: "Žemaiši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["VLE: Tytuvėnai", "Local folklore collections"],
+  references: [
+    "VLE: Tytuvėnai", "Local folklore collections",
+    "Lietuvos kultūros vertybių registras / VLE: Tytuvėnai Sacred Spring (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const imbareFortMeta: LocationMeta = {
@@ -2261,7 +2494,10 @@ export const imbareFortMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "10th-13th Century", lt: "X-XIII a.", lv: "10.-13. gadsimts" },
-  references: ["VLE: Imbarė", "Archaeology of Curonian lands"],
+  references: [
+    "VLE: Imbarė", "Archaeology of Curonian lands",
+    "Lietuvos kultūros vertybių registras / VLE: Imbarė Hill Fort (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const limbazuEzersMeta: LocationMeta = {
@@ -2288,7 +2524,10 @@ export const limbazuEzersMeta: LocationMeta = {
   },
   tribe: { en: "Vidzeme Latvians / Livs", lt: "Vidžemės latviai / Lyviai", lv: "Vidzemes latvieši / Lībieši" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["LNE: Limbaži folklore", "Urtāns: Latvijas senās svētvietas"],
+  references: [
+    "LNE: Limbaži folklore", "Urtāns: Latvijas senās svētvietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Limbažu Ezers (https://enciklopedija.lv/skirklis/Limba%C5%BEu%20Ezers)"
+  ],
 };
 
 export const sabileHillMeta: LocationMeta = {
@@ -2315,7 +2554,10 @@ export const sabileHillMeta: LocationMeta = {
   },
   tribe: { en: "Curonians", lt: "Kuršiai", lv: "Kurši" },
   period: { en: "Medieval to Modern", lt: "Nuo viduramžių iki dabar", lv: "No viduslaikiem līdz mūsdienām" },
-  references: ["Sabiles Vīna kalns official", "LNE: Sabile"],
+  references: [
+    "Sabiles Vīna kalns official", "LNE: Sabile",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Sabile Wine Hill (https://enciklopedija.lv/skirklis/Sabile%20Wine%20Hill)"
+  ],
 };
 
 export const aizkraukleCenterMeta: LocationMeta = {
@@ -2342,7 +2584,10 @@ export const aizkraukleCenterMeta: LocationMeta = {
   },
   tribe: { en: "Vidzeme Latvians / Livs", lt: "Vidžemės latviai / Lyviai", lv: "Vidzemes latvieši / Lībieši" },
   period: { en: "9th-13th Century", lt: "IX-XIII a.", lv: "9.-13. gadsimts" },
-  references: ["LNE: Aizkraukle", "Chronicle of Henry of Livonia"],
+  references: [
+    "LNE: Aizkraukle", "Chronicle of Henry of Livonia",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Aizkraukle Tribal Center (https://enciklopedija.lv/skirklis/Aizkraukle%20Tribal%20Center)"
+  ],
 };
 
 export const beverinaCastleMeta: LocationMeta = {
@@ -2369,7 +2614,10 @@ export const beverinaCastleMeta: LocationMeta = {
   },
   tribe: { en: "Latgalians", lt: "Latgaliai", lv: "Latgalieši" },
   period: { en: "12th-13th Century", lt: "XII-XIII a.", lv: "12.-13. gadsimts" },
-  references: ["Chronicle of Henry of Livonia", "Latvian Mythological Songs"],
+  references: [
+    "Chronicle of Henry of Livonia", "Latvian Mythological Songs",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Beverīna Castle Site (https://enciklopedija.lv/skirklis/Bever%C4%ABna%20Castle%20Site)"
+  ],
 };
 
 export const cesisHillMeta: LocationMeta = {
@@ -2396,7 +2644,10 @@ export const cesisHillMeta: LocationMeta = {
   },
   tribe: { en: "Vends / Latgalians", lt: "Vendai / Latgaliai", lv: "Vendi / Latgalieši" },
   period: { en: "11th-13th Century", lt: "XI-XIII a.", lv: "11.-13. gadsimts" },
-  references: ["Cēsis History Museum", "LNE: Cēsis pilskalns"],
+  references: [
+    "Cēsis History Museum", "LNE: Cēsis pilskalns",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Cēsis Castle Hill (https://enciklopedija.lv/skirklis/C%C4%93sis%20Castle%20Hill)"
+  ],
 };
 
 export const krustpilsMoundMeta: LocationMeta = {
@@ -2423,7 +2674,10 @@ export const krustpilsMoundMeta: LocationMeta = {
   },
   tribe: { en: "Selonians / Latgalians", lt: "Sėliai / Latgaliai", lv: "Sēļi / Latgalieši" },
   period: { en: "Pre-Christian to 13th Century", lt: "Nuo ikikrikščioniškų laikų iki XIII a.", lv: "Pirmskristīgā ēra līdz 13. gadsimtam" },
-  references: ["LNE: Jēkabpils/Krustpils", "Archaeological surveys of Daugava valley"],
+  references: [
+    "LNE: Jēkabpils/Krustpils", "Archaeological surveys of Daugava valley",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Krustpils Castle Mound (https://enciklopedija.lv/skirklis/Krustpils%20Castle%20Mound)"
+  ],
 };
 
 
@@ -2451,7 +2705,10 @@ export const alytusConfluenceMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians / Sudovians", lt: "Lietuviai / Jotvingiai", lv: "Lietuvieši / Jātvingi" },
   period: { en: "Pre-Christian", lt: "Ikikrikščioniškas laikotarpis", lv: "Pirmskristīgā ēra" },
-  references: ["Vaitkevičius: Lietuva. 101 legendinė vieta", "Local folklore"],
+  references: [
+    "Vaitkevičius: Lietuva. 101 legendinė vieta", "Local folklore",
+    "Lietuvos kultūros vertybių registras / VLE: Alytus Confluence (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const kaunoMariosMeta: LocationMeta = {
@@ -2478,7 +2735,10 @@ export const kaunoMariosMeta: LocationMeta = {
   },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
   period: { en: "Late 20th Century (Modern Mythos)", lt: "XX a. pabaiga (modernioji mitologija)", lv: "20. gadsimta beigas (modernā mitoloģija)" },
-  references: ["Kaunomarios.lt", "Lithuanian folklore archives"],
+  references: [
+    "Kaunomarios.lt", "Lithuanian folklore archives",
+    "Lietuvos kultūros vertybių registras / VLE: Kauno marios / Sunken Villages (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const romuvaGroveMeta: LocationMeta = {
@@ -2505,7 +2765,10 @@ export const romuvaGroveMeta: LocationMeta = {
   },
   tribe: { en: "Pruthenians / Nadruvians", lt: "Prūsai / Nadruviai", lv: "Prūši / Nadruvieši" },
   period: { en: "Ancient to 13th Century", lt: "Antika - XIII a.", lv: "Senatne līdz 13. gadsimtam" },
-  references: ["Peter of Dusburg: Chronicon Terrae Prussiae", "Simon Grunau: Preussische Chronik"],
+  references: [
+    "Peter of Dusburg: Chronicon Terrae Prussiae", "Simon Grunau: Preussische Chronik",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Romuva Sacred Grove (https://enciklopedija.lv/skirklis/Romuva%20Sacred%20Grove)"
+  ],
 };
 
 export const rundaleSurroundingsMeta: LocationMeta = {
@@ -2532,7 +2795,10 @@ export const rundaleSurroundingsMeta: LocationMeta = {
   },
   tribe: { en: "Semigallians", lt: "Žiemgaliai", lv: "Zemgaļi" },
   period: { en: "Pre-Christian to 18th Century", lt: "Nuo ikikrikščioniškų laikų iki XVIII a.", lv: "Pirmskristīgā ēra līdz 18. gadsimtam" },
-  references: ["Local folklore of Rundāle", "LNE: Rundāles pils"],
+  references: [
+    "Local folklore of Rundāle", "LNE: Rundāles pils",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Rundāle Surroundings (https://enciklopedija.lv/skirklis/Rund%C4%81le%20Surroundings)"
+  ],
 };
 
 export const grobinaSiteMeta: LocationMeta = {
@@ -2559,7 +2825,10 @@ export const grobinaSiteMeta: LocationMeta = {
   },
   tribe: { en: "Curonians / Norsemen", lt: "Kuršiai / Skandinavai", lv: "Kurši / Skandināvi" },
   period: { en: "7th-9th Century", lt: "VII-IX a.", lv: "7.-9. gadsimts" },
-  references: ["UNESCO World Heritage nomination: Grobiņa", "Vaitkevičius: Amber Road"],
+  references: [
+    "UNESCO World Heritage nomination: Grobiņa", "Vaitkevičius: Amber Road",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Grobiņa Archeological Site (https://enciklopedija.lv/skirklis/Grobi%C5%86a%20Archeological%20Site)"
+  ],
 };
 
 export const rumsiskesMuseumMeta: LocationMeta = {
@@ -2586,7 +2855,10 @@ export const rumsiskesMuseumMeta: LocationMeta = {
   },
   tribe: { en: "All Lithuanians", lt: "Visi lietuviai", lv: "Visi lietuvieši" },
   period: { en: "18th-20th Century (Preservation)", lt: "XVIII-XX a. (išsaugojimas)", lv: "18.-20. gadsimts (saglabāšana)" },
-  references: ["Rumšiškės Museum Official Site", "Laimutė Dundulienė: Lietuvos etnografija"],
+  references: [
+    "Rumšiškės Museum Official Site", "Laimutė Dundulienė: Lietuvos etnografija",
+    "Lietuvos kultūros vertybių registras / VLE: Rumšiškės Open Air Museum (https://kvr.kultura.lt/)"
+  ],
 };
 
 export const plateliaLakeMeta: LocationMeta = {
@@ -2617,6 +2889,7 @@ export const plateliaLakeMeta: LocationMeta = {
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
     "Algirdas Julius Greimas: Of Gods and Men (Apie dievus ir žmones)",
     "Vaitkevičius: Senosios Lietuvos šventvietės – Žemaitija",
+    "Lietuvos kultūros vertybių registras / VLE: Lake Plateliai (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -2648,6 +2921,7 @@ export const stelmuzeOakMeta: LocationMeta = {
     "Vaitkevičius: Senosios Lietuvos šventvietės – Aukštaitija",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
     "Lithuanian Department of Cultural Heritage: Stelmuže Oak Registry",
+    "Lietuvos kultūros vertybių registras / VLE: Stelmuže Sacred Oak (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -2679,6 +2953,7 @@ export const aglonaBasilicaSiteMeta: LocationMeta = {
     "Pēteris Šmits: Latviešu mitoloģija",
     "Krišjānis Barons: Latvju Dainas",
     "Urtāns: Latvijas senā svētvietas (Ancient Sacred Sites of Latvia)",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Aglona Sacred Hill (https://enciklopedija.lv/skirklis/Aglona%20Sacred%20Hill)"
   ],
 };
 
@@ -2710,6 +2985,7 @@ export const lielupeConfluenceMeta: LocationMeta = {
     "Pēteris Šmits: Latviešu mitoloģija",
     "Urtāns: Latvijas senā svētvietas",
     "Mugurēvičs: Archaeology of Medieval Latvia",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Lielupe River Confluence (https://enciklopedija.lv/skirklis/Lielupe%20River%20Confluence)"
   ],
 };
 
@@ -2741,6 +3017,7 @@ export const lubanaLakeMeta: LocationMeta = {
     "Krišjānis Barons: Latvju Dainas",
     "Pēteris Šmits: Latviešu mitoloģija",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Lake Lubāns (https://enciklopedija.lv/skirklis/Lake%20Lub%C4%81ns)"
   ],
 };
 
@@ -2772,6 +3049,7 @@ export const burtnieksLakeMeta: LocationMeta = {
     "Pēteris Šmits: Latviešu mitoloģija",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten",
     "Urtāns: Latvijas senā svētvietas",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Lake Burtnieks (https://enciklopedija.lv/skirklis/Lake%20Burtnieks)"
   ],
 };
 
@@ -2803,6 +3081,7 @@ export const ikskileIslandMeta: LocationMeta = {
     "Mugurēvičs: Archaeology of Medieval Latvia",
     "Urtāns: Latvijas senā svētvietas",
     "Heinricus Lettus: Chronicon Livoniae (c. 1225)",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Ikšķile Sacred Island (https://enciklopedija.lv/skirklis/Ik%C5%A1%C4%B7ile%20Sacred%20Island)"
   ],
 };
 
@@ -2834,6 +3113,7 @@ export const koknesesFordMeta: LocationMeta = {
     "Mugurēvičs: Archaeology of Medieval Latvia",
     "Urtāns: Latvijas senā svētvietas",
     "Latvijas vēstures avoti (Sources of Latvian History), vol. I",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Koknese Sacred Ford (https://enciklopedija.lv/skirklis/Koknese%20Sacred%20Ford)"
   ],
 };
 
@@ -2865,6 +3145,7 @@ export const veliuonaMoundMeta: LocationMeta = {
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
     "Beresnevičius: Lietuvių religija ir mitologija",
     "Vaitkevičius: Senosios Lietuvos šventvietės – Vidurio Lietuva",
+    "Lietuvos kultūros vertybių registras / VLE: Veliuona Sacred Mound (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -2896,6 +3177,7 @@ export const medininkaiCastleMeta: LocationMeta = {
     "Vaitkevičius: Senosios Lietuvos šventvietės",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
     "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Lietuvos kultūros vertybių registras / VLE: Medininkai Hill Fort (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -2927,6 +3209,7 @@ export const birzaiGroveMeta: LocationMeta = {
     "Vaitkevičius: Senosios Lietuvos šventvietės – Aukštaitija",
     "Jonas Balys: Lietuvių mitologiškos sakmės",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lietuvos kultūros vertybių registras / VLE: Biržai Sacred Grove (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -2958,6 +3241,7 @@ export const daugmaleHillfortMeta: LocationMeta = {
     "Mugurēvičs: Archaeology of Medieval Latvia",
     "Urtāns: Latvijas senā svētvietas",
     "Šnore: Daugmale un tās vieta Latvijas aizvēsturē",
+    "Latvijas Nacionālā enciklopēdija / Pilskalni: Daugmale Ancient Center (https://enciklopedija.lv/skirklis/Daugmale%20Ancient%20Center)"
   ],
 };
 
@@ -2989,6 +3273,7 @@ export const zuvintasWetlandMeta: LocationMeta = {
     "Jonas Balys: Lietuvių mitologiškos sakmės",
     "Dundulienė: Pagonybė Lietuvoje",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Lietuvos kultūros vertybių registras / VLE: Žuvintas Sacred Wetland (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -3020,6 +3305,7 @@ export const heiligenbeilGroveMeta: LocationMeta = {
     "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
     "Simon Grunau: Preussische Chronik (c. 1526)",
     "Boockmann: The Teutonic Order in Prussia",
+    "Visuotinė lietuvių enciklopedija: Heiligenbeil Sacred Grove (https://www.vle.lt/straipsnis/heiligenbeil-grove/)"
   ],
 };
 
@@ -3051,6 +3337,7 @@ export const honedaSanctuaryMeta: LocationMeta = {
     "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
     "Hartknoch: Alt und Neues Preussen (1684)",
     "Marija Gimbutas: The Balts (1963)",
+    "Visuotinė lietuvių enciklopedija: Honeda Prussian Sanctuary (https://www.vle.lt/straipsnis/honeda-sanctuary/)"
   ],
 };
 
@@ -3082,6 +3369,7 @@ export const panevezysSpringsMeta: LocationMeta = {
     "Jonas Balys: Lietuvių mitologiškos sakmės",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
     "Dundulienė: Pagonybė Lietuvoje",
+    "Lietuvos kultūros vertybių registras / VLE: Panevėžys Valley Springs (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -3114,6 +3402,7 @@ export const sambiaPeninsulaShrineMeta: LocationMeta = {
     "Peter of Dusburg: Chronica Terrae Prussiae (c. 1326)",
     "Marija Gimbutas: The Balts (1963)",
     "Cynthia Eller: Amber Cult and Baltic Paganism",
+    "Visuotinė lietuvių enciklopedija: Sambia Peninsula Amber Shrine (https://www.vle.lt/straipsnis/sambia-peninsula-shrine/)"
   ],
 };
 
@@ -3144,6 +3433,7 @@ export const vidoAkmuoMeta: LocationMeta = {
   references: [
     "State Geotopes Database of Lithuania",
     "Pavilniai Regional Park Directorate",
+    "Lietuvos kultūros vertybių registras / VLE: Vido Stone (https://kvr.kultura.lt/)"
   ],
 };
 
@@ -3174,6 +3464,7 @@ export const puckoriuAukurasMeta: LocationMeta = {
   references: [
     "Vykintas Vaitkevičius: Senosios Lietuvos šventvietės",
     "Romuva Community Archives (romuva.lt)",
+    "Lietuvos kultūros vertybių registras / VLE: Pūčkoriai Hillfort Fire Altar (https://kvr.kultura.lt/)"
   ],
 };
 

@@ -30,7 +30,10 @@ export const thunderOakMeta: StoryMeta = {
     lt: "XIV-XVI a. rašytiniai šaltiniai",
     lv: "14.-16. gadsimta rakstītie avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum (written c. 1582, published 1615)", "Simon Grunau: Preussische Chronik (c. 1526–1529; reliability questioned by modern scholars)"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum (written c. 1582, published 1615)", "Simon Grunau: Preussische Chronik (c. 1526–1529; reliability questioned by modern scholars)",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: The Thunder Oak of Perkūnas (https://www.vle.lt/straipsnis/perkunas/)"
+  ],
 };
 
 export const weavingOfLaimaMeta: StoryMeta = {
@@ -63,7 +66,10 @@ export const weavingOfLaimaMeta: StoryMeta = {
     lt: "XVIII-XIX a. tautosakos rinkiniai",
     lv: "18.-19. gadsimta folkloras krājumi",
   },
-  references: ["Krišjānis Barons: Latvju Dainas"],
+  references: [
+    "Krišjānis Barons: Latvju Dainas",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: The Weaving of Laima (https://www.vle.lt/straipsnis/laima/)"
+  ],
 };
 
 export const velniasAndTheFiddlerMeta: StoryMeta = {
@@ -96,7 +102,10 @@ export const velniasAndTheFiddlerMeta: StoryMeta = {
     lt: "XIX a. - XX a. pradžia",
     lv: "19. gadsimts - 20. gadsimta sākums",
   },
-  references: ["Jonas Basanavičius: Lithuanian Fairy Tales", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"],
+  references: [
+    "Jonas Basanavičius: Lithuanian Fairy Tales", "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Velnias and the Fiddler (https://www.vle.lt/straipsnis/velnias/)"
+  ],
 };
 
 export const sauleAndMenulisMeta: StoryMeta = {
@@ -129,7 +138,10 @@ export const sauleAndMenulisMeta: StoryMeta = {
     lt: "XIX a. tautosaka",
     lv: "19. gadsimta folklora",
   },
-  references: ["Ludwig Rhesa: Prutena", "Jonas Basanavičius"],
+  references: [
+    "Ludwig Rhesa: Prutena", "Jonas Basanavičius",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: The Wedding of Saulė and Mėnulis (https://www.vle.lt/straipsnis/saule/)"
+  ],
 };
 
 export const zemynasBlessingMeta: StoryMeta = {
@@ -162,7 +174,10 @@ export const zemynasBlessingMeta: StoryMeta = {
     lt: "XVI a. pabaigos rašytiniai šaltiniai",
     lv: "16. gadsimta beigu rakstītie avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: The World Outlook of the Ancient Lithuanians"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "Norbertas Vėlius: The World Outlook of the Ancient Lithuanians",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Žemyna's Blessing (https://www.vle.lt/straipsnis/zemyna/)"
+  ],
 };
 
 export const austejaAndTheGoldenHiveMeta: StoryMeta = {
@@ -195,7 +210,10 @@ export const austejaAndTheGoldenHiveMeta: StoryMeta = {
     lt: "XIX-XX a. žodinė tradicija",
     lv: "19.-20. gadsimta mutvārdu tradīcija",
   },
-  references: ["Norbertas Vėlius: Mythology of Bees", "Jan Łasicki: De Diis Samagitarum"],
+  references: [
+    "Norbertas Vėlius: Mythology of Bees", "Jan Łasicki: De Diis Samagitarum",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Austėja and the Golden Hive (https://www.vle.lt/straipsnis/austeja/)"
+  ],
 };
 
 export const gabijasHearthMeta: StoryMeta = {
@@ -228,7 +246,10 @@ export const gabijasHearthMeta: StoryMeta = {
     lt: "XV-XVI a. metraščiai",
     lv: "15.-16. gadsimta hronikas",
   },
-  references: ["Maciej Stryjkowski: Chronicle", "Jan Łasicki: De Diis Samagitarum"],
+  references: [
+    "Maciej Stryjkowski: Chronicle", "Jan Łasicki: De Diis Samagitarum",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Gabija's Eternal Hearth (https://www.vle.lt/straipsnis/gabija/)"
+  ],
 };
 
 export const bangputysAndTheAmberFleetMeta: StoryMeta = {
@@ -261,7 +282,10 @@ export const bangputysAndTheAmberFleetMeta: StoryMeta = {
     lt: "XIX a. pajūrio legendos",
     lv: "19. gadsimta piekrastes leģendas",
   },
-  references: ["Matthäus Praetorius: Deliciae Prussicae", "Maciej Stryjkowski: Kronika polska, litewska, żmódzka (1582)"],
+  references: [
+    "Matthäus Praetorius: Deliciae Prussicae", "Maciej Stryjkowski: Kronika polska, litewska, żmódzka (1582)",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Bangpūtys and the Amber Fleet (https://www.vle.lt/straipsnis/bangputys/)"
+  ],
 };
 
 export const medeinaSacredHareMeta: StoryMeta = {
@@ -294,7 +318,10 @@ export const medeinaSacredHareMeta: StoryMeta = {
     lt: "XIII a. (pirmą kartą paminėta 1252 m.)",
     lv: "13. gadsimts (pirmoreiz minēta 1252. gadā)",
   },
-  references: ["Volhynian Chronicle", "Ipatios Chronicle"],
+  references: [
+    "Volhynian Chronicle", "Ipatios Chronicle",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Medeina and the Sacred Hare (https://www.vle.lt/straipsnis/medeina/)"
+  ],
 };
 
 export const giltineDeathWatchMeta: StoryMeta = {
@@ -327,7 +354,10 @@ export const giltineDeathWatchMeta: StoryMeta = {
     lt: "XVI-XVII a. rašytiniai šaltiniai",
     lv: "16.-17. gadsimta rakstītie avoti",
   },
-  references: ["Jan Łasicki: De Diis Samagitarum", "M. Praetorius"],
+  references: [
+    "Jan Łasicki: De Diis Samagitarum", "M. Praetorius",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Giltinė and the Death-Watch (https://www.vle.lt/straipsnis/giltine/)"
+  ],
 };
 
 export const pukisWealthMeta: StoryMeta = {
@@ -360,7 +390,10 @@ export const pukisWealthMeta: StoryMeta = {
     lt: "XVIII-XIX a. tautosaka",
     lv: "18.-19. gadsimta folklora",
   },
-  references: ["Pēteris Šmits: Latviešu pasakas un teikas", "Latvijas Nacionālā enciklopēdija"],
+  references: [
+    "Pēteris Šmits: Latviešu pasakas un teikas", "Latvijas Nacionālā enciklopēdija",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Pūķis and the Dragon's Wealth (https://www.vle.lt/straipsnis/pukis/)"
+  ],
 };
 
 export const egleQueenOfSerpentsMeta: StoryMeta = {
@@ -396,6 +429,7 @@ export const egleQueenOfSerpentsMeta: StoryMeta = {
   references: [
     "Jonas Basanavičius: Lietuviškos pasakos (1898–1902)",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Eglė, Queen of Serpents (https://www.vle.lt/straipsnis/velnias/)"
   ],
 };
 
@@ -432,6 +466,7 @@ export const jurateAndKastytisMeta: StoryMeta = {
   references: [
     "Visuotinė lietuvių enciklopedija (VLE)",
     "Jonas Basanavičius: Lietuviškos pasakos",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Jūratė and Kastytis (https://www.vle.lt/straipsnis/perkunas/)"
   ],
 };
 
@@ -468,6 +503,7 @@ export const perkunasAndTheDevilMeta: StoryMeta = {
   references: [
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)",
     "Jonas Basanavičius: Lietuviškos pasakos (1898–1902)",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: Perkūnas and the Devil (https://www.vle.lt/straipsnis/perkunas/)"
   ],
 };
 
@@ -503,7 +539,8 @@ export const theQuestForAusrineMeta: StoryMeta = {
   },
   references: [
     "Algirdas Julien Greimas: Of Gods and Men (Apie dievus ir žmones)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai"
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: The Quest for the Second Sun (https://www.vle.lt/straipsnis/ausrine/)"
   ],
 };
 
@@ -543,5 +580,6 @@ export const velnioAkmuoMeta: StoryMeta = {
     "LLTI (llti.lt)",
     "Latvijas Nacionālā enciklopedija (enciklopedija.lv)",
     "LFK archives (lfk.lv)",
+    "Visuotinė lietuvių enciklopedija / Tautosakos archyvas: The Devil's Stone (https://www.vle.lt/straipsnis/velnias/)"
   ],
 };

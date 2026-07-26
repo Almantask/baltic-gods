@@ -864,15 +864,6 @@ export const deityBySlug: Record<string, DeityEntry> = {
       lv: dynamic(() => import("./gods/lv/tiruma-mate.mdx")),
     }
   },
-  "uguns-mate": {
-    meta: meta.ugunsMateMetaData,
-    Content: dynamic(() => import("./gods/en/uguns-mate.mdx")),
-    contentByLang: {
-      en: dynamic(() => import("./gods/en/uguns-mate.mdx")),
-      lt: dynamic(() => import("./gods/lt/uguns-mate.mdx")),
-      lv: dynamic(() => import("./gods/lv/uguns-mate.mdx")),
-    }
-  },
   "vaiva": {
     meta: meta.vaivaMeta,
     Content: dynamic(() => import("./gods/en/vaiva.mdx")),
