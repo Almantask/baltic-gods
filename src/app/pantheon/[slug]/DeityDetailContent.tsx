@@ -6,7 +6,7 @@ import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { deityBySlug } from "@/content/deities";
 import { findLocationPoint } from "@/content/locations";
 import { useSearchParams } from "next/navigation";
-import { useTranslation, resolveTranslatedText } from "@/lib/i18n";
+import { useTranslation, resolveTranslatedText, formatReference, localizeSymbol, localizeKeyword } from "@/lib/i18n";
 import type { Domain, LocationPoint, SiteCategory } from "@/types/content";
 
 const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
@@ -90,7 +90,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
                 key={word}
                 className="rounded-full border border-white/15 bg-white/5 px-3 py-1"
               >
-                {entry.meta.keywordsByLang?.[word]?.[language] ?? word}
+                {entry.meta.keywordsByLang?.[word]?.[language] ?? localizeKeyword(word, language)}
               </span>
             ))}
           </div>
@@ -108,15 +108,18 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           <div className="glass rounded-3xl p-5">
             <h3 className="text-lg font-semibold text-amber-100">{strings.deity.symbolicCards}</h3>
             <div className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2">
-              {(entry.meta.symbols ?? []).map((symbol) => (
-                <div
-                  key={symbol.label}
-                  className="rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-zinc-200"
-                >
-                  <p className="text-amber-100">{symbol.label}</p>
-                  <p className="text-zinc-300">{symbol.detail}</p>
-                </div>
-              ))}
+              {(entry.meta.symbols ?? []).map((symbol, idx) => {
+                const localized = localizeSymbol(symbol, language);
+                return (
+                  <div
+                    key={`${localized.label}-${idx}`}
+                    className="rounded-2xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-zinc-200"
+                  >
+                    <p className="text-amber-100">{localized.label}</p>
+                    <p className="text-zinc-300">{localized.detail}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className="glass rounded-3xl p-5">
@@ -189,14 +192,30 @@ export function DeityDetailContent({ slug }: { slug: string }) {
             <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 self-center mr-2">
               {strings.deity.references}:
             </span>
-            {(entry.meta.references ?? []).map((ref) => (
-              <span
-                key={ref}
-                className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
-              >
-                {ref}
-              </span>
-            ))}
+            {(entry.meta.references ?? []).map((ref) => {
+              const formatted = formatReference(ref, language);
+              if (formatted.url) {
+                return (
+                  <a
+                    key={ref}
+                    href={formatted.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-md border border-amber-200/20 bg-amber-200/10 px-2 py-1 text-[10px] text-amber-200 transition hover:bg-amber-200/20"
+                  >
+                    {formatted.text} ↗
+                  </a>
+                );
+              }
+              return (
+                <span
+                  key={ref}
+                  className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
+                >
+                  {formatted.text}
+                </span>
+              );
+            })}
           </div>
         )}
       </div>

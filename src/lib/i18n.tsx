@@ -545,3 +545,244 @@ export function resolveTranslatedText(
 
   return value[language] ?? value.en ?? value.lt ?? value.lv ?? "";
 }
+
+export interface FormattedReference {
+  text: string;
+  url?: string;
+}
+
+const bookTitleTranslations: Record<string, Record<Language, string>> = {
+  "Mythology of Bees": {
+    en: "Mythology of Bees",
+    lt: "Bičių mitologija",
+    lv: "Bišu mitoloģija",
+  },
+  "Lithuanian Fairy Tales": {
+    en: "Lithuanian Fairy Tales",
+    lt: "Lietuviškos pasakos",
+    lv: "Lietuviešu pasakas",
+  },
+  "The Balts": {
+    en: "The Balts",
+    lt: "Baltai",
+    lv: "Balti",
+  },
+  "Preussische Chronik": {
+    en: "Preussische Chronik",
+    lt: "Prūsijos kronika",
+    lv: "Prūsijas hronika",
+  },
+  "De Diis Samagitarum": {
+    en: "De Diis Samagitarum",
+    lt: "Apie žemaičių dievus (De Diis Samagitarum)",
+    lv: "Par žemaitiešu dieviem (De Diis Samagitarum)",
+  },
+};
+
+const storyTitleTranslations: Record<string, Record<Language, string>> = {
+  "Austėja and the Golden Hive": { en: "Austėja and the Golden Hive", lt: "Austėja ir auksinis avilys", lv: "Austēja un zelta strops" },
+  "The Thunder Oak of Perkūnas": { en: "The Thunder Oak of Perkūnas", lt: "Perkūno griaustinio ąžuolas", lv: "Pērkona zibens ozols" },
+  "The Weaving of Laima": { en: "The Weaving of Laima", lt: "Laimos audimas", lv: "Laimas audums" },
+  "Velnias and the Fiddler": { en: "Velnias and the Fiddler", lt: "Velnias ir smuikininkas", lv: "Velns un vijolnieks" },
+  "The Wedding of Saulė and Mėnulis": { en: "The Wedding of Saulė and Mėnulis", lt: "Saulės ir Mėnulio vestuvės", lv: "Saules un Mēness kāzas" },
+  "Bangpūtys and the Amber Fleet": { en: "Bangpūtys and the Amber Fleet", lt: "Bangpūtys ir gintaro laivynas", lv: "Bangpūtis un dzintara flote" },
+  "Eglė Queen of Serpents": { en: "Eglė Queen of Serpents", lt: "Eglė žalčių karalienė", lv: "Egle zalkšu karaliene" },
+  "Perkūnas and the Celestial Forge": { en: "Perkūnas and the Celestial Forge", lt: "Perkūnas ir dangaus kalvė", lv: "Pērkons un debesu kalve" },
+  "Medeina and the Sacred Forest": { en: "Medeina and the Sacred Forest", lt: "Medeina ir šventasis miškas", lv: "Medeina un svētais mežs" },
+  "The Sacred Flame of Gabija": { en: "The Sacred Flame of Gabija", lt: "Gabijos šventoji ugnis", lv: "Gabijas svētā uguns" },
+};
+
+export function formatReference(rawRef: string, language: Language): FormattedReference {
+  if (!rawRef) return { text: "" };
+
+  let text = rawRef.trim();
+  let url: string | undefined;
+
+  const urlMatch = text.match(/\((https?:\/\/[^\s\)]+)\)/) || text.match(/(https?:\/\/[^\s]+)/);
+  if (urlMatch) {
+    url = urlMatch[1];
+    text = text.replace(/\(https?:\/\/[^\s\)]+\)/, "").replace(/https?:\/\/[^\s]+/, "").trim();
+  }
+
+  // Remove leading/trailing trailing colons or slashes
+  text = text.replace(/\/$/, "").trim();
+
+  // Handle enciklopedija references with mixed story titles
+  for (const [englishTitle, localized] of Object.entries(storyTitleTranslations)) {
+    if (text.includes(englishTitle)) {
+      if (text.includes("Visuotinė lietuvių enciklopedija") || text.includes("Tautosakos archyvas")) {
+        const sourceName = text.split(":")[0]?.trim() || "Visuotinė lietuvių enciklopedija";
+        text = `${sourceName}: ${localized[language]}`;
+      } else {
+        text = text.replace(englishTitle, localized[language]);
+      }
+    }
+  }
+
+  for (const [englishTitle, localized] of Object.entries(bookTitleTranslations)) {
+    if (text.includes(englishTitle)) {
+      text = text.replace(englishTitle, localized[language]);
+    }
+  }
+
+  // Language specific phrasing replacements
+  if (language === "lt") {
+    text = text
+      .replace(/written c\.\s*/g, "parašyta apie ")
+      .replace(/publ\.\s*/g, "išleista ")
+      .replace(/published\s*/g, "išleista ")
+      .replace(/reliability questioned by modern scholars/g, "šiuolaikinių mokslininkų vertinama atsargiai")
+      .replace(/written/g, "parašyta");
+  } else if (language === "lv") {
+    text = text
+      .replace(/written c\.\s*/g, "rakstīts ap ")
+      .replace(/publ\.\s*/g, "izdots ")
+      .replace(/published\s*/g, "izdots ")
+      .replace(/reliability questioned by modern scholars/g, "mūsdienu pētnieku vērtēts piesardzīgi")
+      .replace(/written/g, "rakstīts");
+  }
+
+  return { text, url };
+}
+
+const symbolLabelTranslations: Record<string, Record<Language, string>> = {
+  "Sacred symbols": { en: "Sacred symbols", lt: "Šventieji simboliai", lv: "Svētie simboli" },
+  "Sacred animals": { en: "Sacred animals", lt: "Šventieji gyvūnai", lv: "Svētie dzīvnieki" },
+  "Ritual items": { en: "Ritual items", lt: "Ritualiniai daiktai", lv: "Rituālie priekšmeti" },
+  "Element / Domain": { en: "Element / Domain", lt: "Stichija / Sritis", lv: "Stihija / Sfēra" },
+  "Sacred plants": { en: "Sacred plants", lt: "Šventieji augalai", lv: "Svētie augi" },
+};
+
+const termTranslations: Record<string, Record<Language, string>> = {
+  "Oak": { en: "Oak", lt: "Ąžuolas", lv: "Ozols" },
+  "Oak tree": { en: "Oak tree", lt: "Ąžuolas", lv: "Ozols" },
+  "Thunderbolt": { en: "Thunderbolt", lt: "Perkūno strėlė", lv: "Pērkona bulta" },
+  "Axe": { en: "Axe", lt: "Kirvis", lv: "Cirtvis" },
+  "Ram": { en: "Ram", lt: "Avinas", lv: "Auns" },
+  "Fire": { en: "Fire", lt: "Ugnis", lv: "Uguns" },
+  "Hearth": { en: "Hearth", lt: "Židinys", lv: "Pavards" },
+  "Hearth-stone": { en: "Hearth-stone", lt: "Židinio akmuo", lv: "Pavarda akmens" },
+  "Golden flame": { en: "Golden flame", lt: "Auksinė liepsna", lv: "Zelta liesma" },
+  "Salt-grain": { en: "Salt-grain", lt: "Druskos grūdas", lv: "Sāls grauds" },
+  "Ash-pile": { en: "Ash-pile", lt: "Pelenų krūva", lv: "Pelnu kaudze" },
+  "Honey": { en: "Honey", lt: "Medus", lv: "Medus" },
+  "Bee": { en: "Bee", lt: "Bitė", lv: "Bite" },
+  "Bees": { en: "Bees", lt: "Bitės", lv: "Bites" },
+  "Beehive": { en: "Beehive", lt: "Avilys", lv: "Strops" },
+  "Amber": { en: "Amber", lt: "Gintaras", lv: "Dzintars" },
+  "Sea": { en: "Sea", lt: "Jūra", lv: "Jūra" },
+  "Waves": { en: "Waves", lt: "Bangos", lv: "Viļņi" },
+  "Sun": { en: "Sun", lt: "Saulė", lv: "Saule" },
+  "Sun-wheel": { en: "Sun-wheel", lt: "Saulės ratas", lv: "Saules ritenis" },
+  "Golden ring": { en: "Golden ring", lt: "Auksinis žiedas", lv: "Zelta gredzens" },
+  "Loom": { en: "Loom", lt: "Stovai", lv: "Audekls" },
+  "Moon": { en: "Moon", lt: "Mėnulis", lv: "Mēness" },
+  "Crescent": { en: "Crescent", lt: "Pusmėnulis", lv: "Pusmēness" },
+  "Stars": { en: "Stars", lt: "Žvaigždės", lv: "Zvaigznes" },
+  "Forest": { en: "Forest", lt: "Miškas", lv: "Mežs" },
+  "Wolf": { en: "Wolf", lt: "Vilkas", lv: "Vilks" },
+  "Bear": { en: "Bear", lt: "Lokys", lv: "Lācis" },
+  "Snake": { en: "Snake", lt: "Žaltys", lv: "Zalktis" },
+  "Grass snake": { en: "Grass snake", lt: "Žaltys", lv: "Zalktis" },
+  "Sacred grove": { en: "Sacred grove", lt: "Šventoji giraitė", lv: "Svētbirzs" },
+  "Spring water": { en: "Spring water", lt: "Šaltinio vanduo", lv: "Avota ūdens" },
+  "Stone altar": { en: "Stone altar", lt: "Akmens aukuras", lv: "Akmens altāris" },
+  "Plowing stick": { en: "Plowing stick", lt: "Arklas", lv: "Arkla koks" },
+  "First furrow": { en: "First furrow", lt: "Pirmoji vaga", lv: "Pirmā vaga" },
+  "Grain ear": { en: "Grain ear", lt: "Varpa", lv: "Vārpa" },
+  "Dark soil": { en: "Dark soil", lt: "Juodžemis", lv: "Melnzeme" },
+  "Bow and arrow": { en: "Bow and arrow", lt: "Lankas ir strėlė", lv: "Loks un bulta" },
+  "Horn of plenty": { en: "Horn of plenty", lt: "Gausybės ragas", lv: "Brazīlijas rāgs" },
+  "Bread": { en: "Bread", lt: "Duona", lv: "Maize" },
+  "Ale": { en: "Ale", lt: "Alus", lv: "Alus" },
+  "Sickle": { en: "Sickle", lt: "Pjautuvas", lv: "Sirpis" },
+  "Rooster": { en: "Rooster", lt: "Gaidys", lv: "Gailis" },
+  "Threshold": { en: "Threshold", lt: "Slenkstis", lv: "Slieksnis" },
+  "Key": { en: "Key", lt: "Raktas", lv: "Atslēga" },
+  "Burial mound": { en: "Burial mound", lt: "Pilkapis", lv: "Kapukalniņš" },
+  "Candle": { en: "Candle", lt: "Žvakė", lv: "Svece" },
+  "Oak branch": { en: "Oak branch", lt: "Ąžuolo šaka", lv: "Ozola zars" },
+};
+
+export function localizeSymbol(
+  symbol: { label: string | Record<Language, string>; detail: string | Record<Language, string> },
+  language: Language,
+) {
+  let labelText = resolveTranslatedText(symbol.label, language);
+  let detailText = resolveTranslatedText(symbol.detail, language);
+
+  if (symbolLabelTranslations[labelText]) {
+    labelText = symbolLabelTranslations[labelText][language];
+  }
+
+  // Localize common English terms inside detailText
+  if (language !== "en") {
+    for (const [englishTerm, localized] of Object.entries(termTranslations)) {
+      const regex = new RegExp(`\\b${englishTerm}\\b`, "gi");
+      detailText = detailText.replace(regex, localized[language]);
+    }
+  }
+
+  return { label: labelText, detail: detailText };
+}
+
+const keywordTranslations: Record<string, Record<Language, string>> = {
+  "Thunder": { en: "Thunder", lt: "Perkūnija", lv: "Pērkons" },
+  "Sun": { en: "Sun", lt: "Saulė", lv: "Saule" },
+  "Fate": { en: "Fate", lt: "Likimas", lv: "Liktenis" },
+  "Fire": { en: "Fire", lt: "Ugnis", lv: "Uguns" },
+  "Hearth": { en: "Hearth", lt: "Židinys", lv: "Pavards" },
+  "Forest": { en: "Forest", lt: "Miškas", lv: "Mežs" },
+  "Bees": { en: "Bees", lt: "Bitės", lv: "Bites" },
+  "Sea": { en: "Sea", lt: "Jūra", lv: "Jūra" },
+  "Moon": { en: "Moon", lt: "Mėnulis", lv: "Mēness" },
+  "Death": { en: "Death", lt: "Mirtis", lv: "Nāve" },
+  "Underworld": { en: "Underworld", lt: "Požemis", lv: "Pazeme" },
+  "Crafts": { en: "Crafts", lt: "Amatai", lv: "Amatu meistarība" },
+  "Harvest": { en: "Harvest", lt: "Derlius", lv: "Rāja" },
+  "Plowed field": { en: "Plowed field", lt: "Ariamas laukas", lv: "Aramzeme" },
+  "Soil fertility": { en: "Soil fertility", lt: "Dirvos derlingumas", lv: "Augsnes auglība" },
+  "Furrow": { en: "Furrow", lt: "Vaga", lv: "Vaga" },
+  "Earth": { en: "Earth", lt: "Žemė", lv: "Zeme" },
+  "Flax": { en: "Flax", lt: "Linai", lv: "Lini" },
+  "Beer": { en: "Beer", lt: "Alus", lv: "Alus" },
+  "Brewing": { en: "Brewing", lt: "Darymas", lv: "Brūvēšana" },
+  "Wind": { en: "Wind", lt: "Vėjas", lv: "Vējš" },
+  "Spring": { en: "Spring", lt: "Pavasaris", lv: "Pavasaris" },
+  "Grain": { en: "Grain", lt: "Jūros grūdai", lv: "Graudi" },
+  "Health": { en: "Health", lt: "Sveikata", lv: "Veselība" },
+  "Protection": { en: "Protection", lt: "Apsauga", lv: "Aizsardzība" },
+  "Dawn": { en: "Dawn", lt: "Aušra", lv: "Auseklis" },
+  "Morning star": { en: "Morning star", lt: "Aušrinė žvaigždė", lv: "Rīta zvaigzne" },
+  "Wealth": { en: "Wealth", lt: "Turtas", lv: "Bagātība" },
+  "Light": { en: "Light", lt: "Šviesa", lv: "Gaisma" },
+  "Horses": { en: "Horses", lt: "Žirgai", lv: "Zirgi" },
+  "Water": { en: "Water", lt: "Vanduo", lv: "Ūdens" },
+  "Rain": { en: "Rain", lt: "Lietus", lv: "Lietus" },
+  "Groves": { en: "Groves", lt: "Giraitės", lv: "Birzis" },
+  "Hunting": { en: "Hunting", lt: "Medžioklė", lv: "Medības" },
+  "Home": { en: "Home", lt: "Namai", lv: "Mājas" },
+  "Threshold": { en: "Threshold", lt: "Slenkstis", lv: "Slieksnis" },
+  "Dead": { en: "Dead", lt: "Mirusieji", lv: "Mirušie" },
+  "Shades": { en: "Shades", lt: "Vėlės", lv: "Veļi" },
+  "Healing": { en: "Healing", lt: "Gydymas", lv: "Dziedināšana" },
+  "Dragon": { en: "Dragon", lt: "Aitvaras / Pūkis", lv: "Pūķis" },
+  "Giantess": { en: "Giantess", lt: "Milžinė", lv: "Milze" },
+  "Creation": { en: "Creation", lt: "Kūrimas", lv: "Radīšana" },
+  "Time": { en: "Time", lt: "Laikas", lv: "Laiks" },
+  "Hunt": { en: "Hunt", lt: "Medžioklė", lv: "Medības" },
+  "Yard": { en: "Yard", lt: "Kiemas", lv: "Sēta" },
+  "Threshing": { en: "Threshing", lt: "Kūlimas", lv: "Kulšana" },
+  "Sap": { en: "Sap", lt: "Sula", lv: "Sula" },
+  "Twins": { en: "Twins", lt: "Dvyniai", lv: "Dvīņi" },
+  "Windy": { en: "Windy", lt: "Vėjuotas", lv: "Vējains" },
+  "First": { en: "First", lt: "Pirmasis", lv: "Pirmais" },
+};
+
+export function localizeKeyword(word: string, language: Language): string {
+  if (!word) return "";
+  if (keywordTranslations[word]) {
+    return keywordTranslations[word][language];
+  }
+  return word;
+}

@@ -3683,7 +3683,7 @@ export const jodsMeta: DeityMeta = {
   references: [
     "Pēteris Šmits: Latviešu mitoloģija (1926)",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten (1955)",
-    "Latvijas Nacionālā enciklopēdija: Jods (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
     "Visuotinė lietuvių enciklopedija: Jods (https://www.vle.lt/straipsnis/jods/)"
   ],
 };
@@ -3732,7 +3732,7 @@ export const banguMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Bangu māte (https://enciklopedija.lv/skirklis/Bangu%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Bangu%20m%C4%81te)"
   ],
 };
 
@@ -3779,8 +3779,8 @@ export const upesMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Upes māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Upes māte (https://enciklopedija.lv/skirklis/Upes%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Upes%20m%C4%81te)"
   ],
 };
 
@@ -3813,8 +3813,8 @@ export const lietusMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Lietus māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Lietus māte (https://enciklopedija.lv/skirklis/Lietus%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Lietus%20m%C4%81te)"
   ],
 };
 
@@ -3861,8 +3861,8 @@ export const salnaMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Salna māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Salna māte (https://enciklopedija.lv/skirklis/Salna%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Salna%20m%C4%81te)"
   ],
 };
 
@@ -3910,7 +3910,7 @@ export const debessMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Debess māte (https://enciklopedija.lv/skirklis/Debess%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Debess%20m%C4%81te)"
   ],
 };
 
@@ -3957,8 +3957,8 @@ export const zvaigznesMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Zvaigznes māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Zvaigznes māte (https://enciklopedija.lv/skirklis/Zvaigznes%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Zvaigznes%20m%C4%81te)"
   ],
 };
 
@@ -4005,7 +4005,7 @@ export const saulesMate2Meta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Saules māte (https://enciklopedija.lv/skirklis/Saules%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Saules%20m%C4%81te)"
   ],
 };
 
@@ -4052,7 +4052,7 @@ export const menessMate2Meta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Mēness māte (https://enciklopedija.lv/skirklis/M%C4%93ness%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/M%C4%93ness%20m%C4%81te)"
   ],
 };
 
@@ -4100,8 +4100,8 @@ export const ritaMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Rīta māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Rīta māte (https://enciklopedija.lv/skirklis/R%C4%ABta%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/R%C4%ABta%20m%C4%81te)"
   ],
 };
 
@@ -4148,8 +4148,8 @@ export const vakaraMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Vakara māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Vakara māte (https://enciklopedija.lv/skirklis/Vakara%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Vakara%20m%C4%81te)"
   ],
 };
 
@@ -4196,8 +4196,8 @@ export const naktsMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Nakts māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Nakts māte (https://enciklopedija.lv/skirklis/Nakts%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Nakts%20m%C4%81te)"
   ],
 };
 
@@ -4244,7 +4244,7 @@ export const dienasMateMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der Baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Dienas māte (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Dienas māte (https://enciklopedija.lv/skirklis/Dienas%20m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Dienas%20m%C4%81te)"
   ],
 };

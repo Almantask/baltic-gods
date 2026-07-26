@@ -6,7 +6,7 @@ import { SacredMap } from "@/components/SacredMap";
 import { locationEntryById, findLocationPoint } from "@/content/locations";
 import { deityBySlug } from "@/content/deities";
 import { auraPalette } from "@/lib/constants";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, formatReference } from "@/lib/i18n";
 
 export function LocationDetailContent({ id }: { id: string }) {
   const { language, strings } = useTranslation();
@@ -138,6 +138,40 @@ export function LocationDetailContent({ id }: { id: string }) {
           />
         </div>
       </div>
+
+      {(meta.references ?? []).length > 0 && (
+        <div className="flex flex-col gap-3 rounded-3xl border border-white/10 bg-gradient-to-r from-black/70 via-zinc-900/50 to-black/70 px-6 py-6 sm:flex-row sm:items-center sm:justify-between">
+          <span className="text-xs uppercase tracking-[0.2em] text-zinc-400">
+            {strings.deity.references}:
+          </span>
+          <div className="flex flex-wrap gap-2">
+            {(meta.references ?? []).map((ref) => {
+              const formatted = formatReference(ref, language);
+              if (formatted.url) {
+                return (
+                  <a
+                    key={ref}
+                    href={formatted.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-md border border-amber-200/20 bg-amber-200/10 px-2 py-1 text-[10px] text-amber-200 transition hover:bg-amber-200/20"
+                  >
+                    {formatted.text} ↗
+                  </a>
+                );
+              }
+              return (
+                <span
+                  key={ref}
+                  className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
+                >
+                  {formatted.text}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

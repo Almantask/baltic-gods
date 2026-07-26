@@ -7,7 +7,7 @@ import { deityBySlug } from "@/content/deities";
 import { SacredMap } from "@/components/SacredMap";
 import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { getStoryLocations } from "@/lib/story-locations";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation, formatReference } from "@/lib/i18n";
 import type { LocationPoint } from "@/types/content";
 
 export function StoryDetailContent({ slug }: { slug: string }) {
@@ -146,14 +146,30 @@ export function StoryDetailContent({ slug }: { slug: string }) {
             <span className="text-xs uppercase tracking-[0.2em] text-zinc-500 self-center mr-2">
               {strings.stories.references}:
             </span>
-            {meta.references.map((ref) => (
-              <span
-                key={ref}
-                className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
-              >
-                {ref}
-              </span>
-            ))}
+            {meta.references.map((ref) => {
+              const formatted = formatReference(ref, language);
+              if (formatted.url) {
+                return (
+                  <a
+                    key={ref}
+                    href={formatted.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-md border border-amber-200/20 bg-amber-200/10 px-2 py-1 text-[10px] text-amber-200 transition hover:bg-amber-200/20"
+                  >
+                    {formatted.text} ↗
+                  </a>
+                );
+              }
+              return (
+                <span
+                  key={ref}
+                  className="rounded-md border border-white/5 bg-white/5 px-2 py-1 text-[10px] text-zinc-400"
+                >
+                  {formatted.text}
+                </span>
+              );
+            })}
           </div>
         )}
       </div>

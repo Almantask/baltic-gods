@@ -363,7 +363,7 @@ export const janisMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas, Vol. 3 (1894–1915)",
     "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
     "Paul Einhorn: Historia Lettica (1649)",
-    "Latvijas Nacionālā enciklopēdija: Jāņi (https://enciklopedija.lv/skirklis/133649)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/133649)"
   ],
 };
 
@@ -435,7 +435,7 @@ export const mezaMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas, 6 vols (1894–1915)",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten (1955)",
     "Paul Einhorn: Historia Lettica (1649)",
-    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/5278)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/5278)"
   ],
 };
 
@@ -507,7 +507,7 @@ export const veluMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas, 6 vols (1894–1915)",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten (1955)",
     "Paul Einhorn: Historia Lettica (1649) / Reformatio gentis Letticae (1636)",
-    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/5278)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/5278)"
   ],
 };
 
@@ -1501,7 +1501,7 @@ export const dievaDeliMeta: DeityMeta = {
     "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1926)",
-    "Latvijas Nacionālā enciklopēdija: Dieva dēli (https://enciklopedija.lv/skirklis/Dieva-d%C4%93li)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Dieva-d%C4%93li)"
   ],
 };
 
@@ -1562,7 +1562,7 @@ export const saulesMeitasMeta: DeityMeta = {
     "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Saules meitas (https://enciklopedija.lv/skirklis/Saules-meitas)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/Saules-meitas)"
   ],
 };
 
@@ -1623,7 +1623,7 @@ export const jurasMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Haralds Biezais: Die himmlische Götterfamilie der baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Jūras māte (https://enciklopedija.lv/skirklis/J%C5%ABras-m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/J%C5%ABras-m%C4%81te)"
   ],
 };
 
@@ -1684,7 +1684,7 @@ export const udensMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Haralds Biezais: Die himmlische Götterfamilie der baltischen Völker (1972)",
-    "Latvijas Nacionālā enciklopēdija: Ūdens māte (https://enciklopedija.lv/skirklis/%C5%AAdens-m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/%C5%AAdens-m%C4%81te)"
   ],
 };
 
@@ -1745,7 +1745,7 @@ export const vejaMateMeta: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
-    "Latvijas Nacionālā enciklopēdija: Vēja māte (https://enciklopedija.lv/skirklis/V%C4%93ja-m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/V%C4%93ja-m%C4%81te)"
   ],
 };
 
@@ -2230,7 +2230,7 @@ export const lietuvensMeta: DeityMeta = {
   references: [
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
-    "Latvijas Nacionālā enciklopēdija: Lietuvēns (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
     "Visuotinė lietuvių enciklopedija: Lietuvēns (https://www.vle.lt/straipsnis/lietuvens/)"
   ],
 };
@@ -2350,7 +2350,7 @@ export const lacplesisMeta: DeityMeta = {
   references: [
     "Andrejs Pumpurs: Lāčplēsis (1888)",
     "Janīna Kursīte: Mītiskais folklorā (1999)",
-    "Latvijas Nacionālā enciklopēdija: Lāčplēsis (https://enciklopedija.lv/)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)",
     "Visuotinė lietuvių enciklopedija: Lāčplēsis (https://www.vle.lt/straipsnis/lacplesis/)"
   ],
 };

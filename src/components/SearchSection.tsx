@@ -110,7 +110,7 @@ export function SearchSection() {
               >
                 <p className="font-semibold text-amber-100">{loc.name}</p>
                 <p className="text-zinc-300">
-                  {loc.region} · {strings.map.categories[loc.siteType] ?? loc.siteType}
+                  {strings.location.regions[loc.region] ?? loc.region} · {strings.map.categories[loc.siteType] ?? loc.siteType}
                 </p>
                 <p className="text-zinc-400">{loc.description}</p>
               </Link>

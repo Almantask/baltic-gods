@@ -238,7 +238,7 @@ export const majasMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Mājas māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -286,7 +286,7 @@ export const pirtsMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Pirts māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -334,7 +334,7 @@ export const lopuMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Janīna Kursīte: Mītiskais folklorā (1999)",
-    "Latvijas Nacionālā enciklopēdija: Lopu māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -721,7 +721,7 @@ export const pienaMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Piena māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -769,7 +769,7 @@ export const vilkuMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Vilku māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -818,7 +818,7 @@ export const tirumaMateMetaData: DeityMeta = {
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
     "Janīna Kursīte: Mītiskais folklorā (1999)",
-    "Latvijas Nacionālā enciklopēdija: Tīruma māte (https://enciklopedija.lv/skirklis/T%C4%ABruma-m%C4%81te)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/T%C4%ABruma-m%C4%81te)"
   ],
 };
 
@@ -866,7 +866,7 @@ export const kapuMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Kapu māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 
@@ -914,7 +914,7 @@ export const celaMateMetaData: DeityMeta = {
     "Paul Einhorn: Historia Lettica (1649)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija (1918)",
-    "Latvijas Nacionālā enciklopēdija: Ceļa māte (https://enciklopedija.lv/)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/)"
   ],
 };
 

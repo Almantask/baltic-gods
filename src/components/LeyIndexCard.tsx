@@ -46,7 +46,7 @@ export const LeyIndexCard = memo(function LeyIndexCard({
             {location.name}
           </p>
           <p className="text-xs text-zinc-400">
-            {location.region} · {translatedSiteType}
+            {strings.location.regions[location.region] ?? location.region} · {translatedSiteType}
           </p>
         </div>
         <span className="text-[0.65rem] tabular-nums tracking-tighter text-zinc-500">

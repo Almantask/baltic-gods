@@ -1158,7 +1158,7 @@ export const pukisMeta: DeityMeta = {
     "Matthäus Praetorius: Deliciae Prussicae (~1690)",
     "Pēteris Šmits: Latviešu pasakas un teikas (1925–37)",
     "Latvijas Nacionālā enciklopēdija",
-    "Latvijas Nacionālā enciklopēdija: Pūķis (https://enciklopedija.lv/skirklis/P%C5%AB%C4%B7is)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/P%C5%AB%C4%B7is)"
   ],
 };
 
@@ -1333,7 +1333,7 @@ export const maraMeta: DeityMeta = {
   references: [
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Haralds Biezais: Die Hauptgöttinnen der alten Letten (1955)",
-    "Latvijas Nacionālā enciklopēdija: Māra (https://enciklopedija.lv/skirklis/M%C4%81ra)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/M%C4%81ra)"
   ],
 };
 
@@ -1419,7 +1419,7 @@ export const jumisMeta: DeityMeta = {
   },
   references: [
     "Liene Neulande: Jumis senlatviešu reliģijā (Stockholm 1977 / Rīga 2001)",
-    "Latvijas Nacionālā enciklopēdija: Jumis (https://enciklopedija.lv/skirklis/33827)",
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/33827)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
     "Pēteris Šmits: Latviešu mitoloģija"
   ],
@@ -1508,7 +1508,7 @@ export const usinsMeta: DeityMeta = {
   references: [
     "Dionysius Fabricius: Livonicae historiae compendiosa series (1610)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
-    "Latvijas Nacionālā enciklopēdija: Ūsiņš (https://enciklopedija.lv/skirklis/%C5%AAsi%C5%86%C5%A1)"
+    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/%C5%AAsi%C5%86%C5%A1)"
   ],
 };
 
