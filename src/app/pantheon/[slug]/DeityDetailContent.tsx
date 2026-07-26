@@ -70,9 +70,23 @@ export function DeityDetailContent({ slug }: { slug: string }) {
             <span className="rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs uppercase tracking-[0.2em] text-amber-100">
               {strings.pantheon[domainKey[entry.meta.domain]]}
             </span>
-            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200">
-              {entry.meta.altNames.lt} · {entry.meta.altNames.lv}
-            </span>
+            {(() => {
+              const altSet = new Set<string>();
+              if (entry.meta.altNames) {
+                Object.values(entry.meta.altNames).forEach((n) => {
+                  if (n && n.trim() !== entry.meta.name.trim()) {
+                    altSet.add(n.trim());
+                  }
+                });
+              }
+              const names = Array.from(altSet);
+              if (names.length === 0) return null;
+              return (
+                <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-200">
+                  {names.join(" · ")}
+                </span>
+              );
+            })()}
           </div>
           <h1 className="text-5xl font-semibold text-amber-50">{entry.meta.name}</h1>
           <p className="text-xl italic text-zinc-200">{entry.meta.epithet[language]}</p>
