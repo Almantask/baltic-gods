@@ -653,10 +653,22 @@ const symbolLabelTranslations: Record<string, Record<Language, string>> = {
   "Sacred animals": { en: "Sacred animals", lt: "Šventieji gyvūnai", lv: "Svētie dzīvnieki" },
   "Ritual items": { en: "Ritual items", lt: "Ritualiniai daiktai", lv: "Rituālie priekšmeti" },
   "Element / Domain": { en: "Element / Domain", lt: "Stichija / Sritis", lv: "Stihija / Sfēra" },
+  "Element": { en: "Element", lt: "Stichija", lv: "Stihija" },
+  "Offerings": { en: "Offerings", lt: "Aukos", lv: "Ziedojumi" },
+  "Domain": { en: "Domain", lt: "Sritis", lv: "Sfēra" },
+  "Associated domain": { en: "Associated domain", lt: "Susijusi sritis", lv: "Saistītā joma" },
   "Sacred plants": { en: "Sacred plants", lt: "Šventieji augalai", lv: "Svētie augi" },
+  "Attributes": { en: "Attributes", lt: "Atributai", lv: "Atribūti" },
+  "Legacy": { en: "Legacy", lt: "Paveldas", lv: "Mantojums" },
+  "Sacred trees": { en: "Sacred trees", lt: "Šventieji medžiai", lv: "Svētie koki" },
+  "Sacred objects": { en: "Sacred objects", lt: "Šventieji daiktai", lv: "Svētie priekšmeti" },
 };
 
 const termTranslations: Record<string, Record<Language, string>> = {
+  "Warm loam after rain": { en: "Warm loam after rain", lt: "Šilta dirva po lietaus", lv: "Silts māls pēc lietus" },
+  "Soil-stained prayer cloths": { en: "Soil-stained prayer cloths", lt: "Žemėtos maldos skarelės", lv: "Augsnes traipītas lūgšanu drānas" },
+  "Hazel-root amulets": { en: "Hazel-root amulets", lt: "Lazdyno šaknų amuletai", lv: "Lazdassakņu amuleti" },
+  "Milk, rye crowns, crushed herbs": { en: "Milk, rye crowns, crushed herbs", lt: "Pienas, rugių vainikai, sutrintos žolės", lv: "Piens, rudzu vainagi, sasmalcināti ārstniecības augi" },
   "Oak": { en: "Oak", lt: "Ąžuolas", lv: "Ozols" },
   "Oak tree": { en: "Oak tree", lt: "Ąžuolas", lv: "Ozols" },
   "Thunderbolt": { en: "Thunderbolt", lt: "Perkūno strėlė", lv: "Pērkona bulta" },
@@ -718,8 +730,9 @@ export function localizeSymbol(
     labelText = symbolLabelTranslations[labelText][language];
   }
 
-  // Localize common English terms inside detailText
-  if (language !== "en") {
+  if (termTranslations[detailText]) {
+    detailText = termTranslations[detailText][language];
+  } else if (language !== "en") {
     for (const [englishTerm, localized] of Object.entries(termTranslations)) {
       const regex = new RegExp(`\\b${englishTerm}\\b`, "gi");
       detailText = detailText.replace(regex, localized[language]);
@@ -727,6 +740,26 @@ export function localizeSymbol(
   }
 
   return { label: labelText, detail: detailText };
+}
+
+export function localizeMaterialLegacy(
+  item: string | Record<Language, string>,
+  language: Language,
+): string {
+  if (typeof item !== "string") {
+    return resolveTranslatedText(item, language);
+  }
+  let text = item.trim();
+  if (termTranslations[text]) {
+    return termTranslations[text][language];
+  }
+  if (language !== "en") {
+    for (const [englishTerm, localized] of Object.entries(termTranslations)) {
+      const regex = new RegExp(`\\b${englishTerm}\\b`, "gi");
+      text = text.replace(regex, localized[language]);
+    }
+  }
+  return text;
 }
 
 const keywordTranslations: Record<string, Record<Language, string>> = {

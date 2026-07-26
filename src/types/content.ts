@@ -42,8 +42,8 @@ export interface GalleryItem {
 }
 
 export interface SymbolicCard {
-  label: string;
-  detail: string;
+  label: string | Record<Language, string>;
+  detail: string | Record<Language, string>;
 }
 
 export interface DeityMeta {
@@ -60,7 +60,7 @@ export interface DeityMeta {
   keywordsByLang?: Record<string, Record<Language, string>>;
   gallery: GalleryItem[];
   locations: LocationPoint[];
-  materialLegacy: string[];
+  materialLegacy: (string | Record<Language, string>)[];
   symbols: SymbolicCard[];
   regionDetails: Record<Language, string>;
   tribe: Record<Language, string>;

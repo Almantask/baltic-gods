@@ -6,7 +6,7 @@ import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { deityBySlug } from "@/content/deities";
 import { findLocationPoint } from "@/content/locations";
 import { useSearchParams } from "next/navigation";
-import { useTranslation, resolveTranslatedText, formatReference, localizeSymbol, localizeKeyword } from "@/lib/i18n";
+import { useTranslation, resolveTranslatedText, formatReference, localizeSymbol, localizeKeyword, localizeMaterialLegacy } from "@/lib/i18n";
 import type { Domain, LocationPoint, SiteCategory } from "@/types/content";
 
 const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
@@ -125,10 +125,10 @@ export function DeityDetailContent({ slug }: { slug: string }) {
           <div className="glass rounded-3xl p-5">
             <h3 className="text-lg font-semibold text-amber-100">{strings.deity.materialLegacy}</h3>
             <ul className="mt-3 space-y-2 text-sm text-zinc-300">
-              {(entry.meta.materialLegacy ?? []).map((item) => (
-                <li key={item} className="flex items-start gap-2">
+              {(entry.meta.materialLegacy ?? []).map((item, idx) => (
+                <li key={typeof item === "string" ? item : idx} className="flex items-start gap-2">
                   <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-200" />
-                  <span>{item}</span>
+                  <span>{localizeMaterialLegacy(item, language)}</span>
                 </li>
               ))}
             </ul>
