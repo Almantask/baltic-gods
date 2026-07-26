@@ -6,11 +6,9 @@ import clsx from "clsx";
 import { GoogleMap, useJsApiLoader, MarkerF, InfoWindowF, MarkerClustererF } from "@react-google-maps/api";
 import type { Clusterer } from "@react-google-maps/marker-clusterer";
 import type { MarkerClusterer } from "@googlemaps/markerclusterer";
-import { locationCategories, auraPalette, mapBounds } from "@/lib/constants";
+import { ALL_CATEGORIES, locationCategories, auraPalette, mapBounds, toggleCategoryFocus } from "@/lib/constants";
 import { useTranslation } from "@/lib/i18n";
 import type { LocationPoint, SiteCategory } from "@/types/content";
-
-const ALL_CATEGORIES = Object.keys(locationCategories) as SiteCategory[];
 
 const MAP_CENTER = {
   lat: (mapBounds.latMin + mapBounds.latMax) / 2,
@@ -142,15 +140,7 @@ export function SacredMap({
     if (isControlled) {
       onToggleCategory?.(category);
     } else {
-      setHiddenCategoriesInternal((prev) => {
-        const next = new Set(prev);
-        if (next.has(category)) {
-          next.delete(category);
-        } else {
-          next.add(category);
-        }
-        return next;
-      });
+      setHiddenCategoriesInternal((prev) => toggleCategoryFocus(prev, category));
     }
   }, [isControlled, onToggleCategory]);
 

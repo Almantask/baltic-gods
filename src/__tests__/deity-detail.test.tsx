@@ -70,7 +70,7 @@ describe("Deity detail page", () => {
     expect(getAllByText(firstLocation.name).length).toBeGreaterThan(0);
   });
 
-  it("filters location entries when toggling legend categories", async () => {
+  it("focuses on a category when clicking a legend category", async () => {
     const user = userEvent.setup();
     const entry = deityBySlug["perkunas"];
     const { getByRole, getByText } = renderWithProviders(
@@ -82,28 +82,28 @@ describe("Deity detail page", () => {
       expect(getByText(loc.name)).toBeInTheDocument();
     }
 
-    // Find the "Sacred groves" legend button and click it to hide that category
+    // Find the "Sacred groves" legend button and click it to focus on that category alone
     const legendButton = getByRole("button", { name: /Sacred groves/i, pressed: true });
     expect(legendButton).toHaveAttribute("aria-pressed", "true");
     await user.click(legendButton);
-    expect(legendButton).toHaveAttribute("aria-pressed", "false");
 
-    // The "Sacred groves" location should be hidden from Points of Interest
+    // Sacred groves location should be visible in Points of Interest
     const sacredGroveLoc = entry.meta.locations.find(
       (l) => l.siteType === "Sacred groves",
     )!;
     const aside = getByRole("complementary");
-    expect(within(aside).queryByText(sacredGroveLoc.name)).toBeNull();
+    expect(within(aside).getByText(sacredGroveLoc.name)).toBeInTheDocument();
 
-    // The other location should still be visible
+    // The other location (non-Sacred groves) should now be hidden
     const otherLoc = entry.meta.locations.find(
       (l) => l.siteType !== "Sacred groves",
     )!;
-    expect(within(aside).getByText(otherLoc.name)).toBeInTheDocument();
+    expect(within(aside).queryByText(otherLoc.name)).toBeNull();
 
-    // Re-enable the category
+    // Re-click "Sacred groves" to reset/unfocus back to all categories
     await user.click(legendButton);
     expect(legendButton).toHaveAttribute("aria-pressed", "true");
     expect(within(aside).getByText(sacredGroveLoc.name)).toBeInTheDocument();
+    expect(within(aside).getByText(otherLoc.name)).toBeInTheDocument();
   });
 });

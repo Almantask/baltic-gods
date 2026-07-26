@@ -7,6 +7,7 @@ import { LeyIndexCard } from "@/components/LeyIndexCard";
 import { useTranslation } from "@/lib/i18n";
 import { searchLocations } from "@/lib/search";
 import { haversineDistance, NEAR_ME_RADIUS_KM } from "@/lib/geo";
+import { toggleCategoryFocus } from "@/lib/constants";
 import type { SiteCategory } from "@/types/content";
 
 export default function MapPage() {
@@ -42,15 +43,7 @@ export default function MapPage() {
   });
 
   const toggleCategory = useCallback((category: SiteCategory) => {
-    setHiddenCategories((prev) => {
-      const next = new Set(prev);
-      if (next.has(category)) {
-        next.delete(category);
-      } else {
-        next.add(category);
-      }
-      return next;
-    });
+    setHiddenCategories((prev) => toggleCategoryFocus(prev, category));
   }, []);
 
   const handleNearMeClick = useCallback(() => {

@@ -26,6 +26,29 @@ export const locationCategories: Record<SiteCategory, string> = {
   "Seasonal festival locations": "#c77dba",
 };
 
+export const ALL_CATEGORIES = Object.keys(locationCategories) as SiteCategory[];
+
+export function toggleCategoryFocus(
+  prevHidden: Set<SiteCategory>,
+  targetCategory: SiteCategory,
+  allCategories: SiteCategory[] = ALL_CATEGORIES,
+): Set<SiteCategory> {
+  const isOnlyTargetVisible =
+    !prevHidden.has(targetCategory) && prevHidden.size === allCategories.length - 1;
+
+  if (isOnlyTargetVisible) {
+    return new Set();
+  } else {
+    const next = new Set<SiteCategory>();
+    for (const cat of allCategories) {
+      if (cat !== targetCategory) {
+        next.add(cat);
+      }
+    }
+    return next;
+  }
+}
+
 export const auraPalette = {
   amber: "#d6a74f",
   moss: "#6b8d70",

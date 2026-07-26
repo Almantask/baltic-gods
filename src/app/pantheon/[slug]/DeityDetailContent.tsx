@@ -7,6 +7,7 @@ import { deityBySlug } from "@/content/deities";
 import { findLocationPoint } from "@/content/locations";
 import { useSearchParams } from "next/navigation";
 import { useTranslation, resolveTranslatedText, formatReference, localizeSymbol, localizeKeyword, localizeMaterialLegacy } from "@/lib/i18n";
+import { toggleCategoryFocus } from "@/lib/constants";
 import type { Domain, LocationPoint, SiteCategory } from "@/types/content";
 
 const domainKey: Record<Domain, "domainGod" | "domainCreature" | "domainPerson"> = {
@@ -22,15 +23,7 @@ export function DeityDetailContent({ slug }: { slug: string }) {
   const [hiddenCategories, setHiddenCategories] = useState<Set<SiteCategory>>(new Set());
 
   const toggleCategory = useCallback((category: SiteCategory) => {
-    setHiddenCategories((prev) => {
-      const next = new Set(prev);
-      if (next.has(category)) {
-        next.delete(category);
-      } else {
-        next.add(category);
-      }
-      return next;
-    });
+    setHiddenCategories((prev) => toggleCategoryFocus(prev, category));
   }, []);
 
   const [manualSelectedId, setManualSelectedId] = useState<string | undefined>(undefined);
