@@ -565,7 +565,7 @@
 ### Latvian Creatures
 - [/] **Pūķis** (Fire-breathing Dragon, Household Wealth-bringer) — *[Details](translations/creatures_lv_1.md)*; *story only*; Šmits, LNE
 - [x] **Lietuvēns** (Nightmare Spirit — LV equivalent of Slogutė) — *implemented (meta.ts + mdx)*; LNE, Šmits
-- [/] **Sumpurnis** (Dog-headed Monster, Liminal Forest Creature) — *[Details](translations/creatures_lv_1.md)*; sourced; LNE, Šmits
+- [x] **Sumpurnis** (Dogsnout / Suņpurnis — man-eating forest beings; Kurbads antagonist) — *implemented (meta + en/lt/lv mdx)*; LNE, Šmits ticējumi/pasakas, Mitoloģijas enciklopēdija 1994, Kursīte 2020; fact-checked 2026-07; locations: dzukste-pienava-kurbads, vecpiebalga-atu327a, cesvaine-sumpurnu-zeme, gulbene-ticejumi, rauna-sumpurnene, bauska-belt-curse, kronvalda-parks-maurs
 - [ ] **Mājas gars** (House Spirit, protective brownie) — Šmits, Bar
 - [/] **Pūķis (snakeform)** (Flying Serpent variant — brings grain/money) — *[Details](translations/creatures_lv_1.md)*; Šmits; *parallel to Aitvaras*
 - [/] **Vadātājs** (Guide Spirit, misleads strangers) — *[Details](translations/creatures_lv_1.md)*; Šmits, LV folklore

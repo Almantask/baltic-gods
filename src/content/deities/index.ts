@@ -1692,6 +1692,231 @@ export const deityBySlug: Record<string, DeityEntry> = {
       lv: () => null,
     }
   },
+  "andajus": {
+    meta: meta.andajusMeta,
+    Content: dynamic(() => import("./gods/en/andajus.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/andajus.mdx")),
+      lt: dynamic(() => import("./gods/lt/andajus.mdx")),
+      lv: dynamic(() => import("./gods/lv/andajus.mdx")),
+    }
+  },
+  "barzdukai": {
+    meta: meta.barzdukaiMeta,
+    Content: dynamic(() => import("./creatures/en/barzdukai.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/barzdukai.mdx")),
+      lt: dynamic(() => import("./creatures/lt/barzdukai.mdx")),
+      lv: dynamic(() => import("./creatures/lv/barzdukai.mdx")),
+    }
+  },
+  "cerklicing": {
+    meta: meta.cerklicingMeta,
+    Content: dynamic(() => import("./gods/en/cerklicing.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/cerklicing.mdx")),
+      lt: dynamic(() => import("./gods/lt/cerklicing.mdx")),
+      lv: dynamic(() => import("./gods/lv/cerklicing.mdx")),
+    }
+  },
+  "curche": {
+    meta: meta.curcheMeta,
+    Content: dynamic(() => import("./gods/en/curche.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/curche.mdx")),
+      lt: dynamic(() => import("./gods/lt/curche.mdx")),
+      lv: dynamic(() => import("./gods/lv/curche.mdx")),
+    }
+  },
+  "dekla": {
+    meta: meta.deklaMeta,
+    Content: dynamic(() => import("./gods/en/dekla.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/dekla.mdx")),
+      lt: dynamic(() => import("./gods/lt/dekla.mdx")),
+      lv: dynamic(() => import("./gods/lv/dekla.mdx")),
+    }
+  },
+  "herkus-monte": {
+    meta: meta.herkusMonteMeta,
+    Content: dynamic(() => import("./people/en/herkus-monte.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/herkus-monte.mdx")),
+      lt: dynamic(() => import("./people/lt/herkus-monte.mdx")),
+      lv: dynamic(() => import("./people/lv/herkus-monte.mdx")),
+    }
+  },
+  "kangars": {
+    meta: meta.kangarsMeta,
+    Content: dynamic(() => import("./people/en/kangars.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/kangars.mdx")),
+      lt: dynamic(() => import("./people/lt/kangars.mdx")),
+      lv: dynamic(() => import("./people/lv/kangars.mdx")),
+    }
+  },
+  "karta": {
+    meta: meta.kartaMeta,
+    Content: dynamic(() => import("./gods/en/karta.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/karta.mdx")),
+      lt: dynamic(() => import("./gods/lt/karta.mdx")),
+      lv: dynamic(() => import("./gods/lv/karta.mdx")),
+    }
+  },
+  "kaukas": {
+    meta: meta.kaukasMeta,
+    Content: dynamic(() => import("./creatures/en/kaukas.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/kaukas.mdx")),
+      lt: dynamic(() => import("./creatures/lt/kaukas.mdx")),
+      lv: dynamic(() => import("./creatures/lv/kaukas.mdx")),
+    }
+  },
+  "kurbads": {
+    meta: meta.kurbadsMeta,
+    Content: dynamic(() => import("./people/en/kurbads.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/kurbads.mdx")),
+      lt: dynamic(() => import("./people/lt/kurbads.mdx")),
+      lv: dynamic(() => import("./people/lv/kurbads.mdx")),
+    }
+  },
+  "lizdeika": {
+    meta: meta.lizdeikaMeta,
+    Content: dynamic(() => import("./people/en/lizdeika.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/lizdeika.mdx")),
+      lt: dynamic(() => import("./people/lt/lizdeika.mdx")),
+      lv: dynamic(() => import("./people/lv/lizdeika.mdx")),
+    }
+  },
+  "markopoles": {
+    meta: meta.markopolesMeta,
+    Content: dynamic(() => import("./creatures/en/markopoles.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/markopoles.mdx")),
+      lt: dynamic(() => import("./creatures/lt/markopoles.mdx")),
+      lv: dynamic(() => import("./creatures/lv/markopoles.mdx")),
+    }
+  },
+  "milzinai": {
+    meta: meta.milzinaiMeta,
+    Content: dynamic(() => import("./creatures/en/milzinai.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/milzinai.mdx")),
+      lt: dynamic(() => import("./creatures/lt/milzinai.mdx")),
+      lv: dynamic(() => import("./creatures/lv/milzinai.mdx")),
+    }
+  },
+  "namejs": {
+    meta: meta.namejsMeta,
+    Content: dynamic(() => import("./people/en/namejs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/namejs.mdx")),
+      lt: dynamic(() => import("./people/lt/namejs.mdx")),
+      lv: dynamic(() => import("./people/lv/namejs.mdx")),
+    }
+  },
+  "pajauta": {
+    meta: meta.pajautaMeta,
+    Content: dynamic(() => import("./people/en/pajauta.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/pajauta.mdx")),
+      lt: dynamic(() => import("./people/lt/pajauta.mdx")),
+      lv: dynamic(() => import("./people/lv/pajauta.mdx")),
+    }
+  },
+  "prutenis": {
+    meta: meta.prutenisMeta,
+    Content: dynamic(() => import("./people/en/prutenis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/prutenis.mdx")),
+      lt: dynamic(() => import("./people/lt/prutenis.mdx")),
+      lv: dynamic(() => import("./people/lv/prutenis.mdx")),
+    }
+  },
+  "puskaitis": {
+    meta: meta.puskaitisMeta,
+    Content: dynamic(() => import("./gods/en/puskaitis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/puskaitis.mdx")),
+      lt: dynamic(() => import("./gods/lt/puskaitis.mdx")),
+      lv: dynamic(() => import("./gods/lv/puskaitis.mdx")),
+    }
+  },
+  "rose-of-turaida": {
+    meta: meta.roseOfTuraidaMeta,
+    Content: dynamic(() => import("./people/en/rose-of-turaida.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/rose-of-turaida.mdx")),
+      lt: dynamic(() => import("./people/lt/rose-of-turaida.mdx")),
+      lv: dynamic(() => import("./people/lv/rose-of-turaida.mdx")),
+    }
+  },
+  "smok": {
+    meta: meta.smokMeta,
+    Content: dynamic(() => import("./creatures/en/smok.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/smok.mdx")),
+      lt: dynamic(() => import("./creatures/lt/smok.mdx")),
+      lv: dynamic(() => import("./creatures/lv/smok.mdx")),
+    }
+  },
+  "spidola": {
+    meta: meta.spidolaMeta,
+    Content: dynamic(() => import("./people/en/spidola.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/spidola.mdx")),
+      lt: dynamic(() => import("./people/lt/spidola.mdx")),
+      lv: dynamic(() => import("./people/lv/spidola.mdx")),
+    }
+  },
+  "sumpurnis": {
+    meta: meta.sumpurnisMeta,
+    Content: dynamic(() => import("./creatures/en/sumpurnis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/sumpurnis.mdx")),
+      lt: dynamic(() => import("./creatures/lt/sumpurnis.mdx")),
+      lv: dynamic(() => import("./creatures/lv/sumpurnis.mdx")),
+    }
+  },
+  "sventaragis": {
+    meta: meta.sventaragisMeta,
+    Content: dynamic(() => import("./people/en/sventaragis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/sventaragis.mdx")),
+      lt: dynamic(() => import("./people/lt/sventaragis.mdx")),
+      lv: dynamic(() => import("./people/lv/sventaragis.mdx")),
+    }
+  },
+  "vadatajs": {
+    meta: meta.vadatajsMeta,
+    Content: dynamic(() => import("./creatures/en/vadatajs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/vadatajs.mdx")),
+      lt: dynamic(() => import("./creatures/lt/vadatajs.mdx")),
+      lv: dynamic(() => import("./creatures/lv/vadatajs.mdx")),
+    }
+  },
+  "veles": {
+    meta: meta.velesMeta,
+    Content: dynamic(() => import("./creatures/en/veles.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./creatures/en/veles.mdx")),
+      lt: dynamic(() => import("./creatures/lt/veles.mdx")),
+      lv: dynamic(() => import("./creatures/lv/veles.mdx")),
+    }
+  },
+  "videvutis": {
+    meta: meta.videvutisMeta,
+    Content: dynamic(() => import("./people/en/videvutis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./people/en/videvutis.mdx")),
+      lt: dynamic(() => import("./people/lt/videvutis.mdx")),
+      lv: dynamic(() => import("./people/lv/videvutis.mdx")),
+    }
+  },
 };
 
 export const deities: DeityEntry[] = Object.values(deityBySlug);

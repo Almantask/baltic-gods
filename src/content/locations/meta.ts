@@ -3468,3 +3468,217 @@ export const puckoriuAukurasMeta: LocationMeta = {
   ],
 };
 
+
+
+export const dzukstePienavaKurbadsMeta: LocationMeta = {
+  id: "dzukste-pienava-kurbads",
+  name: {
+    en: "Džūkste–Pienava Folktale Landscape",
+    lt: "Džūkste–Pienavos pasakų kraštovaizdis",
+    lv: "Džūkstes–Pienavas pasaku ainava",
+  },
+  coordinates: [56.79, 23.25],
+  region: "Latvia",
+  description: {
+    en: "Semigallian countryside around Džūkste and Pienava where Ansis Lerhis-Puškaitis recorded the long Kurbads cycle featuring a meadow-owning Sumpurnis.",
+    lt: "Žiemgalos kraštas aplink Džūkstę ir Pienavą, kur Ansis Lerhis-Puškaitis užrašė ilgąjį Kurbado ciklą su pievas valdančiu Sumpurniu.",
+    lv: "Zemgales apvidus ap Džūksti un Pienavu, kur Ansis Lerhis-Puškaitis pierakstīja garo Kurbada ciklu ar pļavu saimnieku sumpurni.",
+  },
+  siteType: "Legendary creation sites",
+  aura: "moss",
+  deity: "sumpurnis",
+  significance: {
+    en: "Primary recorded arena for Sumpurnis as a named antagonist; later etched by Rihards Zariņš as Kurbads un sumpurnis (1908–1911).",
+    lt: "Pagrindinė užrašyta arena, kur Sumpurnis pasirodo kaip vardu įvardytas antagonistas; vėliau įamžinta Rihardo Zariņo oforte Kurbads un sumpurnis (1908–1911).",
+    lv: "Galvenā pierakstītā aina, kur sumpurnis parādās kā vārdā saukts antagonists; vēlāk iecirsts Riharda Zariņa ofortā Kurbads un sumpurnis (1908–1911).",
+  },
+  tribe: { en: "Semigallians / Latvians", lt: "Žiemgaliai / Latviai", lv: "Zemgaļi / Latvieši" },
+  period: { en: "Recorded 1891 (Lerhis-Puškaitis)", lt: "Užrašyta 1891 m. (Lerhis-Puškaitis)", lv: "Pierakstīts 1891 (Lerhis-Puškaitis)" },
+  references: [
+    "Ansis Lerhis-Puškaitis: Latviešu tautas pasakas (1891)",
+    "Ķēves dēls Kurbads cycle texts",
+    "https://satori.lv/article/keves-dels-kurbads",
+  ],
+};
+
+export const vecpiebalgaAtu327aMeta: LocationMeta = {
+  id: "vecpiebalga-atu327a",
+  name: {
+    en: "Vecpiebalga Oven-Escape Tale Landscape",
+    lt: "Vecpiebalgos krosnies išsigelbėjimo pasakos kraštas",
+    lv: "Vecpiebalgas krāsns-izbēgšanas pasaku ainava",
+  },
+  coordinates: [57.06, 25.82],
+  region: "Latvia",
+  description: {
+    en: "Vidzeme parish where the ATU 327A tale Cilvēku bērni pie sumpurņiem was recorded: fattened girl, oven trick, ash-filled reverse shoes.",
+    lt: "Vidžemės parapija, kur užrašyta ATU 327A pasaka Cilvēku bērni pie sumpurņiem: penima mergaitė, krosnies gudrybė, pelenais pripildyti atvirkšti batai.",
+    lv: "Vidzemes pagasts, kur pierakstīta ATU 327A pasaka Cilvēku bērni pie sumpurņiem: nobarota meitene, krāsns triks, pelniem pildītas otrādi kurpes.",
+  },
+  siteType: "Legendary creation sites",
+  aura: "moss",
+  deity: "sumpurnis",
+  significance: {
+    en: "Key Šmits / Lerhis-Puškaitis provenance for the oven-escape cycle (LP VII, I, 998).",
+    lt: "Pagrindinė Šmito / Lerhio-Puškaičio provenencija krosnies išsigelbėjimo ciklui (LP VII, I, 998).",
+    lv: "Galvenā Šmita / Lerha-Puškaiša provenience krāsns-izbēgšanas ciklam (LP VII, I, 998).",
+  },
+  tribe: { en: "Latvians (Vidzeme)", lt: "Latviai (Vidžemė)", lv: "Latvieši (Vidzeme)" },
+  period: { en: "19th–early 20th c. folklore collection", lt: "XIX–XX a. pr. tautosakos rinkimas", lv: "19.–20. gs. sāk. folkloras vākšana" },
+  references: [
+    "Pēteris Šmits: Latviešu pasakas un teikas — Cilvēku bērni pie sumpurņiem",
+    "http://valoda.ailab.lv/folklora/pasakas/gr03/088p.htm",
+  ],
+};
+
+export const cesvaineSumpurnuZemeMeta: LocationMeta = {
+  id: "cesvaine-sumpurnu-zeme",
+  name: {
+    en: "Cesvaine — Land of Dogsnouts Beliefs",
+    lt: "Cesvainė — šunsnukių žemės tikėjimai",
+    lv: "Cesvaine — Sumpurņu zemes ticējumi",
+  },
+  coordinates: [56.97, 26.32],
+  region: "Latvia",
+  description: {
+    en: "Vidzeme town linked to Šmits belief texts on Sumpurņu zeme: dog-snout people, bark-speech, and paired one-limbed runners who move like the wind.",
+    lt: "Vidžemės miestas, siejamas su Šmito tikėjimais apie Sumpurņu zeme: šunsnukiai, lojimas ir poromis bėgantys vienakojai kaip vėjas.",
+    lv: "Vidzemes pilsēta, saistīta ar Šmita ticējumiem par Sumpurņu zemi: suņpurni, riešana un pāros skrienoši vienkāji kā vējš.",
+  },
+  siteType: "Legendary creation sites",
+  aura: "mist",
+  deity: "sumpurnis",
+  significance: {
+    en: "J. Karps / Šmits belief texts (LP VII, I, 994,1) describing the dogsnout land.",
+    lt: "J. Karpo / Šmito tikėjimų tekstai (LP VII, I, 994,1) apie šunsnukių žemę.",
+    lv: "J. Karpa / Šmita ticējumu teksti (LP VII, I, 994,1) par sumpurņu zemi.",
+  },
+  tribe: { en: "Latvians (Vidzeme)", lt: "Latviai (Vidžemė)", lv: "Latvieši (Vidzeme)" },
+  period: { en: "19th–early 20th c. belief collection", lt: "XIX–XX a. pr. tikėjimų rinkimas", lv: "19.–20. gs. sāk. ticējumu vākšana" },
+  references: [
+    "Pēteris Šmits: Latviešu tautas ticējumi — Sumpurņi",
+    "http://valoda.ailab.lv/folklora/pasakas/gr15/15E0101.htm",
+    "http://valoda.ailab.lv/folklora/ticejumi/sumpurni.htm",
+  ],
+};
+
+export const gulbeneTicejumiMeta: LocationMeta = {
+  id: "gulbene-ticejumi",
+  name: {
+    en: "Gulbene Sumpurņi Belief Provenance",
+    lt: "Gulbenės sumpurņių tikėjimų provenencija",
+    lv: "Gulbenes sumpurņu ticējumu provenience",
+  },
+  coordinates: [57.18, 26.75],
+  region: "Latvia",
+  description: {
+    en: "NE Vidzeme town cited in Šmits ticējumi entries on sumpurņi (LTT ~28992–28993; J. Banga).",
+    lt: "Šiaurės rytų Vidžemės miestas, minimas Šmito ticējumi įrašuose apie sumpurņius (LTT ~28992–28993; J. Banga).",
+    lv: "ZA Vidzemes pilsēta, minēta Šmita ticējumu ierakstos par sumpurņiem (LTT ~28992–28993; J. Banga).",
+  },
+  siteType: "Legendary creation sites",
+  aura: "moss",
+  deity: "sumpurnis",
+  significance: {
+    en: "Closest major town to the Alūksne area with attested belief texts — a folklore provenance, not a cult shrine.",
+    lt: "Artimiausias didesnis miestas Alūksnės apylinkėms su patvirtintais tikėjimų tekstais — tautosakos provenencija, ne kulto šventykla.",
+    lv: "Tuvākā lielāka pilsēta Alūksnes apkaimei ar apliecinātiem ticējumu tekstiem — folkloras provenience, ne kulta svētnīca.",
+  },
+  tribe: { en: "Latvians (Vidzeme)", lt: "Latviai (Vidžemė)", lv: "Latvieši (Vidzeme)" },
+  period: { en: "19th–early 20th c. belief collection", lt: "XIX–XX a. pr. tikėjimų rinkimas", lv: "19.–20. gs. sāk. ticējumu vākšana" },
+  references: [
+    "Pēteris Šmits: Latviešu tautas ticējumi — Sumpurņi",
+    "http://valoda.ailab.lv/folklora/ticejumi/sumpurni.htm",
+  ],
+};
+
+export const raunaSumpurneneMeta: LocationMeta = {
+  id: "rauna-sumpurnene",
+  name: {
+    en: "Rauna (Ronneburg) Sumpurnene Attestation",
+    lt: "Raunos (Ronneburg) Sumpurnene paliudijimas",
+    lv: "Raunas (Ronneburg) sumpurnenes liecība",
+  },
+  coordinates: [57.33, 25.61],
+  region: "Latvia",
+  description: {
+    en: "Vidzeme locality where Mühlenbachs–Endzelīns cites sumpurnene from Pas. III, 491 (Rauna / Ronneburg area).",
+    lt: "Vidžemės vietovė, kur Mühlenbachs–Endzelīns cituoja sumpurnene iš Pas. III, 491 (Raunos / Ronneburgo apyl.).",
+    lv: "Vidzemes apvidus, kur Mīlenbachs–Endzelīns citē sumpurnene no Pas. III, 491 (Raunas / Ronneburgas puse).",
+  },
+  siteType: "Legendary creation sites",
+  aura: "mist",
+  deity: "sumpurnis",
+  significance: {
+    en: "Lexical-folklore attestation of the female dogsnout form in Vidzeme.",
+    lt: "Leksikos–tautosakos paliudijimas apie moteriškąją šunsnukio formą Vidžemėje.",
+    lv: "Leksikas–folkloras liecība par sieviešu kārtas suņpurna formu Vidzemē.",
+  },
+  tribe: { en: "Latvians (Vidzeme)", lt: "Latviai (Vidžemė)", lv: "Latvieši (Vidzeme)" },
+  period: { en: "19th c. dictionary / tale citation", lt: "XIX a. žodyno / pasakos citata", lv: "19. gs. vārdnīcas / pasakas citāts" },
+  references: [
+    "Mühlenbachs–Endzelīns: ME III sùmpur̂nis / sumpurnene",
+    "https://mev.tezaurs.lv/sumpurnis",
+  ],
+};
+
+export const bauskaBeltCurseMeta: LocationMeta = {
+  id: "bauska-belt-curse",
+  name: {
+    en: "Bauska Belt-Curse Provenance",
+    lt: "Bauskos diržo kerų provenencija",
+    lv: "Bauskas jostas burvestības provenience",
+  },
+  coordinates: [56.41, 24.19],
+  region: "Latvia",
+  description: {
+    en: "Semigallian district linked to the sorcerer’s belt curse that turns people into sumpurņi or vilkači (LTT ~3902; G. Pols).",
+    lt: "Žiemgalos apskritis, siejama su burtininko diržo kerais, paverčiančiais žmones sumpurņiais ar vilkačiais (LTT ~3902; G. Pols).",
+    lv: "Zemgales apgabals, saistīts ar burvju jostas burvestību, kas pārvērš cilvēkus par sumpurņiem vai vilkačiem (LTT ~3902; G. Pols).",
+  },
+  siteType: "Legendary creation sites",
+  aura: "amber",
+  deity: "sumpurnis",
+  significance: {
+    en: "Documents the werewolf-overlap transformation rite: the belt must be untied or torn to break the spell.",
+    lt: "Dokumentuoja vilkolakių sutapimo virsmo apeigą: diržą reikia atrišti ar perplėšti, kad kerai nutrūktų.",
+    lv: "Dokumentē vilkaču pārklāšanās pārvērtības rituālu: josta jāatraisa vai jāpārplēš, lai burvestība beigtos.",
+  },
+  tribe: { en: "Semigallians / Latvians", lt: "Žiemgaliai / Latviai", lv: "Zemgaļi / Latvieši" },
+  period: { en: "19th–early 20th c. belief collection", lt: "XIX–XX a. pr. tikėjimų rinkimas", lv: "19.–20. gs. sāk. ticējumu vākšana" },
+  references: [
+    "Pēteris Šmits: Latviešu tautas ticējumi — burvji (LTT ~3902)",
+    "http://valoda.ailab.lv/folklora/ticejumi/burvj.htm",
+    "https://lv.wikipedia.org/wiki/Sumpurnis",
+  ],
+};
+
+export const kronvaldaParksMaursMeta: LocationMeta = {
+  id: "kronvalda-parks-maurs",
+  name: {
+    en: "Kronvalda Park — Maurs Fountain Group",
+    lt: "Kronvaldo parkas — Mauro fontano grupė",
+    lv: "Kronvalda parks — Maura strūklakas grupa",
+  },
+  coordinates: [56.96, 24.11],
+  region: "Latvia",
+  description: {
+    en: "Riga park site of Rihards Maurs’s 1933 artificial-stone fountain sculptures Sumpurnis, Bārenīte, and Mātesmeita — a modern fairy-tale monument, not a folk cult shrine.",
+    lt: "Rygos parko vieta, kur 1933 m. Rihards Maurs pastatė dirbtinio akmens fontano skulptūras Sumpurnis, Bārenīte ir Mātesmeita — šiuolaikinis pasakų paminklas, ne tautosakos kulto šventykla.",
+    lv: "Rīgas parka vieta, kur 1933. gadā Rihards Maurs uzcēla mākslīgā akmens strūklakas skulptūras Sumpurnis, Bārenīte un Mātesmeita — mūsdienu pasaku piemineklis, ne tautas kulta svētnīca.",
+  },
+  siteType: "Legendary creation sites",
+  aura: "amber",
+  deity: "sumpurnis",
+  significance: {
+    en: "Twentieth-century urban reception of the dogsnout figure in Latvian public art, paired with the orphan / witch-daughter tale cycle.",
+    lt: "XX a. miesto recepcija šunsnukio figūrai Latvijos viešojoje dailėje, siejama su našlaitės / raganos dukters pasakų ciklu.",
+    lv: "20. gadsimta pilsētas uztvere suņpurna tēlam latviešu publiskajā mākslā, saistīta ar sērdienītes / raganas meitas pasaku ciklu.",
+  },
+  tribe: { en: "Latvians", lt: "Latviai", lv: "Latvieši" },
+  period: { en: "1933 public sculpture", lt: "1933 m. viešoji skulptūra", lv: "1933. gada publiskā skulptūra" },
+  references: [
+    "Latvijas Nacionālā enciklopēdija: Rihards Maurs (https://enciklopedija.lv/skirklis/170249)",
+    "https://www.rigaspieminekli.lv/?id=107&lapa=piemineklis&rajons=1&zanrs=5",
+  ],
+};

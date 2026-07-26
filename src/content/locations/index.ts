@@ -99,6 +99,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./lv/balga-fortress.mdx")),
     }
   },
+  "bauska-belt-curse": {
+    meta: meta.bauskaBeltCurseMeta,
+    Content: dynamic(() => import("./en/bauska-belt-curse.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/bauska-belt-curse.mdx")),
+      lt: dynamic(() => import("./lt/bauska-belt-curse.mdx")),
+      lv: dynamic(() => import("./lv/bauska-belt-curse.mdx")),
+    }
+  },
   "beverina-castle": {
     meta: meta.beverinaCastleMeta,
     Content: dynamic(() => import("./en/beverina-castle.mdx")),
@@ -151,6 +160,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/cesis-hill.mdx")),
       lt: dynamic(() => import("./lt/cesis-hill.mdx")),
       lv: dynamic(() => import("./lv/cesis-hill.mdx")),
+    }
+  },
+  "cesvaine-sumpurnu-zeme": {
+    meta: meta.cesvaineSumpurnuZemeMeta,
+    Content: dynamic(() => import("./en/cesvaine-sumpurnu-zeme.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/cesvaine-sumpurnu-zeme.mdx")),
+      lt: dynamic(() => import("./lt/cesvaine-sumpurnu-zeme.mdx")),
+      lv: dynamic(() => import("./lv/cesvaine-sumpurnu-zeme.mdx")),
     }
   },
   "daugava-bends": {
@@ -216,6 +234,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       lv: dynamic(() => import("./lv/dzukija-meadow.mdx")),
     }
   },
+  "dzukste-pienava-kurbads": {
+    meta: meta.dzukstePienavaKurbadsMeta,
+    Content: dynamic(() => import("./en/dzukste-pienava-kurbads.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/dzukste-pienava-kurbads.mdx")),
+      lt: dynamic(() => import("./lt/dzukste-pienava-kurbads.mdx")),
+      lv: dynamic(() => import("./lv/dzukste-pienava-kurbads.mdx")),
+    }
+  },
   "eleja-stone": {
     meta: meta.elejaStoneMeta,
     Content: dynamic(() => import("./en/eleja-stone.mdx")),
@@ -259,6 +286,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/grobina-site.mdx")),
       lt: dynamic(() => import("./lt/grobina-site.mdx")),
       lv: dynamic(() => import("./lv/grobina-site.mdx")),
+    }
+  },
+  "gulbene-ticejumi": {
+    meta: meta.gulbeneTicejumiMeta,
+    Content: dynamic(() => import("./en/gulbene-ticejumi.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/gulbene-ticejumi.mdx")),
+      lt: dynamic(() => import("./lt/gulbene-ticejumi.mdx")),
+      lv: dynamic(() => import("./lv/gulbene-ticejumi.mdx")),
     }
   },
   "heiligenbeil-grove": {
@@ -403,6 +439,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/kolka-surge.mdx")),
       lt: dynamic(() => import("./lt/kolka-surge.mdx")),
       lv: dynamic(() => import("./lv/kolka-surge.mdx")),
+    }
+  },
+  "kronvalda-parks-maurs": {
+    meta: meta.kronvaldaParksMaursMeta,
+    Content: dynamic(() => import("./en/kronvalda-parks-maurs.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/kronvalda-parks-maurs.mdx")),
+      lt: dynamic(() => import("./lt/kronvalda-parks-maurs.mdx")),
+      lv: dynamic(() => import("./lv/kronvalda-parks-maurs.mdx")),
     }
   },
   "krustpils-mound": {
@@ -628,6 +673,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/rambynas-hill.mdx")),
       lt: dynamic(() => import("./lt/rambynas-hill.mdx")),
       lv: dynamic(() => import("./lv/rambynas-hill.mdx")),
+    }
+  },
+  "rauna-sumpurnene": {
+    meta: meta.raunaSumpurneneMeta,
+    Content: dynamic(() => import("./en/rauna-sumpurnene.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/rauna-sumpurnene.mdx")),
+      lt: dynamic(() => import("./lt/rauna-sumpurnene.mdx")),
+      lv: dynamic(() => import("./lv/rauna-sumpurnene.mdx")),
     }
   },
   "rezekne-hill": {
@@ -934,6 +988,15 @@ export const locationEntryById: Record<string, LocationEntry> = {
       en: dynamic(() => import("./en/valatkoniu-devil-stone.mdx")),
       lt: dynamic(() => import("./lt/valatkoniu-devil-stone.mdx")),
       lv: dynamic(() => import("./lv/valatkoniu-devil-stone.mdx")),
+    }
+  },
+  "vecpiebalga-atu327a": {
+    meta: meta.vecpiebalgaAtu327aMeta,
+    Content: dynamic(() => import("./en/vecpiebalga-atu327a.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./en/vecpiebalga-atu327a.mdx")),
+      lt: dynamic(() => import("./lt/vecpiebalga-atu327a.mdx")),
+      lv: dynamic(() => import("./lv/vecpiebalga-atu327a.mdx")),
     }
   },
   "veliuona-mound": {
