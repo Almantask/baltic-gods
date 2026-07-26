@@ -665,6 +665,10 @@ const symbolLabelTranslations: Record<string, Record<Language, string>> = {
 };
 
 const termTranslations: Record<string, Record<Language, string>> = {
+  "Warm wax and meadow breath": { en: "Warm wax and meadow breath", lt: "Šiltas vaškas ir pievos dvelksmas", lv: "Silts vasks un pļavas elpa" },
+  "Honeycomb, linden blossoms, smoke": { en: "Honeycomb, linden blossoms, smoke", lt: "Medaus koriai, liepų žiedai, dūmai", lv: "Medus šūnas, liepziedi, dūmi" },
+  "Honey-soaked prayer ribbons": { en: "Honey-soaked prayer ribbons", lt: "Medumi suvilgytos maldos juostos", lv: "Medū samērcētas lūgšanu lentas" },
+  "Bee-wing pressed charms": { en: "Bee-wing pressed charms", lt: "Bičių sparnelių amuletai", lv: "Bišu spārnu amuleti" },
   "Warm loam after rain": { en: "Warm loam after rain", lt: "Šilta dirva po lietaus", lv: "Silts māls pēc lietus" },
   "Soil-stained prayer cloths": { en: "Soil-stained prayer cloths", lt: "Žemėtos maldos skarelės", lv: "Augsnes traipītas lūgšanu drānas" },
   "Hazel-root amulets": { en: "Hazel-root amulets", lt: "Lazdyno šaknų amuletai", lv: "Lazdassakņu amuleti" },
