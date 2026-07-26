@@ -138,7 +138,7 @@ export function StoryDetailContent({ slug }: { slug: string }) {
           href="/stories"
           className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm uppercase tracking-[0.15em] text-amber-50 transition hover:border-amber-200/30"
         >
-          ← Back to {strings.stories.title}
+          ← {strings.stories.backToStories}
         </Link>
 
         {meta.references.length > 0 && (

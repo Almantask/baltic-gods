@@ -53,6 +53,7 @@ const translations = {
       storyFound: "story found",
       storiesFound: "stories found",
       references: "References",
+      backToStories: "Back to stories",
     },
     map: {
       title: "Sacred Map",
@@ -209,6 +210,7 @@ const translations = {
       storyFound: "pasakojimas rastas",
       storiesFound: "pasakojimai rasti",
       references: "Šaltiniai",
+      backToStories: "Atgal į pasakojimus",
     },
     map: {
       title: "Šventas žemėlapis",
@@ -365,6 +367,7 @@ const translations = {
       storyFound: "stāsts atrasts",
       storiesFound: "stāsti atrasti",
       references: "Atsauces",
+      backToStories: "Atpakaļ uz stāstiem",
     },
     map: {
       title: "Svētā karte",
