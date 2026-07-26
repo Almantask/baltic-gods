@@ -665,6 +665,10 @@ const symbolLabelTranslations: Record<string, Record<Language, string>> = {
 };
 
 const termTranslations: Record<string, Record<Language, string>> = {
+  "Sap slow and sure": { en: "Sap slow and sure", lt: "Lėtai ir tvirtai tekanti sula", lv: "Lēna un droša sula" },
+  "Resin drops, moss, quiet footsteps": { en: "Resin drops, moss, quiet footsteps", lt: "Saku lašai, samanos, tylūs žingsniai", lv: "Sveķu pilieni, sūnas, klusi soļi" },
+  "Birch bark cups": { en: "Birch bark cups", lt: "Beržo žievės puodeliai", lv: "Bērza mizas trauciņi" },
+  "Spruce resin seals": { en: "Spruce resin seals", lt: "Eglės saku spaudai", lv: "Egles sveķu zīmogi" },
   "Warm wax and meadow breath": { en: "Warm wax and meadow breath", lt: "Šiltas vaškas ir pievos dvelksmas", lv: "Silts vasks un pļavas elpa" },
   "Honeycomb, linden blossoms, smoke": { en: "Honeycomb, linden blossoms, smoke", lt: "Medaus koriai, liepų žiedai, dūmai", lv: "Medus šūnas, liepziedi, dūmi" },
   "Honey-soaked prayer ribbons": { en: "Honey-soaked prayer ribbons", lt: "Medumi suvilgytos maldos juostos", lv: "Medū samērcētas lūgšanu lentas" },
@@ -732,14 +736,39 @@ export function localizeSymbol(
 
   if (symbolLabelTranslations[labelText]) {
     labelText = symbolLabelTranslations[labelText][language];
+  } else {
+    const lowerLabel = labelText.trim().toLowerCase();
+    for (const [k, map] of Object.entries(symbolLabelTranslations)) {
+      if (k.toLowerCase() === lowerLabel) {
+        labelText = map[language];
+        break;
+      }
+    }
   }
 
-  if (termTranslations[detailText]) {
-    detailText = termTranslations[detailText][language];
-  } else if (language !== "en") {
-    for (const [englishTerm, localized] of Object.entries(termTranslations)) {
-      const regex = new RegExp(`\\b${englishTerm}\\b`, "gi");
-      detailText = detailText.replace(regex, localized[language]);
+  if (typeof symbol.detail === "string") {
+    const raw = symbol.detail.trim();
+    if (termTranslations[raw]) {
+      detailText = termTranslations[raw][language];
+    } else {
+      const lowerRaw = raw.toLowerCase();
+      let matched = false;
+      for (const [englishTerm, localized] of Object.entries(termTranslations)) {
+        if (englishTerm.toLowerCase() === lowerRaw) {
+          detailText = localized[language];
+          matched = true;
+          break;
+        }
+      }
+
+      if (!matched && language !== "en") {
+        let replaced = raw;
+        for (const [englishTerm, localized] of Object.entries(termTranslations)) {
+          const regex = new RegExp(`\\b${englishTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, "gi");
+          replaced = replaced.replace(regex, localized[language]);
+        }
+        detailText = replaced;
+      }
     }
   }
 
