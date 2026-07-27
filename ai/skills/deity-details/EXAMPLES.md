@@ -81,6 +81,8 @@ The following is an example of a complete deity details page generated according
 
 ## 6. Academic Fact-Check & Navigation Brief
 
+Section 6 lists **only claims retained in Sections 1–5**. Disputed/wrong findings belong in the chat summary, not here.
+
 ### Verification Ledger
 
 | # | Claim | Source | Status | Navigation Brief |

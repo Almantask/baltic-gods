@@ -40,12 +40,15 @@ Every generated deity details document **must** include complete text in all thr
 - **Incantations & Taboos (`en`, `lt`, `lv`)**: Document folk prayers, protective charms, daina incantations, and behavioral taboos.
 
 ### 6. Academic Fact-Check & Navigation Brief
-- **Trilingual Claim Verification Ledger**: Summarize key factual statements made in the document with verification status in EN, LT, and LV.
-- **Academic Sources**: Require at least 2 peer-reviewed academic or primary historical sources (e.g., Norbertas Vėlius, Gintaras Beresnevičius, Marija Gimbutas, Janīna Kursīte, Haralds Biezais).
+- **Page-only verified claims**: Section 6 lists **only** claims that appear in Sections 1–5 after fact-check. Do not add verification rows or citations for claims removed from the page.
+- **Exclude disputed/wrong**: ⚠️ Disputed and ❌ Wrong claims must be stripped from Sections 1–5 and must **not** appear in Section 6. Report them in the **chat summary only**.
+- **Trilingual Claim Verification Ledger**: Summarize key factual statements retained on the page with verification status in EN, LT, and LV (typically ✅ Confirmed only).
+- **Academic Sources**: At least 2 peer-reviewed or primary historical sources **that support retained claims** (e.g., Norbertas Vėlius, Gintaras Beresnevičius, Marija Gimbutas, Janīna Kursīte, Haralds Biezais). Drop sources whose only purpose was to refute a claim no longer on the page.
 - **Navigation Brief Rules**:
   - Point directly to the **evidentiary phrase** or key keyword within cited texts.
   - Format: `Ctrl+F: 'evidentiary phrase'` (never generic names).
   - Include full source title, page/chapter number, or archive link.
+  - Every navigation brief must correspond to a claim still present in Sections 1–5.
 
 ## Trilingual Claim Verification Table Schema
 
@@ -58,7 +61,7 @@ Every generated deity details document **must** include complete text in all thr
 
 When rewriting an existing deity page (MDX or Markdown) into the 6-section structure:
 
-1. **Preserve Fact Integrity**: Retain all verified claims, historical citations, primary source quotes, location IDs, and academic references from the original document.
+1. **Preserve Fact Integrity**: Retain verified claims, historical citations, primary source quotes, location IDs, and academic references that still support content on the page. Remove disputed/wrong claims and any references that only served those claims.
 2. **Re-Map Headings**: Reorganize existing content blocks into the 6 standard headings:
    - *1. Etymology and Historical Chronicles*
    - *2. Cosmology, Functions, and Sacred Domain*
@@ -68,4 +71,5 @@ When rewriting an existing deity page (MDX or Markdown) into the 6-section struc
    - *6. Academic Fact-Check & Navigation Brief*
 3. **Fill Gaps**: Perform supplementary research for any empty or underspecified section.
 4. **Expand Trilingual Coverage**: Provide `en`, `lt`, and `lv` translations for all sections.
-5. **Generate Navigation Briefs**: Construct explicit `Ctrl+F` navigation briefs for all claims transferred into Section 6.
+5. **Generate Navigation Briefs**: Construct explicit `Ctrl+F` navigation briefs only for claims retained in Sections 1–5 and listed in Section 6.
+6. **Chat Summary for Rejects**: If rewriting after fact-check, put ⚠️ Disputed / ❌ Wrong removals in the chat summary — not on the page.

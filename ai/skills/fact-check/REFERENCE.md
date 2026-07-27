@@ -74,9 +74,42 @@ Before spawning researchers, format and output these claims in the **Pre-Verific
 
 ---
 
+## Comparison Tables
+
+After researchers return, build a comparison table (one row per claim):
+
+| # | Claim | LT Verdict | LV Verdict | Final | Page? | Source URL | Navigation Brief |
+|---|---|---|---|---|---|---|---|
+
+**Final status → destination:**
+
+| Status | Destination |
+|---|---|
+| ✅ Confirmed | Keep/write in Sections 1–5; add Section 6 row + references |
+| ⚠️ Disputed | **Chat summary only** — remove from page if present; no Section 6 row |
+| ❌ Wrong | **Chat summary only** — remove from page if present; no Section 6 row |
+| ❓ Unverified | Omit from page unless user explicitly keeps; no Section 6 row unless claim stays in Sections 1–5 |
+
+### Page write-back rules
+
+1. Section 6 may only cite claims that **exist** in Sections 1–5 after cleanup.
+2. Do not leave orphan references (sources that only refute or discuss removed claims).
+3. Chat summary must include every ⚠️ / ❌ claim with verdict, URL, and navigation brief so the user can audit removals.
+
+### Chat summary template (rejects)
+
+```
+## Fact-check removals (not on page)
+| Claim | Status | Why | Source | Nav brief |
+|---|---|---|---|---|
+| … | ⚠️ Disputed / ❌ Wrong | … | … | Ctrl+F: '…' |
+```
+
+---
+
 ## Edge Cases
 
-- **No online presence**: Flag entire entry as ❓. Check for 19th-century fabrication (Narbutt pantheon).
-- **Conflicting sources**: Report both. Prefer more recent peer-reviewed source. If equal, present both to user.
+- **No online presence**: Flag entire entry as ❓. Check for 19th-century fabrication (Narbutt pantheon). Report in chat; do not assert on the page.
+- **Conflicting sources**: Report both in chat. Prefer more recent peer-reviewed source. If equal, present both to user — do not keep a disputed claim on the page pending decision.
 - **Coordinates**: Verify via Google Maps / OSM. Folklore ±0.1°; archaeological ±0.01°.
 - **Multilingual consistency**: Verify `lt`/`lv` translations convey the same meaning as `en`. Flag divergences.

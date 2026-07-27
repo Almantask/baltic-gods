@@ -1,14 +1,14 @@
 ---
 name: fact-check
-description: Spawns specialized browser researchers to verify Baltic mythology facts against online academic sources. Lists all extracted claims in a Pre-Verification Claim Ledger before running verification, feeding directly into Section 6 of deity detail pages. Use when verifying claims or updating deity details pages.
+description: Spawns specialized browser researchers to verify Baltic mythology facts against online academic sources. Lists extracted claims in a Pre-Verification Claim Ledger, writes only confirmed claims plus their references into Section 6 of deity detail pages, and reports disputed/wrong claims in the chat summary only. Use when verifying claims or updating deity details pages.
 ---
 
 # Fact-Check Skill
 
 Verifies Baltic mythology facts against online academic sources. Two modes:
 
-- **Deity/Location mode** — extracts claims from local files categorized by [deity-details](../deity-details/SKILL.md) sections, outputs a Pre-Verification Claim Ledger, validates each against online sources, and populates Section 6 (*Academic Fact-Check & Navigation Brief*) of [deity-details](../deity-details/SKILL.md).
-- **Statement mode** — decomposes an arbitrary claim or paragraph into atomic facts, lists all extracted claims, and verifies each independently with evidence navigation briefs.
+- **Deity/Location mode** — extracts claims from local files categorized by [deity-details](../deity-details/SKILL.md) sections, outputs a Pre-Verification Claim Ledger, validates each against online sources, writes **confirmed** claims + references into Section 6, and reports ⚠️ Disputed / ❌ Wrong in the **chat summary only**.
+- **Statement mode** — decomposes an arbitrary claim or paragraph into atomic facts, lists all extracted claims, and verifies each independently with evidence navigation briefs (page write-back only when updating a deity page).
 
 ## Quick Start
 
@@ -40,8 +40,10 @@ Before spawning research subagents, the agent **MUST** output a complete **Pre-V
    - **Output the Pre-Verification Claim Ledger** table listing all claims to be verified.
 2. **Spawn Researchers**: Invoke parallel `browser-researcher` subagents (1 LT + 1 LV per target) with the claim ledger. See [REFERENCE.md § Researcher Prompts](REFERENCE.md).
 3. **Compare & Report**: Build comparison tables: ✅ Confirmed · ⚠️ Disputed · ❌ Wrong · ❓ Unverified. See [REFERENCE.md § Comparison Tables](REFERENCE.md).
-4. **Feed into Deity Details Page**:
-   - Transfer verified claims and evidence briefs directly into **Section 6** (*Academic Fact-Check & Navigation Brief*) of the target's [deity-details page](../deity-details/SKILL.md).
+4. **Write-back & Chat Summary** (page vs chat split — MANDATORY):
+   - **On the page** (Sections 1–5 + Section 6): keep/write only ✅ Confirmed claims. Section 6 references and navigation briefs cover **only claims that remain on the page**. Remove any ⚠️ Disputed or ❌ Wrong claims from the page body — they must not appear in Section 6 either (nothing left to cite).
+   - **In the chat summary only**: list ⚠️ Disputed and ❌ Wrong claims with verdicts, sources, and navigation briefs. Do not add those references to the page.
+   - ❓ Unverified: omit from the page unless the user explicitly keeps them; never invent Section 6 rows for claims not present in Sections 1–5.
 
 Spawn all researchers in parallel across targets. Example: `/fact-check Perkūnas, Laima` → 4 subagents total.
 

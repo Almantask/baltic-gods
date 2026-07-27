@@ -29,8 +29,9 @@ When asked to rewrite an existing deity page or file:
 1. **Read & Audit**: Read target file using `view_file`. Parse existing metadata, claims, narratives, and references.
 2. **Gap Analysis**: Compare existing content against the 6 mandatory sections. Identify missing details, missing trilingual translations (`en`, `lt`, `lv`), or missing navigation briefs.
 3. **Research Expansion**: If sections are incomplete, trigger targeted research to gather etymology, chronicle quotes, sacred sites, or cult rites.
-4. **Restructure & Rewrite**: Reformat and expand the document into the exact 6-section structure, preserving all original accurate claims while enforcing trilingual depth.
+4. **Restructure & Rewrite**: Reformat and expand into the 6-section structure, preserving accurate claims and enforcing trilingual depth. Drop ⚠️ Disputed / ❌ Wrong claims from the page entirely.
 5. **Update File**: Overwrite target file using `write_to_file`.
+6. **Chat-only rejects**: Report removed disputed/wrong claims in the chat summary only — never in Section 6.
 
 ## Mandatory 6-Section Structure
 
@@ -41,7 +42,12 @@ Every generated or rewritten deity entry must include:
 3. **Character and Visuals** (*Būdas ir išvaizda* / *Raksturs un vizuālais tēls*)
 4. **Natural Habitat, Related Locations** (*Natūrali buveinė ir susijusios vietos* / *Dabiskā vide un saistītās vietas*)
 5. **Sacred Rites, Offerings, and Cult Rites** (*Šventosios apeigos, aukos ir kultas* / *Svētie rituāli, ziedojumi un kults*)
-6. **Academic Fact-Check & Navigation Brief** (*Akademiniai šaltiniai ir faktų tikrinimas* / *Akadēmiskā faktu pārbaude un navigācija*)
+6. **Academic Fact-Check & Navigation Brief** (*Akademiniai šaltiniai ir faktų tikrinimas* / *Akadēmiskā faktu pārbaude un navigācija*) — references **only** for claims that exist in Sections 1–5
+
+## Page vs Chat (Claims & References)
+
+- **Page**: verified claims in Sections 1–5; Section 6 cites those claims only (no orphan references).
+- **Chat summary only**: ⚠️ Disputed / ❌ Wrong findings — do not leave them on the page (nothing to verify/cite).
 
 ## Detailed Guidelines & Templates
 
