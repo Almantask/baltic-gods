@@ -4,11 +4,21 @@ Detailed extraction rules, researcher prompt templates, comparison table schemas
 
 ---
 
-## Claim extract
+## Claim Extraction & Pre-Verification Ledger (Deity Details Focus)
 
-The language which originally mentions the target entity. Let's call it language of target.
+Search for every file where the target entity is mentioned and extract all distinct claims categorized strictly by the 6 sections of the [deity-details skill](../deity-details/SKILL.md):
 
-Search for every file (but only of language of target) where the target entity is mentioned and then look for distinct details in that file: symbols, visuals, looks, tribes, regions, period, references, etymology... Save these claims as something to then search.
+1. **Etymology and Historical Chronicles**: PIE word roots, name variants, epithets, chronicler accounts (Malalas, Dusburg, Długosz, Łasicki, Stryjkowski).
+2. **Cosmology, Functions, and Sacred Domain**: Tripartite position (Sky, Earth, Underworld), meteorological role, pantheon rivalries, divine duties.
+3. **Character and Visuals**: Iconography, age, clothing/armor, weapons/items, face, body, hair, eye color, physique, pose, background, related symbol or flora or fauna.
+4. **Natural Habitat, Related Locations**: Sacred geography, specific historical sites.
+5. **Sacred Rites, Offerings, and Cult Rites**: Seasonal feasts, sacrificial offerings.
+6. **Academic Fact-Check & Navigation Brief**: Academic citations, references, and exact `Ctrl+F` evidentiary phrases.
+
+Before spawning researchers, format and output these claims in the **Pre-Verification Claim Ledger**:
+
+| # | Deity Details Section | Extracted Claim Statement | Source File / Metadata Field | Status |
+|---|---|---|---|---|
 
 ## Researcher Prompts
 

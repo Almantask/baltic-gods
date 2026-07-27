@@ -1,0 +1,48 @@
+---
+name: deity-details
+description: Generates or rewrites comprehensive Baltic deity detail pages in English, Lithuanian, and Latvian (en, lt, lv) with etymology, historical chronicles, cosmology, visual character, natural habitats, sacred rites, and academic fact-check navigation briefs. Use when creating, generating, updating, or rewriting a deity details page or compendium entry.
+---
+
+# Deity Details Skill
+
+Generates or rewrites academic-grade Baltic deity pages in all 3 target languages (**English - `en`**, **Lithuanian - `lt`**, **Latvian - `lv`**), organizing content into 6 standardized sections.
+
+## Quick Start
+
+```
+/deity-details Perkūnas
+/deity-details rewrite src/content/stories/en/perkunas.mdx
+/deity-details file:src/content/deities/laima.md
+```
+
+## Modes of Operation
+
+- **Generation Mode**: Creates a complete 6-section trilingual deity page from scratch.
+- **Rewrite / Restructure Mode**: Reads an existing deity page/file, audits content against the 6 sections, fills research gaps, and rewrites the file in the mandatory standardized structure.
+
+## Page Rewriting & Restructuring Workflow
+
+When asked to rewrite an existing deity page or file:
+
+1. **Read & Audit**: Read target file using `view_file`. Parse existing metadata, claims, narratives, and references.
+2. **Gap Analysis**: Compare existing content against the 6 mandatory sections. Identify missing details, missing trilingual translations (`en`, `lt`, `lv`), or missing navigation briefs.
+3. **Research Expansion**: If sections are incomplete, trigger targeted research to gather etymology, chronicle quotes, sacred sites, or cult rites.
+4. **Restructure & Rewrite**: Reformat and expand the document into the exact 6-section structure, preserving all original accurate claims while enforcing trilingual depth.
+5. **Update File**: Overwrite target file using `write_to_file`.
+
+## Mandatory 6-Section Structure
+
+Every generated or rewritten deity entry must include:
+
+1. **Etymology and Historical Chronicles** (*Etimologija ir istoriniai šaltiniai* / *Etimoloģija un vēsturiskās hronikas*)
+2. **Cosmology, Functions, and Sacred Domain** (*Kosmologija, funkcijos ir šventasis domenas* / *Kosmoloģija, funkcijas un svētā domēns*)
+3. **Character and Visuals** (*Būdas ir išvaizda* / *Raksturs un vizuālais tēls*)
+4. **Natural Habitat, Related Locations** (*Natūrali buveinė ir susijusios vietos* / *Dabiskā vide un saistītās vietas*)
+5. **Sacred Rites, Offerings, and Cult Rites** (*Šventosios apeigos, aukos ir kultas* / *Svētie rituāli, ziedojumi un kults*)
+6. **Academic Fact-Check & Navigation Brief** (*Akademiniai šaltiniai ir faktų tikrinimas* / *Akadēmiskā faktu pārbaude un navigācija*)
+
+## Detailed Guidelines & Templates
+
+- See [REFERENCE.md](REFERENCE.md) for section standards, rewriting rules, claim ledger schemas, and navigation briefs.
+- See [EXAMPLES.md](EXAMPLES.md) for a full reference implementation of a deity details entry.
+

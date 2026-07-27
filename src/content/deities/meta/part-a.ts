@@ -88,9 +88,12 @@ export const perkunasMeta: DeityMeta = {
   },
   references: [
     "Visuotinė lietuvių enciklopedija: Perkūnas (https://www.vle.lt/straipsnis/perkunas/)",
+    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/158652)",
     "Jono Malalos kronikos intarpas (1261 m.)",
+    "Atskaņu hronika (13. gs. pabaiga / Livländische Reimchronik)",
     "Petras Dusburgietis: Chronicon terrae Prussiae (1326)",
-    "Nijolė Laurinkienė: Transformations of the Lithuanian God Perkūnas (Studia Mythologica Slavica, 2000)",
+    "Simonas Grunau: Preussische Chronik (c. 1517–1526)",
+    "Nijolė Laurinkienė: Senovės lietuvių dievas Perkūnas (LLTI 1996 / FFC 325 Helsinki 2023)",
     "Asta Skujytė-Razmienė: The God Perkūnas (Re)Introduced (Tautosakos darbai, 2024)"
   ],
 };
