@@ -4,27 +4,11 @@ Detailed extraction rules, researcher prompt templates, comparison table schemas
 
 ---
 
-## Claim Extraction
+## Claim extract
 
-### Deity targets
+The language which originally mentions the target entity. Let's call it language of target.
 
-| Source file | Fields to extract |
-|---|---|
-| `src/content/deities/meta/part-*.ts` | `name`, `domain`, `epithet`, `summary`, `altNames`, `keywords`, `gallery[].title/medium/note`, `locations[].name/coordinates/region/description/siteType/significance`, `materialLegacy`, `symbols`, `regionDetails`, `tribe`, `period`, `references` |
-| `src/content/locations/meta.ts` | Every `LocationMeta` whose `deity` matches the target slug — all fields |
-| `src/content/stories/meta.ts` | Every `StoryMeta` whose `beings[]` includes the target slug — `title`, `summary`, `regionDetails`, `tribe`, `period`, `references` |
-| `src/content/stories/en/[slug].mdx` | Narrative prose — extract verifiable historical claims (dates, named figures, place names, ritual descriptions, cause-and-effect mythological events) |
-
-### Location targets
-
-| Source file | Fields to extract |
-|---|---|
-| `src/content/locations/meta.ts` | The matching `LocationMeta` entry — all fields |
-| `src/content/deities/meta/part-*.ts` | The parent deity's meta that references this location |
-
-Compile results into a **Claim Ledger** — a flat list of (`claim_id`, `source_file`, `field`, `local_value`, `language`) tuples.
-
----
+Search for every file (but only of language of target) where the target entity is mentioned and then look for distinct details in that file: symbols, visuals, looks, tribes, regions, period, references, etymology... Save these claims as something to then search.
 
 ## Researcher Prompts
 
@@ -77,108 +61,6 @@ Compile results into a **Claim Ledger** — a flat list of (`claim_id`, `source_
 - **Role**: LV Statement Verifier
 
 > Same structure as LT Statement Verifier, targeting Latvian sources (enciklopedija.lv, lfk.lv, dainuskapis.lv).
-
----
-
-## Comparison Tables
-
-### A. Deity Meta
-
-| Field | Local Value | Discovered Value | Status | Reference/URL | Navigation Brief |
-|---|---|---|---|---|---|
-| `name` | ... | ... | ✅/⚠️/❌/❓ | ... | ... |
-| `domain` | ... | ... | | | |
-| `altNames.lt` / `.lv` | ... | ... | | | |
-| `regionDetails.en` | ... | ... | | | |
-| `tribe.en` | ... | ... | | | |
-| `period.en` | ... | ... | | | |
-| `references[*]` | ... | ... | | | |
-| `summary.en` | ... | ... | | | |
-| `keywords` | ... | ... | | | |
-| `materialLegacy[*]` | ... | ... | | | |
-| `symbols[*].detail` | ... | ... | | | |
-| `gallery[*].title/note` | ... | ... | | | |
-
-**Verification priority** (most → least critical): `period` → `tribe` → `references` → `regionDetails` → `domain` → `altNames` → `summary` → `keywords` → `materialLegacy` → `symbols` → `gallery`
-
-### B. Location Meta
-
-| Field | Local Value | Discovered Value | Status | Reference/URL | Navigation Brief |
-|---|---|---|---|---|---|
-| `name.en/.lt/.lv` | ... | ... | ✅/⚠️/❌/❓ | ... | ... |
-| `coordinates` | [lat, lon] | [lat, lon] | | | |
-| `region` | ... | ... | | | |
-| `description.en` | ... | ... | | | |
-| `siteType` | ... | ... | | | |
-| `significance.en` | ... | ... | | | |
-| `tribe.en` | ... | ... | | | |
-| `period.en` | ... | ... | | | |
-| `references[*]` | ... | ... | | | |
-
-**Location rules**: coordinates tolerance ±0.1° for folklore sites, ±0.01° for archaeological. Region must be `"Lithuania"`, `"Latvia"`, or `"Old Prussia"`.
-
-### C. Story Meta
-
-| Field | Local Value | Discovered Value | Status | Reference/URL | Navigation Brief |
-|---|---|---|---|---|---|
-| `title.en` | ... | ... | ✅/⚠️/❌/❓ | ... | ... |
-| `summary.en` | ... | ... | | | |
-| `beings[]` | [...] | [...] | | | |
-| `regionDetails.en` | ... | ... | | | |
-| `tribe.en` | ... | ... | | | |
-| `period.en` | ... | ... | | | |
-| `references[*]` | ... | ... | | | |
-
-### D. Narrative Content (MDX)
-
-Extract discrete verifiable claims from prose:
-
-| Claim | Source Line | Local Text | Discovered Value | Status | Reference/URL | Navigation Brief |
-|---|---|---|---|---|---|---|
-| Earliest mention date | L6 | "13th century" | ... | | | |
-| Named figure | L8 | "priestess named Eglė" | ... | | | |
-
-**Verifiable**: Named figures/beings, dates/periods, real place names, described rituals, attributed sources, historical events.
-**Not verifiable**: Poetic descriptions, invented dialogue, generic statements.
-
-### E. Statement Verdict
-
-| # | Claim | LT Verdict | LV Verdict | Final Status | Reference/URL | Navigation Brief | Notes |
-|---|---|---|---|---|---|---|---|
-| 1 | [atomic claim] | ✅/⚠️/❌/❓ | ✅/⚠️/❌/❓ | ... | ... | ... | ... |
-
-**Resolution**: Both agree → use that verdict. One confirms, other silent → ✅ single-source. Disagree → ⚠️ present both.
-
----
-
-## Status Definitions
-
-| Status | Meaning | Action |
-|---|---|---|
-| ✅ Confirmed | Matches ≥1 academic source with URL | No action |
-| ⚠️ Disputed | Sources disagree or explicitly question the claim | Flag for user review |
-| ❌ Wrong | Contradicts reliable academic source | Draft correction |
-| ❓ Unverified | No source found | Flag; suggest further research |
-
----
-
-## Proposed Modification Format
-
-```typescript
-// BEFORE (line XX of src/content/deities/meta/part-a.ts)
-period: { en: "13th-16th Century Records", ... },
-
-// AFTER — corrected per VLE (https://...)
-period: { en: "13th Century (First mention by Peter of Dusburg, 1326)", ... },
-```
-
-Include navigation briefs in reference strings for non-obvious sources:
-
-```typescript
-references: [
-  "Peter of Dusburg: Chronicon terrae Prussiae (1326) (Ctrl+F: 'Percunis')",
-],
-```
 
 ---
 

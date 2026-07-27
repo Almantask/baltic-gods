@@ -5,9 +5,9 @@ export const perkunasMeta: DeityMeta = {
   name: "Perkūnas",
   domain: "God",
   epithet: {
-    en: "Thunder that cleaves the canopy",
-    lt: "Griaustinis, skeliantis dangaus skliautą",
-    lv: "Pērkons, kas šķeļ debesu jumtu",
+    en: "Thunder that cleaves the canopy / Sky Blacksmith",
+    lt: "Griaustinis, skeliantis dangaus skliautą / Dievaitis",
+    lv: "Pērkonītis, debess kalējs (Trīs zibeņi celmu skalda)",
   },
   summary: {
     en: "Lightning keeps time with the oaks while iron-etched prayers echo over hills and lake skin.",
@@ -549,35 +549,35 @@ export const menulisMeta: DeityMeta = {
   name: "Mėnulis",
   domain: "God",
   epithet: {
-    en: "Keeper of nocturnal crossings",
-    lt: "Naktinių kirtimų sargas",
-    lv: "Nakts pāreju sargs",
+    en: "Nocturnal Warrior & Guardian of Lunar Cycles",
+    lt: "Naktinių žygių karys ir mėnulio ciklų sargas",
+    lv: "Nakts gājienu karavīrs un mēness fāžu sargs",
   },
   summary: {
-    en: "Silver light on river bends marks the routes of wanderers and wolves alike.",
-    lt: "Sidabrinė šviesa upių vingiuose žymi keliautojų ir vilkų takus.",
-    lv: "Sudraba gaisma upju līkumos iezīmē ceļotāju un vilku takas.",
+    en: "The masculine Baltic moon god who rides across the night sky in silver armor, counting stars and guiding travelers, warriors, and agricultural rhythms.",
+    lt: "Vyriškasis baltų nakties dievas, sidabro šarvais skriejantis nakties dangumi, skaičiuojantis žvaigždes ir valdantis naktinius žygius bei sėjos ciklus.",
+    lv: "Vīrišķā baltu nakts dievība, kas sudraba bruņās jāj pār nakts debess velvi, skaita zvaigznes un valda pār nakts gājieniem un sējas cikliem.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(160, 192, 210, 0.22)",
   accent: "#c5d9e6",
   altNames: {
-    en: "Menulis",
-    lt: "Mėnulis",
-    lv: "Mēness",
+    en: "Menulis / Mēness",
+    lt: "Mėnulis / Mėnuo / Dievaitis",
+    lv: "Mēness / Mēnestiņš",
   },
-  keywords: ["moon", "night", "tides", "silver"],
+  keywords: ["moon", "night", "lunar cycles", "silver armor", "star counter", "jaunatis", "dainas"],
   gallery: [
     {
-      title: { en: "Silver shard pendant", lt: "Sidabro šukės pakabukas", lv: "Sudraba lauskas kulons" },
-      medium: { en: "river silver", lt: "upės sidabras", lv: "upes sudrabs" },
-      note: { en: "Hung on boats to travel under waning moons.", lt: "Kabinamas ant valtis keliauti mažėjančios mėnulio šviesoje.", lv: "Karāts uz laivām ceļošanai dilstošās mēness gaismā." },
+      title: { en: "Silver Shard Pendant", lt: "Sidabro šukės pakabukas", lv: "Sudraba lauskas kulons" },
+      medium: { en: "River silver & Baltic amber", lt: "Upės sidabras ir baltų gintaras", lv: "Upes sudrabs un baltu dzintars" },
+      note: { en: "Worn by night travelers and sailors under waning moons for guidance.", lt: "Nešiojamas naktinių keliautojų ir jūreivių delčioje apsaugai.", lv: "Valkāts nakts ceļotāju un jūrnieku vidū dilstošā mēnesī aizsardzībai." },
     },
     {
-      title: { en: "Night-map cloth", lt: "Nakties žemėlapio drobė", lv: "Nakts kartes audums" },
-      medium: { en: "indigo dye", lt: "indigio dažai", lv: "indigo krāsa" },
-      note: { en: "Painted with tidal lines for safe nocturnal crossings.", lt: "Nupiešta potvynių linijomis saugioms nakties perėjoms.", lv: "Gleznots ar paisuma līnijām drošām nakts šķērsošanām." },
+      title: { en: "Star-Counter Woven Belt", lt: "Žvaigždžių skaičiuotojo juosta", lv: "Zvaigžņu skaitītāja josta" },
+      medium: { en: "Woven wool with silver thread", lt: "Austinė vilna su sidabro siūlu", lv: "Austā vilna ar sudraba diegu" },
+      note: { en: "Traditional motif representing Mėness counting nocturnal stars.", lt: "Tradicinis raštas, vaizduojantis Mėnesį, skaičiuojantį nakties žvaigždes.", lv: "Tradicionāls raksts, kas attēlo Mēnesi skaitām nakts zvaigznes." },
     }
   ],
   locations: [
@@ -586,33 +586,37 @@ export const menulisMeta: DeityMeta = {
       name: "Lake Moon Ladder",
       coordinates: [55.4, 25.0],
       region: "Lithuania",
-      description: "Still water that mirrors silver paths when the moon is young.",
+      description: "Still water that mirrors silver paths when the new crescent moon rises.",
       siteType: "Springs, rivers, lakes with cult significance",
       aura: "mist",
       deity: "menulis",
-      significance: "Fisherfolk wait for the ladder reflection before casting nets.",
+      significance: "Fisherfolk and travelers observed the lunar mirror path before night journeys.",
     },
     {
       id: "ventspils-shore",
-      name: "Ventspils Tide Silver",
+      name: "Ventspils Tide Silver Shore",
       coordinates: [57.39, 21.56],
       region: "Latvia",
-      description: "A strand where moonlight pulls phosphorescent curls from the surf.",
+      description: "A coastal strand where moonlight pulls phosphorescent reflections from the Baltic surf.",
       siteType: "Springs, rivers, lakes with cult significance",
       aura: "amber",
       deity: "menulis",
-      significance: "Sailors map moon height against carved posts for omen keeping.",
+      significance: "Sailors mapped moon height against carved wooden posts for nocturnal weather omens.",
     }
   ],
-  materialLegacy: ["Indigo-tinted tide charts", "Carved moon-phase posts"],
+  materialLegacy: [
+    "Carved wooden moon-phase posts",
+    "Silver crescent amulets (rageliai / mēnestiņi)",
+    "Traditional wrought-iron roof crosses with lunar horns"
+  ],
   symbols: [
-    { label: "Element", detail: "Cold glow on water" },
-    { label: "Offerings", detail: "River silver, white pebbles, silence" }
+    { label: { en: "Celestial Steed", lt: "Sidabro žirgas", lv: "Sudraba zirgs" }, detail: { en: "Silver armor & crescent sword", lt: "Sidabriniai šarvai ir pusmėnulio kardas", lv: "Sudraba bruņas un pusmēness zobens" } },
+    { label: { en: "Offerings", lt: "Aukos", lv: "Ziedojumi" }, detail: { en: "Silver coins shaken at new moon, white bread, silence", lt: "Sidabrinės monetos per jaunatį, balta duona, tyla", lv: "Sudraba monētas jaunā mēnesī, baltmaize, klusums" } }
   ],
   regionDetails: {
-    en: "Pan-Baltic (Coast & Lowlands)",
-    lt: "Visos baltų žemės (Pajūris ir žemumos)",
-    lv: "Visas baltu zemes (Piekrastes un zemienes)",
+    en: "Pan-Baltic (Lithuania, Latvia, Old Prussia)",
+    lt: "Visos baltų žemės (Lietuva, Latvija, Senoji Prūsija)",
+    lv: "Visas baltu zemes (Lietuva, Latvija, Senprūsija)",
   },
   tribe: {
     en: "All Baltic Tribes",
@@ -620,15 +624,17 @@ export const menulisMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "16th Century Records & Oral Dainas Corpus",
-    lt: "XVI a. metraščiai ir tautosakos dainynas",
-    lv: "16. gs. hronikas un dainu korpuss",
+    en: "16th Century Chronicles, Oral Dainas Corpus & VLE / LNE Archival Records",
+    lt: "XVI a. metraščiai, tautosakos dainynas ir VLE / LNE archyvai",
+    lv: "16. gs. hronikas, dainu korpuss un VLE / LNE arhīvu ieraksti",
   },
   references: [
     "Visuotinė lietuvių enciklopedija: Mėnulis (https://www.vle.lt/straipsnis/menulis/)",
-    "Nacionālā enciklopēdija: Latviešu mitoloģija - Mēness (https://enciklopedija.lv/skirklis/8592)",
-    "Krišjānis Barons: Latvju dainas",
-    "Jonas Basanavičius: Lithuanian Folklore"
+    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija - Mēness (https://enciklopedija.lv/skirklis/8592)",
+    "Krišjānis Barons: Latvju dainas (LD 33820-34086, celestial dainas)",
+    "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
+    "Algirdas Julius Greimas: Of Gods and Men (1992)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996)"
   ],
 };
 
@@ -637,9 +643,9 @@ export const dievasMeta: DeityMeta = {
   name: "Dievas",
   domain: "God",
   epithet: {
-    en: "High stillness above the pines",
-    lt: "Aukšta tyla virš pušų",
-    lv: "Augsta klusums virs priedēm",
+    en: "The Highest All-Powerful One / Sky Father",
+    lt: "Aukštėjas Visagistis / Dievas Senelis",
+    lv: "Mīļais Dieviņš / Debess tēvs / Balts Dieviņš",
   },
   summary: {
     en: "A distant, patient presence felt in the pause between wind gusts and bell chimes.",
@@ -709,9 +715,9 @@ export const dievasMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "13th Century Records (1249 Treaty of Christburg, 1261 Malalas)",
-    lt: "XIII a. šaltiniai (1249 m. Kristburgo sutartis, 1261 m. Malalos chronografas)",
-    lv: "13. gadsimta avoti (1249. g. Kristburgas līgums)",
+    en: "13th Century Records (1261 Malalas Chronicle insert; Elbing Vocab c. 1400)",
+    lt: "XIII a. šaltiniai (1261 m. Malalos kronikos intarpas; Elbingo žodynėlis apie 1400 m.)",
+    lv: "13. gadsimta avoti (1261. g. Malalas hronika; Elbingas vārdnīca ap 1400. g.)",
   },
   references: [
     "Visuotinė lietuvių enciklopedija: Dievas",

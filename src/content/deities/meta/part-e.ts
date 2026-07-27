@@ -196,7 +196,7 @@ export const puskaitisMeta: DeityMeta = {
 export const andajusMeta: DeityMeta = {
   slug: "andajus",
   name: "Andajus",
-  altNames: { en: "Andajus", lt: "Andajus", lv: "Andajs" },
+  altNames: { en: "Andajus / Andajas / Andojus", lt: "Andajus / Andajas / Andojus", lv: "Andajs / Andajus" },
   domain: "God",
   epithet: {
     en: "Sacred Taboo Euphemism for the Supreme Sky God",
@@ -204,14 +204,14 @@ export const andajusMeta: DeityMeta = {
     lv: "Svētais tabu epitets augstākajam Dievam",
   },
   summary: {
-    en: "Andajus is the historical 13th-century sacred taboo epithet for Dievas recorded in the 1252 Hypatian Codex as invoked by King Mindaugas. Etymologically derived from *an-deivas (the sky-god on high), it reflects Baltic sacred name-taboo rules.",
-    lt: "Andajus yra istorinis XIII a. šventasis tabu epitetas Dievui, užfiksuotas 1252 m. Hipato metraštyje, kuomet jį šaukė karalius Mindaugas. Etimologiškai kilęs iš *an-deivas (aukštybių Dievas).",
-    lv: "Andajs ir vēsturisks 13. gadsimta svētais tabu epitets Dievam, kas fiksēts 1252. gada Hypatijas hronikā, kad to piesauca karalis Mindaugs. Etimoloģiski cēlies no *an-deivas.",
+    en: "Andajus is the historical 13th-century sacred taboo epithet for Dievas recorded in the 1252 & 1258 Hypatian Codex and 1261 Malalas Chronicle as invoked by King Mindaugas and warrior elites. Etymologically derived from *an-deivas (the sky-god on high), it reflects Baltic sacred name-taboo rules.",
+    lt: "Andajus yra istorinis XIII a. šventasis tabu epitetas Dievui, užfiksuotas 1252 ir 1258 m. Hipato metraštyje bei 1261 m. Malalos kronikoje, kuomet jį šaukė karalius Mindaugas ir kariai. Etimologiškai kilęs iš *an-deivas (aukštybių Dievas).",
+    lv: "Andajs ir vēsturisks 13. gadsimta svētais tabu epitets Dievam, kas fiksēts 1252. un 1258. gada Hypatijas hronikā un 1261. g. Malalas hronikā. Etimoloģiski cēlies no *an-deivas.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(118, 138, 152, 0.2)",
   accent: "#b3c0c9",
-  keywords: ["supreme god", "Mindaugas", "Hypatian codex", "taboo name", "Aukštaitija"],
+  keywords: ["supreme god", "Mindaugas", "Hypatian codex", "Malalas chronicle", "taboo name", "Aukštaitija"],
   symbols: [
     { label: "Sacred symbols", detail: "Sky vault, Royal scepter, High oak, Sacred fire" }
   ],
@@ -232,11 +232,13 @@ export const andajusMeta: DeityMeta = {
   materialLegacy: ["Royal silver bulla", "Sacred fire ashes"],
   regionDetails: { en: "Lithuania (Aukštaitija, Mindaugas Realm)", lt: "Lietuva (Aukštaitija, Mindaugo valda)", lv: "Lietuva (Augštaitija, Mindauga valsts)" },
   tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
-  period: { en: "13th Century (1252 Hypatian Codex)", lt: "XIII a. (1252 m. Hipato metraštis)", lv: "13. gadsimts (1252. g. Hypatijas hronika)" },
+  period: { en: "13th Century (1252 Hypatian Codex, 1261 Malalas)", lt: "XIII a. (1252 m. Hipato metraštis, 1261 m. Malala)", lv: "13. gadsimts (1252. g. Hypatijas hronika, 1261. g. Malalas)" },
   references: [
-    "Hypatian Chronicle (Ipat'evskaja Letopis', entry 1252)",
+    "Hypatian Chronicle (Ipat'evskaja Letopis', entries 1252, 1258)",
+    "John Malalas Chronicle (Slavonic translation, 1261)",
     "Gintaras Beresnevičius: Lietuvių religija ir mitologija (Vilnius, 2004)",
-    "Dainius Razauskas: Lietuvių dievavardžiai XIII a. šaltiniuose (Tautosakos darbai, 2006)",
+    "Dainius Razauskas: Andajas, Nunadievis (ir Perkūnas): dar viena interpretacija (Tautosakos darbai, 1999, t. 11 (18), p. 105–117)",
+    "Algirdas Julius Greimas: Apie dievus ir žmones (Chicago, 1979 / Vilnius, 1992)",
     "Visuotinė lietuvių enciklopedija: Andajus (https://www.vle.lt/straipsnis/andajus/)"
   ],
 };
@@ -1361,6 +1363,60 @@ export const kaukasMeta: DeityMeta = {
     "Visuotinė lietuvių enciklopedija: Kaukai (https://www.vle.lt/straipsnis/kaukai/)"
   ],
 };
+
+export const nunasalisMeta: DeityMeta = {
+  slug: "nunasalis",
+  name: "Nunadievis",
+  altNames: {
+    en: "Nunadievis / Nonadievis / Nanadievis / Numadievis",
+    lt: "Nunadievis / Nonadievis / Nanadievis / Numadievis",
+    lv: "Nunadievis / Nonadievis / Nanadievis / Numadievis",
+  },
+  domain: "God",
+  epithet: {
+    en: "God of the Domestic Hearth and Present Day (Nūnainykštis)",
+    lt: "Namų židinio ir nūnainykštis (dabarties) dievas",
+    lv: "Mājas pavarda un tagadnes dievs",
+  },
+  summary: {
+    en: "Nunadievis (also recorded in 13th-century manuscripts as Nonadievis, Nanadievis, or Numadievis) is an archaic epithet for the supreme Sky God (Dievas) recorded in the 1252 Hypatian Codex as head of King Mindaugas' royal pantheon.",
+    lt: "Nunadievis (kronikose rašomas Nonadievis, Nanadievis arba Numadievis) yra archajiškas XIII a. Dievo epitetas, užfiksuotas 1252 m. Ipatijaus metraštyje kaip pirmoji Lietuvos karaliaus Mindaugo slapta garbinta dievybė.",
+    lv: "Nunadievis (hronikās rakstīts arī kā Nonadievis, Nanadievis vai Numadievis) ir arhaisks 13. gadsimta Dieva epitets, kas fiksēts 1252. gada Hypatijas hronikā kā karaļa Mindauga slepenā panteona galva.",
+  },
+  heroImage: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+  overlay: "rgba(95, 120, 105, 0.22)",
+  accent: "#8fa396",
+  keywords: ["Nunadievis", "Nonadievis", "Numadievis", "Mindaugas", "Hypatian codex", "taboo title", "home and land god", "Lithuania"],
+  symbols: [
+    { label: "Sacred symbols", detail: "Boundary stone, Hearth fire, Royal seal, Oak branch" }
+  ],
+  locations: [
+    {
+      id: "kernave-mindaugas-hearth",
+      name: "Kernavė Royal Hearth Hillfort",
+      coordinates: [54.88, 24.85],
+      region: "Lithuania",
+      description: "Ancient hillfort complex of Kernavė where royal offerings to domestic and land deities were performed during Mindaugas' era.",
+      siteType: "Sacred hilltops",
+      aura: "moss",
+      deity: "nunasalis",
+      significance: "Site of 13th-century Lithuanian statecraft rituals where domestic oaths invoking Nunadievis took place.",
+    }
+  ],
+  gallery: [],
+  materialLegacy: ["Boundary marker stones", "Domestic hearth ashes"],
+  regionDetails: { en: "Lithuania (Aukštaitija, Mindaugas Realm)", lt: "Lietuva (Aukštaitija, Mindaugo valda)", lv: "Lietuva (Augštaitija, Mindauga valsts)" },
+  tribe: { en: "Lithuanians", lt: "Lietuviai", lv: "Lietuvieši" },
+  period: { en: "13th Century (1252 Hypatian Codex)", lt: "XIII a. (1252 m. Ipatijaus metraštis)", lv: "13. gadsimts (1252. g. Hypatijas hronika)" },
+  references: [
+    "Hypatian Chronicle (Ipat'evskaja Letopis', 1252 entry)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (Vilnius, 1996)",
+    "Gintaras Beresnevičius: Baltų religinės reformos (Vilnius, 1995)",
+    "Dainius Razauskas: Andajas, Nunadievis (ir Perkūnas): dar viena interpretacija (Tautosakos darbai, 1999, t. 11 (18), p. 105–117)",
+    "Visuotinė lietuvių enciklopedija: Mindaugas (https://www.vle.lt/straipsnis/mindaugas/)"
+  ],
+};
+
 
 
 

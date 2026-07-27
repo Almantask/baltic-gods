@@ -7,7 +7,7 @@ description: Spawns specialized browser researchers to verify Baltic mythology f
 
 Verifies Baltic mythology facts against online academic sources. Three modes:
 
-- **Deity/Location mode** — extracts every claim from local metadata and narrative files, then validates each against online sources.
+- **Deity/Location mode** — extracts every claim from local files, then validates each against online sources.
 - **Statement mode** — takes an arbitrary claim or paragraph, decomposes it into atomic facts, and verifies each independently.
 
 ## Quick Start
@@ -25,17 +25,16 @@ Verifies Baltic mythology facts against online academic sources. Three modes:
 1. **Extract claims** — read every local file mentioning the target and build a **Claim Ledger**. See [REFERENCE.md § Claim Extraction](REFERENCE.md) for file-by-field rules.
 2. **Spawn researchers** — invoke parallel `browser-researcher` subagents (1 LT + 1 LV per target). Pass them the claim ledger. See [REFERENCE.md § Researcher Prompts](REFERENCE.md).
 3. **Compare & report** — build per-content-type comparison tables. Mark each field: ✅ Confirmed · ⚠️ Disputed · ❌ Wrong · ❓ Unverified. See [REFERENCE.md § Comparison Tables](REFERENCE.md).
-4. **Propose modifications** if mismatches are found — draft edits to `meta.ts` / `meta/part-*.ts` / MDX files.
+4. **Propose modifications** if mismatches are found — draft edits to every file INCLUDING the evidence url and navigation brief.
 
 Spawn all researchers in parallel across targets. Example: `/fact-check Perkūnas, Laima` → 4 subagents total.
 
 ## Mode B: Statement
 
 1. **Decompose** — break the input into independently verifiable atomic claims (one predicate each).
-2. **Cross-reference local data** — check if mentioned entities exist in `src/content/deities/meta/part-*.ts` or `src/content/stories/meta.ts`. Note any supporting/contradicting local data.
-3. **Spawn researchers** — invoke 1 LT + 1 LV `browser-researcher` with the decomposed claims. See [REFERENCE.md § Statement Prompts](REFERENCE.md).
-4. **Produce verdict table** — one row per atomic claim with LT/LV verdicts, final status, URL, and navigation brief.
-5. **Summary verdict** — clear statement of overall conclusion with sources.
+2. **Spawn researchers** — invoke 1 LT + 1 LV `browser-researcher` with the decomposed claims. See [REFERENCE.md § Statement Prompts](REFERENCE.md).
+3. **Produce verdict table** — one row per atomic claim with LT/LV verdicts, final status, URL, and navigation brief.
+4. **Summary verdict** — clear statement of overall conclusion with sources.
 
 **Example**:
 

@@ -1818,6 +1818,15 @@ export const deityBySlug: Record<string, DeityEntry> = {
       lv: dynamic(() => import("./people/lv/namejs.mdx")),
     }
   },
+  "nunasalis": {
+    meta: meta.nunasalisMeta,
+    Content: dynamic(() => import("./gods/en/nunasalis.mdx")),
+    contentByLang: {
+      en: dynamic(() => import("./gods/en/nunasalis.mdx")),
+      lt: dynamic(() => import("./gods/lt/nunasalis.mdx")),
+      lv: dynamic(() => import("./gods/lv/nunasalis.mdx")),
+    }
+  },
   "pajauta": {
     meta: meta.pajautaMeta,
     Content: dynamic(() => import("./people/en/pajauta.mdx")),
