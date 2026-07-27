@@ -20,6 +20,8 @@ Generates or rewrites academic-grade Baltic deity pages in all 3 target language
 - **Generation Mode**: Creates a complete 6-section trilingual deity page from scratch.
 - **Rewrite / Restructure Mode**: Reads an existing deity page/file, audits content against the 6 sections, fills research gaps, and rewrites the file in the mandatory standardized structure.
 
+If an existing file is found where the structure is not followed - rewrite it in the mandatory standardized structure unless specified otherwise explicitly.
+
 ## Page Rewriting & Restructuring Workflow
 
 When asked to rewrite an existing deity page or file:
