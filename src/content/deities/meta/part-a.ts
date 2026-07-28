@@ -5,9 +5,9 @@ export const perkunasMeta: DeityMeta = {
   name: "Perkūnas",
   domain: "God",
   epithet: {
-    en: "Thunder that cleaves the canopy / Sky Blacksmith",
+    en: "Thunder that cleaves the canopy",
     lt: "Griaustinis, skeliantis dangaus skliautą / Dievaitis",
-    lv: "Pērkonītis, debess kalējs (Trīs zibeņi celmu skalda)",
+    lv: "Pērkoņtēvs / Vecais tēvs (Trīs zibeņi celmu skalda)",
   },
   summary: {
     en: "Lightning keeps time with the oaks while iron-etched prayers echo over hills and lake skin.",
@@ -52,24 +52,24 @@ export const perkunasMeta: DeityMeta = {
       siteType: "Sacred groves",
       aura: "amber",
       deity: "perkunas",
-      significance: "Offerings of iron nails and barley echo between trees during spring storms.",
+      significance: "Lightning-split oaks left upright in Aukštaitija storm folklore geography.",
     },
     {
       id: "sventoji-oaks",
       name: "Šventoji Oak Sanctuary",
       coordinates: [56.03, 21.08],
       region: "Lithuania",
-      description: "A grove of colossal oaks near the Šventoji river, where the eternal fire was kept.",
+      description: "Coastal oak grove near the Šventoji; regional sacred landscape with archaeological cult finds.",
       siteType: "\"World tree\" analog sites",
       aura: "mist",
       deity: "perkunas",
-      significance: "The principal site for the cult of Perkūnas in the northern coastal region.",
+      significance: "Regional sacred landscape near the Šventoji.",
     }
   ],
   materialLegacy: ["Iron spearhead talismans", "Pitch-black thunderstones tied with flax"],
   symbols: [
     { label: "Element", detail: "Sky-fire over pine crowns" },
-    { label: "Offerings", detail: "Barley, iron nails, smoked salt" }
+    { label: "Offerings", detail: "Black goat, beer (Fabricius); barley in dainas" }
   ],
   regionDetails: {
     en: "Pan-Baltic / Lithuania",
@@ -88,12 +88,12 @@ export const perkunasMeta: DeityMeta = {
   },
   references: [
     "Visuotinė lietuvių enciklopedija: Perkūnas (https://www.vle.lt/straipsnis/perkunas/)",
-    "Latvijas Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/158652)",
+    "Haralds Biezais: Pērkons (Encyclopedia of Religion / Encyclopedia.com)",
     "Jono Malalos kronikos intarpas (1261 m.)",
     "Atskaņu hronika (13. gs. pabaiga / Livländische Reimchronik)",
     "Petras Dusburgietis: Chronicon terrae Prussiae (1326)",
     "Simonas Grunau: Preussische Chronik (c. 1517–1526)",
-    "Nijolė Laurinkienė: Senovės lietuvių dievas Perkūnas (LLTI 1996 / FFC 325 Helsinki 2023)",
+    "Nijolė Laurinkienė: Senovės lietuvių dievas Perkūnas (LLTI 1996 / FFC 327 Helsinki 2023)",
     "Asta Skujytė-Razmienė: The God Perkūnas (Re)Introduced (Tautosakos darbai, 2024)"
   ],
 };

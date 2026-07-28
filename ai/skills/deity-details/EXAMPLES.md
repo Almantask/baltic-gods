@@ -37,16 +37,29 @@ The following is an example of a complete deity details page generated according
 
 ---
 
+## 2b. Relations (example bullets inside §2)
+
+- **Rival**: Eternal duel with chthonic *Velnias* / *Velns* (hides under stones, hollow oaks, cattle).
+- **Hierarchy**: Active weather executor under remote sky sovereign *Andajus* / *Dievas* (LV often: Dievs–Pērkons function overlap).
+- **Mounts / companions**: Horses or goats (*ožiai*) draw the thunder chariot (treat as creature relation + §3 vehicle claim).
+
 ## 3. Character and Visuals
 
-### Physical Appearance & Iconography
-- Depicted in folklore as a mature, middle-aged man with a fiery red beard (*ugninė barzda*), flashing eyes, and wearing copper or iron armor.
-- Rides across the sky in a golden or iron chariot pulled by two fiery horses (or heavy goats).
-- Brandishes a thunderstone axe (*perkūno kulka*, *laimo kirvelis*), hammer, or bow with fiery arrows.
+### Detailed looks (atomic traits)
+- **Age / build**: Mature / middle-aged man; stern warrior bearing.
+- **Facial hair**: Fiery red or brown beard (*ugninė barzda* / *rudabarzdis*).
+- **Eyes**: Flashing / fiery eyes — only if source-attested; otherwise omit (do not write “eye color unattested”).
+- **Hair (head)**: Omit if not attested (do not invent color/style; do not narrate the gap on the page).
+
+### Wearables, accessories, clothing/armour
+- **Armour / dress**: Copper or iron armour — flag as folklore/romantic if weak in academic sources; prefer “fiery garments / weapons” when that is what VLE supports.
+- **Accessories**: Copper chains, flint/thunderstone amulets.
+- **Held weapons**: Thunderstone axe (*perkūno kulka*), hammer, or bow with fiery arrows.
+- **Vehicle**: Golden or iron chariot pulled by horses or goats.
 
 ### Attributes & Sacred Symbols
 - **Sacred Tree**: The Oak (*Quercus robur* / *ąžuolas*, *āzols*).
-- **Sacred Animals**: Goat (*ožys*), Bull (*jautis*), Horse (*žirgas*), Falcon/Eagle.
+- **Sacred Animals** (iconographic): Goat (*ožys*), Bull (*jautis*), Horse (*žirgas*), Falcon/Eagle.
 - **Sacred Objects**: Thunderstone wedges (*belemnites* / stone axes), copper chains, flint stones.
 - **Colors**: Red (fire/blood), Copper, Gold.
 
@@ -81,7 +94,7 @@ The following is an example of a complete deity details page generated according
 
 ## 6. Academic Fact-Check & Navigation Brief
 
-Section 6 lists **only claims retained in Sections 1–5**. Disputed/wrong findings belong in the chat summary, not here.
+Section 6 is the **only** place for sources, URLs, and `Ctrl+F` briefs. It lists **only claims retained in Sections 1–5**. Disputed/wrong findings belong in the chat summary, not here. Sections 1–5 stay source-free narrative.
 
 ### Verification Ledger
 
