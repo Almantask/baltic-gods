@@ -175,17 +175,19 @@ export const sauleMeta: DeityMeta = {
     lv: "Visas baltu ciltis (latvieši, lietuvieši, kurši, zemgaļi, prūši)",
   },
   period: {
-    en: "13th Century (Earliest mention in 1262 Chronograph)",
-    lt: "XIII a. (ankstyviausias paminėjimas 1262 m. chronografe)",
-    lv: "13. gadsimts (agrākā pieminēšana 1262. gada hronogrāfā)",
+    en: "13th Century (Sun forged by Teliavelis in 1261 Malalas insertion)",
+    lt: "XIII a. (Saulę nukala Teliavelis 1261 m. Malalos intarpe)",
+    lv: "13. gadsimts (Sauli kaļ Teliavelis 1261. gada Malalas iestarpinājumā)",
   },
   references: [
-    "Ludwig Rhesa: Dainos",
-    "Jonas Basanavičius: Lithuanian Folklore",
-    "Marija Gimbutas: The Balts",
-    "Visuotinė lietuvių enciklopedija: Saulė (https://www.vle.lt/straipsnis/saule/)",
-    "Nacionālā enciklopēdija: Latviešu mitoloģija (https://enciklopedija.lv/skirklis/149867)",
-    "Nijolė Laurinkienė: Dangus baltų mitiniame pasaulėvaizdyje (2019)"
+    "Visuotinė lietuvių enciklopedija: Saulės kultas (https://www.vle.lt/straipsnis/saules-kultas/)",
+    "Visuotinė lietuvių enciklopedija: Saulės dukterys (https://www.vle.lt/straipsnis/saules-dukterys/)",
+    "Liudvikas Rėza: Dainos (Mėnuo Saulužę vedė)",
+    "Nijolė Laurinkienė: Dangiškųjų vestuvių mitas (LK 2018)",
+    "Nacionālā enciklopēdija: Jāņi (https://enciklopedija.lv/skirklis/262616)",
+    "Vaira Vīķe-Freiberga: Trejādās saules (aptuveni 4000 saules dainu)",
+    "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
+    "UNESCO: Kryždirbystė ir kryžių simbolika Lietuvoje (2008)"
   ],
 };
 
