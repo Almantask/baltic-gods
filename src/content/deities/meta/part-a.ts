@@ -196,14 +196,14 @@ export const laimaMeta: DeityMeta = {
   name: "Laima",
   domain: "God",
   epithet: {
-    en: "Weaver of fates at the spring edge",
-    lt: "Likimų audėja prie šaltinio krašto",
-    lv: "Likteņu audēja pie avota malas",
+    en: "Allotter of fate at the birth threshold",
+    lt: "Likimo lėmėja prie gimimo slenksčio",
+    lv: "Likteņa noliecēja pie dzimšanas sliekšņa",
   },
   summary: {
-    en: "Destiny is braided quietly where birch bark curls, and choices are tied with river flax.",
-    lt: "Likimas tyliai pinamas ten, kur raitosi beržo žievė, o pasirinkimai rišami upės linais.",
-    lv: "Liktenis klusi tiek pīts tur, kur bērza tāss lokās, un izvēles sasietas ar upes liniem.",
+    en: "She seals an unalterable lifespan at the bathhouse door, where hen, linden broom, and spoken lot meet.",
+    lt: "Ji užantspauduoja nepakeičiamą amžių prie pirties durų, kur susitinka višta, liepos šluotelė ir ištarta dalia.",
+    lv: "Viņa aizzīmogo nepārkāpjamu mūžu pie pirts durvīm, kur sastopas vista, liepas slotiņa un noliktais mūžs.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
@@ -214,47 +214,48 @@ export const laimaMeta: DeityMeta = {
     lt: "Laima",
     lv: "Laima",
   },
-  keywords: ["fate", "birch", "springs", "threads"],
+  keywords: ["fate", "linden", "pirts", "cuckoo", "childbirth"],
   gallery: [
     {
-      title: { en: "Birch divination lot", lt: "Beržo burtų skirtukas", lv: "Bērza zīlēšanas kauliņš" },
-      medium: { en: "birch bark, charcoal", lt: "beržo žievė, anglis", lv: "bērza mizas, ogle" },
-      note: { en: "Marked with three lines to foretell safe crossings.", lt: "Pažymėtas trimis linijomis, pranašaujančiomis saugias perėjas.", lv: "Iezīmēts ar trim svītrām, lai pareģotu drošas pārejas." },
+      title: { en: "Linden fate broom", lt: "Liepos likimo šluotelė", lv: "Liepas likteņa slotiņa" },
+      medium: { en: "linden twigs, flax cord", lt: "liepos šakelės, lino virvė", lv: "liepas zariņi, linu aukla" },
+      note: { en: "Kept in the bathhouse as Laima's health broom.", lt: "Laikoma pirtyje kaip Laimos sveikatos šluotelė.", lv: "Turēta pirtī kā Laimas veselības slotiņa." },
     },
     {
-      title: { en: "River flax braid", lt: "Upinė lino pyne", lv: "Upes linu pine" },
-      medium: { en: "flax, beeswax", lt: "linai, bičių vaškas", lv: "lini, bišu vasks" },
-      note: { en: "Knotted at weddings to seal fortunes.", lt: "Mezgamas vestuvėse, siekiant užantspauduoti likimus.", lv: "Sasiets kāzās, lai aizzīmogotu likteņus." },
+      title: { en: "Birth-hen offering band", lt: "Gimdymui aukojamos vištos juosta", lv: "Dzemdību vistas upura prievīte" },
+      medium: { en: "woven band, beeswax", lt: "austa juosta, bičių vaškas", lv: "austā prievīte, bišu vasks" },
+      note: { en: "Tied when thanking Laima after a safe delivery.", lt: "Rišama dėkojant Laimai po sėkmingo gimdymo.", lv: "Sasiets, pateicoties Laimai pēc drošām dzemdībām." },
     }
   ],
   locations: [
     {
-      id: "sigulda-springs",
-      name: "Sigulda Fate Springs",
-      coordinates: [57.12, 24.85],
-      region: "Latvia",
-      description: "Birch-ringed springs where ribbons are submerged to ask for gentler paths.",
-      siteType: "Springs, rivers, lakes with cult significance",
+      id: "laima-footprint-stones",
+      name: "Laima Footprint Stones",
+      coordinates: [55.35, 23.10],
+      region: "Lithuania",
+      description: "Sacred stones marked as Laima's footprints where bread, wool, flax, and coins were offered.",
+      siteType: "Ritual stones",
       aura: "moss",
       deity: "laima",
-      significance: "Forest singers read ripples to divine travel omens.",
+      significance: "Women left household offerings to secure fortune and healing.",
     },
     {
-      id: "vilnius-thread",
-      name: "Vilnius Loom Threshold",
-      coordinates: [54.68, 25.28],
-      region: "Lithuania",
-      description: "A hidden loft above an old loom where threads are tied and left to decide direction.",
+      id: "baltic-pirts-birth",
+      name: "Baltic Birth Bathhouse",
+      coordinates: [56.95, 24.10],
+      region: "Latvia",
+      description: "The pirts as Laima's primary birth sanctuary, with threshold offerings of hen and drink.",
       siteType: "Hearth cult zones",
       aura: "amber",
       deity: "laima",
-      significance: "Midwives climb here before births to braid names into cloth.",
+      significance: "Midwives invoked Laima at the bathhouse door and bathed the newborn in sacred first water.",
     }
   ],
-  materialLegacy: ["Carved birch divination staves", "Wax-sealed fate ribbons"],
+  materialLegacy: ["Linden broom amulets (Laimas slotiņa)", "Birth-offering hen rites", "Footprint-stone votives"],
   symbols: [
-    { label: "Element", detail: "Quiet water under birch" },
-    { label: "Offerings", detail: "Flax knots, copper coins, whispered vows" }
+    { label: "Tree", detail: "Linden (liepa)" },
+    { label: "Messenger", detail: "Cuckoo (gegutė / dzeguze)" },
+    { label: "Offerings", detail: "Hen, bread, ale, flax, coins" }
   ],
   regionDetails: {
     en: "Pan-Baltic (Lithuania & Latvia)",
@@ -267,18 +268,19 @@ export const laimaMeta: DeityMeta = {
     lv: "Visas baltu ciltis (latvieši, lietuvieši, kurši, zemgaļi)",
   },
   period: {
-    en: "17th Century Records (Earliest mention 1636 P. Einhorn / 1653 D. Klein)",
-    lt: "XVII a. šaltiniai (ankstyviausias paminėjimas 1636 m. P. Einhorn / 1653 m. D. Klein)",
-    lv: "17. gadsimta avoti (agrākā pieminēšana 1636. g. P. Einhorns)",
+    en: "17th Century Records (Einhorn Historia Lettica 1649; LT Laimele 1666; Praetorius ~1690)",
+    lt: "XVII a. šaltiniai (Einhornas Historia Lettica 1649; LT Laimele 1666; Pretorijus ~1690)",
+    lv: "17. gadsimta avoti (Einhorns Historia Lettica 1649; LT Laimele 1666; Pretorijs ~1690)",
   },
   references: [
-    "Paul Einhorn: Historia Lettica (1636)",
-    "Daniel Klein: Grammatica Litvanica (1653)",
-    "Visuotinė lietuvių enciklopedija: Laimė (https://www.vle.lt/straipsnis/laime/)",
-    "Nacionālā enciklopēdija: Latviešu mitoloģija - Laima (https://enciklopedija.lv/skirklis/149867)",
+    "Paul Einhorn: Historia Lettica (1649)",
+    "Martini / Klein hymnbook tradition: Laimele (1666)",
+    "Matthäus Praetorius: Deliciae Prussicae (~1690)",
+    "Visuotinė lietuvių enciklopedija: Laimė (https://www.vle.lt/straipsnis/laime-1/)",
+    "Mitologijos enciklopedija / MLE: Laima (https://www.mle.lt/straipsniai/laima-1)",
     "Krišjānis Barons: Latvju dainas",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996-2005)",
-    "Vilis Biļķins: Senlatviešu dievības"
+    "Haralds Biezais: Die Hauptgöttinnen der alten Letten",
+    "Norbertas Vėlius: Mitinės lietuvių sakmių būtybės"
   ],
 };
 
@@ -308,14 +310,22 @@ export const zemynaMeta: DeityMeta = {
   keywords: ["soil", "harvest", "mounds", "grains"],
   gallery: [
     {
-      title: { en: "Clay seed jar", lt: "Molinė sėklų ąsotis", lv: "Māla sēklu trauks" },
-      medium: { en: "fired clay", lt: "degtas molis", lv: "apdedzināts māls" },
-      note: { en: "Buried at field corners before plowing.", lt: "Laidojamas laukų kampuose prieš ariant.", lv: "Aprakts lauku stūros pirms aršanas." },
+      title: { en: "Libation cup", lt: "Aukojimo kaušelis", lv: "Ziedojuma kauss" },
+      medium: { en: "wood / ceramic", lt: "medis / keramika", lv: "koks / keramika" },
+      note: {
+        en: "Ale poured to the earth before the household drinks (*žemyneliauti*).",
+        lt: "Alus nupilamas žemei prieš geriant patiems (*žemyneliauti*).",
+        lv: "Alus tiek noliets zemei pirms saimniecība dzer (*žemyneliauti*).",
+      },
     },
     {
-      title: { en: "Rye straw torque", lt: "Rugių šiaudų apykaklė", lv: "Rudzu salmu kaklagredzens" },
-      medium: { en: "braided straw", lt: "pintas šiaudas", lv: "pīts salms" },
-      note: { en: "Hung in barns to keep mice away by her favor.", lt: "Kabinamas tvarte, siekiant jos malone atbaidyti peles.", lv: "Karāts stallī, lai ar viņas labvēlību atbaidītu peles." },
+      title: { en: "Harvest bread", lt: "Derliaus duona", lv: "Ražas maize" },
+      medium: { en: "rye bread", lt: "ruginė duona", lv: "rudzu maize" },
+      note: {
+        en: "Bread offered or buried for Žemyna at sowing and wakes.",
+        lt: "Duona aukojama ar užkasama Žemynai sėjos ir šermenų metu.",
+        lv: "Maize ziedota vai aprakta Žemynai sējas un bedību laikā.",
+      },
     }
   ],
   locations: [
@@ -324,28 +334,28 @@ export const zemynaMeta: DeityMeta = {
       name: "Kernavė Earth Ridges",
       coordinates: [54.88, 24.85],
       region: "Lithuania",
-      description: "Ancient mounds where soil is turned by hand each equinox.",
+      description: "Ancient mounds in a landscape of cultivated earth and ancestral burial.",
       siteType: "Mythic hills / burial mounds",
       aura: "moss",
       deity: "zemyna",
-      significance: "Families pour milk into the earth and press their palms into the soil.",
+      significance: "Landscape of cultivated earth and ancestral burial aligned with Žemyna’s life–death domain.",
     },
     {
       id: "telsiai-altars",
       name: "Telšiai Clay Altars",
       coordinates: [55.98, 22.25],
       region: "Lithuania",
-      description: "Low clay pads hidden in hazel groves for grain thanks-giving.",
+      description: "Samogitian landscape of homestead and field cult.",
       siteType: "Sacrifice / offering sites",
       aura: "amber",
       deity: "zemyna",
-      significance: "Rye crowns are left to dry as a pledge to the next harvest.",
+      significance: "Regional earth-cult setting of the homestead-and-field offering pattern.",
     }
   ],
-  materialLegacy: ["Soil-stained prayer cloths", "Hazel-root amulets"],
+  materialLegacy: ["Libation vessels", "Rye bread offerings"],
   symbols: [
-    { label: "Element", detail: "Warm loam after rain" },
-    { label: "Offerings", detail: "Milk, rye crowns, crushed herbs" }
+    { label: "Element", detail: "Cultivated earth / warm loam" },
+    { label: "Offerings", detail: "Beer libation, bread, grain" }
   ],
   regionDetails: {
     en: "Pan-Baltic (Lithuania & Latvia)",
@@ -358,16 +368,16 @@ export const zemynaMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "16th Century Records (1547 M. Mažvydas, 1582 J. Łasicki)",
-    lt: "XVI a. šaltiniai (1547 m. M. Mažvydas, 1582 m. J. Lasickis)",
-    lv: "16. gadsimta avoti (1547. g. M. Mažvīds, 1582. g. J. Lasickis)",
+    en: "16th–17th c. records (Łasicki; Prätorius)",
+    lt: "XVI–XVII a. šaltiniai (Łasickis; Pretorijus)",
+    lv: "16.–17. gs. avoti (Łasickis; Pretorijs)",
   },
   references: [
-    "Martynas Mažvydas: Catechismus (1547)",
-    "Jan Łasicki: De Diis Samagitarum (1582/1615)",
+    "Jan Łasicki: De Diis Samagitarum (late 16th c. / 1615)",
+    "Matthäus Prätorius: Deliciae Prussicae (late 17th c.)",
     "Visuotinė lietuvių enciklopedija: Žemyna (https://www.vle.lt/straipsnis/zemyna/)",
-    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis (1987)",
-    "Jonas Basanavičius"
+    "Nijolė Laurinkienė: Žemyna ir jos mitinis pasaulis (2013)",
+    "Norbertas Vėlius (ed.): Baltų religijos ir mitologijos šaltiniai (BRMŠ)"
   ],
 };
 
@@ -413,11 +423,11 @@ export const velniasMeta: DeityMeta = {
       name: "Nemunas Mist Hollow",
       coordinates: [54.02, 23.97],
       region: "Lithuania",
-      description: "A bog clearing where will-o-wisps mirror hoofbeats.",
+      description: "A bog clearing associated in local lore with marsh spirits and night lights.",
       siteType: "Springs, rivers, lakes with cult significance",
       aura: "mist",
       deity: "velnias",
-      significance: "Travelers leave rye bread and silver to trade for safe passage.",
+      significance: "Named landscape of the Velnias habitat type (bogs and waters); specific offering formulas remain unverified.",
     },
     {
       id: "nida-dunes",
@@ -428,7 +438,7 @@ export const velniasMeta: DeityMeta = {
       siteType: "Sacrifice / offering sites",
       aura: "amber",
       deity: "velnias",
-      significance: "Fishermen ask for misdirection of storms toward open water.",
+      significance: "Coastal liminal landscape linked to the deity in project lore; not confirmed as a historical Velns cult center.",
     }
   ],
   materialLegacy: ["Charcoal crossroads sigils", "Bone whistles carved with spiral horns"],
@@ -447,15 +457,15 @@ export const velniasMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "13th Century Records (Earliest mention in 1261 Malalas Chronicle)",
-    lt: "XIII a. šaltiniai (ankstyviausias paminėjimas 1261 m. Malalos kronikoje)",
-    lv: "13. gadsimta avoti (agrākā pieminēšana 1261. g. Malalas hronikā)",
+    en: "16th Century Records (Wolfenbüttel Postil, 1573: velinas)",
+    lt: "XVI a. šaltiniai (Wolfenbüttelio postilė, 1573: velinas)",
+    lv: "16. gadsimta avoti (Volfenbiteles postilla, 1573: velinas)",
   },
   references: [
-    "Visuotinė lietuvių enciklopedija: Velnias (https://www.vle.lt/straipsnis/velnias/)",
-    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis: folklorinio velnio analizė (Vaga, 1987)",
-    "Gintaras Beresnevičius: Dausos (1990) & Trumpas lietuvių mitologijos žodynas (2004)",
-    "Jonas Basanavičius"
+    "Visuotinė lietuvių enciklopedija: velnias (https://www.vle.lt/straipsnis/velnias/)",
+    "Mažosios Lietuvos enciklopedija: velnias (https://www.mle.lt/straipsniai/velnias)",
+    "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis (Vaga, 1987)",
+    "Pēteris Šmits: Latviešu tautas ticējumi — Velns (http://valoda.ailab.lv/folklora/ticejumi/velns.htm)",
   ],
 };
 
@@ -469,9 +479,9 @@ export const austejaMeta: DeityMeta = {
     lv: "Bišu un ziedošo malu valdniece",
   },
   summary: {
-    en: "She hums in the timberline, swarming over hollow lindens and calming storms with honeyed smoke.",
-    lt: "Ji dūzgia miško pakraštyje, spiečiasi virš tuščiavidurių liepų ir ramina audras medaus dūmais.",
-    lv: "Viņa dūc meža malā, spietos pār dobajām liepām un nomierina vētras ar medus dūmiem.",
+    en: "Bee goddess of the swarm and the woven comb, called on when hives rise and honey is taken.",
+    lt: "Bičių deivė spiečiaus ir austų korių — šaukiama, kai aviliai kyla ir imamas medus.",
+    lv: "Bišu dieviete spietam un austajai kārei — piesaucama, kad stropti ceļas un ņem medu.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=1600&q=80",
@@ -542,10 +552,10 @@ export const austejaMeta: DeityMeta = {
     lv: "16. gadsimta avoti (1580/1582. g. J. Lasickis)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582/1615)",
-    "Norbertas Vėlius: Senovės lietuvių pasaulėžiūra (1983)",
-    "Visuotinė lietuvių enciklopedija: Austėja",
-    "Visuotinė lietuvių enciklopedija: Austėja (https://www.vle.lt/straipsnis/austeja/)"
+    "Jan Łasicki: De diis samagitarum (c. 1580; publ. 1615)",
+    "Dainius Razauskas: Iš baltų mitinio vaizdyno juodraščių: Austėja (Liaudies kultūra, 2009)",
+    "Visuotinė lietuvių enciklopedija: bičiulystė (https://www.vle.lt/straipsnis/biciulyste/)",
+    "Visuotinė lietuvių enciklopedija: Bitininkystės muziejus (https://www.vle.lt/straipsnis/bitininkystes-muziejus/)"
   ],
 };
 
@@ -720,16 +730,17 @@ export const dievasMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "13th Century Records (1261 Malalas Chronicle insert; Elbing Vocab c. 1400)",
-    lt: "XIII a. šaltiniai (1261 m. Malalos kronikos intarpas; Elbingo žodynėlis apie 1400 m.)",
-    lv: "13. gadsimta avoti (1261. g. Malalas hronika; Elbingas vārdnīca ap 1400. g.)",
+    en: "Elbing Vocabulary (c. 13th–14th c., OPr. Deywis); living daina / sakmė tradition",
+    lt: "Elbingo žodynėlis (apie XIII–XIV a., prūs. Deywis); gyvoji dainų / sakmių tradicija",
+    lv: "Elbingas vārdnīca (ap 13.–14. gs., senpr. Deywis); dzīvā dainu / teiku tradīcija",
   },
   references: [
-    "Visuotinė lietuvių enciklopedija: Dievas",
+    "epupa.valoda.lv: Dievs (Karulis etymology; LD 33682 sudrabiņa mētelītis)",
+    "Gintaras Beresnevičius: Trumpas lietuvių ir prūsų religijos žodynas",
+    "Haralds Biezais: Die himmlische Götterfamilie der alten Letten (1972)",
     "Algirdas Julius Greimas: Of Gods and Men (1992)",
-    "Maciej Stryjkowski: Kronika polska, litewska, żmódzka (1582)",
-    "Jan Łasicki: De Diis Samagitarum (1582)",
-    "Visuotinė lietuvių enciklopedija: Dievas (https://www.vle.lt/straipsnis/dievas/)"
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai",
+    "Elbing Vocabulary: Old Prussian Deywis = Got",
   ],
 };
 
@@ -809,15 +820,15 @@ export const gabijaMeta: DeityMeta = {
     lv: "Visas baltu ciltis",
   },
   period: {
-    en: "16th Century Records (1582 Jan Łasicki, 1583 Jesuit Reports)",
-    lt: "XVI a. šaltiniai (1582 m. Jonas Lasickis, 1583 m. jėzuitų ataskaitos)",
-    lv: "16. gadsimta avoti (1582. g. J. Lasickis)",
+    en: "Late 16th Century (Łasicki De diis Samagitarum, pub. 1615)",
+    lt: "XVI a. pabaiga (Łasickis De diis Samagitarum, išl. 1615)",
+    lv: "16. gs. beigas (Łasickis De diis Samagitarum, publ. 1615)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582/1615) (search: 'Gabie')",
-    "Daiva Vaitkevičienė: Ugnies raiškos lietuvių mitologijoje (LLTI, 2001) (search: 'Gabija')",
-    "Visuotinė lietuvių enciklopedija: Gabija (https://www.vle.lt/straipsnis/gabija-1/)",
-    "Latviešu tautas ticējumi: Uguns (http://valoda.ailab.lv/folklora/ticejumi/uguns.htm) (search: 'Uguns māte')"
+    "Jan Łasicki: De diis Samagitarum (pub. 1615) (search: 'Gabie')",
+    "Visuotinė lietuvių enciklopedija: Gabija (https://www.vle.lt/straipsnis/gabija-1/) (search: 'gaubiama pelenais')",
+    "LT Wikipedia: Gabija (https://lt.wikipedia.org/wiki/Gabija) (search: 'Gabie deuaite')",
+    "Latviešu tautas ticējumi: Uguns (http://valoda.ailab.lv/folklora/ticejumi/uguns.htm) (search: 'apraust ar pelniem')"
   ],
 };
 
@@ -826,14 +837,14 @@ export const bangputysMeta: DeityMeta = {
   name: "Bangpūtys",
   domain: "God",
   epithet: {
-    en: "Two-faced wind of the Baltic",
-    lt: "Dviveidis Baltijos vėjas",
-    lv: "Baltijas divseju vējš",
+    en: "Storm-wave blower of the lagoon",
+    lt: "Marių audros bangų pūtėjas",
+    lv: "Jomas vētras viļņu pūtējs",
   },
   summary: {
-    en: "His cheeks hold both roar and lull; fishermen watch his mood in the curl of grass and wave.",
-    lt: "Jo skruostuose telpa ir riaumojimas, ir ramybė; žvejai seka jo nuotaiką žolės ir bangų raibuliuose.",
-    lv: "Viņa vaigos mīt gan rēciens, gan klusums; zvejnieki vēro viņa garastāvokli zāles un viļņu lokos.",
+    en: "Lithuania Minor fishermen feared his sudden anger over the Curonian Lagoon and burned a spoon to keep the storm at bay.",
+    lt: "Mažosios Lietuvos žvejai bijojo jo ūmaus pykčio Kuršių mariose ir degino šaukštą, kad audra liktų nuošaly.",
+    lv: "Mazās Lietuvas zvejnieki baidījās no viņa straujām dusmām Kuršu jomā un dedzināja karoti, lai vētra paliktu malā.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80",
@@ -868,7 +879,7 @@ export const bangputysMeta: DeityMeta = {
       aura: "amber",
       deity: "bangputys",
       significance:
-        "Sailors watch sand patterns to read Bangpūtys' double nature for the day.",
+        "Coastal amber strand near the Klaipėda–Pamarys fishing world associated with Bangpūtys lore.",
     },
     {
       id: "kolka-surge",
@@ -879,23 +890,24 @@ export const bangputysMeta: DeityMeta = {
       siteType: "Springs, rivers, lakes with cult significance",
       aura: "mist",
       deity: "bangputys",
-      significance: "Wind vanes carved as twin faces stand here to turn storms away from boats.",
+      significance:
+        "Latvian comparative coastal site for sea- and wind-mother lore (Jūras māte / Vēja māte).",
     }
   ],
-  materialLegacy: ["Amber-studded net weights", "Twin-faced wind vanes"],
+  materialLegacy: ["Burned spoon offering", "Wooden coastal cult image"],
   symbols: [
-    { label: "Element", detail: "Salt wind over dark water" },
-    { label: "Offerings", detail: "Fish scales, rope knots, sea glass" }
+    { label: "Element", detail: "Storm wind over lagoon water" },
+    { label: "Offerings", detail: "Burned spoon, first pike, first catch to beggars" }
   ],
   regionDetails: {
-    en: "Curonian Coast / Prussia",
-    lt: "Kuršių marių pakrantė / Prūsija",
-    lv: "Kuršu krasts / Prūsija",
+    en: "Curonian Lagoon / Nemunas delta / Lithuania Minor",
+    lt: "Kuršių marios / Nemuno delta / Mažoji Lietuva",
+    lv: "Kuršu joma / Nemunas delta / Mazā Lietuva",
   },
   tribe: {
-    en: "Curonians / Prussians / Western Lithuanians",
-    lt: "Kuršiai / Prūsai / Pajūrio lietuviai",
-    lv: "Kurši / Prūši / Piekrastes lietuvieši",
+    en: "Western Lithuanians / Prussians (Scalvians, Nadruvians)",
+    lt: "Vakarų lietuviai / Prūsai (skalviai, nadruviai)",
+    lv: "Rietumlietuvieši / Prūši (skalvi, nadruvi)",
   },
   period: {
     en: "17th Century Maritime Records (Matthäus Praetorius ~1690)",
@@ -904,7 +916,8 @@ export const bangputysMeta: DeityMeta = {
   },
   references: [
     "Matthäus Praetorius: Deliciae Prussicae (~1690)",
-    "Rimantas Balsys: Lietuvių ir prūsų dievai, deivės, dvasios: nuo apeigos iki prietaro (2010)",
+    "Rimantas Balsys: Prūsų ir lietuvių vandens dievai bei dvasios (2005/06)",
+    "Dainius Elertas: Bangpūčio mitologema baltų pasaulėžiūroje",
     "Visuotinė lietuvių enciklopedija: Bangpūtys (https://www.vle.lt/straipsnis/bangputys/)"
   ],
 };
@@ -947,37 +960,37 @@ export const medineMeta: DeityMeta = {
   ],
   locations: [
     {
-      id: "samogitia-stand",
-      name: "Samogitian Spruce Stand",
-      coordinates: [55.5, 22.0],
+      id: "kiskio-baznycia-genionys",
+      name: "Hare Church stone (Genionys)",
+      coordinates: [54.386, 24.534],
       region: "Lithuania",
-      description: "Tall spruces where ribbons mark paths approved for cutting.",
-      siteType: "\"World tree\" analog sites",
+      description: "Granite boulder in Šilaitis forest near Genionys (Varėna), one of the Hare Church sites linked to Medeina’s hare cult.",
+      siteType: "Sacred stones",
       aura: "moss",
       deity: "medine",
-      significance: "Cutting begins only after tapping trunks to listen for hollow refusal.",
+      significance: "Vaitkevičius associates Kiškio bažnyčios with Medeina / hare-goddess woodland cult.",
     },
     {
-      id: "gauja-corridor",
-      name: "Gauja Shadow Corridor",
-      coordinates: [57.25, 24.9],
-      region: "Latvia",
-      description: "A shaded walk where the light falls in narrow amber bands.",
-      siteType: "Sacred groves",
-      aura: "amber",
+      id: "vilkpedes-belt",
+      name: "Wolf-footprint stones (Vilkpėdės)",
+      coordinates: [54.7, 24.4],
+      region: "Lithuania",
+      description: "Eastern Lithuanian stones with hollows resembling wolf tracks in the Nemunas–Neris woodland belt.",
+      siteType: "Sacred stones",
+      aura: "moss",
       deity: "medine",
-      significance: "Pilgrims hang bark slips with family names asking for safe timber gathering.",
+      significance: "Mapped with Hare Churches as landscape markers of Žvėrūna-Medeina cult.",
     }
   ],
-  materialLegacy: ["Resin-sealed axes", "Bark slips with charcoal prayers"],
+  materialLegacy: ["Hare Church offering stones", "Wolf-footprint hollows"],
   symbols: [
-    { label: "Element", detail: "Sap slow and sure" },
-    { label: "Offerings", detail: "Resin drops, moss, quiet footsteps" }
+    { label: "Sacred animals", detail: "Hare, wolf" },
+    { label: "Forms", detail: "Huntress maiden, she-wolf" }
   ],
   regionDetails: {
-    en: "Forest Regions / Samogitia & Aukštaitija",
-    lt: "Miškų regionai / Žemaitija ir Aukštaitija",
-    lv: "Mežu reģioni / Žemaitija un Augštaitija",
+    en: "Eastern Lithuania forests / Baltic woodlands",
+    lt: "Rytų Lietuvos miškai / baltų girios",
+    lv: "Austrumlietuvas meži / baltu birzis",
   },
   tribe: {
     en: "Lithuanians / Samogitians",
@@ -985,15 +998,18 @@ export const medineMeta: DeityMeta = {
     lv: "Lietuvieši / Žemaiši",
   },
   period: {
-    en: "13th Century Chroniclers (1252 Volhynian Chron. 'Medein', 1261 Malalas)",
-    lt: "XIII a. šaltiniai (1252 m. Ipatijaus metraštis 'Medein', 1261 m. Malalos chronografas)",
-    lv: "13. gadsimta hronikas (1252. g. Volīnijas hronika 'Medein')",
+    en: "13th century (1252 Hypatian 'Medeina'; 1261 Malalas 'Žvorūna')",
+    lt: "XIII a. (1252 m. Ipatijaus 'Medeina'; 1261 m. Malalos 'Žvorūna')",
+    lv: "13. gs. (1252. g. Ipatjeva 'Medeina'; 1261. g. Malalas 'Žvorūna')",
   },
   references: [
-    "Volhynian / Hypatian Chronicle (1252 mention: 'Medein')",
-    "Malalas Chronicle Slavonic translation (1261)",
-    "Jan Łasicki: De Diis Samagitarum (1582)",
-    "Visuotinė lietuvių enciklopedija: Medeina (https://www.vle.lt/straipsnis/medeina/)"
+    "Volhynian / Hypatian Chronicle (1252: Medeina; BRMŠ I)",
+    "Malalas Chronicle Slavonic insertion (1261: Žvorūna)",
+    "Jan Łasicki: De Diis Samagitarum (Modeina et Ragaina)",
+    "Algirdas J. Greimas: Žvėruna Medeina / Tautos atminties beieškant",
+    "Vykintas Vaitkevičius: Nauja Žvėrūnos-Medeinos perspektyva (Lietuvos archeologija 24, 2003)",
+    "Visuotinė lietuvių enciklopedija: Medeina (https://www.vle.lt/straipsnis/medeina/)",
+    "Mitologijos Lietuvių Enciklopedija: Medeina (https://www.mle.lt/straipsniai/medeina)"
   ],
 };
 
@@ -1002,14 +1018,14 @@ export const giltineMeta: DeityMeta = {
   name: "Giltinė",
   domain: "God",
   epithet: {
-    en: "Tall pale woman at the threshold",
-    lt: "Aukšta blyški moteris prie slenksčio",
-    lv: "Gara bāla sieviete pie sliekšņa",
+    en: "Death-woman with the venomous tongue",
+    lt: "Mirties moteris su nuodingu liežuviu",
+    lv: "Nāves sieviete ar indīgo mēli",
   },
   summary: {
-    en: "The Baltic goddess of death and sister of Laima; she appears as a tall pale woman clad in white, inflicting fatal venom with her long tongue at the mortal threshold.",
-    lt: "Lietuvių mirties deivė ir Laimos sesuo; vaizduojama kaip aukšta blyški moteris baltais drabužiais, nešanti mirtį savo nuodingu liežuviu prie žmogiškojo slenksčio.",
-    lv: "Baltu nāves dieviete un Laimas māsa; attēlota kā gara bāla sieviete baltās drēbēs, kas nes nāvi ar savu indīgo mēli pie cilvēka sliekšņa.",
+    en: "Lithuanian personification of death and sister of Laima; an elderly woman in white who stings the dying with a long poisonous tongue when their allotted time has come.",
+    lt: "Lietuvių mirties personifikacija ir Laimos sesuo; senyva moteris baltais drabužiais, kuri geldama ilgu nuodingu liežuviu nutraukia gyvenimą, kai ateina skirtasis laikas.",
+    lv: "Lietuviešu nāves personifikācija un Laimas māsa; veca sieviete baltās drēbēs, kas ar garu indīgu mēli dzeļ mirstošos, kad pienācis nozīmētais laiks.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80",
@@ -1020,17 +1036,25 @@ export const giltineMeta: DeityMeta = {
     lt: "Giltinė",
     lv: "Giltinė",
   },
-  keywords: ["death", "white", "serpent", "threshold"],
+  keywords: ["death", "white", "tongue", "Laima"],
   gallery: [
     {
-      title: { en: "White burial shroud", lt: "Baltasis laidotuvių drobulė", lv: "Baltais bēru lins" },
+      title: { en: "White burial shroud", lt: "Baltoji laidotuvių drobulė", lv: "Baltais bēru līķauts" },
       medium: { en: "linen", lt: "linas", lv: "lins" },
-      note: { en: "Left at crossroads on All Souls Night for the pale goddess.", lt: "Palikta kryžkelėse Vėlinių naktį blyškiajai deivei.", lv: "Atstāts krustceļos Visu dvēseļu naktī bālajai dievietei." },
+      note: {
+        en: "Folk image of Giltinė as a thin woman wrapped in white.",
+        lt: "Liaudies vaizdinys: liesa moteris, apsigaubusi balta drobule.",
+        lv: "Tautas tēls: liesa sieviete, ietusies baltā līķautā.",
+      },
     },
     {
-      title: { en: "Iron death-hook", lt: "Geležinis mirties kablys", lv: "Dzelzs nāves āķis" },
-      medium: { en: "bog iron", lt: "pelkių geležis", lv: "purva dzelzs" },
-      note: { en: "Traditional Lithuanian grave marker with serpent motif.", lt: "Tradicinis lietuviškos kapavietės ženklas su žalčio motyvu.", lv: "Tradicionāls lietuviešu kapa marķieris ar čūskas motīvu." },
+      title: { en: "Scythe of later iconography", lt: "Vėlesnės ikonografijos dalgis", lv: "Vēlākās ikonogrāfijas izkapts" },
+      medium: { en: "iron", lt: "geležis", lv: "dzelzs" },
+      note: {
+        en: "Christian danse macabre overlay: skeletal death with a scythe.",
+        lt: "Krikščioniškasis danse macabre sluoksnis: griaučiai su dalgiu.",
+        lv: "Kristīgais danse macabre slānis: skelets ar izkaptī.",
+      },
     }
   ],
   locations: [
@@ -1039,49 +1063,38 @@ export const giltineMeta: DeityMeta = {
       name: "Salantai Burial Mounds",
       coordinates: [56.05, 21.57],
       region: "Lithuania",
-      description: "Ancient burial mounds in Samogitia where offerings were laid for the dead.",
+      description: "Ancient burial mounds in Samogitia associated with ancestor remembrance.",
       siteType: "Mythic hills / burial mounds",
       aura: "mist",
       deity: "giltine",
-      significance: "Families left milk and bread at the mound edge on Vėlinės night.",
+      significance: "Samogitian burial landscape linked in local storytelling to death-watch lore.",
     },
-    {
-      id: "dzukija-crossroads",
-      name: "Dzūkija Crossroads",
-      coordinates: [54.15, 24.12],
-      region: "Lithuania",
-      description: "A forested crossroads where travellers left offerings not to be taken.",
-      siteType: "Sacrifice / offering sites",
-      aura: "mist",
-      deity: "giltine",
-      significance: "A white stone marks where the pale goddess was seen standing at midnight.",
-    }
   ],
-  materialLegacy: ["Linen shrouds with serpent motifs", "Iron death-hooks at gravesides"],
+  materialLegacy: ["White linen shrouds / cloaks", "Scythe imagery in later Christian overlay"],
   symbols: [
-    { label: "Element", detail: "Cold white mist at dusk" },
-    { label: "Offerings", detail: "Milk, white bread, silence" }
+    { label: "Element", detail: "Venomous tongue / sting of death" },
+    { label: "Omens", detail: "Owl hoot, dog barking, threefold knock" }
   ],
   regionDetails: {
-    en: "Samogitia / All Lithuania",
-    lt: "Žemaitija / Visa Lietuva",
-    lv: "Žemaitija / Visa Lietuva",
+    en: "Lithuania (Prussian–Lithuanian written sources; later all-Lithuanian folklore)",
+    lt: "Lietuva (prūsų–lietuvių rašytiniai šaltiniai; vėliau visos Lietuvos tautosaka)",
+    lv: "Lietuva (prūšu–lietuviešu rakstiskie avoti; vēlāk visas Lietuvas folklore)",
   },
   tribe: {
-    en: "Lithuanians / Samogitians",
-    lt: "Lietuviai / Žemaičiai",
-    lv: "Lietuvieši / Žemaiši",
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
   },
   period: {
-    en: "16th-17th Century Records (1582 Jan Łasicki, 1690 M. Praetorius)",
-    lt: "XVI-XVII a. šaltiniai (1582 m. Jonas Lasickis, 1690 m. M. Praetorius)",
-    lv: "16.-17. gadsimta avoti (1582. g. J. Lasickis)",
+    en: "Late 17th Century (first clear mention: Matthäus Praetorius, ~1690)",
+    lt: "XVII a. pabaiga (pirmasis aiškus paminėjimas: Matas Pretorijus, ~1690)",
+    lv: "17. gadsimta beigas (pirmais skaidrais minējums: Mateuss Pretorijs, ~1690)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582)",
     "Matthäus Praetorius: Deliciae Prussicae (~1690)",
+    "Mitologijos enciklopedija (Vaga, 1999) / MLE: Giltinė",
     "Norbertas Vėlius: Chtoniškasis lietuvių mitologijos pasaulis (1987)",
-    "Visuotinė lietuvių enciklopedija: Giltinė (https://www.vle.lt/straipsnis/giltine/)"
+    "Visuotinė lietuvių enciklopedija: giltinė (https://www.vle.lt/straipsnis/giltine/)"
   ],
 };
 
@@ -1178,65 +1191,62 @@ export const ausrineMeta: DeityMeta = {
   name: "Aušrinė",
   domain: "God",
   epithet: {
-    en: "Handmaiden who kindles the sky",
-    lt: "Tarnaitė, uždeganti dangų",
-    lv: "Kalpone, kas iededzina debesis",
+    en: "Morning star who kindles Saulė’s fire",
+    lt: "Ryto žvaigždė, uždeganti Saulės ugnį",
+    lv: "Rīta zvaigzne, Dieva dēls",
   },
   summary: {
-    en: "The morning star goddess rises before dawn to prepare Saulė's bed, kindle her fire, and saddle her horses for the daily journey.",
-    lt: "Ryto žvaigždės deivė kyla prieš aušrą, kad paruoštų Saulės lovą, užkurtų jos ugnį ir jodintų jos žirgus kasdienei kelionei.",
-    lv: "Rīta zvaigznes dieviete ceļas pirms rītausmas, lai sagatavotu Saules gultu, iekurtu uguni un sedlotu viņas zirgus ikdienas ceļojumam.",
+    en: "Lithuanian morning-star goddess of Venus who kindles Saulė’s fire; her Latvian counterpart Auseklis is a young male Dieva dēls and suitor in the heavenly-wedding cycle.",
+    lt: "Lietuvių Veneros ryto žvaigždės deivė, prakuranti Saulei ugnį; latviškas atitikmuo Auseklis – jaunas vyriškas Dieva sūnus ir dangiškųjų vestuvių piršlys.",
+    lv: "Lietuviešu rīta zvaigznes dieviete Aušrinė kurina Saulei uguni; latviešu Auseklis ir jauns vīriešu Dieva dēls un debesu kāzu precinieks.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1502786129293-79981df4e689?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(255, 200, 100, 0.2)",
   accent: "#f0c060",
   altNames: {
-    en: "Ausrine",
-    lt: "Aušrinė",
-    lv: "Auseklis",
+    en: "Ausrine, Auseklis",
+    lt: "Aušrinė, Auseklis",
+    lv: "Auseklis, Aušrinė",
   },
-  keywords: ["dawn", "morning star", "fire", "Venus"],
+  keywords: ["dawn", "morning star", "Venus", "Auseklis", "celestial wedding"],
   gallery: [
     {
-      title: { en: "Golden thread brooch", lt: "Aukso siūlo sagė", lv: "Zelta diegā sakta" },
-      medium: { en: "gilded bronze", lt: "paauksuota bronza", lv: "apzeltīta bronza" },
-      note: { en: "Worn by young women at dawn rituals, symbolising the morning star's light.", lt: "Nešiojama jaunų moterų aušros apeigose, simbolizuojančiose ryto žvaigždės šviesą.", lv: "Nesta jaunām sievietēm rīta ausmas rituālos, simbolizējot rīta zvaigznes gaismu." },
+      title: { en: "Auseklītis star motif", lt: "Auseklītis žvaigždės motyvas", lv: "Auseklīša zvaigznes motīvs" },
+      medium: { en: "textile embroidery", lt: "audinių siuvinėjimas", lv: "audumu izšuvums" },
+      note: {
+        en: "Eight-pointed morning-star mark used in Latvian raksti as a protective ornament.",
+        lt: "Aštuoniakampis ryto žvaigždės ženklas latvių rakstuose kaip apsauginis ornamentas.",
+        lv: "Astoņstaru rīta zvaigznes zīme latviešu rakstos kā aizsardzības ornaments.",
+      },
     },
     {
-      title: { en: "Dawn water vessel", lt: "Aušros vandens indas", lv: "Ausmas ūdens trauks" },
-      medium: { en: "clay", lt: "molis", lv: "māls" },
-      note: { en: "Filled with dew before sunrise and offered with sung prayers.", lt: "Prisipildytas rasos prieš saulėtekį ir paaukotas dainuojant maldas.", lv: "Piepildīts ar rasu pirms saullēkta un upurēts ar dziedātām lūgšanām." },
+      title: { en: "Silk and gold coats (dainas)", lt: "Šilko ir aukso rūbai (dainos)", lv: "Zīda un zelta svārki (dainas)" },
+      medium: { en: "folk textile imagery", lt: "tautosakos tekstilės vaizdinys", lv: "tautasdziesmu tekstila tēls" },
+      note: {
+        en: "Auseklis sews silk, velvet, or gold coats and striped garments for Saule in Latvian songs.",
+        lt: "Auseklis latvių dainose siuva šilko, aksomo ar aukso rūbus ir dryžuotus Saulės drabužius.",
+        lv: "Auseklis dainās šuj zīda, samta vai zelta svārkus un svītrainus Saules tērpus.",
+      },
     }
   ],
   locations: [
     {
-      id: "palanga-dawn-shore",
-      name: "Palanga Dawn Shore",
-      coordinates: [55.92, 21.07],
+      id: "ausrines-kalnas-kaltinenai",
+      name: "Aušrinės kalnas (Kaltinėnai)",
+      coordinates: [55.57, 22.46],
       region: "Lithuania",
-      description: "The amber coast where dawn prayers were sung to the morning star.",
-      siteType: "Seasonal festival locations",
+      description: "Samogitian hill near Kaltinėnai / Kaušai remembered for dawn prayers and offerings to Aušrinė.",
+      siteType: "Mythic hills / burial mounds",
       aura: "amber",
       deity: "ausrine",
-      significance: "Girls washed their faces in sea dew at first light to receive Aušrinė's blessing.",
-    },
-    {
-      id: "siauliai-morning",
-      name: "Šiauliai Dawn Ridge",
-      coordinates: [55.93, 23.32],
-      region: "Lithuania",
-      description: "A ridge east of Šiauliai from which the morning star is visible above the plain.",
-      siteType: "Seasonal festival locations",
-      aura: "amber",
-      deity: "ausrine",
-      significance: "Farmers watched for Aušrinė before planting to know when to begin work.",
+      significance: "Folklore records burnt offerings and a local retelling of the Moon’s love for Aušrinė and Perkūnas’s crescent-forming blow.",
     }
   ],
-  materialLegacy: ["Dawn-water clay vessels", "Morning star embroidery motifs"],
+  materialLegacy: ["Auseklītis textile motifs", "Protective eight-pointed star marks"],
   symbols: [
-    { label: "Element", detail: "First light before sunrise" },
-    { label: "Offerings", detail: "Dew water, golden thread, smoke" }
+    { label: "Element", detail: "Morning star (Venus) / first eastern light" },
+    { label: "Offerings", detail: "Burnt offerings and dawn prayers (Aušrinės kalnas)" }
   ],
   regionDetails: {
     en: "Pan-Baltic (Lithuania & Latvia)",
@@ -1249,15 +1259,17 @@ export const ausrineMeta: DeityMeta = {
     lv: "Lietuvieši / Žemaiši / Latvieši",
   },
   period: {
-    en: "16th Century Sources (1582 Jan Łasicki 'Ausca')",
-    lt: "XVI a. šaltiniai (1582 m. Jonas Lasickis 'Ausca')",
-    lv: "16. gadsimta avoti (1582. g. J. Lasickis 'Ausca')",
+    en: "Folklore core (Rėza 1825); LV written 1638 (Mancelius)",
+    lt: "Tautosakos branduolys (Rėza 1825); LV rašytinis 1638 (Mancelis)",
+    lv: "Folkloras kodols (Rēza 1825); LV rakstīts 1638 (Mancelis)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Visuotinė lietuvių enciklopedija: Aušrinė (https://www.vle.lt/straipsnis/ausrine-1/)",
+    "Nijolė Laurinkienė: Dangiškųjų vestuvių mitas (2018)",
+    "Dainius Razauskas: Iš baltų mitinio vaizdyno juodraščių: Aušrinė (ir Vakarinė) (2011)",
     "Krišjānis Barons: Latvju dainas (Auseklis)",
-    "Visuotinė lietuvių enciklopedija: Aušrinė (https://www.vle.lt/straipsnis/ausrine/)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)"
+    "Haralds Biezais: Seno latviešu dievu ģimene",
+    "Latvijas Nacionālā enciklopēdija: auseklis (https://enciklopedija.lv/skirklis/113676)"
   ],
 };
 
@@ -1379,9 +1391,9 @@ export const jumisMeta: DeityMeta = {
       note: { en: "Hung above the farmhouse door after harvest — Jumis's symbol.", lt: "Kabinama virš sodybos durų po derliaus — Jumio simbolis.", lv: "Karāts virs lauku mājas durvīm pēc ražas — Jumja simbols." },
     },
     {
-      title: { en: "Last sheaf effigy", lt: "Paskutinio pėdo efigija", lv: "Pēdējā kūļa efigija" },
+      title: { en: "Last-sheaf Jumis knot", lt: "Paskutinio pėdo Jumio mazgas", lv: "Pēdējā kūļa Jumja mezgls" },
       medium: { en: "wheat straw", lt: "kviečių šiaudai", lv: "kviešu salmi" },
-      note: { en: "Woven into a human shape, given a name, kept through winter.", lt: "Nupinta žmogaus pavidalu, pavadinta vardu, saugoma per žiemą.", lv: "Austas cilvēka formā, dots vārds, paturēts cauru ziemu." },
+      note: { en: "Last stalks knotted or braided and brought home for the winter store.", lt: "Paskutiniai stiebai surišami ar supinami ir parnešami namo žiemos atsargoms.", lv: "Pēdējie stiebri sasieti vai pīti un nestī mājās ziemas krājumam." },
     }
   ],
   locations: [
@@ -1430,9 +1442,9 @@ export const jumisMeta: DeityMeta = {
   },
   references: [
     "Liene Neulande: Jumis senlatviešu reliģijā (Stockholm 1977 / Rīga 2001)",
-    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/33827)",
+    "Visuotinė lietuvių enciklopedija: Jumis (https://www.vle.lt/straipsnis/jumis/)",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
-    "Pēteris Šmits: Latviešu mitoloģija"
+    "Pēteris Šmits: Latviešu tautas ticējumi / Latviešu mitoloģija"
   ],
 };
 
@@ -1441,85 +1453,75 @@ export const usinsMeta: DeityMeta = {
   name: "Ūsiņš",
   domain: "God",
   epithet: {
-    en: "Light-bringer riding white horses at dawn",
-    lt: "Šviesos nešėjas, jojantis baltaisiais žirgais aušroje",
-    lv: "Gaismas nesējs, jājot baltiem zirgiem rītausmā",
+    en: "Spring light-bringer and herdsman of the first night pasture",
+    lt: "Pavasario šviesos nešėjas ir pirmosios naktigonės ganovas",
+    lv: "Pavasara gaismas nesējs un pirmās pieguļas ganītājs",
   },
   summary: {
-    en: "The spring deity who opens the pasture season, blesses horses, and carries light across the land at the turning point between dark and growing months.",
-    lt: "Pavasario dievybė, atverianti ganyklos sezoną, laiminanti žirgus ir nešanti šviesą per žemę tamsių ir augančių mėnesių sandūroje.",
-    lv: "Pavasara dievība, kas atver ganu sezonu, svētī zirgus un nes gaismu pāri zemei tumšo un augošo mēnešu pavērsienā.",
+    en: "The Latvian spring and horse deity who brings green growth, rides to the first pieguļa, and receives rooster blood, oats, and pantāgs at the opening of the pasture year.",
+    lt: "Latvių pavasario ir žirgų dievybė, atnešanti žalumą, išjojanti į pirmąją naktigonę ir priimanti gaidžio kraują, avižas bei pantāgą ganyklų metų pradžioje.",
+    lv: "Latviešu pavasara un zirgu dievība, kas atnes zaļumu, izjāj pirmajā pieguļā un saņem gaiļa asinis, auzas un pantāgu ganību gada sākumā.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1534082456-9d7e4139e8a6?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(200, 160, 90, 0.22)",
   accent: "#c9a060",
   altNames: {
-    en: "Usins",
-    lt: "Ūsiņš",
-    lv: "Ūsiņš",
+    en: "Usins, Uschinge, Ūsinis",
+    lt: "Ūsinis, Uschinge",
+    lv: "Ūsiņš, Uschinge, Ūsinis",
   },
-  keywords: ["light", "horses", "spring", "bees", "pasture"],
+  keywords: ["light", "horses", "spring", "pasture", "pieguļa"],
   gallery: [
     {
-      title: { en: "Horse wreath", lt: "Žirgų vainikas", lv: "Zirgu vainags" },
-      medium: { en: "oak leaves, herbs", lt: "ąžuolo lapai, žolės", lv: "ozola lapas, garšaugi" },
-      note: { en: "Placed on horses' heads on Ūsiņš Day (April 23) before first pasturing.", lt: "Dedamas ant žirgų galvų Ūsiņo dieną (balandžio 23 d.) prieš pirmąjį ganymą.", lv: "Novietots uz zirgu galvām Ūsiņa dienā (23. aprīlī) pirms pirmās ganīšanas." },
+      title: { en: "Manger oats offering", lt: "Avižų auka ėdžiose", lv: "Auzu ziedojums silē" },
+      medium: { en: "oats, rooster blood", lt: "avižos, gaidžio kraujas", lv: "auzas, gaiļa asinis" },
+      note: { en: "On Ūsiņš Day the master mixes rooster blood with oats in the horse manger.", lt: "Ūsiņo dieną šeimininkas maišo gaidžio kraują su avižomis žirgų ėdžiose.", lv: "Ūsiņa dienā saimnieks sajauc gaiļa asinis ar auzām zirgu silē." },
     },
     {
-      title: { en: "Spring candle cluster", lt: "Pavasario žvakių grupelė", lv: "Pavasara sveces pušķis" },
-      medium: { en: "beeswax", lt: "bičių vaškas", lv: "bišu vasks" },
-      note: { en: "Lit before dawn on Ūsiņdiena to welcome Ūsiņš's return.", lt: "Uždegama prieš aušrą Ūsiņo dieną, sveikant sugrįžtantį Ūsiņą.", lv: "Aizdegtas pirms ausmas Ūsiņdienā, lai sagaidītu Ūsiņa atgriešanos." },
+      title: { en: "Ūsiņa zīme", lt: "Ūsiņa zīme", lv: "Ūsiņa zīme" },
+      medium: { en: "protective mark", lt: "apsauginis ženklas", lv: "aizsardzības zīme" },
+      note: { en: "Paired back-to-back E / key-like sign marked on objects and thresholds for protection.", lt: "Poriniai nugara į nugara E / rakto ženklas ant daiktų ir slenksčių apsaugai.", lv: "Divu ar mugurām pretī saliktu E / atslēgaiņa zīme uz priekšmetiem un sliekšņiem aizsardzībai." },
     }
   ],
   locations: [
     {
-      id: "jelgava-pasture",
-      name: "Jelgava Spring Pasture",
-      coordinates: [56.65, 23.72],
+      id: "usinakmens",
+      name: "Ūsiņakmens",
+      coordinates: [57.56175, 25.89873],
       region: "Latvia",
-      description: "The broad Zemgale meadows where horse-blessing rituals were performed at spring opening.",
-      siteType: "Seasonal festival locations",
+      description: "Large hollowed stone in the Vidzeme highland whose folk name invokes Ūsiņš within the night-pasture offering landscape.",
+      siteType: "Sacred stones",
       aura: "amber",
       deity: "usins",
-      significance: "Horses decorated with oak wreaths were led here at dawn on Ūsiņdiena.",
-    },
-    {
-      id: "sabile-horse-meadow",
-      name: "Sabile Horse Meadow",
-      coordinates: [57.05, 22.55],
-      region: "Latvia",
-      description: "Ancient Curonian meadow associated with sacred horse ritual and light-deity worship.",
-      siteType: "Seasonal festival locations",
-      aura: "moss",
-      deity: "usins",
-      significance: "Farmers brought their best horse here for Ūsiņš to bless before the growing season.",
+      significance: "Named for Ūsiņš in Vidzeme folk geography; pantāgs and horse offerings belong to the wider highland pieguļa complex.",
     }
   ],
-  materialLegacy: ["Oak-leaf horse wreaths", "Beeswax spring candles"],
+  materialLegacy: ["Ūsiņa zīme marks", "Rooster-blood oats in the manger"],
   symbols: [
-    { label: "Element", detail: "First spring light on dew" },
-    { label: "Offerings", detail: "Horse feed, barley beer, candles" }
+    { label: "Element", detail: "First spring light and green clover" },
+    { label: "Offerings", detail: "Rooster, oats, pantāgs, eggs, beer" }
   ],
   regionDetails: {
-    en: "Kurzeme / Vidzeme",
-    lt: "Kuršas / Vidžemė",
-    lv: "Kurzeme / Vidzeme",
+    en: "Vidzeme highland",
+    lt: "Vidžemės aukštuma",
+    lv: "Vidzemes augstiene",
   },
   tribe: {
-    en: "Latvians / Curonians",
-    lt: "Latviai / Kuršiai",
-    lv: "Latvieši / Kurši",
+    en: "Latvians",
+    lt: "Latviai",
+    lv: "Latvieši",
   },
   period: {
-    en: "17th Century Attestation (Fabricius 1610)",
-    lt: "XVII a. paliudijimas (Fabricijus 1610)",
-    lv: "17. gs. apliecinājums (Fabricius 1610)",
+    en: "17th Century Attestation (Stribingius 1606)",
+    lt: "XVII a. paliudijimas (Stribingius 1606)",
+    lv: "17. gs. apliecinājums (Stribingius 1606)",
   },
   references: [
-    "Dionysius Fabricius: Livonicae historiae compendiosa series (1610)",
+    "Joannis Stribingius: Livonian Jesuit report (1606)",
+    "Haralds Biezais: Lichtgott der alten Letten",
     "Krišjānis Barons: Latvju dainas (1894–1915)",
-    "Latvijas Nacionālā enciklopēdija (https://enciklopedija.lv/skirklis/%C5%AAsi%C5%86%C5%A1)"
+    "VLE: Ūsinis (https://www.vle.lt/straipsnis/usinis/)"
   ],
 };
 
@@ -1617,55 +1619,38 @@ export const teliavelIsMeta: DeityMeta = {
   name: "Teliavelis",
   domain: "God",
   epithet: {
-    en: "Blacksmith who hammered the Sun into the sky",
-    lt: "Kalvis, nukalęs Saulę ir įmetęs ją į dangų",
-    lv: "Kalējs, kurš nokalēja Sauli un iemeta to debesīs",
+    en: "Mythical smith who forged the Sun and cast it into the sky",
+    lt: "Mitinis kalvis, nukalęs Saulę ir įmetęs ją į dangų",
+    lv: "Mītiskais kalējs, kas nokalēja Sauli un iemeta to debesīs",
   },
   summary: {
-    en: "Teliavelis is the divine blacksmith of Lithuanian mythology, first recorded in the 13th-century Hypatian Codex. He forged the Sun and hurled it into the sky, giving light to the world.",
-    lt: "Teliavelis yra lietuvių mitologijos dangiškasis kalvis, pirmą kartą paminėtas XIII a. Ipatijaus metraštyje. Jis nukalė Saulę ir įmetė ją į dangų, suteikdamas pasauliui šviesą.",
-    lv: "Teliavelis ir lietuviešu mitoloģijas debesu kalējs, kas pirmo reizi minēts 13. gadsimta Hipātija hronikā. Viņš nokalēja Sauli un iemeta to debesīs, dāvājot pasaulei gaismu.",
+    en: "Teliavelis is the mythical smith of early Lithuanian religion, first recorded in the 13th-century Hypatian Codex and the 1261 Malalas insertion. He forged the Sun and hurled it into the sky.",
+    lt: "Teliavelis yra ankstyvosios lietuvių religijos mitinis kalvis, pirmą kartą paminėtas XIII a. Ipatijaus metraštyje ir 1261 m. Malalos intarpe. Jis nukalė Saulę ir įmetė ją į dangų.",
+    lv: "Teljavelis ir agrīnās lietuviešu reliģijas mītiskais kalējs, kas pirmo reizi minēts 13. gadsimta Ipatjeva hronikā un 1261. gada Malalas iestarpinājumā. Viņš nokalēja Sauli un iemeta to debesīs.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1565120130891-55ba6d2eecb8?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(200, 100, 20, 0.28)",
   accent: "#c87832",
   altNames: {
-    en: "Teliavel, Kalvelis, Celestial Smith",
-    lt: "Teliavelis, Kalvelis, Dangiškasis kalvis",
-    lv: "Teliavelis, Kalvējs, Debesu kalējs",
+    en: "Teliavel, Kalevelis, Kalvelis",
+    lt: "Teliavelis, Kalevelis, Kalvelis",
+    lv: "Teljavelis, Kalevelis, Kalvelis",
   },
-  keywords: ["blacksmith", "sun", "forge", "creation myth", "fire", "celestial smith", "cultural hero"],
+  keywords: ["blacksmith", "sun", "forge", "creation myth", "cultural hero", "chthonic smith"],
   gallery: [
     {
       title: { en: "Bronze sun-disc pendant", lt: "Bronzinis saulės disko pakabukas", lv: "Bronzas saules diska kulons" },
       medium: { en: "cast bronze", lt: "liedinė bronza", lv: "lieta bronza" },
-      note: { en: "Baltic Bronze Age pendant representing the Sun forged by the divine smith; found across Lithuania.", lt: "Baltų bronzos amžiaus pakabukas, vaizduojantis Saulę, nukalatą dieviškojo kalvio; rastas visoje Lietuvoje.", lv: "Baltu bronzas laikmeta kulons, kas attēlo Sauli, kalt dievišķajam kalējam; atrasts visā Lietuvā." },
+      note: { en: "Baltic Bronze Age sun-disc pendant; iconographically related to the solar metal wrought in the smith myth.", lt: "Baltų bronzos amžiaus saulės disko pakabukas; ikonografiškai siejamas su saulės metalu kalvio mite.", lv: "Baltu bronzas laikmeta saules diska kulons; ikonogrāfiski saistīts ar saules metālu kalēja mītā." },
     },
-    {
-      title: { en: "Iron anvil shard", lt: "Geležinė priekalo šukė", lv: "Dzelzs laktas lauska" },
-      medium: { en: "iron", lt: "geležis", lv: "dzelzs" },
-      note: { en: "Ritual iron fragments deposited at smithing sites as offerings to the divine craftsman.", lt: "Ritualiniai geležies fragmentai, padėti kalvystės vietose kaip pasiūlymai dieviškajam meistrui.", lv: "Rituāli dzelzs gabali, novietoti kaldināšanas vietās kā upuri dievišķajam amatniekam." },
-    }
   ],
-  locations: [
-    {
-      id: "kernave-forge-mound",
-      name: "Kernave Forge Mound",
-      coordinates: [54.88, 24.84],
-      region: "Lithuania",
-      description: "Sacred mound near Kernave associated in folk tradition with the celestial forge of Teliavelis.",
-      siteType: "Mythic hills / burial mounds",
-      aura: "amber",
-      deity: "teliavelis",
-      significance: "Folk memory associates the amber found on mound slopes with sparks from Teliavelis's divine anvil.",
-    }
-  ],
-  materialLegacy: ["Bronze Age sun-disc pendants", "Iron ritual deposits at smithing sites", "Amber as divine sparks"],
+  locations: [],
+  materialLegacy: ["Bronze Age sun-disc pendants", "Iron hammer cult (Piccolomini)"],
   symbols: [
-    { label: "Attribute", detail: "Hammer and divine anvil" },
-    { label: "Creation", detail: "Forged the Sun (Hypatian Codex 1261)" },
-    { label: "Alliance", detail: "Works with Dievas and Perkūnas" }
+    { label: "Attribute", detail: "Iron / divine hammer" },
+    { label: "Creation", detail: "Forged the Sun (Malalas 1261)" },
+    { label: "Sphere", detail: "Chthonic smith / cultural hero" },
   ],
   regionDetails: {
     en: "Lithuania (Aukštaitija)",
@@ -1678,15 +1663,16 @@ export const teliavelIsMeta: DeityMeta = {
     lv: "Lietuvieši",
   },
   period: {
-    en: "13th Century (Hypatian Codex 1252/1261)",
-    lt: "XIII a. (Ipatijaus metraštis 1252/1261)",
-    lv: "13. gadsimts (Hipātija hronika 1252/1261)",
+    en: "13th Century (Hypatian Codex 1252; Malalas 1261)",
+    lt: "XIII a. (Ipatijaus metraštis 1252; Malala 1261)",
+    lv: "13. gadsimts (Ipatjeva hronika 1252; Malala 1261)",
   },
   references: [
-    "Hypatian Codex / Ipat'evskaja letopis' (13th c.) — first attestation at Mindaugas's court",
+    "Hypatian Codex / Ipat'evskaja letopis' (1252) — Mindaugas sacrifices; Teliavelis second after Nunadievis",
+    "Slavonic Malalas chronicle insertion (1261) — smith who forged the sun",
     "Vėlius, Norbertas: Baltų religijos ir mitologijos šaltiniai, Vol. 1 (1996)",
-    "Greimas, Algirdas Julius: Of Gods and Men (1992)",
-    "Visuotinė lietuvių enciklopedija: Teliavelis (https://www.vle.lt/straipsnis/teliavelis/)"
+    "Visuotinė lietuvių enciklopedija: Teliavelis (https://www.vle.lt/straipsnis/teliavelis/)",
+    "dainuskapis.lv: Debess kalējs (comparative LV sky-forge dainas; = Pērkons)",
   ],
 };
 
@@ -1695,75 +1681,65 @@ export const daliaMeta: DeityMeta = {
   name: "Dalia",
   domain: "God",
   epithet: {
-    en: "Weaver of the portion each life receives",
-    lt: "Audėja, išaudžianti tai, kas kiekvienam priklauso",
-    lv: "Audēja, kas nosauc katras dzīves daļu",
+    en: "The personal share of fortune each life carries",
+    lt: "Asmeninė laimės dalis, einanti su kiekvienu gyvenimu",
+    lv: "Personīgā veiksmes daļa, kas iet ar katru mūžu",
   },
   summary: {
-    en: "Dalia is the Lithuanian goddess of fate and allotted portion. While Laima governs life's overall course, Dalia decides each person's share of earthly wealth, livestock, and property.",
-    lt: "Dalia yra lietuvių likimo ir dalios deivė. Laima lemia bendrąjį gyvenimo kelią, o Dalia nustato kiekvieno žmogaus dalią — turtą, gyvulius ir žemę.",
-    lv: "Dalia ir lietuviešu likteņa un daļas dieviete. Laima nosaka kopējo dzīves gaitu, savukārt Dalia nosaka katras personas zemes mantu, lopus un īpašumu.",
+    en: "Dalia is the Lithuanian personified share of fate and material fortune. Beside Laima’s broader life-course, she figures each person’s allotted portion of earthly goods and prosperity.",
+    lt: "Dalia yra lietuvių įasmeninta likimo ir materialiosios sėkmės dalis. Šalia Laimos platesnio gyvenimo kelio ji įkūnija kiekvienam skirtą žemiškųjų gėrybių dalį.",
+    lv: "Dalia ir lietuviešu personificētā likteņa un materiālās veiksmes daļa. Blakus Laimas plašākajam mūža kursam viņa iemieso katram piešķirto zemes mantu daļu.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 120, 150, 0.24)",
   accent: "#5892a8",
   altNames: {
-    en: "Dalia, Goddess of Portion",
-    lt: "Dalia, Dalios deivė",
-    lv: "Dalia, Daļas dieviete",
+    en: "Dalia, Laimė–Dalia (portion of fortune)",
+    lt: "Dalia, Laimė–Dalia (laimės dalis)",
+    lv: "Dalia, Laimė–Dalia (veiksmes daļa)",
   },
-  keywords: ["fate", "portion", "wealth", "weaving", "destiny", "material fortune", "dalis"],
+  keywords: ["fate", "portion", "wealth", "destiny", "material fortune", "dalis", "swan"],
   gallery: [
     {
-      title: { en: "Woven fate cloth", lt: "Austinis likimo audeklas", lv: "Austas likteņa audums" },
-      medium: { en: "linen with pattern", lt: "linas su raštu", lv: "lins ar rakstu" },
-      note: { en: "Ritual cloth woven as a dowry offering to Dalia at birth ceremonies.", lt: "Ritualinis audeklas, austs kaip kraičio pasiūlymas Daliai gimdymo apeigose.", lv: "Rituāls audums, austs kā pūra upuris Dalijai dzimšanas ceremonijās." },
+      title: { en: "Swan of personal fortune", lt: "Asmeninės dalios gulbė", lv: "Personīgās daļas gulbis" },
+      medium: { en: "folk motif", lt: "liaudies motyvas", lv: "tautas motīvs" },
+      note: { en: "In tales the personal goddess Dalia may appear as a swan — a dwelling of the laimė–dalia share.", lt: "Pasakose asmeninė deivė Dalia gali pasirodyti gulbės pavidalu — laimės–dalios buveinė.", lv: "Pasakās personīgā dieviete Dalia var parādīties kā gulbis — laimė–dalia daļas mājvieta." },
     },
     {
-      title: { en: "Grain-measuring vessel", lt: "Grūdų matavimo indas", lv: "Graudu mēršanas trauks" },
-      medium: { en: "clay pot", lt: "molinis puodas", lv: "māla pods" },
-      note: { en: "Used to portend the amount of harvest Dalia would allot a household.", lt: "Naudotas numanyti derliaus kiekiui, kurį Dalia skirtų namų ūkiui.", lv: "Izmantots, lai pareģotu ražas apjomu, ko Dalia piešķirtu mājsaimniecībai." },
+      title: { en: "Fair maiden of the kindly share", lt: "Gerosios dalies daili merga", lv: "Labās daļas daiļa meita" },
+      medium: { en: "folklore figure", lt: "tautosakos figūra", lv: "folkloras figūra" },
+      note: { en: "The kindly share may appear as a fair maiden, opposed to Nelaimė as an old woman.", lt: "Gera dalis gali pasirodyti kaip daili merga, priešingai Nelaimei kaip senai bobai.", lv: "Labā daļa var parādīties kā daiļa meita, pretstatā Nelaimė kā vecai sievai." },
     }
   ],
-  locations: [
-    {
-      id: "zemaitija-fate-spring",
-      name: "Samogitian Fate Spring",
-      coordinates: [55.84, 22.18],
-      region: "Lithuania",
-      description: "Sacred spring in Samogitia where offerings were made to the fate goddesses, particularly at births.",
-      siteType: "Springs, rivers, lakes with cult significance",
-      aura: "mist",
-      deity: "dalia",
-      significance: "Women brought woven cloth and grain to Dalia at this spring to secure the newborn's material fortune.",
-    }
-  ],
-  materialLegacy: ["Birth-offering cloths", "Grain-measuring vessels", "Ritual scissors (fate-cutting)"],
+  locations: [],
+  materialLegacy: ["Songs of seeking Laimė–Dalia", "Birth-allotment belief (Senelis Dievas / Laima)"],
   symbols: [
     { label: "Name", detail: "From 'dalis' (portion, share)" },
     { label: "Function", detail: "Material fate and wealth distribution" },
-    { label: "Companion", detail: "Works alongside Laima" }
+    { label: "Companion", detail: "Works alongside Laima" },
+    { label: "Forms", detail: "Woman, swan, duck, lamb, dog" }
   ],
   regionDetails: {
-    en: "Lithuania (Aukštaitija & Samogitia)",
-    lt: "Lietuva (Aukštaitija ir Žemaitija)",
-    lv: "Lietuva (Augštaitija un Žemaitija)",
+    en: "Lithuania (folk tradition)",
+    lt: "Lietuva (tautosakos tradicija)",
+    lv: "Lietuva (folkloras tradīcija)",
   },
   tribe: {
-    en: "Lithuanians & Samogitians",
-    lt: "Lietuviai ir Žemaičiai",
-    lv: "Lietuvieši un Žemaiši",
+    en: "Lithuanians",
+    lt: "Lietuviai",
+    lv: "Lietuvieši",
   },
   period: {
-    en: "19th-20th Century Folklore Reconstruction (N. Vėlius 1983)",
-    lt: "XIX-XX a. tautosakos rekonstrukcija (N. Vėlius 1983)",
-    lv: "19.-20. gs. folkloras rekonstrukcija",
+    en: "Folklore attestation; scholarly synthesis (Greimas; Balys)",
+    lt: "Tautosakos paliudijimas; mokslinė sintezė (Greimas; Balys)",
+    lv: "Folkloras liecības; zinātniskā sintēze (Greimas; Balys)",
   },
   references: [
-    "Norbertas Vėlius: Senovės baltų pasaulėžiūra (1983)",
-    "Algirdas Julius Greimas: Of Gods and Men (1992)",
-    "Visuotinė lietuvių enciklopedija: Dalia (https://www.vle.lt/straipsnis/dalia/)"
+    "Algirdas Julius Greimas: Of Gods and Men / Apie dievus ir žmones; Aušrinė ir Laima",
+    "Visuotinė lietuvių enciklopedija: Dalia (https://www.vle.lt/straipsnis/dalia/)",
+    "Mitologijos enciklopedija / MLE: Laima (https://www.mle.lt/straipsniai/laima-1)",
+    "Marija Gimbutas: The Living Goddesses (2001)"
   ],
 };
 
@@ -1772,14 +1748,14 @@ export const patollaMeta: DeityMeta = {
   name: "Patollo",
   domain: "God",
   epithet: {
-    en: "Pale elder shrouded in white at the world's root",
-    lt: "Blyškus senis, baltu drobule aprištu galva prie pasaulio šaknų",
-    lv: "Bāls vecis baltā drānā pasaules saknēs",
+    en: "Corpse-pale elder with white cloth about the head",
+    lt: "Mirtinai išblyškęs senis, baltu audeklu apsigobęs galvą",
+    lv: "Miroņbāls sirmgalvis ar līķautu ap galvu",
   },
   summary: {
-    en: "Patollo (Peckols) is the Old Prussian god of the underworld and death, one of the sacred triad at Romuva. He is depicted as a pale, corpse-faced elder wrapped in a white shroud.",
-    lt: "Pikulis (Peckols, Patollo) yra senprūsių požemio ir mirties dievas, vienas iš trijų Romovės šventyklos dievų. Jis vaizduojamas kaip blyškiaveidis senolis, suvyniotas balto drobės.",
-    lv: "Pikulis (Peckols, Patollo) ir seno prūšu pazemes un nāves dievs, viens no trim Romuvesas svētnīcas dieviem. Viņš tiek tēlots kā bāla sejas vecis, aptīts baltā drānā.",
+    en: "Patollo (Patulas / Peckols) is the Old Prussian god of the underworld and death in Grunau’s Romuva triad. He appears as a corpse-pale elder with a long grey beard and white cloth about the head; his attributes are human, horse, and cow skulls.",
+    lt: "Patulas (Patollo / Peckols) yra senprūsių požemio ir mirties dievas Grunau Romovės triadoje. Vaizduojamas kaip mirtinai išblyškęs senis su ilga žila barzda ir baltu audeklu ant galvos; jo atributai — žmogaus, arklio ir karvės kaukolės.",
+    lv: "Patollo (Patulas / Peckols) ir seno prūšu pazemes un nāves dievs Grunava Romuves triādē. Tēlots kā miroņbāls sirmgalvis ar garu sirmu bārdu un līķautu ap galvu; viņa atribūti ir cilvēka, zirga un govs galvaskausi.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1544985361-b420d7a77043?auto=format&fit=crop&w=1600&q=80",
@@ -1790,17 +1766,17 @@ export const patollaMeta: DeityMeta = {
     lt: "Pikulis, Pikuolas, Peckols",
     lv: "Pikulis, Peckols, Patollo",
   },
-  keywords: ["underworld", "death", "romuva", "prussian", "darkness", "shroud", "ancestral spirits"],
+  keywords: ["underworld", "death", "romuva", "prussian", "darkness", "skulls", "grey beard"],
   gallery: [
     {
-      title: { en: "White burial shroud", lt: "Baltasis laidotuvių drobulė", lv: "Baltais bēru lins" },
+      title: { en: "White head-cloth", lt: "Baltasis galvos audeklas", lv: "Baltais līķauts" },
       medium: { en: "linen", lt: "linas", lv: "lins" },
-      note: { en: "The white cloth head-covering of Patollo's idol at Romuva, described by Grunau (1529).", lt: "Baltasis Patolo stabulo galvos apdangalas Romuvoje, aprašytas Grunau (1529).", lv: "Baltā galvas pārklāja Patollo elka Romuvā, aprakstīts Grunau (1529)." },
+      note: { en: "White cloth wrapped about Patollo's head on Widewuto's banner and the Romuva oak idol (Grunau).", lt: "Baltasis audeklas, kuriuo Patulo galva apsigobusi Vaidevučio vėliavoje ir Romovės ąžuolo stabe (Grunau).", lv: "Baltais audums ap Patollo galvu Videvuta karogā un Romuves ozola elkā (Grunavs)." },
     },
     {
-      title: { en: "Skull offering vessel", lt: "Kaukolės aukojimo indas", lv: "Galvaskausa upura trauks" },
-      medium: { en: "carved wood", lt: "drožinėtas medis", lv: "griests koks" },
-      note: { en: "Ritual container for ash offerings made to the Lord of Shadows at winter rites.", lt: "Ritualinis pelenų paaukojimų Šešėlių Valdovui žiemos apeigose indas.", lv: "Rituāls trauks pelnu upuriem Ēnu Kungam ziemas rituālos." },
+      title: { en: "Triad skull attributes", lt: "Triados kaukolių atributai", lv: "Triādes galvaskausu atribūti" },
+      medium: { en: "bone", lt: "kaulas", lv: "kauls" },
+      note: { en: "Human, horse, and cow skulls set before Patollo's oak niche — his signs in Grunau's sanctuary tableau.", lt: "Žmogaus, arklio ir karvės kaukolės prieš Patulo ąžuolo nišą — jo ženklai Grunau šventvietės aprašyme.", lv: "Cilvēka, zirga un govs galvaskausi Patollo ozola nišas priekšā — viņa zīmes Grunava svētnīcas ainā." },
     }
   ],
   locations: [
@@ -1809,18 +1785,18 @@ export const patollaMeta: DeityMeta = {
       name: "Romuva Sacred Oak Grove",
       coordinates: [55.45, 21.52],
       region: "Lithuania",
-      description: "The legendary sacred grove of Romuva where the three divine idols stood beneath an eternal oak. Patollo occupied the shadowed northern side.",
+      description: "The legendary Rikojotas / Romuva grove where three divine idols stood in niches of an evergreen oak. Exact site in Nadruvia remains debated.",
       siteType: "Sacred groves",
       aura: "mist",
       deity: "patollo",
-      significance: "An eternal sacred fire burned day and night; Patollo's white-shrouded idol stood on the shadow side of the great oak.",
+      significance: "Eternal sacred fire burned by the oak (Perkūnas's sign); Patollo's niche was marked by human, horse, and cow skulls.",
     }
   ],
-  materialLegacy: ["White shroud offerings", "Ash-fire ritual rites", "Winter solstice death ceremonies"],
+  materialLegacy: ["White head-cloth idol image", "Human–horse–cow skull attributes", "Blood and precious-gift offerings"],
   symbols: [
-    { label: "Appearance", detail: "Pale elder, white head-shroud" },
+    { label: "Appearance", detail: "Corpse-pale elder, grey beard, white head-cloth" },
     { label: "Triad", detail: "Romuva triad with Perkūns and Patrimpas" },
-    { label: "Domain", detail: "Death, shadows, and ancestral spirits" }
+    { label: "Domain", detail: "Underworld, death, and night haunting" }
   ],
   regionDetails: {
     en: "Old Prussia (Nadruvia / Romuva region)",
@@ -1833,16 +1809,17 @@ export const patollaMeta: DeityMeta = {
     lv: "Senie prūši (Prūsi)",
   },
   period: {
-    en: "Medieval — 1418 Warmia Document ('patollu') & Simon Grunau (1529)",
-    lt: "Viduramžiai — 1418 m. Varmės dokumentas ('patollu') ir Simonas Grunau (1529)",
-    lv: "Viduslaiki — 1418. g. Vārmijas dokuments un Simonas Grunau (1529)",
+    en: "Medieval — 1418 Warmia Document ('patollu') & Simon Grunau (c. 1510–1529)",
+    lt: "Viduramžiai — 1418 m. Varmės dokumentas ('patollu') ir Simonas Grunau (apie 1510–1529)",
+    lv: "Viduslaiki — 1418. g. Vārmijas dokuments un Simons Grunavs (ap 1510–1529)",
   },
   references: [
     "Collatio Episcopi Warmiensis (1418 Warmia document: 'patollu')",
-    "Simon Grunau: Preussische Chronik (c. 1526; triad structure is a 16th-century pseudo-mythological construction, though individual deities possess genuine Old Prussian roots)",
-    "Sudauer Büchlein / Sudovian Book (16th c.)",
+    "Simon Grunau: Preussische Chronik (c. 1510–1529; triad tableau is a 16th-century chronicle construction; individual names appear earlier)",
+    "Sudauer Büchlein / Sudovian Book (16th c.: Peckols)",
     "Wilhelm Mannhardt: Letto-Preussische Götterlehre (1936)",
-    "Visuotinė lietuvių enciklopedija: Patulas (https://www.vle.lt/straipsnis/patulas/)"
+    "Visuotinė lietuvių enciklopedija: Patulas (https://www.vle.lt/straipsnis/patulas/)",
+    "Mitologijos Lietuvoje enciklopedija: Patulas (https://www.mle.lt/straipsniai/patulas)"
   ],
 };
 
@@ -1930,76 +1907,53 @@ export const autrimpasMeta: DeityMeta = {
   name: "Autrimpas",
   domain: "God",
   epithet: {
-    en: "Neptune of the amber sea, lord of the Baltic deep",
-    lt: "Gintarų jūros Neptūnas, Baltijos gelmių valdovas",
-    lv: "Dzintara jūras Neptūns, Baltijas dziļumu valdnieks",
+    en: "Sea and lagoon god of the Prussian lists",
+    lt: "Prūsų sąrašų jūrų ir marių dievas",
+    lv: "Prūšu sarakstu jūru un līču dievs",
   },
   summary: {
-    en: "Autrimpas is the Old Prussian god of the sea and open waters. Worshipped by the coastal Sambians, he governed storms, safe passage, and the abundant depths of the Baltic.",
-    lt: "Autrimpas yra senprūsių jūros ir atvirų vandenų dievas. Garbintas Sambijos pakrantės prūsų, jis valdė audras, saugų plaukimą ir Baltijos gelmių gausą.",
-    lv: "Autrimps ir seno prūšu jūras un brīvo ūdeņu dievs. Piekrastes sembiešu pielūgts, viņš valdīja vētras, drošu kuģošanu un Baltijas bagātīgos dziļumus.",
+    en: "Autrimpas is the Old Prussian sea and lagoon deity named in the Sudovian Book and by Malecki, equated with Neptune and listed beside Patrimpas and Bardaitis.",
+    lt: "Autrimpas yra senprūsių jūrų ir marių dievybė, įrašyta Sūduvių knygelėje ir Maleckio, tapatinama su Neptūnu ir minima greta Patrimpo bei Bardaičio.",
+    lv: "Autrimps ir seno prūšu jūru un līču dievība, ierakstīta Sūduvu grāmatā un Maļecka, pielīdzināta Neptūnam un minēta līdzās Patrimpo un Bārdaitim.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(30, 80, 140, 0.28)",
   accent: "#2055a0",
   altNames: {
-    en: "Autrimpus, Autrimps",
-    lt: "Autrimpas, Autrimpus",
-    lv: "Autrimps, Autrimpas",
+    en: "Autrimpus, Autrimps, Antrimpas, Autrympus, Natrimpe",
+    lt: "Autrimpas, Autrimpus, Antrimpas, Autrympus, Natrimpe",
+    lv: "Autrimps, Autrimpas, Antrimpas, Autrympus, Natrimpe",
   },
-  keywords: ["sea", "ocean", "prussian", "sailors", "fish", "waves", "baltic coast", "neptune"],
-  gallery: [
-    {
-      title: { en: "Amber sea offering", lt: "Gintaro jūros auka", lv: "Dzintara jūras upuris" },
-      medium: { en: "amber", lt: "gintaras", lv: "dzintars" },
-      note: { en: "Raw amber cast into the sea as first-catch offering to Autrimpas before offshore voyages.", lt: "Neapdorotas gintaras metamas į jūrą kaip pirmojo laimikio auka prieš jūrinius žygius.", lv: "Neapstrādāts dzintars iemests jūrā kā pirmā loma upuris pirms jūras braucieniem." },
-    },
-    {
-      title: { en: "Carved driftwood fish", lt: "Drožinėtas sujudusios medienos žuvis", lv: "Grebts dreifkoka zivs" },
-      medium: { en: "driftwood", lt: "sujudusi mediena", lv: "dreifkoks" },
-      note: { en: "Votive fish carvings left at shore shrines to ensure abundant catch.", lt: "Votyvų žuviniai drožiniai, palikti prie kranto šventovių, siekiant užtikrinti gausų laimikį.", lv: "Votīvas zivju grebumi atstāti krasta svētnīcās, lai nodrošinātu bagātīgu lomu." },
-    }
-  ],
-  locations: [
-    {
-      id: "klaipeda-sea-shrine",
-      name: "Klaipėda Coastal Shrine",
-      coordinates: [55.71, 21.12],
-      region: "Lithuania",
-      description: "Ancient shoreline offering site at the Lithuanian Baltic coast where first-catch rituals were performed.",
-      siteType: "Sacrifice / offering sites",
-      aura: "amber",
-      deity: "autrimpas",
-      significance: "Prussian and later Lithuanian fishermen cast the first fish of the season back into the sea as tribute to the Lord of the Baltic Deep.",
-    }
-  ],
-  materialLegacy: ["Amber sea-castings", "Net-carved votive offerings", "First-catch rituals"],
+  keywords: ["sea", "lagoon", "prussian", "sudovian book", "neptune", "patrimpas", "bardaitis"],
+  gallery: [],
+  locations: [],
+  materialLegacy: [],
   symbols: [
-    { label: "Domain", detail: "Sea, storms, and maritime bounty" },
-    { label: "Comparison", detail: "Chronicles compare him to Neptune" },
-    { label: "Offering", detail: "First fish of the catch" }
+    { label: "Domain", detail: "Seas and great lagoons / large waters" },
+    { label: "Comparison", detail: "Sixteenth-century lists equate him with Neptune" },
+    { label: "Companions", detail: "Listed beside Patrimpas and Bardaitis" }
   ],
   regionDetails: {
-    en: "Old Prussia (Sambia / Baltic Coast)",
-    lt: "Senoji Prūsija (Sembija / Baltijos pajūris)",
-    lv: "Senā Prūsija (Sembija / Baltijas piekraste)",
+    en: "Old Prussia (Baltic seas and lagoons)",
+    lt: "Senoji Prūsija (Baltijos jūros ir marios)",
+    lv: "Senā Prūsija (Baltijas jūras un līči)",
   },
   tribe: {
-    en: "Old Prussians / Sambians",
-    lt: "Senprūsiai / Sambiai",
-    lv: "Senie prūši / sembi",
+    en: "Old Prussians (Sudovian Book tradition)",
+    lt: "Senprūsiai (Sūduvių knygelės tradicija)",
+    lv: "Senie prūši (Sūduvu grāmatas tradīcija)",
   },
   period: {
-    en: "16th Century (Sudovian Book c. 1520–1530 & Jan Malecki 1551)",
-    lt: "XVI a. (Sūduvių knygelė ~1520–1530 m. ir J. Maleckis 1551 m.)",
-    lv: "16. gs. (Sudāviešu grāmatiņa ~1520–1530 un J. Maļeckis 1551)",
+    en: "16th Century (Sudovian Book & Jan Malecki 1551)",
+    lt: "XVI a. (Sūduvių knygelė ir J. Maleckis 1551 m.)",
+    lv: "16. gs. (Sūduvu grāmata un J. Maļeckis 1551)",
   },
   references: [
-    "Sudauer Büchlein / Sudovian Book (c. 1520–1530)",
+    "Sudauer Büchlein / Sudovian Book (16th c.)",
     "Jan Malecki: Libellus de sacrificiis et idolatria (1551)",
-    "Gintaras Beresnevičius: Autrimpas (Visuotinė lietuvių enciklopedija, T. II, 2002)",
-    "Visuotinė lietuvių enciklopedija: Autrimpas (https://www.vle.lt/straipsnis/autrimpas/)"
+    "Mitologijos enciklopedija / MLE: Autrimpas (https://www.mle.lt/straipsniai/autrimpas)",
+    "Mitoloģijas enciklopēdija (Rīga, 1994): Autrimps"
   ],
 };
 

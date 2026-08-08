@@ -1644,7 +1644,7 @@ export const balgaFortressMeta: LocationMeta = {
   },
   siteType: "Mythic hills / burial mounds",
   aura: "mist",
-  deity: "autrimpas",
+  deity: "",
   significance: {
     en: "Marks the definitive shift from indigenous Prussian power to the Order's naval dominance in the region.",
     lt: "Žymi galutinį posūkį nuo prūsų galios prie Ordino dominavimo jūroje šiame regione.",
@@ -1764,7 +1764,7 @@ export const trusoEmporiumMeta: LocationMeta = {
   },
   siteType: "Springs, rivers, lakes with cult significance",
   aura: "amber",
-  deity: "autrimpas",
+  deity: "",
   significance: {
     en: "A hub of international exchange where Old Prussian amber and craft reached the wider world.",
     lt: "Tarptautinių mainų centras, per kurį prūsų gintaras ir dirbiniai pasiekdavo platųjį pasaulį.",

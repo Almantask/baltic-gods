@@ -5,71 +5,71 @@ export const vejopatisMeta: DeityMeta = {
   name: "Vėjopatis",
   domain: "God",
   epithet: {
-    en: "Lord of the winds between worlds",
-    lt: "Vėjų valdovas tarp pasaulių",
-    lv: "Vēju kungs starp pasaulēm",
+    en: "Western Lithuanian lord of the wind",
+    lt: "Vakarų lietuvių vėjo viešpats",
+    lv: "Rietumlietuviešu vēja kungs",
   },
   summary: {
-    en: "Vėjopatis governs the wind that stirs the treetops and carries the souls of the dead toward the afterlife realm of Dausos.",
-    lt: "Vėjopatis valdo vėją, kuris judina medžių viršūnes ir neša mirusiųjų vėles link Dausų.",
-    lv: "Vējopatiss pārvalda vēju, kas šūpo koku galotnēs un nes mirušo dvēseles uz Dausos aizsauli.",
+    en: "Vėjopatis is the western Lithuanian wind god first recorded by Matthäus Praetorius (~1690) from a two-faced winged cult figure at Karklė on the Curonian Lagoon.",
+    lt: "Vėjopatis — vakarų lietuvių vėjo dievas, pirmą kartą Matas Pretorijus (~1690) aprašė iš dviveidės sparnuotos stovylos Karklėje prie Kuršių marių.",
+    lv: "Vējopatis ir rietumlietuviešu vēja dievs, ko Matejs Pretorijs (~1690) pirmoreiz fiksēja pēc divsejainas spārnotas kulta figūras Karklē pie Kuršu jomas.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(100, 149, 200, 0.24)",
   accent: "#7ab0d4",
   altNames: {
-    en: "Vejopatis, Wejopatis, Wejpons, Vejo Dievas",
-    lt: "Vėjopatis, Vėjo Dievas, Bangpūtys",
-    lv: "Vējopatiss",
+    en: "Wejopatis, Wejpons, Wejdiews, Vejo Dievas",
+    lt: "Wejopatis, Wejpons, Wejdiews, Vėjo dievas",
+    lv: "Wejopatis, Wejpons, Wejdiews",
   },
-  keywords: ["wind", "souls", "afterlife", "Dausos"],
+  keywords: ["wind", "fishermen", "Curonian Lagoon", "Praetorius"],
   gallery: [
     {
-      title: { en: "Wind-bent hilltop pine", lt: "Vėjo palenktoji kalvagūbrio pušis", lv: "Vēja locīta pakalna priede" },
+      title: { en: "Curonian Lagoon shore at Karklė", lt: "Kuršių marių krantas ties Karkle", lv: "Kuršu jomas krasts pie Karkles" },
       medium: { en: "natural", lt: "gamtinis", lv: "dabisks" },
-      note: { en: "Pines on Samogitian ridges bent by prevailing westerlies, treated as Vėjopatis shrines.", lt: "Žemaitijos keteros pušys, palenktos vyraujančių vakarų vėjų, laikytos Vėjopačio šventovėmis.", lv: "Žemaitijas kalnu priedes, kas locītas valdošo rietumu vēju ietekmē, uzskatītas par Vėjopatis svētnīcām." },
+      note: { en: "Praetorius saw the bark Vėjopatis figure fastened to a fisherman’s mast at Karklė.", lt: "Pretorijus Karklėje matė žievių Vėjopačio stovylą, pritvirtintą prie žvejo stiebo.", lv: "Pretorijs Karklē redzēja mizas Vējopatis figūru, piestiprinātu pie zvejnieka stieņa." },
     }
   ],
   locations: [
     {
-      id: "zemaitija-sky",
-      name: "Žemaitija Sky Fields",
-      coordinates: [55.9, 22.3],
+      id: "karkle-lagoon",
+      name: "Karklė / Curonian Lagoon",
+      coordinates: [55.82, 21.07],
       region: "Lithuania",
-      description: "Open highlands where the wind never ceases and the dead pass through toward Dausos.",
-      siteType: "Sacred hilltops",
+      description: "Lagoon fishing settlement where Praetorius recorded a bark two-faced winged cult figure of Vėjopatis on a mast.",
+      siteType: "Coastal fishing cult site",
       aura: "sky",
       deity: "vejopatis",
-      significance: "Linen strips tied to pines; feathers scattered on wind to honor soul passages.",
+      significance: "Primary find-spot of the Praetorius cult image; storm-time fishermen’s wind worship.",
     }
   ],
-  materialLegacy: ["Linen wind-offerings on hilltops", "Wind-carved pine shrines"],
+  materialLegacy: ["Bark mast cult figures", "Weather vanes (vėjukas / vėjones)"],
   symbols: [
-    { label: "Element", detail: "Moving air and breath" },
-    { label: "Offerings", detail: "Linen strips, feathers, grain scattered to wind" }
+    { label: "Element", detail: "Storm wind over lagoon waters" },
+    { label: "Cult image", detail: "Two faces, wings, fish, barrel, rooster on head" }
   ],
   regionDetails: {
-    en: "Samogitia / Lithuania",
-    lt: "Žemaitija / Lietuva",
-    lv: "Žemaitija / Lietuva",
+    en: "Lithuania Minor / Curonian Lagoon",
+    lt: "Mažoji Lietuva / Kuršių marios",
+    lv: "Lietuvas Mazā / Kuršu joma",
   },
   tribe: {
-    en: "Lithuanians",
-    lt: "Lietuviai",
-    lv: "Lietuvieši",
+    en: "Western Lithuanians / Lietuvininkai",
+    lt: "Vakarų lietuviai / lietuvininkai",
+    lv: "Rietumlietuvieši / lietuvinieki",
   },
   period: {
-    en: "16th–17th Century (Łasicki 1582, Praetorius c. 1690)",
-    lt: "XVI–XVII a. (Łasicki 1582, Praetorius ~1690 m.)",
-    lv: "16.–17. gs. (Łasicki 1582, Praetorius ~1690)",
+    en: "Late 17th Century (Praetorius c. 1690)",
+    lt: "XVII a. pabaiga (Pretorijus ~1690 m.)",
+    lv: "17. gs. beigas (Pretorijs ~1690)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582)",
     "Matthäus Praetorius: Deliciae Prussicae (ms. ~1690)",
-    "Dainius Razauskas: Vėjopatis. Baltų vėjo dievo įvaizdis ir jo šaknys (LLTI, 2011)",
-    "Visuotinė lietuvių enciklopedija: Vėjopatis (https://www.vle.lt)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai (1996–2005)"
+    "Visuotinė lietuvių enciklopedija: Vėjopatis (https://www.vle.lt/straipsnis/vejopatis/)",
+    "Mažosios Lietuvos enciklopedija: Vėjopatis (https://www.mle.lt/straipsniai/vejopatis)",
+    "Dainius Razauskas: Vėjūkas (LLTI, 2004)",
+    "Rimantas Balsys: Prūsų ir lietuvių vandens dievai bei dvasios (2005/06)"
   ],
 };
 
@@ -78,49 +78,53 @@ export const vaizgantasMeta: DeityMeta = {
   name: "Vaižgantas",
   domain: "God",
   epithet: {
-    en: "Master of bound flax and twisted hemp",
-    lt: "Rišto lino ir susuktos kanapės valdovas",
-    lv: "Sasieta lina un savītas kaņepju meistars",
+    en: "Guardian of flax and hemp",
+    lt: "Linų ir kanapių globėjas",
+    lv: "Linu un kaņepju aizgādnis",
   },
   summary: {
-    en: "Vaižgantas presides over flax and hemp, the sacred fibres from which Baltic peoples wove clothing, nets, and ritual textiles for generations.",
-    lt: "Vaižgantas globoja liną ir kanapę — šventus augalus, iš kurių baltai audinius, tinklus ir apeiginius rūbus.",
-    lv: "Vaigantas valda linu un kaņepes — svētās šķiedras, no kurām baltu tautas avija drēbes, tīklus un rituālos audekļus.",
+    en: "Vaižgantas is the Lithuanian god of flax and hemp, honoured by Samogitian maidens on the third day after Ilgės with ale, cakes, and a one-legged standing rite.",
+    lt: "Vaižgantas – lietuvių linų ir kanapių dievas, garbintas žemaičių merginų trečią dieną po Ilgių alumi, paplotėliais ir stovėjimu ant vienos kojos.",
+    lv: "Vaižgants ir lietuviešu linu un kaņepju dievs, ko žemaišu meitenes godināja trešajā dienā pēc Ilģiem ar alu, plāceņiem un stāvēšanu uz vienas kājas.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(190, 200, 140, 0.26)",
   accent: "#b8c87a",
   altNames: {
-    en: "Waizganthos, Wajzganthos, Vaisgamta",
-    lt: "Vaižgantas, Vaisgamta",
-    lv: "Vaigantas",
+    en: "Waizganthos, Vaisgamta, Vaisgamtis",
+    lt: "Waizganthos, Vaisgamta, Vaisgamtis",
+    lv: "Vaižgants, Waizganthos, Vaisgamta",
   },
-  keywords: ["flax", "hemp", "weaving", "fibres"],
+  keywords: ["flax", "hemp", "Ilgės", "fibres"],
   gallery: [
     {
-      title: { en: "Linen distaff bundle", lt: "Lino verpstės ryšulys", lv: "Linu vārpstas pušķis" },
-      medium: { en: "prepared flax", lt: "paruoštas linas", lv: "sagatavots lins" },
-      note: { en: "Offered on a high bench during post-Ilgės autumn flax ceremonies in Samogitia.", lt: "Aukojamas ant aukštos kėdės po Ilgių šventės rudeninėse Žemaitijos lino apeigose.", lv: "Upurēts uz augsta krēsla pēcrudens linu ceremonijās Žemaitijā." },
+      title: { en: "Sikės cakes and ale jug", lt: "Sikės ir alaus ąsotis", lv: "Sikės plāceņi un ala krūze" },
+      medium: { en: "ritual offering props", lt: "apeiginiai aukojimo atributai", lv: "rituāla ziedojuma rekvizīti" },
+      note: {
+        en: "Łasicki: tallest maiden stands on one foot after Ilgės, offering sikės cakes and ale for tall flax.",
+        lt: "Łasickis: aukščiausia mergina po Ilgių stovi ant vienos kojos, aukoja sikės ir alų už aukštus linus.",
+        lv: "Łasickis: garākā meita pēc Ilģiem stāv uz vienas kājas, ziedo sikės un alu par gariem liniem.",
+      },
     }
   ],
   locations: [
     {
-      id: "telsiai-altars",
-      name: "Telšiai Clay Altars",
-      coordinates: [55.98, 22.25],
+      id: "samogitia-ilges-flax-rite",
+      name: "Samogitian post-Ilgės flax rite",
+      coordinates: [55.7, 22.0],
       region: "Lithuania",
-      description: "Traditional hearth sites where autumn flax rituals and beer libations were conducted after Ilgės.",
-      siteType: "Field altars",
+      description: "Household rite among Samogitian maidens on the third day after Ilgės, with ale libation and sikės cakes for flax and hemp.",
+      siteType: "Household ritual",
       aura: "green",
       deity: "vaizgantas",
-      significance: "Tallest maiden stood on a stool to offer beer and cakes for tall flax growth.",
+      significance: "Primary written setting of the Waizganthos cult in Łasicki’s De diis Samagitarum.",
     }
   ],
-  materialLegacy: ["Distaff rituals", "Post-Ilgės autumn bench libations", "First-flax offerings"],
+  materialLegacy: ["Post-Ilgės one-legged rite", "Sikės cake offerings", "Ale libations for flax"],
   symbols: [
-    { label: "Element", detail: "Growing green stalk" },
-    { label: "Offerings", detail: "Flax bundles, hemp seed, linen cloth" }
+    { label: "Element", detail: "Growing flax stalk" },
+    { label: "Offerings", detail: "Sikės cakes, ale; cock and lamb (Praetorius)" }
   ],
   regionDetails: {
     en: "Samogitia / Lithuania",
@@ -133,15 +137,15 @@ export const vaizgantasMeta: DeityMeta = {
     lv: "Žemaiši",
   },
   period: {
-    en: "16th Century (Łasicki 1582)",
-    lt: "XVI a. (Łasicki 1582)",
-    lv: "16. gs. (Łasicki 1582)",
+    en: "16th Century (Łasicki ~1582; printed 1615)",
+    lt: "XVI a. (Łasickis ~1582; spausdinta 1615)",
+    lv: "16. gs. (Łasickis ~1582; iespiests 1615)",
   },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582)",
-    "Vytautas Ališauskas: Baltų religijos ir mitologijos reliktai LDK (2012)",
-    "Rimantas Balsys: Lietuvių ir prūsų dievai, deivės, dvasios (2010)",
-    "Visuotinė lietuvių enciklopedija: Vaižgantas (https://www.vle.lt)"
+    "Jan Łasicki: De diis Samagitarum (c. 1582; printed 1615)",
+    "Visuotinė lietuvių enciklopedija: Vaižgantas (https://www.vle.lt/straipsnis/vaizgantas/)",
+    "Matthäus Praetorius: Deliciae Prussicae (fertility offerings)",
+    "Mitoloģijas enciklopēdija, vol. 2 (Rīga, 1994)"
   ],
 };
 
@@ -150,49 +154,31 @@ export const ragutisMeta: DeityMeta = {
   name: "Ragutis",
   domain: "God",
   epithet: {
-    en: "God of the fermenting grain and communal cup",
-    lt: "Besiruošiančio grūdo ir bendro puodelio dievas",
-    lv: "Rūgstošās labības un kopīgā kausa dievs",
+    en: "Household god of fermentation, beer, and sourdough",
+    lt: "Namų rūgimo, alaus ir raugo dievas",
+    lv: "Mājas rūgšanas, alus un ierauga dievs",
   },
   summary: {
-    en: "Ragutis (historically rooted in Raugupatis) and his consort Ragutienė preside over beer brewing, sourdough fermentation, and sacred feasting.",
-    lt: "Ragutis (istoriniuose šaltiniuose — Raugupatis) ir jo žmona Ragutienė globoja aludarystę, raugimą ir šventines puotas.",
-    lv: "Ragutis (vēsturiski saistīts ar Raugupatis) un viņa sieva Ragutienė valda alus darīšanu, rūgšanu un svētku mielastus.",
+    en: "Ragutis (popular form of the Rūgutis / Raugupatis / Raugų Žemėpatis complex) governs household fermentation: beer, mead, and rising dough.",
+    lt: "Ragutis (populiarioji Rūgučio / Raugupatio / Raugų Žemėpačio komplekso forma) globoja namų rūgimą: alų, midų ir kylančią tešlą.",
+    lv: "Ragutis (populārā Rūgutis / Raugupatis / Raugų Žemėpatis kompleksa forma) pārrauga mājas rūgšanu: alu, medu un ceļošos mīklas.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1471039497385-b6d6ba609f9c?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(180, 130, 60, 0.28)",
   accent: "#c49a3a",
   altNames: {
-    en: "Ragutis, Ragutiene, Raugupatis",
-    lt: "Ragutis, Ragutienė, Raugupatis",
-    lv: "Ragutis, Raugupatis",
+    en: "Ragutis, Rūgutis, Raugupatis, Raugų Žemėpatis, Ruguczis",
+    lt: "Ragutis, Rūgutis, Raugupatis, Raugų Žemėpatis, Ruguczis",
+    lv: "Ragutis, Rūgutis, Raugupatis, Rugučis, Raugų Žemėpatis",
   },
-  keywords: ["beer", "brewing", "mead", "feasting", "fermentation"],
-  gallery: [
-    {
-      title: { en: "Clay brewing vessel", lt: "Molinis alaus indas", lv: "Māla alus trauks" },
-      medium: { en: "fired clay", lt: "degtas molis", lv: "apdedzināts māls" },
-      note: { en: "Ringed with ochre bands; used in communal harvest ceremonies.", lt: "Apjuostas ochra juostomis; naudojamas bendruomeninėse derliaus ceremonijose.", lv: "Apjozts ar okras joslām; izmantots kopienas ražas ceremonijās." },
-    }
-  ],
-  locations: [
-    {
-      id: "kaunas-hearth",
-      name: "Kaunas Hearth Archive",
-      coordinates: [54.9, 23.9],
-      region: "Lithuania",
-      description: "A sacred hearth complex where communal feasts honored the brewing gods.",
-      siteType: "Communal feast sites",
-      aura: "amber",
-      deity: "ragutis",
-      significance: "First barrel of autumn ale poured over the hearth before consumption.",
-    }
-  ],
-  materialLegacy: ["Clay brewing vessels", "Carved wooden ale cups", "Hearth ale libation pots"],
+  keywords: ["beer", "brewing", "mead", "fermentation", "sourdough", "household"],
+  gallery: [],
+  locations: [],
+  materialLegacy: [],
   symbols: [
-    { label: "Element", detail: "Fermentation and sourdough" },
-    { label: "Offerings", detail: "First ale, honey mead, barley grain" }
+    { label: "Element", detail: "Fermentation and sourdough starter (raugas)" },
+    { label: "Offerings", detail: "First draught of ale or mead; speckled young hens" }
   ],
   regionDetails: {
     en: "Samogitia / Lithuania",
@@ -205,16 +191,17 @@ export const ragutisMeta: DeityMeta = {
     lv: "Žemaiši un Lietuvieši",
   },
   period: {
-    en: "16th-19th Century (M. Stryjkowski 1582 'Raugupatis', T. Narbutt 1835)",
-    lt: "XVI-XIX a. (M. Stryjkovskis 1582 'Raugupatis', T. Narbutas 1835)",
-    lv: "16.-19. gs. (M. Strikovskis 1582 'Raugupatis')",
+    en: "16th–17th c. (Łasicki Rauguzemapati; Stryjkowski 1582 Ruguczis; Prätorius Raugupatis); Narbutt 1835 form Ragutis",
+    lt: "XVI–XVII a. (Łasickis Rauguzemapati; Strijkovskis 1582 Ruguczis; Pretorijus Raugupatis); Narbutas 1835 forma Ragutis",
+    lv: "16.–17. gs. (Łasickis Rauguzemapati; Strikowskis 1582 Ruguczis; Pretorijs Raugupatis); Narbuts 1835 forma Ragutis",
   },
   references: [
-    "Maciej Stryjkowski: Kronika Polska, Litewska, Żmódzka... (1582: 'Raugupatis')",
-    "Jan Łasicki: De Diis Samagitarum (1582)",
-    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (2004; notes Ragutis as disputed/secondary to Raugupatis)",
-    "Rimantas Balsys: Lietuvių ir prūsų dievai, deivės, dvasios (2010)",
-    "Visuotinė lietuvių enciklopedija: Ragutis / Raugupatis (https://www.vle.lt)"
+    "Jan Łasicki: De diis Samagitarum (publ. 1615: Rauguzemapati / Nulaidimos)",
+    "Maciej Stryjkowski: Kronika Polska, Litewska, Żmódzka... (1582: Ruguczis)",
+    "Matthäus Prätorius: Deliciae Prussicae (Raugupatis)",
+    "Daiva Vaitkevičienė: Raugpatis — Mitologijos Lietuvoje enciklopedija (mle.lt)",
+    "Visuotinė lietuvių enciklopedija: Ragutis (https://www.vle.lt/straipsnis/ragutis/)",
+    "Mitoloģijas enciklopēdija 2 (Rīga, 1994: Raugupatis / Rugučis)"
   ],
 };
 
@@ -223,70 +210,80 @@ export const dimstipatisMeta: DeityMeta = {
   name: "Dimstipatis",
   domain: "God",
   epithet: {
-    en: "Guardian of the threshold and farmstead yard",
-    lt: "Slenksčio ir kiemo sargybinis",
-    lv: "Sliekšņa un sētas sargs",
+    en: "Lord of the homestead and household fire",
+    lt: "Sodybos ir namų ugnies viešpats",
+    lv: "Sētas un mājas uguns kungs",
   },
   summary: {
-    en: "Dimstipatis watches over the farmstead and its yard, protecting all who dwell there from misfortune, evil spirits, and destructive fires.",
-    lt: "Dimstipatis saugo sodybą ir kiemą, gindamas visus gyventojus nuo nelaimių, piktų dvasių ir gaisrų.",
-    lv: "Dimstipatis sargā saimniecību un tās pagalmu, aizsargājot visus iemītniekus no nelaimes, ļaunajiem gariem un ugunsgrēkiem.",
+    en: "Dimstipatis is the Lithuanian lord of the homestead and hearth fire, guarding the dwelling from blaze and securing property and family.",
+    lt: "Dimstipatis — lietuvių sodybos ir židinio viešpats, saugantis būstą nuo gaisro ir ginantis turtą bei šeimyną.",
+    lv: "Dimstipatis ir lietuviešu sētas un pavarda kungs, kas sargā mājokli no ugunsgrēka un aizstāv mantu un saimi.",
   },
   heroImage:
     "https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(120, 100, 70, 0.26)",
   accent: "#9e8b68",
   altNames: {
-    en: "Dimstipatis, Dimstis, Dimstipan",
-    lt: "Dimstipatis, Dimstis",
-    lv: "Dimstipatis",
+    en: "Dimstipatis, Dimstipan; Latvian parallel Mājas kungs / mājas gars",
+    lt: "Dimstipatis, Dimstipan; latvių atitikmuo Mājas kungs / mājas gars",
+    lv: "Dimstipatis, Dimstipan; Mājas kungs, mājas gars",
   },
-  keywords: ["household", "farmstead", "threshold", "protection", "fire-protection"],
+  keywords: ["household", "farmstead", "hearth", "fire-protection", "homestead"],
   gallery: [
     {
-      title: { en: "Carved gate post", lt: "Drožinėtas vartų stulpas", lv: "Griezts vārtu stabs" },
-      medium: { en: "oak", lt: "ąžuolas", lv: "ozols" },
-      note: { en: "Gate posts carved with protective sun-wheels and snake motifs.", lt: "Vartų stulpai drožinėti apsauginiais saulės ratais ir žalčio motyvais.", lv: "Vārtu stabi grezbīti ar aizsargājošiem saules ratiem un čūskas motīviem." },
+      title: { en: "Homestead hearth", lt: "Sodybos židinys", lv: "Sētas pavards" },
+      medium: { en: "hearth fire", lt: "židinio ugnis", lv: "pavarda uguns" },
+      note: {
+        en: "Bones, scraps, and dish-wash water from Dimstipatis feasts were poured into the hearth.",
+        lt: "Dimstipačio puotos kaulai, likučiai ir indų plovimo vanduo būdavo pilami į židinį.",
+        lv: "Dimstipatis mielasta kaulus, atliekas un trauku mazgāšanas ūdeni ielēja pavardā.",
+      },
     }
   ],
   locations: [
     {
-      id: "vilnius-thread",
-      name: "Vilnius Loom Threshold",
-      coordinates: [54.69, 25.28],
+      id: "zemaitkiemis-hearth",
+      name: "Žemaitkiemis Homestead Hearth District",
+      coordinates: [55.25, 24.98],
       region: "Lithuania",
-      description: "A ritual threshold stone at the entrance of a traditional farmstead.",
-      siteType: "Household ritual sites",
+      description: "Aukštaitija district named in Lavinskis’s 1583 report of Dimstipan worship and offerings.",
+      siteType: "Hearth cult zones",
       aura: "moss",
       deity: "dimstipatis",
-      significance: "New families scraped their feet on it before entering to honor the house guardian.",
+      significance: "Earliest named cult area for Dimstipatis (Dimstipan) among the Aukštaitians.",
     }
   ],
-  materialLegacy: ["Carved gate posts with sun-wheels", "Threshold offering stones", "Black hen hearth offerings"],
+  materialLegacy: [
+    "Black hen hearth offerings",
+    "Rooster bones burned in the hearth",
+    "Housewives’ piglet feast rites",
+  ],
   symbols: [
-    { label: "Element", detail: "Earth, wood, and hearth fire" },
-    { label: "Offerings", detail: "Salt, bread, black hen, hearth water libations" }
+    { label: "Element", detail: "Homestead hearth fire" },
+    { label: "Offerings", detail: "Black hens, rooster, piglet; wash-water poured into the hearth" }
   ],
   regionDetails: {
-    en: "Aukštaitija & Samogitia / Lithuania",
-    lt: "Aukštaitija ir Žemaitija / Lietuva",
-    lv: "Augštaitija un Žemaitija / Lietuva",
+    en: "Aukštaitija / Lithuania",
+    lt: "Aukštaitija / Lietuva",
+    lv: "Aukštaitija / Lietuva",
   },
   tribe: {
-    en: "Lithuanians & Samogitians",
-    lt: "Lietuviai ir Žemaičiai",
-    lv: "Lietuvieši un Žemaiši",
+    en: "Lithuanians (Aukštaitians)",
+    lt: "Lietuviai (aukštaičiai)",
+    lv: "Lietuvieši (aukštaiši)",
   },
   period: {
-    en: "16th Century (Jokūbas Lavinskis 1583 Jesuit Report, Jan Łasicki 1582)",
-    lt: "XVI a. (Jokūbas Lavinskis 1583 m. jėzuitų ataskaita, J. Lasickis 1582 m.)",
-    lv: "16. gs. (Jokūbas Lavinskis 1583. g. jezuītu ziņojums)",
+    en: "16th Century (Jokūbas Lavinskis / Jakub Ławiński, Jesuit letter 1583)",
+    lt: "XVI a. (Jokūbas Lavinskis, jėzuitų laiškas 1583 m.)",
+    lv: "16. gs. (Jokūbas Lavinskis, jezuītu vēstule 1583. g.)",
   },
   references: [
-    "Jokūbas Lavinskis (Jakub Ławiński): Jesuit Mission Letter to J. P. Campana (1583)",
-    "Jan Łasicki: De Diis Samagitarum (1582)",
+    "Jokūbas Lavinskis (Jakub Ławiński): Jesuit Mission Letter to Paul Campana (1583)",
+    "Jesuit annual reports 1604–1605 (BRMŠ Vol. 2)",
     "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (2001)",
-    "Visuotinė lietuvių enciklopedija: Dimstipatis (https://www.vle.lt)"
+    "Gintaras Beresnevičius: Laukpatis ir Dimstipatis (2007)",
+    "Visuotinė lietuvių enciklopedija: Dimstipatis (https://www.vle.lt/straipsnis/dimstipatis/)",
+    "Pēteris Šmits: Latviešu mitoloģija (1918) — Mājas kungs // Dimstipatis",
   ],
 };
 
