@@ -151,48 +151,75 @@ export const ejagusteMeta: DeityMeta = {
 export const silinytisMeta: DeityMeta = {
   slug: "silinytis",
   name: "Šilinytis",
-  altNames: { en: "Šilinytis", lt: "Šilinytis", lv: "Šilinytis" },
+  altNames: {
+    en: "Šilinytis, Šilinyčius, Šilinis, Siliniczus",
+    lt: "Šilinytis, Šilinyčius, Šilinis, Siliniczus",
+    lv: "Šilinytis, Siliņš, Sila māte, Siliniczus",
+  },
   domain: "God",
   epithet: {
-    en: "Guardian of the Pine Forest",
-    lt: "Pušyno saugotojas",
-    lv: "Priežu meža sargs",
+    en: "Guardian of the Pine Heath — Numen of Scots Pine Groves and Forest Moss",
+    lt: "Šilo sergėtojas — pušynų, viržynų ir miško paklotės dvasia",
+    lv: "Sila sargātājs — priežu meža, virsāju un meža sūnu gars",
   },
   summary: {
-    en: "Šilinytis is the Samogitian spirit of the pine forest, recorded by Łasicki (Szelinatis), guardian of the sandy-soiled šilas groves and the life that thrives within them.",
-    lt: "Šilinytis yra žemaičių pušyno dvasia (Lasickio Szelinatis), šilų globėjas ir jų augmenijos saugotojas.",
-    lv: "Šilinytis ir žemaitiešu priežu meža gars (Łasicki Szelinatis), kas sargā smilšaino šilu birzis un to dzīvību.",
+    en: "Šilinytis (authentically recorded by Jan Łasicki in 1582 as Siliniczus, assistant to Kerpyčius) is the Baltic tutelary spirit of dry Scots pine forests, sandy heathlands (šilai / sili), and forest undergrowth. Invoked by villagers and builders gathering forest moss (muscus) for weatherproofing log cabins, he watches over the sun-dappled pine groves, heather heaths, and lingonberry grounds, operating in harmony with the Latvian pine mother Sila māte.",
+    lt: "Šilinytis (XVI a. Jono Lasickio užrašytas kaip Siliniczus, Kerpyčiaus pagalbininkas) — sausų pušynų, smėlingų šilų ir miško paklotės dvasia. Šaukiamas kaimo gyventojų ir statytojų prieš renkant miško samanas rąstinių trobesių tarpams kimšti ir šiltinti, jis globoja saulėtus pušynus, viržynus bei uogynus, atliepdamas latvių šilo motės (Sila māte) tradiciją.",
+    lv: "Šilinytis (vēsturiski 1582. g. Jana Łasicka fiksēts kā Siliniczus, Kerpiča palīgs) ir baltu sauso priežu mežu, smilšaino silu un meža zemsedzes gars. Viņu piesauca pirms celtniecības sūnu vākšanas guļbūvju siltināšanai. Viņš pārrauga saulainās priežu birzis, viršus un ogulājus, sasaucoties ar latviešu Sila mātes kultu.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Pine forest", "Resin", "Heather", "Moss"],
-  gallery: [],
+  keywords: ["Pine forest", "Šilas", "Resin", "Heather", "Moss", "Building", "Samogitia", "Scots pine"],
+  symbols: [
+    { label: "Botanical emblems", detail: "Scots pine boughs (Pinus sylvestris), pine cones (kankorėžiai / čiekuri), purple heather (viržiai / virši)" },
+    { label: "Woodland textures", detail: "Building moss (muscus / samanos), tree lichens (kerpės), golden pine resin (sakai / sveķi)" },
+    { label: "Offerings", detail: "Bread, salt, and first-picked berries left at the roots of ancient pine trees" },
+    { label: "Sacred loci", detail: "Samogitian pine heaths (Žemaitijos šilai), Curonian Spit coastal dunes, sacred ancient pines (šventosios pušys)" },
+  ],
   locations: [
     {
       id: "samogitia-pine-grove",
-      name: "Samogitian Pine Heathland",
+      name: "Samogitian Pine Heathland & Sacred Pines (Žemaitija)",
       coordinates: [55.9, 22.3],
       region: "Lithuania",
-      description: "Sandy-soiled pine heathland (šilas) in Samogitia, home of the guardian spirit of fir and pine forests.",
+      description: "Sandy-soiled Scots pine woodland (šilas) in Samogitia, preserving multi-trunked ancient pines and traditional moss-gathering grounds.",
       siteType: "Sacred groves",
       aura: "moss",
       deity: "silinytis",
-      significance: "Šilinytis was believed to dwell in these ancient pine groves, accepting resin and pine-cone offerings from those who felled trees.",
-    }
+      significance: "Historic pine woodland where builders and foragers made pre-harvest invocations and dedicated first-fruit offerings at ancient pine roots.",
+    },
   ],
-  materialLegacy: [],
-  symbols: [
-    { label: "Sacred symbols", detail: "Pine cone, Heather, Moss, Resin" }
+  gallery: [],
+  materialLegacy: [
+    "Jan Łasicki's 1582 treatise De diis Samagitarum recording Siliniczus and the moss-gathering rite ('musci in silvis nascentis... huic etiam muscum lecturi sacrificant')",
+    "Sacred multi-trunked pine trees (šventosios pušys / svētās priedes) documented across Baltic ethnographic surveys (V. Vaitkevičius, LFK)",
+    "Traditional timber log construction methods utilizing dried forest moss for chinking and weatherproofing",
   ],
-  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  regionDetails: {
+    en: "Lithuania (Samogitia, Dzūkija, Coastal Dunes) & Baltic Pine Heath Zone",
+    lt: "Lietuva (Žemaitija, Dzūkija, Pajūrio kopos) ir baltų šilų erdvė",
+    lv: "Lietuva (Žemaitija, Dzūkija, Piejūras kāpas) un baltu silu josla",
+  },
+  tribe: {
+    en: "Samogitians, Lithuanians, Curonians, Latvians",
+    lt: "Žemaičiai, lietuviai, kuršiai, latviai",
+    lv: "Žemaiši, lietuvieši, kurši, latvieši",
+  },
+  period: {
+    en: "16th Century (Jan Łasicki 1582; Baltic ethnographic records)",
+    lt: "XVI a. (J. Lasickis 1582 m.; baltų etnografiniai šaltiniai)",
+    lv: "16. gs. (J. Łasickis 1582; baltu etnogrāfiskie avoti)",
+  },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Visuotinė lietuvių enciklopedija: Šilinytis (https://www.vle.lt/)",
-    "Visuotinė lietuvių enciklopedija: Šilinytis (https://www.vle.lt/straipsnis/silinytis/)"
+    "Jan Łasicki: De diis Samagitarum caeterorumque Sarmatarum... (1582; publ. Basel 1615: 'Kierpiczus huiusque adiutor Siliniczus')",
+    "Vytautas Ališauskas: Jono Lasickio pasakojimas apie žemaičių dievus: tekstas ir kontekstai (Vilnius: Aidai, 2006)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (Vilnius: Mokslo ir enciklopedijų leidykla, 2001)",
+    "Wilhelm Mannhardt: Letto-Preussische Götterlehre (Riga: Lettisch-Literärische Gesellschaft, 1936)",
+    "Pēteris Šmits: Latviešu mitoloģija (Rīga: Valters un Rapa, 1926)",
+    "Haralds Biezais: Die Hauptgöttinnen der alten Letten (Uppsala: Almqvist & Wiksell, 1955)",
+    "Vykintas Vaitkevičius: Alkai: baltų šventvietės (Vilnius: Diemedis, 2003)",
+    "Visuotinė lietuvių enciklopedija: Šilinis (https://www.vle.lt/straipsnis/silinis/)",
   ],
 };
 
