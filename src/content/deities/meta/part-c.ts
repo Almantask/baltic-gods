@@ -79,46 +79,72 @@ export const medziojnaMeta: DeityMeta = {
 export const ejagusteMeta: DeityMeta = {
   slug: "ejaguste",
   name: "Ejagustė",
-  altNames: { en: "Ejagustė", lt: "Ejagustė", lv: "Ejaguste" },
+  altNames: {
+    en: "Ejagustė, Eagustis, Ėjagustė",
+    lt: "Ejagustė, Eagustis, Ėjagustė",
+    lv: "Ejaguste, Eagustis",
+  },
   domain: "God",
   epithet: {
-    en: "Spirit of Hunting Fortune",
-    lt: "Medžioklės sėkmės dvasia",
-    lv: "Medību veiksmes gars",
+    en: "Spirit of the Fortunate Trail — Numen of Hunting Luck and Favorable Encounter",
+    lt: "Laimingo tako dvasia — medžioklės sėkmės ir palankaus ėjimo globėja",
+    lv: "Laimīgās takas gars — medību veiksmes un labvēlīgas gaitas aizstāve",
   },
   summary: {
-    en: "Ejagustė is the Samogitian spirit of hunting luck, recorded by Łasicki (Eagustis), ensuring favorable outcomes in the chase and protecting hunters in the forest.",
-    lt: "Ejagustė yra žemaičių medžioklės sėkmės dvasia (Lasickio Eagustis), užtikrinanti palankų medžioklės rezultatą ir sauganti medžiotojus miške.",
-    lv: "Ejaguste ir žemaitiešu medību veiksmes gars (Łasicki Eagustis), kas nodrošina labvēlīgus medību rezultātus un sargā medniekus mežā.",
+    en: "Ejagustė (also referenced in folklore studies as Eagustis / Ėjagustė) represents the personification of situational hunting fortune and favorable gait (medžioklės laimė / sėkmė) along forest trails. In Baltic folklore and 16th-century source analysis (Łasicki), this concept reflects the hunter's intuitive perception, the discovery of fresh animal tracks in snow or moss, and the delicate moment of encounter governed under the overarching sovereignty of the forest goddess Medeina.",
+    lt: "Ejagustė (tautosakos studijose minima ir kaip Eagustis / Ėjagustė) — situacinės medžioklės sėkmės, laimingo tako ir palankaus ėjimo (medžioklės laimės) personifikacija. Baltų tautosakoje ir XVI a. šaltiniotyroje (J. Lasickio studijose) ši figūra atspindi medžiotojo nuojautą, šviežių pėdsakų atradimą sniege ar samanose ir sėkmingą susitikimą su žvėrimi didžiosios miško deivės Medeinos valioje.",
+    lv: "Ejaguste (folkloristikā minēta arī kā Eagustis / Ėjagustė) ir situatīvās medību veiksmes un laimīgās takas personifikācija baltu tradīcijā. Šis tēls atspoguļo mednieka vērīgumu, svaigu pēdu atrašanu sniegā vai sūnās un labvēlīgu mirkli meža gaitā meža dievietes Medeinas / Meža mātes pārziņā.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Hunting luck", "Fortune", "Chase"],
-  gallery: [],
+  keywords: ["Hunting luck", "Fortune", "Trail", "Chase", "Samogitia", "Animal tracks", "Forest path"],
+  symbols: [
+    { label: "Trail signs", detail: "Animal footprints in fresh snow/moss, arrow fletchings, rustling leaves" },
+    { label: "Hunting tokens", detail: "Trailside stone markers, hunting whistles, pre-dawn silence" },
+    { label: "Offerings", detail: "Bread crusts, grain, and salt left at trail forks or tree roots" },
+    { label: "Sacred loci", detail: "Samogitian hunting paths (Žemaitijos miškų takai), forest glades, trail crossroads" },
+  ],
   locations: [
     {
       id: "samogitia-bird-clearing",
-      name: "Samogitian Forest Clearing Shrine",
+      name: "Samogitian Forest Trailhead Glade (Žemaitija)",
       coordinates: [55.88, 22.4],
       region: "Lithuania",
-      description: "An open forest clearing in Samogitia where birds were observed as omens and offerings made to the spirit of hunting luck.",
+      description: "An open forest clearing along ancient Samogitian woodland trails where hunters paused at dawn to observe wind direction and bird omens.",
       siteType: "Sacred groves",
       aura: "moss",
       deity: "ejaguste",
-      significance: "Hunters gathered here to watch bird flight patterns as omens before setting out, invoking Ejagustė for favorable fortune.",
-    }
+      significance: "Traditional gathering point where hunters observed the silence taboo and left bread crust offerings at trailside trees to secure good fortune.",
+    },
   ],
-  materialLegacy: [],
-  symbols: [
-    { label: "Sacred symbols", detail: "Bow, Footsteps, Game animal" }
+  gallery: [],
+  materialLegacy: [
+    "Textual investigations in Vytautas Ališauskas's critical edition of 16th-century Samogitian pantheons (Jono Lasickio pasakojimas apie žemaičių dievus, 2006)",
+    "Traditional Baltic hunting ethics: observing silent departures, respecting animal omens, and dedicating trail offerings",
   ],
-  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  regionDetails: {
+    en: "Lithuania (Samogitia) & Baltic Woodlands",
+    lt: "Lietuva (Žemaitija) ir baltų miškų erdvė",
+    lv: "Lietuva (Žemaitija) un baltu mežu josla",
+  },
+  tribe: {
+    en: "Samogitians, Lithuanians, Latvians",
+    lt: "Žemaičiai, lietuviai, latviai",
+    lv: "Žemaiši, lietuvieši, latvieši",
+  },
+  period: {
+    en: "16th Century (Jan Łasicki 1582 source criticism; Baltic ethnographic memory)",
+    lt: "XVI a. (J. Lasickio 1582 m. šaltiniotyra; baltų etnografinė atmintis)",
+    lv: "16. gs. (J. Łasicka 1582 avotu analīze; baltu etnogrāfiskā atmiņa)",
+  },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)"
+    "Jan Łasicki: De diis Samagitarum caeterorumque Sarmatarum... (1582; publ. Basel 1615)",
+    "Vytautas Ališauskas: Jono Lasickio pasakojimas apie žemaičių dievus: tekstas ir kontekstai (Vilnius: Aidai, 2006)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (Vilnius: Mokslo ir enciklopedijų leidykla, 2001)",
+    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (Vilnius: Tyto alba, 2004)",
+    "Wilhelm Mannhardt: Letto-Preussische Götterlehre (Riga: Lettisch-Literärische Gesellschaft, 1936)",
+    "Visuotinė lietuvių enciklopedija: Medeina (https://www.vle.lt/straipsnis/medeina/)",
   ],
 };
 
