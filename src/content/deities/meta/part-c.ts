@@ -2046,9 +2046,9 @@ export const bubilasMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Bees", "Drones", "Honey", "Mead", "Hive"],
+  keywords: ["Bees", "Drones", "Honey", "Mead", "Hive", "Austėja"],
   symbols: [
-    { label: "Sacred symbols", detail: "Bee, Honeycomb, Drone, Mead mug" }
+    { label: "Sacred symbols", detail: "Bee, Honeycomb, Drone, Mead mug, Hollow linden hive" }
   ],
   locations: [
     {
@@ -2067,11 +2067,11 @@ export const bubilasMeta: DeityMeta = {
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Aukštaitija, Samogitia)", lt: "Lietuva (Aukštaitija, Žemaitija)", lv: "Lietuva (Augštaitija, Žemaitija)" },
   tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Jan Łasicki 1582 m.)", lv: "16. gs. (Jan Łasicki 1582)" },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Visuotinė lietuvių enciklopedija: Bubilas (https://www.vle.lt/)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. Basel 1615; BRMŠ II, 1996)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (Vilnius: Mokslo ir enciklopedijų leidykla, 1996)",
+    "Algirdas Julius Greimas: Apie dievus ir žmones: Lietuvių mitologijos studijos (Vilnius: Baltos lankos, 1990)",
     "Visuotinė lietuvių enciklopedija: Bubilas (https://www.vle.lt/straipsnis/bubilas/)"
   ],
 };
@@ -2082,9 +2082,9 @@ export const mildaMeta: DeityMeta = {
   altNames: { en: "Milda", lt: "Milda", lv: "Milda" },
   domain: "God",
   epithet: {
-    en: "Goddess of Love (Disputed)",
-    lt: "Meilės deivė (ginčytina)",
-    lv: "Mīlestības dieviete (apstrīdēts)",
+    en: "Goddess of Love (Disputed Romantic Reconstruction)",
+    lt: "Meilės deivė (ginčytina romantinė rekonstrukcija)",
+    lv: "Mīlestības dieviete (apstrīdēta romantiskā rekonstrukcija)",
   },
   summary: {
     en: "Milda is the purported Lithuanian goddess of love and beauty, a figure popularized by 19th-century Romantic historian Teodor Narbutt. Contemporary scholars classify her as a literary reconstruction without authentic pre-Christian sources.",
@@ -2094,9 +2094,9 @@ export const mildaMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Love", "Beauty", "Courtship", "Spring"],
+  keywords: ["Love", "Beauty", "Courtship", "Spring", "Romantic reconstruction"],
   symbols: [
-    { label: "Sacred symbols", detail: "Myrtle, Dove, Heart, Spring flowers" }
+    { label: "Sacred symbols", detail: "Myrtle wreath, White dove, Spring blossom, Woven love sash" }
   ],
   locations: [
     {
@@ -2117,10 +2117,10 @@ export const mildaMeta: DeityMeta = {
   tribe: { en: "No historical tribal attribution attested", lt: "Istorinis gentinis priskyrimas nepaliudytas", lv: "Vēsturiska cilts piederība nav apliecināta" },
   period: { en: "1835 / 19th Century Romantic reconstruction", lt: "1835 m. / XIX a. romantinė rekonstrukcija", lv: "1835. g. / 19. gadsimta romantiskā rekonstrukcija" },
   references: [
-    "Teodor Narbutt: Dzieje starożytne narodu litewskiego, t. 1 (1835)",
-    "Visuotinė lietuvių enciklopedija: Milda (https://www.vle.lt/)",
-    "Rimantas Balsys: Meilės deivės Mildos autentiškumo klausimu, Logos 59 (2009) & Logos 60 (2009)",
-    "Rolandas Kregždys: Pseudomitologemos \"Milda\" kilmė, Baltu filoloģija 30(1-2) (2021)",
+    "Teodor Narbutt: Dzieje starożytne narodu litewskiego, t. 1 (Wilno: Nakładem i drukiem A. Marcinowskiego, 1835)",
+    "Rimantas Balsys: Meilės deivės Mildos autentiškumo klausimu (Logos 59, 2009, p. 127–137; Logos 60, 2009, p. 129–139)",
+    "Rolandas Kregždys: Pseudomitologemos \"Milda\" kilmė (Baltu filoloģija 30(1-2), 2021, p. 77–104)",
+    "Norbertas Vėlius: Mitinės lietuvių sakmių būtybės (Vilnius: Vaga, 1977)",
     "Visuotinė lietuvių enciklopedija: Milda (https://www.vle.lt/straipsnis/milda/)"
   ],
 };
@@ -2143,9 +2143,9 @@ export const asviniaiMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Solar chariot", "Horse twins", "Divine protection", "Dawn"],
+  keywords: ["Solar chariot", "Horse twins", "Divine protection", "Dawn", "Žirgeliai"],
   symbols: [
-    { label: "Sacred symbols", detail: "Crossed horse heads, Chariot wheel, White horse, Rising sun" }
+    { label: "Sacred symbols", detail: "Crossed horse heads (žirgeliai), Chariot wheel, White steed, Rising sun" }
   ],
   locations: [
     {
@@ -2166,10 +2166,10 @@ export const asviniaiMeta: DeityMeta = {
   tribe: { en: "Lithuanians, Latvians", lt: "Lietuviai, latviai", lv: "Lietuvieši, latvieši" },
   period: { en: "Proto-Baltic to Present", lt: "Protobaltiški laikai – dabartis", lv: "Protobaltu laiki – mūsdienas" },
   references: [
-    "Pranė Dundulienė: Gyvūnai ir augalai lietuvių mitologijoje (1983)",
-    "Algirdas Julius Greimas: Of Gods and Men (1992)",
-    "Visuotinė lietuvių enciklopedija: Ašvieniai (https://www.vle.lt/)",
-    "Visuotinė lietuvių enciklopedija: Asvieniai (https://www.vle.lt/straipsnis/asvieniai/)"
+    "Algirdas Julius Greimas: Apie dievus ir žmones: Lietuvių mitologijos studijos (Vilnius: Baltos lankos, 1990)",
+    "Pranė Dundulienė: Gyvūnai ir augalai lietuvių mitologijoje (Vilnius: Mokslo ir enciklopedijų leidykla, 1983)",
+    "Marija Gimbutas: The Balts (London: Thames and Hudson, 1963)",
+    "Visuotinė lietuvių enciklopedija: Ašvieniai (https://www.vle.lt/straipsnis/asvieniai/)"
   ],
 };
 
@@ -2191,9 +2191,9 @@ export const erketusMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Thorns", "Briers", "Protective barriers", "Boundaries"],
+  keywords: ["Thorns", "Briers", "Protective barriers", "Boundaries", "Hawthorn"],
   symbols: [
-    { label: "Sacred symbols", detail: "Thorn, Brier, Barb, Defensive hedge, Hawthorn" }
+    { label: "Sacred symbols", detail: "Thorn branch, Brier, Hawthorn hedge, Protective boundary" }
   ],
   locations: [
     {
@@ -2212,11 +2212,11 @@ export const erketusMeta: DeityMeta = {
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
   tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Jan Łasicki 1582 m.)", lv: "16. gs. (Jan Łasicki 1582)" },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Visuotinė lietuvių enciklopedija: Erketus (https://www.vle.lt/)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. Basel 1615; BRMŠ II, 1996)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (Vilnius: Mokslo ir enciklopedijų leidykla, 1996)",
+    "Gintaras Beresnevičius: Trumpas lietuvių ir prūsų religijos žodynas (Vilnius: Aidai, 2001)",
     "Visuotinė lietuvių enciklopedija: Erketus (https://www.vle.lt/straipsnis/erketus/)"
   ],
 };
@@ -2239,9 +2239,9 @@ export const veliuonaMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Death", "Ancestral spirits", "Underworld", "Funerary rites"],
+  keywords: ["Death", "Ancestral spirits", "Underworld", "Funerary rites", "Vėlinės"],
   symbols: [
-    { label: "Sacred symbols", detail: "Grave mound, Night sky, Spirit lights, Ancient tree" }
+    { label: "Sacred symbols", detail: "Grave mound, Spirit lantern, Linen shroud, Autumn feast table" }
   ],
   locations: [
     {
@@ -2260,11 +2260,11 @@ export const veliuonaMeta: DeityMeta = {
   materialLegacy: [],
   regionDetails: { en: "Lithuania (Samogitia, Pan-Lithuanian)", lt: "Lietuva (Žemaitija, visos Lietuvos)", lv: "Lietuva (Žemaitija, visas Lietuvas)" },
   tribe: { en: "Lithuanians, Samogitians", lt: "Lietuviai, žemaičiai", lv: "Lietuvieši, žemaiši" },
-  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Jan Łasicki 1582 m.)", lv: "16. gs. (Jan Łasicki 1582)" },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Visuotinė lietuvių enciklopedija: Veliuona (https://www.vle.lt/)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. Basel 1615; BRMŠ II, 1996)",
+    "Norbertas Vėlius: Chtoninis lietuvių mitologijos pasaulis (Vilnius: Vaga, 1987)",
+    "Gintaras Beresnevičius: Dausos: Pasaulėvaizdžio bruožai senojoje lietuvių religijoje (Klaipėda: Gimtinė, 1990)",
     "Visuotinė lietuvių enciklopedija: Veliuona (https://www.vle.lt/straipsnis/veliuona/)"
   ],
 };
@@ -2287,9 +2287,9 @@ export const lauksargisMeta: DeityMeta = {
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Fields", "Crops", "Boundaries", "Plowing", "Harvest protection"],
+  keywords: ["Fields", "Crops", "Boundaries", "Plowing", "Harvest protection", "Mažvydas"],
   symbols: [
-    { label: "Sacred symbols", detail: "Plowshare, Boundary stone, Woven sheaf, Field lark" }
+    { label: "Sacred symbols", detail: "Plowshare, Boundary stone, Woven rye sheaf, Field lark" }
   ],
   locations: [
     {
@@ -2310,9 +2310,10 @@ export const lauksargisMeta: DeityMeta = {
   tribe: { en: "Lithuanians, Latvians, Old Prussians", lt: "Lietuviai, latviai, prūsai", lv: "Lietuvieši, latvieši, prūši" },
   period: { en: "16th Century (Martynas Mažvydas 1547 Catechismus)", lt: "XVI a. (Martynas Mažvydas 1547 m. Katekizmas)", lv: "16. gs. (Martynas Mažvydas 1547)" },
   references: [
-    "Martynas Mažvydas: Catechismus (1547)",
-    "Pranė Dundulienė: Žemdirbystė lietuvių mitologijoje (1963)",
-    "Visuotinė lietuvių enciklopedija: Lauksargis (https://www.vle.lt/)",
+    "Martynas Mažvydas: Katekizmas (Karaliaučius, 1547; BRMŠ II, 1996)",
+    "Jan Łasicki: De Diis Samagitarum (1582; publ. Basel 1615; BRMŠ II, 1996)",
+    "Matthäus Praetorius: Deliciae Prussicae (c. 1690; Vilnius: LII, 1999–2011)",
+    "Pranė Dundulienė: Žemdirbystė Lietuvoje: Mitologinis aspektas (Vilnius: Mintis, 1963)",
     "Visuotinė lietuvių enciklopedija: Lauksargis (https://www.vle.lt/straipsnis/lauksargis/)"
   ],
 };
@@ -2320,96 +2321,144 @@ export const lauksargisMeta: DeityMeta = {
 export const drebkulysMeta: DeityMeta = {
   slug: "drebkulys",
   name: "Drebkulys",
-  altNames: { en: "Drebkulys", lt: "Drebkulys", lv: "Drebkulys" },
+  altNames: {
+    en: "Drebkulys, Drebkulis, Drebkullis, Earth-Trembler",
+    lt: "Drebkulys, Drebkulis, Drebkullis, Žemės drebintojas",
+    lv: "Drebkulys, Drebkulis, Zemes rībinātājs",
+  },
   domain: "God",
   epithet: {
-    en: "Spirit of the Shivering Fever",
-    lt: "Karštinės ir drebulio dvasia",
-    lv: "Drudža drebēšanas gars",
+    en: "The Earth-Trembler — Subterranean Spirit of Quakes, Shaking, and Chthonic Tremors",
+    lt: "Žemės drebintojas — požemio drebulių, požeminių dundesių ir chtoninių virpesių dvasia",
+    lv: "Zemes rībinātājs — pazemes trīcēšanas, rībināšanas un htonisko svārstību gars",
   },
   summary: {
-    en: "Drebkulys is the Lithuanian spirit of fever and chills (Łasicki's Drebkulis), representing the archaic Baltic belief that every illness was governed by its own divine force.",
-    lt: "Drebkulys yra lietuvių karštinės ir drebulio dvasia (Lasickio Drebkulis), krečiančios ligos personifikacija, užrašyta Jano Lasickio.",
-    lv: "Drebkulys ir lietuviešu drudža un drebuļa gars (Łasicki Drebkulis), locītavās kratošās slimības personifikācija pēc Jana Lasicija.",
+    en: "Drebkulys (recorded in 17th-century Baltic chronicles by Matthäus Praetorius as Drebkulis and defined by historical lexicographers as Erderschütterer / Earth-shaker) is the Baltic chthonic spirit of earth tremors, rumblings, and subterranean vibrations. Serving in the retinue of Pikulas (the sovereign of the underworld), Drebkulys embodies the mysterious trembling forces beneath the soil that shake hillfort ramparts and herald chthonic shifts.",
+    lt: "Drebkulys (XVII a. pabaigos šaltiniuose Mato Pretorijaus užfiksuotas kaip Drebkulis ir žodynininkų įvardytas kaip Erderschütterer – Žemės drebintojas) yra baltų chtoninė žemės drebėjimo, požeminių dundesių ir gelmių virpesių dvasia. Būdamas požemio valdovo Pikulo palydovas, Drebkulys įkūnija paslaptingas žemės gelmių jėgas, gebančias sujudinti piliakalnių pylimus.",
+    lv: "Drebkulys (17. gs. beigu avotos Matīsa Pretorija fiksēts kā Drebkulis un vārdnīcās definēts kā Erderschütterer – Zemes rībinātājs) ir baltu htoniskais zemes trīcēšanas, pazemes dunoņas un dziļumu svārstību gars. Kalpojot pazemes valdnieka Pikula pavadībā, Drebkulys iemieso pazemes spēkus, kas liek trīcēt zemei un pilskalnu vaļņiem.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Fever", "Chills", "Shivering", "Illness"],
+  keywords: ["Earthquake", "Chthonic", "Tremor", "Underworld", "Pikulas", "Praetorius", "Subterranean"],
   symbols: [
-    { label: "Sacred symbols", detail: "Trembling hand, Pale face, Shivering figure" }
+    { label: "Chthonic tremor emblems", detail: "Fissured granite rock, vibrating earth mallet (kūjis), subterranean cavity, basalt stone" },
+    { label: "Subterranean elements", detail: "Deep soil strata, cave echo, trembling bog layer, root fissures" },
+    { label: "Mythological retinue", detail: "Attendant of Pikulas (Pykullis), guardian of underworld thresholds and deep geological faults" },
+    { label: "Sacred loci", detail: "Hillfort fault lines, subterranean hollows, echoing ravines (Ragainė, Tilžė hills)" },
   ],
   locations: [
     {
       id: "samogitia-fever-bog",
-      name: "Samogitian Fever Bog",
-      coordinates: [55.88, 22.15],
-      region: "Lithuania",
-      description: "A damp, misty bog in Samogitia believed to be the dwelling of Drebkulys, the spirit of fever and chills, avoided by travelers especially at night.",
+      name: "Ragainė & Tilžė Subterranean Ridges (Lithuania Minor / Old Prussia)",
+      coordinates: [55.03, 21.9],
+      region: "Old Prussia",
+      description: "Steep geological fault slopes and hillfort ravines along the lower Nemunas river historically associated with subterranean echoes and earth-shaking spirits.",
       siteType: "Sacrifice / offering sites",
       aura: "mist",
       deity: "drebkulys",
-      significance: "Those afflicted with fever came to the bog edge to leave offerings — a piece of thread from their clothing — to appease Drebkulys and be released from the shaking sickness.",
-    }
+      significance: "Ancient Prussians and Lithuanians observed seasonal earth vibrations and hollow underground echoes in these ravines, dedicating rites to chthonic spirits under Pikulas.",
+    },
   ],
   gallery: [],
-  materialLegacy: [],
-  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  materialLegacy: [
+    "Chronicle documentation in Matthäus Praetorius's Deliciae Prussicae (c. 1690) preserved in BRMŠ Vol. 3",
+    "Lexicographical records in Jokūbas Brodovskis's Lexicon Germanico-Lithuanicum (c. 1740) and Philipp Ruhig (1747)",
+    "Folkloric demonology studies on chthonic earth-rumblers and illness entities by Norbertas Vėlius and Jonas Basanavičius",
+  ],
+  regionDetails: {
+    en: "Lithuania Minor & Samogitia (Prussia-Lithuania borderlands)",
+    lt: "Mažoji Lietuva ir Žemaitija (Prūsijos ir Lietuvos paribys)",
+    lv: "Mazā Lietuva un Žemaitija (Prūsijas-Lietuvas pierobeža)",
+  },
+  tribe: {
+    en: "Old Prussians, Nadruvians, Samogitians, Lithuanians",
+    lt: "Prūsai, nadruviai, žemaičiai, lietuviai",
+    lv: "Prūši, nadruvieši, žemaiši, lietuvieši",
+  },
+  period: {
+    en: "17th–18th Century (Matthäus Praetorius c. 1690, Brodovskis c. 1740)",
+    lt: "XVII–XVIII a. (Matthäus Praetorius ~1690 m., Brodovskis ~1740 m.)",
+    lv: "17.–18. gs. (Matīss Pretorijs ap 1690, Brodovskis ap 1740)",
+  },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (1996)",
-    "Visuotinė lietuvių enciklopedija: Drebkulys (https://www.vle.lt/)",
-    "Visuotinė lietuvių enciklopedija: Drebkulys (https://www.vle.lt/straipsnis/drebkulys/)"
+    "Matthäus Praetorius: Deliciae Prussicae, oder Preussische Schaubühne (c. 1690; ed. Norbertas Vėlius, BRMŠ Vol. 3, 2003)",
+    "Jokūbas Brodovskis: Lexicon Germanico-Lithuanicum et Lithuanico-Germanicum (c. 1740)",
+    "Philipp Ruhig: Littauisch-Deutsches und Deutsch-Littauisches Lexicon (Königsberg, 1747)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 3 (Vilnius: Mokslo ir enciklopedijų leidykla, 2003)",
+    "Visuotinė lietuvių enciklopedija: Matas Pretorijus (https://www.vle.lt/straipsnis/matas-pretorijus/)",
   ],
 };
 
 export const apidemeMeta: DeityMeta = {
   slug: "apideme",
   name: "Apideme",
-  altNames: { en: "Apideme", lt: "Apidėmė", lv: "Apidēme" },
+  altNames: {
+    en: "Apidėmė, Apidome, Guardian of Enclosures, Boundary Spirit",
+    lt: "Apidėmė, Apidome, Apydėmė, Sodybos ribų ir buveinės dvasia",
+    lv: "Apidēme, Apidome, Sētas robežu un mājvietas gars",
+  },
   domain: "God",
   epithet: {
-    en: "Guardian of the Homestead's Edge",
-    lt: "Sodybos ribų saugotoja",
-    lv: "Mājas robežu sargātāja",
+    en: "Guardian of Homestead Boundaries — Sovereign of Enclosures, Changed Dwellings, and Threshold Perimeters",
+    lt: "Sodybos ribų sargė — aptvarų, sodybvietės pakeitimo ir slenksčio perimetro valdovė",
+    lv: "Sētas robežu sargātāja — iežogojumu, mājvietas maiņas un sliekšņa aizbildne",
   },
   summary: {
-    en: "Apidėmė is the Lithuanian spirit of the homestead boundary (Łasicki's Apidome), the divine guardian of fences and thresholds who was offered sacrifices when moving.",
-    lt: "Apidėmė yra lietuvių sodybos ribų dvasia (Lasickio Apidome), dieviškoji tvorų ir slenksčio sargė, kuriai aukojama kraustantis į naują sodybą.",
-    lv: "Apidēme ir lietuviešu mājas robežu gars (Łasicki Apidome), žogu un sliekšņa dievišķā sargātāja, kurai upuroja pārceļoties.",
+    en: "Apidėmė (recorded in 1582 by Jan Łasicki as Apidome mutati domicilii deum, the deity of changed dwellings) is the Baltic guardian spirit of the homestead boundary, fence enclosure, and domestic threshold. Deriving from the Lithuanian term apidėmė (an ancestral homestead plot or enclosed yard territory), she marks the sacred boundary dividing human agricultural order from the wild forest.",
+    lt: "Apidėmė (Jano Lasickio 1582 m. užfiksuota kaip Apidome mutati domicilii deum – gyvenamosios vietos pakeitimo dievybė) yra baltų sodybos ribų, tvoros aptvaro ir slenksčio perimetro dvasia. Jos vardas kilęs iš žodžio „apidėmė“ (sodybvietė, žemės plotas aplink namus ar buvusi sodyba), žyminčio šventą ribą, skiriančią žmogaus sukurtą tvarką nuo miško erdvės.",
+    lv: "Apidēme (Jana Lasicija 1582. g. fiksēta kā Apidome mutati domicilii deum – mājvietas maiņas dievība) ir baltu sētas robežu, žoga iežogojuma un sliekšņa perimetra aizbildne. Viņas vārds cēlies no vārda „apidėmė” (senā sētas vieta, pagalma perimetrs), kas iezīmē svēto robežu starp cilvēka iekopto telpu un meža pasauli.",
   },
   heroImage: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=80",
   overlay: "rgba(80, 80, 60, 0.27)",
   accent: "#8a8a6a",
-  keywords: ["Homestead", "Boundaries", "Fences", "Threshold", "Moving"],
+  keywords: ["Homestead", "Boundaries", "Fences", "Threshold", "Moving", "Enclosure", "Łasicki"],
   symbols: [
-    { label: "Sacred symbols", detail: "Threshold, Fence gate, Corner stone, Rooster" }
+    { label: "Boundary guardianship emblems", detail: "Carved wooden gate post, oak threshold plank, boundary landmark stone (ežios akmuo)" },
+    { label: "Domestic threshold items", detail: "Clay bowl of fresh milk, loaf of hearth rye bread, consecrated salt grain" },
+    { label: "Guardian creatures", detail: "Watchful farmstead dog (sarginis šuo), gate-perched rooster" },
+    { label: "Sacred loci", detail: "Farmstead perimeter fences, wooden entrance gates, four yard cornerstones" },
   ],
   locations: [
     {
       id: "samogitia-homestead-boundary",
-      name: "Samogitian Homestead Boundary Shrine",
+      name: "Telšiai & Medvėgalis Homestead Perimeter Shrines (Lithuania)",
       coordinates: [55.95, 22.28],
       region: "Lithuania",
-      description: "The gate and fence perimeter of a traditional Samogitian homestead where Apidėmė was honored as the guardian of household boundaries.",
+      description: "Historic Samogitian farmstead perimeters where threshold stones and entrance gates were consecrated with milk and bread offerings during relocation.",
       siteType: "Household ritual sites",
       aura: "green",
       deity: "apideme",
-      significance: "When a family moved to a new farmstead, they performed a ritual at each fence post asking Apidėmė to follow them and extend her boundary protection to their new home.",
-    }
+      significance: "When families established new farmsteads or enclosed pastures, libations were poured at boundary posts to ensure continuous protective guardianship.",
+    },
   ],
   gallery: [],
-  materialLegacy: [],
-  regionDetails: { en: "Lithuania (Samogitia)", lt: "Lietuva (Žemaitija)", lv: "Lietuva (Žemaitija)" },
-  tribe: { en: "Samogitians, Lithuanians", lt: "Žemaičiai, lietuviai", lv: "Žemaiši, lietuvieši" },
-  period: { en: "16th Century (Jan Łasicki 1582)", lt: "XVI a. (Łasicki 1582 m.)", lv: "16. gs. (Łasicki 1582)" },
+  materialLegacy: [
+    "Chronicle record in Jan Łasicki's De diis Samagitarum caeterisque Sarmatum (1582; publ. 1615)",
+    "Critical philological analyses by Vytautas Ališauskas (2012) and Norbertas Vėlius in BRMŠ Vol. 2",
+    "Ethnographic studies of Baltic homestead boundary rituals and threshold symbolism by Gintaras Beresnevičius",
+  ],
+  regionDetails: {
+    en: "Lithuania & Samogitia (Domestic Farmstead Tradition)",
+    lt: "Lietuva ir Žemaitija (etnografinė sodybų tradicija)",
+    lv: "Lietuva un Žemaitija (etnogrāfiskā viensētu tradīcija)",
+  },
+  tribe: {
+    en: "Samogitians, Lithuanians, Curonians",
+    lt: "Žemaičiai, lietuviai, kuršiai",
+    lv: "Žemaiši, lietuvieši, kurši",
+  },
+  period: {
+    en: "16th Century (Jan Łasicki 1582 / 1615)",
+    lt: "XVI a. (Jonas Lasickis 1582 / 1615 m.)",
+    lv: "16. gs. (Jans Lasickis 1582 / 1615)",
+  },
   references: [
-    "Jan Łasicki: De Diis Samagitarum (1582; publ. 1615)",
-    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (2004)",
-    "Visuotinė lietuvių enciklopedija: Apidėmė (https://www.vle.lt/)",
-    "Visuotinė lietuvių enciklopedija: Apideme (https://www.vle.lt/straipsnis/apideme/)"
+    "Jan Łasicki: De diis Samagitarum caeterisque Sarmatum et falsorum deorum praecipuis (Basel, 1615; ed. Norbertas Vėlius, BRMŠ Vol. 2, 2001)",
+    "Vytautas Ališauskas: Jono Lasickio pasakojimas apie žemaičių dievus: tekstas ir kontekstai (Vilnius: Vilniaus universiteto leidykla, 2012)",
+    "Gintaras Beresnevičius: Lietuvių religija ir mitologija (Vilnius: Tyto alba, 2004)",
+    "Norbertas Vėlius: Baltų religijos ir mitologijos šaltiniai, Vol. 2 (Vilnius: Mokslo ir enciklopedijų leidykla, 2001)",
+    "Visuotinė lietuvių enciklopedija: Apidėmė (https://www.vle.lt/straipsnis/apideme/)",
   ],
 };
 
